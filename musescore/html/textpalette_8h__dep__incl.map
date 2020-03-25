@@ -1,0 +1,7 @@
+<map id="mscore/textpalette.h" name="mscore/textpalette.h">
+<area shape="rect" id="node2" href="$editelement_8cpp.html" title="mscore/editelement.cpp" alt="" coords="5,80,167,107"/>
+<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="191,80,349,107"/>
+<area shape="rect" id="node4" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="373,80,527,107"/>
+<area shape="rect" id="node5" href="$textpalette_8cpp.html" title="mscore/textpalette.cpp" alt="" coords="551,80,706,107"/>
+<area shape="rect" id="node6" href="$texttools_8cpp.html" title="mscore/texttools.cpp" alt="" coords="730,80,874,107"/>
+</map>

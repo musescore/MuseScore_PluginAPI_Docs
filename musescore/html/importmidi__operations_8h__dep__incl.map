@@ -1,0 +1,25 @@
+<map id="mscore/importmidi/importmidi_operations.h" name="mscore/importmidi/importmidi_operations.h">
+<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="5,102,224,129"/>
+<area shape="rect" id="node3" href="$importmidi__beat_8cpp.html" title="mscore/importmidi/importmidi\l_beat.cpp" alt="" coords="249,95,442,136"/>
+<area shape="rect" id="node4" href="$importmidi__chord_8cpp.html" title="mscore/importmidi/importmidi\l_chord.cpp" alt="" coords="466,95,659,136"/>
+<area shape="rect" id="node5" href="$importmidi__chordname_8cpp.html" title="mscore/importmidi/importmidi\l_chordname.cpp" alt="" coords="683,95,877,136"/>
+<area shape="rect" id="node6" href="$importmidi__clef_8cpp.html" title="mscore/importmidi/importmidi\l_clef.cpp" alt="" coords="901,95,1094,136"/>
+<area shape="rect" id="node7" href="$importmidi__drum_8cpp.html" title="mscore/importmidi/importmidi\l_drum.cpp" alt="" coords="1118,95,1311,136"/>
+<area shape="rect" id="node8" href="$importmidi__inner_8cpp.html" title="mscore/importmidi/importmidi\l_inner.cpp" alt="" coords="1335,95,1529,136"/>
+<area shape="rect" id="node9" href="$importmidi__instrument_8cpp.html" title="mscore/importmidi/importmidi\l_instrument.cpp" alt="" coords="1553,95,1746,136"/>
+<area shape="rect" id="node10" href="$importmidi__key_8cpp.html" title="mscore/importmidi/importmidi\l_key.cpp" alt="" coords="1770,95,1963,136"/>
+<area shape="rect" id="node11" href="$importmidi__lrhand_8cpp.html" title="mscore/importmidi/importmidi\l_lrhand.cpp" alt="" coords="1987,95,2181,136"/>
+<area shape="rect" id="node12" href="$importmidi__lyrics_8cpp.html" title="mscore/importmidi/importmidi\l_lyrics.cpp" alt="" coords="2205,95,2398,136"/>
+<area shape="rect" id="node13" href="$importmidi__model_8h.html" title="mscore/importmidi/importmidi\l_model.h" alt="" coords="2422,95,2615,136"/>
+<area shape="rect" id="node15" href="$importmidi__panel_8cpp.html" title="mscore/importmidi/importmidi\l_panel.cpp" alt="" coords="2557,184,2750,225"/>
+<area shape="rect" id="node16" href="$importmidi__operations_8cpp.html" title="mscore/importmidi/importmidi\l_operations.cpp" alt="" coords="2691,95,2885,136"/>
+<area shape="rect" id="node17" href="$importmidi__quant_8cpp.html" title="mscore/importmidi/importmidi\l_quant.cpp" alt="" coords="2909,95,3102,136"/>
+<area shape="rect" id="node18" href="$importmidi__simplify_8cpp.html" title="mscore/importmidi/importmidi\l_simplify.cpp" alt="" coords="3126,95,3319,136"/>
+<area shape="rect" id="node19" href="$importmidi__tempo_8cpp.html" title="mscore/importmidi/importmidi\l_tempo.cpp" alt="" coords="3343,95,3537,136"/>
+<area shape="rect" id="node20" href="$importmidi__tuplet_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet.cpp" alt="" coords="3561,95,3754,136"/>
+<area shape="rect" id="node21" href="$importmidi__tuplet__detect_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet_detect.cpp" alt="" coords="3778,95,3971,136"/>
+<area shape="rect" id="node22" href="$importmidi__tuplet__voice_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet_voice.cpp" alt="" coords="3995,95,4189,136"/>
+<area shape="rect" id="node23" href="$importmidi__voice_8cpp.html" title="mscore/importmidi/importmidi\l_voice.cpp" alt="" coords="4213,95,4406,136"/>
+<area shape="rect" id="node24" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="4430,102,4589,129"/>
+<area shape="rect" id="node14" href="$importmidi__model_8cpp.html" title="mscore/importmidi/importmidi\l_model.cpp" alt="" coords="2339,184,2533,225"/>
+</map>

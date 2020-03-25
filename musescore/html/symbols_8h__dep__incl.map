@@ -1,0 +1,12 @@
+<map id="bww2mxml/symbols.h" name="bww2mxml/symbols.h">
+<area shape="rect" id="node2" href="$lexer_8h.html" title="Definition of class Lexer. " alt="" coords="210,155,341,181"/>
+<area shape="rect" id="node7" href="$writer_8h.html" title="Definition of class Writer. " alt="" coords="367,80,501,107"/>
+<area shape="rect" id="node11" href="$symbols_8cpp.html" title="bww2mxml/symbols.cpp" alt="" coords="525,80,692,107"/>
+<area shape="rect" id="node3" href="$lexer_8cpp.html" title="BWW file lexical analysis. " alt="" coords="5,229,151,256"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="bww2mxml/main.cpp" alt="" coords="535,229,680,256"/>
+<area shape="rect" id="node5" href="$parser_8cpp.html" title="A simple parser for bww files. " alt="" coords="357,229,511,256"/>
+<area shape="rect" id="node6" href="$importbww_8cpp.html" title="mscore/importbww.cpp" alt="" coords="175,229,333,256"/>
+<area shape="rect" id="node8" href="$parser_8h.html" title="Definition of class Parser. " alt="" coords="365,155,503,181"/>
+<area shape="rect" id="node9" href="$mxmlwriter_8h.html" title="Definition of class MxmlWriter. " alt="" coords="579,155,745,181"/>
+<area shape="rect" id="node10" href="$mxmlwriter_8cpp.html" title="Output writer for BWW to MusicXML converter. " alt="" coords="705,229,886,256"/>
+</map>

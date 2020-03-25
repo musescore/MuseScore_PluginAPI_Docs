@@ -1,0 +1,7 @@
+<map id="libmscore/textedit.h" name="libmscore/textedit.h">
+<area shape="rect" id="node2" href="$lyrics_8cpp.html" title="libmscore/lyrics.cpp" alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$lyricsline_8cpp.html" title="libmscore/lyricsline.cpp" alt="" coords="169,80,327,107"/>
+<area shape="rect" id="node4" href="$textbase_8cpp.html" title="libmscore/textbase.cpp" alt="" coords="352,80,509,107"/>
+<area shape="rect" id="node5" href="$textedit_8cpp.html" title="libmscore/textedit.cpp" alt="" coords="534,80,685,107"/>
+<area shape="rect" id="node6" href="$undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="709,80,843,107"/>
+</map>

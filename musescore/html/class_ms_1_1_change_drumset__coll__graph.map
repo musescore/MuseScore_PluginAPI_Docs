@@ -1,0 +1,9 @@
+<map id="Ms::ChangeDrumset" name="Ms::ChangeDrumset">
+<area shape="rect" id="node2" href="$class_ms_1_1_undo_command.html" title="Ms::UndoCommand" alt="" coords="65,199,204,225"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="423,95,521,121"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_instrument.html" title="Ms::Instrument" alt="" coords="229,199,339,225"/>
+<area shape="rect" id="node4" href="$struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="406,5,549,32"/>
+<area shape="rect" id="node6" href="$struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="5,95,96,121"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="121,95,231,121"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="255,95,387,121"/>
+</map>

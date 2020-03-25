@@ -1,0 +1,9 @@
+<map id="libmscore/lasso.h" name="libmscore/lasso.h">
+<area shape="rect" id="node2" href="$lasso_8cpp.html" title="libmscore/lasso.cpp" alt="" coords="5,87,144,114"/>
+<area shape="rect" id="node3" href="$fotomode_8h.html" title="mscore/fotomode.h" alt="" coords="219,87,354,114"/>
+<area shape="rect" id="node5" href="$fotomode_8cpp.html" title="mscore/fotomode.cpp" alt="" coords="47,169,195,196"/>
+<area shape="rect" id="node6" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="378,169,531,196"/>
+<area shape="rect" id="node7" href="$inspector_lasso_8cpp.html" title="mscore/inspector/inspector\lLasso.cpp" alt="" coords="429,80,608,121"/>
+<area shape="rect" id="node8" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="633,87,791,114"/>
+<area shape="rect" id="node4" href="$events_8cpp.html" title="mscore/events.cpp" alt="" coords="220,169,353,196"/>
+</map>

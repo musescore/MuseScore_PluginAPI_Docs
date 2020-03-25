@@ -1,0 +1,7 @@
+<map id="Ms::SlurTie" name="Ms::SlurTie">
+<area shape="rect" id="node5" href="$class_ms_1_1_slur.html" title="Ms::Slur" alt="" coords="5,304,76,331"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_tie.html" title="a Tie has a Note as startElement/endElement " alt="" coords="101,304,167,331"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="39,155,135,181"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="39,80,135,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="22,5,153,32"/>
+</map>

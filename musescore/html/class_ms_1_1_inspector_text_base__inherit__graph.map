@@ -1,0 +1,16 @@
+<map id="Ms::InspectorTextBase" name="Ms::InspectorTextBase">
+<area shape="rect" id="node5" href="$class_ms_1_1_inspector_dynamic.html" title="Ms::InspectorDynamic" alt="" coords="769,5,923,32"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_inspector_harmony.html" title="Ms::InspectorHarmony" alt="" coords="769,56,923,83"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_inspector_iname.html" title="Ms::InspectorIname" alt="" coords="777,107,915,133"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_inspector_instrument_change.html" title="Ms::InspectorInstrumentChange" alt="" coords="741,157,951,184"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_inspector_jump.html" title="Ms::InspectorJump" alt="" coords="779,208,913,235"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_inspector_lyric.html" title="Ms::InspectorLyric" alt="" coords="781,259,911,285"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_inspector_marker.html" title="Ms::InspectorMarker" alt="" coords="775,309,917,336"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_inspector_measure_number.html" title="Ms::InspectorMeasureNumber" alt="" coords="747,360,945,387"/>
+<area shape="rect" id="node13" href="$class_ms_1_1_inspector_staff_text.html" title="Ms::InspectorStaffText" alt="" coords="768,411,924,437"/>
+<area shape="rect" id="node15" href="$class_ms_1_1_inspector_tempo_text.html" title="Ms::InspectorTempoText" alt="" coords="762,461,930,488"/>
+<area shape="rect" id="node16" href="$class_ms_1_1_inspector_text.html" title="Ms::InspectorText" alt="" coords="782,512,910,539"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="307,259,487,285"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_inspector_base.html" title="Ms::InspectorBase" alt="" coords="127,259,259,285"/>
+<area shape="rect" id="node14" href="$class_ms_1_1_inspector_fingering.html" title="Ms::InspectorFingering" alt="" coords="999,411,1153,437"/>
+</map>

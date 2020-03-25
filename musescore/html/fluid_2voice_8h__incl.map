@@ -1,0 +1,7 @@
+<map id="fluid/voice.h" name="fluid/voice.h">
+<area shape="rect" id="node2" href="$fluid_8h.html" title="fluid.h" alt="" coords="166,80,223,107"/>
+<area shape="rect" id="node7" href="$gen_8h.html" title="gen.h" alt="" coords="247,80,302,107"/>
+<area shape="rect" id="node3" href="$synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="15,155,185,181"/>
+<area shape="rect" id="node6" href="$midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="209,155,369,181"/>
+<area shape="rect" id="node4" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="5,229,195,256"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="mscore/palette/palettetree.h" name="mscore/palette/palettetree.h">
+<area shape="rect" id="node2" href="$palette_8h.html" title="mscore/palette.h" alt="" coords="1407,162,1526,189"/>
+<area shape="rect" id="node8" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="2016,244,2149,271"/>
+<area shape="rect" id="node11" href="$palettemodel_8cpp.html" title="mscore/palette/palettemodel.cpp" alt="" coords="2993,244,3204,271"/>
+<area shape="rect" id="node19" href="$palettemodel_8h.html" title="mscore/palette/palettemodel.h" alt="" coords="2733,80,2931,107"/>
+<area shape="rect" id="node23" href="$palettecelldialog_8cpp.html" title="mscore/palette/palettecelldialog.cpp" alt="" coords="3051,80,3282,107"/>
+<area shape="rect" id="node24" href="$palettedialog_8cpp.html" title="mscore/palette/palettedialog.cpp" alt="" coords="3307,80,3517,107"/>
+<area shape="rect" id="node25" href="$palettetree_8cpp.html" title="mscore/palette/palettetree.cpp" alt="" coords="3541,80,3739,107"/>
+<area shape="rect" id="node3" href="$drumtools_8cpp.html" title="mscore/drumtools.cpp" alt="" coords="1045,244,1195,271"/>
+<area shape="rect" id="node4" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="362,244,473,271"/>
+<area shape="rect" id="node5" href="$harmonyedit_8cpp.html" title="mscore/harmonyedit.cpp" alt="" coords="497,244,663,271"/>
+<area shape="rect" id="node6" href="$keyedit_8cpp.html" title="mscore/keyedit.cpp" alt="" coords="687,244,823,271"/>
+<area shape="rect" id="node7" href="$masterpalette_8cpp.html" title="mscore/masterpalette.cpp" alt="" coords="847,244,1020,271"/>
+<area shape="rect" id="node9" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="2810,244,2969,271"/>
+<area shape="rect" id="node10" href="$newwizard_8cpp.html" title="mscore/newwizard.cpp" alt="" coords="1219,244,1375,271"/>
+<area shape="rect" id="node12" href="$paletteworkspace_8cpp.html" title="mscore/palette/paletteworkspace.cpp" alt="" coords="1753,244,1991,271"/>
+<area shape="rect" id="node13" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="1400,244,1533,271"/>
+<area shape="rect" id="node14" href="$scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="2174,244,2365,271"/>
+<area shape="rect" id="node15" href="$symboldialog_8cpp.html" title="mscore/symboldialog.cpp" alt="" coords="1557,244,1728,271"/>
+<area shape="rect" id="node16" href="$textpalette_8cpp.html" title="mscore/textpalette.cpp" alt="" coords="5,244,160,271"/>
+<area shape="rect" id="node17" href="$timedialog_8cpp.html" title="mscore/timedialog.cpp" alt="" coords="185,244,338,271"/>
+<area shape="rect" id="node18" href="$workspace_8cpp.html" title="mscore/workspace.cpp" alt="" coords="2389,244,2547,271"/>
+<area shape="rect" id="node20" href="$paletteworkspace_8h.html" title="mscore/palette/paletteworkspace.h" alt="" coords="2355,162,2581,189"/>
+<area shape="rect" id="node22" href="$palettemodel__list_8cpp.html" title="mscore/palette/palettemodel\l_list.cpp" alt="" coords="2739,155,2925,196"/>
+<area shape="rect" id="node21" href="$palettewidget_8cpp.html" title="mscore/palette/palettewidget.cpp" alt="" coords="2571,244,2786,271"/>
+</map>

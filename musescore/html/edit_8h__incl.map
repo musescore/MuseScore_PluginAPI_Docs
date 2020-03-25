@@ -1,0 +1,19 @@
+<map id="libmscore/edit.h" name="libmscore/edit.h">
+<area shape="rect" id="node2" href="$hairpin_8h.html" title="hairpin.h" alt="" coords="241,80,311,107"/>
+<area shape="rect" id="node3" href="$element_8h.html" title="element.h" alt="" coords="237,379,315,405"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="170,528,246,555"/>
+<area shape="rect" id="node13" href="$dynamic_8h.html" title="dynamic.h" alt="" coords="397,155,480,181"/>
+<area shape="rect" id="node17" href="$line_8h.html" title="line.h" alt="" coords="249,229,303,256"/>
+<area shape="rect" id="node19" href="$textlinebase_8h.html" title="textlinebase.h" alt="" coords="525,155,627,181"/>
+<area shape="rect" id="node4" href="$spatium_8h.html" title="spatium.h" alt="" coords="286,453,365,480"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="94,453,170,480"/>
+<area shape="rect" id="node11" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="346,528,459,555"/>
+<area shape="rect" id="node12" href="$shape_8h.html" title="shape.h" alt="" coords="194,453,262,480"/>
+<area shape="rect" id="node8" href="$style_8h.html" title="style.h" alt="" coords="409,603,471,629"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="413,677,496,704"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="323,677,389,704"/>
+<area shape="rect" id="node14" href="$text_8h.html" title="text.h" alt="" coords="483,229,538,256"/>
+<area shape="rect" id="node15" href="$textbase_8h.html" title="textbase.h" alt="" coords="476,304,559,331"/>
+<area shape="rect" id="node16" href="$property_8h.html" title="property.h" alt="" coords="541,379,621,405"/>
+<area shape="rect" id="node18" href="$spanner_8h.html" title="spanner.h" alt="" coords="237,304,315,331"/>
+</map>

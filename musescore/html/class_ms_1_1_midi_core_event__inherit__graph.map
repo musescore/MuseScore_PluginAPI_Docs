@@ -1,0 +1,6 @@
+<map id="Ms::MidiCoreEvent" name="Ms::MidiCoreEvent">
+<area shape="rect" id="node2" href="$class_ms_1_1_midi_event.html" title="Ms::MidiEvent" alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_play_event.html" title="Ms::PlayEvent" alt="" coords="137,80,245,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_event.html" title="Ms::Event" alt="" coords="87,155,169,181"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_n_play_event.html" title="Ms::NPlayEvent" alt="" coords="194,155,313,181"/>
+</map>

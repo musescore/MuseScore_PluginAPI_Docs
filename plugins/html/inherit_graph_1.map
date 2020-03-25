@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_cursor.html" title="Cursor can be used by plugins to manipulate the score. " alt="" coords="153,5,214,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_plugin_a_p_i_1_1_excerpt.html" title="Excerpt" alt="" coords="150,56,217,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html" title="Provides a simple API to perform file reading and writing operations. " alt="" coords="155,107,212,133"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html" title="Fraction object available to QML plugins. " alt="" coords="124,157,243,184"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_play_event.html" title="PlayEvent" alt="" coords="142,208,225,235"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="131,259,235,285"/>
+<area shape="rect" id="node16" href="$class_ms_1_1_plugin_a_p_i_1_1_selection.html" title="Selection" alt="" coords="145,309,221,336"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="291,208,361,235"/>
+<area shape="rect" id="node14" href="$class_ms_1_1_plugin_a_p_i_1_1_part.html" title="Part" alt="" coords="303,259,349,285"/>
+<area shape="rect" id="node15" href="$class_ms_1_1_plugin_a_p_i_1_1_score.html" title="Score" alt="" coords="298,309,354,336"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="418,107,475,133"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_plugin_a_p_i_1_1_measure.html" title="Measure" alt="" coords="411,157,483,184"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_plugin_a_p_i_1_1_note.html" title="Note" alt="" coords="421,208,472,235"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_plugin_a_p_i_1_1_segment.html" title="Segment" alt="" coords="409,259,484,285"/>
+<area shape="rect" id="node13" href="$class_ms_1_1_plugin_a_p_i_1_1_tie.html" title="Provides access to internal Ms::Tie objects. " alt="" coords="427,309,467,336"/>
+</map>

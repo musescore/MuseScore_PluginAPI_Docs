@@ -1,0 +1,7 @@
+<map id="Ms::PaletteWorkspace" name="Ms::PaletteWorkspace">
+<area shape="rect" id="node5" href="$class_ms_1_1_palette_cell_filter.html" title="Interface for filtering elements in a palette. " alt="" coords="224,146,365,173"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_abstract_palette_controller.html" title="Ms::AbstractPaletteController" alt="" coords="197,197,392,224"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_filter_palette_tree_model.html" title="Ms::FilterPaletteTreeModel" alt="" coords="517,128,696,154"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_palette_tree_model.html" title="Ms::PaletteTreeModel" alt="" coords="219,254,370,281"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_user_palette_controller.html" title="Ms::UserPaletteController" alt="" coords="520,188,693,214"/>
+</map>

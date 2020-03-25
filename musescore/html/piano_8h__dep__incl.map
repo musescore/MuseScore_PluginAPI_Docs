@@ -1,0 +1,13 @@
+<map id="mscore/piano.h" name="mscore/piano.h">
+<area shape="rect" id="node2" href="$chordview_8cpp.html" title="mscore/chordview.cpp" alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node3" href="$drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="183,80,323,107"/>
+<area shape="rect" id="node4" href="$drumview_8cpp.html" title="mscore/drumview.cpp" alt="" coords="347,80,497,107"/>
+<area shape="rect" id="node5" href="$piano_8cpp.html" title="mscore/piano.cpp" alt="" coords="522,80,647,107"/>
+<area shape="rect" id="node6" href="$pianokeyboard_8h.html" title="mscore/pianokeyboard.h" alt="" coords="672,80,836,107"/>
+<area shape="rect" id="node12" href="$waveview_8cpp.html" title="mscore/waveview.cpp" alt="" coords="861,80,1013,107"/>
+<area shape="rect" id="node7" href="$pianokeyboard_8cpp.html" title="mscore/pianokeyboard.cpp" alt="" coords="297,155,475,181"/>
+<area shape="rect" id="node8" href="$pianolevels_8cpp.html" title="mscore/pianolevels.cpp" alt="" coords="500,155,659,181"/>
+<area shape="rect" id="node9" href="$pianoroll_8cpp.html" title="mscore/pianoroll.cpp" alt="" coords="683,155,825,181"/>
+<area shape="rect" id="node10" href="$pianoruler_8cpp.html" title="mscore/pianoruler.cpp" alt="" coords="849,155,1000,181"/>
+<area shape="rect" id="node11" href="$pianoview_8cpp.html" title="mscore/pianoview.cpp" alt="" coords="1025,155,1177,181"/>
+</map>

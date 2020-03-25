@@ -1,0 +1,15 @@
+<map id="mscore/mixertrackgroup.h" name="mscore/mixertrackgroup.h">
+<area shape="rect" id="node2" href="$mixer_8h.html" title="mscore/mixer.h" alt="" coords="749,80,861,107"/>
+<area shape="rect" id="node13" href="$mixertrackchannel_8h.html" title="mscore/mixertrackchannel.h" alt="" coords="163,80,350,107"/>
+<area shape="rect" id="node14" href="$mixertrackpart_8h.html" title="mscore/mixertrackpart.h" alt="" coords="381,80,543,107"/>
+<area shape="rect" id="node3" href="$mixer_8cpp.html" title="mscore/mixer.cpp" alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node4" href="$mixerdetails_8cpp.html" title="mscore/mixerdetails.cpp" alt="" coords="1487,155,1651,181"/>
+<area shape="rect" id="node5" href="$mixertrackchannel_8cpp.html" title="mscore/mixertrackchannel.cpp" alt="" coords="157,155,357,181"/>
+<area shape="rect" id="node6" href="$mixertrackpart_8cpp.html" title="mscore/mixertrackpart.cpp" alt="" coords="381,155,559,181"/>
+<area shape="rect" id="node7" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="1675,155,1833,181"/>
+<area shape="rect" id="node8" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="583,155,698,181"/>
+<area shape="rect" id="node9" href="$parteditbase_8cpp.html" title="mscore/parteditbase.cpp" alt="" coords="722,155,887,181"/>
+<area shape="rect" id="node10" href="$scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="912,155,1111,181"/>
+<area shape="rect" id="node11" href="$synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="1134,155,1299,181"/>
+<area shape="rect" id="node12" href="$timeline_8cpp.html" title="mscore/timeline.cpp" alt="" coords="1323,155,1462,181"/>
+</map>

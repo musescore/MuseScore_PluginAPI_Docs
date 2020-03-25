@@ -1,0 +1,33 @@
+<map id="OVE::OffsetElement" name="OVE::OffsetElement">
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_articulation.html" title="OVE::Articulation" alt="" coords="196,639,319,665"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="197,689,318,716"/>
+<area shape="rect" id="node32" href="$class_o_v_e_1_1_staff.html" title="OVE::Staff" alt="" coords="214,740,301,767"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_bar_number.html" title="OVE::BarNumber" alt="" coords="395,5,519,32"/>
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_beam.html" title="OVE::Beam" alt="" coords="411,56,503,83"/>
+<area shape="rect" id="node6" href="$class_o_v_e_1_1_clef.html" title="OVE::Clef" alt="" coords="415,107,498,133"/>
+<area shape="rect" id="node7" href="$class_o_v_e_1_1_decorator.html" title="OVE::Decorator" alt="" coords="399,157,514,184"/>
+<area shape="rect" id="node8" href="$class_o_v_e_1_1_dynamics.html" title="OVE::Dynamics" alt="" coords="398,208,515,235"/>
+<area shape="rect" id="node9" href="$class_o_v_e_1_1_expressions.html" title="OVE::Expressions" alt="" coords="391,259,522,285"/>
+<area shape="rect" id="node10" href="$class_o_v_e_1_1_glissando.html" title="OVE::Glissando" alt="" coords="399,309,515,336"/>
+<area shape="rect" id="node11" href="$class_o_v_e_1_1_harmony.html" title="OVE::Harmony" alt="" coords="401,360,512,387"/>
+<area shape="rect" id="node12" href="$class_o_v_e_1_1_harp_pedal.html" title="OVE::HarpPedal" alt="" coords="397,411,516,437"/>
+<area shape="rect" id="node13" href="$class_o_v_e_1_1_key.html" title="OVE::Key" alt="" coords="416,461,497,488"/>
+<area shape="rect" id="node14" href="$class_o_v_e_1_1_kuo_hao.html" title="OVE::KuoHao" alt="" coords="404,512,509,539"/>
+<area shape="rect" id="node15" href="$class_o_v_e_1_1_lyric.html" title="OVE::Lyric" alt="" coords="413,563,500,589"/>
+<area shape="rect" id="node16" href="$class_o_v_e_1_1_measure_repeat.html" title="OVE::MeasureRepeat" alt="" coords="381,613,532,640"/>
+<area shape="rect" id="node17" href="$class_o_v_e_1_1_multi_measure_rest.html" title="OVE::MultiMeasureRest" alt="" coords="375,664,539,691"/>
+<area shape="rect" id="node18" href="$class_o_v_e_1_1_note_container.html" title="OVE::NoteContainer" alt="" coords="385,715,528,741"/>
+<area shape="rect" id="node19" href="$class_o_v_e_1_1_numeric_ending.html" title="OVE::NumericEnding" alt="" coords="383,765,530,792"/>
+<area shape="rect" id="node20" href="$class_o_v_e_1_1_octave_shift.html" title="OVE::OctaveShift" alt="" coords="393,816,520,843"/>
+<area shape="rect" id="node21" href="$class_o_v_e_1_1_octave_shift_end_point.html" title="OVE::OctaveShiftEndPoint" alt="" coords="367,867,547,893"/>
+<area shape="rect" id="node22" href="$class_o_v_e_1_1_pedal.html" title="OVE::Pedal" alt="" coords="411,917,502,944"/>
+<area shape="rect" id="node23" href="$class_o_v_e_1_1_repeat_symbol.html" title="OVE::RepeatSymbol" alt="" coords="385,968,529,995"/>
+<area shape="rect" id="node24" href="$class_o_v_e_1_1_slur.html" title="OVE::Slur" alt="" coords="416,1019,497,1045"/>
+<area shape="rect" id="node25" href="$class_o_v_e_1_1_tempo.html" title="OVE::Tempo" alt="" coords="407,1069,506,1096"/>
+<area shape="rect" id="node26" href="$class_o_v_e_1_1_text.html" title="OVE::Text" alt="" coords="415,1120,499,1147"/>
+<area shape="rect" id="node27" href="$class_o_v_e_1_1_tie.html" title="OVE::Tie" alt="" coords="419,1171,495,1197"/>
+<area shape="rect" id="node28" href="$class_o_v_e_1_1_time_signature.html" title="OVE::TimeSignature" alt="" coords="385,1221,528,1248"/>
+<area shape="rect" id="node29" href="$class_o_v_e_1_1_tuplet.html" title="OVE::Tuplet" alt="" coords="409,1272,504,1299"/>
+<area shape="rect" id="node30" href="$class_o_v_e_1_1_wedge.html" title="OVE::Wedge" alt="" coords="407,1323,506,1349"/>
+<area shape="rect" id="node31" href="$class_o_v_e_1_1_wedge_end_point.html" title="OVE::WedgeEndPoint" alt="" coords="381,1373,533,1400"/>
+</map>

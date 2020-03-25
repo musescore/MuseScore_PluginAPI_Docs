@@ -1,0 +1,9 @@
+<map id="midi/midifile.h" name="midi/midifile.h">
+<area shape="rect" id="node2" href="$sig_8h.html" title="libmscore/sig.h" alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node9" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="141,80,277,107"/>
+<area shape="rect" id="node3" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="23,155,99,181"/>
+<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="61,229,137,256"/>
+<area shape="rect" id="node6" href="$style_8h.html" title="style.h" alt="" coords="122,304,183,331"/>
+<area shape="rect" id="node7" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="111,379,194,405"/>
+<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="219,379,284,405"/>
+</map>

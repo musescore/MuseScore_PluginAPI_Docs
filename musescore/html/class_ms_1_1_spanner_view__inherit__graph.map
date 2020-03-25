@@ -1,0 +1,8 @@
+<map id="Ms::SpannerView" name="Ms::SpannerView">
+<area shape="rect" id="node4" href="$class_ms_1_1_hairpin_view.html" title="Ms::HairpinView" alt="" coords="5,229,124,256"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_slur_tie_view.html" title="Ms::SlurTieView" alt="" coords="148,229,267,256"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_text_line_view.html" title="Ms::TextLineView" alt="" coords="291,229,417,256"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_show_element_base.html" title="Ms::ShowElementBase" alt="" coords="128,80,287,107"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_tie_view.html" title="Ms::TieView" alt="" coords="160,304,255,331"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_ottava_view.html" title="Ms::OttavaView" alt="" coords="296,304,412,331"/>
+</map>

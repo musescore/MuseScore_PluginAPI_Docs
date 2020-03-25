@@ -1,0 +1,6 @@
+<map id="OVE::TimeSignature" name="OVE::TimeSignature">
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_music_data.html" title="OVE::MusicData" alt="" coords="165,80,286,107"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="161,5,290,32"/>
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="314,5,457,32"/>
+</map>

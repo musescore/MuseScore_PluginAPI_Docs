@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_ms_1_1_preference.html" title="Ms::Preference" alt="" coords="5,132,116,159"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_bool_preference.html" title="Ms::BoolPreference" alt="" coords="171,5,309,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_color_preference.html" title="Ms::ColorPreference" alt="" coords="169,56,311,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_double_preference.html" title="Ms::DoublePreference" alt="" coords="164,107,316,133"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_enum_preference.html" title="Ms::EnumPreference" alt="" coords="167,157,313,184"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_int_preference.html" title="Ms::IntPreference" alt="" coords="177,208,303,235"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_string_preference.html" title="Ms::StringPreference" alt="" coords="167,259,313,285"/>
+</map>

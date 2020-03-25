@@ -1,0 +1,6 @@
+<map id="OVE::Block" name="OVE::Block">
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="158,80,281,107"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_count_block.html" title="OVE::CountBlock" alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="156,155,283,181"/>
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_size_block.html" title="OVE::SizeBlock" alt="" coords="307,155,425,181"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Ms::TextLineBaseSegment" name="Ms::TextLineBaseSegment">
+<area shape="rect" id="node6" href="$class_ms_1_1_hairpin_segment.html" title="Ms::HairpinSegment" alt="" coords="933,5,1074,32"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_let_ring_segment.html" title="Ms::LetRingSegment" alt="" coords="931,56,1076,83"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_ottava_segment.html" title="Ms::OttavaSegment" alt="" coords="934,107,1073,133"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_palm_mute_segment.html" title="Ms::PalmMuteSegment" alt="" coords="924,157,1083,184"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_pedal_segment.html" title="Ms::PedalSegment" alt="" coords="937,208,1070,235"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_text_line_segment.html" title="Ms::TextLineSegment" alt="" coords="928,259,1079,285"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_volta_segment.html" title="Ms::VoltaSegment" alt="" coords="938,309,1069,336"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_line_segment.html" title="Virtual base class for segmented lines segments (OttavaSegment, HairpinSegment, TrillSegment...) " alt="" coords="524,157,648,184"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="328,157,476,184"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="184,157,280,184"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="5,157,136,184"/>
+</map>

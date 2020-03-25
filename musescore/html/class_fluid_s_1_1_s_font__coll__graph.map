@@ -1,0 +1,6 @@
+<map id="FluidS::SFont" name="FluidS::SFont">
+<area shape="rect" id="node2" href="$class_fluid_s_1_1_fluid.html" title="FluidS::Fluid" alt="" coords="5,95,100,121"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="31,5,149,32"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="127,95,264,121"/>
+<area shape="rect" id="node6" href="$struct_fluid_s_1_1_s_f_version.html" title="FluidS::SFVersion" alt="" coords="289,95,417,121"/>
+</map>

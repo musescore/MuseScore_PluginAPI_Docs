@@ -1,0 +1,15 @@
+<map id="ITC_mesg" name="ITC_mesg">
+<area shape="rect" id="node2" href="$class_m__def__rank.html" title="M_def_rank" alt="" coords="141,5,231,32"/>
+<area shape="rect" id="node3" href="$class_m__ifc__anoff.html" title="M_ifc_anoff" alt="" coords="141,56,231,83"/>
+<area shape="rect" id="node4" href="$class_m__ifc__aupar.html" title="M_ifc_aupar" alt="" coords="139,107,233,133"/>
+<area shape="rect" id="node5" href="$class_m__ifc__chconf.html" title="M_ifc_chconf" alt="" coords="136,157,236,184"/>
+<area shape="rect" id="node6" href="$class_m__ifc__dipar.html" title="M_ifc_dipar" alt="" coords="141,208,231,235"/>
+<area shape="rect" id="node7" href="$class_m__ifc__edit.html" title="M_ifc_edit" alt="" coords="145,259,227,285"/>
+<area shape="rect" id="node8" href="$class_m__ifc__ifelm.html" title="M_ifc_ifelm" alt="" coords="141,309,231,336"/>
+<area shape="rect" id="node9" href="$class_m__ifc__init.html" title="M_ifc_init" alt="" coords="147,360,225,387"/>
+<area shape="rect" id="node10" href="$class_m__ifc__preset.html" title="M_ifc_preset" alt="" coords="137,411,235,437"/>
+<area shape="rect" id="node11" href="$class_m__ifc__retune.html" title="M_ifc_retune" alt="" coords="137,461,235,488"/>
+<area shape="rect" id="node12" href="$class_m__ifc__txtip.html" title="M_ifc_txtip" alt="" coords="143,512,229,539"/>
+<area shape="rect" id="node13" href="$class_m__midi__info.html" title="M_midi_info" alt="" coords="140,563,232,589"/>
+<area shape="rect" id="node14" href="$class_m__new__divis.html" title="M_new_divis" alt="" coords="137,613,235,640"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="mscore/script/script.h" name="mscore/script/script.h">
+<area shape="rect" id="node2" href="$inspector_base_8cpp.html" title="mscore/inspector/inspector\lBase.cpp" alt="" coords="5,80,184,121"/>
+<area shape="rect" id="node3" href="$recorderwidget_8h.html" title="mscore/script/recorderwidget.h" alt="" coords="209,87,410,114"/>
+<area shape="rect" id="node7" href="$script_8cpp.html" title="mscore/script/script.cpp" alt="" coords="435,87,597,114"/>
+<area shape="rect" id="node8" href="$scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="622,87,813,114"/>
+<area shape="rect" id="node9" href="$testscript_8cpp.html" title="mscore/script/testscript.cpp" alt="" coords="837,87,1021,114"/>
+<area shape="rect" id="node4" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="59,169,218,196"/>
+<area shape="rect" id="node5" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="243,169,376,196"/>
+<area shape="rect" id="node6" href="$recorderwidget_8cpp.html" title="mscore/script/recorderwidget.cpp" alt="" coords="401,169,615,196"/>
+</map>

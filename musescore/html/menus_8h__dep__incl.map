@@ -1,0 +1,9 @@
+<map id="mscore/menus.h" name="mscore/menus.h">
+<area shape="rect" id="node2" href="$editdrumset_8cpp.html" title="mscore/editdrumset.cpp" alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node3" href="$masterpalette_8cpp.html" title="mscore/masterpalette.cpp" alt="" coords="192,80,365,107"/>
+<area shape="rect" id="node4" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="389,80,523,107"/>
+<area shape="rect" id="node5" href="$note_groups_8cpp.html" title="mscore/noteGroups.cpp" alt="" coords="547,80,709,107"/>
+<area shape="rect" id="node6" href="$symboldialog_8cpp.html" title="mscore/symboldialog.cpp" alt="" coords="733,80,904,107"/>
+<area shape="rect" id="node7" href="$textpalette_8cpp.html" title="mscore/textpalette.cpp" alt="" coords="928,80,1083,107"/>
+<area shape="rect" id="node8" href="$timesigproperties_8cpp.html" title="mscore/timesigproperties.cpp" alt="" coords="1107,80,1301,107"/>
+</map>

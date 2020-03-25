@@ -1,0 +1,10 @@
+<map id="ScoreElement" name="ScoreElement">
+<area shape="rect" id="node3" href="$class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="173,155,244,181"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_plugin_a_p_i_1_1_part.html" title="Part" alt="" coords="268,155,315,181"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_plugin_a_p_i_1_1_score.html" title="Score" alt="" coords="339,155,395,181"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="5,229,63,256"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_measure.html" title="Measure" alt="" coords="87,229,159,256"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_note.html" title="Note" alt="" coords="183,229,234,256"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_segment.html" title="Segment" alt="" coords="258,229,333,256"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_plugin_a_p_i_1_1_tie.html" title="Provides access to internal Ms::Tie objects. " alt="" coords="357,229,397,256"/>
+</map>

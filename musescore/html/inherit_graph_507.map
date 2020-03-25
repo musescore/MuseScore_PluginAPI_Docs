@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_o_v_e_1_1_block.html" title="OVE::Block" alt="" coords="5,56,96,83"/>
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="144,56,267,83"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_count_block.html" title="OVE::CountBlock" alt="" coords="315,5,441,32"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="315,56,441,83"/>
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_size_block.html" title="OVE::SizeBlock" alt="" coords="319,107,437,133"/>
+</map>

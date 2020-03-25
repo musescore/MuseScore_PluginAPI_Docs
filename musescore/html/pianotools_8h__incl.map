@@ -1,0 +1,19 @@
+<map id="mscore/pianotools.h" name="mscore/pianotools.h">
+<area shape="rect" id="node2" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="214,229,332,256"/>
+<area shape="rect" id="node18" href="$select_8h.html" title="libmscore/select.h" alt="" coords="356,80,484,107"/>
+<area shape="rect" id="node3" href="$element_8h.html" title="element.h" alt="" coords="136,453,215,480"/>
+<area shape="rect" id="node12" href="$shape_8h.html" title="shape.h" alt="" coords="252,528,320,555"/>
+<area shape="rect" id="node13" href="$symbol_8h.html" title="symbol.h" alt="" coords="25,304,100,331"/>
+<area shape="rect" id="node15" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="124,304,214,331"/>
+<area shape="rect" id="node16" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="420,304,526,331"/>
+<area shape="rect" id="node17" href="$key_8h.html" title="key.h" alt="" coords="239,304,294,331"/>
+<area shape="rect" id="node4" href="$spatium_8h.html" title="spatium.h" alt="" coords="98,528,176,555"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="344,528,420,555"/>
+<area shape="rect" id="node11" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="280,603,394,629"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="435,603,511,629"/>
+<area shape="rect" id="node8" href="$style_8h.html" title="style.h" alt="" coords="366,677,428,704"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="370,752,453,779"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="280,752,346,779"/>
+<area shape="rect" id="node14" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="60,379,142,405"/>
+<area shape="rect" id="node19" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="330,155,434,181"/>
+</map>

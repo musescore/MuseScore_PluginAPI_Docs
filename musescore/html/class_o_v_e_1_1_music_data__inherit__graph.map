@@ -1,0 +1,33 @@
+<map id="OVE::MusicData" name="OVE::MusicData">
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_bar_number.html" title="OVE::BarNumber" alt="" coords="393,5,517,32"/>
+<area shape="rect" id="node6" href="$class_o_v_e_1_1_beam.html" title="OVE::Beam" alt="" coords="409,56,501,83"/>
+<area shape="rect" id="node7" href="$class_o_v_e_1_1_clef.html" title="OVE::Clef" alt="" coords="414,107,497,133"/>
+<area shape="rect" id="node8" href="$class_o_v_e_1_1_decorator.html" title="OVE::Decorator" alt="" coords="398,157,513,184"/>
+<area shape="rect" id="node9" href="$class_o_v_e_1_1_dynamics.html" title="OVE::Dynamics" alt="" coords="397,208,514,235"/>
+<area shape="rect" id="node10" href="$class_o_v_e_1_1_expressions.html" title="OVE::Expressions" alt="" coords="390,259,521,285"/>
+<area shape="rect" id="node11" href="$class_o_v_e_1_1_glissando.html" title="OVE::Glissando" alt="" coords="397,309,513,336"/>
+<area shape="rect" id="node12" href="$class_o_v_e_1_1_harmony.html" title="OVE::Harmony" alt="" coords="400,360,511,387"/>
+<area shape="rect" id="node13" href="$class_o_v_e_1_1_harp_pedal.html" title="OVE::HarpPedal" alt="" coords="396,411,515,437"/>
+<area shape="rect" id="node14" href="$class_o_v_e_1_1_key.html" title="OVE::Key" alt="" coords="415,461,496,488"/>
+<area shape="rect" id="node15" href="$class_o_v_e_1_1_kuo_hao.html" title="OVE::KuoHao" alt="" coords="403,512,508,539"/>
+<area shape="rect" id="node16" href="$class_o_v_e_1_1_lyric.html" title="OVE::Lyric" alt="" coords="412,563,499,589"/>
+<area shape="rect" id="node17" href="$class_o_v_e_1_1_measure_repeat.html" title="OVE::MeasureRepeat" alt="" coords="380,613,531,640"/>
+<area shape="rect" id="node18" href="$class_o_v_e_1_1_multi_measure_rest.html" title="OVE::MultiMeasureRest" alt="" coords="373,664,537,691"/>
+<area shape="rect" id="node19" href="$class_o_v_e_1_1_note_container.html" title="OVE::NoteContainer" alt="" coords="384,715,527,741"/>
+<area shape="rect" id="node20" href="$class_o_v_e_1_1_numeric_ending.html" title="OVE::NumericEnding" alt="" coords="382,765,529,792"/>
+<area shape="rect" id="node21" href="$class_o_v_e_1_1_octave_shift.html" title="OVE::OctaveShift" alt="" coords="392,816,519,843"/>
+<area shape="rect" id="node22" href="$class_o_v_e_1_1_octave_shift_end_point.html" title="OVE::OctaveShiftEndPoint" alt="" coords="365,867,545,893"/>
+<area shape="rect" id="node23" href="$class_o_v_e_1_1_pedal.html" title="OVE::Pedal" alt="" coords="410,917,501,944"/>
+<area shape="rect" id="node24" href="$class_o_v_e_1_1_repeat_symbol.html" title="OVE::RepeatSymbol" alt="" coords="383,968,527,995"/>
+<area shape="rect" id="node25" href="$class_o_v_e_1_1_slur.html" title="OVE::Slur" alt="" coords="415,1019,496,1045"/>
+<area shape="rect" id="node26" href="$class_o_v_e_1_1_tempo.html" title="OVE::Tempo" alt="" coords="406,1069,505,1096"/>
+<area shape="rect" id="node27" href="$class_o_v_e_1_1_text.html" title="OVE::Text" alt="" coords="413,1120,497,1147"/>
+<area shape="rect" id="node28" href="$class_o_v_e_1_1_tie.html" title="OVE::Tie" alt="" coords="417,1171,493,1197"/>
+<area shape="rect" id="node29" href="$class_o_v_e_1_1_time_signature.html" title="OVE::TimeSignature" alt="" coords="384,1221,527,1248"/>
+<area shape="rect" id="node30" href="$class_o_v_e_1_1_tuplet.html" title="OVE::Tuplet" alt="" coords="408,1272,503,1299"/>
+<area shape="rect" id="node31" href="$class_o_v_e_1_1_wedge.html" title="OVE::Wedge" alt="" coords="406,1323,505,1349"/>
+<area shape="rect" id="node32" href="$class_o_v_e_1_1_wedge_end_point.html" title="OVE::WedgeEndPoint" alt="" coords="379,1373,531,1400"/>
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="11,639,142,665"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_pair_element.html" title="OVE::PairElement" alt="" coords="12,689,141,716"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_offset_element.html" title="OVE::OffsetElement" alt="" coords="5,740,148,767"/>
+</map>

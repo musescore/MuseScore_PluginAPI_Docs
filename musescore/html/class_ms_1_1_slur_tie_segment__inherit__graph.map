@@ -1,0 +1,7 @@
+<map id="Ms::SlurTieSegment" name="Ms::SlurTieSegment">
+<area shape="rect" id="node5" href="$class_ms_1_1_slur_segment.html" title="a single segment of slur; also used for Tie " alt="" coords="5,304,128,331"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_tie_segment.html" title="a single segment of slur; also used for Tie " alt="" coords="153,304,271,331"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="65,155,213,181"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="91,80,187,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="73,5,204,32"/>
+</map>

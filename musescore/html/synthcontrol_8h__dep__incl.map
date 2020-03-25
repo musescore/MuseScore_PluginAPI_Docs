@@ -1,0 +1,11 @@
+<map id="mscore/synthcontrol.h" name="mscore/synthcontrol.h">
+<area shape="rect" id="node2" href="$mixer_8cpp.html" title="mscore/mixer.cpp" alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$mixerdetails_8cpp.html" title="mscore/mixerdetails.cpp" alt="" coords="156,80,320,107"/>
+<area shape="rect" id="node4" href="$mixertrackchannel_8cpp.html" title="mscore/mixertrackchannel.cpp" alt="" coords="345,80,545,107"/>
+<area shape="rect" id="node5" href="$mixertrackpart_8cpp.html" title="mscore/mixertrackpart.cpp" alt="" coords="569,80,747,107"/>
+<area shape="rect" id="node6" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="771,80,929,107"/>
+<area shape="rect" id="node7" href="$parteditbase_8cpp.html" title="mscore/parteditbase.cpp" alt="" coords="954,80,1119,107"/>
+<area shape="rect" id="node8" href="$scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="1144,80,1343,107"/>
+<area shape="rect" id="node9" href="$seq_8cpp.html" title="mscore/seq.cpp" alt="" coords="1367,80,1482,107"/>
+<area shape="rect" id="node10" href="$synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="1506,80,1671,107"/>
+</map>

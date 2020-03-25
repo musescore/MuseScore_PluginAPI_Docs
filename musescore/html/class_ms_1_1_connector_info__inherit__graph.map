@@ -1,0 +1,5 @@
+<map id="Ms::ConnectorInfo" name="Ms::ConnectorInfo">
+<area shape="rect" id="node2" href="$class_ms_1_1_connector_info_reader.html" title="Helper class for reading beams, tuplets and spanners. " alt="" coords="5,80,177,107"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_connector_info_writer.html" title="Helper class for writing connecting elements. " alt="" coords="202,80,367,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_spanner_writer.html" title="Helper class for writing Spanners. " alt="" coords="219,155,350,181"/>
+</map>

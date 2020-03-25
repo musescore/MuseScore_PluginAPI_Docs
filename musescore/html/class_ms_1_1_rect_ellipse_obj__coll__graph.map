@@ -1,0 +1,9 @@
+<map id="Ms::RectEllipseObj" name="Ms::RectEllipseObj">
+<area shape="rect" id="node2" href="$class_ms_1_1_line_obj.html" title="Ms::LineObj" alt="" coords="27,171,119,197"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_basic_draw_obj.html" title="Ms::BasicDrawObj" alt="" coords="7,81,139,108"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_capella_obj.html" title="Ms::CapellaObj" alt="" coords="307,5,419,32"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_basic_durational_obj.html" title="Ms::BasicDurationalObj" alt="" coords="283,81,443,108"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="371,260,463,287"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_chord_obj.html" title="Ms::ChordObj" alt="" coords="303,171,405,197"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_note_obj.html" title="Ms::NoteObj" alt="" coords="163,81,259,108"/>
+</map>

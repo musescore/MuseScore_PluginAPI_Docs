@@ -1,0 +1,20 @@
+<map id="libmscore/groups.h" name="libmscore/groups.h">
+<area shape="rect" id="node2" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="459,528,535,555"/>
+<area shape="rect" id="node4" href="$mscore_8h.html" title="mscore.h" alt="" coords="205,603,281,629"/>
+<area shape="rect" id="node8" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="308,155,412,181"/>
+<area shape="rect" id="node19" href="$beam_8h.html" title="beam.h" alt="" coords="421,80,486,107"/>
+<area shape="rect" id="node5" href="$style_8h.html" title="style.h" alt="" coords="301,677,363,704"/>
+<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="280,752,363,779"/>
+<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="387,752,453,779"/>
+<area shape="rect" id="node9" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="257,229,316,256"/>
+<area shape="rect" id="node10" href="$element_8h.html" title="element.h" alt="" coords="374,453,453,480"/>
+<area shape="rect" id="node13" href="$shape_8h.html" title="shape.h" alt="" coords="191,528,259,555"/>
+<area shape="rect" id="node14" href="$symbol_8h.html" title="symbol.h" alt="" coords="389,304,464,331"/>
+<area shape="rect" id="node16" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="93,304,184,331"/>
+<area shape="rect" id="node17" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="61,379,166,405"/>
+<area shape="rect" id="node18" href="$key_8h.html" title="key.h" alt="" coords="259,304,314,331"/>
+<area shape="rect" id="node11" href="$spatium_8h.html" title="spatium.h" alt="" coords="297,528,375,555"/>
+<area shape="rect" id="node12" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="346,603,459,629"/>
+<area shape="rect" id="node15" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="383,379,465,405"/>
+<area shape="rect" id="node20" href="$property_8h.html" title="property.h" alt="" coords="436,155,516,181"/>
+</map>

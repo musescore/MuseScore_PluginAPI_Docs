@@ -1,0 +1,51 @@
+<map id="libmscore/mscoreview.h" name="libmscore/mscoreview.h">
+<area shape="rect" id="node2" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="4018,80,4143,107"/>
+<area shape="rect" id="node44" href="$lasso_8cpp.html" title="libmscore/lasso.cpp" alt="" coords="7226,155,7365,181"/>
+<area shape="rect" id="node45" href="$mscore_8cpp.html" title="libmscore/mscore.cpp" alt="" coords="7389,155,7540,181"/>
+<area shape="rect" id="node46" href="$mscoreview_8cpp.html" title="libmscore/mscoreview.cpp" alt="" coords="7564,155,7741,181"/>
+<area shape="rect" id="node47" href="$pianoroll_8h.html" title="mscore/pianoroll.h" alt="" coords="7766,155,7894,181"/>
+<area shape="rect" id="node48" href="$util_8h.html" title="mscore/plugin/api/util.h" alt="" coords="7919,155,8075,181"/>
+<area shape="rect" id="node49" href="$scoreview_8h.html" title="mscore/scoreview.h" alt="" coords="7757,80,7895,107"/>
+<area shape="rect" id="node50" href="$exampleview_8h.html" title="mscore/exampleview.h" alt="" coords="7920,80,8076,107"/>
+<area shape="rect" id="node3" href="$accidental_8cpp.html" title="libmscore/accidental.cpp" alt="" coords="4587,155,4753,181"/>
+<area shape="rect" id="node4" href="$ambitus_8cpp.html" title="libmscore/ambitus.cpp" alt="" coords="4777,155,4931,181"/>
+<area shape="rect" id="node5" href="$arpeggio_8cpp.html" title="libmscore/arpeggio.cpp" alt="" coords="4955,155,5111,181"/>
+<area shape="rect" id="node6" href="$articulation_8cpp.html" title="libmscore/articulation.cpp" alt="" coords="5135,155,5306,181"/>
+<area shape="rect" id="node7" href="$bagpembell_8cpp.html" title="libmscore/bagpembell.cpp" alt="" coords="5330,155,5503,181"/>
+<area shape="rect" id="node8" href="$barline_8cpp.html" title="libmscore/barline.cpp" alt="" coords="5528,155,5673,181"/>
+<area shape="rect" id="node9" href="$beam_8cpp.html" title="libmscore/beam.cpp" alt="" coords="5698,155,5837,181"/>
+<area shape="rect" id="node10" href="$bend_8cpp.html" title="libmscore/bend.cpp" alt="" coords="5861,155,5996,181"/>
+<area shape="rect" id="node11" href="$box_8cpp.html" title="libmscore/box.cpp" alt="" coords="6021,155,6149,181"/>
+<area shape="rect" id="node12" href="$bracket_8cpp.html" title="libmscore/bracket.cpp" alt="" coords="6173,155,6324,181"/>
+<area shape="rect" id="node13" href="$bracket_item_8cpp.html" title="libmscore/bracketItem.cpp" alt="" coords="6349,155,6525,181"/>
+<area shape="rect" id="node14" href="$breath_8cpp.html" title="libmscore/breath.cpp" alt="" coords="6549,155,6692,181"/>
+<area shape="rect" id="node15" href="$bsymbol_8cpp.html" title="libmscore/bsymbol.cpp" alt="" coords="6716,155,6872,181"/>
+<area shape="rect" id="node16" href="$check_8cpp.html" title="libmscore/check.cpp" alt="" coords="6896,155,7039,181"/>
+<area shape="rect" id="node17" href="$chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="7063,155,7202,181"/>
+<area shape="rect" id="node18" href="$chordlist_8cpp.html" title="libmscore/chordlist.cpp" alt="" coords="5,155,161,181"/>
+<area shape="rect" id="node19" href="$chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="185,155,347,181"/>
+<area shape="rect" id="node20" href="$clef_8cpp.html" title="Implementation of classes Clef (partial) and ClefList (complete). " alt="" coords="371,155,499,181"/>
+<area shape="rect" id="node21" href="$cleflist_8cpp.html" title="libmscore/cleflist.cpp" alt="" coords="524,155,669,181"/>
+<area shape="rect" id="node22" href="$cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="693,155,825,181"/>
+<area shape="rect" id="node23" href="$connector_8cpp.html" title="libmscore/connector.cpp" alt="" coords="849,155,1013,181"/>
+<area shape="rect" id="node24" href="$duration_8cpp.html" title="libmscore/duration.cpp" alt="" coords="1037,155,1191,181"/>
+<area shape="rect" id="node25" href="$dynamic_8cpp.html" title="libmscore/dynamic.cpp" alt="" coords="1215,155,1371,181"/>
+<area shape="rect" id="node26" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="1395,155,1523,181"/>
+<area shape="rect" id="node27" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="1548,155,1701,181"/>
+<area shape="rect" id="node28" href="$libmscore_2excerpt_8cpp.html" title="libmscore/excerpt.cpp" alt="" coords="1725,155,1876,181"/>
+<area shape="rect" id="node29" href="$fermata_8cpp.html" title="libmscore/fermata.cpp" alt="" coords="1900,155,2051,181"/>
+<area shape="rect" id="node30" href="$figuredbass_8cpp.html" title="libmscore/figuredbass.cpp" alt="" coords="2075,155,2249,181"/>
+<area shape="rect" id="node31" href="$fingering_8cpp.html" title="libmscore/fingering.cpp" alt="" coords="2273,155,2429,181"/>
+<area shape="rect" id="node32" href="$fret_8cpp.html" title="libmscore/fret.cpp" alt="" coords="2453,155,2580,181"/>
+<area shape="rect" id="node33" href="$glissando_8cpp.html" title="libmscore/glissando.cpp" alt="" coords="2605,155,2767,181"/>
+<area shape="rect" id="node34" href="$hairpin_8cpp.html" title="libmscore/hairpin.cpp" alt="" coords="2792,155,2937,181"/>
+<area shape="rect" id="node35" href="$harmony_8cpp.html" title="libmscore/harmony.cpp" alt="" coords="2962,155,3119,181"/>
+<area shape="rect" id="node36" href="$hook_8cpp.html" title="libmscore/hook.cpp" alt="" coords="3144,155,3279,181"/>
+<area shape="rect" id="node37" href="$image_8cpp.html" title="libmscore/image.cpp" alt="" coords="3303,155,3445,181"/>
+<area shape="rect" id="node38" href="$image_store_8cpp.html" title="libmscore/imageStore.cpp" alt="" coords="3470,155,3643,181"/>
+<area shape="rect" id="node39" href="$iname_8cpp.html" title="libmscore/iname.cpp" alt="" coords="3668,155,3811,181"/>
+<area shape="rect" id="node40" href="$input_8cpp.html" title="libmscore/input.cpp" alt="" coords="3835,155,3969,181"/>
+<area shape="rect" id="node41" href="$instrchange_8cpp.html" title="libmscore/instrchange.cpp" alt="" coords="3993,155,4168,181"/>
+<area shape="rect" id="node42" href="$libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="4193,155,4361,181"/>
+<area shape="rect" id="node43" href="$join_measure_8cpp.html" title="libmscore/joinMeasure.cpp" alt="" coords="4385,155,4563,181"/>
+</map>

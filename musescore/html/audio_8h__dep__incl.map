@@ -1,0 +1,10 @@
+<map id="libmscore/audio.h" name="libmscore/audio.h">
+<area shape="rect" id="node2" href="$libmscore_2audio_8cpp.html" title="libmscore/audio.cpp" alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="169,80,322,107"/>
+<area shape="rect" id="node4" href="$read301_8cpp.html" title="libmscore/read301.cpp" alt="" coords="346,80,499,107"/>
+<area shape="rect" id="node5" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="524,80,663,107"/>
+<area shape="rect" id="node6" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="687,80,843,107"/>
+<area shape="rect" id="node7" href="$mediadialog_8cpp.html" title="mscore/mediadialog.cpp" alt="" coords="868,80,1031,107"/>
+<area shape="rect" id="node8" href="$seq_8cpp.html" title="mscore/seq.cpp" alt="" coords="1055,80,1169,107"/>
+<area shape="rect" id="node9" href="$waveview_8cpp.html" title="mscore/waveview.cpp" alt="" coords="1193,80,1345,107"/>
+</map>

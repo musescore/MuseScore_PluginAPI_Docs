@@ -1,0 +1,5 @@
+<map id="Ms::BBTrack" name="Ms::BBTrack">
+<area shape="rect" id="node2" href="$class_ms_1_1_b_b_file.html" title="Ms::BBFile" alt="" coords="56,171,143,197"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_time_sig_map.html" title="Ms::TimeSigMap" alt="" coords="31,81,152,108"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_event_list.html" title="Ms::EventList" alt="" coords="177,171,280,197"/>
+</map>

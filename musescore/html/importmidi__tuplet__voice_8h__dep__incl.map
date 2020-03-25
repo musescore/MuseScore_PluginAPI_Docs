@@ -1,0 +1,6 @@
+<map id="mscore/importmidi/importmidi_tuplet_voice.h" name="mscore/importmidi/importmidi_tuplet_voice.h">
+<area shape="rect" id="node2" href="$importmidi__simplify_8cpp.html" title="mscore/importmidi/importmidi\l_simplify.cpp" alt="" coords="5,95,199,136"/>
+<area shape="rect" id="node3" href="$importmidi__tuplet_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet.cpp" alt="" coords="223,95,416,136"/>
+<area shape="rect" id="node4" href="$importmidi__tuplet__filter_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet_filter.cpp" alt="" coords="440,95,633,136"/>
+<area shape="rect" id="node5" href="$importmidi__tuplet__voice_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet_voice.cpp" alt="" coords="657,95,851,136"/>
+</map>

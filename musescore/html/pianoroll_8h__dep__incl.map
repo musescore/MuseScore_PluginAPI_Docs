@@ -1,0 +1,7 @@
+<map id="mscore/pianoroll.h" name="mscore/pianoroll.h">
+<area shape="rect" id="node2" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="$pianoroll_8cpp.html" title="mscore/pianoroll.cpp" alt="" coords="188,80,331,107"/>
+<area shape="rect" id="node4" href="$propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="355,80,529,107"/>
+<area shape="rect" id="node5" href="$scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="553,80,752,107"/>
+<area shape="rect" id="node6" href="$seq_8cpp.html" title="mscore/seq.cpp" alt="" coords="777,80,891,107"/>
+</map>

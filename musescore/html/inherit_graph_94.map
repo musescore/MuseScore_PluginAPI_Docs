@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_ms_1_1_bsp_tree_visitor.html" title="Ms::BspTreeVisitor" alt="" coords="5,56,140,83"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_find_item_bsp_tree_visitor.html" title="Ms::FindItemBspTreeVisitor" alt="" coords="200,5,385,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_insert_item_bsp_tree_visitor.html" title="Ms::InsertItemBspTreeVisitor" alt="" coords="196,56,389,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_remove_item_bsp_tree_visitor.html" title="Ms::RemoveItemBspTreeVisitor" alt="" coords="188,107,397,133"/>
+</map>

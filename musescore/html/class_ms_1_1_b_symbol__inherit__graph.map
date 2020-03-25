@@ -1,0 +1,10 @@
+<map id="Ms::BSymbol" name="Ms::BSymbol">
+<area shape="rect" id="node4" href="$class_ms_1_1_f_symbol.html" title="Symbol constructed from a font glyph. " alt="" coords="5,229,105,256"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_image.html" title="Ms::Image" alt="" coords="129,229,213,256"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_symbol.html" title="Symbol constructed from builtin symbol. " alt="" coords="237,229,329,256"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="123,80,219,107"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="106,5,237,32"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_hook.html" title="Ms::Hook" alt="" coords="127,304,205,331"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_note_head.html" title="Ms::NoteHead" alt="" coords="230,304,337,331"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_system_divider.html" title="Ms::SystemDivider" alt="" coords="361,304,496,331"/>
+</map>

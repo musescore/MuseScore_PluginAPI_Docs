@@ -1,0 +1,7 @@
+<map id="mscore/pianokeyboard.h" name="mscore/pianokeyboard.h">
+<area shape="rect" id="node2" href="$pianokeyboard_8cpp.html" title="mscore/pianokeyboard.cpp" alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node3" href="$pianolevels_8cpp.html" title="mscore/pianolevels.cpp" alt="" coords="209,80,367,107"/>
+<area shape="rect" id="node4" href="$pianoroll_8cpp.html" title="mscore/pianoroll.cpp" alt="" coords="391,80,534,107"/>
+<area shape="rect" id="node5" href="$pianoruler_8cpp.html" title="mscore/pianoruler.cpp" alt="" coords="558,80,709,107"/>
+<area shape="rect" id="node6" href="$pianoview_8cpp.html" title="mscore/pianoview.cpp" alt="" coords="733,80,885,107"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Ms::InspectorTextLineBase" name="Ms::InspectorTextLineBase">
+<area shape="rect" id="node5" href="$class_ms_1_1_inspector_hairpin.html" title="Ms::InspectorHairpin" alt="" coords="775,5,917,32"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_inspector_let_ring.html" title="Ms::InspectorLetRing" alt="" coords="773,56,919,83"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_inspector_ottava.html" title="Ms::InspectorOttava" alt="" coords="775,107,917,133"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_inspector_palm_mute.html" title="Ms::InspectorPalmMute" alt="" coords="765,157,927,184"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_inspector_pedal.html" title="Ms::InspectorPedal" alt="" coords="779,208,913,235"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_inspector_text_line.html" title="Ms::InspectorTextLine" alt="" coords="770,259,922,285"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_inspector_volta.html" title="Ms::InspectorVolta" alt="" coords="780,309,912,336"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_inspector_element_base.html" title="Ms::InspectorElementBase" alt="" coords="307,157,487,184"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_inspector_base.html" title="Ms::InspectorBase" alt="" coords="127,157,259,184"/>
+</map>

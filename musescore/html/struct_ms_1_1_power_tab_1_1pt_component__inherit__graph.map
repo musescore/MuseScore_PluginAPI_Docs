@@ -1,0 +1,11 @@
+<map id="Ms::PowerTab::ptComponent" name="Ms::PowerTab::ptComponent">
+<area shape="rect" id="node2" href="$struct_ms_1_1_power_tab_1_1pt_bar.html" title="Ms::PowerTab::ptBar" alt="" coords="273,5,419,32"/>
+<area shape="rect" id="node3" href="$struct_ms_1_1_power_tab_1_1pt_beat.html" title="Ms::PowerTab::ptBeat" alt="" coords="269,56,423,83"/>
+<area shape="rect" id="node4" href="$struct_ms_1_1_power_tab_1_1pt_chord.html" title="Ms::PowerTab::ptChord" alt="" coords="265,107,427,133"/>
+<area shape="rect" id="node5" href="$struct_ms_1_1_power_tab_1_1pt_chord_text.html" title="Ms::PowerTab::ptChordText" alt="" coords="253,157,439,184"/>
+<area shape="rect" id="node6" href="$struct_ms_1_1_power_tab_1_1pt_direction.html" title="Ms::PowerTab::ptDirection" alt="" coords="257,208,435,235"/>
+<area shape="rect" id="node7" href="$struct_ms_1_1_power_tab_1_1pt_guitar_in.html" title="Ms::PowerTab::ptGuitarIn" alt="" coords="260,259,432,285"/>
+<area shape="rect" id="node8" href="$struct_ms_1_1_power_tab_1_1pt_note.html" title="Ms::PowerTab::ptNote" alt="" coords="269,309,423,336"/>
+<area shape="rect" id="node9" href="$struct_ms_1_1_power_tab_1_1pt_symbol.html" title="Ms::PowerTab::ptSymbol" alt="" coords="261,360,431,387"/>
+<area shape="rect" id="node10" href="$struct_ms_1_1_power_tab_1_1st_rhytm_slash.html" title="Ms::PowerTab::stRhytmSlash" alt="" coords="247,411,445,437"/>
+</map>

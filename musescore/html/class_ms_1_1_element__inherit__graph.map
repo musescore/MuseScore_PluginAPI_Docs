@@ -1,0 +1,50 @@
+<map id="Ms::Element" name="Ms::Element">
+<area shape="rect" id="node3" href="$class_ms_1_1_accidental.html" title="Ms::Accidental" alt="" coords="364,5,473,32"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_ambitus.html" title="Ms::Ambitus" alt="" coords="371,56,467,83"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_arpeggio.html" title="Ms::Arpeggio" alt="" coords="369,107,468,133"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_articulation.html" title="articulation marks " alt="" coords="362,157,475,184"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_bagpipe_embellishment.html" title="Ms::BagpipeEmbellishment" alt="" coords="328,208,509,235"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_bar_line.html" title="Ms::BarLine" alt="" coords="373,259,465,285"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_beam.html" title="Ms::Beam" alt="" coords="377,309,460,336"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_bend.html" title="Ms::Bend" alt="" coords="379,360,458,387"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_bracket.html" title="Ms::Bracket" alt="" coords="372,411,465,437"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_breath.html" title="breathType() is index in symList " alt="" coords="375,461,462,488"/>
+<area shape="rect" id="node13" href="$class_ms_1_1_b_symbol.html" title="base class for Symbol and Image " alt="" coords="368,512,469,539"/>
+<area shape="rect" id="node17" href="$class_ms_1_1_chord_line.html" title="bezier line attached to top note of a chord implements fall, doit, plop, bend " alt="" coords="365,563,472,589"/>
+<area shape="rect" id="node18" href="$class_ms_1_1_clef.html" title="Graphic representation of a clef. " alt="" coords="383,613,455,640"/>
+<area shape="rect" id="node19" href="$class_ms_1_1_compound.html" title="Ms::Compound" alt="" coords="363,664,474,691"/>
+<area shape="rect" id="node20" href="$class_ms_1_1_duration_element.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="346,715,491,741"/>
+<area shape="rect" id="node21" href="$class_ms_1_1_fermata.html" title="Ms::Fermata" alt="" coords="371,765,467,792"/>
+<area shape="rect" id="node22" href="$class_ms_1_1_figured_bass_item.html" title="Ms::FiguredBassItem" alt="" coords="345,816,492,843"/>
+<area shape="rect" id="node23" href="$class_ms_1_1_fret_diagram.html" title="Fretboard diagram. " alt="" coords="359,867,479,893"/>
+<area shape="rect" id="node24" href="$class_ms_1_1_icon.html" title="Ms::Icon" alt="" coords="382,917,455,944"/>
+<area shape="rect" id="node25" href="$class_ms_1_1_key_sig.html" title="The KeySig class represents a Key Signature on a staff. " alt="" coords="373,968,464,995"/>
+<area shape="rect" id="node26" href="$class_ms_1_1_lasso.html" title="Ms::Lasso" alt="" coords="377,1019,460,1045"/>
+<area shape="rect" id="node27" href="$class_ms_1_1_layout_break.html" title="symbols for line break, page break etc. " alt="" coords="358,1069,479,1096"/>
+<area shape="rect" id="node28" href="$class_ms_1_1_ledger_line.html" title="Graphic representation of a ledger line. " alt="" coords="363,1120,474,1147"/>
+<area shape="rect" id="node29" href="$class_ms_1_1_measure_base.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="355,1171,483,1197"/>
+<area shape="rect" id="node30" href="$class_ms_1_1_note.html" title="Graphic representation of a note. " alt="" coords="381,1221,457,1248"/>
+<area shape="rect" id="node31" href="$class_ms_1_1_note_dot.html" title="Ms::NoteDot" alt="" coords="370,1272,467,1299"/>
+<area shape="rect" id="node32" href="$class_ms_1_1_ossia.html" title="not implemented yet " alt="" coords="377,1323,460,1349"/>
+<area shape="rect" id="node33" href="$class_ms_1_1_page.html" title="Ms::Page" alt="" coords="379,1373,458,1400"/>
+<area shape="rect" id="node34" href="$class_ms_1_1_segment.html" title="Ms::Segment" alt="" coords="369,1424,469,1451"/>
+<area shape="rect" id="node35" href="$class_ms_1_1_shadow_note.html" title="Graphic representation of a shadow note, which shows the note insert position in note entry mode..." alt="" coords="357,1475,480,1501"/>
+<area shape="rect" id="node36" href="$class_ms_1_1_spacer.html" title="Vertical spacer element to adjust the distance of staves. " alt="" coords="374,1525,463,1552"/>
+<area shape="rect" id="node37" href="$class_ms_1_1_spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="371,1576,467,1603"/>
+<area shape="rect" id="node38" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="345,1627,493,1653"/>
+<area shape="rect" id="node39" href="$class_ms_1_1_staff_lines.html" title="The StaffLines class is the graphic representation of a staff, it draws the horizontal staff lines..." alt="" coords="365,1677,472,1704"/>
+<area shape="rect" id="node40" href="$class_ms_1_1_staff_state.html" title="Ms::StaffState" alt="" coords="365,1728,472,1755"/>
+<area shape="rect" id="node41" href="$class_ms_1_1_staff_type_change.html" title="Ms::StaffTypeChange" alt="" coords="343,1779,494,1805"/>
+<area shape="rect" id="node42" href="$class_ms_1_1_stem.html" title="Graphic representation of a note stem. " alt="" coords="379,1829,458,1856"/>
+<area shape="rect" id="node43" href="$class_ms_1_1_stem_slash.html" title="used for grace notes of type acciaccatura " alt="" coords="363,1880,475,1907"/>
+<area shape="rect" id="node44" href="$class_ms_1_1_system.html" title="One row of measures for all instruments; a complete piece of the timeline. " alt="" coords="372,1931,465,1957"/>
+<area shape="rect" id="node45" href="$class_ms_1_1_tab_duration_symbol.html" title="Ms::TabDurationSymbol" alt="" coords="337,1981,500,2008"/>
+<area shape="rect" id="node46" href="$class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="367,2032,471,2059"/>
+<area shape="rect" id="node47" href="$class_ms_1_1_time_sig.html" title="This class represents a time signature. " alt="" coords="371,2083,467,2109"/>
+<area shape="rect" id="node48" href="$class_ms_1_1_tremolo.html" title="Ms::Tremolo" alt="" coords="371,2133,466,2160"/>
+<area shape="rect" id="node49" href="$class_ms_1_1_tremolo_bar.html" title="Ms::TremoloBar" alt="" coords="361,2184,476,2211"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="5,1095,136,1121"/>
+<area shape="rect" id="node14" href="$class_ms_1_1_f_symbol.html" title="Symbol constructed from a font glyph. " alt="" coords="557,461,657,488"/>
+<area shape="rect" id="node15" href="$class_ms_1_1_image.html" title="Ms::Image" alt="" coords="565,512,649,539"/>
+<area shape="rect" id="node16" href="$class_ms_1_1_symbol.html" title="Symbol constructed from builtin symbol. " alt="" coords="561,563,653,589"/>
+</map>

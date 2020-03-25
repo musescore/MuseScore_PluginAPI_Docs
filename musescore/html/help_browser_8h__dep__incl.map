@@ -1,0 +1,6 @@
+<map id="mscore/helpBrowser.h" name="mscore/helpBrowser.h">
+<area shape="rect" id="node2" href="$help_8cpp.html" title="mscore/help.cpp" alt="" coords="5,80,124,107"/>
+<area shape="rect" id="node3" href="$help_browser_8cpp.html" title="mscore/helpBrowser.cpp" alt="" coords="148,80,315,107"/>
+<area shape="rect" id="node4" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="339,80,497,107"/>
+<area shape="rect" id="node5" href="$plugin_creator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="521,80,731,107"/>
+</map>

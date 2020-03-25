@@ -1,0 +1,18 @@
+<map id="mscore/inspector/inspectorTextLineBase.h" name="mscore/inspector/inspectorTextLineBase.h">
+<area shape="rect" id="node2" href="$inspector_volta_8h.html" title="mscore/inspector/inspector\lVolta.h" alt="" coords="1431,95,1609,136"/>
+<area shape="rect" id="node5" href="$inspector_ottava_8h.html" title="mscore/inspector/inspector\lOttava.h" alt="" coords="417,95,596,136"/>
+<area shape="rect" id="node7" href="$inspector_hairpin_8h.html" title="mscore/inspector/inspector\lHairpin.h" alt="" coords="620,95,799,136"/>
+<area shape="rect" id="node9" href="$inspector_text_line_8h.html" title="mscore/inspector/inspector\lTextLine.h" alt="" coords="215,95,393,136"/>
+<area shape="rect" id="node11" href="$inspector_let_ring_8h.html" title="mscore/inspector/inspector\lLetRing.h" alt="" coords="823,95,1001,136"/>
+<area shape="rect" id="node13" href="$inspector_pedal_8h.html" title="mscore/inspector/inspector\lPedal.h" alt="" coords="1025,95,1204,136"/>
+<area shape="rect" id="node15" href="$inspector_palm_mute_8h.html" title="mscore/inspector/inspector\lPalmMute.h" alt="" coords="1228,95,1407,136"/>
+<area shape="rect" id="node17" href="$inspector_text_line_base_8cpp.html" title="mscore/inspector/inspector\lTextLineBase.cpp" alt="" coords="1633,95,1812,136"/>
+<area shape="rect" id="node3" href="$inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="817,191,1021,218"/>
+<area shape="rect" id="node4" href="$inspector_volta_8cpp.html" title="mscore/inspector/inspector\lVolta.cpp" alt="" coords="1451,184,1629,225"/>
+<area shape="rect" id="node6" href="$inspector_ottava_8cpp.html" title="mscore/inspector/inspector\lOttava.cpp" alt="" coords="208,184,387,225"/>
+<area shape="rect" id="node8" href="$inspector_hairpin_8cpp.html" title="mscore/inspector/inspector\lHairpin.cpp" alt="" coords="411,184,589,225"/>
+<area shape="rect" id="node10" href="$inspector_text_line_8cpp.html" title="mscore/inspector/inspector\lTextLine.cpp" alt="" coords="5,184,184,225"/>
+<area shape="rect" id="node12" href="$inspector_let_ring_8cpp.html" title="mscore/inspector/inspector\lLetRing.cpp" alt="" coords="613,184,792,225"/>
+<area shape="rect" id="node14" href="$inspector_pedal_8cpp.html" title="mscore/inspector/inspector\lPedal.cpp" alt="" coords="1045,184,1224,225"/>
+<area shape="rect" id="node16" href="$inspector_palm_mute_8cpp.html" title="mscore/inspector/inspector\lPalmMute.cpp" alt="" coords="1248,184,1427,225"/>
+</map>

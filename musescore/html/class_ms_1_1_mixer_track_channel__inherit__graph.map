@@ -1,0 +1,5 @@
+<map id="Ms::MixerTrackChannel" name="Ms::MixerTrackChannel">
+<area shape="rect" id="node4" href="$class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="283,95,425,121"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="277,5,431,47"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_mixer_track.html" title="Ms::MixerTrack" alt="" coords="449,95,563,121"/>
+</map>

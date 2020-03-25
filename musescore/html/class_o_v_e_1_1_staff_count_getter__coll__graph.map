@@ -1,0 +1,6 @@
+<map id="OVE::StaffCountGetter" name="OVE::StaffCountGetter">
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_basic_parse.html" title="OVE::BasicParse" alt="" coords="169,95,295,121"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="171,5,293,32"/>
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="317,5,429,32"/>
+</map>

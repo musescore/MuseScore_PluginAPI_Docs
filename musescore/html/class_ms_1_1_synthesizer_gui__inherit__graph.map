@@ -1,0 +1,5 @@
+<map id="Ms::SynthesizerGui" name="Ms::SynthesizerGui">
+<area shape="rect" id="node3" href="$class_aeolus_gui.html" title="AeolusGui" alt="" coords="5,155,88,181"/>
+<area shape="rect" id="node4" href="$class_fluid_gui.html" title="FluidGui" alt="" coords="113,155,183,181"/>
+<area shape="rect" id="node5" href="$class_zerberus_gui.html" title="ZerberusGui" alt="" coords="208,155,301,181"/>
+</map>

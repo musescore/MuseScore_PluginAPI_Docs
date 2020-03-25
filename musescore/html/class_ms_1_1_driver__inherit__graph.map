@@ -1,0 +1,6 @@
+<map id="Ms::Driver" name="Ms::Driver">
+<area shape="rect" id="node2" href="$class_ms_1_1_alsa_audio.html" title="Ms::AlsaAudio" alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_jack_audio.html" title="Ms::JackAudio" alt="" coords="136,80,245,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_portaudio.html" title="Ms::Portaudio" alt="" coords="270,80,373,107"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_pulse_audio.html" title="Ms::PulseAudio" alt="" coords="397,80,512,107"/>
+</map>

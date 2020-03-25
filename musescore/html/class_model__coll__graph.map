@@ -1,0 +1,25 @@
+<map id="Model" name="Model">
+<area shape="rect" id="node17" href="$class_aeolus.html" title="Aeolus" alt="" coords="314,720,377,747"/>
+<area shape="rect" id="node2" href="$class_asect.html" title="Asect" alt="" coords="439,541,495,568"/>
+<area shape="rect" id="node3" href="$class_divis.html" title="Divis" alt="" coords="607,541,659,568"/>
+<area shape="rect" id="node4" href="$class_synti_parameter.html" title="SyntiParameter" alt="" coords="112,408,224,435"/>
+<area shape="rect" id="node22" href="$class_asection.html" title="Asection" alt="" coords="151,541,225,568"/>
+<area shape="rect" id="node5" href="$class_rank.html" title="Rank" alt="" coords="457,408,511,435"/>
+<area shape="rect" id="node6" href="$class_rankwave.html" title="Rankwave" alt="" coords="57,319,141,345"/>
+<area shape="rect" id="node21" href="$class_division.html" title="Division" alt="" coords="5,631,75,657"/>
+<area shape="rect" id="node7" href="$class_pipewave.html" title="Pipewave" alt="" coords="59,140,138,167"/>
+<area shape="rect" id="node8" href="$class_rngen.html" title="Rngen" alt="" coords="69,5,129,32"/>
+<area shape="rect" id="node9" href="$class_addsynth.html" title="Addsynth" alt="" coords="445,319,523,345"/>
+<area shape="rect" id="node10" href="$class_n__func.html" title="N_func" alt="" coords="452,5,516,32"/>
+<area shape="rect" id="node11" href="$class_h_n__func.html" title="HN_func" alt="" coords="529,140,604,167"/>
+<area shape="rect" id="node12" href="$class_chconf.html" title="Chconf" alt="" coords="519,541,583,568"/>
+<area shape="rect" id="node13" href="$class_preset.html" title="Preset" alt="" coords="683,541,743,568"/>
+<area shape="rect" id="node14" href="$class_group.html" title="Group" alt="" coords="767,541,825,568"/>
+<area shape="rect" id="node15" href="$class_ifelm.html" title="Ifelm" alt="" coords="771,408,821,435"/>
+<area shape="rect" id="node16" href="$class_keybd.html" title="Keybd" alt="" coords="356,541,415,568"/>
+<area shape="rect" id="node18" href="$class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="559,631,676,657"/>
+<area shape="rect" id="node19" href="$class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="655,720,793,747"/>
+<area shape="rect" id="node23" href="$class_diffuser.html" title="Diffuser" alt="" coords="281,408,349,435"/>
+<area shape="rect" id="node24" href="$class_m__ifc__init.html" title="M_ifc_init" alt="" coords="341,631,419,657"/>
+<area shape="rect" id="node25" href="$class_i_t_c__mesg.html" title="ITC_mesg" alt="" coords="249,541,332,568"/>
+</map>

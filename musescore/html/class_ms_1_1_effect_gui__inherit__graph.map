@@ -1,0 +1,5 @@
+<map id="Ms::EffectGui" name="Ms::EffectGui">
+<area shape="rect" id="node3" href="$class_ms_1_1_compressor_gui.html" title="Ms::CompressorGui" alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_no_effect_gui.html" title="Ms::NoEffectGui" alt="" coords="168,155,288,181"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_zita_effect_gui.html" title="Ms::ZitaEffectGui" alt="" coords="312,155,437,181"/>
+</map>

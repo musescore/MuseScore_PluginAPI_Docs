@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_ms_1_1_omr_key_sig.html" title="Ms::OmrKeySig" alt="" coords="115,5,230,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_omr_pattern.html" title="Ms::OmrPattern" alt="" coords="115,56,230,83"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_omr_staff.html" title="Ms::OmrStaff" alt="" coords="122,107,223,133"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_omr_timesig.html" title="Ms::OmrTimesig" alt="" coords="113,157,232,184"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_omr_clef.html" title="Ms::OmrClef" alt="" coords="282,31,379,57"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_omr_note.html" title="Ms::OmrNote" alt="" coords="280,81,381,108"/>
+</map>

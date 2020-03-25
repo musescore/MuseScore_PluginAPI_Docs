@@ -1,0 +1,8 @@
+<map id="Ms::ChordRest" name="Ms::ChordRest">
+<area shape="rect" id="node5" href="$class_ms_1_1_chord.html" title="Graphic representation of a chord. " alt="" coords="5,304,88,331"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_rest.html" title="This class implements a rest. " alt="" coords="113,304,189,331"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_duration_element.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="26,155,171,181"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="51,80,147,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="33,5,164,32"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_repeat_measure.html" title="Ms::RepeatMeasure" alt="" coords="81,379,221,405"/>
+</map>

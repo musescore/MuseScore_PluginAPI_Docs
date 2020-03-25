@@ -1,0 +1,38 @@
+<map id="mscore/plugin/api/util.h" name="mscore/plugin/api/util.h">
+<area shape="rect" id="node3" href="$element_8h.html" title="libmscore/element.h" alt="" coords="843,767,981,793"/>
+<area shape="rect" id="node12" href="$mscoreview_8h.html" title="libmscore/mscoreview.h" alt="" coords="1425,155,1588,181"/>
+<area shape="rect" id="node13" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1115,80,1240,107"/>
+<area shape="rect" id="node44" href="$libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="5,319,123,345"/>
+<area shape="rect" id="node4" href="$spatium_8h.html" title="spatium.h" alt="" coords="797,841,875,868"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="697,841,773,868"/>
+<area shape="rect" id="node10" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="542,916,655,943"/>
+<area shape="rect" id="node11" href="$shape_8h.html" title="shape.h" alt="" coords="1075,841,1143,868"/>
+<area shape="rect" id="node6" href="$mscore_8h.html" title="mscore.h" alt="" coords="357,916,433,943"/>
+<area shape="rect" id="node7" href="$style_8h.html" title="style.h" alt="" coords="415,991,476,1017"/>
+<area shape="rect" id="node8" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="415,1065,497,1092"/>
+<area shape="rect" id="node9" href="$types_8h.html" title="types.h" alt="" coords="526,1065,591,1092"/>
+<area shape="rect" id="node14" href="$input_8h.html" title="input.h" alt="" coords="923,319,984,345"/>
+<area shape="rect" id="node23" href="$property_8h.html" title="property.h" alt="" coords="1220,468,1300,495"/>
+<area shape="rect" id="node24" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="403,155,498,181"/>
+<area shape="rect" id="node32" href="$select_8h.html" title="select.h" alt="" coords="398,393,466,420"/>
+<area shape="rect" id="node39" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1042,155,1171,181"/>
+<area shape="rect" id="node41" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="1196,155,1300,181"/>
+<area shape="rect" id="node43" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1287,543,1387,569"/>
+<area shape="rect" id="node15" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="828,468,932,495"/>
+<area shape="rect" id="node22" href="$beam_8h.html" title="beam.h" alt="" coords="918,393,983,420"/>
+<area shape="rect" id="node16" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="945,543,1004,569"/>
+<area shape="rect" id="node17" href="$symbol_8h.html" title="symbol.h" alt="" coords="1124,617,1199,644"/>
+<area shape="rect" id="node19" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="929,617,1020,644"/>
+<area shape="rect" id="node20" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="546,617,651,644"/>
+<area shape="rect" id="node21" href="$key_8h.html" title="key.h" alt="" coords="1045,617,1099,644"/>
+<area shape="rect" id="node18" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="1032,692,1115,719"/>
+<area shape="rect" id="node25" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="299,237,389,263"/>
+<area shape="rect" id="node31" href="$interval_8h.html" title="interval.h" alt="" coords="248,393,323,420"/>
+<area shape="rect" id="node33" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="603,237,690,263"/>
+<area shape="rect" id="node34" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="715,237,851,263"/>
+<area shape="rect" id="node36" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="259,692,314,719"/>
+<area shape="rect" id="node26" href="$xml_8h.html" title="xml.h" alt="" coords="369,319,423,345"/>
+<area shape="rect" id="node27" href="$connector_8h.html" title="connector.h" alt="" coords="491,692,581,719"/>
+<area shape="rect" id="node30" href="$stafftype_8h.html" title="stafftype.h" alt="" coords="647,393,731,420"/>
+<area shape="rect" id="node28" href="$location_8h.html" title="location.h" alt="" coords="542,767,621,793"/>
+</map>

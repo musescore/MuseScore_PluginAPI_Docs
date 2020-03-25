@@ -1,0 +1,6 @@
+<map id="Ms::BaseDiff" name="Ms::BaseDiff">
+<area shape="rect" id="node2" href="$struct_ms_1_1_context_change.html" title="Ms::ContextChange" alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$struct_ms_1_1_element_diff.html" title="Ms::ElementDiff" alt="" coords="168,80,285,107"/>
+<area shape="rect" id="node4" href="$struct_ms_1_1_markup_diff.html" title="Ms::MarkupDiff" alt="" coords="309,80,421,107"/>
+<area shape="rect" id="node5" href="$struct_ms_1_1_property_diff.html" title="Ms::PropertyDiff" alt="" coords="445,80,563,107"/>
+</map>

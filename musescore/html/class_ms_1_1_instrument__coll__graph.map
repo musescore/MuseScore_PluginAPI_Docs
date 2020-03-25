@@ -1,0 +1,7 @@
+<map id="Ms::Instrument" name="Ms::Instrument">
+<area shape="rect" id="node2" href="$struct_ms_1_1_interval.html" title="Ms::Interval" alt="" coords="5,95,96,121"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_drumset.html" title="Ms::Drumset" alt="" coords="120,95,219,121"/>
+<area shape="rect" id="node4" href="$struct_ms_1_1_drum_instrument.html" title="Ms::DrumInstrument" alt="" coords="98,5,241,32"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_string_data.html" title="Ms::StringData" alt="" coords="243,95,354,121"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_staff_name_list.html" title="Ms::StaffNameList" alt="" coords="378,95,510,121"/>
+</map>

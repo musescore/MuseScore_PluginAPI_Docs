@@ -1,0 +1,13 @@
+<map id="mscore/importxmlfirstpass.h" name="mscore/importxmlfirstpass.h">
+<area shape="rect" id="node2" href="$musicxml_8h.html" title="Definition of class MusicXML. " alt="" coords="426,80,562,107"/>
+<area shape="rect" id="node5" href="$importmxml_8h.html" title="mscore/importmxml.h" alt="" coords="7,155,155,181"/>
+<area shape="rect" id="node8" href="$importmxmlpass1_8h.html" title="mscore/importmxmlpass1.h" alt="" coords="588,155,771,181"/>
+<area shape="rect" id="node9" href="$importmxmlpass2_8h.html" title="mscore/importmxmlpass2.h" alt="" coords="523,229,705,256"/>
+<area shape="rect" id="node12" href="$importxmlfirstpass_8cpp.html" title="mscore/importxmlfirstpass.cpp" alt="" coords="847,80,1048,107"/>
+<area shape="rect" id="node3" href="$exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="361,155,512,181"/>
+<area shape="rect" id="node4" href="$importbww_8cpp.html" title="mscore/importbww.cpp" alt="" coords="179,155,337,181"/>
+<area shape="rect" id="node6" href="$importmxml_8cpp.html" title="mscore/importmxml.cpp" alt="" coords="306,304,469,331"/>
+<area shape="rect" id="node7" href="$importxml_8cpp.html" title="mscore/importxml.cpp" alt="" coords="5,229,156,256"/>
+<area shape="rect" id="node10" href="$importmxmlpass1_8cpp.html" title="mscore/importmxmlpass1.cpp" alt="" coords="714,304,911,331"/>
+<area shape="rect" id="node11" href="$importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="493,304,690,331"/>
+</map>

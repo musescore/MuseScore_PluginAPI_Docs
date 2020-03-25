@@ -1,0 +1,17 @@
+<map id="mscore/shortcut.h" name="mscore/shortcut.h">
+<area shape="rect" id="node2" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="163,80,322,107"/>
+<area shape="rect" id="node4" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="347,80,461,107"/>
+<area shape="rect" id="node5" href="$palettetree_8cpp.html" title="mscore/palette/palettetree.cpp" alt="" coords="486,80,685,107"/>
+<area shape="rect" id="node6" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="709,80,843,107"/>
+<area shape="rect" id="node7" href="$pianoview_8cpp.html" title="mscore/pianoview.cpp" alt="" coords="867,80,1019,107"/>
+<area shape="rect" id="node8" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="1043,80,1269,107"/>
+<area shape="rect" id="node9" href="$plugin_manager_8h.html" title="mscore/plugin/pluginManager.h" alt="" coords="1293,80,1496,107"/>
+<area shape="rect" id="node12" href="$prefsdialog_8cpp.html" title="mscore/prefsdialog.cpp" alt="" coords="1520,80,1677,107"/>
+<area shape="rect" id="node13" href="$scoretab_8cpp.html" title="mscore/scoretab.cpp" alt="" coords="1701,80,1845,107"/>
+<area shape="rect" id="node14" href="$shortcut_8cpp.html" title="mscore/shortcut.cpp" alt="" coords="1869,80,2011,107"/>
+<area shape="rect" id="node15" href="$shortcutcapturedialog_8cpp.html" title="mscore/shortcutcapturedialog.cpp" alt="" coords="2035,80,2253,107"/>
+<area shape="rect" id="node16" href="$startup_wizard_8cpp.html" title="mscore/startupWizard.cpp" alt="" coords="2278,80,2453,107"/>
+<area shape="rect" id="node10" href="$mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="1164,155,1383,181"/>
+<area shape="rect" id="node11" href="$plugin_manager_8cpp.html" title="mscore/plugin/pluginManager.cpp" alt="" coords="1407,155,1623,181"/>
+</map>

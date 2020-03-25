@@ -1,0 +1,8 @@
+<map id="Ms::LineObj" name="Ms::LineObj">
+<area shape="rect" id="node4" href="$class_ms_1_1_bracket_obj.html" title="Ms::BracketObj" alt="" coords="5,229,119,256"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_rect_ellipse_obj.html" title="Ms::RectEllipseObj" alt="" coords="143,229,277,256"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_wavy_line_obj.html" title="Ms::WavyLineObj" alt="" coords="301,229,428,256"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_wedge_obj.html" title="Ms::WedgeObj" alt="" coords="453,229,562,256"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_basic_draw_obj.html" title="Ms::BasicDrawObj" alt="" coords="221,80,353,107"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_capella_obj.html" title="Ms::CapellaObj" alt="" coords="231,5,343,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="libmscore/layout.h" name="libmscore/layout.h">
+<area shape="rect" id="node2" href="$layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node3" href="$layoutlinear_8cpp.html" title="libmscore/layoutlinear.cpp" alt="" coords="173,80,346,107"/>
+<area shape="rect" id="node4" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="370,80,527,107"/>
+<area shape="rect" id="node5" href="$style_8cpp.html" title="libmscore/style.cpp" alt="" coords="552,80,687,107"/>
+<area shape="rect" id="node6" href="$editstyle_8cpp.html" title="mscore/editstyle.cpp" alt="" coords="711,80,853,107"/>
+</map>

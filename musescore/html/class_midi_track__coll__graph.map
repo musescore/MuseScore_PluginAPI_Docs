@@ -1,0 +1,4 @@
+<map id="MidiTrack" name="MidiTrack">
+<area shape="rect" id="node2" href="$class_midi_file.html" title="MidiFile" alt="" coords="51,171,117,197"/>
+<area shape="rect" id="node3" href="$class_tempo_map.html" title="TempoMap" alt="" coords="41,81,127,108"/>
+</map>

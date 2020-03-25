@@ -1,0 +1,7 @@
+<map id="Ms::PreferenceItem" name="Ms::PreferenceItem">
+<area shape="rect" id="node4" href="$class_ms_1_1_bool_preference_item.html" title="Ms::BoolPreferenceItem" alt="" coords="372,5,535,32"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_color_preference_item.html" title="Ms::ColorPreferenceItem" alt="" coords="369,56,537,83"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_double_preference_item.html" title="Ms::DoublePreferenceItem" alt="" coords="364,107,543,133"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_int_preference_item.html" title="Ms::IntPreferenceItem" alt="" coords="377,157,529,184"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_string_preference_item.html" title="Ms::StringPreferenceItem" alt="" coords="368,208,539,235"/>
+</map>

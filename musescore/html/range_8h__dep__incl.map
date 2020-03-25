@@ -1,0 +1,8 @@
+<map id="libmscore/range.h" name="libmscore/range.h">
+<area shape="rect" id="node2" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node3" href="$join_measure_8cpp.html" title="libmscore/joinMeasure.cpp" alt="" coords="158,80,335,107"/>
+<area shape="rect" id="node4" href="$noteentry_8cpp.html" title="libmscore/noteentry.cpp" alt="" coords="359,80,521,107"/>
+<area shape="rect" id="node5" href="$range_8cpp.html" title="libmscore/range.cpp" alt="" coords="545,80,684,107"/>
+<area shape="rect" id="node6" href="$split_measure_8cpp.html" title="libmscore/splitMeasure.cpp" alt="" coords="708,80,889,107"/>
+<area shape="rect" id="node7" href="$measureproperties_8cpp.html" title="mscore/measureproperties.cpp" alt="" coords="914,80,1115,107"/>
+</map>

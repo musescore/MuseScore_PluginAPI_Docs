@@ -1,0 +1,13 @@
+<map id="AwlPlugin" name="AwlPlugin">
+<area shape="rect" id="node3" href="$class_color_label_plugin.html" title="ColorLabelPlugin" alt="" coords="435,5,555,32"/>
+<area shape="rect" id="node4" href="$class_denominator_spin_box_plugin.html" title="DenominatorSpinBoxPlugin" alt="" coords="404,56,585,83"/>
+<area shape="rect" id="node5" href="$class_knob_plugin.html" title="KnobPlugin" alt="" coords="451,107,539,133"/>
+<area shape="rect" id="node6" href="$class_meter_slider_plugin.html" title="MeterSliderPlugin" alt="" coords="433,157,557,184"/>
+<area shape="rect" id="node7" href="$class_midi_pan_knob_plugin.html" title="MidiPanKnobPlugin" alt="" coords="427,208,562,235"/>
+<area shape="rect" id="node8" href="$class_pan_knob_plugin.html" title="PanKnobPlugin" alt="" coords="439,259,550,285"/>
+<area shape="rect" id="node9" href="$class_pitch_edit_plugin.html" title="PitchEditPlugin" alt="" coords="439,309,550,336"/>
+<area shape="rect" id="node10" href="$class_pitch_label_plugin.html" title="PitchLabelPlugin" alt="" coords="435,360,554,387"/>
+<area shape="rect" id="node11" href="$class_slider_plugin.html" title="SliderPlugin" alt="" coords="449,411,540,437"/>
+<area shape="rect" id="node12" href="$class_vol_knob_plugin.html" title="VolKnobPlugin" alt="" coords="441,461,548,488"/>
+<area shape="rect" id="node13" href="$class_vol_slider_plugin.html" title="VolSliderPlugin" alt="" coords="439,512,550,539"/>
+</map>

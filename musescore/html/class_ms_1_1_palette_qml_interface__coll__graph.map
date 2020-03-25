@@ -1,0 +1,9 @@
+<map id="Ms::PaletteQmlInterface" name="Ms::PaletteQmlInterface">
+<area shape="rect" id="node3" href="$class_ms_1_1_qml_native_tool_tip.html" title="Ms::QmlNativeToolTip" alt="" coords="416,43,569,69"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_palette_workspace.html" title="Ms::PaletteWorkspace" alt="" coords="1020,144,1175,171"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_palette_cell_filter.html" title="Interface for filtering elements in a palette. " alt="" coords="224,284,365,311"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_abstract_palette_controller.html" title="Ms::AbstractPaletteController" alt="" coords="197,144,392,171"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_filter_palette_tree_model.html" title="Ms::FilterPaletteTreeModel" alt="" coords="593,287,772,313"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_palette_tree_model.html" title="Ms::PaletteTreeModel" alt="" coords="219,195,370,221"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_user_palette_controller.html" title="Ms::UserPaletteController" alt="" coords="596,144,769,171"/>
+</map>

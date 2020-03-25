@@ -1,0 +1,7 @@
+<map id="mscore/palette/palettewidget.h" name="mscore/palette/palettewidget.h">
+<area shape="rect" id="node2" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="163,80,322,107"/>
+<area shape="rect" id="node4" href="$palettewidget_8cpp.html" title="mscore/palette/palettewidget.cpp" alt="" coords="346,80,561,107"/>
+<area shape="rect" id="node5" href="$paletteworkspace_8cpp.html" title="mscore/palette/paletteworkspace.cpp" alt="" coords="585,80,823,107"/>
+<area shape="rect" id="node6" href="$selectionwindow_8cpp.html" title="mscore/selectionwindow.cpp" alt="" coords="847,80,1038,107"/>
+</map>

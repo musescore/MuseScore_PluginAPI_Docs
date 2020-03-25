@@ -1,0 +1,8 @@
+<map id="mscore/mididriver.h" name="mscore/mididriver.h">
+<area shape="rect" id="node2" href="$alsa_8h.html" title="mscore/alsa.h" alt="" coords="5,80,109,107"/>
+<area shape="rect" id="node3" href="$alsamidi_8h.html" title="mscore/alsamidi.h" alt="" coords="133,80,261,107"/>
+<area shape="rect" id="node4" href="$mididriver_8cpp.html" title="mscore/mididriver.cpp" alt="" coords="286,80,437,107"/>
+<area shape="rect" id="node5" href="$pa_8cpp.html" title="mscore/pa.cpp" alt="" coords="461,80,569,107"/>
+<area shape="rect" id="node6" href="$pm_8h.html" title="mscore/pm.h" alt="" coords="593,80,692,107"/>
+<area shape="rect" id="node7" href="$pm_8cpp.html" title="mscore/pm.cpp" alt="" coords="587,155,699,181"/>
+</map>

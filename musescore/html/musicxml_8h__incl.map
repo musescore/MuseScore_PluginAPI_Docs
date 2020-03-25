@@ -1,0 +1,21 @@
+<map id="mscore/musicxml.h" name="mscore/musicxml.h">
+<area shape="rect" id="node2" href="$libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="725,528,861,555"/>
+<area shape="rect" id="node4" href="$mscore_8h.html" title="mscore.h" alt="" coords="311,603,387,629"/>
+<area shape="rect" id="node8" href="$pitchspelling_8h.html" title="libmscore/pitchspelling.h" alt="" coords="232,304,397,331"/>
+<area shape="rect" id="node9" href="$line_8h.html" title="libmscore/line.h" alt="" coords="43,304,157,331"/>
+<area shape="rect" id="node15" href="$importxmlfirstpass_8h.html" title="importxmlfirstpass.h" alt="" coords="422,80,562,107"/>
+<area shape="rect" id="node16" href="$musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="426,155,558,181"/>
+<area shape="rect" id="node5" href="$style_8h.html" title="style.h" alt="" coords="475,677,536,704"/>
+<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="448,752,531,779"/>
+<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="555,752,621,779"/>
+<area shape="rect" id="node10" href="$spanner_8h.html" title="spanner.h" alt="" coords="233,379,311,405"/>
+<area shape="rect" id="node11" href="$element_8h.html" title="element.h" alt="" coords="486,453,565,480"/>
+<area shape="rect" id="node12" href="$spatium_8h.html" title="spatium.h" alt="" coords="486,528,565,555"/>
+<area shape="rect" id="node13" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="531,603,645,629"/>
+<area shape="rect" id="node14" href="$shape_8h.html" title="shape.h" alt="" coords="394,528,462,555"/>
+<area shape="rect" id="node17" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="450,229,569,256"/>
+<area shape="rect" id="node18" href="$symbol_8h.html" title="symbol.h" alt="" coords="472,304,547,331"/>
+<area shape="rect" id="node20" href="$noteevent_8h.html" title="noteevent.h" alt="" coords="571,304,661,331"/>
+<area shape="rect" id="node21" href="$key_8h.html" title="key.h" alt="" coords="686,304,741,331"/>
+<area shape="rect" id="node19" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="479,379,561,405"/>
+</map>

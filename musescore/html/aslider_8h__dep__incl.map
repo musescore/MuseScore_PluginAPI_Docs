@@ -1,0 +1,19 @@
+<map id="awl/aslider.h" name="awl/aslider.h">
+<area shape="rect" id="node2" href="$aslider_8cpp.html" title="awl/aslider.cpp" alt="" coords="275,80,384,107"/>
+<area shape="rect" id="node3" href="$knob_8h.html" title="awl/knob.h" alt="" coords="308,155,393,181"/>
+<area shape="rect" id="node12" href="$slider_8h.html" title="awl/slider.h" alt="" coords="459,80,547,107"/>
+<area shape="rect" id="node18" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="571,80,730,107"/>
+<area shape="rect" id="node4" href="$volknob_8h.html" title="awl/volknob.h" alt="" coords="174,229,277,256"/>
+<area shape="rect" id="node7" href="$panknob_8h.html" title="awl/panknob.h" alt="" coords="424,229,531,256"/>
+<area shape="rect" id="node9" href="$midipanknob_8h.html" title="awl/midipanknob.h" alt="" coords="19,229,149,256"/>
+<area shape="rect" id="node11" href="$knob_8cpp.html" title="awl/knob.cpp" alt="" coords="301,229,400,256"/>
+<area shape="rect" id="node5" href="$awlplugin_8cpp.html" title="awl/awlplugin.cpp" alt="" coords="483,304,608,331"/>
+<area shape="rect" id="node6" href="$volknob_8cpp.html" title="awl/volknob.cpp" alt="" coords="174,304,290,331"/>
+<area shape="rect" id="node8" href="$panknob_8cpp.html" title="awl/panknob.cpp" alt="" coords="339,304,459,331"/>
+<area shape="rect" id="node10" href="$midipanknob_8cpp.html" title="awl/midipanknob.cpp" alt="" coords="5,304,149,331"/>
+<area shape="rect" id="node13" href="$volslider_8h.html" title="awl/volslider.h" alt="" coords="595,155,701,181"/>
+<area shape="rect" id="node17" href="$slider_8cpp.html" title="awl/slider.cpp" alt="" coords="451,155,554,181"/>
+<area shape="rect" id="node14" href="$mslider_8h.html" title="awl/mslider.h" alt="" coords="749,229,848,256"/>
+<area shape="rect" id="node16" href="$volslider_8cpp.html" title="awl/volslider.cpp" alt="" coords="606,229,725,256"/>
+<area shape="rect" id="node15" href="$mslider_8cpp.html" title="awl/mslider.cpp" alt="" coords="742,304,855,331"/>
+</map>

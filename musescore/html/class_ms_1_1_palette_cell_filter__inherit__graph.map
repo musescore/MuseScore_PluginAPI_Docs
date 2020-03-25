@@ -1,0 +1,5 @@
+<map id="Ms::PaletteCellFilter" name="Ms::PaletteCellFilter">
+<area shape="rect" id="node3" href="$class_ms_1_1_customized_cell_filter.html" title="Ms::CustomizedCellFilter" alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_exclude_palette_cell_filter.html" title="Ms::ExcludePaletteCellFilter" alt="" coords="201,155,389,181"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_visibility_cell_filter.html" title="Ms::VisibilityCellFilter" alt="" coords="413,155,563,181"/>
+</map>

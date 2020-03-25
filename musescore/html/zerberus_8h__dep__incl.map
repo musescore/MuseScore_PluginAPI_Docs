@@ -1,0 +1,9 @@
+<map id="zerberus/zerberus.h" name="zerberus/zerberus.h">
+<area shape="rect" id="node2" href="$channel_8cpp.html" title="zerberus/channel.cpp" alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$filter_8cpp.html" title="zerberus/filter.cpp" alt="" coords="177,80,303,107"/>
+<area shape="rect" id="node4" href="$sfz_8cpp.html" title="zerberus/sfz.cpp" alt="" coords="327,80,446,107"/>
+<area shape="rect" id="node5" href="$zerberus_2voice_8cpp.html" title="zerberus/voice.cpp" alt="" coords="470,80,602,107"/>
+<area shape="rect" id="node6" href="$zerberus_8cpp.html" title="zerberus/zerberus.cpp" alt="" coords="565,155,715,181"/>
+<area shape="rect" id="node7" href="$zerberusgui_8h.html" title="zerberus/zerberusgui.h" alt="" coords="677,80,832,107"/>
+<area shape="rect" id="node8" href="$zerberusgui_8cpp.html" title="zerberus/zerberusgui.cpp" alt="" coords="740,155,908,181"/>
+</map>

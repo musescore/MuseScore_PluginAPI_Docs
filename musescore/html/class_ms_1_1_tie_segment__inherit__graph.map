@@ -1,0 +1,6 @@
+<map id="Ms::TieSegment" name="Ms::TieSegment">
+<area shape="rect" id="node2" href="$class_ms_1_1_slur_tie_segment.html" title="Ms::SlurTieSegment" alt="" coords="9,229,150,256"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_spanner_segment.html" title="parent: System " alt="" coords="5,155,153,181"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="31,80,127,107"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="14,5,145,32"/>
+</map>

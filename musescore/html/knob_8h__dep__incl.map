@@ -1,0 +1,10 @@
+<map id="awl/knob.h" name="awl/knob.h">
+<area shape="rect" id="node2" href="$volknob_8h.html" title="awl/volknob.h" alt="" coords="373,80,475,107"/>
+<area shape="rect" id="node5" href="$panknob_8h.html" title="awl/panknob.h" alt="" coords="87,80,193,107"/>
+<area shape="rect" id="node7" href="$midipanknob_8h.html" title="awl/midipanknob.h" alt="" coords="217,80,348,107"/>
+<area shape="rect" id="node9" href="$knob_8cpp.html" title="awl/knob.cpp" alt="" coords="500,80,599,107"/>
+<area shape="rect" id="node3" href="$awlplugin_8cpp.html" title="awl/awlplugin.cpp" alt="" coords="149,155,275,181"/>
+<area shape="rect" id="node4" href="$volknob_8cpp.html" title="awl/volknob.cpp" alt="" coords="467,155,583,181"/>
+<area shape="rect" id="node6" href="$panknob_8cpp.html" title="awl/panknob.cpp" alt="" coords="5,155,125,181"/>
+<area shape="rect" id="node8" href="$midipanknob_8cpp.html" title="awl/midipanknob.cpp" alt="" coords="299,155,443,181"/>
+</map>

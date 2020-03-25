@@ -1,0 +1,5 @@
+<map id="Ms::Effect" name="Ms::Effect">
+<area shape="rect" id="node3" href="$class_ms_1_1_compressor.html" title="Ms::Compressor" alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_no_effect.html" title="Ms::NoEffect" alt="" coords="148,155,248,181"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_zita_reverb.html" title="Ms::ZitaReverb" alt="" coords="271,155,383,181"/>
+</map>

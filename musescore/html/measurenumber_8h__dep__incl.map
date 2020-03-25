@@ -1,0 +1,9 @@
+<map id="libmscore/measurenumber.h" name="libmscore/measurenumber.h">
+<area shape="rect" id="node2" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node3" href="$layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="183,80,325,107"/>
+<area shape="rect" id="node4" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="350,80,507,107"/>
+<area shape="rect" id="node5" href="$measurenumber_8cpp.html" title="libmscore/measurenumber.cpp" alt="" coords="531,80,731,107"/>
+<area shape="rect" id="node6" href="$read114_8cpp.html" title="libmscore/read114.cpp" alt="" coords="755,80,908,107"/>
+<area shape="rect" id="node7" href="$read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="932,80,1085,107"/>
+<area shape="rect" id="node8" href="$debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="1109,80,1313,107"/>
+</map>

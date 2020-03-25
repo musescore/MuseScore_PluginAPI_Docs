@@ -1,0 +1,14 @@
+<map id="libmscore/box.h" name="libmscore/box.h">
+<area shape="rect" id="node2" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="128,80,239,107"/>
+<area shape="rect" id="node14" href="$property_8h.html" title="property.h" alt="" coords="263,80,343,107"/>
+<area shape="rect" id="node3" href="$element_8h.html" title="element.h" alt="" coords="144,229,223,256"/>
+<area shape="rect" id="node13" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="177,155,277,181"/>
+<area shape="rect" id="node4" href="$spatium_8h.html" title="spatium.h" alt="" coords="5,304,84,331"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="108,304,184,331"/>
+<area shape="rect" id="node11" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="208,379,321,405"/>
+<area shape="rect" id="node12" href="$shape_8h.html" title="shape.h" alt="" coords="260,304,328,331"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="108,379,184,405"/>
+<area shape="rect" id="node8" href="$style_8h.html" title="style.h" alt="" coords="177,453,238,480"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="158,528,241,555"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="265,528,331,555"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="libmscore/rehearsalmark.h" name="libmscore/rehearsalmark.h">
+<area shape="rect" id="node2" href="$chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="5,80,167,107"/>
+<area shape="rect" id="node3" href="$cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="191,80,323,107"/>
+<area shape="rect" id="node4" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="347,80,500,107"/>
+<area shape="rect" id="node5" href="$read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="524,80,677,107"/>
+<area shape="rect" id="node6" href="$rehearsalmark_8cpp.html" title="libmscore/rehearsalmark.cpp" alt="" coords="702,80,891,107"/>
+<area shape="rect" id="node7" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="915,80,1054,107"/>
+<area shape="rect" id="node8" href="$undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="1079,80,1213,107"/>
+<area shape="rect" id="node9" href="$exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="1237,80,1388,107"/>
+<area shape="rect" id="node10" href="$importgtp-gp4_8cpp.html" title="mscore/importgtp&#45;gp4.cpp" alt="" coords="1413,80,1586,107"/>
+<area shape="rect" id="node11" href="$importgtp-gp5_8cpp.html" title="mscore/importgtp&#45;gp5.cpp" alt="" coords="1610,80,1783,107"/>
+<area shape="rect" id="node12" href="$importgtp-gp6_8cpp.html" title="mscore/importgtp&#45;gp6.cpp" alt="" coords="1807,80,1981,107"/>
+<area shape="rect" id="node13" href="$importgtp_8cpp.html" title="mscore/importgtp.cpp" alt="" coords="2005,80,2153,107"/>
+<area shape="rect" id="node14" href="$importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="2178,80,2375,107"/>
+<area shape="rect" id="node15" href="$importove_8cpp.html" title="mscore/importove.cpp" alt="" coords="2400,80,2551,107"/>
+<area shape="rect" id="node16" href="$importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="2575,80,2723,107"/>
+<area shape="rect" id="node17" href="$masterpalette_8cpp.html" title="mscore/masterpalette.cpp" alt="" coords="2747,80,2921,107"/>
+<area shape="rect" id="node18" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="2945,80,3078,107"/>
+<area shape="rect" id="node19" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="3103,80,3256,107"/>
+<area shape="rect" id="node20" href="$timeline_8cpp.html" title="mscore/timeline.cpp" alt="" coords="3281,80,3419,107"/>
+</map>

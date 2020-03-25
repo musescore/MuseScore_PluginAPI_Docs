@@ -1,0 +1,4 @@
+<map id="Ms::MidiDriver" name="Ms::MidiDriver">
+<area shape="rect" id="node2" href="$class_ms_1_1_alsa_midi_driver.html" title="Ms::AlsaMidiDriver" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_port_midi_driver.html" title="Ms::PortMidiDriver" alt="" coords="163,80,293,107"/>
+</map>

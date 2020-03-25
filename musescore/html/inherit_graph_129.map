@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_ms_1_1_driver.html" title="Ms::Driver" alt="" coords="5,81,88,108"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_alsa_audio.html" title="Ms::AlsaAudio" alt="" coords="140,5,247,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_jack_audio.html" title="Ms::JackAudio" alt="" coords="139,56,248,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_portaudio.html" title="Ms::Portaudio" alt="" coords="142,107,245,133"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_pulse_audio.html" title="Ms::PulseAudio" alt="" coords="136,157,251,184"/>
+</map>

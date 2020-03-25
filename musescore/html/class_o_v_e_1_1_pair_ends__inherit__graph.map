@@ -1,0 +1,10 @@
+<map id="OVE::PairEnds" name="OVE::PairEnds">
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_beam.html" title="OVE::Beam" alt="" coords="191,5,283,32"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_glissando.html" title="OVE::Glissando" alt="" coords="179,56,295,83"/>
+<area shape="rect" id="node4" href="$class_o_v_e_1_1_kuo_hao.html" title="OVE::KuoHao" alt="" coords="185,107,290,133"/>
+<area shape="rect" id="node5" href="$class_o_v_e_1_1_numeric_ending.html" title="OVE::NumericEnding" alt="" coords="164,157,311,184"/>
+<area shape="rect" id="node6" href="$class_o_v_e_1_1_pedal.html" title="OVE::Pedal" alt="" coords="192,208,283,235"/>
+<area shape="rect" id="node7" href="$class_o_v_e_1_1_slur.html" title="OVE::Slur" alt="" coords="197,259,278,285"/>
+<area shape="rect" id="node8" href="$class_o_v_e_1_1_tie.html" title="OVE::Tie" alt="" coords="199,309,275,336"/>
+<area shape="rect" id="node9" href="$class_o_v_e_1_1_tuplet.html" title="OVE::Tuplet" alt="" coords="190,360,285,387"/>
+</map>

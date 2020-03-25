@@ -1,0 +1,11 @@
+<map id="mscore/palette/palettemodel_list.h" name="mscore/palette/palettemodel_list.h">
+<area shape="rect" id="node2" href="$element_8h.html" title="libmscore/element.h" alt="" coords="114,95,253,121"/>
+<area shape="rect" id="node3" href="$spatium_8h.html" title="spatium.h" alt="" coords="5,169,84,196"/>
+<area shape="rect" id="node4" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="108,169,184,196"/>
+<area shape="rect" id="node10" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="208,244,321,271"/>
+<area shape="rect" id="node11" href="$shape_8h.html" title="shape.h" alt="" coords="260,169,328,196"/>
+<area shape="rect" id="node6" href="$mscore_8h.html" title="mscore.h" alt="" coords="108,244,184,271"/>
+<area shape="rect" id="node7" href="$style_8h.html" title="style.h" alt="" coords="177,319,238,345"/>
+<area shape="rect" id="node8" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="158,393,241,420"/>
+<area shape="rect" id="node9" href="$types_8h.html" title="types.h" alt="" coords="265,393,331,420"/>
+</map>

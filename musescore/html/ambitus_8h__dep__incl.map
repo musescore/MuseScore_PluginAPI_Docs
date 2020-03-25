@@ -1,0 +1,10 @@
+<map id="libmscore/ambitus.h" name="libmscore/ambitus.h">
+<area shape="rect" id="node2" href="$ambitus_8cpp.html" title="libmscore/ambitus.cpp" alt="" coords="5,87,159,114"/>
+<area shape="rect" id="node3" href="$clef_8cpp.html" title="Implementation of classes Clef (partial) and ClefList (complete). " alt="" coords="183,87,311,114"/>
+<area shape="rect" id="node4" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="336,87,489,114"/>
+<area shape="rect" id="node5" href="$layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="513,87,656,114"/>
+<area shape="rect" id="node6" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="681,87,838,114"/>
+<area shape="rect" id="node7" href="$read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="863,87,1016,114"/>
+<area shape="rect" id="node8" href="$inspector_ambitus_8cpp.html" title="mscore/inspector/inspector\lAmbitus.cpp" alt="" coords="1041,80,1219,121"/>
+<area shape="rect" id="node9" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1243,87,1377,114"/>
+</map>

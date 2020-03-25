@@ -1,0 +1,11 @@
+<map id="mscore/extension.h" name="mscore/extension.h">
+<area shape="rect" id="node2" href="$fluid_8cpp.html" title="fluid/fluid.cpp" alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$extension_8cpp.html" title="mscore/extension.cpp" alt="" coords="129,80,279,107"/>
+<area shape="rect" id="node4" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="303,80,414,107"/>
+<area shape="rect" id="node5" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="438,80,597,107"/>
+<area shape="rect" id="node6" href="$newwizard_8cpp.html" title="mscore/newwizard.cpp" alt="" coords="621,80,777,107"/>
+<area shape="rect" id="node7" href="$resource_manager_8cpp.html" title="mscore/resourceManager.cpp" alt="" coords="801,80,996,107"/>
+<area shape="rect" id="node8" href="$updatechecker_8cpp.html" title="mscore/updatechecker.cpp" alt="" coords="1020,80,1199,107"/>
+<area shape="rect" id="node9" href="$workspace_8cpp.html" title="mscore/workspace.cpp" alt="" coords="1223,80,1380,107"/>
+<area shape="rect" id="node10" href="$zerberusgui_8cpp.html" title="zerberus/zerberusgui.cpp" alt="" coords="1404,80,1572,107"/>
+</map>

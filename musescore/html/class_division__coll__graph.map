@@ -1,0 +1,8 @@
+<map id="Division" name="Division">
+<area shape="rect" id="node2" href="$class_rankwave.html" title="Rankwave" alt="" coords="57,228,141,255"/>
+<area shape="rect" id="node3" href="$class_pipewave.html" title="Pipewave" alt="" coords="5,95,84,121"/>
+<area shape="rect" id="node4" href="$class_rngen.html" title="Rngen" alt="" coords="15,5,75,32"/>
+<area shape="rect" id="node5" href="$class_asection.html" title="Asection" alt="" coords="184,228,257,255"/>
+<area shape="rect" id="node6" href="$class_synti_parameter.html" title="SyntiParameter" alt="" coords="165,95,277,121"/>
+<area shape="rect" id="node7" href="$class_diffuser.html" title="Diffuser" alt="" coords="300,95,368,121"/>
+</map>

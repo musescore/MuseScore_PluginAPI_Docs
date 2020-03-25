@@ -1,0 +1,5 @@
+<map id="Awl::MeterSlider" name="Awl::MeterSlider">
+<area shape="rect" id="node2" href="$class_awl_1_1_vol_slider.html" title="Volume Slider entry widget. " alt="" coords="21,229,125,256"/>
+<area shape="rect" id="node3" href="$class_awl_1_1_slider.html" title="Base class of all slider type input widgets. " alt="" coords="30,155,115,181"/>
+<area shape="rect" id="node4" href="$class_awl_1_1_abstract_slider.html" title="The AwlAbstractSlider class provides an double value within a range. " alt="" coords="5,80,140,107"/>
+</map>

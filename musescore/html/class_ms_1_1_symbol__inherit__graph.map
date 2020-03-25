@@ -1,0 +1,8 @@
+<map id="Ms::Symbol" name="Ms::Symbol">
+<area shape="rect" id="node5" href="$class_ms_1_1_hook.html" title="Ms::Hook" alt="" coords="5,304,84,331"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_note_head.html" title="Ms::NoteHead" alt="" coords="109,304,215,331"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_system_divider.html" title="Ms::SystemDivider" alt="" coords="240,304,375,331"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_b_symbol.html" title="base class for Symbol and Image " alt="" coords="111,155,213,181"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="114,80,210,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="97,5,227,32"/>
+</map>

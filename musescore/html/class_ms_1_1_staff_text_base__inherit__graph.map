@@ -1,0 +1,7 @@
+<map id="Ms::StaffTextBase" name="Ms::StaffTextBase">
+<area shape="rect" id="node5" href="$class_ms_1_1_staff_text.html" title="Ms::StaffText" alt="" coords="5,304,108,331"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_system_text.html" title="Ms::SystemText" alt="" coords="132,304,251,331"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_text_base.html" title="Ms::TextBase" alt="" coords="71,155,175,181"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_element.html" title="Base class of score layout elements. " alt="" coords="75,80,171,107"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_score_element.html" title="Ms::ScoreElement" alt="" coords="58,5,189,32"/>
+</map>

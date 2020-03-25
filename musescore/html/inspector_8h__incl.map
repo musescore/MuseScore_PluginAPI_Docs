@@ -1,0 +1,9 @@
+<map id="mscore/inspector/inspector.h" name="mscore/inspector/inspector.h">
+<area shape="rect" id="node2" href="$inspector_base_8h.html" title="inspectorBase.h" alt="" coords="95,229,211,256"/>
+<area shape="rect" id="node8" href="$inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="191,155,355,181"/>
+<area shape="rect" id="node10" href="$inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="264,80,407,107"/>
+<area shape="rect" id="node3" href="$property_8h.html" title="libmscore/property.h" alt="" coords="5,304,145,331"/>
+<area shape="rect" id="node4" href="$style_8h.html" title="libmscore/style.h" alt="" coords="169,304,291,331"/>
+<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="139,379,222,405"/>
+<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="247,379,312,405"/>
+</map>

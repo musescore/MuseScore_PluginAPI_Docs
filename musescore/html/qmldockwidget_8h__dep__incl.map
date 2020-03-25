@@ -1,0 +1,10 @@
+<map id="mscore/qmldockwidget.h" name="mscore/qmldockwidget.h">
+<area shape="rect" id="node2" href="$palettewidget_8h.html" title="mscore/palette/palettewidget.h" alt="" coords="353,80,553,107"/>
+<area shape="rect" id="node8" href="$qmldockwidget_8cpp.html" title="mscore/qmldockwidget.cpp" alt="" coords="577,80,759,107"/>
+<area shape="rect" id="node9" href="$tourhandler_8cpp.html" title="mscore/tourhandler.cpp" alt="" coords="783,80,942,107"/>
+<area shape="rect" id="node3" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node4" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="163,155,322,181"/>
+<area shape="rect" id="node5" href="$palettewidget_8cpp.html" title="mscore/palette/palettewidget.cpp" alt="" coords="346,155,561,181"/>
+<area shape="rect" id="node6" href="$paletteworkspace_8cpp.html" title="mscore/palette/paletteworkspace.cpp" alt="" coords="585,155,823,181"/>
+<area shape="rect" id="node7" href="$selectionwindow_8cpp.html" title="mscore/selectionwindow.cpp" alt="" coords="847,155,1038,181"/>
+</map>

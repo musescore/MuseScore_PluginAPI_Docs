@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_ms_1_1_chord_view.html" title="Ms::ChordView" alt="" coords="171,5,283,32"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_drum_view.html" title="Ms::DrumView" alt="" coords="173,56,282,83"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_h_piano.html" title="Ms::HPiano" alt="" coords="182,107,273,133"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_piano_view.html" title="Ms::PianoView" alt="" coords="172,157,283,184"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_timeline.html" title="Ms::Timeline" alt="" coords="179,208,276,235"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_t_row_labels.html" title="Ms::TRowLabels" alt="" coords="167,259,288,285"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="Voice" name="Voice">
+<area shape="rect" id="node3" href="$class_zerberus.html" title="Zerberus" alt="" coords="388,288,461,315"/>
+<area shape="rect" id="node2" href="$class_z_filter.html" title="ZFilter" alt="" coords="41,392,99,419"/>
+<area shape="rect" id="node8" href="$class_channel.html" title="Channel" alt="" coords="363,481,433,508"/>
+<area shape="rect" id="node9" href="$class_z_instrument.html" title="ZInstrument" alt="" coords="415,392,507,419"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_synthesizer.html" title="Ms::Synthesizer" alt="" coords="577,199,694,225"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_synthesizer_gui.html" title="Ms::SynthesizerGui" alt="" coords="627,288,764,315"/>
+<area shape="rect" id="node7" href="$class_voice_fifo.html" title="VoiceFifo" alt="" coords="466,199,543,225"/>
+<area shape="rect" id="node10" href="$struct_z_filter_1_1_filter_data.html" title="ZFilter::FilterData" alt="" coords="96,288,220,315"/>
+<area shape="rect" id="node11" href="$struct_zone.html" title="Zone" alt="" coords="14,95,65,121"/>
+<area shape="rect" id="node12" href="$class_sample.html" title="Sample" alt="" coords="6,5,73,32"/>
+<area shape="rect" id="node13" href="$struct_phase.html" title="Phase" alt="" coords="182,95,241,121"/>
+<area shape="rect" id="node14" href="$struct_envelope.html" title="Envelope" alt="" coords="265,95,341,121"/>
+</map>

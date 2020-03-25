@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['gen_5fmaxvalid',['Gen_MaxValid',['../sfont_8h.html#a9a48d920d500fefaaefc038fecb42987',1,'sfont.h']]],
+  ['gint16_5ffrom_5fbe',['GINT16_FROM_BE',['../sfont_8h.html#a97fa90d013cc311466672e362b0c904c',1,'sfont.h']]],
+  ['gint16_5ffrom_5fle',['GINT16_FROM_LE',['../sfont_8h.html#a46c2dfcc738bbea1fea529b540d16012',1,'sfont.h']]],
+  ['gint16_5fto_5fbe',['GINT16_TO_BE',['../sfont_8h.html#a5564354888834794f9d07bc4bc730ef8',1,'sfont.h']]],
+  ['gint16_5fto_5fle',['GINT16_TO_LE',['../sfont_8h.html#adf8f209df70c05d46ed09d62f03d1726',1,'sfont.h']]],
+  ['gint32_5ffrom_5fbe',['GINT32_FROM_BE',['../sfont_8h.html#a4250a8cd80f7ed86192c2085eb9962c9',1,'sfont.h']]],
+  ['gint32_5ffrom_5fle',['GINT32_FROM_LE',['../sfont_8h.html#a8b3e30de757f716ee11b0f6cabeac017',1,'sfont.h']]],
+  ['gint32_5fto_5fbe',['GINT32_TO_BE',['../sfont_8h.html#aa0eb387835e5736e9113eef699bede0b',1,'sfont.h']]],
+  ['gint32_5fto_5fle',['GINT32_TO_LE',['../sfont_8h.html#ad4ef060c76800084197e3e4871c3443f',1,'sfont.h']]],
+  ['guint16_5ffrom_5fbe',['GUINT16_FROM_BE',['../sfont_8h.html#a8c8a46ef608a602209f738135eb13ec2',1,'sfont.h']]],
+  ['guint16_5ffrom_5fle',['GUINT16_FROM_LE',['../sfont_8h.html#a2acfa00e5e6ba4a0dfb55607d32bef23',1,'sfont.h']]],
+  ['guint16_5fswap_5fle_5fbe',['GUINT16_SWAP_LE_BE',['../sfont_8h.html#afaf639f462ce5f4cf00211f02d94927a',1,'sfont.h']]],
+  ['guint16_5fswap_5fle_5fbe_5fconstant',['GUINT16_SWAP_LE_BE_CONSTANT',['../sfont_8h.html#a1a771a95e430b4cced1da73f32928aa1',1,'sfont.h']]],
+  ['guint16_5fto_5fbe',['GUINT16_TO_BE',['../sfont_8h.html#aeb7697bef21435b4670ddd71ae1eb8f3',1,'sfont.h']]],
+  ['guint16_5fto_5fle',['GUINT16_TO_LE',['../sfont_8h.html#a8f5362cab1ada7f8389b12a0d09ebcea',1,'sfont.h']]],
+  ['guint32_5ffrom_5fbe',['GUINT32_FROM_BE',['../sfont_8h.html#a99e849ab5fa004c37e87f134d7291f8f',1,'sfont.h']]],
+  ['guint32_5ffrom_5fle',['GUINT32_FROM_LE',['../sfont_8h.html#a34e25cc4240e9ee39d5b114dd9c3516d',1,'sfont.h']]],
+  ['guint32_5fswap_5fle_5fbe',['GUINT32_SWAP_LE_BE',['../sfont_8h.html#a747ee7edd5b934de04cc7fdbd9a29241',1,'sfont.h']]],
+  ['guint32_5fswap_5fle_5fbe_5fconstant',['GUINT32_SWAP_LE_BE_CONSTANT',['../sfont_8h.html#a5717cdd61fccfa658c733ee8f2d37cac',1,'sfont.h']]],
+  ['guint32_5fto_5fbe',['GUINT32_TO_BE',['../sfont_8h.html#ac42c8f0b82e5e7f72a490284e01a5a66',1,'sfont.h']]],
+  ['guint32_5fto_5fle',['GUINT32_TO_LE',['../sfont_8h.html#a7d02649ee8a6b626b3aeb72bc0e973ed',1,'sfont.h']]]
+];

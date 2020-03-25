@@ -1,0 +1,11 @@
+<map id="mscore/inspector/inspectorTremoloBar.h" name="mscore/inspector/inspectorTremoloBar.h">
+<area shape="rect" id="node2" href="$inspector_8h.html" title="inspector.h" alt="" coords="2629,95,2716,121"/>
+<area shape="rect" id="node43" href="$pitchvalue_8h.html" title="libmscore/pitchvalue.h" alt="" coords="2935,95,3087,121"/>
+<area shape="rect" id="node3" href="$inspector_base_8h.html" title="inspectorBase.h" alt="" coords="95,319,211,345"/>
+<area shape="rect" id="node9" href="$inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="191,244,355,271"/>
+<area shape="rect" id="node11" href="$inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="264,169,407,196"/>
+<area shape="rect" id="node4" href="$property_8h.html" title="libmscore/property.h" alt="" coords="5,393,145,420"/>
+<area shape="rect" id="node5" href="$style_8h.html" title="libmscore/style.h" alt="" coords="169,393,291,420"/>
+<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="139,468,222,495"/>
+<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="247,468,312,495"/>
+</map>

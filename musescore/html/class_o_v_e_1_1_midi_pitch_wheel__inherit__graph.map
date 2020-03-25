@@ -1,0 +1,4 @@
+<map id="OVE::MidiPitchWheel" name="OVE::MidiPitchWheel">
+<area shape="rect" id="node2" href="$class_o_v_e_1_1_midi_data.html" title="OVE::MidiData" alt="" coords="25,80,135,107"/>
+<area shape="rect" id="node3" href="$class_o_v_e_1_1_tick_element.html" title="OVE::TickElement" alt="" coords="15,5,145,32"/>
+</map>

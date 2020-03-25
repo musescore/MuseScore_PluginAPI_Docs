@@ -1,0 +1,1 @@
+MuseScore_PluginAPI_Docs

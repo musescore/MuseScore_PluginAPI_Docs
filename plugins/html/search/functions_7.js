@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['metatag',['metaTag',['../class_ms_1_1_plugin_a_p_i_1_1_score.html#aa5a03a2f8872b6e501046d5ef6eac3b7',1,'Ms::PluginAPI::Score']]],
-  ['modifiedtime',['modifiedTime',['../class_ms_1_1_plugin_a_p_i_1_1_file_i_o.html#ac1132cfec6f920d0e6f233e7f470fa7e',1,'Ms::PluginAPI::FileIO']]]
+  ['instrumentattick',['instrumentAtTick',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#a1f3621d158e4ff14e29a5f2abe3da35c',1,'Ms::PluginAPI::Part']]],
+  ['is',['is',['../class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#a2e2f6e9aa3a93903f908e1948b586a17',1,'Ms::PluginAPI::Excerpt::is()'],['../class_ms_1_1_plugin_a_p_i_1_1_instrument.html#a42028f799803a6235fd3d7cfa52ad5ae',1,'Ms::PluginAPI::Instrument::is()'],['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a1e927b19c2df8bbf42356944eda5eb19',1,'Ms::PluginAPI::ScoreElement::is()']]]
 ];

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.5</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -78,15 +78,11 @@ $(function() {
 Inheritance diagram for Beam:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_beam__inherit__graph.png" border="0" usemap="#_beam_inherit__map" alt="Inheritance graph"/></div>
-<map name="_beam_inherit__map" id="_beam_inherit__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Beam:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_beam__coll__graph.png" border="0" usemap="#_beam_coll__map" alt="Collaboration graph"/></div>
-<map name="_beam_coll__map" id="_beam_coll__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -113,50 +109,53 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8619a2cae4b64d7a0ed22910e514a00c"><td class="memItemLeft" align="right" valign="top"><a id="a8619a2cae4b64d7a0ed22910e514a00c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Beam</b> (const <a class="el" href="class_ms_1_1_beam.html">Beam</a> &amp;)</td></tr>
 <tr class="separator:a8619a2cae4b64d7a0ed22910e514a00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5458e4d542d9abda44307000ac319ab1"><td class="memItemLeft" align="right" valign="top"><a id="a5458e4d542d9abda44307000ac319ab1"></a>
-virtual <a class="el" href="class_ms_1_1_beam.html">Beam</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>clone</b> () const override</td></tr>
-<tr class="separator:a5458e4d542d9abda44307000ac319ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55bfa9004276d780d86f331af56b4232"><td class="memItemLeft" align="right" valign="top"><a id="a55bfa9004276d780d86f331af56b4232"></a>
-virtual <a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01ae">ElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const override</td></tr>
-<tr class="separator:a55bfa9004276d780d86f331af56b4232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee0fd20d552c104d79c8ed86c6c537e"><td class="memItemLeft" align="right" valign="top"><a id="a1ee0fd20d552c104d79c8ed86c6c537e"></a>
-virtual QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_beam.html#a1ee0fd20d552c104d79c8ed86c6c537e">pagePos</a> () const override</td></tr>
-<tr class="memdesc:a1ee0fd20d552c104d79c8ed86c6c537e"><td class="mdescLeft">&#160;</td><td class="mdescRight">position in page coordinates <br /></td></tr>
-<tr class="separator:a1ee0fd20d552c104d79c8ed86c6c537e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9974ddd15f8fd92ad57add627e2c0c9c"><td class="memItemLeft" align="right" valign="top"><a id="a9974ddd15f8fd92ad57add627e2c0c9c"></a>
-virtual QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_beam.html#a9974ddd15f8fd92ad57add627e2c0c9c">canvasPos</a> () const override</td></tr>
-<tr class="memdesc:a9974ddd15f8fd92ad57add627e2c0c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">position in page coordinates <br /></td></tr>
-<tr class="separator:a9974ddd15f8fd92ad57add627e2c0c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3daa6a2eaa1e837a9d259a26d992cbd"><td class="memItemLeft" align="right" valign="top"><a id="ab3daa6a2eaa1e837a9d259a26d992cbd"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEditable</b> () const override</td></tr>
-<tr class="separator:ab3daa6a2eaa1e837a9d259a26d992cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1e3b73cf73e5683959d09f9216f56b"><td class="memItemLeft" align="right" valign="top"><a id="ade1e3b73cf73e5683959d09f9216f56b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>startEdit</b> (EditData &amp;) override</td></tr>
-<tr class="separator:ade1e3b73cf73e5683959d09f9216f56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28fcabcd571c07321cf8167f1f142dd6"><td class="memItemLeft" align="right" valign="top"><a id="a28fcabcd571c07321cf8167f1f142dd6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endEdit</b> (EditData &amp;) override</td></tr>
-<tr class="separator:a28fcabcd571c07321cf8167f1f142dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd6216041ce5a78890806902bdd86f01"><td class="memItemLeft" align="right" valign="top"><a id="acd6216041ce5a78890806902bdd86f01"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>editDrag</b> (EditData &amp;) override</td></tr>
-<tr class="separator:acd6216041ce5a78890806902bdd86f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4285251b423523fbea3be46e407aae64"><td class="memItemLeft" align="right" valign="top"><a id="a4285251b423523fbea3be46e407aae64"></a>
-virtual Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>tick</b> () const override</td></tr>
-<tr class="separator:a4285251b423523fbea3be46e407aae64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7d8e157f7d7e741232560d15a910bce"><td class="memItemLeft" align="right" valign="top"><a id="ae7d8e157f7d7e741232560d15a910bce"></a>
-virtual Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>rtick</b> () const override</td></tr>
-<tr class="separator:ae7d8e157f7d7e741232560d15a910bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fd8ffb482ad309aee31cf0a90589014"><td class="memItemLeft" align="right" valign="top"><a id="a5fd8ffb482ad309aee31cf0a90589014"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (XmlWriter &amp;xml) const override</td></tr>
-<tr class="separator:a5fd8ffb482ad309aee31cf0a90589014"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0495a984448f7dbd10491eddb0ee60"><td class="memItemLeft" align="right" valign="top"><a id="a8c0495a984448f7dbd10491eddb0ee60"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (XmlReader &amp;) override</td></tr>
-<tr class="separator:a8c0495a984448f7dbd10491eddb0ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448cb4b9d67e990afa0b951821516b32"><td class="memItemLeft" align="right" valign="top"><a id="a448cb4b9d67e990afa0b951821516b32"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>spatiumChanged</b> (qreal, qreal) override</td></tr>
-<tr class="separator:a448cb4b9d67e990afa0b951821516b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b960a536c58146680bbb937653bd6bc"><td class="memItemLeft" align="right" valign="top"><a id="a9b960a536c58146680bbb937653bd6bc"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () override</td></tr>
-<tr class="separator:a9b960a536c58146680bbb937653bd6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d12745c28ca4f6ea05e4bd245a3e57"><td class="memItemLeft" align="right" valign="top"><a id="a25d12745c28ca4f6ea05e4bd245a3e57"></a>
+<a class="el" href="class_ms_1_1_beam.html">Beam</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>clone</b> () const override</td></tr>
+<tr class="separator:a25d12745c28ca4f6ea05e4bd245a3e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197991d633bebf9f1361494b70ab8de2"><td class="memItemLeft" align="right" valign="top"><a id="a197991d633bebf9f1361494b70ab8de2"></a>
+<a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01ae">ElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const override</td></tr>
+<tr class="separator:a197991d633bebf9f1361494b70ab8de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400740140d89ed8f65056ca8a071579c"><td class="memItemLeft" align="right" valign="top"><a id="a400740140d89ed8f65056ca8a071579c"></a>
+QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_beam.html#a400740140d89ed8f65056ca8a071579c">pagePos</a> () const override</td></tr>
+<tr class="memdesc:a400740140d89ed8f65056ca8a071579c"><td class="mdescLeft">&#160;</td><td class="mdescRight">position in page coordinates <br /></td></tr>
+<tr class="separator:a400740140d89ed8f65056ca8a071579c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7311b89da1145444c19f06f72a50ceb0"><td class="memItemLeft" align="right" valign="top"><a id="a7311b89da1145444c19f06f72a50ceb0"></a>
+QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_beam.html#a7311b89da1145444c19f06f72a50ceb0">canvasPos</a> () const override</td></tr>
+<tr class="memdesc:a7311b89da1145444c19f06f72a50ceb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">position in page coordinates <br /></td></tr>
+<tr class="separator:a7311b89da1145444c19f06f72a50ceb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e63ba0f8a637bb954860e629e4bcc85"><td class="memItemLeft" align="right" valign="top"><a id="a6e63ba0f8a637bb954860e629e4bcc85"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEditable</b> () const override</td></tr>
+<tr class="separator:a6e63ba0f8a637bb954860e629e4bcc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ce75cb1a8213c7a0a5b2ace44c688c"><td class="memItemLeft" align="right" valign="top"><a id="ad2ce75cb1a8213c7a0a5b2ace44c688c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>startEdit</b> (EditData &amp;) override</td></tr>
+<tr class="separator:ad2ce75cb1a8213c7a0a5b2ace44c688c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12370432fc60e7a95011ef9270d4fbeb"><td class="memItemLeft" align="right" valign="top"><a id="a12370432fc60e7a95011ef9270d4fbeb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>endEdit</b> (EditData &amp;) override</td></tr>
+<tr class="separator:a12370432fc60e7a95011ef9270d4fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8524abfc9739ab3c46f17a0e4c1c0aa9"><td class="memItemLeft" align="right" valign="top"><a id="a8524abfc9739ab3c46f17a0e4c1c0aa9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>editDrag</b> (EditData &amp;) override</td></tr>
+<tr class="separator:a8524abfc9739ab3c46f17a0e4c1c0aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68343985cbf9bff4a1a8ebd1789b6715"><td class="memItemLeft" align="right" valign="top"><a id="a68343985cbf9bff4a1a8ebd1789b6715"></a>
+Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>tick</b> () const override</td></tr>
+<tr class="separator:a68343985cbf9bff4a1a8ebd1789b6715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033dc7e4ce027204869bc8a6e2fac3ef"><td class="memItemLeft" align="right" valign="top"><a id="a033dc7e4ce027204869bc8a6e2fac3ef"></a>
+Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>rtick</b> () const override</td></tr>
+<tr class="separator:a033dc7e4ce027204869bc8a6e2fac3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd6a21fbf948b9a65bbcd9162b6c800"><td class="memItemLeft" align="right" valign="top"><a id="affd6a21fbf948b9a65bbcd9162b6c800"></a>
+Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>ticks</b> () const</td></tr>
+<tr class="separator:affd6a21fbf948b9a65bbcd9162b6c800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50687905a11a2c63a134a1f2e676962"><td class="memItemLeft" align="right" valign="top"><a id="ab50687905a11a2c63a134a1f2e676962"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (XmlWriter &amp;xml) const override</td></tr>
+<tr class="separator:ab50687905a11a2c63a134a1f2e676962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8649007a82bd63b80d7b57e08a5b880"><td class="memItemLeft" align="right" valign="top"><a id="ab8649007a82bd63b80d7b57e08a5b880"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (XmlReader &amp;) override</td></tr>
+<tr class="separator:ab8649007a82bd63b80d7b57e08a5b880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9e76d5734a27f86b7b15f027da2fea"><td class="memItemLeft" align="right" valign="top"><a id="a6c9e76d5734a27f86b7b15f027da2fea"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spatiumChanged</b> (qreal, qreal) override</td></tr>
+<tr class="separator:a6c9e76d5734a27f86b7b15f027da2fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfcdbbd0fe4efbff10b180be50ca6bc"><td class="memItemLeft" align="right" valign="top"><a id="aebfcdbbd0fe4efbff10b180be50ca6bc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () override</td></tr>
+<tr class="separator:aebfcdbbd0fe4efbff10b180be50ca6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa418fd20e79af588a407b6f26b547522"><td class="memItemLeft" align="right" valign="top"><a id="aa418fd20e79af588a407b6f26b547522"></a>
 System *&#160;</td><td class="memItemRight" valign="bottom"><b>system</b> () const</td></tr>
 <tr class="separator:aa418fd20e79af588a407b6f26b547522"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,18 +180,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const</t
 <tr class="memitem:a1731db956c7afdfdf1f44bee731dee6f"><td class="memItemLeft" align="right" valign="top"><a id="a1731db956c7afdfdf1f44bee731dee6f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>contains</b> (const <a class="el" href="namespace_ms.html#a45f8c604b4008a278fe9bde5156489eea7884fad7b22d960efd4e9d84e61e7fe0">ChordRest</a> *cr) const</td></tr>
 <tr class="separator:a1731db956c7afdfdf1f44bee731dee6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35bb1b12b09ec70655fc473d222c8531"><td class="memItemLeft" align="right" valign="top"><a id="a35bb1b12b09ec70655fc473d222c8531"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (Element *) override</td></tr>
-<tr class="separator:a35bb1b12b09ec70655fc473d222c8531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9356c0abea03afff952f77e96c295588"><td class="memItemLeft" align="right" valign="top"><a id="a9356c0abea03afff952f77e96c295588"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (Element *) override</td></tr>
-<tr class="separator:a9356c0abea03afff952f77e96c295588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79dda3e55ae94af9be3bf8f4020ed244"><td class="memItemLeft" align="right" valign="top"><a id="a79dda3e55ae94af9be3bf8f4020ed244"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (const QPointF &amp;) override</td></tr>
-<tr class="separator:a79dda3e55ae94af9be3bf8f4020ed244"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae93ddac379555e12dacbe7dbe26b464a"><td class="memItemLeft" align="right" valign="top"><a id="ae93ddac379555e12dacbe7dbe26b464a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (QPainter *) const override</td></tr>
-<tr class="separator:ae93ddac379555e12dacbe7dbe26b464a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b938dd9a616d9c7b2d50a17381c2b5"><td class="memItemLeft" align="right" valign="top"><a id="af1b938dd9a616d9c7b2d50a17381c2b5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (Element *) override</td></tr>
+<tr class="separator:af1b938dd9a616d9c7b2d50a17381c2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a45a7cbd14515e3415d6dce750b894"><td class="memItemLeft" align="right" valign="top"><a id="ab1a45a7cbd14515e3415d6dce750b894"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (Element *) override</td></tr>
+<tr class="separator:ab1a45a7cbd14515e3415d6dce750b894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c123df9a8efe58e989659448e122ab8"><td class="memItemLeft" align="right" valign="top"><a id="a3c123df9a8efe58e989659448e122ab8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (const QPointF &amp;) override</td></tr>
+<tr class="separator:a3c123df9a8efe58e989659448e122ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245dc8dd3fccc4216e7a1f7468809bd5"><td class="memItemLeft" align="right" valign="top"><a id="a245dc8dd3fccc4216e7a1f7468809bd5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (QPainter *) const override</td></tr>
+<tr class="separator:a245dc8dd3fccc4216e7a1f7468809bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aaec85d1186c00f69d97b615e532efb"><td class="memItemLeft" align="right" valign="top"><a id="a3aaec85d1186c00f69d97b615e532efb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>up</b> () const</td></tr>
 <tr class="separator:a3aaec85d1186c00f69d97b615e532efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,12 +216,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setBeamDirection</b> 
 <tr class="memitem:aaae1fe1ad5fc96cd6a57714ad11906ea"><td class="memItemLeft" align="right" valign="top"><a id="aaae1fe1ad5fc96cd6a57714ad11906ea"></a>
 <a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><b>beamDirection</b> () const</td></tr>
 <tr class="separator:aaae1fe1ad5fc96cd6a57714ad11906ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb58ca9fdfdf3c5fa458ea0a76c49fc1"><td class="memItemLeft" align="right" valign="top"><a id="aeb58ca9fdfdf3c5fa458ea0a76c49fc1"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>acceptDrop</b> (EditData &amp;) const override</td></tr>
-<tr class="separator:aeb58ca9fdfdf3c5fa458ea0a76c49fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c7e0549a12b1dda508cd5370c83dd39"><td class="memItemLeft" align="right" valign="top"><a id="a7c7e0549a12b1dda508cd5370c83dd39"></a>
-virtual Element *&#160;</td><td class="memItemRight" valign="bottom"><b>drop</b> (EditData &amp;) override</td></tr>
-<tr class="separator:a7c7e0549a12b1dda508cd5370c83dd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace28c1ba897c87aab6375966708c6d1c"><td class="memItemLeft" align="right" valign="top"><a id="ace28c1ba897c87aab6375966708c6d1c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>acceptDrop</b> (EditData &amp;) const override</td></tr>
+<tr class="separator:ace28c1ba897c87aab6375966708c6d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c29e40a546aef53ce29ec227333de4"><td class="memItemLeft" align="right" valign="top"><a id="a74c29e40a546aef53ce29ec227333de4"></a>
+Element *&#160;</td><td class="memItemRight" valign="bottom"><b>drop</b> (EditData &amp;) override</td></tr>
+<tr class="separator:a74c29e40a546aef53ce29ec227333de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30dc642382a4fbbb031fe9d1ab61f2cd"><td class="memItemLeft" align="right" valign="top"><a id="a30dc642382a4fbbb031fe9d1ab61f2cd"></a>
 qreal&#160;</td><td class="memItemRight" valign="bottom"><b>growLeft</b> () const</td></tr>
 <tr class="separator:a30dc642382a4fbbb031fe9d1ab61f2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,15 +255,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setBeamPos</b> (const
 <tr class="memitem:a95af6b6170ab662ffa00d4e572046c85"><td class="memItemLeft" align="right" valign="top"><a id="a95af6b6170ab662ffa00d4e572046c85"></a>
 qreal&#160;</td><td class="memItemRight" valign="bottom"><b>beamDist</b> () const</td></tr>
 <tr class="separator:a95af6b6170ab662ffa00d4e572046c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb73c68991fc148299232587c9ea9f15"><td class="memItemLeft" align="right" valign="top"><a id="adb73c68991fc148299232587c9ea9f15"></a>
-virtual QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>getProperty</b> (Pid propertyId) const override</td></tr>
-<tr class="separator:adb73c68991fc148299232587c9ea9f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e76ff31beca97d6646f6da5b91a00d3"><td class="memItemLeft" align="right" valign="top"><a id="a6e76ff31beca97d6646f6da5b91a00d3"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>setProperty</b> (Pid propertyId, const QVariant &amp;) override</td></tr>
-<tr class="separator:a6e76ff31beca97d6646f6da5b91a00d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec898ed71a73d49721c794c8e1930443"><td class="memItemLeft" align="right" valign="top"><a id="aec898ed71a73d49721c794c8e1930443"></a>
-virtual QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>propertyDefault</b> (Pid id) const override</td></tr>
-<tr class="separator:aec898ed71a73d49721c794c8e1930443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e7dbc3d55d39c764df18bd2ab23263"><td class="memItemLeft" align="right" valign="top"><a id="aa0e7dbc3d55d39c764df18bd2ab23263"></a>
+QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>getProperty</b> (Pid propertyId) const override</td></tr>
+<tr class="separator:aa0e7dbc3d55d39c764df18bd2ab23263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1783c7a8a816ac5819169edfa54926b"><td class="memItemLeft" align="right" valign="top"><a id="aa1783c7a8a816ac5819169edfa54926b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>setProperty</b> (Pid propertyId, const QVariant &amp;) override</td></tr>
+<tr class="separator:aa1783c7a8a816ac5819169edfa54926b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4d37fa65fd8e83fc11d4ff6032021a"><td class="memItemLeft" align="right" valign="top"><a id="a3a4d37fa65fd8e83fc11d4ff6032021a"></a>
+QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>propertyDefault</b> (Pid id) const override</td></tr>
+<tr class="separator:a3a4d37fa65fd8e83fc11d4ff6032021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3453b9ef2dffb12a4d8dff04a7b912b"><td class="memItemLeft" align="right" valign="top"><a id="ab3453b9ef2dffb12a4d8dff04a7b912b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isGrace</b> () const</td></tr>
 <tr class="separator:ab3453b9ef2dffb12a4d8dff04a7b912b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,9 +273,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>cross</b> () const</t
 <tr class="memitem:a2faee07d7e122e2b66724e297597f9b7"><td class="memItemLeft" align="right" valign="top"><a id="a2faee07d7e122e2b66724e297597f9b7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addSkyline</b> (Skyline &amp;)</td></tr>
 <tr class="separator:a2faee07d7e122e2b66724e297597f9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1b6ece49526078db4e8471f4123c9ee"><td class="memItemLeft" align="right" valign="top"><a id="ad1b6ece49526078db4e8471f4123c9ee"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>triggerLayout</b> () const override</td></tr>
-<tr class="separator:ad1b6ece49526078db4e8471f4123c9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832aba147fb94f7dc199e9b420b4864b"><td class="memItemLeft" align="right" valign="top"><a id="a832aba147fb94f7dc199e9b420b4864b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>triggerLayout</b> () const override</td></tr>
+<tr class="separator:a832aba147fb94f7dc199e9b420b4864b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2929e02259d3a5d44bde0c5e1f59952"><td class="memItemLeft" align="right" valign="top"><a id="aa2929e02259d3a5d44bde0c5e1f59952"></a>
 EditBehavior&#160;</td><td class="memItemRight" valign="bottom"><b>normalModeEditBehavior</b> () const override</td></tr>
 <tr class="separator:aa2929e02259d3a5d44bde0c5e1f59952"><td class="memSeparator" colspan="2">&#160;</td></tr>

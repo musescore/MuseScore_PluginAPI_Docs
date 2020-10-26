@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['part',['Part',['../class_ms_1_1_plugin_a_p_i_1_1_part.html',1,'Ms::PluginAPI']]],
-  ['playevent',['PlayEvent',['../class_ms_1_1_plugin_a_p_i_1_1_play_event.html',1,'Ms::PluginAPI']]],
-  ['pluginapi',['PluginAPI',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html',1,'Ms::PluginAPI']]]
+  ['measure',['Measure',['../class_ms_1_1_plugin_a_p_i_1_1_measure.html',1,'Ms::PluginAPI']]],
+  ['mscore',['MScore',['../class_ms_1_1_m_score.html',1,'Ms']]],
+  ['msprocess',['MsProcess',['../class_ms_1_1_plugin_a_p_i_1_1_ms_process.html',1,'Ms::PluginAPI']]],
+  ['mstyle',['MStyle',['../class_ms_1_1_plugin_a_p_i_1_1_m_style.html',1,'Ms::PluginAPI']]]
 ];

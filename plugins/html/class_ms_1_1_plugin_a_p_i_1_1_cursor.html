@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.5</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -81,15 +81,11 @@ $(function() {
 Inheritance diagram for Cursor:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_plugin_a_p_i_1_1_cursor__inherit__graph.png" border="0" usemap="#_cursor_inherit__map" alt="Inheritance graph"/></div>
-<map name="_cursor_inherit__map" id="_cursor_inherit__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Cursor:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_plugin_a_p_i_1_1_cursor__coll__graph.png" border="0" usemap="#_cursor_coll__map" alt="Collaboration graph"/></div>
-<map name="_cursor_coll__map" id="_cursor_coll__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -99,12 +95,19 @@ Public Types</h2></td></tr>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a44441ecb09579acd4a2a27bd8c96b704abaf4793c5487ed4663ae151cb4d5e03f">SELECTION_END</a> = 2
  }</td></tr>
 <tr class="separator:a44441ecb09579acd4a2a27bd8c96b704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac35472d797216e44941e3516d392680a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680a">InputStateMode</a> { <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680aa5aff8645579d40ef83bfb84b6e8705bf">INPUT_STATE_INDEPENDENT</a>, 
+<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680aa679fa81efa2e13e48f7b2f7a1acef369">INPUT_STATE_SYNC_WITH_SCORE</a>
+ }</td></tr>
+<tr class="separator:ac35472d797216e44941e3516d392680a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a84ab46275523414c9b85dbce39898293"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a84ab46275523414c9b85dbce39898293">rewind</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a44441ecb09579acd4a2a27bd8c96b704">RewindMode</a> mode)</td></tr>
 <tr class="memdesc:a84ab46275523414c9b85dbce39898293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewind cursor to a certain position.  <a href="#a84ab46275523414c9b85dbce39898293">More...</a><br /></td></tr>
 <tr class="separator:a84ab46275523414c9b85dbce39898293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355dae0db80a7c73ba2de2854ab69542"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a355dae0db80a7c73ba2de2854ab69542">rewindToTick</a> (int <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ad4e0bbc0cc0ffb91120206fb4de60261">tick</a>)</td></tr>
+<tr class="memdesc:a355dae0db80a7c73ba2de2854ab69542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewind cursor to a position defined by tick.  <a href="#a355dae0db80a7c73ba2de2854ab69542">More...</a><br /></td></tr>
+<tr class="separator:a355dae0db80a7c73ba2de2854ab69542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80870c233d0237e3588a2d6f8d176916"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a80870c233d0237e3588a2d6f8d176916">next</a> ()</td></tr>
 <tr class="memdesc:a80870c233d0237e3588a2d6f8d176916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the cursor to the next segment.  <a href="#a80870c233d0237e3588a2d6f8d176916">More...</a><br /></td></tr>
 <tr class="separator:a80870c233d0237e3588a2d6f8d176916"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a001c450801c17d0cebc2b4a40fca67"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4a001c450801c17d0cebc2b4a40fca67">addNote</a> (int pitch, bool addToChord=false)</td></tr>
 <tr class="memdesc:a4a001c450801c17d0cebc2b4a40fca67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a note to the current cursor position.  <a href="#a4a001c450801c17d0cebc2b4a40fca67">More...</a><br /></td></tr>
 <tr class="separator:a4a001c450801c17d0cebc2b4a40fca67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa930b6fe002bdd495f2697d5fdad2fc7"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aa930b6fe002bdd495f2697d5fdad2fc7">addRest</a> ()</td></tr>
+<tr class="memdesc:aa930b6fe002bdd495f2697d5fdad2fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a rest to the current cursor position.  <a href="#aa930b6fe002bdd495f2697d5fdad2fc7">More...</a><br /></td></tr>
+<tr class="separator:aa930b6fe002bdd495f2697d5fdad2fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead183147aee68a7fd9c5ea1c4d7aba4"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aead183147aee68a7fd9c5ea1c4d7aba4">addTuplet</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html">Ms::PluginAPI::FractionWrapper</a> *ratio, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html">Ms::PluginAPI::FractionWrapper</a> *duration)</td></tr>
+<tr class="memdesc:aead183147aee68a7fd9c5ea1c4d7aba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a tuplet to the current cursor position.  <a href="#aead183147aee68a7fd9c5ea1c4d7aba4">More...</a><br /></td></tr>
+<tr class="separator:aead183147aee68a7fd9c5ea1c4d7aba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a4dacc608176cab4ccf63ecbc08c82"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac5a4dacc608176cab4ccf63ecbc08c82">setDuration</a> (int z, int n)</td></tr>
 <tr class="memdesc:ac5a4dacc608176cab4ccf63ecbc08c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set duration of the notes added by the cursor.  <a href="#ac5a4dacc608176cab4ccf63ecbc08c82">More...</a><br /></td></tr>
 <tr class="separator:ac5a4dacc608176cab4ccf63ecbc08c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,18 +173,46 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab682fe4c39ffe0cbb5d51affe4db02b8">element</a></td></tr>
 <tr class="memdesc:ab682fe4c39ffe0cbb5d51affe4db02b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current element at track, read only. <br /></td></tr>
 <tr class="separator:ab682fe4c39ffe0cbb5d51affe4db02b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32df483ac348ab9b0f726c4565a22865"><td class="memItemLeft" align="right" valign="top"><a id="a32df483ac348ab9b0f726c4565a22865"></a>
-<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a32df483ac348ab9b0f726c4565a22865">segment</a></td></tr>
-<tr class="memdesc:a32df483ac348ab9b0f726c4565a22865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current segment, read only. <br /></td></tr>
-<tr class="separator:a32df483ac348ab9b0f726c4565a22865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ad761d98e06fa6240c8e20c2dc9dd3"><td class="memItemLeft" align="right" valign="top"><a id="aa6ad761d98e06fa6240c8e20c2dc9dd3"></a>
+<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aa6ad761d98e06fa6240c8e20c2dc9dd3">segment</a></td></tr>
+<tr class="memdesc:aa6ad761d98e06fa6240c8e20c2dc9dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current segment, read only. <br /></td></tr>
+<tr class="separator:aa6ad761d98e06fa6240c8e20c2dc9dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3969e5e929a97466fbc4ea2c8693f5a"><td class="memItemLeft" align="right" valign="top"><a id="ab3969e5e929a97466fbc4ea2c8693f5a"></a>
 <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html">Ms::PluginAPI::Measure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ab3969e5e929a97466fbc4ea2c8693f5a">measure</a></td></tr>
 <tr class="memdesc:ab3969e5e929a97466fbc4ea2c8693f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current measure, read only. <br /></td></tr>
 <tr class="separator:ab3969e5e929a97466fbc4ea2c8693f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3011502e795df9b4868adb04a3374a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a7d3011502e795df9b4868adb04a3374a">stringNumber</a></td></tr>
+<tr class="memdesc:a7d3011502e795df9b4868adb04a3374a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A physical string number where this cursor currently at.  <a href="#a7d3011502e795df9b4868adb04a3374a">More...</a><br /></td></tr>
+<tr class="separator:a7d3011502e795df9b4868adb04a3374a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d573d58615e9e0d1fc2be57392d9536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680a">InputStateMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a9d573d58615e9e0d1fc2be57392d9536">inputStateMode</a></td></tr>
+<tr class="memdesc:a9d573d58615e9e0d1fc2be57392d9536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior of input state (position, notes duration etc.) of this cursor with respect to input state of the score.  <a href="#a9d573d58615e9e0d1fc2be57392d9536">More...</a><br /></td></tr>
+<tr class="separator:a9d573d58615e9e0d1fc2be57392d9536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html" title="Cursor can be used by plugins to manipulate the score. ">Cursor</a> can be used by plugins to manipulate the score. </p>
+<p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html" title="Cursor can be used by plugins to manipulate the score. ">Cursor</a> object for a score can be obtained with <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a1bc8f4a235affffb0031fbe9aada3b8c">Score::newCursor</a> method. After creating a cursor it does not point to any location in a score. To define its initial location use <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a84ab46275523414c9b85dbce39898293">rewind</a> or <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a355dae0db80a7c73ba2de2854ab69542">rewindToTick</a> methods. Alternatively, you can set its <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a9d573d58615e9e0d1fc2be57392d9536">inputStateMode</a> to <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680aa679fa81efa2e13e48f7b2f7a1acef369">Cursor.INPUT_STATE_SYNC_WITH_SCORE</a> to make cursor location be synchronized with user-visible note input state. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ac35472d797216e44941e3516d392680a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35472d797216e44941e3516d392680a">&#9670;&nbsp;</a></span>InputStateMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680a">InputStateMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac35472d797216e44941e3516d392680aa5aff8645579d40ef83bfb84b6e8705bf"></a>INPUT_STATE_INDEPENDENT&#160;</td><td class="fielddoc"><p>Input state of cursor is independent of score input state (default) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac35472d797216e44941e3516d392680aa679fa81efa2e13e48f7b2f7a1acef369"></a>INPUT_STATE_SYNC_WITH_SCORE&#160;</td><td class="fielddoc"><p>Input state of cursor is synchronized with score input state. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="a44441ecb09579acd4a2a27bd8c96b704"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44441ecb09579acd4a2a27bd8c96b704">&#9670;&nbsp;</a></span>RewindMode</h2>
 
@@ -253,6 +290,66 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aa930b6fe002bdd495f2697d5fdad2fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa930b6fe002bdd495f2697d5fdad2fc7">&#9670;&nbsp;</a></span>addRest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addRest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a rest to the current cursor position. </p>
+<p>The duration of the added rest equals to what has been set by the previous <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac5a4dacc608176cab4ccf63ecbc08c82" title="Set duration of the notes added by the cursor. ">setDuration()</a> call. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="aead183147aee68a7fd9c5ea1c4d7aba4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead183147aee68a7fd9c5ea1c4d7aba4">&#9670;&nbsp;</a></span>addTuplet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addTuplet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html">Ms::PluginAPI::FractionWrapper</a> *&#160;</td>
+          <td class="paramname"><em>ratio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_fraction_wrapper.html">Ms::PluginAPI::FractionWrapper</a> *&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a tuplet to the current cursor position. </p>
+<p>This function provides a possibility to setup the tuplet's ratio to any value (similarly to Add &gt; Tuplets &gt; Other... dialog in MuseScore).</p>
+<p>Examples of most typical usage: </p><div class="fragment"><div class="line"><span class="comment">// add a triplet of three eighth notes</span></div><div class="line">cursor.addTuplet(fraction(3, 2), fraction(1, 4));</div><div class="line"></div><div class="line"><span class="comment">// add a quintuplet in place of the current chord/rest</span></div><div class="line">var cr = cursor.element;</div><div class="line"><span class="keywordflow">if</span> (cr)</div><div class="line">    cursor.addTuplet(fraction(5, 4), cr.duration);</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ratio</td><td>tuplet ratio. Numerator represents actual number of notes in this tuplet, denominator is a number of "normal" notes which correspond to the same total duration. For example, a triplet has a ratio of 3/2 as it has 3 notes fitting to the duration which would normally be occupied by 2 notes of the same nominal length. </td></tr>
+    <tr><td class="paramname">duration</td><td>total duration of the tuplet. To create a tuplet with duration matching to duration of existing chord or rest, use its <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_duration_element.html#a47ccec6b0522f715e80c4042ec588359">duration</a> value as a parameter. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_duration_element.html#a93e6aec7ae0c5acfb755a2473e18e8ec">DurationElement::tuplet</a> </dd></dl>
 
 </div>
 </div>
@@ -344,6 +441,34 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 
 </div>
 </div>
+<a id="a355dae0db80a7c73ba2de2854ab69542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a355dae0db80a7c73ba2de2854ab69542">&#9670;&nbsp;</a></span>rewindToTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rewindToTick </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tick</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rewind cursor to a position defined by tick. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tick</td><td>Determines the position where to move this cursor. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html#ad4e0bbc0cc0ffb91120206fb4de60261">Segment.tick</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
 <a id="ac5a4dacc608176cab4ccf63ecbc08c82"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5a4dacc608176cab4ccf63ecbc08c82">&#9670;&nbsp;</a></span>setDuration()</h2>
 
@@ -408,6 +533,31 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 
 </div>
 </div>
+<a id="a9d573d58615e9e0d1fc2be57392d9536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d573d58615e9e0d1fc2be57392d9536">&#9670;&nbsp;</a></span>inputStateMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac35472d797216e44941e3516d392680a">InputStateMode</a> inputStateMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Behavior of input state (position, notes duration etc.) of this cursor with respect to input state of the score. </p>
+<p>By default any changes in score and in this <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html" title="Cursor can be used by plugins to manipulate the score. ">Cursor</a> are not synchronized. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
 <a id="ac30d3283cccf1fe4f3d83b63ef416e78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac30d3283cccf1fe4f3d83b63ef416e78">&#9670;&nbsp;</a></span>keySignature</h2>
 
@@ -430,6 +580,31 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 
 <p>Key signature of current staff at tick pos. </p>
 <p>(read only) </p>
+
+</div>
+</div>
+<a id="a7d3011502e795df9b4868adb04a3374a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3011502e795df9b4868adb04a3374a">&#9670;&nbsp;</a></span>stringNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int stringNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A physical string number where this cursor currently at. </p>
+<p>This is useful in conjunction with InputStateMode.INPUT_STATE_SYNC_WITH_SCORE cursor mode. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
 
 </div>
 </div>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.5</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -81,15 +81,11 @@ $(function() {
 Inheritance diagram for Note:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_note__inherit__graph.png" border="0" usemap="#_note_inherit__map" alt="Inheritance graph"/></div>
-<map name="_note_inherit__map" id="_note_inherit__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Note:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_note__coll__graph.png" border="0" usemap="#_note_coll__map" alt="Collaboration graph"/></div>
-<map name="_note_coll__map" id="_note_coll__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -116,30 +112,33 @@ virtual <a class="el" href="class_ms_1_1_note.html">Note</a> *&#160;</td><td cla
 <tr class="memitem:a197991d633bebf9f1361494b70ab8de2"><td class="memItemLeft" align="right" valign="top"><a id="a197991d633bebf9f1361494b70ab8de2"></a>
 <a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01ae">ElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const override</td></tr>
 <tr class="separator:a197991d633bebf9f1361494b70ab8de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5afb4bb6763c4952a139022d977b3e16"><td class="memItemLeft" align="right" valign="top"><a id="a5afb4bb6763c4952a139022d977b3e16"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>undoUnlink</b> () override</td></tr>
-<tr class="separator:a5afb4bb6763c4952a139022d977b3e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af55c75b85ef9b55c02cacd937f9e52db"><td class="memItemLeft" align="right" valign="top"><a id="af55c75b85ef9b55c02cacd937f9e52db"></a>
-virtual qreal&#160;</td><td class="memItemRight" valign="bottom"><b>mag</b> () const override</td></tr>
-<tr class="separator:af55c75b85ef9b55c02cacd937f9e52db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb57d11704c0ddd3ff515aa5b8c8c5a4"><td class="memItemLeft" align="right" valign="top"><a id="aeb57d11704c0ddd3ff515aa5b8c8c5a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>layout</b> ()</td></tr>
-<tr class="separator:aeb57d11704c0ddd3ff515aa5b8c8c5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f52ea9fa30665cb3d9b5244c8181f3f"><td class="memItemLeft" align="right" valign="top"><a id="a6f52ea9fa30665cb3d9b5244c8181f3f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>undoUnlink</b> () override</td></tr>
+<tr class="separator:a6f52ea9fa30665cb3d9b5244c8181f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763045f47aef7937ff370d76a6920b92"><td class="memItemLeft" align="right" valign="top"><a id="a763045f47aef7937ff370d76a6920b92"></a>
+qreal&#160;</td><td class="memItemRight" valign="bottom"><b>mag</b> () const override</td></tr>
+<tr class="separator:a763045f47aef7937ff370d76a6920b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64128aca42ba35e2f1ee229108bd2068"><td class="memItemLeft" align="right" valign="top"><a id="a64128aca42ba35e2f1ee229108bd2068"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>layout</b> () override</td></tr>
+<tr class="separator:a64128aca42ba35e2f1ee229108bd2068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1fab53665467ae72b2d0e0ab187577"><td class="memItemLeft" align="right" valign="top"><a id="a2d1fab53665467ae72b2d0e0ab187577"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>layout2</b> ()</td></tr>
 <tr class="separator:a2d1fab53665467ae72b2d0e0ab187577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f02907fe98fcd77b05d54fed5846e1b"><td class="memItemLeft" align="right" valign="top"><a id="a4f02907fe98fcd77b05d54fed5846e1b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setCachedNoteheadSym</b> (SymId i)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCachedNoteheadSym</b> (<a class="el" href="namespace_ms.html#ae9645fb8f7dc96cc9df5b2797ad59b89">SymId</a> i)</td></tr>
 <tr class="separator:a4f02907fe98fcd77b05d54fed5846e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1223885a3d02f3311bb45b3615508d6b"><td class="memItemLeft" align="right" valign="top"><a id="a1223885a3d02f3311bb45b3615508d6b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>scanElements</b> (void *data, void(*func)(void *, Element *), bool all=true)</td></tr>
-<tr class="separator:a1223885a3d02f3311bb45b3615508d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34ec834bf8121412a6522db1ad6d8a44"><td class="memItemLeft" align="right" valign="top"><a id="a34ec834bf8121412a6522db1ad6d8a44"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTrack</b> (int val)</td></tr>
-<tr class="separator:a34ec834bf8121412a6522db1ad6d8a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe63d606dced96ba71a8326d1fb6532e"><td class="memItemLeft" align="right" valign="top"><a id="afe63d606dced96ba71a8326d1fb6532e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>scanElements</b> (void *data, void(*func)(void *, Element *), bool all=true) override</td></tr>
+<tr class="separator:afe63d606dced96ba71a8326d1fb6532e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079baf0f76132157831f8afbe53cf15b"><td class="memItemLeft" align="right" valign="top"><a id="a079baf0f76132157831f8afbe53cf15b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTrack</b> (int val) override</td></tr>
+<tr class="separator:a079baf0f76132157831f8afbe53cf15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f2c4cb40d346cb446abe75bbf01db49"><td class="memItemLeft" align="right" valign="top"><a id="a1f2c4cb40d346cb446abe75bbf01db49"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>playTicks</b> () const</td></tr>
 <tr class="separator:a1f2c4cb40d346cb446abe75bbf01db49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba81a1ce148e719f86cbfc7f1d572975"><td class="memItemLeft" align="right" valign="top"><a id="aba81a1ce148e719f86cbfc7f1d572975"></a>
+Fraction&#160;</td><td class="memItemRight" valign="bottom"><b>playTicksFraction</b> () const</td></tr>
+<tr class="separator:aba81a1ce148e719f86cbfc7f1d572975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a393c3da64b5b6ecd38fd08d80edcf9ff"><td class="memItemLeft" align="right" valign="top"><a id="a393c3da64b5b6ecd38fd08d80edcf9ff"></a>
 qreal&#160;</td><td class="memItemRight" valign="bottom"><b>headWidth</b> () const</td></tr>
 <tr class="separator:a393c3da64b5b6ecd38fd08d80edcf9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,24 +169,30 @@ qreal&#160;</td><td class="memItemRight" valign="bottom"><b>bboxRightPos</b> () 
 <tr class="memitem:a1cd4e5b82e4e333b4b627975e0305553"><td class="memItemLeft" align="right" valign="top"><a id="a1cd4e5b82e4e333b4b627975e0305553"></a>
 qreal&#160;</td><td class="memItemRight" valign="bottom"><b>headBodyWidth</b> () const</td></tr>
 <tr class="separator:a1cd4e5b82e4e333b4b627975e0305553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755d21379365cf4b1e48ca0b147b8ba7"><td class="memItemLeft" align="right" valign="top"><a id="a755d21379365cf4b1e48ca0b147b8ba7"></a>
+<a class="el" href="class_ms_1_1_note_head.html#ade64956338964a591638b7debcbf0a04">NoteHead::Scheme</a>&#160;</td><td class="memItemRight" valign="bottom"><b>headScheme</b> () const</td></tr>
+<tr class="separator:a755d21379365cf4b1e48ca0b147b8ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa08643ee0e8bb67012fbee5706859c10"><td class="memItemLeft" align="right" valign="top"><a id="aa08643ee0e8bb67012fbee5706859c10"></a>
 <a class="el" href="class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53">NoteHead::Group</a>&#160;</td><td class="memItemRight" valign="bottom"><b>headGroup</b> () const</td></tr>
 <tr class="separator:aa08643ee0e8bb67012fbee5706859c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18d5c9068ba698597e480408241f8c29"><td class="memItemLeft" align="right" valign="top"><a id="a18d5c9068ba698597e480408241f8c29"></a>
 <a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">NoteHead::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>headType</b> () const</td></tr>
 <tr class="separator:a18d5c9068ba698597e480408241f8c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524abd44fc47658490414637abc49c10"><td class="memItemLeft" align="right" valign="top"><a id="a524abd44fc47658490414637abc49c10"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setHeadScheme</b> (<a class="el" href="class_ms_1_1_note_head.html#ade64956338964a591638b7debcbf0a04">NoteHead::Scheme</a> val)</td></tr>
+<tr class="separator:a524abd44fc47658490414637abc49c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c253f23a827f9fcf50ce9102d0b31ac"><td class="memItemLeft" align="right" valign="top"><a id="a3c253f23a827f9fcf50ce9102d0b31ac"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setHeadGroup</b> (<a class="el" href="class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53">NoteHead::Group</a> val)</td></tr>
 <tr class="separator:a3c253f23a827f9fcf50ce9102d0b31ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1a12dbc9086063778cb008f308b3a78"><td class="memItemLeft" align="right" valign="top"><a id="aa1a12dbc9086063778cb008f308b3a78"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setHeadType</b> (<a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">NoteHead::Type</a> t)</td></tr>
 <tr class="separator:aa1a12dbc9086063778cb008f308b3a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228101dfef7b0a122a42b26847490024"><td class="memItemLeft" align="right" valign="top"><a id="a228101dfef7b0a122a42b26847490024"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>subtype</b> () const override</td></tr>
-<tr class="separator:a228101dfef7b0a122a42b26847490024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6173918c8845ee33b2d5dc4a459bd0"><td class="memItemLeft" align="right" valign="top"><a id="a2c6173918c8845ee33b2d5dc4a459bd0"></a>
-virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>subtypeName</b> () const override</td></tr>
-<tr class="separator:a2c6173918c8845ee33b2d5dc4a459bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7f596f031496efaa9c1bfe35a431da"><td class="memItemLeft" align="right" valign="top"><a id="adf7f596f031496efaa9c1bfe35a431da"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>subtype</b> () const override</td></tr>
+<tr class="separator:adf7f596f031496efaa9c1bfe35a431da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5805447f88917960df70fc3539fdf5b1"><td class="memItemLeft" align="right" valign="top"><a id="a5805447f88917960df70fc3539fdf5b1"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>subtypeName</b> () const override</td></tr>
+<tr class="separator:a5805447f88917960df70fc3539fdf5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c0f33ce2d9e05513bb83952cfb25a05"><td class="memItemLeft" align="right" valign="top"><a id="a6c0f33ce2d9e05513bb83952cfb25a05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setPitch</b> (int val)</td></tr>
 <tr class="separator:a6c0f33ce2d9e05513bb83952cfb25a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +202,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setPitch</b> (int pit
 <tr class="memitem:ae94f51828a0af6046dd57e0d0c3e5828"><td class="memItemLeft" align="right" valign="top"><a id="ae94f51828a0af6046dd57e0d0c3e5828"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>pitch</b> () const</td></tr>
 <tr class="separator:ae94f51828a0af6046dd57e0d0c3e5828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a047aed8373bf95711a2c909d5584782b"><td class="memItemLeft" align="right" valign="top"><a id="a047aed8373bf95711a2c909d5584782b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ottaveCapoFret</b> () const</td></tr>
+<tr class="separator:a047aed8373bf95711a2c909d5584782b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab14e40eef799a875fb65faf5ff6b28db"><td class="memItemLeft" align="right" valign="top"><a id="ab14e40eef799a875fb65faf5ff6b28db"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_note.html#ab14e40eef799a875fb65faf5ff6b28db">ppitch</a> () const</td></tr>
 <tr class="memdesc:ab14e40eef799a875fb65faf5ff6b28db"><td class="mdescLeft">&#160;</td><td class="mdescRight">playback pitch <br /></td></tr>
@@ -269,10 +277,10 @@ Accidental *&#160;</td><td class="memItemRight" valign="bottom"><b>accidental</b
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setAccidental</b> (Accidental *a)</td></tr>
 <tr class="separator:ab9d0b5b88bddf61000c5cf0404f57e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f932b2063ac947d9ebf9839d20014a5"><td class="memItemLeft" align="right" valign="top"><a id="a1f932b2063ac947d9ebf9839d20014a5"></a>
-<a class="el" href="namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2df">AccidentalType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>accidentalType</b> () const</td></tr>
+<a class="el" href="namespace_ms.html#a6a2bbffde012baf4f45db52b1fc4e616">AccidentalType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>accidentalType</b> () const</td></tr>
 <tr class="separator:a1f932b2063ac947d9ebf9839d20014a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e6d46d76bbc509ee706eea1794cf1a4"><td class="memItemLeft" align="right" valign="top"><a id="a8e6d46d76bbc509ee706eea1794cf1a4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setAccidentalType</b> (<a class="el" href="namespace_ms.html#afefcf6e1958b07c3c8d7c832a8fdf2df">AccidentalType</a> type)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setAccidentalType</b> (<a class="el" href="namespace_ms.html#a6a2bbffde012baf4f45db52b1fc4e616">AccidentalType</a> type)</td></tr>
 <tr class="separator:a8e6d46d76bbc509ee706eea1794cf1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9834cd1b21362a1c8b503e9eab45c406"><td class="memItemLeft" align="right" valign="top"><a id="a9834cd1b21362a1c8b503e9eab45c406"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>line</b> () const</td></tr>
@@ -307,12 +315,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>fretConflict</b> () c
 <tr class="memitem:ab47d64246d6255dfad809e4f58c1031d"><td class="memItemLeft" align="right" valign="top"><a id="ab47d64246d6255dfad809e4f58c1031d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setFretConflict</b> (bool val)</td></tr>
 <tr class="separator:ab47d64246d6255dfad809e4f58c1031d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35bb1b12b09ec70655fc473d222c8531"><td class="memItemLeft" align="right" valign="top"><a id="a35bb1b12b09ec70655fc473d222c8531"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (Element *) override</td></tr>
-<tr class="separator:a35bb1b12b09ec70655fc473d222c8531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9356c0abea03afff952f77e96c295588"><td class="memItemLeft" align="right" valign="top"><a id="a9356c0abea03afff952f77e96c295588"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (Element *) override</td></tr>
-<tr class="separator:a9356c0abea03afff952f77e96c295588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b938dd9a616d9c7b2d50a17381c2b5"><td class="memItemLeft" align="right" valign="top"><a id="af1b938dd9a616d9c7b2d50a17381c2b5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (Element *) override</td></tr>
+<tr class="separator:af1b938dd9a616d9c7b2d50a17381c2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a45a7cbd14515e3415d6dce750b894"><td class="memItemLeft" align="right" valign="top"><a id="ab1a45a7cbd14515e3415d6dce750b894"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (Element *) override</td></tr>
+<tr class="separator:ab1a45a7cbd14515e3415d6dce750b894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a738caaf687fe350993317551df03bdbb"><td class="memItemLeft" align="right" valign="top"><a id="a738caaf687fe350993317551df03bdbb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>mirror</b> () const</td></tr>
 <tr class="separator:a738caaf687fe350993317551df03bdbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,27 +375,27 @@ Chord *&#160;</td><td class="memItemRight" valign="bottom"><b>chord</b> () const
 <tr class="memitem:aac0dc429af4bbceebd246e54edfb4e35"><td class="memItemLeft" align="right" valign="top"><a id="aac0dc429af4bbceebd246e54edfb4e35"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setChord</b> (Chord *a)</td></tr>
 <tr class="separator:aac0dc429af4bbceebd246e54edfb4e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae93ddac379555e12dacbe7dbe26b464a"><td class="memItemLeft" align="right" valign="top"><a id="ae93ddac379555e12dacbe7dbe26b464a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (QPainter *) const override</td></tr>
-<tr class="separator:ae93ddac379555e12dacbe7dbe26b464a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0495a984448f7dbd10491eddb0ee60"><td class="memItemLeft" align="right" valign="top"><a id="a8c0495a984448f7dbd10491eddb0ee60"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (XmlReader &amp;) override</td></tr>
-<tr class="separator:a8c0495a984448f7dbd10491eddb0ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80062d8eee9e3c7c4c362e4f14234411"><td class="memItemLeft" align="right" valign="top"><a id="a80062d8eee9e3c7c4c362e4f14234411"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>readProperties</b> (XmlReader &amp;) override</td></tr>
-<tr class="separator:a80062d8eee9e3c7c4c362e4f14234411"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab51f42dab79b7f91a788bd4fc843469c"><td class="memItemLeft" align="right" valign="top"><a id="ab51f42dab79b7f91a788bd4fc843469c"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>readAddConnector</b> (ConnectorInfoReader *info, bool pasteMode) override</td></tr>
-<tr class="separator:ab51f42dab79b7f91a788bd4fc843469c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d47e23334340c3131238dca0daba659"><td class="memItemLeft" align="right" valign="top"><a id="a7d47e23334340c3131238dca0daba659"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (XmlWriter &amp;) const override</td></tr>
-<tr class="separator:a7d47e23334340c3131238dca0daba659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245dc8dd3fccc4216e7a1f7468809bd5"><td class="memItemLeft" align="right" valign="top"><a id="a245dc8dd3fccc4216e7a1f7468809bd5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (QPainter *) const override</td></tr>
+<tr class="separator:a245dc8dd3fccc4216e7a1f7468809bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8649007a82bd63b80d7b57e08a5b880"><td class="memItemLeft" align="right" valign="top"><a id="ab8649007a82bd63b80d7b57e08a5b880"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (XmlReader &amp;) override</td></tr>
+<tr class="separator:ab8649007a82bd63b80d7b57e08a5b880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b5e1a2a38d25707b0b474a28acb1c6"><td class="memItemLeft" align="right" valign="top"><a id="a48b5e1a2a38d25707b0b474a28acb1c6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>readProperties</b> (XmlReader &amp;) override</td></tr>
+<tr class="separator:a48b5e1a2a38d25707b0b474a28acb1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3b792031e2d0f9882563c50ddd534a"><td class="memItemLeft" align="right" valign="top"><a id="a3b3b792031e2d0f9882563c50ddd534a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>readAddConnector</b> (ConnectorInfoReader *info, bool pasteMode) override</td></tr>
+<tr class="separator:a3b3b792031e2d0f9882563c50ddd534a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9aa2c1e56a9edf9b8a633135c3cdbb9"><td class="memItemLeft" align="right" valign="top"><a id="af9aa2c1e56a9edf9b8a633135c3cdbb9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (XmlWriter &amp;) const override</td></tr>
+<tr class="separator:af9aa2c1e56a9edf9b8a633135c3cdbb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace28c1ba897c87aab6375966708c6d1c"><td class="memItemLeft" align="right" valign="top"><a id="ace28c1ba897c87aab6375966708c6d1c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>acceptDrop</b> (EditData &amp;) const override</td></tr>
 <tr class="separator:ace28c1ba897c87aab6375966708c6d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc194dbbefa60102a630452c90006def"><td class="memItemLeft" align="right" valign="top"><a id="afc194dbbefa60102a630452c90006def"></a>
-Element *&#160;</td><td class="memItemRight" valign="bottom"><b>drop</b> (EditData &amp;)</td></tr>
-<tr class="separator:afc194dbbefa60102a630452c90006def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c29e40a546aef53ce29ec227333de4"><td class="memItemLeft" align="right" valign="top"><a id="a74c29e40a546aef53ce29ec227333de4"></a>
+Element *&#160;</td><td class="memItemRight" valign="bottom"><b>drop</b> (EditData &amp;) override</td></tr>
+<tr class="separator:a74c29e40a546aef53ce29ec227333de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5af5737ee4ee4f553f1470d99cf1f765"><td class="memItemLeft" align="right" valign="top"><a id="a5af5737ee4ee4f553f1470d99cf1f765"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>hidden</b> () const</td></tr>
 <tr class="separator:a5af5737ee4ee4f553f1470d99cf1f765"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -433,9 +441,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setUserDotPosition</b
 <tr class="memitem:ab7ef4263b566b81738306e4c311f1ec6"><td class="memItemLeft" align="right" valign="top"><a id="ab7ef4263b566b81738306e4c311f1ec6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>dotIsUp</b> () const</td></tr>
 <tr class="separator:ab7ef4263b566b81738306e4c311f1ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad20897c5c8bd47f5d4005989bead0e55"><td class="memItemLeft" align="right" valign="top"><a id="ad20897c5c8bd47f5d4005989bead0e55"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
-<tr class="separator:ad20897c5c8bd47f5d4005989bead0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfcdbbd0fe4efbff10b180be50ca6bc"><td class="memItemLeft" align="right" valign="top"><a id="aebfcdbbd0fe4efbff10b180be50ca6bc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () override</td></tr>
+<tr class="separator:aebfcdbbd0fe4efbff10b180be50ca6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eebf13a6db6dcf34f199df5082773bc"><td class="memItemLeft" align="right" valign="top"><a id="a5eebf13a6db6dcf34f199df5082773bc"></a>
 ValueType&#160;</td><td class="memItemRight" valign="bottom"><b>veloType</b> () const</td></tr>
 <tr class="separator:a5eebf13a6db6dcf34f199df5082773bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -511,33 +519,33 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>removeSpannerFor</b> 
 <tr class="memitem:ac784490590cb16a0ca0bc70585af9284"><td class="memItemLeft" align="right" valign="top"><a id="ac784490590cb16a0ca0bc70585af9284"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>transposeDiatonic</b> (int interval, bool keepAlterations, bool useDoubleAccidentals)</td></tr>
 <tr class="separator:ac784490590cb16a0ca0bc70585af9284"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbab20f807043eda52036088656394fb"><td class="memItemLeft" align="right" valign="top"><a id="abbab20f807043eda52036088656394fb"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>localSpatiumChanged</b> (qreal oldValue, qreal newValue) override</td></tr>
-<tr class="separator:abbab20f807043eda52036088656394fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb73c68991fc148299232587c9ea9f15"><td class="memItemLeft" align="right" valign="top"><a id="adb73c68991fc148299232587c9ea9f15"></a>
-virtual QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>getProperty</b> (Pid propertyId) const override</td></tr>
-<tr class="separator:adb73c68991fc148299232587c9ea9f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e76ff31beca97d6646f6da5b91a00d3"><td class="memItemLeft" align="right" valign="top"><a id="a6e76ff31beca97d6646f6da5b91a00d3"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>setProperty</b> (Pid propertyId, const QVariant &amp;) override</td></tr>
-<tr class="separator:a6e76ff31beca97d6646f6da5b91a00d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b1219f6f948b1c5acf091c242bb428"><td class="memItemLeft" align="right" valign="top"><a id="ab7b1219f6f948b1c5acf091c242bb428"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>localSpatiumChanged</b> (qreal oldValue, qreal newValue) override</td></tr>
+<tr class="separator:ab7b1219f6f948b1c5acf091c242bb428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e7dbc3d55d39c764df18bd2ab23263"><td class="memItemLeft" align="right" valign="top"><a id="aa0e7dbc3d55d39c764df18bd2ab23263"></a>
+QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>getProperty</b> (Pid propertyId) const override</td></tr>
+<tr class="separator:aa0e7dbc3d55d39c764df18bd2ab23263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1783c7a8a816ac5819169edfa54926b"><td class="memItemLeft" align="right" valign="top"><a id="aa1783c7a8a816ac5819169edfa54926b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>setProperty</b> (Pid propertyId, const QVariant &amp;) override</td></tr>
+<tr class="separator:aa1783c7a8a816ac5819169edfa54926b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fa94420682e03a0398bd568196d00ed"><td class="memItemLeft" align="right" valign="top"><a id="a9fa94420682e03a0398bd568196d00ed"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>undoChangeDotsVisible</b> (bool v)</td></tr>
 <tr class="separator:a9fa94420682e03a0398bd568196d00ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a898ee81d33982f7012504661f7eb250d"><td class="memItemLeft" align="right" valign="top"><a id="a898ee81d33982f7012504661f7eb250d"></a>
-virtual QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>propertyDefault</b> (Pid) const override</td></tr>
-<tr class="separator:a898ee81d33982f7012504661f7eb250d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8df0f6e5fa6df52ede8e253e382c530f"><td class="memItemLeft" align="right" valign="top"><a id="a8df0f6e5fa6df52ede8e253e382c530f"></a>
-virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>propertyUserValue</b> (Pid) const override</td></tr>
-<tr class="separator:a8df0f6e5fa6df52ede8e253e382c530f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e714505f605703fd05c427b474cc345"><td class="memItemLeft" align="right" valign="top"><a id="a6e714505f605703fd05c427b474cc345"></a>
+QVariant&#160;</td><td class="memItemRight" valign="bottom"><b>propertyDefault</b> (Pid) const override</td></tr>
+<tr class="separator:a6e714505f605703fd05c427b474cc345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c3e821d662be9dba91caf84a56c15a"><td class="memItemLeft" align="right" valign="top"><a id="a90c3e821d662be9dba91caf84a56c15a"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>propertyUserValue</b> (Pid) const override</td></tr>
+<tr class="separator:a90c3e821d662be9dba91caf84a56c15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31d7588be76041c94346a94db0ff5be3"><td class="memItemLeft" align="right" valign="top"><a id="a31d7588be76041c94346a94db0ff5be3"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>mark</b> () const</td></tr>
 <tr class="separator:a31d7588be76041c94346a94db0ff5be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5889732c4b0efaecdb92da73598e63b2"><td class="memItemLeft" align="right" valign="top"><a id="a5889732c4b0efaecdb92da73598e63b2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setMark</b> (bool v) const</td></tr>
 <tr class="separator:a5889732c4b0efaecdb92da73598e63b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a045ecc5cc52b40f641a0b09c343707fb"><td class="memItemLeft" align="right" valign="top"><a id="a045ecc5cc52b40f641a0b09c343707fb"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setScore</b> (Score *s) override</td></tr>
-<tr class="separator:a045ecc5cc52b40f641a0b09c343707fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad025b7985d7bb48d291e765528b839c2"><td class="memItemLeft" align="right" valign="top"><a id="ad025b7985d7bb48d291e765528b839c2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setScore</b> (Score *s) override</td></tr>
+<tr class="separator:ad025b7985d7bb48d291e765528b839c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a285dbbab86f5827f0eec5beff2282d00"><td class="memItemLeft" align="right" valign="top"><a id="a285dbbab86f5827f0eec5beff2282d00"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setDotY</b> (<a class="el" href="namespace_ms.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>)</td></tr>
 <tr class="separator:a285dbbab86f5827f0eec5beff2282d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -553,33 +561,33 @@ Element *&#160;</td><td class="memItemRight" valign="bottom"><b>nextInEl</b> (El
 <tr class="memitem:a4a2faf758f5f3530cf1e7b7de547784b"><td class="memItemLeft" align="right" valign="top"><a id="a4a2faf758f5f3530cf1e7b7de547784b"></a>
 Element *&#160;</td><td class="memItemRight" valign="bottom"><b>prevInEl</b> (Element *e)</td></tr>
 <tr class="separator:a4a2faf758f5f3530cf1e7b7de547784b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af305c5428eede404f6e6b3fb6c79db03"><td class="memItemLeft" align="right" valign="top"><a id="af305c5428eede404f6e6b3fb6c79db03"></a>
-virtual Element *&#160;</td><td class="memItemRight" valign="bottom"><b>nextElement</b> () override</td></tr>
-<tr class="separator:af305c5428eede404f6e6b3fb6c79db03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df913a530093c17a7647f3bdcd69c3f"><td class="memItemLeft" align="right" valign="top"><a id="a5df913a530093c17a7647f3bdcd69c3f"></a>
-virtual Element *&#160;</td><td class="memItemRight" valign="bottom"><b>prevElement</b> () override</td></tr>
-<tr class="separator:a5df913a530093c17a7647f3bdcd69c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea31a8645dea4b21110688ab145da25"><td class="memItemLeft" align="right" valign="top"><a id="afea31a8645dea4b21110688ab145da25"></a>
+Element *&#160;</td><td class="memItemRight" valign="bottom"><b>nextElement</b> () override</td></tr>
+<tr class="separator:afea31a8645dea4b21110688ab145da25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51dd04cafa1064b617072a81bc784a80"><td class="memItemLeft" align="right" valign="top"><a id="a51dd04cafa1064b617072a81bc784a80"></a>
+Element *&#160;</td><td class="memItemRight" valign="bottom"><b>prevElement</b> () override</td></tr>
+<tr class="separator:a51dd04cafa1064b617072a81bc784a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa88df29566f1ac7cd49ba0e62233766c"><td class="memItemLeft" align="right" valign="top"><a id="aa88df29566f1ac7cd49ba0e62233766c"></a>
 virtual Element *&#160;</td><td class="memItemRight" valign="bottom"><b>lastElementBeforeSegment</b> ()</td></tr>
 <tr class="separator:aa88df29566f1ac7cd49ba0e62233766c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec50aaa085752314fd6523b0e07314a1"><td class="memItemLeft" align="right" valign="top"><a id="aec50aaa085752314fd6523b0e07314a1"></a>
-virtual Element *&#160;</td><td class="memItemRight" valign="bottom"><b>nextSegmentElement</b> () override</td></tr>
-<tr class="separator:aec50aaa085752314fd6523b0e07314a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad02c4022b99974a3d4c58a26be02e017"><td class="memItemLeft" align="right" valign="top"><a id="ad02c4022b99974a3d4c58a26be02e017"></a>
-virtual Element *&#160;</td><td class="memItemRight" valign="bottom"><b>prevSegmentElement</b> () override</td></tr>
-<tr class="separator:ad02c4022b99974a3d4c58a26be02e017"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a871ac4737dc459a22593aacedb67e8f9"><td class="memItemLeft" align="right" valign="top"><a id="a871ac4737dc459a22593aacedb67e8f9"></a>
-virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>accessibleInfo</b> () const override</td></tr>
-<tr class="separator:a871ac4737dc459a22593aacedb67e8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35bed31509ce62805e70ed5c0f02c86c"><td class="memItemLeft" align="right" valign="top"><a id="a35bed31509ce62805e70ed5c0f02c86c"></a>
-virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>screenReaderInfo</b> () const override</td></tr>
-<tr class="separator:a35bed31509ce62805e70ed5c0f02c86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acec1cbb1e96fa8b677bb1d2e498a51bf"><td class="memItemLeft" align="right" valign="top"><a id="acec1cbb1e96fa8b677bb1d2e498a51bf"></a>
-virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>accessibleExtraInfo</b> () const override</td></tr>
-<tr class="separator:acec1cbb1e96fa8b677bb1d2e498a51bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae046a9fc796a77db165e398288495998"><td class="memItemLeft" align="right" valign="top"><a id="ae046a9fc796a77db165e398288495998"></a>
-virtual Shape&#160;</td><td class="memItemRight" valign="bottom"><b>shape</b> () const override</td></tr>
-<tr class="separator:ae046a9fc796a77db165e398288495998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c190930d76aedf2edb38f4d318a0d4"><td class="memItemLeft" align="right" valign="top"><a id="a47c190930d76aedf2edb38f4d318a0d4"></a>
+Element *&#160;</td><td class="memItemRight" valign="bottom"><b>nextSegmentElement</b> () override</td></tr>
+<tr class="separator:a47c190930d76aedf2edb38f4d318a0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdda8a76d3eb42da8c42890b753ab8b1"><td class="memItemLeft" align="right" valign="top"><a id="abdda8a76d3eb42da8c42890b753ab8b1"></a>
+Element *&#160;</td><td class="memItemRight" valign="bottom"><b>prevSegmentElement</b> () override</td></tr>
+<tr class="separator:abdda8a76d3eb42da8c42890b753ab8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9935fc0f59a7ab168d2a352fda76324"><td class="memItemLeft" align="right" valign="top"><a id="ad9935fc0f59a7ab168d2a352fda76324"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>accessibleInfo</b> () const override</td></tr>
+<tr class="separator:ad9935fc0f59a7ab168d2a352fda76324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b74cecace51f03f53e6920a7f335492"><td class="memItemLeft" align="right" valign="top"><a id="a0b74cecace51f03f53e6920a7f335492"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>screenReaderInfo</b> () const override</td></tr>
+<tr class="separator:a0b74cecace51f03f53e6920a7f335492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f742beef4fe77162647652dbce06eac"><td class="memItemLeft" align="right" valign="top"><a id="a9f742beef4fe77162647652dbce06eac"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>accessibleExtraInfo</b> () const override</td></tr>
+<tr class="separator:a9f742beef4fe77162647652dbce06eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2cd4ff8eef690d527b8ebcebe9c40c"><td class="memItemLeft" align="right" valign="top"><a id="a7f2cd4ff8eef690d527b8ebcebe9c40c"></a>
+Shape&#160;</td><td class="memItemRight" valign="bottom"><b>shape</b> () const override</td></tr>
+<tr class="separator:a7f2cd4ff8eef690d527b8ebcebe9c40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a730b4ecd7f2d7afc3915471348995247"><td class="memItemLeft" align="right" valign="top"><a id="a730b4ecd7f2d7afc3915471348995247"></a>
 std::vector&lt; <a class="el" href="class_ms_1_1_note.html">Note</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>tiedNotes</b> () const</td></tr>
 <tr class="separator:a730b4ecd7f2d7afc3915471348995247"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -598,11 +606,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>onTimeType</b> () cons
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aaeb05fc63c05df568f0fb8327b239c2a"><td class="memItemLeft" align="right" valign="top"><a id="aaeb05fc63c05df568f0fb8327b239c2a"></a>
-static SymId&#160;</td><td class="memItemRight" valign="bottom"><b>noteHead</b> (int direction, <a class="el" href="class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53">NoteHead::Group</a>, <a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">NoteHead::Type</a>, int tpc, Key key, NoteHeadScheme scheme)</td></tr>
-<tr class="separator:aaeb05fc63c05df568f0fb8327b239c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa6b69bc03013ccd1c937563833730b"><td class="memItemLeft" align="right" valign="top"><a id="a1aa6b69bc03013ccd1c937563833730b"></a>
+static <a class="el" href="namespace_ms.html#ae9645fb8f7dc96cc9df5b2797ad59b89">SymId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>noteHead</b> (int direction, <a class="el" href="class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53">NoteHead::Group</a>, <a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">NoteHead::Type</a>, int tpc, Key key, <a class="el" href="class_ms_1_1_note_head.html#ade64956338964a591638b7debcbf0a04">NoteHead::Scheme</a> scheme)</td></tr>
+<tr class="separator:a1aa6b69bc03013ccd1c937563833730b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3146ed457cf459485fb5db80a99cf9d5"><td class="memItemLeft" align="right" valign="top"><a id="a3146ed457cf459485fb5db80a99cf9d5"></a>
-static SymId&#160;</td><td class="memItemRight" valign="bottom"><b>noteHead</b> (int direction, <a class="el" href="class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53">NoteHead::Group</a>, <a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">NoteHead::Type</a>)</td></tr>
+static <a class="el" href="namespace_ms.html#ae9645fb8f7dc96cc9df5b2797ad59b89">SymId</a>&#160;</td><td class="memItemRight" valign="bottom"><b>noteHead</b> (int direction, <a class="el" href="class_ms_1_1_note_head.html#ab53aba6e9e88c687bf66290251c84c53">NoteHead::Group</a>, <a class="el" href="class_ms_1_1_note_head.html#ac2c13fb451406ca2dc4d0e787d211136">NoteHead::Type</a>)</td></tr>
 <tr class="separator:a3146ed457cf459485fb5db80a99cf9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

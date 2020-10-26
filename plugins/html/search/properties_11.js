@@ -12,5 +12,6 @@ var searchData=
   ['tpc1',['tpc1',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#acb96e4cc7e05870cb410355770206ebd',1,'Ms::PluginAPI::Note']]],
   ['tpc2',['tpc2',['../class_ms_1_1_plugin_a_p_i_1_1_note.html#aaed673e5ff21c6bdfd11bb20c6401bb7',1,'Ms::PluginAPI::Note']]],
   ['track',['track',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#addcde177bac7b0d7c1250ce907df0b70',1,'Ms::PluginAPI::Cursor']]],
+  ['tuplet',['tuplet',['../class_ms_1_1_plugin_a_p_i_1_1_duration_element.html#a93e6aec7ae0c5acfb755a2473e18e8ec',1,'Ms::PluginAPI::DurationElement']]],
   ['type',['type',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26',1,'Ms::PluginAPI::ScoreElement']]]
 ];

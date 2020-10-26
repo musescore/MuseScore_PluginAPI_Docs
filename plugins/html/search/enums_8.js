@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['rewindmode',['RewindMode',['../class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a44441ecb09579acd4a2a27bd8c96b704',1,'Ms::PluginAPI::Cursor']]]
+  ['offsettype',['OffsetType',['../namespace_ms.html#a2b2218c26f6052dea57cb7b6427008ab',1,'Ms']]],
+  ['ornamentstyle',['OrnamentStyle',['../class_ms_1_1_m_score.html#a75ce800262bbec6597c8af6908c624ac',1,'Ms::MScore']]]
 ];

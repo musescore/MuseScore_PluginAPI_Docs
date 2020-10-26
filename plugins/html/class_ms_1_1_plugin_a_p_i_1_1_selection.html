@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.5</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_ms_1_1_plugin_a_p_i_1_1_selection-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -76,26 +77,188 @@ $(function() {
 Inheritance diagram for Selection:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_plugin_a_p_i_1_1_selection__inherit__graph.png" border="0" usemap="#_selection_inherit__map" alt="Inheritance graph"/></div>
-<map name="_selection_inherit__map" id="_selection_inherit__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Selection:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_plugin_a_p_i_1_1_selection__coll__graph.png" border="0" usemap="#_selection_coll__map" alt="Collaboration graph"/></div>
-<map name="_selection_coll__map" id="_selection_coll__map">
-</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9fa6dc16273757c55551181837494238"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a9fa6dc16273757c55551181837494238">select</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *e, bool add=false)</td></tr>
+<tr class="memdesc:a9fa6dc16273757c55551181837494238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the given element.  <a href="#a9fa6dc16273757c55551181837494238">More...</a><br /></td></tr>
+<tr class="separator:a9fa6dc16273757c55551181837494238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1ae2fc1a272c76dada1fe9e0acaef5"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#aba1ae2fc1a272c76dada1fe9e0acaef5">selectRange</a> (int startTick, int endTick, int <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ae42d4600313bc8ae579baccdc3aaee6d">startStaff</a>, int <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ae3280572a8093afd850ee19a9f7599fb">endStaff</a>)</td></tr>
+<tr class="memdesc:aba1ae2fc1a272c76dada1fe9e0acaef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects a range in a score.  <a href="#aba1ae2fc1a272c76dada1fe9e0acaef5">More...</a><br /></td></tr>
+<tr class="separator:aba1ae2fc1a272c76dada1fe9e0acaef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cc7d5b17c238763701ffbd13171760"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ac7cc7d5b17c238763701ffbd13171760">deselect</a> (<a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *e)</td></tr>
+<tr class="memdesc:ac7cc7d5b17c238763701ffbd13171760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deselects the given element.  <a href="#ac7cc7d5b17c238763701ffbd13171760">More...</a><br /></td></tr>
+<tr class="separator:ac7cc7d5b17c238763701ffbd13171760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0cf457d7170b358f40a5ffa13051b83"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#aa0cf457d7170b358f40a5ffa13051b83">clear</a> ()</td></tr>
+<tr class="memdesc:aa0cf457d7170b358f40a5ffa13051b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the selection.  <a href="#aa0cf457d7170b358f40a5ffa13051b83">More...</a><br /></td></tr>
+<tr class="separator:aa0cf457d7170b358f40a5ffa13051b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a57b9543b1da324db238953503fa4d32a"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a57b9543b1da324db238953503fa4d32a">elements</a></td></tr>
 <tr class="memdesc:a57b9543b1da324db238953503fa4d32a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current GUI selections for the score.  <a href="#a57b9543b1da324db238953503fa4d32a">More...</a><br /></td></tr>
 <tr class="separator:a57b9543b1da324db238953503fa4d32a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c73b7eed90d79aaddcbec12431d81ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a0c73b7eed90d79aaddcbec12431d81ab">isRange</a></td></tr>
+<tr class="memdesc:a0c73b7eed90d79aaddcbec12431d81ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this selection covers a range of a score, as opposed to a list of distinct elements.  <a href="#a0c73b7eed90d79aaddcbec12431d81ab">More...</a><br /></td></tr>
+<tr class="separator:a0c73b7eed90d79aaddcbec12431d81ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda9118294ee686856f15b0bb796a65d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#abda9118294ee686856f15b0bb796a65d">startSegment</a></td></tr>
+<tr class="memdesc:abda9118294ee686856f15b0bb796a65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start segment of selection, included.  <a href="#abda9118294ee686856f15b0bb796a65d">More...</a><br /></td></tr>
+<tr class="separator:abda9118294ee686856f15b0bb796a65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ceebaa92c6d725ea42aeb5fd8f2418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ac3ceebaa92c6d725ea42aeb5fd8f2418">endSegment</a></td></tr>
+<tr class="memdesc:ac3ceebaa92c6d725ea42aeb5fd8f2418"><td class="mdescLeft">&#160;</td><td class="mdescRight">End segment of selection, excluded.  <a href="#ac3ceebaa92c6d725ea42aeb5fd8f2418">More...</a><br /></td></tr>
+<tr class="separator:ac3ceebaa92c6d725ea42aeb5fd8f2418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42d4600313bc8ae579baccdc3aaee6d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ae42d4600313bc8ae579baccdc3aaee6d">startStaff</a></td></tr>
+<tr class="memdesc:ae42d4600313bc8ae579baccdc3aaee6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">First staff of selection, included.  <a href="#ae42d4600313bc8ae579baccdc3aaee6d">More...</a><br /></td></tr>
+<tr class="separator:ae42d4600313bc8ae579baccdc3aaee6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3280572a8093afd850ee19a9f7599fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ae3280572a8093afd850ee19a9f7599fb">endStaff</a></td></tr>
+<tr class="memdesc:ae3280572a8093afd850ee19a9f7599fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">End staff of selection, included.  <a href="#ae3280572a8093afd850ee19a9f7599fb">More...</a><br /></td></tr>
+<tr class="separator:ae3280572a8093afd850ee19a9f7599fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
-</div><h2 class="groupheader">Property Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa0cf457d7170b358f40a5ffa13051b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0cf457d7170b358f40a5ffa13051b83">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears the selection. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success, <code>false</code> if selection cannot be changed, e.g. due to the ongoing operation on a score (like dragging elements). </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="ac7cc7d5b17c238763701ffbd13171760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7cc7d5b17c238763701ffbd13171760">&#9670;&nbsp;</a></span>deselect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deselect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deselects the given element. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success, <code>false</code> if selection cannot be changed, e.g. due to the ongoing operation on a score (like dragging elements). </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="a9fa6dc16273757c55551181837494238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa6dc16273757c55551181837494238">&#9670;&nbsp;</a></span>select()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool select </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html">Ms::PluginAPI::Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>add</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects the given element. </p>
+<p>At this point only a limited number of element types is supported, like notes, rests and most of text elements. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>element to select </td></tr>
+    <tr><td class="paramname">add</td><td>if <code>true</code>, appends an element to already existing selection. If <code>false</code> (default), deselects all other elements and selects this element. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success, <code>false</code> if selection cannot be changed, e.g. due to the ongoing operation on a score (like dragging elements) or incorrect arguments to this function. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="aba1ae2fc1a272c76dada1fe9e0acaef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1ae2fc1a272c76dada1fe9e0acaef5">&#9670;&nbsp;</a></span>selectRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool selectRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startTick</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endTick</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>startStaff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endStaff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects a range in a score. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startTick</td><td>start tick to be included in selection </td></tr>
+    <tr><td class="paramname">endTick</td><td>end tick of selection, excluded from selection </td></tr>
+    <tr><td class="paramname">startStaff</td><td>start staff index, included in selection </td></tr>
+    <tr><td class="paramname">endStaff</td><td>end staff index, excluded from seleciton </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> on success, <code>false</code> if selection cannot be changed, e.g. due to the ongoing operation on a score (like dragging elements) or incorrect arguments to this function. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a id="a57b9543b1da324db238953503fa4d32a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57b9543b1da324db238953503fa4d32a">&#9670;&nbsp;</a></span>elements</h2>
 
@@ -121,8 +284,138 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="ac3ceebaa92c6d725ea42aeb5fd8f2418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ceebaa92c6d725ea42aeb5fd8f2418">&#9670;&nbsp;</a></span>endSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a> endSegment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>End segment of selection, excluded. </p>
+<p>This property is valid only for range selection. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a0c73b7eed90d79aaddcbec12431d81ab">isRange</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae3280572a8093afd850ee19a9f7599fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3280572a8093afd850ee19a9f7599fb">&#9670;&nbsp;</a></span>endStaff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int endStaff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>End staff of selection, included. </p>
+<p>This property is valid only for range selection. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a0c73b7eed90d79aaddcbec12431d81ab">isRange</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0c73b7eed90d79aaddcbec12431d81ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c73b7eed90d79aaddcbec12431d81ab">&#9670;&nbsp;</a></span>isRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isRange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this selection covers a range of a score, as opposed to a list of distinct elements. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="abda9118294ee686856f15b0bb796a65d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda9118294ee686856f15b0bb796a65d">&#9670;&nbsp;</a></span>startSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_segment.html">Ms::PluginAPI::Segment</a> startSegment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start segment of selection, included. </p>
+<p>This property is valid only for range selection. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a0c73b7eed90d79aaddcbec12431d81ab">isRange</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae42d4600313bc8ae579baccdc3aaee6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42d4600313bc8ae579baccdc3aaee6d">&#9670;&nbsp;</a></span>startStaff</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int startStaff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>First staff of selection, included. </p>
+<p>This property is valid only for range selection. </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a0c73b7eed90d79aaddcbec12431d81ab">isRange</a> </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>mscore/plugin/api/<a class="el" href="selection_8h_source.html">selection.h</a></li>
+<li>mscore/plugin/api/selection.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

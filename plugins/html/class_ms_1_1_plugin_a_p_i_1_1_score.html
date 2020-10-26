@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.5</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -100,6 +100,12 @@ Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class=
 Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a6bd38868a449f9c2ce44acef7574c58e">setMetaTag</a> (const QString &amp;tag, const QString &amp;val)</td></tr>
 <tr class="memdesc:a6bd38868a449f9c2ce44acef7574c58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the metatag named <code>tag</code> to <code>val</code>. <br /></td></tr>
 <tr class="separator:a6bd38868a449f9c2ce44acef7574c58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ae9423628e820a3eb5257692ca3667"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a37ae9423628e820a3eb5257692ca3667">appendPart</a> (const QString &amp;instrumentId)</td></tr>
+<tr class="memdesc:a37ae9423628e820a3eb5257692ca3667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a part with the instrument defined by <code>instrumentId</code> to this score.  <a href="#a37ae9423628e820a3eb5257692ca3667">More...</a><br /></td></tr>
+<tr class="separator:a37ae9423628e820a3eb5257692ca3667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6616fd4cdab488c54cb106ae7cac3c6"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ac6616fd4cdab488c54cb106ae7cac3c6">appendPartByMusicXmlId</a> (const QString &amp;instrumentMusicXmlId)</td></tr>
+<tr class="memdesc:ac6616fd4cdab488c54cb106ae7cac3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a part with the instrument defined by the given MusicXML ID to this score.  <a href="#ac6616fd4cdab488c54cb106ae7cac3c6">More...</a><br /></td></tr>
+<tr class="separator:ac6616fd4cdab488c54cb106ae7cac3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a705fc08d414c44279c5cfa9f15258777"><td class="memItemLeft" align="right" valign="top"><a id="a705fc08d414c44279c5cfa9f15258777"></a>
 Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a705fc08d414c44279c5cfa9f15258777">appendMeasures</a> (int n)</td></tr>
 <tr class="memdesc:a705fc08d414c44279c5cfa9f15258777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a number of measures to this score. <br /></td></tr>
@@ -219,6 +225,15 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a03c42d849f61a07a11f4db791917442e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html">Ms::PluginAPI::Selection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a03c42d849f61a07a11f4db791917442e">selection</a></td></tr>
 <tr class="memdesc:a03c42d849f61a07a11f4db791917442e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current selections for the score.  <a href="#a03c42d849f61a07a11f4db791917442e">More...</a><br /></td></tr>
 <tr class="separator:a03c42d849f61a07a11f4db791917442e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfa2411f8983ccfeadad58b979ee240"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_m_style.html">Ms::PluginAPI::MStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#accfa2411f8983ccfeadad58b979ee240">style</a></td></tr>
+<tr class="memdesc:accfa2411f8983ccfeadad58b979ee240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Style settings for this score.  <a href="#accfa2411f8983ccfeadad58b979ee240">More...</a><br /></td></tr>
+<tr class="separator:accfa2411f8983ccfeadad58b979ee240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3990917e9b502441015183b7fbf9433"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#af3990917e9b502441015183b7fbf9433">pageNumberOffset</a></td></tr>
+<tr class="memdesc:af3990917e9b502441015183b7fbf9433"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_page.html">Page</a> numbering offset.  <a href="#af3990917e9b502441015183b7fbf9433">More...</a><br /></td></tr>
+<tr class="separator:af3990917e9b502441015183b7fbf9433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6099d3a6682994cc1d681b7fe2a8a1d"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_staff.html">Ms::PluginAPI::Staff</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aa6099d3a6682994cc1d681b7fe2a8a1d">staves</a></td></tr>
+<tr class="memdesc:aa6099d3a6682994cc1d681b7fe2a8a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of staves in this score.  <a href="#aa6099d3a6682994cc1d681b7fe2a8a1d">More...</a><br /></td></tr>
+<tr class="separator:aa6099d3a6682994cc1d681b7fe2a8a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_ms_1_1_plugin_a_p_i_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">ScoreElement</a></td></tr>
 <tr class="memitem:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">type</a></td></tr>
 <tr class="memdesc:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of this element.  <a href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">More...</a><br /></td></tr>
@@ -269,6 +284,61 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a37ae9423628e820a3eb5257692ca3667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ae9423628e820a3eb5257692ca3667">&#9670;&nbsp;</a></span>appendPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void appendPart </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>instrumentId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a part with the instrument defined by <code>instrumentId</code> to this score. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">instrumentId</td><td>- ID of the instrument to be added, as listed in <a href="https://github.com/musescore/MuseScore/blob/3.x/share/instruments/instruments.xml"><code>instruments.xml</code></a> file. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="ac6616fd4cdab488c54cb106ae7cac3c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6616fd4cdab488c54cb106ae7cac3c6">&#9670;&nbsp;</a></span>appendPartByMusicXmlId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void appendPartByMusicXmlId </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>instrumentMusicXmlId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a part with the instrument defined by the given MusicXML ID to this score. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">instrumentMusicXmlId</td><td>- <a href="https://www.musicxml.com/for-developers/standard-sounds/">MusicXML Sound ID</a> of the instrument to be added. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#aa866d95e37c558e73e242eebddda847e">Ms::PluginAPI::Part::instrumentId</a>, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_instrument.html#aa866d95e37c558e73e242eebddda847e">Ms::PluginAPI::Instrument::instrumentId</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
 
 </div>
 </div>
@@ -428,8 +498,8 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div><div class="memdoc">
 
 <p>First multimeasure rest measure of the score (read only). </p>
-<p><br />
- </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#a1a8e6a56f13c0cbfa95bba4338c26069">Measure::nextMeasureMM</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
 
 </div>
 </div>
@@ -558,8 +628,8 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div><div class="memdoc">
 
 <p>Last multimeasure rest measure of the score (read only). </p>
-<p><br />
- </p><dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_measure.html#af7a0f51afa432c47389b7bf438bc99e2">Measure::prevMeasureMM</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.2 </dd></dl>
 
 </div>
 </div>
@@ -615,6 +685,32 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 </div>
 </div>
+<a id="af3990917e9b502441015183b7fbf9433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3990917e9b502441015183b7fbf9433">&#9670;&nbsp;</a></span>pageNumberOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pageNumberOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_page.html">Page</a> numbering offset. </p>
+<p>The user-visible number of the given <code>page</code> is defined as </p><div class="fragment"><div class="line">page.pagenumber + 1 + score.pageNumberOffset</div></div><!-- fragment --> <dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_page.html#aaaf49fbae5bbad9f45085583d1cd3c61" title="Page number, counting from 0. ">Page::pagenumber</a> </dd></dl>
+
+</div>
+</div>
 <a id="a1306cc8fa089e48c0be927c19abc30ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1306cc8fa089e48c0be927c19abc30ee">&#9670;&nbsp;</a></span>scoreName</h2>
 
@@ -663,6 +759,56 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 
 <p>Current selections for the score. </p>
 <dl class="section since"><dt>Since</dt><dd>MuseScore 3.3 </dd></dl>
+
+</div>
+</div>
+<a id="aa6099d3a6682994cc1d681b7fe2a8a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6099d3a6682994cc1d681b7fe2a8a1d">&#9670;&nbsp;</a></span>staves</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_staff.html">Staff</a> &gt; staves</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of staves in this score. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
+
+</div>
+</div>
+<a id="accfa2411f8983ccfeadad58b979ee240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accfa2411f8983ccfeadad58b979ee240">&#9670;&nbsp;</a></span>style</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_m_style.html">Ms::PluginAPI::MStyle</a> style</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Style settings for this score. </p>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
 
 </div>
 </div>

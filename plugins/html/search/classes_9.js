@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['score',['Score',['../class_ms_1_1_plugin_a_p_i_1_1_score.html',1,'Ms::PluginAPI']]],
-  ['scoreelement',['ScoreElement',['../class_ms_1_1_plugin_a_p_i_1_1_score_element.html',1,'Ms::PluginAPI']]],
-  ['scoreview',['ScoreView',['../class_ms_1_1_plugin_a_p_i_1_1_score_view.html',1,'Ms::PluginAPI']]],
-  ['segment',['Segment',['../class_ms_1_1_plugin_a_p_i_1_1_segment.html',1,'Ms::PluginAPI']]],
-  ['selection',['Selection',['../class_ms_1_1_plugin_a_p_i_1_1_selection.html',1,'Ms::PluginAPI']]]
+  ['page',['Page',['../class_ms_1_1_plugin_a_p_i_1_1_page.html',1,'Ms::PluginAPI']]],
+  ['part',['Part',['../class_ms_1_1_plugin_a_p_i_1_1_part.html',1,'Ms::PluginAPI']]],
+  ['playevent',['PlayEvent',['../class_ms_1_1_plugin_a_p_i_1_1_play_event.html',1,'Ms::PluginAPI']]],
+  ['pluginapi',['PluginAPI',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html',1,'Ms::PluginAPI']]]
 ];

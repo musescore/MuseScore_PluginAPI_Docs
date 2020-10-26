@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.5</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -79,18 +79,33 @@ $(function() {
 <li>addNote()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a4a001c450801c17d0cebc2b4a40fca67">Cursor</a>
 </li>
+<li>addRest()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aa930b6fe002bdd495f2697d5fdad2fc7">Cursor</a>
+</li>
 <li>addText()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a64012576ca644ffcddde78a87054267f">Score</a>
 </li>
+<li>addTuplet()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#aead183147aee68a7fd9c5ea1c4d7aba4">Cursor</a>
+</li>
 <li>appendMeasures()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a705fc08d414c44279c5cfa9f15258777">Score</a>
+</li>
+<li>appendPart()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a37ae9423628e820a3eb5257692ca3667">Score</a>
+</li>
+<li>appendPartByMusicXmlId()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#ac6616fd4cdab488c54cb106ae7cac3c6">Score</a>
 </li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
 <li>canvasPos()
-: <a class="el" href="class_ms_1_1_beam.html#a9974ddd15f8fd92ad57add627e2c0c9c">Beam</a>
+: <a class="el" href="class_ms_1_1_beam.html#a7311b89da1145444c19f06f72a50ceb0">Beam</a>
+</li>
+<li>clear()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#aa0cf457d7170b358f40a5ffa13051b83">Selection</a>
 </li>
 <li>clone()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_element.html#a9625fe768f5d73a0005ccbad607e0013">Element</a>
@@ -100,6 +115,13 @@ $(function() {
 </li>
 <li>createPlayEvents()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9186fa1152c3a7cfa31e3f0dee779eb5">Score</a>
+</li>
+</ul>
+
+
+<h3><a id="index_d"></a>- d -</h3><ul>
+<li>deselect()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#ac7cc7d5b17c238763701ffbd13171760">Selection</a>
 </li>
 </ul>
 
@@ -138,8 +160,12 @@ $(function() {
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
+<li>instrumentAtTick()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_part.html#a1f3621d158e4ff14e29a5f2abe3da35c">Part</a>
+</li>
 <li>is()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_excerpt.html#a2e2f6e9aa3a93903f908e1948b586a17">Excerpt</a>
+, <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_instrument.html#a42028f799803a6235fd3d7cfa52ad5ae">Instrument</a>
 , <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#a1e927b19c2df8bbf42356944eda5eb19">ScoreElement</a>
 </li>
 </ul>
@@ -173,7 +199,7 @@ $(function() {
 
 <h3><a id="index_p"></a>- p -</h3><ul>
 <li>pagePos()
-: <a class="el" href="class_ms_1_1_beam.html#a1ee0fd20d552c104d79c8ed86c6c537e">Beam</a>
+: <a class="el" href="class_ms_1_1_beam.html#a400740140d89ed8f65056ca8a071579c">Beam</a>
 </li>
 <li>ppitch()
 : <a class="el" href="class_ms_1_1_note.html#ab14e40eef799a875fb65faf5ff6b28db">Note</a>
@@ -202,6 +228,9 @@ $(function() {
 <li>rewind()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a84ab46275523414c9b85dbce39898293">Cursor</a>
 </li>
+<li>rewindToTick()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#a355dae0db80a7c73ba2de2854ab69542">Cursor</a>
+</li>
 <li>run()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a13a43e6d814de94978c515cb084873b1">PluginAPI</a>
 </li>
@@ -212,11 +241,20 @@ $(function() {
 <li>scoreStateChanged()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#abae35457be10104c7e74a13320e75946">PluginAPI</a>
 </li>
+<li>select()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#a9fa6dc16273757c55551181837494238">Selection</a>
+</li>
+<li>selectRange()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_selection.html#aba1ae2fc1a272c76dada1fe9e0acaef5">Selection</a>
+</li>
 <li>setDuration()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_cursor.html#ac5a4dacc608176cab4ccf63ecbc08c82">Cursor</a>
 </li>
 <li>setMetaTag()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a6bd38868a449f9c2ce44acef7574c58e">Score</a>
+</li>
+<li>setValue()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_m_style.html#a7f23794f5a28588da19ea7a725b6e901">MStyle</a>
 </li>
 <li>startCmd()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a9962f2753eaaee2356cdcf8b786316bd">Score</a>
@@ -234,6 +272,13 @@ $(function() {
 <h3><a id="index_u"></a>- u -</h3><ul>
 <li>userName()
 : <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ab98a3e86cd8eb65f0b380dba1bd4976d">ScoreElement</a>
+</li>
+</ul>
+
+
+<h3><a id="index_v"></a>- v -</h3><ul>
+<li>value()
+: <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_m_style.html#a4ad84c62738a22dd0e578d0e1710225a">MStyle</a>
 </li>
 </ul>
 

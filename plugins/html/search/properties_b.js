@@ -5,6 +5,7 @@ var searchData=
   ['midibank',['midiBank',['../class_ms_1_1_plugin_a_p_i_1_1_channel.html#afa275ea7575669ebe1ed7ef7ca9b2e74',1,'Ms::PluginAPI::Channel']]],
   ['midichannel',['midiChannel',['../class_ms_1_1_plugin_a_p_i_1_1_part.html#aa7d9728ac8a774a923e79270f3663b14',1,'Ms::PluginAPI::Part']]],
   ['midiprogram',['midiProgram',['../class_ms_1_1_plugin_a_p_i_1_1_channel.html#ae5ae49bb9a87ce8861887a52bb901d52',1,'Ms::PluginAPI::Channel::midiProgram()'],['../class_ms_1_1_plugin_a_p_i_1_1_part.html#ae5ae49bb9a87ce8861887a52bb901d52',1,'Ms::PluginAPI::Part::midiProgram()']]],
+  ['mmrestrangebrackettype',['mmRestRangeBracketType',['../class_ms_1_1_plugin_a_p_i_1_1_element.html#a717292bfb44df316760c9c68e15d36c9',1,'Ms::PluginAPI::Element']]],
   ['mscoredpi',['mscoreDPI',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a4d38d5b8c9e329c019883bcac9d474c3',1,'Ms::PluginAPI::PluginAPI']]],
   ['mscoremajorversion',['mscoreMajorVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#a1800f322b90292e92307956e899dcfc4',1,'Ms::PluginAPI::PluginAPI']]],
   ['mscoreminorversion',['mscoreMinorVersion',['../class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html#afeb98a404015a0454625a6c095fe7da9',1,'Ms::PluginAPI::PluginAPI']]],

@@ -1,12 +1,12 @@
 <map id="Element" name="Element">
-<area shape="rect" id="node4" href="$class_ms_1_1_plugin_a_p_i_1_1_duration_element.html" title="DurationElement" alt="" coords="37,229,155,256"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_plugin_a_p_i_1_1_measure.html" title="Measure" alt="" coords="180,229,252,256"/>
-<area shape="rect" id="node9" href="$class_ms_1_1_plugin_a_p_i_1_1_note.html" title="Note" alt="" coords="276,229,327,256"/>
-<area shape="rect" id="node10" href="$class_ms_1_1_plugin_a_p_i_1_1_page.html" title="Page" alt="" coords="351,229,403,256"/>
-<area shape="rect" id="node11" href="$class_ms_1_1_plugin_a_p_i_1_1_segment.html" title="Segment" alt="" coords="428,229,503,256"/>
-<area shape="rect" id="node12" href="$class_ms_1_1_plugin_a_p_i_1_1_tie.html" title="Provides access to internal Ms::Tie objects. " alt="" coords="527,229,567,256"/>
-<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="287,80,391,107"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_chord_rest.html" title="ChordRest" alt="" coords="5,304,91,331"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_tuplet.html" title="Tuplet" alt="" coords="115,304,173,331"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="19,379,77,405"/>
+<area shape="rect" id="node4" href="$class_ms_1_1_plugin_a_p_i_1_1_duration_element.html" title="DurationElement" alt="" coords="35,229,153,256"/>
+<area shape="rect" id="node8" href="$class_ms_1_1_plugin_a_p_i_1_1_measure.html" title="Measure" alt="" coords="177,229,251,256"/>
+<area shape="rect" id="node9" href="$class_ms_1_1_plugin_a_p_i_1_1_note.html" title="Note" alt="" coords="275,229,326,256"/>
+<area shape="rect" id="node10" href="$class_ms_1_1_plugin_a_p_i_1_1_page.html" title="Page" alt="" coords="350,229,401,256"/>
+<area shape="rect" id="node11" href="$class_ms_1_1_plugin_a_p_i_1_1_segment.html" title="Segment" alt="" coords="425,229,499,256"/>
+<area shape="rect" id="node12" href="$class_ms_1_1_plugin_a_p_i_1_1_tie.html" title="Provides access to internal Ms::Tie objects. " alt="" coords="523,229,563,256"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="286,80,390,107"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_chord_rest.html" title="ChordRest" alt="" coords="5,304,89,331"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_tuplet.html" title="Tuplet" alt="" coords="113,304,171,331"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="18,379,77,405"/>
 </map>

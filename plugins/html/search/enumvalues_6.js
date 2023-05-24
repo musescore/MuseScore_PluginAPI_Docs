@@ -36,6 +36,7 @@ var searchData=
   ['glissandoframeround',['glissandoFrameRound',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a9515d4ebf61e95f42f1b2c1d61fd782c',1,'Ms']]],
   ['glissandoframetype',['glissandoFrameType',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a7ae0c7224c03a08e6e7ff636c249fa5f',1,'Ms']]],
   ['glissandoframewidth',['glissandoFrameWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a5c3f432158fafbca47ea070b01601ae0',1,'Ms']]],
+  ['glissandolinespacing',['glissandoLineSpacing',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27aff8072b09a9ce3c3df0e581914103fee',1,'Ms']]],
   ['glissandolinewidth',['glissandoLineWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27aa74429485729d5004872d805e26c800c',1,'Ms']]],
   ['glissandooffset',['glissandoOffset',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27aa1544cb41d38bb8c5efd6a56c2b6a9ad',1,'Ms']]],
   ['glissandotext',['glissandoText',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a82f63cc316ba2020cf24a3e462d58d6b',1,'Ms']]],

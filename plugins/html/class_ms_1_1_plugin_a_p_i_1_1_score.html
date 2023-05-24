@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.5</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -234,6 +234,9 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:aa6099d3a6682994cc1d681b7fe2a8a1d"><td class="memItemLeft" align="right" valign="top">QQmlListProperty&lt; <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_staff.html">Ms::PluginAPI::Staff</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#aa6099d3a6682994cc1d681b7fe2a8a1d">staves</a></td></tr>
 <tr class="memdesc:aa6099d3a6682994cc1d681b7fe2a8a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of staves in this score.  <a href="#aa6099d3a6682994cc1d681b7fe2a8a1d">More...</a><br /></td></tr>
 <tr class="separator:aa6099d3a6682994cc1d681b7fe2a8a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b772573db9a14b1acb61b24709ae73"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score.html#a34b772573db9a14b1acb61b24709ae73">path</a></td></tr>
+<tr class="memdesc:a34b772573db9a14b1acb61b24709ae73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the file from which the score was imported, or empty.  <a href="#a34b772573db9a14b1acb61b24709ae73">More...</a><br /></td></tr>
+<tr class="separator:a34b772573db9a14b1acb61b24709ae73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td colspan="2" onclick="javascript:toggleInherit('properties_class_ms_1_1_plugin_a_p_i_1_1_score_element')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html">ScoreElement</a></td></tr>
 <tr class="memitem:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">type</a></td></tr>
 <tr class="memdesc:ac765329451135abec74c45e1897abf26 inherit properties_class_ms_1_1_plugin_a_p_i_1_1_score_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of this element.  <a href="class_ms_1_1_plugin_a_p_i_1_1_score_element.html#ac765329451135abec74c45e1897abf26">More...</a><br /></td></tr>
@@ -708,6 +711,32 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <p><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_page.html">Page</a> numbering offset. </p>
 <p>The user-visible number of the given <code>page</code> is defined as </p><div class="fragment"><div class="line">page.pagenumber + 1 + score.pageNumberOffset</div></div><!-- fragment --> <dl class="section since"><dt>Since</dt><dd>MuseScore 3.5 </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ms_1_1_plugin_a_p_i_1_1_page.html#aaaf49fbae5bbad9f45085583d1cd3c61" title="Page number, counting from 0. ">Page::pagenumber</a> </dd></dl>
+
+</div>
+</div>
+<a id="a34b772573db9a14b1acb61b24709ae73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34b772573db9a14b1acb61b24709ae73">&#9670;&nbsp;</a></span>path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the path to the file from which the score was imported, or empty. </p>
+<dl class="section warning"><dt>Warning</dt><dd>If the score hasn't been saved yet, this will return an empty string. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>MuseScore 3.6 </dd></dl>
 
 </div>
 </div>

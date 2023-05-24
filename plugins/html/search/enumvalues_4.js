@@ -71,6 +71,8 @@ var searchData=
   ['element_5flist',['ELEMENT_LIST',['../namespace_ms.html#a16b11be27a8e9362dd122c4d879e01aeab34272fc1e2b489e548a5e6e7c73b9f7',1,'Ms']]],
   ['eleven_5ftwelfth_5fflat',['ELEVEN_TWELFTH_FLAT',['../namespace_ms.html#a6a2bbffde012baf4f45db52b1fc4e616ad8d0cfee15a7386a6aa89f587f433ab8',1,'Ms']]],
   ['eleven_5ftwelfth_5fsharp',['ELEVEN_TWELFTH_SHARP',['../namespace_ms.html#a6a2bbffde012baf4f45db52b1fc4e616aa21c30881f58e7ffca59156cd7eacfba',1,'Ms']]],
+  ['enableindentationonfirstsystem',['enableIndentationOnFirstSystem',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a322eea03da4654d479967cb87170853d',1,'Ms']]],
+  ['enableverticalspread',['enableVerticalSpread',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27ae7d7d154784966705c6c8d5fa2f4cf16',1,'Ms']]],
   ['end',['END',['../class_ms_1_1_lyrics.html#abde22ff6047b7fa33e45f16c37217154ab1a326c06d88bf042f73d70f50197905',1,'Ms::Lyrics::END()'],['../class_ms_1_1_beam.html#a0ccea95d282337f770c60f9cac1193b4ab1a326c06d88bf042f73d70f50197905',1,'Ms::Beam::END()'],['../namespace_ms.html#a6a2bbffde012baf4f45db52b1fc4e616ab1a326c06d88bf042f73d70f50197905',1,'Ms::END()']]],
   ['endbardistance',['endBarDistance',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27add2d6933c795eaba8a755a63ea0c19a7',1,'Ms']]],
   ['endbarline',['EndBarLine',['../namespace_ms.html#a45f8c604b4008a278fe9bde5156489eeaeb7c90481b6f7672bbbcd3775a2aae7d',1,'Ms']]],
@@ -94,6 +96,7 @@ var searchData=
   ['expressionframeround',['expressionFrameRound',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a2db4f72c939a6b5cbe548457e5694baf',1,'Ms']]],
   ['expressionframetype',['expressionFrameType',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a1c3a302cb822757defa8afd05c0afe0a',1,'Ms']]],
   ['expressionframewidth',['expressionFrameWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27abcf33c51574e5768c30f60199400293f',1,'Ms']]],
+  ['expressionlinespacing',['expressionLineSpacing',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a5437552e6a791ceb13731ca7732e7677',1,'Ms']]],
   ['expressionoffset',['expressionOffset',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27ac26f6c57127b07fec6ff43aa612f5628',1,'Ms']]],
   ['expressionplacement',['expressionPlacement',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27ab70c3d0995bcf14b39cb29f134bfb350',1,'Ms']]]
 ];

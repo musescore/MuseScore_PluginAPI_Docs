@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore Plugins
-   &#160;<span id="projectnumber">3.5</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Plugins API for MuseScore</div>
   </td>
@@ -80,11 +80,17 @@ $(function() {
 Inheritance diagram for LayoutBreak:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_layout_break__inherit__graph.png" border="0" usemap="#_layout_break_inherit__map" alt="Inheritance graph"/></div>
+<map name="_layout_break_inherit__map" id="_layout_break_inherit__map">
+<area shape="rect" id="node2" href="class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="16,5,89,33"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for LayoutBreak:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_ms_1_1_layout_break__coll__graph.png" border="0" usemap="#_layout_break_coll__map" alt="Collaboration graph"/></div>
+<map name="_layout_break_coll__map" id="_layout_break_coll__map">
+<area shape="rect" id="node2" href="class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="16,5,89,33"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -111,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a197991d633bebf9f1361494b70ab8de2"><td class="memItemLeft" align="right" valign="top"><a id="a197991d633bebf9f1361494b70ab8de2"></a>
 <a class="el" href="namespace_ms.html#a16b11be27a8e9362dd122c4d879e01ae">ElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const override</td></tr>
 <tr class="separator:a197991d633bebf9f1361494b70ab8de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7f596f031496efaa9c1bfe35a431da"><td class="memItemLeft" align="right" valign="top"><a id="adf7f596f031496efaa9c1bfe35a431da"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>subtype</b> () const override</td></tr>
+<tr class="separator:adf7f596f031496efaa9c1bfe35a431da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a607a0e210b8d5a3cfc2e910573f0adae"><td class="memItemLeft" align="right" valign="top"><a id="a607a0e210b8d5a3cfc2e910573f0adae"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setLayoutBreakType</b> (<a class="el" href="class_ms_1_1_layout_break.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a>)</td></tr>
 <tr class="separator:a607a0e210b8d5a3cfc2e910573f0adae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,9 +138,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (XmlWriter 
 <tr class="memitem:ab8649007a82bd63b80d7b57e08a5b880"><td class="memItemLeft" align="right" valign="top"><a id="ab8649007a82bd63b80d7b57e08a5b880"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (XmlReader &amp;) override</td></tr>
 <tr class="separator:ab8649007a82bd63b80d7b57e08a5b880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3444242f31358a2176c9f8ab3e0941f"><td class="memItemLeft" align="right" valign="top"><a id="ad3444242f31358a2176c9f8ab3e0941f"></a>
-Measure *&#160;</td><td class="memItemRight" valign="bottom"><b>measure</b> () const</td></tr>
-<tr class="separator:ad3444242f31358a2176c9f8ab3e0941f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4a3aed28521130e13d3f5141898587"><td class="memItemLeft" align="right" valign="top"><a id="aec4a3aed28521130e13d3f5141898587"></a>
+MeasureBase *&#160;</td><td class="memItemRight" valign="bottom"><b>measure</b> () const</td></tr>
+<tr class="separator:aec4a3aed28521130e13d3f5141898587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e68b6509a6cc03109c37a30e1c6ba27"><td class="memItemLeft" align="right" valign="top"><a id="a6e68b6509a6cc03109c37a30e1c6ba27"></a>
 qreal&#160;</td><td class="memItemRight" valign="bottom"><b>pause</b> () const</td></tr>
 <tr class="separator:a6e68b6509a6cc03109c37a30e1c6ba27"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +159,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>startWithMeasureOne</
 <tr class="memitem:a650e4acf7a4d1e134f80e4da037e8e6c"><td class="memItemLeft" align="right" valign="top"><a id="a650e4acf7a4d1e134f80e4da037e8e6c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setStartWithMeasureOne</b> (bool v)</td></tr>
 <tr class="separator:a650e4acf7a4d1e134f80e4da037e8e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa804e1b4130b98987692f1da40efed61"><td class="memItemLeft" align="right" valign="top"><a id="aa804e1b4130b98987692f1da40efed61"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>firstSystemIdentation</b> () const</td></tr>
+<tr class="separator:aa804e1b4130b98987692f1da40efed61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033429097dc5614b98eb52b7be0c8f58"><td class="memItemLeft" align="right" valign="top"><a id="a033429097dc5614b98eb52b7be0c8f58"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setFirstSystemIdentation</b> (bool v)</td></tr>
+<tr class="separator:a033429097dc5614b98eb52b7be0c8f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab9bd0ba42a03d200bfe87f931a4e4c"><td class="memItemLeft" align="right" valign="top"><a id="a8ab9bd0ba42a03d200bfe87f931a4e4c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPageBreak</b> () const</td></tr>
 <tr class="separator:a8ab9bd0ba42a03d200bfe87f931a4e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>

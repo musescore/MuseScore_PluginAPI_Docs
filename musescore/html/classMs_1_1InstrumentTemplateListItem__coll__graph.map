@@ -1,0 +1,13 @@
+<map id="Ms::InstrumentTemplateListItem" name="Ms::InstrumentTemplateListItem">
+<area shape="rect" id="node3" href="$classMs_1_1InstrumentTemplate.html" title="Ms::InstrumentTemplate" alt="" coords="591,256,757,283"/>
+<area shape="rect" id="node4" href="$classMs_1_1StaffType.html" title="Ms::StaffType" alt="" coords="302,97,405,124"/>
+<area shape="rect" id="node5" href="$classMs_1_1Spatium.html" title="Ms::Spatium" alt="" coords="30,97,125,124"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="297,7,409,33"/>
+<area shape="rect" id="node9" href="$structMs_1_1Interval.html" title="Ms::Interval" alt="" coords="308,177,399,204"/>
+<area shape="rect" id="node10" href="$classMs_1_1Drumset.html" title="Ms::Drumset" alt="" coords="304,228,403,255"/>
+<area shape="rect" id="node11" href="$structMs_1_1DrumInstrument.html" title="Ms::DrumInstrument" alt="" coords="5,228,149,255"/>
+<area shape="rect" id="node12" href="$classMs_1_1InstrumentFamily.html" title="Ms::InstrumentFamily" alt="" coords="279,279,428,305"/>
+<area shape="rect" id="node13" href="$classMs_1_1StringData.html" title="Ms::StringData" alt="" coords="299,329,407,356"/>
+<area shape="rect" id="node14" href="$structMs_1_1ClefTypeList.html" title="Ms::ClefTypeList" alt="" coords="294,380,413,407"/>
+<area shape="rect" id="node15" href="$classMs_1_1StaffNameList.html" title="Ms::StaffNameList" alt="" coords="287,437,420,464"/>
+</map>

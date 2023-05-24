@@ -1,0 +1,37 @@
+<map id="Ms::Timeline" name="Ms::Timeline">
+<area shape="rect" id="node45" href="$classMs_1_1TRowLabels.html" title="Ms::TRowLabels" alt="" coords="2531,155,2649,181"/>
+<area shape="rect" id="node3" href="$structMs_1_1TimelineTheme.html" title="Ms::TimelineTheme" alt="" coords="1873,204,2012,231"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="162,404,274,431"/>
+<area shape="rect" id="node13" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="493,829,623,856"/>
+<area shape="rect" id="node47" title="STL class. " alt="" coords="1483,257,1597,284"/>
+<area shape="rect" id="node8" href="$classMs_1_1ScoreView.html" title="Ms::ScoreView" alt="" coords="1888,817,1997,844"/>
+<area shape="rect" id="node37" href="$classMs_1_1OmrView.html" title="Ms::OmrView" alt="" coords="2284,653,2385,680"/>
+<area shape="rect" id="node38" href="$classMs_1_1ContinuousPanel.html" title="Ms::ContinuousPanel" alt="" coords="2261,863,2408,889"/>
+<area shape="rect" id="node44" href="$classMs_1_1PositionCursor.html" title="Ms::PositionCursor" alt="" coords="2267,1219,2403,1245"/>
+<area shape="rect" id="node10" href="$classMs_1_1MuseScoreView.html" title="Ms::MuseScoreView" alt="" coords="1163,935,1305,961"/>
+<area shape="rect" id="node36" href="$classMs_1_1EditData.html" title="Ms::EditData" alt="" coords="1492,777,1588,804"/>
+<area shape="rect" id="node11" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="865,1211,947,1237"/>
+<area shape="rect" id="node15" href="$classMs_1_1Excerpt.html" title="Ms::Excerpt" alt="" coords="1495,1247,1585,1273"/>
+<area shape="rect" id="node16" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="1173,1324,1295,1351"/>
+<area shape="rect" id="node23" href="$classMs_1_1Selection.html" title="Ms::Selection" alt="" coords="1183,1520,1285,1547"/>
+<area shape="rect" id="node31" href="$classMs_1_1SelectionFilter.html" title="Ms::SelectionFilter" alt="" coords="1169,999,1299,1025"/>
+<area shape="rect" id="node34" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="859,595,953,621"/>
+<area shape="rect" id="node17" href="$classMs_1_1Omr.html" title="Ms::Omr" alt="" coords="869,835,943,861"/>
+<area shape="rect" id="node18" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="859,1595,953,1621"/>
+<area shape="rect" id="node19" href="$classMs_1_1MeasureBaseList.html" title="Ms::MeasureBaseList" alt="" coords="484,1148,632,1175"/>
+<area shape="rect" id="node20" href="$classMs_1_1InputState.html" title="Ms::InputState" alt="" coords="505,1249,611,1276"/>
+<area shape="rect" id="node21" href="$classMs_1_1TDuration.html" title="Ms::TDuration" alt="" coords="166,984,270,1011"/>
+<area shape="rect" id="node35" href="$classMs_1_1ShadowNote.html" title="Graphic representation of a shadow note, which shows the note insert position in note entry mode..." alt="" coords="1172,884,1296,911"/>
+<area shape="rect" id="node22" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="485,1300,631,1327"/>
+<area shape="rect" id="node24" href="$classMs_1_1SpannerMap.html" title="Ms::SpannerMap" alt="" coords="497,1351,619,1377"/>
+<area shape="rect" id="node25" href="$classMs_1_1UpdateState.html" title="Ms::UpdateState" alt="" coords="499,1401,617,1428"/>
+<area shape="rect" id="node28" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="501,1452,615,1479"/>
+<area shape="rect" id="node29" href="$classMs_1_1Audio.html" title="Ms::Audio" alt="" coords="517,1503,599,1529"/>
+<area shape="rect" id="node30" href="$classMs_1_1MStyle.html" title="Ms::MStyle" alt="" coords="515,996,601,1023"/>
+<area shape="rect" id="node32" href="$classMs_1_1ScoreFont.html" title="Ms::ScoreFont" alt="" coords="505,1047,611,1073"/>
+<area shape="rect" id="node33" href="$classMs_1_1Lasso.html" title="Ms::Lasso" alt="" coords="1193,665,1275,692"/>
+<area shape="rect" id="node43" href="$classMs_1_1FotoLasso.html" title="Ms::FotoLasso" alt="" coords="1485,727,1595,753"/>
+<area shape="rect" id="node41" href="$structMs_1_1SmoothPanSettings.html" title="Ms::SmoothPanSettings" alt="" coords="1459,828,1621,855"/>
+<area shape="rect" id="node42" href="$structMs_1_1ZoomState.html" title="Ms::ZoomState" alt="" coords="1483,929,1597,956"/>
+<area shape="rect" id="node48" href="$classMs_1_1TDockWidget.html" title="Ms::TDockWidget" alt="" coords="1879,91,2006,117"/>
+</map>

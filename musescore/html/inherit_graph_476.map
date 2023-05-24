@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_text_style_map.html" title="Ms::TextStyleMap" alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1SearchComboBox.html" title="Ms::SearchComboBox" alt="" coords="164,5,317,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1WorkspaceComboBox.html" title="Ms::WorkspaceComboBox" alt="" coords="151,56,331,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1ZoomBox.html" title="Ms::ZoomBox" alt="" coords="188,107,293,133"/>
 </map>

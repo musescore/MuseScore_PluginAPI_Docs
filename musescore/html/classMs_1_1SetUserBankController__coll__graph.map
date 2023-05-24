@@ -1,0 +1,10 @@
+<map id="Ms::SetUserBankController" name="Ms::SetUserBankController">
+<area shape="rect" id="node2" href="$classMs_1_1UndoCommand.html" title="Ms::UndoCommand" alt="" coords="1393,59,1536,86"/>
+<area shape="rect" id="node3" href="$classMs_1_1Channel.html" title="Ms::Channel" alt="" coords="1417,9,1512,35"/>
+<area shape="rect" id="node4" href="$classMs_1_1Notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="1089,104,1237,145"/>
+<area shape="rect" id="node6" href="$classMs_1_1Listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="1389,173,1540,215"/>
+<area shape="rect" id="node7" href="$classMs_1_1Listener.html" title="Ms::Listener\&lt; Data \&gt;" alt="" coords="1093,190,1234,217"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="159,111,271,138"/>
+<area shape="rect" id="node10" href="$classMs_1_1Notifier.html" title="Ms::Notifier\&lt; Data \&gt;" alt="" coords="760,111,899,138"/>
+<area shape="rect" id="node13" href="$classMs_1_1MidiCoreEvent.html" title="Ms::MidiCoreEvent" alt="" coords="149,13,281,39"/>
+</map>

@@ -1,0 +1,41 @@
+<map id="Ms::Measure" name="Ms::Measure">
+<area shape="rect" id="node2" href="$classMs_1_1MeasureBase.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="2002,301,2129,328"/>
+<area shape="rect" id="node13" href="$classMs_1_1MeasureBaseList.html" title="Ms::MeasureBaseList" alt="" coords="1805,407,1953,433"/>
+<area shape="rect" id="node3" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="786,724,881,751"/>
+<area shape="rect" id="node8" href="$classMs_1_1Spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="1193,828,1287,855"/>
+<area shape="rect" id="node15" href="$classMs_1_1Segment.html" title="Ms::Segment" alt="" coords="409,933,508,960"/>
+<area shape="rect" id="node45" href="$classMs_1_1Spacer.html" title="Vertical spacer element to adjust the distance of staves. " alt="" coords="900,880,988,907"/>
+<area shape="rect" id="node46" href="$classMs_1_1StaffLines.html" title="The StaffLines class is the graphic representation of a staff, it draws the horizontal staff lines..." alt="" coords="444,994,551,1021"/>
+<area shape="rect" id="node49" href="$classMs_1_1TextBase.html" title="Ms::TextBase" alt="" coords="805,828,907,855"/>
+<area shape="rect" id="node4" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="769,626,898,653"/>
+<area shape="rect" id="node5" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="1310,512,1391,539"/>
+<area shape="rect" id="node11" href="$classMs_1_1Excerpt.html" title="Ms::Excerpt" alt="" coords="1585,724,1676,751"/>
+<area shape="rect" id="node12" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="1673,626,1796,653"/>
+<area shape="rect" id="node28" href="$classMs_1_1Selection.html" title="Ms::Selection" alt="" coords="1013,1053,1115,1080"/>
+<area shape="rect" id="node36" href="$classMs_1_1SelectionFilter.html" title="Ms::SelectionFilter" alt="" coords="1127,626,1257,653"/>
+<area shape="rect" id="node9" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="2202,196,2297,223"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="2012,512,2105,539"/>
+<area shape="rect" id="node14" href="$classMs_1_1InputState.html" title="Ms::InputState" alt="" coords="1309,1053,1416,1080"/>
+<area shape="rect" id="node42" href="$classMs_1_1SegmentList.html" title="Ms::SegmentList" alt="" coords="5,1104,125,1131"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="384,301,496,328"/>
+<area shape="rect" id="node21" title="STL class. " alt="" coords="237,145,425,172"/>
+<area shape="rect" id="node27" title="STL class. " alt="" coords="605,95,792,121"/>
+<area shape="rect" id="node41" title="STL class. " alt="" coords="867,95,1026,121"/>
+<area shape="rect" id="node20" href="$classMs_1_1Shape.html" title="Ms::Shape" alt="" coords="233,248,316,275"/>
+<area shape="rect" id="node23" href="$classMs_1_1Spatium.html" title="Ms::Spatium" alt="" coords="467,626,562,653"/>
+<area shape="rect" id="node24" href="$classMs_1_1TDuration.html" title="Ms::TDuration" alt="" coords="1459,933,1563,960"/>
+<area shape="rect" id="node25" href="$classMs_1_1Slur.html" title="Ms::Slur" alt="" coords="1363,933,1434,960"/>
+<area shape="rect" id="node26" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="791,248,937,275"/>
+<area shape="rect" id="node29" href="$classMs_1_1SpannerMap.html" title="Ms::SpannerMap" alt="" coords="1659,407,1781,433"/>
+<area shape="rect" id="node30" href="$classMs_1_1UpdateState.html" title="Ms::UpdateState" alt="" coords="1027,407,1146,433"/>
+<area shape="rect" id="node33" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="1171,407,1285,433"/>
+<area shape="rect" id="node34" href="$classMs_1_1Audio.html" title="Ms::Audio" alt="" coords="1309,407,1392,433"/>
+<area shape="rect" id="node35" href="$classMs_1_1MStyle.html" title="Ms::MStyle" alt="" coords="1417,407,1503,433"/>
+<area shape="rect" id="node37" href="$classMs_1_1ScoreFont.html" title="Ms::ScoreFont" alt="" coords="1528,407,1635,433"/>
+<area shape="rect" id="node38" href="$classMs_1_1LinkedElements.html" title="Ms::LinkedElements" alt="" coords="628,512,769,539"/>
+<area shape="rect" id="node40" href="$classMs_1_1ElementList.html" title="Ms::ElementList" alt="" coords="1254,196,1370,223"/>
+<area shape="rect" id="node44" href="$classMs_1_1MStaff.html" title="Per staff values of measure. " alt="" coords="707,1155,795,1181"/>
+<area shape="rect" id="node47" href="$classMs_1_1MeasureNumber.html" title="Ms::MeasureNumber" alt="" coords="755,1053,901,1080"/>
+<area shape="rect" id="node48" href="$classMs_1_1MeasureNumberBase.html" title="The basic element making measure numbers. " alt="" coords="731,933,906,960"/>
+<area shape="rect" id="node50" href="$classMs_1_1MMRestRange.html" title="Ms::MMRestRange" alt="" coords="597,1053,731,1080"/>
+</map>

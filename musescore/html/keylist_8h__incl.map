@@ -1,3 +1,7 @@
 <map id="libmscore/keylist.h" name="libmscore/keylist.h">
-<area shape="rect" id="node2" href="$key_8h.html" title="key.h" alt="" coords="43,80,98,107"/>
+<area shape="rect" id="node2" href="$key_8h.html" title="key.h" alt="" coords="91,80,144,107"/>
+<area shape="rect" id="node3" href="$sym_8h.html" title="sym.h" alt="" coords="88,155,147,181"/>
+<area shape="rect" id="node5" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="41,229,101,256"/>
+<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="29,304,113,331"/>
+<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="138,304,202,331"/>
 </map>

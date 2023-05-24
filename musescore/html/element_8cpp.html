@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -95,6 +95,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="figuredbass_8h_source.html">figuredbass.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fingering_8h_source.html">fingering.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fret_8h_source.html">fret.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2fraction_8h_source.html">fraction.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="glissando_8h_source.html">glissando.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hairpin_8h_source.html">hairpin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="harmony_8h_source.html">harmony.h</a>&quot;</code><br />
@@ -130,7 +131,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="stafftype_8h_source.html">stafftype.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stem_8h_source.html">stem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sticking_8h_source.html">sticking.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="symbol_8h_source.html">symbol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="system_8h_source.html">system.h</a>&quot;</code><br />
@@ -138,6 +139,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="textframe_8h_source.html">textframe.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text_8h_source.html">text.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measurenumber_8h_source.html">measurenumber.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mmrestrange_8h_source.html">mmrestrange.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textline_8h_source.html">textline.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2tie_8h_source.html">tie.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timesig_8h_source.html">timesig.h</a>&quot;</code><br />
@@ -156,22 +158,26 @@ $(function() {
 <code>#include &quot;<a class="el" href="palmmute_8h_source.html">palmmute.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fermata_8h_source.html">fermata.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shape_8h_source.html">shape.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="element_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a043567da093e3157ef81be2d3d641bb2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a043567da093e3157ef81be2d3d641bb2">Ms::elementLessThan</a> (const Element *const e1, const Element *const e2)</td></tr>
+<tr class="memitem:a043567da093e3157ef81be2d3d641bb2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a043567da093e3157ef81be2d3d641bb2">Ms::elementLessThan</a> (const Element *const e1, const Element *const e2)</td></tr>
 <tr class="separator:a043567da093e3157ef81be2d3d641bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5173158057bbfcd55ea8224da7356e80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5173158057bbfcd55ea8224da7356e80">Ms::collectElements</a> (void *data, Element *e)</td></tr>
+<tr class="memitem:a5173158057bbfcd55ea8224da7356e80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5173158057bbfcd55ea8224da7356e80">Ms::collectElements</a> (void *data, Element *e)</td></tr>
 <tr class="separator:a5173158057bbfcd55ea8224da7356e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of Element, ElementList. </p>
+
+<p class="definition">Definition in file <a class="el" href="element_8cpp_source.html">element.cpp</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

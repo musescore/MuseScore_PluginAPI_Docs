@@ -1,10 +1,9 @@
 <map id="mscore/plugin/qmlplugin.h" name="mscore/plugin/qmlplugin.h">
-<area shape="rect" id="node2" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="49,80,208,107"/>
-<area shape="rect" id="node3" href="$qmlpluginapi_8h.html" title="mscore/plugin/api/qmlpluginapi.h" alt="" coords="233,80,443,107"/>
-<area shape="rect" id="node7" href="$mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="467,80,686,107"/>
-<area shape="rect" id="node8" href="$plugin_creator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="711,80,920,107"/>
-<area shape="rect" id="node9" href="$qmlplugin_8cpp.html" title="mscore/plugin/qmlplugin.cpp" alt="" coords="945,80,1131,107"/>
-<area shape="rect" id="node4" href="$fraction_8cpp.html" title="mscore/plugin/api/fraction.cpp" alt="" coords="5,155,201,181"/>
-<area shape="rect" id="node5" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="225,155,451,181"/>
-<area shape="rect" id="node6" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="475,155,700,181"/>
+<area shape="rect" id="node2" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="5,80,169,107"/>
+<area shape="rect" id="node3" href="$qmlpluginapi_8h.html" title="mscore/plugin/api/qmlpluginapi.h" alt="" coords="194,80,415,107"/>
+<area shape="rect" id="node6" href="$mscorePlugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="440,80,665,107"/>
+<area shape="rect" id="node7" href="$pluginCreator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="689,80,904,107"/>
+<area shape="rect" id="node8" href="$qmlplugin_8cpp.html" title="mscore/plugin/qmlplugin.cpp" alt="" coords="929,80,1123,107"/>
+<area shape="rect" id="node4" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="58,155,293,181"/>
+<area shape="rect" id="node5" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="317,155,551,181"/>
 </map>

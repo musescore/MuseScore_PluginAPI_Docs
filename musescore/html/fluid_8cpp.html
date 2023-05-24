@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: fluid/fluid.cpp File Reference</title>
+<title>MuseScore: audio/midi/fluid/fluid.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,51 +61,69 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_303265fe8efefb9df6ce62568babadc3.html">fluid</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a5f32cf82ad289a7dac212f63f40f55b.html">audio</a></li><li class="navelem"><a class="el" href="dir_3824a7ec5b12b565edaf034255c94bb9.html">midi</a></li><li class="navelem"><a class="el" href="dir_e6402aa4346238d95173d57d5c26ba4d.html">fluid</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">fluid.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="event_8h_source.html">synthesizer/event.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="msynthesizer_8h_source.html">synthesizer/msynthesizer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="extension_8h_source.html">mscore/extension.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fluid_8h_source.html">fluid.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="fluid_8h_source.html">fluid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sfont_8h_source.html">sfont.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="conv_8h_source.html">conv.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gen_8h_source.html">gen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fluid_2voice_8h_source.html">voice.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="event_8h_source.html">midi/event.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="msynthesizer_8h_source.html">midi/msynthesizer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="extension_8h_source.html">mscore/extension.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for fluid.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="fluid_8cpp__incl.png" border="0" usemap="#fluid_2fluid_8cpp" alt=""/></div>
-<map name="fluid_2fluid_8cpp" id="fluid_2fluid_8cpp">
-<area shape="rect" id="node2" href="event_8h.html" title="synthesizer/event.h" alt="" coords="5,80,141,107"/>
-<area shape="rect" id="node4" href="msynthesizer_8h.html" title="synthesizer/msynthesizer.h" alt="" coords="97,162,279,189"/>
-<area shape="rect" id="node10" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="247,80,395,107"/>
-<area shape="rect" id="node13" href="extension_8h.html" title="mscore/extension.h" alt="" coords="420,80,556,107"/>
-<area shape="rect" id="node14" href="fluid_8h.html" title="fluid.h" alt="" coords="662,162,719,189"/>
-<area shape="rect" id="node17" href="sfont_8h.html" title="sfont.h" alt="" coords="581,80,643,107"/>
-<area shape="rect" id="node19" href="conv_8h.html" title="conv.h" alt="" coords="719,80,780,107"/>
-<area shape="rect" id="node20" href="gen_8h.html" title="gen.h" alt="" coords="843,162,898,189"/>
-<area shape="rect" id="node21" href="fluid_2voice_8h.html" title="voice.h" alt="" coords="804,80,868,107"/>
-<area shape="rect" id="node6" href="effect_8h.html" title="effects/effect.h" alt="" coords="78,244,189,271"/>
-<area shape="rect" id="node8" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="217,319,407,345"/>
-<area shape="rect" id="node11" href="globals_8h.html" title="globals.h" alt="" coords="471,162,545,189"/>
-<area shape="rect" id="node15" href="synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="411,244,581,271"/>
-<area shape="rect" id="node16" href="midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="611,244,771,271"/>
+<div class="center"><img src="fluid_8cpp__incl.png" border="0" usemap="#audio_2midi_2fluid_2fluid_8cpp" alt=""/></div>
+<map name="audio_2midi_2fluid_2fluid_8cpp" id="audio_2midi_2fluid_2fluid_8cpp">
+<area shape="rect" id="node2" href="fluid_8h.html" title="fluid.h" alt="" coords="101,162,160,189"/>
+<area shape="rect" id="node7" href="sfont_8h.html" title="sfont.h" alt="" coords="20,80,84,107"/>
+<area shape="rect" id="node9" href="conv_8h.html" title="conv.h" alt="" coords="159,80,220,107"/>
+<area shape="rect" id="node10" href="gen_8h.html" title="gen.h" alt="" coords="259,162,314,189"/>
+<area shape="rect" id="node11" href="fluid_2voice_8h.html" title="voice.h" alt="" coords="244,80,308,107"/>
+<area shape="rect" id="node12" href="event_8h.html" title="midi/event.h" alt="" coords="383,80,479,107"/>
+<area shape="rect" id="node14" href="msynthesizer_8h.html" title="midi/msynthesizer.h" alt="" coords="423,162,566,189"/>
+<area shape="rect" id="node18" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="588,80,740,107"/>
+<area shape="rect" id="node22" href="extension_8h.html" title="mscore/extension.h" alt="" coords="764,80,905,107"/>
+<area shape="rect" id="node3" href="synthesizer_8h.html" title="audio/midi/synthesizer.h" alt="" coords="192,244,363,271"/>
+<area shape="rect" id="node6" href="midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="5,244,168,271"/>
+<area shape="rect" id="node4" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="275,319,469,345"/>
+<area shape="rect" id="node16" href="effect_8h.html" title="effects/effect.h" alt="" coords="437,244,552,271"/>
+<area shape="rect" id="node20" href="globals_8h.html" title="globals.h" alt="" coords="865,162,940,189"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="fluid_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_fluid_s"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fluid_s.html">FluidS</a></td></tr>
+<tr class="memitem:namespaceFluidS"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html">FluidS</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9cda5fc84ffcfd826e453ebff1f28e3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a9cda5fc84ffcfd826e453ebff1f28e3f">FluidS::validNote</a> (const int input)</td></tr>
+<tr class="separator:a9cda5fc84ffcfd826e453ebff1f28e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f9a8daad713091cb151bd976a8fefb3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a5f9a8daad713091cb151bd976a8fefb3">FluidS::collectFiles</a> (QFileInfoList *l, const QString &amp;path)</td></tr>
+<tr class="separator:a5f9a8daad713091cb151bd976a8fefb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a340b740954a966bb2c754e270141bf04"><td class="memItemLeft" align="right" valign="top">static const Mod&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a340b740954a966bb2c754e270141bf04">FluidS::defaultMod</a> []</td></tr>
+<tr class="separator:a340b740954a966bb2c754e270141bf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac91590f20a22d21fd48514f4989407fb"><td class="memItemLeft" align="right" valign="top">static const Mod&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#ac91590f20a22d21fd48514f4989407fb">FluidS::forcePanMod</a> = { GEN_PAN, 10, FLUID_MOD_CC | FLUID_MOD_LINEAR | FLUID_MOD_BIPOLAR | FLUID_MOD_POSITIVE, 0, 0, 1000.0 }</td></tr>
+<tr class="separator:ac91590f20a22d21fd48514f4989407fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

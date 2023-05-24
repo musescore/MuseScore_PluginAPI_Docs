@@ -1,0 +1,39 @@
+<map id="Ms::EditStaff" name="Ms::EditStaff">
+<area shape="rect" id="node4" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="359,5,453,32"/>
+<area shape="rect" id="node11" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="854,117,977,143"/>
+<area shape="rect" id="node15" href="$classMs_1_1Selection.html" title="Ms::Selection" alt="" coords="1246,339,1347,366"/>
+<area shape="rect" id="node46" href="$classMs_1_1TimeSig.html" title="This class represents a time signature. " alt="" coords="316,183,411,210"/>
+<area shape="rect" id="node5" href="$classMs_1_1Staff.html" title="Global staff data not directly related to drawing. " alt="" coords="1768,540,1844,567"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="1716,339,1845,366"/>
+<area shape="rect" id="node7" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="1256,243,1337,269"/>
+<area shape="rect" id="node31" href="$classMs_1_1Part.html" title="Ms::Part" alt="" coords="1940,451,2011,477"/>
+<area shape="rect" id="node10" href="$classMs_1_1Excerpt.html" title="Ms::Excerpt" alt="" coords="849,339,939,366"/>
+<area shape="rect" id="node24" href="$classMs_1_1SelectionFilter.html" title="Ms::SelectionFilter" alt="" coords="1067,339,1198,366"/>
+<area shape="rect" id="node12" href="$classMs_1_1MeasureBaseList.html" title="Ms::MeasureBaseList" alt="" coords="1464,117,1612,143"/>
+<area shape="rect" id="node13" href="$classMs_1_1InputState.html" title="Ms::InputState" alt="" coords="1637,117,1743,143"/>
+<area shape="rect" id="node14" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="1768,117,1913,143"/>
+<area shape="rect" id="node16" href="$classMs_1_1SpannerMap.html" title="Ms::SpannerMap" alt="" coords="1937,117,2059,143"/>
+<area shape="rect" id="node17" href="$classMs_1_1UpdateState.html" title="Ms::UpdateState" alt="" coords="572,117,691,143"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="2225,5,2337,32"/>
+<area shape="rect" id="node21" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="715,117,830,143"/>
+<area shape="rect" id="node22" href="$classMs_1_1Audio.html" title="Ms::Audio" alt="" coords="1058,117,1141,143"/>
+<area shape="rect" id="node23" href="$classMs_1_1MStyle.html" title="Ms::MStyle" alt="" coords="1165,117,1252,143"/>
+<area shape="rect" id="node25" href="$classMs_1_1LinkedElements.html" title="Ms::LinkedElements" alt="" coords="1710,243,1851,269"/>
+<area shape="rect" id="node26" href="$classMs_1_1PitchList.html" title="PitchList List of note pitch offsets. " alt="" coords="2323,451,2420,477"/>
+<area shape="rect" id="node28" href="$classMs_1_1ChangeMap.html" title="Ms::ChangeMap" alt="" coords="2333,243,2450,269"/>
+<area shape="rect" id="node32" href="$classMs_1_1InstrumentList.html" title="Ms::InstrumentList" alt="" coords="1956,339,2088,366"/>
+<area shape="rect" id="node33" href="$classMs_1_1Instrument.html" title="Ms::Instrument" alt="" coords="2765,243,2876,269"/>
+<area shape="rect" id="node34" href="$structMs_1_1Interval.html" title="Ms::Interval" alt="" coords="3115,117,3206,143"/>
+<area shape="rect" id="node35" href="$classMs_1_1Drumset.html" title="Ms::Drumset" alt="" coords="2702,117,2801,143"/>
+<area shape="rect" id="node36" href="$structMs_1_1DrumInstrument.html" title="Ms::DrumInstrument" alt="" coords="2666,5,2810,32"/>
+<area shape="rect" id="node37" href="$classMs_1_1StringData.html" title="Ms::StringData" alt="" coords="2983,117,3091,143"/>
+<area shape="rect" id="node38" href="$classMs_1_1StaffNameList.html" title="Ms::StaffNameList" alt="" coords="2825,117,2958,143"/>
+<area shape="rect" id="node40" href="$structMs_1_1ClefTypeList.html" title="Ms::ClefTypeList" alt="" coords="2151,451,2269,477"/>
+<area shape="rect" id="node41" href="$classMs_1_1ClefList.html" title="Ms::ClefList" alt="" coords="2035,451,2127,477"/>
+<area shape="rect" id="node42" title="STL class. " alt="" coords="2112,339,2297,366"/>
+<area shape="rect" id="node43" href="$classMs_1_1KeyList.html" title="Ms::KeyList" alt="" coords="1463,451,1552,477"/>
+<area shape="rect" id="node44" title="STL class. " alt="" coords="1371,332,1507,373"/>
+<area shape="rect" id="node47" title="STL class. " alt="" coords="587,243,702,269"/>
+<area shape="rect" id="node48" href="$classMs_1_1StaffTypeList.html" title="Ms::StaffTypeList" alt="" coords="471,451,595,477"/>
+<area shape="rect" id="node49" href="$classMs_1_1StaffType.html" title="Ms::StaffType" alt="" coords="355,243,457,269"/>
+</map>

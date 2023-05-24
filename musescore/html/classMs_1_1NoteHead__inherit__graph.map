@@ -1,0 +1,6 @@
+<map id="Ms::NoteHead" name="Ms::NoteHead">
+<area shape="rect" id="node2" href="$classMs_1_1Symbol.html" title="Symbol constructed from builtin symbol. " alt="" coords="25,229,115,256"/>
+<area shape="rect" id="node3" href="$classMs_1_1BSymbol.html" title="base class for Symbol and Image " alt="" coords="21,155,119,181"/>
+<area shape="rect" id="node4" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="23,80,117,107"/>
+<area shape="rect" id="node5" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="5,5,135,32"/>
+</map>

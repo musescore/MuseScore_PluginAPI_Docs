@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_tablature_duration_font.html" title="Ms::TablatureDurationFont" alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1ScoreListWidget.html" title="Ms::ScoreListWidget" alt="" coords="157,5,299,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1SelectionListWidget.html" title="Ms::SelectionListWidget" alt="" coords="147,56,309,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1SizedListWidget.html" title="Ms::SizedListWidget" alt="" coords="157,107,299,133"/>
 </map>

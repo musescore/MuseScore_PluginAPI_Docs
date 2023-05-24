@@ -1,8 +1,0 @@
-<map id="Ms::TransposableObj" name="Ms::TransposableObj">
-<area shape="rect" id="node2" href="$class_ms_1_1_basic_draw_obj.html" title="Ms::BasicDrawObj" alt="" coords="17,81,149,108"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_capella_obj.html" title="Ms::CapellaObj" alt="" coords="133,5,245,32"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_basic_durational_obj.html" title="Ms::BasicDurationalObj" alt="" coords="227,81,387,108"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="165,260,257,287"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_chord_obj.html" title="Ms::ChordObj" alt="" coords="255,171,358,197"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_note_obj.html" title="Ms::NoteObj" alt="" coords="411,81,507,108"/>
-</map>

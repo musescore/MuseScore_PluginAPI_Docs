@@ -1,0 +1,40 @@
+<map id="Ms::PianorollEditor" name="Ms::PianorollEditor">
+<area shape="rect" id="node3" href="$classMs_1_1MuseScoreView.html" title="Ms::MuseScoreView" alt="" coords="783,96,925,123"/>
+<area shape="rect" id="node4" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="364,625,445,652"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="619,527,748,553"/>
+<area shape="rect" id="node8" href="$classMs_1_1Excerpt.html" title="Ms::Excerpt" alt="" coords="963,937,1054,964"/>
+<area shape="rect" id="node9" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="622,768,745,795"/>
+<area shape="rect" id="node15" href="$classMs_1_1Selection.html" title="Ms::Selection" alt="" coords="633,25,734,52"/>
+<area shape="rect" id="node23" href="$classMs_1_1SelectionFilter.html" title="Ms::SelectionFilter" alt="" coords="618,447,749,473"/>
+<area shape="rect" id="node44" href="$classMs_1_1WaveView.html" title="Ms::WaveView" alt="" coords="1567,800,1674,827"/>
+<area shape="rect" id="node45" href="$classMs_1_1PianoRuler.html" title="Ms::PianoRuler" alt="" coords="1565,737,1676,764"/>
+<area shape="rect" id="node48" href="$classMs_1_1PianoLevels.html" title="Ms::PianoLevels" alt="" coords="1562,1020,1679,1047"/>
+<area shape="rect" id="node30" href="$classMs_1_1Staff.html" title="Global staff data not directly related to drawing. " alt="" coords="1272,460,1348,487"/>
+<area shape="rect" id="node33" href="$classMs_1_1Part.html" title="Ms::Part" alt="" coords="973,572,1044,599"/>
+<area shape="rect" id="node10" href="$classMs_1_1TempoMap.html" title="Ms::TempoMap" alt="" coords="347,979,462,1005"/>
+<area shape="rect" id="node27" href="$classMs_1_1Pos.html" title="Ms::Pos" alt="" coords="1275,1076,1345,1103"/>
+<area shape="rect" id="node11" href="$classMs_1_1TimeSigMap.html" title="Ms::TimeSigMap" alt="" coords="344,1183,465,1209"/>
+<area shape="rect" id="node12" href="$classMs_1_1MeasureBaseList.html" title="Ms::MeasureBaseList" alt="" coords="13,476,161,503"/>
+<area shape="rect" id="node13" href="$classMs_1_1InputState.html" title="Ms::InputState" alt="" coords="34,527,141,553"/>
+<area shape="rect" id="node14" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="15,577,160,604"/>
+<area shape="rect" id="node16" href="$classMs_1_1SpannerMap.html" title="Ms::SpannerMap" alt="" coords="27,628,148,655"/>
+<area shape="rect" id="node17" href="$classMs_1_1UpdateState.html" title="Ms::UpdateState" alt="" coords="28,679,147,705"/>
+<area shape="rect" id="node20" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="30,780,145,807"/>
+<area shape="rect" id="node21" href="$classMs_1_1Audio.html" title="Ms::Audio" alt="" coords="46,831,129,857"/>
+<area shape="rect" id="node22" href="$classMs_1_1MStyle.html" title="Ms::MStyle" alt="" coords="44,881,131,908"/>
+<area shape="rect" id="node24" href="$classMs_1_1ScoreFont.html" title="Ms::ScoreFont" alt="" coords="34,375,141,401"/>
+<area shape="rect" id="node25" href="$classAwl_1_1PosLabel.html" title="Awl::PosLabel" alt="" coords="1569,1165,1672,1192"/>
+<area shape="rect" id="node36" href="$classMs_1_1PianoView.html" title="Ms::PianoView" alt="" coords="1567,371,1675,397"/>
+<area shape="rect" id="node28" href="$classMs_1_1PianoKeyboard.html" title="Ms::PianoKeyboard" alt="" coords="1553,663,1688,689"/>
+<area shape="rect" id="node40" href="$classMs_1_1PianoLevelsChooser.html" title="Ms::PianoLevelsChooser" alt="" coords="1820,511,1988,537"/>
+<area shape="rect" id="node46" href="$classMs_1_1NoteTweakerDialog.html" title="Ms::NoteTweakerDialog" alt="" coords="1539,308,1703,335"/>
+<area shape="rect" id="node31" href="$classMs_1_1PitchList.html" title="PitchList List of note pitch offsets. " alt="" coords="960,471,1057,497"/>
+<area shape="rect" id="node32" href="$classMs_1_1ChangeMap.html" title="Ms::ChangeMap" alt="" coords="950,521,1067,548"/>
+<area shape="rect" id="node34" href="$structMs_1_1ClefTypeList.html" title="Ms::ClefTypeList" alt="" coords="949,319,1068,345"/>
+<area shape="rect" id="node35" href="$classMs_1_1ClefList.html" title="Ms::ClefList" alt="" coords="963,369,1055,396"/>
+<area shape="rect" id="node38" href="$structMs_1_1BarPattern.html" title="Ms::BarPattern" alt="" coords="1255,309,1365,336"/>
+<area shape="rect" id="node39" href="$classMs_1_1Chord.html" title="Graphic representation of a chord. " alt="" coords="1269,360,1351,387"/>
+<area shape="rect" id="node42" href="$classAwl_1_1PitchEdit.html" title="Awl::PitchEdit" alt="" coords="1854,851,1954,877"/>
+<area shape="rect" id="node49" href="$classMs_1_1NoteEvent.html" title="Ms::NoteEvent" alt="" coords="1257,1241,1363,1268"/>
+<area shape="rect" id="node50" href="$classMs_1_1Note.html" title="Graphic representation of a note. " alt="" coords="1272,1191,1348,1217"/>
+</map>

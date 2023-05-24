@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_simplify.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_simplify.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -84,70 +84,74 @@ $(function() {
 <code>#include &quot;<a class="el" href="sig_8h_source.html">libmscore/sig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="durationtype_8h_source.html">libmscore/durationtype.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="importmidi__tuplet__voice_8h_source.html">importmidi_tuplet_voice.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="midifile_8h_source.html">midi/midifile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="audio_2midi_2midifile_8h_source.html">audio/midi/midifile.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_simplify.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__simplify_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__simplify_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__simplify_8cpp" id="mscore_2importmidi_2importmidi__simplify_8cpp">
-<area shape="rect" id="node2" href="importmidi__simplify_8h.html" title="importmidi_simplify.h" alt="" coords="5,95,151,121"/>
-<area shape="rect" id="node3" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="69,259,201,285"/>
-<area shape="rect" id="node11" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="176,333,308,360"/>
-<area shape="rect" id="node13" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="305,177,433,203"/>
-<area shape="rect" id="node19" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="434,95,567,121"/>
-<area shape="rect" id="node20" href="importmidi__quant_8h.html" title="importmidi_quant.h" alt="" coords="457,177,589,203"/>
-<area shape="rect" id="node21" href="importmidi__voice_8h.html" title="importmidi_voice.h" alt="" coords="614,177,745,203"/>
-<area shape="rect" id="node22" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="693,95,853,121"/>
-<area shape="rect" id="node23" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="820,177,923,203"/>
-<area shape="rect" id="node24" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="967,259,1077,285"/>
-<area shape="rect" id="node26" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="999,95,1147,121"/>
-<area shape="rect" id="node29" href="durationtype_8h.html" title="libmscore/durationtype.h" alt="" coords="1184,95,1348,121"/>
-<area shape="rect" id="node40" href="importmidi__tuplet__voice_8h.html" title="importmidi_tuplet_voice.h" alt="" coords="1373,95,1543,121"/>
-<area shape="rect" id="node4" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="347,408,489,435"/>
-<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="1162,483,1298,509"/>
-<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="1291,557,1367,584"/>
-<area shape="rect" id="node8" href="style_8h.html" title="style.h" alt="" coords="1366,632,1427,659"/>
-<area shape="rect" id="node9" href="chordlist_8h.html" title="chordlist.h" alt="" coords="1341,707,1423,733"/>
-<area shape="rect" id="node10" href="types_8h.html" title="types.h" alt="" coords="1448,707,1513,733"/>
-<area shape="rect" id="node14" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="628,259,781,285"/>
-<area shape="rect" id="node25" href="event_8h.html" title="synthesizer/event.h" alt="" coords="806,259,942,285"/>
-<area shape="rect" id="node27" href="globals_8h.html" title="globals.h" alt="" coords="998,177,1073,203"/>
-<area shape="rect" id="node30" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1477,177,1535,203"/>
-<area shape="rect" id="node31" href="element_8h.html" title="element.h" alt="" coords="1445,408,1524,435"/>
-<area shape="rect" id="node34" href="shape_8h.html" title="shape.h" alt="" coords="1528,483,1596,509"/>
-<area shape="rect" id="node35" href="symbol_8h.html" title="symbol.h" alt="" coords="1597,259,1671,285"/>
-<area shape="rect" id="node37" href="noteevent_8h.html" title="noteevent.h" alt="" coords="1695,259,1786,285"/>
-<area shape="rect" id="node38" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1316,408,1421,435"/>
-<area shape="rect" id="node39" href="key_8h.html" title="key.h" alt="" coords="1413,259,1468,285"/>
-<area shape="rect" id="node32" href="spatium_8h.html" title="spatium.h" alt="" coords="1373,483,1452,509"/>
-<area shape="rect" id="node33" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1424,557,1537,584"/>
-<area shape="rect" id="node36" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="1597,333,1679,360"/>
+<div class="center"><img src="importmidi__simplify_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__simplify_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__simplify_8cpp" id="importexport_2midiimport_2importmidi__simplify_8cpp">
+<area shape="rect" id="node2" href="importmidi__simplify_8h.html" title="importmidi_simplify.h" alt="" coords="405,95,556,121"/>
+<area shape="rect" id="node3" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="1274,259,1413,285"/>
+<area shape="rect" id="node11" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="1363,333,1499,360"/>
+<area shape="rect" id="node13" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="1007,177,1139,203"/>
+<area shape="rect" id="node19" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="1601,95,1739,121"/>
+<area shape="rect" id="node20" href="importmidi__quant_8h.html" title="importmidi_quant.h" alt="" coords="716,177,853,203"/>
+<area shape="rect" id="node21" href="importmidi__voice_8h.html" title="importmidi_voice.h" alt="" coords="829,95,964,121"/>
+<area shape="rect" id="node22" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="989,95,1156,121"/>
+<area shape="rect" id="node23" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="1163,177,1310,203"/>
+<area shape="rect" id="node24" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="1317,483,1431,509"/>
+<area shape="rect" id="node26" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="1763,95,1915,121"/>
+<area shape="rect" id="node30" href="durationtype_8h.html" title="libmscore/durationtype.h" alt="" coords="580,95,749,121"/>
+<area shape="rect" id="node45" href="importmidi__tuplet__voice_8h.html" title="importmidi_tuplet_voice.h" alt="" coords="1939,95,2113,121"/>
+<area shape="rect" id="node4" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="1074,408,1223,435"/>
+<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="699,557,841,584"/>
+<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="380,632,459,659"/>
+<area shape="rect" id="node8" href="libmscore_2style_8h.html" title="style.h" alt="" coords="468,707,528,733"/>
+<area shape="rect" id="node9" href="chordlist_8h.html" title="chordlist.h" alt="" coords="456,781,540,808"/>
+<area shape="rect" id="node10" href="types_8h.html" title="types.h" alt="" coords="565,781,629,808"/>
+<area shape="rect" id="node14" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="700,259,859,285"/>
+<area shape="rect" id="node25" href="event_8h.html" title="event.h" alt="" coords="1186,259,1250,285"/>
+<area shape="rect" id="node28" href="globals_8h.html" title="globals.h" alt="" coords="1667,177,1742,203"/>
+<area shape="rect" id="node31" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="337,177,395,203"/>
+<area shape="rect" id="node32" href="element_8h.html" title="element.h" alt="" coords="422,408,502,435"/>
+<area shape="rect" id="node36" href="shape_8h.html" title="shape.h" alt="" coords="261,483,329,509"/>
+<area shape="rect" id="node37" href="sym_8h.html" title="sym.h" alt="" coords="178,483,237,509"/>
+<area shape="rect" id="node40" href="symbol_8h.html" title="symbol.h" alt="" coords="365,259,441,285"/>
+<area shape="rect" id="node42" href="noteevent_8h.html" title="noteevent.h" alt="" coords="466,259,557,285"/>
+<area shape="rect" id="node43" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="5,408,111,435"/>
+<area shape="rect" id="node44" href="key_8h.html" title="key.h" alt="" coords="186,408,239,435"/>
+<area shape="rect" id="node33" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="405,483,519,509"/>
+<area shape="rect" id="node34" href="spatium_8h.html" title="spatium.h" alt="" coords="543,483,623,509"/>
+<area shape="rect" id="node35" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="539,632,654,659"/>
+<area shape="rect" id="node41" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="393,333,475,360"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__simplify_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_simplify"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html">Ms::Simplify</a></td></tr>
+<tr class="memitem:namespaceMs_1_1Simplify"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html">Ms::Simplify</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5ce5d94dc7fdf71c09d1513a14517aee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#a5ce5d94dc7fdf71c09d1513a14517aee">Ms::Simplify::hasComplexBeamedDurations</a> (const QList&lt; std::pair&lt; ReducedFraction, TDuration &gt; &gt; &amp;list)</td></tr>
+<tr class="memitem:a5ce5d94dc7fdf71c09d1513a14517aee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#a5ce5d94dc7fdf71c09d1513a14517aee">Ms::Simplify::hasComplexBeamedDurations</a> (const QList&lt; std::pair&lt; ReducedFraction, TDuration &gt; &gt; &amp;list)</td></tr>
 <tr class="separator:a5ce5d94dc7fdf71c09d1513a14517aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebb8106042d8f76a7f82073b76f095c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#aebb8106042d8f76a7f82073b76f095c0">Ms::Simplify::lengthenNote</a> (MidiNote &amp;note, int voice, const ReducedFraction &amp;noteOnTime, const ReducedFraction &amp;durationStart, const ReducedFraction &amp;endTime, const ReducedFraction &amp;barStart, const ReducedFraction &amp;barFraction, const std::multimap&lt; ReducedFraction, MidiTuplet::TupletData &gt; &amp;tuplets, bool isDrumTrack)</td></tr>
+<tr class="memitem:aebb8106042d8f76a7f82073b76f095c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#aebb8106042d8f76a7f82073b76f095c0">Ms::Simplify::lengthenNote</a> (MidiNote &amp;note, int voice, const ReducedFraction &amp;noteOnTime, const ReducedFraction &amp;durationStart, const ReducedFraction &amp;endTime, const ReducedFraction &amp;barStart, const ReducedFraction &amp;barFraction, const std::multimap&lt; ReducedFraction, MidiTuplet::TupletData &gt; &amp;tuplets, bool isDrumTrack)</td></tr>
 <tr class="separator:aebb8106042d8f76a7f82073b76f095c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12fd35b61acfe89e54c5942161163d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#a12fd35b61acfe89e54c5942161163d80">Ms::Simplify::shortenDrumNote</a> (MidiNote &amp;note, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;it, const std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords)</td></tr>
+<tr class="memitem:a12fd35b61acfe89e54c5942161163d80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#a12fd35b61acfe89e54c5942161163d80">Ms::Simplify::shortenDrumNote</a> (MidiNote &amp;note, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;it, const std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords)</td></tr>
 <tr class="separator:a12fd35b61acfe89e54c5942161163d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34f7142a16868d8d3f632dcceccb46b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#a34f7142a16868d8d3f632dcceccb46b4">Ms::Simplify::minimizeNumberOfRests</a> (std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords, const TimeSigMap *sigmap, const std::multimap&lt; ReducedFraction, MidiTuplet::TupletData &gt; &amp;tuplets, bool isDrumTrack)</td></tr>
+<tr class="memitem:a34f7142a16868d8d3f632dcceccb46b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#a34f7142a16868d8d3f632dcceccb46b4">Ms::Simplify::minimizeNumberOfRests</a> (std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords, const TimeSigMap *sigmap, const std::multimap&lt; ReducedFraction, MidiTuplet::TupletData &gt; &amp;tuplets, bool isDrumTrack)</td></tr>
 <tr class="separator:a34f7142a16868d8d3f632dcceccb46b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5b94e66e84d3feb82c66fbdd06e8a2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#ac5b94e66e84d3feb82c66fbdd06e8a2e">Ms::Simplify::simplifyDurations</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, const TimeSigMap *sigmap, bool simplifyDrumTracks)</td></tr>
+<tr class="memitem:ac5b94e66e84d3feb82c66fbdd06e8a2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#ac5b94e66e84d3feb82c66fbdd06e8a2e">Ms::Simplify::simplifyDurations</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, const TimeSigMap *sigmap, bool simplifyDrumTracks)</td></tr>
 <tr class="separator:ac5b94e66e84d3feb82c66fbdd06e8a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b50144f12480d978d51a266d62842f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#a87b50144f12480d978d51a266d62842f">Ms::Simplify::simplifyDurationsForDrums</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, const TimeSigMap *sigmap)</td></tr>
+<tr class="memitem:a87b50144f12480d978d51a266d62842f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#a87b50144f12480d978d51a266d62842f">Ms::Simplify::simplifyDurationsForDrums</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, const TimeSigMap *sigmap)</td></tr>
 <tr class="separator:a87b50144f12480d978d51a266d62842f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf95319634b06b576478313ea59e0c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_simplify.html#abf95319634b06b576478313ea59e0c3b">Ms::Simplify::simplifyDurationsNotDrums</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, const TimeSigMap *sigmap)</td></tr>
+<tr class="memitem:abf95319634b06b576478313ea59e0c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Simplify.html#abf95319634b06b576478313ea59e0c3b">Ms::Simplify::simplifyDurationsNotDrums</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, const TimeSigMap *sigmap)</td></tr>
 <tr class="separator:abf95319634b06b576478313ea59e0c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

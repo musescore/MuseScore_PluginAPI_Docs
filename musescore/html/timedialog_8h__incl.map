@@ -1,7 +1,7 @@
 <map id="mscore/timedialog.h" name="mscore/timedialog.h">
-<area shape="rect" id="node3" href="$libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="139,80,275,107"/>
-<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="206,155,282,181"/>
-<area shape="rect" id="node6" href="$style_8h.html" title="style.h" alt="" coords="267,229,328,256"/>
-<area shape="rect" id="node7" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="256,304,339,331"/>
-<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="363,304,429,331"/>
+<area shape="rect" id="node3" href="$libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="140,80,283,107"/>
+<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="211,155,289,181"/>
+<area shape="rect" id="node6" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="273,229,333,256"/>
+<area shape="rect" id="node7" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="261,304,345,331"/>
+<area shape="rect" id="node8" href="$types_8h.html" title="types.h" alt="" coords="370,304,434,331"/>
 </map>

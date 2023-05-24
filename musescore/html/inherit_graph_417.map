@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_score_view_cmd_context.html" title="Ms::ScoreViewCmdContext" alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1PluginAPI_1_1ChannelListProperty.html" title="Ms::PluginAPI::ChannelList\lProperty" alt="" coords="189,5,367,47"/>
+<area shape="rect" id="node3" href="$classMs_1_1PluginAPI_1_1InstrumentListProperty.html" title="Ms::PluginAPI::Instrument\lListProperty" alt="" coords="191,71,365,112"/>
+<area shape="rect" id="node4" href="$classMs_1_1PluginAPI_1_1QmlExcerptsListAccess.html" title="Ms::PluginAPI::QmlExcerpts\lListAccess\&lt; T, Container \&gt;" alt="" coords="186,136,370,177"/>
+<area shape="rect" id="node5" href="$classMs_1_1PluginAPI_1_1QmlListAccess.html" title="QML access to containers. " alt="" coords="179,201,377,243"/>
+<area shape="rect" id="node6" href="$classMs_1_1PluginAPI_1_1QmlPlayEventsListAccess.html" title="Ms::PluginAPI::QmlPlayEvents\lListAccess" alt="" coords="181,267,375,308"/>
 </map>

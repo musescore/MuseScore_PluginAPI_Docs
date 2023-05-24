@@ -1,40 +1,39 @@
-<map id="mscore/mididriver.cpp" name="mscore/mididriver.cpp">
-<area shape="rect" id="node4" href="$mididriver_8h.html" title="mididriver.h" alt="" coords="67,244,157,271"/>
-<area shape="rect" id="node7" href="$preferences_8h.html" title="preferences.h" alt="" coords="1188,80,1289,107"/>
-<area shape="rect" id="node8" href="$globals_8h.html" title="globals.h" alt="" coords="1335,162,1409,189"/>
-<area shape="rect" id="node10" href="$musescore_8h.html" title="musescore.h" alt="" coords="1673,80,1770,107"/>
-<area shape="rect" id="node14" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1493,162,1619,189"/>
-<area shape="rect" id="node41" href="$midifile_8h.html" title="midi/midifile.h" alt="" coords="989,244,1091,271"/>
-<area shape="rect" id="node43" href="$seq_8h.html" title="seq.h" alt="" coords="566,244,621,271"/>
-<area shape="rect" id="node50" href="$libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="2389,244,2507,271"/>
-<area shape="rect" id="node6" href="$driver_8h.html" title="driver.h" alt="" coords="121,326,186,353"/>
-<area shape="rect" id="node12" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="2333,162,2451,189"/>
-<area shape="rect" id="node13" href="$musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1694,162,1879,189"/>
-<area shape="rect" id="node40" href="$sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="1903,162,2067,189"/>
-<area shape="rect" id="node15" href="$input_8h.html" title="input.h" alt="" coords="1801,244,1863,271"/>
-<area shape="rect" id="node22" href="$property_8h.html" title="property.h" alt="" coords="1236,408,1316,435"/>
-<area shape="rect" id="node23" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1887,244,1982,271"/>
-<area shape="rect" id="node32" href="$select_8h.html" title="select.h" alt="" coords="2289,326,2357,353"/>
-<area shape="rect" id="node34" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1393,244,1522,271"/>
-<area shape="rect" id="node36" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="1546,244,1649,271"/>
-<area shape="rect" id="node37" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="1673,244,1777,271"/>
-<area shape="rect" id="node39" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1269,244,1369,271"/>
-<area shape="rect" id="node16" href="$mscore_8h.html" title="mscore.h" alt="" coords="1769,557,1845,584"/>
-<area shape="rect" id="node18" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="1548,408,1652,435"/>
-<area shape="rect" id="node20" href="$beam_8h.html" title="beam.h" alt="" coords="1551,326,1617,353"/>
-<area shape="rect" id="node17" href="$style_8h.html" title="style.h" alt="" coords="1776,632,1837,659"/>
-<area shape="rect" id="node19" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1006,483,1082,509"/>
-<area shape="rect" id="node21" href="$element_8h.html" title="element.h" alt="" coords="1410,408,1489,435"/>
-<area shape="rect" id="node24" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="2063,326,2153,353"/>
-<area shape="rect" id="node25" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="2178,326,2265,353"/>
-<area shape="rect" id="node26" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="905,326,1041,353"/>
-<area shape="rect" id="node28" href="$interval_8h.html" title="interval.h" alt="" coords="2381,326,2456,353"/>
-<area shape="rect" id="node29" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="1743,326,1798,353"/>
-<area shape="rect" id="node33" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1951,483,2057,509"/>
-<area shape="rect" id="node42" href="$sig_8h.html" title="libmscore/sig.h" alt="" coords="981,408,1091,435"/>
-<area shape="rect" id="node44" href="$rendermidi_8h.html" title="libmscore/rendermidi.h" alt="" coords="439,326,593,353"/>
-<area shape="rect" id="node46" href="$sequencer_8h.html" title="libmscore/sequencer.h" alt="" coords="262,326,415,353"/>
-<area shape="rect" id="node47" href="$fifo_8h.html" title="libmscore/fifo.h" alt="" coords="617,326,727,353"/>
-<area shape="rect" id="node49" href="$tempo_8h.html" title="libmscore/tempo.h" alt="" coords="751,326,881,353"/>
-<area shape="rect" id="node45" href="$measure_8h.html" title="Definition of class Measure. " alt="" coords="553,408,636,435"/>
+<map id="audio/drivers/mididriver.cpp" name="audio/drivers/mididriver.cpp">
+<area shape="rect" id="node4" href="$mididriver_8h.html" title="mididriver.h" alt="" coords="221,319,313,345"/>
+<area shape="rect" id="node7" href="$audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="1092,319,1239,345"/>
+<area shape="rect" id="node14" href="$libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="2526,319,2647,345"/>
+<area shape="rect" id="node19" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1603,162,1733,189"/>
+<area shape="rect" id="node37" href="$preferences_8h.html" title="mscore/preferences.h" alt="" coords="1233,80,1385,107"/>
+<area shape="rect" id="node39" href="$globals_8h.html" title="globals.h" alt="" coords="1477,162,1552,189"/>
+<area shape="rect" id="node41" href="$musescore_8h.html" title="mscore/musescore.h" alt="" coords="1730,80,1881,107"/>
+<area shape="rect" id="node46" href="$seq_8h.html" title="mscore/seq.h" alt="" coords="676,319,783,345"/>
+<area shape="rect" id="node6" href="$driver_8h.html" title="driver.h" alt="" coords="269,393,336,420"/>
+<area shape="rect" id="node8" href="$sig_8h.html" title="libmscore/sig.h" alt="" coords="1081,393,1196,420"/>
+<area shape="rect" id="node12" href="$event_8h.html" title="event.h" alt="" coords="1220,393,1284,420"/>
+<area shape="rect" id="node9" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1113,468,1191,495"/>
+<area shape="rect" id="node10" href="$mscore_8h.html" title="mscore.h" alt="" coords="2089,543,2167,569"/>
+<area shape="rect" id="node11" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="2421,617,2481,644"/>
+<area shape="rect" id="node15" href="$interval_8h.html" title="interval.h" alt="" coords="2211,393,2285,420"/>
+<area shape="rect" id="node16" href="$sym_8h.html" title="sym.h" alt="" coords="2500,393,2559,420"/>
+<area shape="rect" id="node20" href="$input_8h.html" title="input.h" alt="" coords="1457,244,1519,271"/>
+<area shape="rect" id="node23" href="$property_8h.html" title="property.h" alt="" coords="1489,393,1570,420"/>
+<area shape="rect" id="node24" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1777,319,1873,345"/>
+<area shape="rect" id="node30" href="$select_8h.html" title="select.h" alt="" coords="1898,319,1966,345"/>
+<area shape="rect" id="node32" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1706,244,1835,271"/>
+<area shape="rect" id="node34" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="1859,244,1962,271"/>
+<area shape="rect" id="node35" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="1987,244,2093,271"/>
+<area shape="rect" id="node36" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="2118,244,2218,271"/>
+<area shape="rect" id="node21" href="$durationtype_8h.html" title="durationtype.h" alt="" coords="1359,393,1465,420"/>
+<area shape="rect" id="node22" href="$beam_8h.html" title="beam.h" alt="" coords="1453,319,1520,345"/>
+<area shape="rect" id="node27" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="1831,393,1923,420"/>
+<area shape="rect" id="node28" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="1947,393,2034,420"/>
+<area shape="rect" id="node29" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="2101,468,2155,495"/>
+<area shape="rect" id="node31" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="2179,468,2285,495"/>
+<area shape="rect" id="node43" href="$updatechecker_8h.html" title="updatechecker.h" alt="" coords="2458,162,2577,189"/>
+<area shape="rect" id="node44" href="$musescoreCore_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1809,162,1999,189"/>
+<area shape="rect" id="node45" href="$sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="2023,162,2190,189"/>
+<area shape="rect" id="node47" href="$rendermidi_8h.html" title="libmscore/rendermidi.h" alt="" coords="895,393,1057,420"/>
+<area shape="rect" id="node48" href="$sequencer_8h.html" title="libmscore/sequencer.h" alt="" coords="411,393,570,420"/>
+<area shape="rect" id="node49" href="$fifo_8h.html" title="libmscore/fifo.h" alt="" coords="595,393,712,420"/>
+<area shape="rect" id="node50" href="$tempo_8h.html" title="libmscore/tempo.h" alt="" coords="737,393,871,420"/>
 </map>

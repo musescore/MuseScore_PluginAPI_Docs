@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importove.cpp File Reference</title>
+<title>MuseScore: importexport/ove/importove.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_56fef2dc6ff140ad590613ba14e5bd9d.html">ove</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ove_8h_source.html">ove.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sig_8h_source.html">libmscore/sig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tempo_8h_source.html">libmscore/tempo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="arpeggio_8h_source.html">libmscore/arpeggio.h</a>&quot;</code><br />
@@ -99,7 +99,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="libmscore_2part_8h_source.html">libmscore/part.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pedal_8h_source.html">libmscore/pedal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pitchspelling_8h_source.html">libmscore/pitchspelling.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="repeat_8h_source.html">libmscore/repeat.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rest_8h_source.html">libmscore/rest.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
@@ -118,106 +117,110 @@ $(function() {
 <code>#include &quot;<a class="el" href="marker_8h_source.html">libmscore/marker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="jump_8h_source.html">libmscore/jump.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">libmscore/sym.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="bracket_item_8h_source.html">libmscore/bracketItem.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bracketItem_8h_source.html">libmscore/bracketItem.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importove.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importove_8cpp__incl.png" border="0" usemap="#mscore_2importove_8cpp" alt=""/></div>
-<map name="mscore_2importove_8cpp" id="mscore_2importove_8cpp">
+<div class="center"><img src="importove_8cpp__incl.png" border="0" usemap="#importexport_2ove_2importove_8cpp" alt=""/></div>
+<map name="importexport_2ove_2importove_8cpp" id="importexport_2ove_2importove_8cpp">
 <area shape="rect" id="node2" href="ove_8h.html" title="ove.h" alt="" coords="5,80,60,107"/>
-<area shape="rect" id="node3" href="globals_8h.html" title="globals.h" alt="" coords="130,155,205,181"/>
-<area shape="rect" id="node4" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="291,155,401,181"/>
-<area shape="rect" id="node6" href="tempo_8h.html" title="libmscore/tempo.h" alt="" coords="3193,80,3323,107"/>
-<area shape="rect" id="node7" href="arpeggio_8h.html" title="libmscore/arpeggio.h" alt="" coords="1451,155,1593,181"/>
-<area shape="rect" id="node9" href="articulation_8h.html" title="libmscore/articulation.h" alt="" coords="1796,155,1952,181"/>
-<area shape="rect" id="node10" href="barline_8h.html" title="libmscore/barline.h" alt="" coords="1977,155,2107,181"/>
-<area shape="rect" id="node11" href="box_8h.html" title="Definition of HBox and VBox classes. " alt="" coords="3347,80,3462,107"/>
-<area shape="rect" id="node12" href="bracket_8h.html" title="libmscore/bracket.h" alt="" coords="1706,80,1842,107"/>
-<area shape="rect" id="node13" href="bracket_item_8h.html" title="bracketItem.h" alt="" coords="1617,155,1720,181"/>
-<area shape="rect" id="node14" href="breath_8h.html" title="libmscore/breath.h" alt="" coords="477,155,607,181"/>
-<area shape="rect" id="node15" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="3486,80,3611,107"/>
-<area shape="rect" id="node16" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="631,155,746,181"/>
-<area shape="rect" id="node17" href="drumset_8h.html" title="libmscore/drumset.h" alt="" coords="2927,80,3067,107"/>
-<area shape="rect" id="node18" href="tremolo_8h.html" title="tremolo.h" alt="" coords="3599,155,3675,181"/>
-<area shape="rect" id="node19" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="2182,155,2241,181"/>
-<area shape="rect" id="node20" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="2225,229,2331,256"/>
-<area shape="rect" id="node21" href="sym_8h.html" title="sym.h" alt="" coords="3699,155,3758,181"/>
-<area shape="rect" id="node22" href="dynamic_8h.html" title="libmscore/dynamic.h" alt="" coords="2483,155,2625,181"/>
-<area shape="rect" id="node23" href="text_8h.html" title="text.h" alt="" coords="2881,229,2936,256"/>
-<area shape="rect" id="node24" href="hairpin_8h.html" title="libmscore/hairpin.h" alt="" coords="2059,80,2190,107"/>
-<area shape="rect" id="node25" href="harmony_8h.html" title="libmscore/harmony.h" alt="" coords="2316,155,2459,181"/>
-<area shape="rect" id="node26" href="glissando_8h.html" title="libmscore/glissando.h" alt="" coords="771,155,919,181"/>
-<area shape="rect" id="node27" href="keysig_8h.html" title="libmscore/keysig.h" alt="" coords="943,155,1074,181"/>
-<area shape="rect" id="node28" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1099,155,1199,181"/>
-<area shape="rect" id="node29" href="lyrics_8h.html" title="libmscore/lyrics.h" alt="" coords="2847,155,2971,181"/>
-<area shape="rect" id="node30" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="181,229,324,256"/>
-<area shape="rect" id="node31" href="accidental_8h.html" title="Definition of class Accidental. " alt="" coords="1223,155,1375,181"/>
-<area shape="rect" id="node32" href="ottava_8h.html" title="libmscore/ottava.h" alt="" coords="3636,80,3765,107"/>
-<area shape="rect" id="node33" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="2995,155,3110,181"/>
-<area shape="rect" id="node34" href="pedal_8h.html" title="libmscore/pedal.h" alt="" coords="3789,80,3913,107"/>
-<area shape="rect" id="node35" href="preferences_8h.html" title="preferences.h" alt="" coords="85,80,186,107"/>
-<area shape="rect" id="node36" href="repeat_8h.html" title="libmscore/repeat.h" alt="" coords="2671,80,2800,107"/>
-<area shape="rect" id="node37" href="rest_8h.html" title="rest.h" alt="" coords="3361,155,3416,181"/>
-<area shape="rect" id="node38" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1090,80,1215,107"/>
-<area shape="rect" id="node39" href="segment_8h.html" title="segment.h" alt="" coords="1410,80,1493,107"/>
-<area shape="rect" id="node40" href="slur_8h.html" title="libmscore/slur.h" alt="" coords="3938,80,4053,107"/>
-<area shape="rect" id="node41" href="libmscore_2tie_8h.html" title="libmscore/tie.h" alt="" coords="4077,80,4183,107"/>
-<area shape="rect" id="node42" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="4208,80,4327,107"/>
-<area shape="rect" id="node43" href="tempotext_8h.html" title="libmscore/tempotext.h" alt="" coords="3135,155,3285,181"/>
-<area shape="rect" id="node44" href="timesig_8h.html" title="libmscore/timesig.h" alt="" coords="384,80,519,107"/>
-<area shape="rect" id="node45" href="tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="4351,80,4477,107"/>
-<area shape="rect" id="node46" href="volta_8h.html" title="libmscore/volta.h" alt="" coords="4501,80,4623,107"/>
-<area shape="rect" id="node47" href="chordlist_8h.html" title="chordlist.h" alt="" coords="4647,80,4730,107"/>
-<area shape="rect" id="node48" href="rehearsalmark_8h.html" title="libmscore/rehearsalmark.h" alt="" coords="4755,80,4929,107"/>
-<area shape="rect" id="node49" href="marker_8h.html" title="libmscore/marker.h" alt="" coords="3441,155,3574,181"/>
-<area shape="rect" id="node50" href="jump_8h.html" title="libmscore/jump.h" alt="" coords="2649,155,2771,181"/>
-<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="324,304,400,331"/>
-<area shape="rect" id="node8" href="element_8h.html" title="element.h" alt="" coords="1260,229,1339,256"/>
+<area shape="rect" id="node3" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="239,80,391,107"/>
+<area shape="rect" id="node7" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="482,162,597,189"/>
+<area shape="rect" id="node8" href="tempo_8h.html" title="libmscore/tempo.h" alt="" coords="631,80,765,107"/>
+<area shape="rect" id="node9" href="arpeggio_8h.html" title="libmscore/arpeggio.h" alt="" coords="789,80,937,107"/>
+<area shape="rect" id="node10" href="articulation_8h.html" title="libmscore/articulation.h" alt="" coords="1210,162,1373,189"/>
+<area shape="rect" id="node11" href="sym_8h.html" title="sym.h" alt="" coords="1203,244,1262,271"/>
+<area shape="rect" id="node12" href="barline_8h.html" title="libmscore/barline.h" alt="" coords="2466,80,2602,107"/>
+<area shape="rect" id="node13" href="box_8h.html" title="Definition of HBox and VBox classes. " alt="" coords="2627,80,2745,107"/>
+<area shape="rect" id="node14" href="bracket_8h.html" title="libmscore/bracket.h" alt="" coords="2821,80,2961,107"/>
+<area shape="rect" id="node15" href="bracketItem_8h.html" title="bracketItem.h" alt="" coords="3023,162,3125,189"/>
+<area shape="rect" id="node16" href="breath_8h.html" title="libmscore/breath.h" alt="" coords="666,162,799,189"/>
+<area shape="rect" id="node17" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="85,80,215,107"/>
+<area shape="rect" id="node18" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="2985,80,3104,107"/>
+<area shape="rect" id="node19" href="drumset_8h.html" title="libmscore/drumset.h" alt="" coords="1165,80,1311,107"/>
+<area shape="rect" id="node20" href="tremolo_8h.html" title="tremolo.h" alt="" coords="1056,162,1135,189"/>
+<area shape="rect" id="node21" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1397,162,1455,189"/>
+<area shape="rect" id="node22" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1747,244,1852,271"/>
+<area shape="rect" id="node23" href="dynamic_8h.html" title="libmscore/dynamic.h" alt="" coords="2061,162,2207,189"/>
+<area shape="rect" id="node24" href="text_8h.html" title="text.h" alt="" coords="2268,244,2323,271"/>
+<area shape="rect" id="node25" href="hairpin_8h.html" title="libmscore/hairpin.h" alt="" coords="2053,80,2189,107"/>
+<area shape="rect" id="node26" href="harmony_8h.html" title="libmscore/harmony.h" alt="" coords="1837,162,1986,189"/>
+<area shape="rect" id="node27" href="glissando_8h.html" title="libmscore/glissando.h" alt="" coords="3127,80,3282,107"/>
+<area shape="rect" id="node28" href="keysig_8h.html" title="libmscore/keysig.h" alt="" coords="3307,80,3441,107"/>
+<area shape="rect" id="node29" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1661,162,1761,189"/>
+<area shape="rect" id="node30" href="lyrics_8h.html" title="libmscore/lyrics.h" alt="" coords="2231,162,2359,189"/>
+<area shape="rect" id="node31" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="3465,80,3549,107"/>
+<area shape="rect" id="node32" href="accidental_8h.html" title="Definition of class Accidental. " alt="" coords="874,162,1031,189"/>
+<area shape="rect" id="node33" href="ottava_8h.html" title="libmscore/ottava.h" alt="" coords="3574,80,3707,107"/>
+<area shape="rect" id="node34" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="2383,162,2503,189"/>
+<area shape="rect" id="node35" href="pedal_8h.html" title="libmscore/pedal.h" alt="" coords="3732,80,3861,107"/>
+<area shape="rect" id="node36" href="repeat_8h.html" title="libmscore/repeat.h" alt="" coords="1487,80,1621,107"/>
+<area shape="rect" id="node37" href="rest_8h.html" title="rest.h" alt="" coords="1480,162,1535,189"/>
+<area shape="rect" id="node38" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1645,80,1775,107"/>
+<area shape="rect" id="node39" href="segment_8h.html" title="segment.h" alt="" coords="3885,80,3969,107"/>
+<area shape="rect" id="node40" href="slur_8h.html" title="libmscore/slur.h" alt="" coords="3993,80,4112,107"/>
+<area shape="rect" id="node41" href="libmscore_2tie_8h.html" title="libmscore/tie.h" alt="" coords="4136,80,4247,107"/>
+<area shape="rect" id="node42" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="4271,80,4397,107"/>
+<area shape="rect" id="node43" href="tempotext_8h.html" title="libmscore/tempotext.h" alt="" coords="2527,162,2685,189"/>
+<area shape="rect" id="node44" href="timesig_8h.html" title="libmscore/timesig.h" alt="" coords="467,80,607,107"/>
+<area shape="rect" id="node45" href="tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="4421,80,4551,107"/>
+<area shape="rect" id="node46" href="volta_8h.html" title="libmscore/volta.h" alt="" coords="4575,80,4701,107"/>
+<area shape="rect" id="node47" href="chordlist_8h.html" title="chordlist.h" alt="" coords="4725,80,4809,107"/>
+<area shape="rect" id="node48" href="rehearsalmark_8h.html" title="libmscore/rehearsalmark.h" alt="" coords="4833,80,5016,107"/>
+<area shape="rect" id="node49" href="marker_8h.html" title="libmscore/marker.h" alt="" coords="2709,162,2847,189"/>
+<area shape="rect" id="node50" href="jump_8h.html" title="libmscore/jump.h" alt="" coords="2872,162,2999,189"/>
+<area shape="rect" id="node5" href="globals_8h.html" title="globals.h" alt="" coords="383,162,458,189"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importove_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_measure_to_tick.html">MeasureToTick</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMeasureToTick.html">MeasureToTick</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_measure_to_tick_1_1_time_tick.html">MeasureToTick::TimeTick</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMeasureToTick_1_1TimeTick.html">MeasureToTick::TimeTick</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ove_to_m_score.html">OveToMScore</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOveToMScore.html">OveToMScore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a55fa93c706accea6d2122e66b65c1763"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a55fa93c706accea6d2122e66b65c1763">getMeasureTick</a> (int quarter, int num, int den)</td></tr>
 <tr class="separator:a55fa93c706accea6d2122e66b65c1763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3c4e1303b3a7dcf5cb58f164ff14819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_o_v_e_1_1_staff.html">OVE::Staff</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#ab3c4e1303b3a7dcf5cb58f164ff14819">getStaff</a> (const <a class="el" href="class_o_v_e_1_1_ove_song.html">OVE::OveSong</a> *ove, int track)</td></tr>
+<tr class="memitem:ab3c4e1303b3a7dcf5cb58f164ff14819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOVE_1_1Staff.html">OVE::Staff</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#ab3c4e1303b3a7dcf5cb58f164ff14819">getStaff</a> (const <a class="el" href="classOVE_1_1OveSong.html">OVE::OveSong</a> *ove, int track)</td></tr>
 <tr class="separator:ab3c4e1303b3a7dcf5cb58f164ff14819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae44468595b057a11a5f366e391d0a8e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#ae44468595b057a11a5f366e391d0a8e3">addText</a> (<a class="el" href="class_ms_1_1_v_box.html">VBox</a> *&amp;vbox, <a class="el" href="class_ms_1_1_score.html">Score</a> *s, QString strTxt, <a class="el" href="namespace_ms.html#ad1b3e57dfd5b26a280bf2ebde66b9d5a">Tid</a> stl)</td></tr>
+<tr class="memitem:ae44468595b057a11a5f366e391d0a8e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#ae44468595b057a11a5f366e391d0a8e3">addText</a> (<a class="el" href="classMs_1_1VBox.html">VBox</a> *&amp;vbox, <a class="el" href="classMs_1_1Score.html">Score</a> *s, QString strTxt, <a class="el" href="namespaceMs.html#ad1b3e57dfd5b26a280bf2ebde66b9d5a">Tid</a> stl)</td></tr>
 <tr class="separator:ae44468595b057a11a5f366e391d0a8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49f3ac5c8723c3c5fe6a67e4f29e9293"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4b">ClefType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a49f3ac5c8723c3c5fe6a67e4f29e9293">OveClefToClef</a> (<a class="el" href="namespace_o_v_e.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a> type)</td></tr>
+<tr class="memitem:a49f3ac5c8723c3c5fe6a67e4f29e9293"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMs.html#a3b085ddb3e3b890843f2e33874b9fa4b">ClefType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a49f3ac5c8723c3c5fe6a67e4f29e9293">OveClefToClef</a> (<a class="el" href="namespaceOVE.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a> type)</td></tr>
 <tr class="separator:a49f3ac5c8723c3c5fe6a67e4f29e9293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a526b5b92ff2fe9b094f699d5802489"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_note_head.html#a1d3e8faf3d3bc1d89d9d3485acde69d1">NoteHead::Group</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a9a526b5b92ff2fe9b094f699d5802489">getHeadGroup</a> (<a class="el" href="namespace_o_v_e.html#ab8439da5093f82531b3351c8f70b0d61">OVE::NoteHeadType</a> type)</td></tr>
+<tr class="memitem:a9a526b5b92ff2fe9b094f699d5802489"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMs_1_1NoteHead.html#a1d3e8faf3d3bc1d89d9d3485acde69d1">NoteHead::Group</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a9a526b5b92ff2fe9b094f699d5802489">getHeadGroup</a> (<a class="el" href="namespaceOVE.html#ab8439da5093f82531b3351c8f70b0d61">OVE::NoteHeadType</a> type)</td></tr>
 <tr class="separator:a9a526b5b92ff2fe9b094f699d5802489"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26e50e218cb2c6378230cde9f3b7a78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#af26e50e218cb2c6378230cde9f3b7a78">ContainerToTick</a> (<a class="el" href="class_o_v_e_1_1_note_container.html">OVE::NoteContainer</a> *container, int quarter)</td></tr>
+<tr class="memitem:abbcddfcf71f61fdf1ac2061f2624b333"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceMs.html#a8fa9ce71e2e532dc3509dc739780990c">OttavaType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#abbcddfcf71f61fdf1ac2061f2624b333">OctaveShiftTypeToInt</a> (<a class="el" href="namespaceOVE.html#ae68dbc15c6efafcbf3de4a8a58ae24cb">OVE::OctaveShiftType</a> type)</td></tr>
+<tr class="separator:abbcddfcf71f61fdf1ac2061f2624b333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26e50e218cb2c6378230cde9f3b7a78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#af26e50e218cb2c6378230cde9f3b7a78">ContainerToTick</a> (<a class="el" href="classOVE_1_1NoteContainer.html">OVE::NoteContainer</a> *container, int quarter)</td></tr>
 <tr class="separator:af26e50e218cb2c6378230cde9f3b7a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfffe7d0482a0e6fadf28d407e1fb5a9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_o_v_e_1_1_tuplet.html">OVE::Tuplet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#acfffe7d0482a0e6fadf28d407e1fb5a9">getTuplet</a> (const QList&lt; <a class="el" href="class_o_v_e_1_1_music_data.html">OVE::MusicData</a> *&gt; &amp;tuplets, int unit)</td></tr>
+<tr class="memitem:acfffe7d0482a0e6fadf28d407e1fb5a9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classOVE_1_1Tuplet.html">OVE::Tuplet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#acfffe7d0482a0e6fadf28d407e1fb5a9">getTuplet</a> (const QList&lt; <a class="el" href="classOVE_1_1MusicData.html">OVE::MusicData</a> *&gt; &amp;tuplets, int unit)</td></tr>
 <tr class="separator:acfffe7d0482a0e6fadf28d407e1fb5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d277c8829d9771072adacf646cf75f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_t_duration.html">TDuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a04d277c8829d9771072adacf646cf75f">OveNoteType_To_Duration</a> (<a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a> noteType)</td></tr>
+<tr class="memitem:a04d277c8829d9771072adacf646cf75f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMs_1_1TDuration.html">TDuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a04d277c8829d9771072adacf646cf75f">OveNoteType_To_Duration</a> (<a class="el" href="namespaceOVE.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a> noteType)</td></tr>
 <tr class="separator:a04d277c8829d9771072adacf646cf75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88be032eb70c11a7a969a0dafc3a1ead"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a88be032eb70c11a7a969a0dafc3a1ead">accidentalToAlter</a> (<a class="el" href="namespace_o_v_e.html#a7e16e0d0b226a34ff8e7ae660948d874">OVE::AccidentalType</a> type)</td></tr>
+<tr class="memitem:a88be032eb70c11a7a969a0dafc3a1ead"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a88be032eb70c11a7a969a0dafc3a1ead">accidentalToAlter</a> (<a class="el" href="namespaceOVE.html#a7e16e0d0b226a34ff8e7ae660948d874">OVE::AccidentalType</a> type)</td></tr>
 <tr class="separator:a88be032eb70c11a7a969a0dafc3a1ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7346f395ec6dec16dae7ca4ddbdb856c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a7346f395ec6dec16dae7ca4ddbdb856c">getMiddleToneOctave</a> (<a class="el" href="namespace_o_v_e.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a> clef, <a class="el" href="namespace_o_v_e.html#aecd0fb782f5e3c86e5aa09f92158b630">OVE::ToneType</a> &amp;tone, int &amp;octave)</td></tr>
+<tr class="memitem:a7346f395ec6dec16dae7ca4ddbdb856c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a7346f395ec6dec16dae7ca4ddbdb856c">getMiddleToneOctave</a> (<a class="el" href="namespaceOVE.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a> clef, <a class="el" href="namespaceOVE.html#aecd0fb782f5e3c86e5aa09f92158b630">OVE::ToneType</a> &amp;tone, int &amp;octave)</td></tr>
 <tr class="separator:a7346f395ec6dec16dae7ca4ddbdb856c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36aa5c4bab9c683bfefa6a98865760e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_o_v_e.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a36aa5c4bab9c683bfefa6a98865760e1">getClefType</a> (<a class="el" href="class_o_v_e_1_1_measure_data.html">OVE::MeasureData</a> *measure, int tick)</td></tr>
+<tr class="memitem:a36aa5c4bab9c683bfefa6a98865760e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceOVE.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a36aa5c4bab9c683bfefa6a98865760e1">getClefType</a> (<a class="el" href="classOVE_1_1MeasureData.html">OVE::MeasureData</a> *measure, int <a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>)</td></tr>
 <tr class="separator:a36aa5c4bab9c683bfefa6a98865760e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ff4a7ebeb80343656d43a48cc7b8c22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a9ff4a7ebeb80343656d43a48cc7b8c22">getGraceLevel</a> (const QList&lt; <a class="el" href="class_o_v_e_1_1_note_container.html">OVE::NoteContainer</a> *&gt; &amp;containers, int tick, int unit)</td></tr>
+<tr class="memitem:a9ff4a7ebeb80343656d43a48cc7b8c22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a9ff4a7ebeb80343656d43a48cc7b8c22">getGraceLevel</a> (const QList&lt; <a class="el" href="classOVE_1_1NoteContainer.html">OVE::NoteContainer</a> *&gt; &amp;containers, int <a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>, int unit)</td></tr>
 <tr class="separator:a9ff4a7ebeb80343656d43a48cc7b8c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47512dab65b9f7ccd3d5f6d822371718"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a47512dab65b9f7ccd3d5f6d822371718">isRestDefaultLine</a> (<a class="el" href="class_o_v_e_1_1_note.html">OVE::Note</a> *rest, <a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a> noteType)</td></tr>
+<tr class="memitem:a47512dab65b9f7ccd3d5f6d822371718"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a47512dab65b9f7ccd3d5f6d822371718">isRestDefaultLine</a> (<a class="el" href="classOVE_1_1Note.html">OVE::Note</a> *rest, <a class="el" href="namespaceOVE.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a> noteType)</td></tr>
 <tr class="separator:a47512dab65b9f7ccd3d5f6d822371718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a943558eaaa9dbd628f3fb4720e8da776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_drumset.html">Drumset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a943558eaaa9dbd628f3fb4720e8da776">getDrumset</a> (<a class="el" href="class_ms_1_1_score.html">Score</a> *score, int part)</td></tr>
+<tr class="memitem:a943558eaaa9dbd628f3fb4720e8da776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMs_1_1Drumset.html">Drumset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a943558eaaa9dbd628f3fb4720e8da776">getDrumset</a> (<a class="el" href="classMs_1_1Score.html">Score</a> *score, int part)</td></tr>
 <tr class="separator:a943558eaaa9dbd628f3fb4720e8da776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bcc9e3cb75517608c875244de755c28"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a0bcc9e3cb75517608c875244de755c28">OveDynamics_To_Dynamics</a> (<a class="el" href="namespace_o_v_e.html#ab01ea67d19431235e332a7ce8ee0ed74">OVE::DynamicsType</a> type)</td></tr>
+<tr class="memitem:a0bcc9e3cb75517608c875244de755c28"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a0bcc9e3cb75517608c875244de755c28">OveDynamics_To_Dynamics</a> (<a class="el" href="namespaceOVE.html#ab01ea67d19431235e332a7ce8ee0ed74">OVE::DynamicsType</a> type)</td></tr>
 <tr class="separator:a0bcc9e3cb75517608c875244de755c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f54e69e2a6334f27838a5fab576423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html#a8d59eafa85868a96e516b4f3acc03b4d">Score::FileError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#ac2f54e69e2a6334f27838a5fab576423">importOve</a> (<a class="el" href="class_ms_1_1_master_score.html">MasterScore</a> *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a152e2fe244215942c80d07479bcbef14"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceMs.html#ab8c991c362b4c6671323072bdeb9c912">HairpinType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#a152e2fe244215942c80d07479bcbef14">OveWedgeType_To_Type</a> (<a class="el" href="namespaceOVE.html#aca577603100dc5fbaa1cff28f41e0690">OVE::WedgeType</a> type)</td></tr>
+<tr class="separator:a152e2fe244215942c80d07479bcbef14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f54e69e2a6334f27838a5fab576423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMs_1_1Score.html#a8d59eafa85868a96e516b4f3acc03b4d">Score::FileError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="importove_8cpp.html#ac2f54e69e2a6334f27838a5fab576423">importOve</a> (<a class="el" href="classMs_1_1MasterScore.html">MasterScore</a> *score, const QString &amp;name)</td></tr>
 <tr class="separator:ac2f54e69e2a6334f27838a5fab576423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -230,12 +233,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int accidentalToAlter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#a7e16e0d0b226a34ff8e7ae660948d874">OVE::AccidentalType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#a7e16e0d0b226a34ff8e7ae660948d874">OVE::AccidentalType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l01007">1007</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>
@@ -248,13 +253,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void addText </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_v_box.html">VBox</a> *&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classMs_1_1VBox.html">VBox</a> *&amp;&#160;</td>
           <td class="paramname"><em>vbox</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMs_1_1Score.html">Score</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -266,7 +271,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_ms.html#ad1b3e57dfd5b26a280bf2ebde66b9d5a">Tid</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceMs.html#ad1b3e57dfd5b26a280bf2ebde66b9d5a">Tid</a>&#160;</td>
           <td class="paramname"><em>stl</em>&#160;</td>
         </tr>
         <tr>
@@ -276,6 +281,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00326">326</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>
@@ -288,7 +295,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int ContainerToTick </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_note_container.html">OVE::NoteContainer</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classOVE_1_1NoteContainer.html">OVE::NoteContainer</a> *&#160;</td>
           <td class="paramname"><em>container</em>, </td>
         </tr>
         <tr>
@@ -305,6 +312,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00919">919</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a36aa5c4bab9c683bfefa6a98865760e1"></a>
@@ -314,9 +323,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_o_v_e.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a> getClefType </td>
+          <td class="memname"><a class="el" href="namespaceOVE.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a> getClefType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_measure_data.html">OVE::MeasureData</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classOVE_1_1MeasureData.html">OVE::MeasureData</a> *&#160;</td>
           <td class="paramname"><em>measure</em>, </td>
         </tr>
         <tr>
@@ -333,6 +342,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l01122">1122</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a943558eaaa9dbd628f3fb4720e8da776"></a>
@@ -342,9 +353,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_drumset.html">Drumset</a>* getDrumset </td>
+          <td class="memname"><a class="el" href="classMs_1_1Drumset.html">Drumset</a>* getDrumset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_score.html">Score</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMs_1_1Score.html">Score</a> *&#160;</td>
           <td class="paramname"><em>score</em>, </td>
         </tr>
         <tr>
@@ -361,6 +372,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l01419">1419</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a9ff4a7ebeb80343656d43a48cc7b8c22"></a>
@@ -372,7 +385,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int getGraceLevel </td>
           <td>(</td>
-          <td class="paramtype">const QList&lt; <a class="el" href="class_o_v_e_1_1_note_container.html">OVE::NoteContainer</a> *&gt; &amp;&#160;</td>
+          <td class="paramtype">const QList&lt; <a class="el" href="classOVE_1_1NoteContainer.html">OVE::NoteContainer</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>containers</em>, </td>
         </tr>
         <tr>
@@ -395,6 +408,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l01358">1358</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a9a526b5b92ff2fe9b094f699d5802489"></a>
@@ -404,14 +419,16 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_note_head.html#a1d3e8faf3d3bc1d89d9d3485acde69d1">NoteHead::Group</a> getHeadGroup </td>
+          <td class="memname"><a class="el" href="classMs_1_1NoteHead.html#a1d3e8faf3d3bc1d89d9d3485acde69d1">NoteHead::Group</a> getHeadGroup </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#ab8439da5093f82531b3351c8f70b0d61">OVE::NoteHeadType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ab8439da5093f82531b3351c8f70b0d61">OVE::NoteHeadType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00482">482</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>
@@ -447,6 +464,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00099">99</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a7346f395ec6dec16dae7ca4ddbdb856c"></a>
@@ -458,13 +477,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void getMiddleToneOctave </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a>&#160;</td>
           <td class="paramname"><em>clef</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#aecd0fb782f5e3c86e5aa09f92158b630">OVE::ToneType</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#aecd0fb782f5e3c86e5aa09f92158b630">OVE::ToneType</a> &amp;&#160;</td>
           <td class="paramname"><em>tone</em>, </td>
         </tr>
         <tr>
@@ -481,6 +500,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l01044">1044</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ab3c4e1303b3a7dcf5cb58f164ff14819"></a>
@@ -490,9 +511,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_o_v_e_1_1_staff.html">OVE::Staff</a>* getStaff </td>
+          <td class="memname"><a class="el" href="classOVE_1_1Staff.html">OVE::Staff</a>* getStaff </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_o_v_e_1_1_ove_song.html">OVE::OveSong</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classOVE_1_1OveSong.html">OVE::OveSong</a> *&#160;</td>
           <td class="paramname"><em>ove</em>, </td>
         </tr>
         <tr>
@@ -509,6 +530,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00314">314</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="acfffe7d0482a0e6fadf28d407e1fb5a9"></a>
@@ -518,9 +541,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_o_v_e_1_1_tuplet.html">OVE::Tuplet</a>* getTuplet </td>
+          <td class="memname">const <a class="el" href="classOVE_1_1Tuplet.html">OVE::Tuplet</a>* getTuplet </td>
           <td>(</td>
-          <td class="paramtype">const QList&lt; <a class="el" href="class_o_v_e_1_1_music_data.html">OVE::MusicData</a> *&gt; &amp;&#160;</td>
+          <td class="paramtype">const QList&lt; <a class="el" href="classOVE_1_1MusicData.html">OVE::MusicData</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>tuplets</em>, </td>
         </tr>
         <tr>
@@ -537,6 +560,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00937">937</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ac2f54e69e2a6334f27838a5fab576423"></a>
@@ -546,9 +571,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_score.html#a8d59eafa85868a96e516b4f3acc03b4d">Score::FileError</a> importOve </td>
+          <td class="memname"><a class="el" href="classMs_1_1Score.html#a8d59eafa85868a96e516b4f3acc03b4d">Score::FileError</a> importOve </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_master_score.html">MasterScore</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMs_1_1MasterScore.html">MasterScore</a> *&#160;</td>
           <td class="paramname"><em>score</em>, </td>
         </tr>
         <tr>
@@ -565,6 +590,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l02402">2402</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a47512dab65b9f7ccd3d5f6d822371718"></a>
@@ -576,13 +603,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool isRestDefaultLine </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_o_v_e_1_1_note.html">OVE::Note</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classOVE_1_1Note.html">OVE::Note</a> *&#160;</td>
           <td class="paramname"><em>rest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a>&#160;</td>
           <td class="paramname"><em>noteType</em>&#160;</td>
         </tr>
         <tr>
@@ -593,6 +620,36 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l01379">1379</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abbcddfcf71f61fdf1ac2061f2624b333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbcddfcf71f61fdf1ac2061f2624b333">&#9670;&nbsp;</a></span>OctaveShiftTypeToInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="namespaceMs.html#a8fa9ce71e2e532dc3509dc739780990c">OttavaType</a> OctaveShiftTypeToInt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ae68dbc15c6efafcbf3de4a8a58ae24cb">OVE::OctaveShiftType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00630">630</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a49f3ac5c8723c3c5fe6a67e4f29e9293"></a>
@@ -602,14 +659,16 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_ms.html#a3b085ddb3e3b890843f2e33874b9fa4b">ClefType</a> OveClefToClef </td>
+          <td class="memname"><a class="el" href="namespaceMs.html#a3b085ddb3e3b890843f2e33874b9fa4b">ClefType</a> OveClefToClef </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ae9ab6a6791f3e78453120bce7e44af57">OVE::ClefType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00417">417</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>
@@ -622,12 +681,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">QString OveDynamics_To_Dynamics </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#ab01ea67d19431235e332a7ce8ee0ed74">OVE::DynamicsType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ab01ea67d19431235e332a7ce8ee0ed74">OVE::DynamicsType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l02212">2212</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>
@@ -638,14 +699,44 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_t_duration.html">TDuration</a> OveNoteType_To_Duration </td>
+          <td class="memname"><a class="el" href="classMs_1_1TDuration.html">TDuration</a> OveNoteType_To_Duration </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_o_v_e.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#ab7a0f62d35f2bd049afbad7c8582c259">OVE::NoteType</a>&#160;</td>
           <td class="paramname"><em>noteType</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l00948">948</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a152e2fe244215942c80d07479bcbef14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a152e2fe244215942c80d07479bcbef14">&#9670;&nbsp;</a></span>OveWedgeType_To_Type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="namespaceMs.html#ab8c991c362b4c6671323072bdeb9c912">HairpinType</a> OveWedgeType_To_Type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceOVE.html#aca577603100dc5fbaa1cff28f41e0690">OVE::WedgeType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l02338">2338</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>

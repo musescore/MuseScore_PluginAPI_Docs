@@ -1,0 +1,12 @@
+<map id="mscore/scoreInfo.h" name="mscore/scoreInfo.h">
+<area shape="rect" id="node2" href="$scorePreview_8h.html" title="mscore/scorePreview.h" alt="" coords="151,80,313,107"/>
+<area shape="rect" id="node4" href="$scorePreview_8cpp.html" title="mscore/scorePreview.cpp" alt="" coords="145,155,319,181"/>
+<area shape="rect" id="node5" href="$templateBrowser_8h.html" title="mscore/templateBrowser.h" alt="" coords="499,80,682,107"/>
+<area shape="rect" id="node8" href="$scoreBrowser_8h.html" title="mscore/scoreBrowser.h" alt="" coords="732,80,897,107"/>
+<area shape="rect" id="node11" href="$scoreInfo_8cpp.html" title="mscore/scoreInfo.cpp" alt="" coords="921,80,1076,107"/>
+<area shape="rect" id="node3" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="5,155,120,181"/>
+<area shape="rect" id="node6" href="$newwizard_8cpp.html" title="mscore/newwizard.cpp" alt="" coords="343,155,505,181"/>
+<area shape="rect" id="node7" href="$templateBrowser_8cpp.html" title="mscore/templateBrowser.cpp" alt="" coords="529,155,727,181"/>
+<area shape="rect" id="node9" href="$scoreBrowser_8cpp.html" title="mscore/scoreBrowser.cpp" alt="" coords="751,155,929,181"/>
+<area shape="rect" id="node10" href="$startcenter_8cpp.html" title="mscore/startcenter.cpp" alt="" coords="954,155,1115,181"/>
+</map>

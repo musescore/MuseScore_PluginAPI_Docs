@@ -1,7 +1,7 @@
-<map id="fluid/voice.h" name="fluid/voice.h">
-<area shape="rect" id="node2" href="$fluid_2dsp_8cpp.html" title="fluid/dsp.cpp" alt="" coords="5,80,101,107"/>
-<area shape="rect" id="node3" href="$fluid_8cpp.html" title="fluid/fluid.cpp" alt="" coords="125,80,224,107"/>
-<area shape="rect" id="node4" href="$mod_8cpp.html" title="fluid/mod.cpp" alt="" coords="249,80,349,107"/>
-<area shape="rect" id="node5" href="$sfont_8cpp.html" title="fluid/sfont.cpp" alt="" coords="373,80,477,107"/>
-<area shape="rect" id="node6" href="$fluid_2voice_8cpp.html" title="fluid/voice.cpp" alt="" coords="501,80,608,107"/>
+<map id="audio/midi/fluid/voice.h" name="audio/midi/fluid/voice.h">
+<area shape="rect" id="node2" href="$audio_2midi_2fluid_2dsp_8cpp.html" title="audio/midi/fluid/dsp.cpp" alt="" coords="5,80,177,107"/>
+<area shape="rect" id="node3" href="$fluid_8cpp.html" title="audio/midi/fluid/fluid.cpp" alt="" coords="202,80,378,107"/>
+<area shape="rect" id="node4" href="$mod_8cpp.html" title="audio/midi/fluid/mod.cpp" alt="" coords="402,80,581,107"/>
+<area shape="rect" id="node5" href="$sfont_8cpp.html" title="audio/midi/fluid/sfont.cpp" alt="" coords="605,80,786,107"/>
+<area shape="rect" id="node6" href="$fluid_2voice_8cpp.html" title="audio/midi/fluid/voice.cpp" alt="" coords="810,80,991,107"/>
 </map>

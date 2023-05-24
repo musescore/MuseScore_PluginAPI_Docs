@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">debugger.cpp File Reference</div>  </div>
@@ -120,28 +121,41 @@ $(function() {
 <code>#include &quot;<a class="el" href="pitchspelling_8h_source.html">libmscore/pitchspelling.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="chordlist_8h_source.html">libmscore/chordlist.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bracket_8h_source.html">libmscore/bracket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="bracket_item_8h_source.html">libmscore/bracketItem.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bracketItem_8h_source.html">libmscore/bracketItem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="trill_8h_source.html">libmscore/trill.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timesig_8h_source.html">libmscore/timesig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="systemdivider_8h_source.html">libmscore/systemdivider.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measurenumber_8h_source.html">libmscore/measurenumber.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="debugger_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element_item.html">Ms::ElementItem</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1ElementItem.html">Ms::ElementItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_element_list_widget_item.html">Ms::ElementListWidgetItem</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1ElementListWidgetItem.html">Ms::ElementListWidgetItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a50db38a213c7346fc54359403347ee4c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a50db38a213c7346fc54359403347ee4c">Ms::addSymbol</a> (ElementItem *parent, BSymbol *bs)</td></tr>
+<tr class="separator:a50db38a213c7346fc54359403347ee4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34132bcc9a9965a8978318e39249300a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a34132bcc9a9965a8978318e39249300a">Ms::addMeasureBaseToList</a> (ElementItem *mi, MeasureBase *mb)</td></tr>
+<tr class="separator:a34132bcc9a9965a8978318e39249300a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa86b676ffe7d7a7f076d996cacc13058"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa86b676ffe7d7a7f076d996cacc13058">Ms::addBSymbol</a> (ElementItem *item, BSymbol *e)</td></tr>
+<tr class="separator:aa86b676ffe7d7a7f076d996cacc13058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c158a3738eef9b1a961928b3b5b413"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac5c158a3738eef9b1a961928b3b5b413">Ms::addChord</a> (ElementItem *sei, Chord *chord)</td></tr>
+<tr class="separator:ac5c158a3738eef9b1a961928b3b5b413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:adecfde73beb9639310b6b6373c7a12ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#adecfde73beb9639310b6b6373c7a12ae">Ms::useFactorySettings</a> = false</td></tr>
+<tr class="memitem:adecfde73beb9639310b6b6373c7a12ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#adecfde73beb9639310b6b6373c7a12ae">Ms::useFactorySettings</a> = false</td></tr>
 <tr class="separator:adecfde73beb9639310b6b6373c7a12ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

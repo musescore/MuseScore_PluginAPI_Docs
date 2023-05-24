@@ -1,0 +1,6 @@
+<map id="Ms::GlissandoSegment" name="Ms::GlissandoSegment">
+<area shape="rect" id="node2" href="$classMs_1_1LineSegment.html" title="Virtual base class for segmented lines segments (OttavaSegment, HairpinSegment, TrillSegment...) " alt="" coords="23,229,146,256"/>
+<area shape="rect" id="node3" href="$classMs_1_1SpannerSegment.html" title="parent: System " alt="" coords="11,155,158,181"/>
+<area shape="rect" id="node4" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="37,80,132,107"/>
+<area shape="rect" id="node5" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="20,5,149,32"/>
+</map>

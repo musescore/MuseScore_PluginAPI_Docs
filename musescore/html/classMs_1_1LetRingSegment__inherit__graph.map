@@ -1,0 +1,7 @@
+<map id="Ms::LetRingSegment" name="Ms::LetRingSegment">
+<area shape="rect" id="node2" href="$classMs_1_1TextLineBaseSegment.html" title="Ms::TextLineBaseSegment" alt="" coords="5,304,183,331"/>
+<area shape="rect" id="node3" href="$classMs_1_1LineSegment.html" title="Virtual base class for segmented lines segments (OttavaSegment, HairpinSegment, TrillSegment...) " alt="" coords="33,229,155,256"/>
+<area shape="rect" id="node4" href="$classMs_1_1SpannerSegment.html" title="parent: System " alt="" coords="21,155,167,181"/>
+<area shape="rect" id="node5" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="47,80,141,107"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="29,5,159,32"/>
+</map>

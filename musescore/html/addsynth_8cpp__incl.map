@@ -1,9 +1,7 @@
 <map id="aeolus/addsynth.cpp" name="aeolus/addsynth.cpp">
-<area shape="rect" id="node2" href="$global_8h.html" title="global.h" alt="" coords="342,80,409,107"/>
-<area shape="rect" id="node11" href="$addsynth_8h.html" title="addsynth.h" alt="" coords="433,80,520,107"/>
-<area shape="rect" id="node4" href="$synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="101,155,271,181"/>
-<area shape="rect" id="node7" href="$midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="295,155,455,181"/>
-<area shape="rect" id="node8" href="$effect_8h.html" title="effects/effect.h" alt="" coords="480,155,591,181"/>
-<area shape="rect" id="node10" href="$sparm_8h.html" title="sparm.h" alt="" coords="615,155,685,181"/>
-<area shape="rect" id="node5" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="193,229,382,256"/>
+<area shape="rect" id="node2" href="$global_8h.html" title="global.h" alt="" coords="346,80,414,107"/>
+<area shape="rect" id="node11" href="$addsynth_8h.html" title="addsynth.h" alt="" coords="438,80,525,107"/>
+<area shape="rect" id="node6" href="$effect_8h.html" title="effects/effect.h" alt="" coords="487,155,601,181"/>
+<area shape="rect" id="node10" href="$sparm_8h.html" title="sparm.h" alt="" coords="626,155,697,181"/>
+<area shape="rect" id="node8" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="523,229,717,256"/>
 </map>

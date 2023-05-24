@@ -1,0 +1,5 @@
+<map id="Ms::Tuplet" name="Ms::Tuplet">
+<area shape="rect" id="node2" href="$classMs_1_1DurationElement.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="5,155,149,181"/>
+<area shape="rect" id="node3" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="30,80,125,107"/>
+<area shape="rect" id="node4" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="13,5,142,32"/>
+</map>

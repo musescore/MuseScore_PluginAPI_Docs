@@ -1,0 +1,9 @@
+<map id="Ms::MScore" name="Ms::MScore">
+<area shape="rect" id="node2" href="$classMs_1_1MPaintDevice.html" title="Ms::MPaintDevice" alt="" coords="929,5,1056,32"/>
+<area shape="rect" id="node4" href="$classMs_1_1Sequencer.html" title="Ms::Sequencer" alt="" coords="937,56,1048,83"/>
+<area shape="rect" id="node5" href="$classMs_1_1MStyle.html" title="Ms::MStyle" alt="" coords="949,129,1036,156"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="197,129,301,156"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="193,235,305,261"/>
+<area shape="rect" id="node9" href="$classMs_1_1ChordList.html" title="Ms::ChordList" alt="" coords="600,188,704,215"/>
+<area shape="rect" id="node13" href="$structMs_1_1MScoreError.html" title="Ms::MScoreError" alt="" coords="188,285,311,312"/>
+</map>

@@ -1,7 +1,0 @@
-<map id="Ms::CapClef" name="Ms::CapClef">
-<area shape="rect" id="node2" href="$class_ms_1_1_note_obj.html" title="Ms::NoteObj" alt="" coords="9,5,105,32"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_chord_obj.html" title="Ms::ChordObj" alt="" coords="79,81,182,108"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_capella_obj.html" title="Ms::CapellaObj" alt="" coords="79,260,191,287"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_basic_durational_obj.html" title="Ms::BasicDurationalObj" alt="" coords="148,336,308,363"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_capella.html" title="Ms::Capella" alt="" coords="82,171,174,197"/>
-</map>

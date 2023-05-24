@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -66,7 +66,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">palettetree.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -74,16 +75,19 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="palettetree_8h_source.html">palettetree.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="musescore_8h_source.html">musescore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="palette_8h_source.html">palette.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="shortcut_8h_source.html">shortcut.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="articulation_8h_source.html">libmscore/articulation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fret_8h_source.html">libmscore/fret.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="icon_8h_source.html">libmscore/icon.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2image_8h_source.html">libmscore/image.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="image_store_8h_source.html">libmscore/imageStore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="imageStore_8h_source.html">libmscore/imageStore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">libmscore/mscore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textbase_8h_source.html">libmscore/textbase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="element_8h_source.html">libmscore/element.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bracket_8h_source.html">libmscore/bracket.h</a>&quot;</code><br />
 <code>#include &quot;thirdparty/qzip/qzipreader_p.h&quot;</code><br />
 <code>#include &quot;thirdparty/qzip/qzipwriter_p.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -91,58 +95,91 @@ Include dependency graph for palettetree.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="palettetree_8cpp__incl.png" border="0" usemap="#mscore_2palette_2palettetree_8cpp" alt=""/></div>
 <map name="mscore_2palette_2palettetree_8cpp" id="mscore_2palette_2palettetree_8cpp">
-<area shape="rect" id="node2" href="palettetree_8h.html" title="palettetree.h" alt="" coords="388,319,483,345"/>
-<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="821,692,897,719"/>
-<area shape="rect" id="node20" href="globals_8h.html" title="globals.h" alt="" coords="1007,162,1082,189"/>
-<area shape="rect" id="node21" href="musescore_8h.html" title="musescore.h" alt="" coords="1208,80,1305,107"/>
-<area shape="rect" id="node25" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1194,162,1319,189"/>
-<area shape="rect" id="node36" href="preferences_8h.html" title="preferences.h" alt="" coords="861,80,962,107"/>
-<area shape="rect" id="node38" href="shortcut_8h.html" title="shortcut.h" alt="" coords="1037,80,1117,107"/>
-<area shape="rect" id="node40" href="articulation_8h.html" title="libmscore/articulation.h" alt="" coords="5,468,161,495"/>
-<area shape="rect" id="node41" href="fret_8h.html" title="libmscore/fret.h" alt="" coords="602,244,714,271"/>
-<area shape="rect" id="node44" href="textbase_8h.html" title="textbase.h" alt="" coords="682,468,765,495"/>
-<area shape="rect" id="node45" href="icon_8h.html" title="libmscore/icon.h" alt="" coords="186,468,303,495"/>
-<area shape="rect" id="node46" href="libmscore_2image_8h.html" title="libmscore/image.h" alt="" coords="235,319,363,345"/>
-<area shape="rect" id="node48" href="image_store_8h.html" title="libmscore/imageStore.h" alt="" coords="1329,80,1488,107"/>
-<area shape="rect" id="node3" href="element_8h.html" title="libmscore/element.h" alt="" coords="429,543,567,569"/>
-<area shape="rect" id="node13" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="838,393,953,420"/>
-<area shape="rect" id="node4" href="spatium_8h.html" title="spatium.h" alt="" coords="643,617,721,644"/>
-<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="745,617,821,644"/>
-<area shape="rect" id="node11" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="453,692,567,719"/>
-<area shape="rect" id="node12" href="shape_8h.html" title="shape.h" alt="" coords="404,617,472,644"/>
-<area shape="rect" id="node8" href="style_8h.html" title="style.h" alt="" coords="577,767,638,793"/>
-<area shape="rect" id="node9" href="chordlist_8h.html" title="chordlist.h" alt="" coords="566,841,649,868"/>
-<area shape="rect" id="node10" href="types_8h.html" title="types.h" alt="" coords="676,841,741,868"/>
-<area shape="rect" id="node14" href="connector_8h.html" title="connector.h" alt="" coords="821,767,911,793"/>
-<area shape="rect" id="node15" href="stafftype_8h.html" title="stafftype.h" alt="" coords="789,468,873,495"/>
-<area shape="rect" id="node17" href="interval_8h.html" title="interval.h" alt="" coords="1041,468,1115,495"/>
-<area shape="rect" id="node18" href="select_8h.html" title="select.h" alt="" coords="897,468,965,495"/>
-<area shape="rect" id="node16" href="durationtype_8h.html" title="durationtype.h" alt="" coords="998,543,1102,569"/>
-<area shape="rect" id="node19" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="767,543,872,569"/>
-<area shape="rect" id="node23" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="2047,162,2165,189"/>
-<area shape="rect" id="node24" href="musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1344,162,1529,189"/>
-<area shape="rect" id="node35" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="1553,162,1717,189"/>
-<area shape="rect" id="node26" href="input_8h.html" title="input.h" alt="" coords="1193,393,1254,420"/>
-<area shape="rect" id="node28" href="property_8h.html" title="property.h" alt="" coords="1177,543,1257,569"/>
-<area shape="rect" id="node29" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1073,244,1168,271"/>
-<area shape="rect" id="node31" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1295,244,1424,271"/>
-<area shape="rect" id="node32" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1448,244,1551,271"/>
-<area shape="rect" id="node33" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1575,244,1679,271"/>
-<area shape="rect" id="node34" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="559,319,659,345"/>
-<area shape="rect" id="node27" href="beam_8h.html" title="beam.h" alt="" coords="1191,468,1256,495"/>
-<area shape="rect" id="node30" href="stringdata_8h.html" title="stringdata.h" alt="" coords="1027,319,1118,345"/>
-<area shape="rect" id="node39" href="icons_8h.html" title="icons.h" alt="" coords="1106,162,1170,189"/>
-<area shape="rect" id="node42" href="harmony_8h.html" title="harmony.h" alt="" coords="682,319,765,345"/>
-<area shape="rect" id="node43" href="text_8h.html" title="text.h" alt="" coords="696,393,751,420"/>
-<area shape="rect" id="node47" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="290,393,373,420"/>
+<area shape="rect" id="node2" href="palettetree_8h.html" title="palettetree.h" alt="" coords="1849,162,1944,189"/>
+<area shape="rect" id="node3" href="element_8h.html" title="libmscore/element.h" alt="" coords="1783,319,1927,345"/>
+<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="1385,543,1464,569"/>
+<area shape="rect" id="node18" href="globals_8h.html" title="globals.h" alt="" coords="1111,162,1186,189"/>
+<area shape="rect" id="node19" href="musescore_8h.html" title="musescore.h" alt="" coords="614,80,713,107"/>
+<area shape="rect" id="node23" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="906,162,1037,189"/>
+<area shape="rect" id="node32" href="palette_8h.html" title="palette.h" alt="" coords="1735,80,1807,107"/>
+<area shape="rect" id="node34" href="preferences_8h.html" title="preferences.h" alt="" coords="1299,80,1401,107"/>
+<area shape="rect" id="node37" href="shortcut_8h.html" title="shortcut.h" alt="" coords="1471,80,1554,107"/>
+<area shape="rect" id="node39" href="articulation_8h.html" title="libmscore/articulation.h" alt="" coords="2230,244,2393,271"/>
+<area shape="rect" id="node40" href="fret_8h.html" title="libmscore/fret.h" alt="" coords="1882,80,1999,107"/>
+<area shape="rect" id="node42" href="icon_8h.html" title="libmscore/icon.h" alt="" coords="1350,244,1473,271"/>
+<area shape="rect" id="node43" href="libmscore_2image_8h.html" title="libmscore/image.h" alt="" coords="1578,80,1711,107"/>
+<area shape="rect" id="node45" href="imageStore_8h.html" title="libmscore/imageStore.h" alt="" coords="2125,80,2289,107"/>
+<area shape="rect" id="node46" href="textbase_8h.html" title="textbase.h" alt="" coords="2179,162,2262,189"/>
+<area shape="rect" id="node47" href="bracket_8h.html" title="libmscore/bracket.h" alt="" coords="2417,244,2557,271"/>
+<area shape="rect" id="node14" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="1548,244,1667,271"/>
+<area shape="rect" id="node4" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="1789,393,1903,420"/>
+<area shape="rect" id="node5" href="spatium_8h.html" title="spatium.h" alt="" coords="1927,393,2007,420"/>
+<area shape="rect" id="node6" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1463,468,1541,495"/>
+<area shape="rect" id="node10" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="2082,393,2197,420"/>
+<area shape="rect" id="node11" href="shape_8h.html" title="shape.h" alt="" coords="1697,393,1765,420"/>
+<area shape="rect" id="node12" href="sig_8h.html" title="sig.h" alt="" coords="1539,393,1590,420"/>
+<area shape="rect" id="node13" href="sym_8h.html" title="sym.h" alt="" coords="1614,393,1673,420"/>
+<area shape="rect" id="node9" href="libmscore_2style_8h.html" title="style.h" alt="" coords="2084,617,2144,644"/>
+<area shape="rect" id="node16" href="connector_8h.html" title="connector.h" alt="" coords="1663,319,1755,345"/>
+<area shape="rect" id="node17" href="select_8h.html" title="select.h" alt="" coords="1404,319,1472,345"/>
+<area shape="rect" id="node21" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="440,162,559,189"/>
+<area shape="rect" id="node22" href="musescoreCore_8h.html" title="libmscore/musescoreCore.h" alt="" coords="635,162,825,189"/>
+<area shape="rect" id="node31" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="5,162,172,189"/>
+<area shape="rect" id="node24" href="input_8h.html" title="input.h" alt="" coords="1177,468,1238,495"/>
+<area shape="rect" id="node25" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="877,468,973,495"/>
+<area shape="rect" id="node26" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="837,244,967,271"/>
+<area shape="rect" id="node27" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="991,244,1093,271"/>
+<area shape="rect" id="node28" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1118,244,1225,271"/>
+<area shape="rect" id="node29" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1691,244,1791,271"/>
+<area shape="rect" id="node30" href="property_8h.html" title="property.h" alt="" coords="1972,244,2053,271"/>
+<area shape="rect" id="node38" href="icons_8h.html" title="icons.h" alt="" coords="1485,162,1551,189"/>
+<area shape="rect" id="node41" href="harmony_8h.html" title="harmony.h" alt="" coords="1969,162,2054,189"/>
+<area shape="rect" id="node44" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="1814,244,1897,271"/>
+<area shape="rect" id="node48" href="bracketItem_8h.html" title="bracketItem.h" alt="" coords="2183,319,2285,345"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="palettetree_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad5bc91d74fc543b91c46b501f3815fa4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad5bc91d74fc543b91c46b501f3815fa4">Ms::needsStaff</a> (Element *e)</td></tr>
+<tr class="separator:ad5bc91d74fc543b91c46b501f3815fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd83f3147d5fadc937a40931c56620cd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:abd83f3147d5fadc937a40931c56620cd"><td class="memTemplItemLeft" align="right" valign="top">static QByteArray&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMs.html#abd83f3147d5fadc937a40931c56620cd">Ms::mimeData</a> (T *t)</td></tr>
+<tr class="separator:abd83f3147d5fadc937a40931c56620cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360c7af2ae979f3e3a260c1673096b4c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a360c7af2ae979f3e3a260c1673096b4c"><td class="memTemplItemLeft" align="right" valign="top">static std::unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a360c7af2ae979f3e3a260c1673096b4c">Ms::readMimeData</a> (const QByteArray &amp;data, const QString &amp;tagName)</td></tr>
+<tr class="separator:a360c7af2ae979f3e3a260c1673096b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4dcf9ef6a5a741ec6b2290bce8c021"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#adc4dcf9ef6a5a741ec6b2290bce8c021">Ms::writePaletteFailed</a> (const QString &amp;path)</td></tr>
+<tr class="separator:adc4dcf9ef6a5a741ec6b2290bce8c021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205afaa97418ac59bb764de21820fef0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a205afaa97418ac59bb764de21820fef0">Ms::isSame</a> (const Element &amp;e1, const Element &amp;e2)</td></tr>
+<tr class="memdesc:a205afaa97418ac59bb764de21820fef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to compare two Elements.  <a href="namespaceMs.html#a205afaa97418ac59bb764de21820fef0">More...</a><br /></td></tr>
+<tr class="separator:a205afaa97418ac59bb764de21820fef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77bb598d345ad96035945048441ad1b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab77bb598d345ad96035945048441ad1b">Ms::paintIconElement</a> (QPainter &amp;painter, const QRect &amp;rect, Element *e)</td></tr>
+<tr class="memdesc:ab77bb598d345ad96035945048441ad1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint an icon element so that it fills a QRect, preserving aspect ratio, and leaving a small margin around the edges.  <a href="namespaceMs.html#ab77bb598d345ad96035945048441ad1b">More...</a><br /></td></tr>
+<tr class="separator:ab77bb598d345ad96035945048441ad1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b826183083f025f544fcaa4c062699"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad1b826183083f025f544fcaa4c062699">Ms::paintPaletteElement</a> (void *data, Element *e)</td></tr>
+<tr class="memdesc:ad1b826183083f025f544fcaa4c062699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for use with <a class="el" href="classMs_1_1Element.html#ab4cacda18439ce6c8c615e253c762f12">Element::scanElements()</a> to paint an element and its child elements.  <a href="namespaceMs.html#ad1b826183083f025f544fcaa4c062699">More...</a><br /></td></tr>
+<tr class="separator:ad1b826183083f025f544fcaa4c062699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee2c6d5882f65907218783ffbe9731c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aeee2c6d5882f65907218783ffbe9731c">Ms::paintScoreElement</a> (QPainter &amp;p, Element *e, qreal spatium, bool alignToStaff)</td></tr>
+<tr class="memdesc:aeee2c6d5882f65907218783ffbe9731c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint a non-icon element centered at the origin of the painter's coordinate system.  <a href="namespaceMs.html#aeee2c6d5882f65907218783ffbe9731c">More...</a><br /></td></tr>
+<tr class="separator:aeee2c6d5882f65907218783ffbe9731c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad58f3eec82ff9ba43ffb11695edb7866"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad58f3eec82ff9ba43ffb11695edb7866">Ms::paintStaff</a> (QPainter &amp;p, const QRect &amp;rect, qreal spatium)</td></tr>
+<tr class="memdesc:ad58f3eec82ff9ba43ffb11695edb7866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paint a 5 line staff centered within a QRect and return the distance from the top of the QRect to the uppermost staff line.  <a href="namespaceMs.html#ad58f3eec82ff9ba43ffb11695edb7866">More...</a><br /></td></tr>
+<tr class="separator:ad58f3eec82ff9ba43ffb11695edb7866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb09c8ffac9f67c30b7b72bcded52fd0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afb09c8ffac9f67c30b7b72bcded52fd0">Ms::paintBackground</a> (QPainter &amp;p, const QRect &amp;r, bool selected, bool current)</td></tr>
+<tr class="separator:afb09c8ffac9f67c30b7b72bcded52fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04ff0f816a16ac9e8a1d9d570706befd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a04ff0f816a16ac9e8a1d9d570706befd">Ms::paintTag</a> (QPainter &amp;painter, const QRect &amp;rect, QString tag)</td></tr>
+<tr class="separator:a04ff0f816a16ac9e8a1d9d570706befd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a451c3b136bf2196dd267e94feed9f3c6"><td class="memItemLeft" align="right" valign="top">static QColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a451c3b136bf2196dd267e94feed9f3c6">Ms::elementColor</a> (Element *el, bool selected)</td></tr>
+<tr class="separator:a451c3b136bf2196dd267e94feed9f3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

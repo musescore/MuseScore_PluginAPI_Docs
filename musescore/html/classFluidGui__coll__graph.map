@@ -1,0 +1,8 @@
+<map id="FluidGui" name="FluidGui">
+<area shape="rect" id="node2" href="$classMs_1_1SynthesizerGui.html" title="Ms::SynthesizerGui" alt="" coords="491,28,626,55"/>
+<area shape="rect" id="node4" href="$classMs_1_1Synthesizer.html" title="Ms::Synthesizer" alt="" coords="781,5,896,32"/>
+<area shape="rect" id="node7" href="$structSfNamePath.html" title="SfNamePath" alt="" coords="173,112,270,139"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="175,163,267,189"/>
+<area shape="rect" id="node10" href="$classQFutureWatcher.html" title="QFutureWatcher\&lt; bool \&gt;" alt="" coords="477,216,640,243"/>
+<area shape="rect" id="node11" href="$classQFutureWatcher.html" title="QFutureWatcher\&lt; T \&gt;" alt="" coords="149,216,293,243"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_export_ly_1_1chord_data.html" title="Ms::ExportLy::chordData" alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1ChordList.html" title="Ms::ChordList" alt="" coords="111,5,215,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1PitchList.html" title="PitchList List of note pitch offsets. " alt="" coords="114,56,211,83"/>
 </map>

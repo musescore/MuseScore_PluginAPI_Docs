@@ -1,4 +1,4 @@
-<map id="mscore/mixertrackpart.h" name="mscore/mixertrackpart.h">
-<area shape="rect" id="node2" href="$mixer_8cpp.html" title="mscore/mixer.cpp" alt="" coords="5,80,132,107"/>
-<area shape="rect" id="node3" href="$mixertrackpart_8cpp.html" title="mscore/mixertrackpart.cpp" alt="" coords="156,80,333,107"/>
+<map id="mscore/mixer/mixertrackpart.h" name="mscore/mixer/mixertrackpart.h">
+<area shape="rect" id="node2" href="$mixer_8cpp.html" title="mscore/mixer/mixer.cpp" alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node3" href="$mixertrackpart_8cpp.html" title="mscore/mixer/mixertrackpart.cpp" alt="" coords="199,80,421,107"/>
 </map>

@@ -1,6 +1,0 @@
-<map id="Ms::PartChannelSettingsLink" name="Ms::PartChannelSettingsLink">
-<area shape="rect" id="node2" href="$class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="7,227,150,253"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="5,109,160,151"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="65,5,215,47"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_channel.html" title="Ms::Channel" alt="" coords="149,175,245,201"/>
-</map>

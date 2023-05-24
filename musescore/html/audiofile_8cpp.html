@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -65,6 +65,9 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">audiofile.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,10 +78,250 @@ Include dependency graph for audiofile.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="audiofile_8cpp__incl.png" border="0" usemap="#audiofile_2audiofile_8cpp" alt=""/></div>
 <map name="audiofile_2audiofile_8cpp" id="audiofile_2audiofile_8cpp">
-<area shape="rect" id="node2" href="audiofile_8h.html" title="audiofile.h" alt="" coords="38,80,119,107"/>
+<area shape="rect" id="node2" href="audiofile_8h.html" title="audiofile.h" alt="" coords="41,80,123,107"/>
 </map>
 </div>
-</div></div><!-- contents -->
+</div>
+<p><a href="audiofile_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1f51e120737dae90452f871ab8b37cc4"><td class="memItemLeft" align="right" valign="top">static sf_count_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="audiofile_8cpp.html#a1f51e120737dae90452f871ab8b37cc4">getFileLen</a> (void *f)</td></tr>
+<tr class="separator:a1f51e120737dae90452f871ab8b37cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada8a5dae67aa61e057329d4d6769269e"><td class="memItemLeft" align="right" valign="top">static sf_count_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="audiofile_8cpp.html#ada8a5dae67aa61e057329d4d6769269e">seek</a> (sf_count_t offset, int whence, void *f)</td></tr>
+<tr class="separator:ada8a5dae67aa61e057329d4d6769269e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0798dc770c3a9f96b949c8c1529cc9d8"><td class="memItemLeft" align="right" valign="top">static sf_count_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="audiofile_8cpp.html#a0798dc770c3a9f96b949c8c1529cc9d8">read</a> (void *ptr, sf_count_t count, void *f)</td></tr>
+<tr class="separator:a0798dc770c3a9f96b949c8c1529cc9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e7a9f287ad890341089c6778cb96b7"><td class="memItemLeft" align="right" valign="top">static sf_count_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="audiofile_8cpp.html#ab4e7a9f287ad890341089c6778cb96b7">write</a> (const void *ptr, sf_count_t count, void *f)</td></tr>
+<tr class="separator:ab4e7a9f287ad890341089c6778cb96b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bfa74830dccfb6ce02d87a056d37da4"><td class="memItemLeft" align="right" valign="top">static sf_count_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="audiofile_8cpp.html#a9bfa74830dccfb6ce02d87a056d37da4">tell</a> (void *f)</td></tr>
+<tr class="separator:a9bfa74830dccfb6ce02d87a056d37da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3d50547d76d57fbb73ba9659bdf4a719"><td class="memItemLeft" align="right" valign="top">static SF_VIRTUAL_IO&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="audiofile_8cpp.html#a3d50547d76d57fbb73ba9659bdf4a719">sfio</a></td></tr>
+<tr class="separator:a3d50547d76d57fbb73ba9659bdf4a719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1f51e120737dae90452f871ab8b37cc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f51e120737dae90452f871ab8b37cc4">&#9670;&nbsp;</a></span>getFileLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static sf_count_t getFileLen </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audiofile_8cpp_source.html#l00015">15</a> of file <a class="el" href="audiofile_8cpp_source.html">audiofile.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0798dc770c3a9f96b949c8c1529cc9d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0798dc770c3a9f96b949c8c1529cc9d8">&#9670;&nbsp;</a></span>read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static sf_count_t read </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sf_count_t&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audiofile_8cpp_source.html#l00021">21</a> of file <a class="el" href="audiofile_8cpp_source.html">audiofile.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ada8a5dae67aa61e057329d4d6769269e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada8a5dae67aa61e057329d4d6769269e">&#9670;&nbsp;</a></span>seek()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static sf_count_t seek </td>
+          <td>(</td>
+          <td class="paramtype">sf_count_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>whence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audiofile_8cpp_source.html#l00018">18</a> of file <a class="el" href="audiofile_8cpp_source.html">audiofile.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9bfa74830dccfb6ce02d87a056d37da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bfa74830dccfb6ce02d87a056d37da4">&#9670;&nbsp;</a></span>tell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static sf_count_t tell </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audiofile_8cpp_source.html#l00027">27</a> of file <a class="el" href="audiofile_8cpp_source.html">audiofile.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab4e7a9f287ad890341089c6778cb96b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e7a9f287ad890341089c6778cb96b7">&#9670;&nbsp;</a></span>write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static sf_count_t write </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sf_count_t&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audiofile_8cpp_source.html#l00024">24</a> of file <a class="el" href="audiofile_8cpp_source.html">audiofile.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a3d50547d76d57fbb73ba9659bdf4a719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d50547d76d57fbb73ba9659bdf4a719">&#9670;&nbsp;</a></span>sfio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SF_VIRTUAL_IO sfio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">      <a class="code" href="audiofile_8cpp.html#a1f51e120737dae90452f871ab8b37cc4">getFileLen</a>,</div><div class="line">      <a class="code" href="audiofile_8cpp.html#ada8a5dae67aa61e057329d4d6769269e">seek</a>,</div><div class="line">      <a class="code" href="audiofile_8cpp.html#a0798dc770c3a9f96b949c8c1529cc9d8">read</a>,</div><div class="line">      <a class="code" href="audiofile_8cpp.html#ab4e7a9f287ad890341089c6778cb96b7">write</a>,</div><div class="line">      <a class="code" href="audiofile_8cpp.html#a9bfa74830dccfb6ce02d87a056d37da4">tell</a></div><div class="line">      }</div><div class="ttc" id="audiofile_8cpp_html_ab4e7a9f287ad890341089c6778cb96b7"><div class="ttname"><a href="audiofile_8cpp.html#ab4e7a9f287ad890341089c6778cb96b7">write</a></div><div class="ttdeci">static sf_count_t write(const void *ptr, sf_count_t count, void *f)</div><div class="ttdef"><b>Definition:</b> <a href="audiofile_8cpp_source.html#l00024">audiofile.cpp:24</a></div></div>
+<div class="ttc" id="audiofile_8cpp_html_a0798dc770c3a9f96b949c8c1529cc9d8"><div class="ttname"><a href="audiofile_8cpp.html#a0798dc770c3a9f96b949c8c1529cc9d8">read</a></div><div class="ttdeci">static sf_count_t read(void *ptr, sf_count_t count, void *f)</div><div class="ttdef"><b>Definition:</b> <a href="audiofile_8cpp_source.html#l00021">audiofile.cpp:21</a></div></div>
+<div class="ttc" id="audiofile_8cpp_html_ada8a5dae67aa61e057329d4d6769269e"><div class="ttname"><a href="audiofile_8cpp.html#ada8a5dae67aa61e057329d4d6769269e">seek</a></div><div class="ttdeci">static sf_count_t seek(sf_count_t offset, int whence, void *f)</div><div class="ttdef"><b>Definition:</b> <a href="audiofile_8cpp_source.html#l00018">audiofile.cpp:18</a></div></div>
+<div class="ttc" id="audiofile_8cpp_html_a1f51e120737dae90452f871ab8b37cc4"><div class="ttname"><a href="audiofile_8cpp.html#a1f51e120737dae90452f871ab8b37cc4">getFileLen</a></div><div class="ttdeci">static sf_count_t getFileLen(void *f)</div><div class="ttdef"><b>Definition:</b> <a href="audiofile_8cpp_source.html#l00015">audiofile.cpp:15</a></div></div>
+<div class="ttc" id="audiofile_8cpp_html_a9bfa74830dccfb6ce02d87a056d37da4"><div class="ttname"><a href="audiofile_8cpp.html#a9bfa74830dccfb6ce02d87a056d37da4">tell</a></div><div class="ttdeci">static sf_count_t tell(void *f)</div><div class="ttdef"><b>Definition:</b> <a href="audiofile_8cpp_source.html#l00027">audiofile.cpp:27</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="audiofile_8cpp_source.html#l00031">31</a> of file <a class="el" href="audiofile_8cpp_source.html">audiofile.cpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

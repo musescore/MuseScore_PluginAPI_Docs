@@ -1,0 +1,15 @@
+<map id="Ms::PluginAPI::ScoreElement" name="Ms::PluginAPI::ScoreElement">
+<area shape="rect" id="node3" href="$classMs_1_1PluginAPI_1_1Element.html" title="Ms::PluginAPI::Element" alt="" coords="360,157,517,184"/>
+<area shape="rect" id="node13" href="$classMs_1_1PluginAPI_1_1Part.html" title="Ms::PluginAPI::Part" alt="" coords="372,208,505,235"/>
+<area shape="rect" id="node14" href="$classMs_1_1PluginAPI_1_1Score.html" title="Ms::PluginAPI::Score" alt="" coords="367,259,510,285"/>
+<area shape="rect" id="node15" href="$classMs_1_1PluginAPI_1_1Staff.html" title="Ms::PluginAPI::Staff" alt="" coords="369,309,508,336"/>
+<area shape="rect" id="node4" href="$classMs_1_1PluginAPI_1_1DurationElement.html" title="Ms::PluginAPI::DurationElement" alt="" coords="565,31,772,57"/>
+<area shape="rect" id="node8" href="$classMs_1_1PluginAPI_1_1Measure.html" title="Ms::PluginAPI::Measure" alt="" coords="589,81,749,108"/>
+<area shape="rect" id="node9" href="$classMs_1_1PluginAPI_1_1Note.html" title="Ms::PluginAPI::Note" alt="" coords="599,132,738,159"/>
+<area shape="rect" id="node10" href="$classMs_1_1PluginAPI_1_1Page.html" title="Ms::PluginAPI::Page" alt="" coords="599,183,738,209"/>
+<area shape="rect" id="node11" href="$classMs_1_1PluginAPI_1_1Segment.html" title="Ms::PluginAPI::Segment" alt="" coords="588,233,749,260"/>
+<area shape="rect" id="node12" href="$classMs_1_1PluginAPI_1_1Tie.html" title="Provides access to internal Ms::Tie objects. " alt="" coords="605,284,732,311"/>
+<area shape="rect" id="node5" href="$classMs_1_1PluginAPI_1_1ChordRest.html" title="Ms::PluginAPI::ChordRest" alt="" coords="820,5,991,32"/>
+<area shape="rect" id="node7" href="$classMs_1_1PluginAPI_1_1Tuplet.html" title="Ms::PluginAPI::Tuplet" alt="" coords="833,56,977,83"/>
+<area shape="rect" id="node6" href="$classMs_1_1PluginAPI_1_1Chord.html" title="Ms::PluginAPI::Chord" alt="" coords="1039,5,1184,32"/>
+</map>

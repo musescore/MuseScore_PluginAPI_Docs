@@ -1,10 +1,10 @@
-<map id="zerberus/zerberusgui.h" name="zerberus/zerberusgui.h">
-<area shape="rect" id="node2" href="$synthesizergui_8h.html" title="synthesizer/synthesizergui.h" alt="" coords="31,80,219,107"/>
-<area shape="rect" id="node4" href="$zerberus_8h.html" title="zerberus.h" alt="" coords="391,80,474,107"/>
-<area shape="rect" id="node10" href="$synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="115,155,286,181"/>
-<area shape="rect" id="node12" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="486,155,622,181"/>
-<area shape="rect" id="node14" href="$midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="697,155,857,181"/>
-<area shape="rect" id="node15" href="$zerberus_2voice_8h.html" title="voice.h" alt="" coords="881,155,945,181"/>
-<area shape="rect" id="node11" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="69,229,258,256"/>
-<area shape="rect" id="node17" href="$filter_8h.html" title="filter.h" alt="" coords="925,229,983,256"/>
+<map id="audio/midi/zerberus/zerberusgui.h" name="audio/midi/zerberus/zerberusgui.h">
+<area shape="rect" id="node2" href="$synthesizergui_8h.html" title="audio/midi/synthesizergui.h" alt="" coords="5,95,192,121"/>
+<area shape="rect" id="node4" href="$zerberus_8h.html" title="zerberus.h" alt="" coords="365,95,451,121"/>
+<area shape="rect" id="node10" href="$zerberus_2voice_8h.html" title="voice.h" alt="" coords="461,169,525,196"/>
+<area shape="rect" id="node13" href="$synthesizer_8h.html" title="audio/midi/synthesizer.h" alt="" coords="549,169,720,196"/>
+<area shape="rect" id="node15" href="$event_8h.html" title="audio/midi/event.h" alt="" coords="745,169,879,196"/>
+<area shape="rect" id="node17" href="$midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="904,169,1067,196"/>
+<area shape="rect" id="node12" href="$filter_8h.html" title="filter.h" alt="" coords="459,244,517,271"/>
+<area shape="rect" id="node14" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="542,244,735,271"/>
 </map>

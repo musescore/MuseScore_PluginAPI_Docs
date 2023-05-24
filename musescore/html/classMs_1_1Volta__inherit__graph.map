@@ -1,0 +1,7 @@
+<map id="Ms::Volta" name="Ms::Volta">
+<area shape="rect" id="node2" href="$classMs_1_1TextLineBase.html" title="Ms::TextLineBase" alt="" coords="7,304,133,331"/>
+<area shape="rect" id="node3" href="$classMs_1_1SLine.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="31,229,109,256"/>
+<area shape="rect" id="node4" href="$classMs_1_1Spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="23,155,117,181"/>
+<area shape="rect" id="node5" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="23,80,117,107"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="5,5,135,32"/>
+</map>

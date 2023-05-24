@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_panel.cpp File Reference</title>
+<title>MuseScore: mscore/importmidi_ui/importmidi_panel.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_74bc405c3b8abf8b6eff65da8fa6797d.html">importmidi_ui</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,65 +73,64 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="importmidi__panel_8h_source.html">importmidi_panel.h</a>&quot;</code><br />
 <code>#include &quot;ui_importmidi_panel.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="importmidi__model_8h_source.html">importmidi_model.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="importmidi__lyrics_8h_source.html">importmidi_lyrics.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="importmidi__operations_8h_source.html">importmidi_operations.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="importmidi__delegate_8h_source.html">importmidi_delegate.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="importmidi__inner_8h_source.html">importmidi_inner.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="musescore_8h_source.html">musescore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="importmidi__model_8h_source.html">importexport/midiimport/importmidi_model.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="importmidi__lyrics_8h_source.html">importexport/midiimport/importmidi_lyrics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="importmidi__operations_8h_source.html">importexport/midiimport/importmidi_operations.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="importmidi__inner_8h_source.html">importexport/midiimport/importmidi_inner.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="icons_8h_source.html">icons.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musescore_8h_source.html">mscore/musescore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="icons_8h_source.html">mscore/icons.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_panel.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__panel_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__panel_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__panel_8cpp" id="mscore_2importmidi_2importmidi__panel_8cpp">
-<area shape="rect" id="node2" href="importmidi__panel_8h.html" title="importmidi_panel.h" alt="" coords="315,95,446,121"/>
-<area shape="rect" id="node4" href="importmidi__model_8h.html" title="importmidi_model.h" alt="" coords="695,95,829,121"/>
-<area shape="rect" id="node5" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="511,169,671,196"/>
-<area shape="rect" id="node6" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="527,251,655,278"/>
-<area shape="rect" id="node23" href="importmidi__lyrics_8h.html" title="importmidi_lyrics.h" alt="" coords="1179,95,1310,121"/>
-<area shape="rect" id="node24" href="importmidi__delegate_8h.html" title="importmidi_delegate.h" alt="" coords="1334,95,1483,121"/>
-<area shape="rect" id="node27" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="905,169,1053,196"/>
-<area shape="rect" id="node30" href="musescore_8h.html" title="musescore.h" alt="" coords="1516,169,1613,196"/>
-<area shape="rect" id="node34" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1145,251,1270,278"/>
-<area shape="rect" id="node50" href="icons_8h.html" title="icons.h" alt="" coords="1507,95,1571,121"/>
-<area shape="rect" id="node14" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="132,333,285,360"/>
-<area shape="rect" id="node19" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="5,333,108,360"/>
-<area shape="rect" id="node7" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="361,333,493,360"/>
-<area shape="rect" id="node8" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="305,483,448,509"/>
-<area shape="rect" id="node12" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="465,408,597,435"/>
-<area shape="rect" id="node9" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="635,557,771,584"/>
-<area shape="rect" id="node11" href="mscore_8h.html" title="mscore.h" alt="" coords="1087,632,1163,659"/>
-<area shape="rect" id="node20" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="109,483,220,509"/>
-<area shape="rect" id="node21" href="event_8h.html" title="synthesizer/event.h" alt="" coords="622,408,758,435"/>
-<area shape="rect" id="node25" href="importmidi__view_8h.html" title="importmidi_view.h" alt="" coords="1968,169,2095,196"/>
-<area shape="rect" id="node28" href="globals_8h.html" title="globals.h" alt="" coords="1046,251,1121,278"/>
-<area shape="rect" id="node32" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="1904,251,2023,278"/>
-<area shape="rect" id="node33" href="musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="2047,251,2232,278"/>
-<area shape="rect" id="node49" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="1423,251,1587,278"/>
-<area shape="rect" id="node35" href="input_8h.html" title="input.h" alt="" coords="945,333,1006,360"/>
-<area shape="rect" id="node38" href="property_8h.html" title="property.h" alt="" coords="846,483,926,509"/>
-<area shape="rect" id="node39" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1132,333,1227,360"/>
-<area shape="rect" id="node44" href="select_8h.html" title="select.h" alt="" coords="1045,408,1113,435"/>
-<area shape="rect" id="node45" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1303,333,1432,360"/>
-<area shape="rect" id="node46" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1456,333,1559,360"/>
-<area shape="rect" id="node47" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1583,333,1687,360"/>
-<area shape="rect" id="node48" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="820,333,920,360"/>
-<area shape="rect" id="node36" href="durationtype_8h.html" title="durationtype.h" alt="" coords="950,483,1054,509"/>
-<area shape="rect" id="node37" href="beam_8h.html" title="beam.h" alt="" coords="853,408,919,435"/>
-<area shape="rect" id="node40" href="stringdata_8h.html" title="stringdata.h" alt="" coords="1287,408,1378,435"/>
-<area shape="rect" id="node41" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1403,408,1489,435"/>
-<area shape="rect" id="node42" href="interval_8h.html" title="interval.h" alt="" coords="1189,408,1263,435"/>
-<area shape="rect" id="node43" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1129,557,1184,584"/>
+<div class="center"><img src="importmidi__panel_8cpp__incl.png" border="0" usemap="#mscore_2importmidi__ui_2importmidi__panel_8cpp" alt=""/></div>
+<map name="mscore_2importmidi__ui_2importmidi__panel_8cpp" id="mscore_2importmidi__ui_2importmidi__panel_8cpp">
+<area shape="rect" id="node2" href="importmidi__panel_8h.html" title="importmidi_panel.h" alt="" coords="5,102,140,129"/>
+<area shape="rect" id="node4" href="importmidi__delegate_8h.html" title="importmidi_delegate.h" alt="" coords="339,102,494,129"/>
+<area shape="rect" id="node7" href="importmidi__model_8h.html" title="importexport/midiimport\l/importmidi_model.h" alt="" coords="617,95,787,136"/>
+<area shape="rect" id="node8" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="665,184,832,211"/>
+<area shape="rect" id="node9" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="336,266,468,293"/>
+<area shape="rect" id="node26" href="importmidi__lyrics_8h.html" title="importexport/midiimport\l/importmidi_lyrics.h" alt="" coords="1134,95,1305,136"/>
+<area shape="rect" id="node27" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1418,266,1549,293"/>
+<area shape="rect" id="node41" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="857,184,1009,211"/>
+<area shape="rect" id="node45" href="musescore_8h.html" title="mscore/musescore.h" alt="" coords="1787,184,1937,211"/>
+<area shape="rect" id="node50" href="icons_8h.html" title="mscore/icons.h" alt="" coords="1329,102,1445,129"/>
+<area shape="rect" id="node5" href="importmidi__view_8h.html" title="importmidi_view.h" alt="" coords="221,184,351,211"/>
+<area shape="rect" id="node17" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="564,348,723,375"/>
+<area shape="rect" id="node22" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="747,348,894,375"/>
+<area shape="rect" id="node10" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="401,348,539,375"/>
+<area shape="rect" id="node11" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="449,497,598,524"/>
+<area shape="rect" id="node15" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="350,423,486,449"/>
+<area shape="rect" id="node12" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="1008,572,1151,599"/>
+<area shape="rect" id="node14" href="mscore_8h.html" title="mscore.h" alt="" coords="1436,647,1515,673"/>
+<area shape="rect" id="node23" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="867,497,982,524"/>
+<area shape="rect" id="node24" href="event_8h.html" title="event.h" alt="" coords="858,423,922,449"/>
+<area shape="rect" id="node28" href="input_8h.html" title="input.h" alt="" coords="1506,348,1567,375"/>
+<area shape="rect" id="node31" href="property_8h.html" title="property.h" alt="" coords="1356,497,1437,524"/>
+<area shape="rect" id="node32" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1642,348,1738,375"/>
+<area shape="rect" id="node35" href="select_8h.html" title="select.h" alt="" coords="1155,423,1223,449"/>
+<area shape="rect" id="node36" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="969,348,1099,375"/>
+<area shape="rect" id="node37" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1123,348,1225,375"/>
+<area shape="rect" id="node38" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1250,348,1357,375"/>
+<area shape="rect" id="node39" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1381,348,1481,375"/>
+<area shape="rect" id="node40" href="sym_8h.html" title="sym.h" alt="" coords="1827,572,1886,599"/>
+<area shape="rect" id="node29" href="durationtype_8h.html" title="durationtype.h" alt="" coords="1227,497,1332,524"/>
+<area shape="rect" id="node30" href="beam_8h.html" title="beam.h" alt="" coords="1363,423,1430,449"/>
+<area shape="rect" id="node43" href="globals_8h.html" title="globals.h" alt="" coords="1306,266,1381,293"/>
+<area shape="rect" id="node47" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="2205,266,2324,293"/>
+<area shape="rect" id="node48" href="musescoreCore_8h.html" title="libmscore/musescoreCore.h" alt="" coords="2348,266,2539,293"/>
+<area shape="rect" id="node49" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="1719,266,1885,293"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__panel_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

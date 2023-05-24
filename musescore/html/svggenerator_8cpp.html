@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -67,7 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">svggenerator.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,38 +76,43 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="svggenerator_8h_source.html">svggenerator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="element_8h_source.html">libmscore/element.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2image_8h_source.html">libmscore/image.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="image_store_8h_source.html">libmscore/imageStore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="imageStore_8h_source.html">libmscore/imageStore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">libmscore/mscore.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for svggenerator.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="svggenerator_8cpp__incl.png" border="0" usemap="#mscore_2svggenerator_8cpp" alt=""/></div>
 <map name="mscore_2svggenerator_8cpp" id="mscore_2svggenerator_8cpp">
-<area shape="rect" id="node2" href="svggenerator_8h.html" title="svggenerator.h" alt="" coords="472,80,580,107"/>
-<area shape="rect" id="node8" href="element_8h.html" title="libmscore/element.h" alt="" coords="854,229,993,256"/>
-<area shape="rect" id="node12" href="mscore_8h.html" title="mscore.h" alt="" coords="889,379,965,405"/>
-<area shape="rect" id="node18" href="libmscore_2image_8h.html" title="libmscore/image.h" alt="" coords="923,80,1051,107"/>
-<area shape="rect" id="node20" href="image_store_8h.html" title="libmscore/imageStore.h" alt="" coords="1127,80,1285,107"/>
-<area shape="rect" id="node9" href="spatium_8h.html" title="spatium.h" alt="" coords="921,304,1000,331"/>
-<area shape="rect" id="node10" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="821,304,897,331"/>
-<area shape="rect" id="node16" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="989,379,1103,405"/>
-<area shape="rect" id="node17" href="shape_8h.html" title="shape.h" alt="" coords="729,304,797,331"/>
-<area shape="rect" id="node13" href="style_8h.html" title="style.h" alt="" coords="958,453,1019,480"/>
-<area shape="rect" id="node14" href="chordlist_8h.html" title="chordlist.h" alt="" coords="939,528,1022,555"/>
-<area shape="rect" id="node15" href="types_8h.html" title="types.h" alt="" coords="1047,528,1112,555"/>
-<area shape="rect" id="node19" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="935,155,1018,181"/>
+<area shape="rect" id="node2" href="svggenerator_8h.html" title="svggenerator.h" alt="" coords="480,80,588,107"/>
+<area shape="rect" id="node8" href="element_8h.html" title="libmscore/element.h" alt="" coords="1078,229,1222,256"/>
+<area shape="rect" id="node13" href="mscore_8h.html" title="mscore.h" alt="" coords="1211,453,1289,480"/>
+<area shape="rect" id="node23" href="libmscore_2image_8h.html" title="libmscore/image.h" alt="" coords="959,80,1093,107"/>
+<area shape="rect" id="node25" href="imageStore_8h.html" title="libmscore/imageStore.h" alt="" coords="1168,80,1332,107"/>
+<area shape="rect" id="node9" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="1093,304,1207,331"/>
+<area shape="rect" id="node10" href="spatium_8h.html" title="spatium.h" alt="" coords="989,304,1069,331"/>
+<area shape="rect" id="node11" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1305,379,1384,405"/>
+<area shape="rect" id="node17" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="1055,453,1170,480"/>
+<area shape="rect" id="node18" href="shape_8h.html" title="shape.h" alt="" coords="1231,304,1299,331"/>
+<area shape="rect" id="node19" href="sig_8h.html" title="sig.h" alt="" coords="1323,304,1374,331"/>
+<area shape="rect" id="node20" href="sym_8h.html" title="sym.h" alt="" coords="1433,453,1491,480"/>
+<area shape="rect" id="node14" href="libmscore_2style_8h.html" title="style.h" alt="" coords="1181,528,1241,555"/>
+<area shape="rect" id="node15" href="chordlist_8h.html" title="chordlist.h" alt="" coords="1169,603,1253,629"/>
+<area shape="rect" id="node16" href="types_8h.html" title="types.h" alt="" coords="1081,603,1145,629"/>
+<area shape="rect" id="node24" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="998,155,1081,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="svggenerator_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svg_paint_engine_private.html">SvgPaintEnginePrivate</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSvgPaintEnginePrivate.html">SvgPaintEnginePrivate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_svg_paint_engine_private_1_1__attributes.html">SvgPaintEnginePrivate::_attributes</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSvgPaintEnginePrivate_1_1__attributes.html">SvgPaintEnginePrivate::_attributes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svg_paint_engine.html">SvgPaintEngine</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSvgPaintEngine.html">SvgPaintEngine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svg_generator_private.html">SvgGeneratorPrivate</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSvgGeneratorPrivate.html">SvgGeneratorPrivate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -217,6 +223,17 @@ Macros</h2></td></tr>
 <tr class="separator:a14fd9417615e5952e9ff138fad4e5521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac59788a3ca8e87f21b22874e78735b38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="svggenerator_8cpp.html#ac59788a3ca8e87f21b22874e78735b38">SVG_MATRIX</a>&#160;&#160;&#160;&quot; transform=\&quot;matrix(&quot;</td></tr>
 <tr class="separator:ac59788a3ca8e87f21b22874e78735b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a64663f58cd681229a5d5a21e104b844c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="svggenerator_8cpp.html#a64663f58cd681229a5d5a21e104b844c">translate_color</a> (const QColor &amp;color, QString *color_string, QString *opacity_string)</td></tr>
+<tr class="separator:a64663f58cd681229a5d5a21e104b844c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6146bdae1508b9fdd84499ce4db9d273"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="svggenerator_8cpp.html#a6146bdae1508b9fdd84499ce4db9d273">translate_dashPattern</a> (QVector&lt; qreal &gt; pattern, const qreal &amp;width, QString *pattern_string)</td></tr>
+<tr class="separator:a6146bdae1508b9fdd84499ce4db9d273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca9a9672252307d2f64276e4d7b7654"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="svggenerator_8cpp.html#a8ca9a9672252307d2f64276e4d7b7654">getClass</a> (const <a class="el" href="classMs_1_1Element.html">Ms::Element</a> *e)</td></tr>
+<tr class="separator:a8ca9a9672252307d2f64276e4d7b7654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a729f20bd8f0a91bfd800f67f67c42bcc"><td class="memItemLeft" align="right" valign="top">static QPaintEngine::PaintEngineFeatures&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="svggenerator_8cpp.html#a729f20bd8f0a91bfd800f67f67c42bcc">svgEngineFeatures</a> ()</td></tr>
+<tr class="separator:a729f20bd8f0a91bfd800f67f67c42bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ab4ca3060642a6212c0eae0132826ed79"></a>
@@ -230,6 +247,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00265">265</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -245,6 +264,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00261">261</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ac9d73d554ed0b5e598b75edfbf36c953"></a>
@@ -258,6 +279,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00263">263</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -273,6 +296,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00257">257</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ac16bda761a4d49b14492ba51c8462fb4"></a>
@@ -286,6 +311,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00281">281</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -301,6 +328,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00252">252</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="af37d6d9655b2873c5146bba560215ed5"></a>
@@ -314,6 +343,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00279">279</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -329,6 +360,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00276">276</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="aeb687d0d90a9dcf2b15b9ab198690689"></a>
@@ -342,6 +375,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00288">288</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -357,6 +392,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00289">289</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a772568f2145c36675919613bcc19bfc5"></a>
@@ -370,6 +407,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00283">283</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -385,6 +424,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00266">266</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="af5ecc1ef0e1dd48292f829d76289b0a0"></a>
@@ -398,6 +439,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00256">256</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -413,6 +456,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00297">297</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a3709105780b8b0ab50034c214c20affa"></a>
@@ -426,6 +471,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00307">307</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -441,6 +488,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00313">313</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ae1057895ce28b966b7aed0a784bd2e84"></a>
@@ -454,6 +503,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00310">310</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -469,6 +520,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00311">311</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a13cd5e933a9dff96f2b4d3d670be340b"></a>
@@ -482,6 +535,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00253">253</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -497,6 +552,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00269">269</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abb9cd25d6c90313caee92daa65400b0f"></a>
@@ -510,6 +567,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00291">291</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -525,6 +584,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00278">278</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ac59788a3ca8e87f21b22874e78735b38"></a>
@@ -538,6 +599,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00316">316</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -553,6 +616,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00260">260</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="aadc9920056a640001fc1dce97baa860c"></a>
@@ -566,6 +631,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00277">277</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -581,6 +648,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00255">255</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abbc49030930f2752bf5a3885e7e7d531"></a>
@@ -594,6 +663,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00262">262</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -609,6 +680,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00306">306</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a4c8ecaba803b5312e2ad524791ed6181"></a>
@@ -622,6 +695,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00292">292</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -637,6 +712,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00275">275</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abef7243fc2a77222f1f79cc3d70d7709"></a>
@@ -650,6 +727,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00293">293</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -665,6 +744,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00295">295</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ab84d2f887a54c009566b3c6a71d99fe8"></a>
@@ -678,6 +759,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00254">254</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -693,6 +776,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00251">251</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a8af40a22c2181327a839edbcfd581f28"></a>
@@ -706,6 +791,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00259">259</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -721,6 +808,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00284">284</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a2a14808d29d7a5642ac06679201cb085"></a>
@@ -734,6 +823,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00250">250</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -749,6 +840,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00258">258</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a9f03df0188c6ce5814663d50702628d2"></a>
@@ -762,6 +855,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00298">298</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -777,6 +872,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00302">302</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ad06a920ce7248afe27268ba1b32cc011"></a>
@@ -790,6 +887,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00303">303</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -805,6 +904,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00300">300</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="add64527e57a910ed66990802c5321bd1"></a>
@@ -818,6 +919,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00301">301</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -833,6 +936,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00304">304</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a1e0d8a0dabc84db023df9593f6cec52d"></a>
@@ -846,6 +951,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00308">308</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -861,6 +968,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00299">299</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a25819c69bd1a55f336bd1eaf290e6595"></a>
@@ -874,6 +983,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00286">286</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -889,6 +1000,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00287">287</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a14fd9417615e5952e9ff138fad4e5521"></a>
@@ -902,6 +1015,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00314">314</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -917,6 +1032,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00270">270</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a93b2a8ec220a5a4b0531c19da8a13d51"></a>
@@ -930,6 +1047,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00268">268</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -945,6 +1064,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00272">272</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a6591bcfceb07d098e5ee7dcfa99762c8"></a>
@@ -958,6 +1079,152 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00273">273</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8ca9a9672252307d2f64276e4d7b7654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ca9a9672252307d2f64276e4d7b7654">&#9670;&nbsp;</a></span>getClass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString getClass </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMs_1_1Element.html">Ms::Element</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00141">141</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a729f20bd8f0a91bfd800f67f67c42bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a729f20bd8f0a91bfd800f67f67c42bcc">&#9670;&nbsp;</a></span>svgEngineFeatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QPaintEngine::PaintEngineFeatures svgEngineFeatures </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00218">218</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a64663f58cd681229a5d5a21e104b844c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64663f58cd681229a5d5a21e104b844c">&#9670;&nbsp;</a></span>translate_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void translate_color </td>
+          <td>(</td>
+          <td class="paramtype">const QColor &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString *&#160;</td>
+          <td class="paramname"><em>color_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString *&#160;</td>
+          <td class="paramname"><em>opacity_string</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00115">115</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6146bdae1508b9fdd84499ce4db9d273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6146bdae1508b9fdd84499ce4db9d273">&#9670;&nbsp;</a></span>translate_dashPattern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void translate_dashPattern </td>
+          <td>(</td>
+          <td class="paramtype">QVector&lt; qreal &gt;&#160;</td>
+          <td class="paramname"><em>pattern</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const qreal &amp;&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString *&#160;</td>
+          <td class="paramname"><em>pattern_string</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="svggenerator_8cpp_source.html#l00129">129</a> of file <a class="el" href="svggenerator_8cpp_source.html">svggenerator.cpp</a>.</p>
 
 </div>
 </div>

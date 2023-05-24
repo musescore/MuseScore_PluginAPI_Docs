@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_annotation.html" title="Ms::Annotation" alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1AccessibleToolButton.html" title="Ms::AccessibleToolButton" alt="" coords="148,5,323,32"/>
+<area shape="rect" id="node4" href="$classMs_1_1SimpleButton.html" title="Ms::SimpleButton" alt="" coords="173,56,298,83"/>
+<area shape="rect" id="node3" href="$classMs_1_1ToolButtonMenu.html" title="Ms::ToolButtonMenu" alt="" coords="371,5,515,32"/>
+<area shape="rect" id="node5" href="$classMs_1_1GreendotButton.html" title="Ms::GreendotButton" alt="" coords="373,56,512,83"/>
+<area shape="rect" id="node6" href="$classMs_1_1RecordButton.html" title="Ms::RecordButton" alt="" coords="379,107,506,133"/>
 </map>

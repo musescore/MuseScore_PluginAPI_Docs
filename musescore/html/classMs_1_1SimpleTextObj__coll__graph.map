@@ -1,0 +1,8 @@
+<map id="Ms::SimpleTextObj" name="Ms::SimpleTextObj">
+<area shape="rect" id="node2" href="$classMs_1_1BasicDrawObj.html" title="Ms::BasicDrawObj" alt="" coords="8,81,136,108"/>
+<area shape="rect" id="node3" href="$classMs_1_1CapellaObj.html" title="Ms::CapellaObj" alt="" coords="119,5,228,32"/>
+<area shape="rect" id="node6" href="$classMs_1_1BasicDurationalObj.html" title="Ms::BasicDurationalObj" alt="" coords="211,81,368,108"/>
+<area shape="rect" id="node4" href="$classMs_1_1Capella.html" title="Ms::Capella" alt="" coords="149,260,240,287"/>
+<area shape="rect" id="node5" href="$classMs_1_1ChordObj.html" title="Ms::ChordObj" alt="" coords="238,171,341,197"/>
+<area shape="rect" id="node7" href="$classMs_1_1NoteObj.html" title="Ms::NoteObj" alt="" coords="393,81,487,108"/>
+</map>

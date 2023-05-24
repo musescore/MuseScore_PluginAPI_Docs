@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -72,45 +72,48 @@ $(function() {
 <div class="title">instrument.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="stringdata_8h_source.html">stringdata.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &quot;<a class="el" href="stringdata_8h_source.html">stringdata.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">mscore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="notifier_8hpp_source.html">notifier.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="event_8h_source.html">synthesizer/event.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="interval_8h_source.html">interval.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="clef_8h_source.html">clef.h</a>&quot;</code><br />
-<code>#include &lt;QtGlobal&gt;</code><br />
-<code>#include &lt;QString&gt;</code><br />
+<code>#include &quot;<a class="el" href="event_8h_source.html">audio/midi/event.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for instrument.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="libmscore_2instrument_8h__incl.png" border="0" usemap="#libmscore_2instrument_8h" alt=""/></div>
 <map name="libmscore_2instrument_8h" id="libmscore_2instrument_8h">
-<area shape="rect" id="node2" href="stringdata_8h.html" title="stringdata.h" alt="" coords="719,80,810,107"/>
-<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="220,752,296,779"/>
-<area shape="rect" id="node25" href="interval_8h.html" title="interval.h" alt="" coords="847,229,922,256"/>
-<area shape="rect" id="node27" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1049,80,1136,107"/>
-<area shape="rect" id="node28" href="event_8h.html" title="synthesizer/event.h" alt="" coords="1161,80,1297,107"/>
-<area shape="rect" id="node30" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="868,528,923,555"/>
-<area shape="rect" id="node3" href="xml_8h.html" title="xml.h" alt="" coords="720,155,775,181"/>
-<area shape="rect" id="node4" href="connector_8h.html" title="connector.h" alt="" coords="6,528,97,555"/>
-<area shape="rect" id="node13" href="stafftype_8h.html" title="stafftype.h" alt="" coords="687,229,771,256"/>
-<area shape="rect" id="node14" href="element_8h.html" title="element.h" alt="" coords="689,603,768,629"/>
-<area shape="rect" id="node26" href="select_8h.html" title="select.h" alt="" coords="255,229,323,256"/>
-<area shape="rect" id="node5" href="location_8h.html" title="location.h" alt="" coords="35,603,113,629"/>
-<area shape="rect" id="node11" href="types_8h.html" title="types.h" alt="" coords="225,901,291,928"/>
-<area shape="rect" id="node6" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="119,677,195,704"/>
-<area shape="rect" id="node9" href="style_8h.html" title="style.h" alt="" coords="227,827,289,853"/>
-<area shape="rect" id="node10" href="chordlist_8h.html" title="chordlist.h" alt="" coords="118,901,201,928"/>
-<area shape="rect" id="node15" href="spatium_8h.html" title="spatium.h" alt="" coords="895,677,973,704"/>
-<area shape="rect" id="node18" href="durationtype_8h.html" title="durationtype.h" alt="" coords="281,304,385,331"/>
-<area shape="rect" id="node16" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="320,752,433,779"/>
-<area shape="rect" id="node17" href="shape_8h.html" title="shape.h" alt="" coords="616,677,684,704"/>
-<area shape="rect" id="node19" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="467,379,526,405"/>
-<area shape="rect" id="node20" href="symbol_8h.html" title="symbol.h" alt="" coords="617,453,691,480"/>
-<area shape="rect" id="node22" href="noteevent_8h.html" title="noteevent.h" alt="" coords="451,453,542,480"/>
-<area shape="rect" id="node23" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="140,453,245,480"/>
-<area shape="rect" id="node24" href="key_8h.html" title="key.h" alt="" coords="372,453,427,480"/>
-<area shape="rect" id="node21" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="609,528,691,555"/>
+<area shape="rect" id="node4" href="stringdata_8h.html" title="stringdata.h" alt="" coords="1048,80,1140,107"/>
+<area shape="rect" id="node11" href="mscore_8h.html" title="mscore.h" alt="" coords="1011,827,1089,853"/>
+<area shape="rect" id="node33" href="interval_8h.html" title="interval.h" alt="" coords="1102,229,1177,256"/>
+<area shape="rect" id="node35" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1267,80,1353,107"/>
+<area shape="rect" id="node36" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1209,528,1264,555"/>
+<area shape="rect" id="node37" href="event_8h.html" title="audio/midi/event.h" alt="" coords="1429,80,1564,107"/>
+<area shape="rect" id="node5" href="xml_8h.html" title="xml.h" alt="" coords="903,155,957,181"/>
+<area shape="rect" id="node7" href="connector_8h.html" title="connector.h" alt="" coords="367,603,459,629"/>
+<area shape="rect" id="node16" href="stafftype_8h.html" title="stafftype.h" alt="" coords="774,229,859,256"/>
+<area shape="rect" id="node17" href="element_8h.html" title="element.h" alt="" coords="649,603,729,629"/>
+<area shape="rect" id="node34" href="select_8h.html" title="select.h" alt="" coords="1005,229,1073,256"/>
+<area shape="rect" id="node8" href="location_8h.html" title="location.h" alt="" coords="342,677,422,704"/>
+<area shape="rect" id="node14" href="types_8h.html" title="types.h" alt="" coords="367,976,431,1003"/>
+<area shape="rect" id="node9" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="747,752,825,779"/>
+<area shape="rect" id="node12" href="libmscore_2style_8h.html" title="style.h" alt="" coords="464,901,524,928"/>
+<area shape="rect" id="node13" href="chordlist_8h.html" title="chordlist.h" alt="" coords="456,976,540,1003"/>
+<area shape="rect" id="node19" href="spatium_8h.html" title="spatium.h" alt="" coords="854,677,934,704"/>
+<area shape="rect" id="node26" href="durationtype_8h.html" title="durationtype.h" alt="" coords="853,304,959,331"/>
+<area shape="rect" id="node27" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="551,379,610,405"/>
+<area shape="rect" id="node18" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="591,677,704,704"/>
+<area shape="rect" id="node20" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="342,827,457,853"/>
+<area shape="rect" id="node21" href="shape_8h.html" title="shape.h" alt="" coords="447,677,515,704"/>
+<area shape="rect" id="node22" href="sig_8h.html" title="sig.h" alt="" coords="729,677,779,704"/>
+<area shape="rect" id="node23" href="sym_8h.html" title="sym.h" alt="" coords="193,677,251,704"/>
+<area shape="rect" id="node28" href="symbol_8h.html" title="symbol.h" alt="" coords="381,453,457,480"/>
+<area shape="rect" id="node30" href="noteevent_8h.html" title="noteevent.h" alt="" coords="535,453,626,480"/>
+<area shape="rect" id="node31" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1035,453,1140,480"/>
+<area shape="rect" id="node32" href="key_8h.html" title="key.h" alt="" coords="250,528,303,555"/>
+<area shape="rect" id="node29" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="378,528,461,555"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -118,55 +121,55 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="libmscore_2instrument_8h__dep__incl.png" border="0" usemap="#libmscore_2instrument_8hdep" alt=""/></div>
 <map name="libmscore_2instrument_8hdep" id="libmscore_2instrument_8hdep">
-<area shape="rect" id="node2" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="3247,80,3373,107"/>
-<area shape="rect" id="node28" href="libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="202,155,370,181"/>
-<area shape="rect" id="node29" href="midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="908,155,1088,181"/>
-<area shape="rect" id="node30" href="rendermidi_8cpp.html" title="render score into event list " alt="" coords="1655,155,1821,181"/>
-<area shape="rect" id="node31" href="continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="1112,155,1300,181"/>
-<area shape="rect" id="node32" href="drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="1845,155,1985,181"/>
-<area shape="rect" id="node33" href="osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="6230,155,6345,181"/>
-<area shape="rect" id="node34" href="synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="2679,155,2845,181"/>
-<area shape="rect" id="node35" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="2701,80,2823,107"/>
-<area shape="rect" id="node36" href="pianoroll_8cpp.html" title="mscore/pianoroll.cpp" alt="" coords="741,155,884,181"/>
-<area shape="rect" id="node37" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1682,80,1797,107"/>
-<area shape="rect" id="node38" href="importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="395,155,543,181"/>
-<area shape="rect" id="node39" href="event_8cpp.html" title="synthesizer/event.cpp" alt="" coords="567,155,717,181"/>
-<area shape="rect" id="node40" href="instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="1498,80,1658,107"/>
-<area shape="rect" id="node41" href="staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="1325,80,1473,107"/>
-<area shape="rect" id="node42" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="202,80,370,107"/>
-<area shape="rect" id="node43" href="selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="5,155,177,181"/>
-<area shape="rect" id="node44" href="editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="3759,80,3885,107"/>
-<area shape="rect" id="node45" href="parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="3584,80,3735,107"/>
-<area shape="rect" id="node46" href="mixer_8h.html" title="mscore/mixer.h" alt="" coords="3397,80,3509,107"/>
-<area shape="rect" id="node47" href="mixerdetails_8h.html" title="mscore/mixerdetails.h" alt="" coords="6369,155,6520,181"/>
-<area shape="rect" id="node48" href="mixertrackitem_8h.html" title="mscore/mixertrackitem.h" alt="" coords="6429,80,6596,107"/>
-<area shape="rect" id="node49" href="mixertrackchannel_8h.html" title="mscore/mixertrackchannel.h" alt="" coords="6545,155,6731,181"/>
-<area shape="rect" id="node50" href="mixertrackpart_8h.html" title="mscore/mixertrackpart.h" alt="" coords="6755,155,6918,181"/>
-<area shape="rect" id="node3" href="accidental_8cpp.html" title="libmscore/accidental.cpp" alt="" coords="3412,155,3579,181"/>
-<area shape="rect" id="node4" href="ambitus_8cpp.html" title="libmscore/ambitus.cpp" alt="" coords="4964,155,5117,181"/>
-<area shape="rect" id="node5" href="arpeggio_8cpp.html" title="libmscore/arpeggio.cpp" alt="" coords="2499,155,2655,181"/>
-<area shape="rect" id="node6" href="articulation_8cpp.html" title="libmscore/articulation.cpp" alt="" coords="3603,155,3774,181"/>
-<area shape="rect" id="node7" href="bagpembell_8cpp.html" title="libmscore/bagpembell.cpp" alt="" coords="5142,155,5315,181"/>
-<area shape="rect" id="node8" href="barline_8cpp.html" title="libmscore/barline.cpp" alt="" coords="2165,155,2311,181"/>
-<area shape="rect" id="node9" href="beam_8cpp.html" title="libmscore/beam.cpp" alt="" coords="3798,155,3937,181"/>
-<area shape="rect" id="node10" href="bend_8cpp.html" title="libmscore/bend.cpp" alt="" coords="3961,155,4096,181"/>
-<area shape="rect" id="node11" href="box_8cpp.html" title="libmscore/box.cpp" alt="" coords="4121,155,4249,181"/>
-<area shape="rect" id="node12" href="bracket_8cpp.html" title="libmscore/bracket.cpp" alt="" coords="5340,155,5491,181"/>
-<area shape="rect" id="node13" href="bracket_item_8cpp.html" title="libmscore/bracketItem.cpp" alt="" coords="5515,155,5691,181"/>
-<area shape="rect" id="node14" href="breath_8cpp.html" title="libmscore/breath.cpp" alt="" coords="5716,155,5859,181"/>
-<area shape="rect" id="node15" href="bsymbol_8cpp.html" title="libmscore/bsymbol.cpp" alt="" coords="5883,155,6039,181"/>
-<area shape="rect" id="node16" href="check_8cpp.html" title="libmscore/check.cpp" alt="" coords="6063,155,6205,181"/>
-<area shape="rect" id="node17" href="chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="2335,155,2474,181"/>
-<area shape="rect" id="node18" href="chordlist_8cpp.html" title="libmscore/chordlist.cpp" alt="" coords="4273,155,4429,181"/>
-<area shape="rect" id="node19" href="chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="2869,155,3031,181"/>
-<area shape="rect" id="node20" href="clef_8cpp.html" title="Implementation of classes Clef (partial) and ClefList (complete). " alt="" coords="4454,155,4582,181"/>
-<area shape="rect" id="node21" href="cleflist_8cpp.html" title="libmscore/cleflist.cpp" alt="" coords="4607,155,4752,181"/>
-<area shape="rect" id="node22" href="cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="2009,155,2141,181"/>
-<area shape="rect" id="node23" href="connector_8cpp.html" title="libmscore/connector.cpp" alt="" coords="4776,155,4940,181"/>
-<area shape="rect" id="node24" href="duration_8cpp.html" title="libmscore/duration.cpp" alt="" coords="3055,155,3208,181"/>
-<area shape="rect" id="node25" href="dynamic_8cpp.html" title="libmscore/dynamic.cpp" alt="" coords="3232,155,3388,181"/>
-<area shape="rect" id="node26" href="edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="1502,155,1630,181"/>
-<area shape="rect" id="node27" href="element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="1324,155,1477,181"/>
+<area shape="rect" id="node2" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="3544,80,3675,107"/>
+<area shape="rect" id="node6" href="drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="1231,251,1379,278"/>
+<area shape="rect" id="node7" href="osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="185,251,305,278"/>
+<area shape="rect" id="node8" href="pianoroll_8cpp.html" title="mscore/pianoroll/pianoroll.cpp" alt="" coords="889,251,1093,278"/>
+<area shape="rect" id="node9" href="selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="6265,251,6444,278"/>
+<area shape="rect" id="node10" href="synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="464,251,635,278"/>
+<area shape="rect" id="node15" href="event_8cpp.html" title="audio/midi/event.cpp" alt="" coords="869,162,1019,189"/>
+<area shape="rect" id="node28" href="importptb_8cpp.html" title="importexport/guitarpro\l/importptb.cpp" alt="" coords="1404,244,1561,285"/>
+<area shape="rect" id="node34" href="libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="5795,162,5970,189"/>
+<area shape="rect" id="node35" href="midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="1043,162,1229,189"/>
+<area shape="rect" id="node36" href="rendermidi_8cpp.html" title="render score into event list " alt="" coords="619,162,794,189"/>
+<area shape="rect" id="node37" href="continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="2641,162,2836,189"/>
+<area shape="rect" id="node38" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1580,80,1700,107"/>
+<area shape="rect" id="node39" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="5749,80,5923,107"/>
+<area shape="rect" id="node40" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="417,80,543,107"/>
+<area shape="rect" id="node41" href="instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="5999,80,6163,107"/>
+<area shape="rect" id="node42" href="staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="6188,80,6343,107"/>
+<area shape="rect" id="node43" href="editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="6367,80,6502,107"/>
+<area shape="rect" id="node44" href="mixer_8h.html" title="mscore/mixer/mixer.h" alt="" coords="85,162,240,189"/>
+<area shape="rect" id="node45" href="mixerdetails_8h.html" title="mscore/mixer/mixerdetails.h" alt="" coords="6443,162,6637,189"/>
+<area shape="rect" id="node46" href="mixertrackitem_8h.html" title="mscore/mixer/mixertrackitem.h" alt="" coords="6577,80,6788,107"/>
+<area shape="rect" id="node47" href="mixertrackchannel_8h.html" title="mscore/mixer/mixertrackchannel.h" alt="" coords="6662,162,6893,189"/>
+<area shape="rect" id="node48" href="mixertrackpart_8h.html" title="mscore/mixer/mixertrackpart.h" alt="" coords="6917,162,7125,189"/>
+<area shape="rect" id="node49" href="parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="32,80,189,107"/>
+<area shape="rect" id="node50" href="mscore_2plugin_2api_2instrument_8h.html" title="mscore/plugin/api/instrument.h" alt="" coords="6913,80,7124,107"/>
+<area shape="rect" id="node3" href="jackaudio_8cpp.html" title="audio/drivers/jackaudio.cpp" alt="" coords="3218,251,3409,278"/>
+<area shape="rect" id="node4" href="musescore_8h.html" title="mscore/musescore.h" alt="" coords="3189,162,3339,189"/>
+<area shape="rect" id="node5" href="mididriver_8cpp.html" title="audio/drivers/mididriver.cpp" alt="" coords="3713,251,3905,278"/>
+<area shape="rect" id="node11" href="pa_8cpp.html" title="audio/drivers/pa.cpp" alt="" coords="3929,162,4076,189"/>
+<area shape="rect" id="node12" href="pulseaudio_8cpp.html" title="audio/drivers/pulseaudio.cpp" alt="" coords="4100,162,4297,189"/>
+<area shape="rect" id="node13" href="exportmidi_8cpp.html" title="audio/exports/exportmidi.cpp" alt="" coords="1609,162,1810,189"/>
+<area shape="rect" id="node14" href="exportmp3_8cpp.html" title="audio/exports/exportmp3.cpp" alt="" coords="2861,162,3062,189"/>
+<area shape="rect" id="node16" href="avsimport_8cpp.html" title="avsomr/avsimport.cpp" alt="" coords="4321,162,4479,189"/>
+<area shape="rect" id="node17" href="avsomrdrawer_8cpp.html" title="avsomr/avsomrdrawer.cpp" alt="" coords="4714,162,4897,189"/>
+<area shape="rect" id="node18" href="msmrwriter_8cpp.html" title="avsomr/msmrwriter.cpp" alt="" coords="4921,162,5087,189"/>
+<area shape="rect" id="node19" href="bb_8cpp.html" title="importexport/bb/bb.cpp" alt="" coords="1834,162,1998,189"/>
+<area shape="rect" id="node20" href="importbww_8cpp.html" title="importexport/bww/importbww.cpp" alt="" coords="2218,162,2446,189"/>
+<area shape="rect" id="node21" href="capella_8cpp.html" title="importexport/capella\l/capella.cpp" alt="" coords="2471,155,2617,196"/>
+<area shape="rect" id="node22" href="capxml_8cpp.html" title="importexport/capella\l/capxml.cpp" alt="" coords="5112,155,5259,196"/>
+<area shape="rect" id="node23" href="importgtp_8h.html" title="importexport/guitarpro\l/importgtp.h" alt="" coords="3748,155,3905,196"/>
+<area shape="rect" id="node24" href="importgtp-gp4_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp4.cpp" alt="" coords="4871,244,5028,285"/>
+<area shape="rect" id="node25" href="importgtp-gp5_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp5.cpp" alt="" coords="3532,244,3689,285"/>
+<area shape="rect" id="node26" href="importgtp-gp6_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp6.cpp" alt="" coords="3929,244,4087,285"/>
+<area shape="rect" id="node27" href="importptb_8h.html" title="importexport/guitarpro\l/importptb.h" alt="" coords="3415,155,3572,196"/>
+<area shape="rect" id="node29" href="importmidi_8cpp.html" title="importexport/midiimport\l/importmidi.cpp" alt="" coords="2023,155,2193,196"/>
+<area shape="rect" id="node30" href="importmidi__chordname_8cpp.html" title="importexport/midiimport\l/importmidi_chordname.cpp" alt="" coords="5283,155,5474,196"/>
+<area shape="rect" id="node31" href="importmidi__clef_8cpp.html" title="importexport/midiimport\l/importmidi_clef.cpp" alt="" coords="5995,155,6165,196"/>
+<area shape="rect" id="node32" href="importmidi__drum_8cpp.html" title="importexport/midiimport\l/importmidi_drum.cpp" alt="" coords="5499,155,5669,196"/>
+<area shape="rect" id="node33" href="importmidi__instrument_8cpp.html" title="importexport/midiimport\l/importmidi_instrument.cpp" alt="" coords="4503,155,4689,196"/>
 </map>
 </div>
 </div>
@@ -174,29 +177,29 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_name.html">Ms::StaffName</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1StaffName.html">Ms::StaffName</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_staff_name_list.html">Ms::StaffNameList</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1StaffNameList.html">Ms::StaffNameList</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_named_event_list.html">Ms::NamedEventList</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1NamedEventList.html">Ms::NamedEventList</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_midi_articulation.html">Ms::MidiArticulation</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1MidiArticulation.html">Ms::MidiArticulation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel.html">Ms::Channel</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Channel.html">Ms::Channel</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_channel_listener.html">Ms::ChannelListener</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1ChannelListener.html">Ms::ChannelListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_part_channel_settings_link.html">Ms::PartChannelSettingsLink</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1PartChannelSettingsLink.html">Ms::PartChannelSettingsLink</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument.html">Ms::Instrument</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Instrument.html">Ms::Instrument</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_instrument_list.html">Ms::InstrumentList</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InstrumentList.html">Ms::InstrumentList</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

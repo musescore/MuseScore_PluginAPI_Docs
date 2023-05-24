@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/musicxml.h File Reference</title>
+<title>MuseScore: importexport/musicxml/musicxml.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_08705a486b9992a720e4b92b236c5d62.html">musicxml</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,7 +69,6 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">musicxml.h File Reference</div>  </div>
@@ -87,43 +86,46 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for musicxml.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="musicxml_8h__incl.png" border="0" usemap="#mscore_2musicxml_8h" alt=""/></div>
-<map name="mscore_2musicxml_8h" id="mscore_2musicxml_8h">
-<area shape="rect" id="node2" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="725,528,861,555"/>
-<area shape="rect" id="node4" href="mscore_8h.html" title="mscore.h" alt="" coords="311,603,387,629"/>
-<area shape="rect" id="node8" href="pitchspelling_8h.html" title="libmscore/pitchspelling.h" alt="" coords="232,304,397,331"/>
-<area shape="rect" id="node9" href="line_8h.html" title="libmscore/line.h" alt="" coords="43,304,157,331"/>
-<area shape="rect" id="node15" href="importxmlfirstpass_8h.html" title="importxmlfirstpass.h" alt="" coords="422,80,562,107"/>
-<area shape="rect" id="node16" href="musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="426,155,558,181"/>
-<area shape="rect" id="node5" href="style_8h.html" title="style.h" alt="" coords="475,677,536,704"/>
-<area shape="rect" id="node6" href="chordlist_8h.html" title="chordlist.h" alt="" coords="448,752,531,779"/>
-<area shape="rect" id="node7" href="types_8h.html" title="types.h" alt="" coords="555,752,621,779"/>
-<area shape="rect" id="node10" href="spanner_8h.html" title="spanner.h" alt="" coords="233,379,311,405"/>
-<area shape="rect" id="node11" href="element_8h.html" title="element.h" alt="" coords="486,453,565,480"/>
-<area shape="rect" id="node12" href="spatium_8h.html" title="spatium.h" alt="" coords="486,528,565,555"/>
-<area shape="rect" id="node13" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="531,603,645,629"/>
-<area shape="rect" id="node14" href="shape_8h.html" title="shape.h" alt="" coords="394,528,462,555"/>
-<area shape="rect" id="node17" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="450,229,569,256"/>
-<area shape="rect" id="node18" href="symbol_8h.html" title="symbol.h" alt="" coords="472,304,547,331"/>
-<area shape="rect" id="node20" href="noteevent_8h.html" title="noteevent.h" alt="" coords="571,304,661,331"/>
-<area shape="rect" id="node21" href="key_8h.html" title="key.h" alt="" coords="686,304,741,331"/>
-<area shape="rect" id="node19" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="479,379,561,405"/>
+<div class="center"><img src="musicxml_8h__incl.png" border="0" usemap="#importexport_2musicxml_2musicxml_8h" alt=""/></div>
+<map name="importexport_2musicxml_2musicxml_8h" id="importexport_2musicxml_2musicxml_8h">
+<area shape="rect" id="node2" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="295,617,438,644"/>
+<area shape="rect" id="node4" href="mscore_8h.html" title="mscore.h" alt="" coords="705,692,783,719"/>
+<area shape="rect" id="node8" href="pitchspelling_8h.html" title="libmscore/pitchspelling.h" alt="" coords="43,319,213,345"/>
+<area shape="rect" id="node9" href="line_8h.html" title="libmscore/line.h" alt="" coords="968,319,1085,345"/>
+<area shape="rect" id="node20" href="importxmlfirstpass_8h.html" title="importxmlfirstpass.h" alt="" coords="345,95,490,121"/>
+<area shape="rect" id="node22" href="musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="499,169,635,196"/>
+<area shape="rect" id="node5" href="libmscore_2style_8h.html" title="style.h" alt="" coords="634,767,694,793"/>
+<area shape="rect" id="node6" href="chordlist_8h.html" title="chordlist.h" alt="" coords="622,841,706,868"/>
+<area shape="rect" id="node7" href="types_8h.html" title="types.h" alt="" coords="533,841,597,868"/>
+<area shape="rect" id="node10" href="spanner_8h.html" title="spanner.h" alt="" coords="713,393,791,420"/>
+<area shape="rect" id="node11" href="element_8h.html" title="element.h" alt="" coords="505,468,585,495"/>
+<area shape="rect" id="node12" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="609,543,722,569"/>
+<area shape="rect" id="node13" href="spatium_8h.html" title="spatium.h" alt="" coords="747,543,827,569"/>
+<area shape="rect" id="node14" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="513,692,628,719"/>
+<area shape="rect" id="node15" href="shape_8h.html" title="shape.h" alt="" coords="339,543,407,569"/>
+<area shape="rect" id="node16" href="sig_8h.html" title="sig.h" alt="" coords="483,543,533,569"/>
+<area shape="rect" id="node17" href="sym_8h.html" title="sym.h" alt="" coords="851,543,909,569"/>
+<area shape="rect" id="node21" href="interval_8h.html" title="libmscore/interval.h" alt="" coords="336,169,475,196"/>
+<area shape="rect" id="node23" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="505,244,628,271"/>
+<area shape="rect" id="node24" href="symbol_8h.html" title="symbol.h" alt="" coords="529,319,605,345"/>
+<area shape="rect" id="node26" href="noteevent_8h.html" title="noteevent.h" alt="" coords="701,319,792,345"/>
+<area shape="rect" id="node27" href="key_8h.html" title="key.h" alt="" coords="700,468,753,495"/>
+<area shape="rect" id="node25" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="504,393,587,420"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="musicxml_8h__dep__incl.png" border="0" usemap="#mscore_2musicxml_8hdep" alt=""/></div>
-<map name="mscore_2musicxml_8hdep" id="mscore_2musicxml_8hdep">
-<area shape="rect" id="node2" href="exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="5,80,156,107"/>
-<area shape="rect" id="node3" href="importbww_8cpp.html" title="mscore/importbww.cpp" alt="" coords="181,80,338,107"/>
-<area shape="rect" id="node4" href="importmxml_8h.html" title="mscore/importmxml.h" alt="" coords="363,80,511,107"/>
-<area shape="rect" id="node7" href="importmxmlpass1_8h.html" title="mscore/importmxmlpass1.h" alt="" coords="587,80,769,107"/>
-<area shape="rect" id="node8" href="importmxmlpass2_8h.html" title="mscore/importmxmlpass2.h" alt="" coords="568,155,751,181"/>
-<area shape="rect" id="node5" href="importmxml_8cpp.html" title="mscore/importmxml.cpp" alt="" coords="374,229,537,256"/>
-<area shape="rect" id="node6" href="importxml_8cpp.html" title="mscore/importxml.cpp" alt="" coords="267,155,417,181"/>
-<area shape="rect" id="node9" href="importmxmlpass1_8cpp.html" title="mscore/importmxmlpass1.cpp" alt="" coords="782,229,979,256"/>
-<area shape="rect" id="node10" href="importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="561,229,758,256"/>
+<div class="center"><img src="musicxml_8h__dep__incl.png" border="0" usemap="#importexport_2musicxml_2musicxml_8hdep" alt=""/></div>
+<map name="importexport_2musicxml_2musicxml_8hdep" id="importexport_2musicxml_2musicxml_8hdep">
+<area shape="rect" id="node2" href="exportxml_8cpp.html" title="importexport/musicxml\l/exportxml.cpp" alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="importmxml_8h.html" title="importexport/musicxml\l/importmxml.h" alt="" coords="192,95,355,136"/>
+<area shape="rect" id="node6" href="importmxmlpass1_8h.html" title="importexport/musicxml\l/importmxmlpass1.h" alt="" coords="379,95,541,136"/>
+<area shape="rect" id="node7" href="importmxmlpass2_8h.html" title="importexport/musicxml\l/importmxmlpass2.h" alt="" coords="497,184,660,225"/>
+<area shape="rect" id="node4" href="importmxml_8cpp.html" title="importexport/musicxml\l/importmxml.cpp" alt="" coords="293,273,456,315"/>
+<area shape="rect" id="node5" href="importxml_8cpp.html" title="importexport/musicxml\l/importxml.cpp" alt="" coords="159,184,321,225"/>
+<area shape="rect" id="node8" href="importmxmlpass1_8cpp.html" title="importexport/musicxml\l/importmxmlpass1.cpp" alt="" coords="480,273,643,315"/>
+<area shape="rect" id="node9" href="importmxmlpass2_8cpp.html" title="importexport/musicxml\l/importmxmlpass2.cpp" alt="" coords="667,273,829,315"/>
 </map>
 </div>
 </div>
@@ -131,58 +133,51 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_music_xml_part_group.html">Ms::MusicXmlPartGroup</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1MusicXmlPartGroup.html">Ms::MusicXmlPartGroup</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_credit_words.html">Ms::CreditWords</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1CreditWords.html">Ms::CreditWords</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_jump_marker_desc.html">Ms::JumpMarkerDesc</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The description of Jumps and Markers to be added later.  <a href="class_ms_1_1_jump_marker_desc.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1JumpMarkerDesc.html">Ms::JumpMarkerDesc</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The description of Jumps and Markers to be added later.  <a href="classMs_1_1JumpMarkerDesc.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_slur_desc.html">Ms::SlurDesc</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The description of Slurs being handled.  <a href="class_ms_1_1_slur_desc.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1SlurDesc.html">Ms::SlurDesc</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The description of Slurs being handled.  <a href="classMs_1_1SlurDesc.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a5ad1a2215eb018f12419206aec4cb2c3"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; CreditWords * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5ad1a2215eb018f12419206aec4cb2c3">Ms::CreditWordsList</a></td></tr>
+<tr class="memitem:a5ad1a2215eb018f12419206aec4cb2c3"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; CreditWords * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5ad1a2215eb018f12419206aec4cb2c3">Ms::CreditWordsList</a></td></tr>
 <tr class="separator:a5ad1a2215eb018f12419206aec4cb2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78abbdb729294e16c5d1597bfeb85d9e"><td class="memItemLeft" align="right" valign="top">typedef CreditWordsList::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a78abbdb729294e16c5d1597bfeb85d9e">Ms::iCreditWords</a></td></tr>
+<tr class="memitem:a78abbdb729294e16c5d1597bfeb85d9e"><td class="memItemLeft" align="right" valign="top">typedef CreditWordsList::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a78abbdb729294e16c5d1597bfeb85d9e">Ms::iCreditWords</a></td></tr>
 <tr class="separator:a78abbdb729294e16c5d1597bfeb85d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a606153754be510cc1be5d952b83b79d3"><td class="memItemLeft" align="right" valign="top">typedef CreditWordsList::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a606153754be510cc1be5d952b83b79d3">Ms::ciCreditWords</a></td></tr>
+<tr class="memitem:a606153754be510cc1be5d952b83b79d3"><td class="memItemLeft" align="right" valign="top">typedef CreditWordsList::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a606153754be510cc1be5d952b83b79d3">Ms::ciCreditWords</a></td></tr>
 <tr class="separator:a606153754be510cc1be5d952b83b79d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e71438c5b78bbd0726b6cce935f2290"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; JumpMarkerDesc &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3e71438c5b78bbd0726b6cce935f2290">Ms::JumpMarkerDescList</a></td></tr>
+<tr class="memitem:a3e71438c5b78bbd0726b6cce935f2290"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; JumpMarkerDesc &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3e71438c5b78bbd0726b6cce935f2290">Ms::JumpMarkerDescList</a></td></tr>
 <tr class="separator:a3e71438c5b78bbd0726b6cce935f2290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7743fb4725744a5c3d0fbc939e96c66"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; MusicXmlPartGroup * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa7743fb4725744a5c3d0fbc939e96c66">Ms::MusicXmlPartGroupList</a></td></tr>
+<tr class="memitem:aa7743fb4725744a5c3d0fbc939e96c66"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; MusicXmlPartGroup * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa7743fb4725744a5c3d0fbc939e96c66">Ms::MusicXmlPartGroupList</a></td></tr>
 <tr class="separator:aa7743fb4725744a5c3d0fbc939e96c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4f9f817f0112329f4f97d8c2f9d8e2"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; SLine *, QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0c4f9f817f0112329f4f97d8c2f9d8e2">Ms::MusicXmlSpannerMap</a></td></tr>
+<tr class="memitem:a0c4f9f817f0112329f4f97d8c2f9d8e2"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; SLine *, QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0c4f9f817f0112329f4f97d8c2f9d8e2">Ms::MusicXmlSpannerMap</a></td></tr>
 <tr class="separator:a0c4f9f817f0112329f4f97d8c2f9d8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a53e87500938f3f877f2a1ec65bd579dc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="namespace_ms.html#a53e87500938f3f877f2a1ec65bd579dca6d45ee6ee7c9e0c05d2fb0fdb908c0bb">Ms::NoSystem</a> = 0, 
-<a class="el" href="namespace_ms.html#a53e87500938f3f877f2a1ec65bd579dcaf36845c2694259b7f70386eeba00b9af">Ms::TopSystem</a> = 1, 
-<a class="el" href="namespace_ms.html#a53e87500938f3f877f2a1ec65bd579dca851782d537b90ce6793b0c720108fe4e">Ms::NewSystem</a> = 2, 
-<a class="el" href="namespace_ms.html#a53e87500938f3f877f2a1ec65bd579dca8fe3f4c4c0eb9db4fb3ed1a763a9e425">Ms::NewPage</a> = 3
- }</td></tr>
-<tr class="separator:a53e87500938f3f877f2a1ec65bd579dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa711fcb0c0e35f883415bd7009e5eab9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa711fcb0c0e35f883415bd7009e5eab9">Ms::MAX_LYRICS</a> = 16</td></tr>
+<tr class="memitem:aa711fcb0c0e35f883415bd7009e5eab9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa711fcb0c0e35f883415bd7009e5eab9">Ms::MAX_LYRICS</a> = 16</td></tr>
 <tr class="separator:aa711fcb0c0e35f883415bd7009e5eab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6c3d8d9186bd4251ad8fc0a58202969"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ae6c3d8d9186bd4251ad8fc0a58202969">Ms::MAX_PART_GROUPS</a> = 8</td></tr>
+<tr class="memitem:ae6c3d8d9186bd4251ad8fc0a58202969"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae6c3d8d9186bd4251ad8fc0a58202969">Ms::MAX_PART_GROUPS</a> = 8</td></tr>
 <tr class="separator:ae6c3d8d9186bd4251ad8fc0a58202969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5726d8af61bb7b474de67400b9f98c"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#adc5726d8af61bb7b474de67400b9f98c">Ms::MAX_NUMBER_LEVEL</a> = 6</td></tr>
+<tr class="memitem:adc5726d8af61bb7b474de67400b9f98c"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#adc5726d8af61bb7b474de67400b9f98c">Ms::MAX_NUMBER_LEVEL</a> = 6</td></tr>
 <tr class="separator:adc5726d8af61bb7b474de67400b9f98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Definition of class MusicXML. </p>
+
+<p class="definition">Definition in file <a class="el" href="musicxml_8h_source.html">musicxml.h</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

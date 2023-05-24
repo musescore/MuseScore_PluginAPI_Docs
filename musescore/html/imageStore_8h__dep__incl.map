@@ -1,0 +1,10 @@
+<map id="libmscore/imageStore.h" name="libmscore/imageStore.h">
+<area shape="rect" id="node2" href="$image_8cpp.html" title="libmscore/image.cpp" alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$imageStore_8cpp.html" title="libmscore/imageStore.cpp" alt="" coords="176,80,355,107"/>
+<area shape="rect" id="node4" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="379,80,523,107"/>
+<area shape="rect" id="node5" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="547,80,709,107"/>
+<area shape="rect" id="node6" href="$palettetree_8cpp.html" title="mscore/palette/palettetree.cpp" alt="" coords="733,80,937,107"/>
+<area shape="rect" id="node7" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="961,80,1098,107"/>
+<area shape="rect" id="node8" href="$svggenerator_8cpp.html" title="mscore/svggenerator.cpp" alt="" coords="1123,80,1296,107"/>
+<area shape="rect" id="node9" href="$workspace_8cpp.html" title="mscore/workspace.cpp" alt="" coords="1320,80,1483,107"/>
+</map>

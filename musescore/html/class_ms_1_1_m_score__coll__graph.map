@@ -1,6 +1,0 @@
-<map id="Ms::MScore" name="Ms::MScore">
-<area shape="rect" id="node2" href="$class_ms_1_1_m_paint_device.html" title="Ms::MPaintDevice" alt="" coords="5,171,136,197"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_sequencer.html" title="Ms::Sequencer" alt="" coords="161,171,271,197"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_m_style.html" title="Ms::MStyle" alt="" coords="295,171,385,197"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_chord_list.html" title="Ms::ChordList" alt="" coords="288,81,392,108"/>
-</map>

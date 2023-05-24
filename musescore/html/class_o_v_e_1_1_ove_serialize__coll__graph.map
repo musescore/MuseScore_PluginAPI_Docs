@@ -1,6 +1,0 @@
-<map id="OVE::OveSerialize" name="OVE::OveSerialize">
-<area shape="rect" id="node2" href="$class_o_v_e_1_1_i_o_v_e_stream_loader.html" title="OVE::IOVEStreamLoader" alt="" coords="5,5,176,32"/>
-<area shape="rect" id="node3" href="$class_o_v_e_1_1_stream_handle.html" title="OVE::StreamHandle" alt="" coords="200,5,341,32"/>
-<area shape="rect" id="node4" href="$class_o_v_e_1_1_i_ove_notify.html" title="OVE::IOveNotify" alt="" coords="366,5,487,32"/>
-<area shape="rect" id="node5" href="$class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="512,5,624,32"/>
-</map>

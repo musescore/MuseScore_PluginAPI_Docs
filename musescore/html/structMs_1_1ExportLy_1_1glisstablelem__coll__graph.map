@@ -1,0 +1,39 @@
+<map id="Ms::ExportLy::glisstablelem" name="Ms::ExportLy::glisstablelem">
+<area shape="rect" id="node2" href="$classMs_1_1Chord.html" title="Graphic representation of a chord. " alt="" coords="865,821,947,848"/>
+<area shape="rect" id="node38" href="$classMs_1_1Tremolo.html" title="Ms::Tremolo" alt="" coords="1003,925,1099,952"/>
+<area shape="rect" id="node3" href="$classMs_1_1ChordRest.html" title="Ms::ChordRest" alt="" coords="1247,745,1357,772"/>
+<area shape="rect" id="node4" href="$classMs_1_1DurationElement.html" title="Virtual base class for Chord, Rest and Tuplet. " alt="" coords="1542,419,1686,445"/>
+<area shape="rect" id="node18" href="$classMs_1_1Tuplet.html" title="Example of 1/8 triplet: _baseLen = 1/8 (tuplet is measured in eighth notes) _ratio = 3/2 (3 eighth tu..." alt="" coords="2083,643,2166,669"/>
+<area shape="rect" id="node5" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="1069,329,1164,356"/>
+<area shape="rect" id="node20" href="$classMs_1_1TextBase.html" title="Ms::TextBase" alt="" coords="1417,419,1518,445"/>
+<area shape="rect" id="node28" href="$classMs_1_1Beam.html" title="Ms::Beam" alt="" coords="1172,643,1253,669"/>
+<area shape="rect" id="node31" href="$classMs_1_1TabDurationSymbol.html" title="Ms::TabDurationSymbol" alt="" coords="1180,419,1341,445"/>
+<area shape="rect" id="node34" href="$classMs_1_1Arpeggio.html" title="Ms::Arpeggio" alt="" coords="276,419,376,445"/>
+<area shape="rect" id="node37" href="$classMs_1_1LedgerLine.html" title="Graphic representation of a ledger line. " alt="" coords="902,471,1014,497"/>
+<area shape="rect" id="node40" href="$classMs_1_1Note.html" title="Graphic representation of a note. " alt="" coords="2484,530,2560,557"/>
+<area shape="rect" id="node43" href="$classMs_1_1Accidental.html" title="Ms::Accidental" alt="" coords="1761,419,1870,445"/>
+<area shape="rect" id="node48" href="$classMs_1_1BSymbol.html" title="base class for Symbol and Image " alt="" coords="854,419,953,445"/>
+<area shape="rect" id="node49" href="$classMs_1_1StemSlash.html" title="used for grace notes of type acciaccatura " alt="" coords="636,589,747,616"/>
+<area shape="rect" id="node50" href="$classMs_1_1Stem.html" title="Graphic representation of a note stem. " alt="" coords="849,695,928,721"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="843,206,972,233"/>
+<area shape="rect" id="node7" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="473,419,555,445"/>
+<area shape="rect" id="node10" href="$classMs_1_1ScoreFont.html" title="Ms::ScoreFont" alt="" coords="663,329,770,356"/>
+<area shape="rect" id="node47" href="$classMs_1_1Symbol.html" title="Symbol constructed from builtin symbol. " alt="" coords="754,530,845,557"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="166,95,270,121"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="1569,95,1681,121"/>
+<area shape="rect" id="node30" title="STL class. " alt="" coords="2620,147,2779,173"/>
+<area shape="rect" id="node15" href="$classMs_1_1LinkedElements.html" title="Ms::LinkedElements" alt="" coords="837,95,978,121"/>
+<area shape="rect" id="node17" href="$classMs_1_1Spatium.html" title="Ms::Spatium" alt="" coords="1852,206,1947,233"/>
+<area shape="rect" id="node32" href="$classMs_1_1StaffType.html" title="Ms::StaffType" alt="" coords="1848,329,1951,356"/>
+<area shape="rect" id="node19" href="$classMs_1_1Text.html" title="Ms::Text" alt="" coords="1954,530,2026,557"/>
+<area shape="rect" id="node25" href="$classMs_1_1Lyrics.html" title="Ms::Lyrics" alt="" coords="1692,530,1773,557"/>
+<area shape="rect" id="node22" href="$classMs_1_1TDuration.html" title="Ms::TDuration" alt="" coords="1449,530,1553,557"/>
+<area shape="rect" id="node23" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="2081,329,2176,356"/>
+<area shape="rect" id="node26" href="$classMs_1_1LyricsLine.html" title="Ms::LyricsLine" alt="" coords="1745,643,1851,669"/>
+<area shape="rect" id="node27" href="$classMs_1_1SLine.html" title="virtual base class for Hairpin, Trill and TextLine " alt="" coords="1844,530,1923,557"/>
+<area shape="rect" id="node29" href="$classMs_1_1ElementList.html" title="Ms::ElementList" alt="" coords="2640,419,2756,445"/>
+<area shape="rect" id="node41" href="$classMs_1_1Tie.html" title="a Tie has a Note as startElement/endElement " alt="" coords="2512,643,2577,669"/>
+<area shape="rect" id="node42" href="$classMs_1_1SlurTie.html" title="Ms::SlurTie" alt="" coords="2635,530,2723,557"/>
+<area shape="rect" id="node44" href="$classMs_1_1NoteEventList.html" title="Ms::NoteEventList" alt="" coords="2781,419,2909,445"/>
+<area shape="rect" id="node46" href="$classMs_1_1Hook.html" title="Ms::Hook" alt="" coords="762,695,842,721"/>
+</map>

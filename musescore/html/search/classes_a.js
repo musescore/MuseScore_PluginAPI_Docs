@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['jackaudio',['JackAudio',['../class_ms_1_1_jack_audio.html',1,'Ms']]],
-  ['jointext',['JoinText',['../class_ms_1_1_join_text.html',1,'Ms']]],
-  ['jsblockdata',['JSBlockData',['../class_ms_1_1_j_s_block_data.html',1,'Ms']]],
-  ['jshighlighter',['JSHighlighter',['../class_ms_1_1_j_s_highlighter.html',1,'Ms']]],
-  ['jump',['Jump',['../class_ms_1_1_jump.html',1,'Ms']]],
-  ['jumpmarkerdesc',['JumpMarkerDesc',['../class_ms_1_1_jump_marker_desc.html',1,'Ms']]],
-  ['jumpormarkerlm',['jumpOrMarkerLM',['../struct_ms_1_1_export_ly_1_1jump_or_marker_l_m.html',1,'Ms::ExportLy']]],
-  ['jumptypetable',['JumpTypeTable',['../struct_ms_1_1_jump_type_table.html',1,'Ms']]]
+  ['jackaudio',['JackAudio',['../classMs_1_1JackAudio.html',1,'Ms']]],
+  ['jointext',['JoinText',['../classMs_1_1JoinText.html',1,'Ms']]],
+  ['jsblockdata',['JSBlockData',['../classMs_1_1JSBlockData.html',1,'Ms']]],
+  ['jshighlighter',['JSHighlighter',['../classMs_1_1JSHighlighter.html',1,'Ms']]],
+  ['jump',['Jump',['../classMs_1_1Jump.html',1,'Ms']]],
+  ['jumpmarkerdesc',['JumpMarkerDesc',['../classMs_1_1JumpMarkerDesc.html',1,'Ms']]],
+  ['jumpormarkerlm',['jumpOrMarkerLM',['../structMs_1_1ExportLy_1_1jumpOrMarkerLM.html',1,'Ms::ExportLy']]],
+  ['jumptypetable',['JumpTypeTable',['../structMs_1_1JumpTypeTable.html',1,'Ms']]]
 ];

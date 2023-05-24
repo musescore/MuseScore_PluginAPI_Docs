@@ -1,8 +1,8 @@
 <map id="libmscore/iname.h" name="libmscore/iname.h">
-<area shape="rect" id="node2" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="5,80,133,107"/>
-<area shape="rect" id="node3" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="158,80,311,107"/>
-<area shape="rect" id="node4" href="$iname_8cpp.html" title="libmscore/iname.cpp" alt="" coords="335,80,478,107"/>
-<area shape="rect" id="node5" href="$system_8cpp.html" title="Implementation of classes SysStaff and System. " alt="" coords="502,80,653,107"/>
-<area shape="rect" id="node6" href="$debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="677,80,881,107"/>
-<area shape="rect" id="node7" href="$propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="905,80,1079,107"/>
+<area shape="rect" id="node2" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="163,80,322,107"/>
+<area shape="rect" id="node4" href="$iname_8cpp.html" title="libmscore/iname.cpp" alt="" coords="347,80,493,107"/>
+<area shape="rect" id="node5" href="$system_8cpp.html" title="Implementation of classes SysStaff and System. " alt="" coords="517,80,672,107"/>
+<area shape="rect" id="node6" href="$debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="696,80,909,107"/>
+<area shape="rect" id="node7" href="$propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="933,80,1112,107"/>
 </map>

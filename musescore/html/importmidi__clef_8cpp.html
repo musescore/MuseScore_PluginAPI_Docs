@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_clef.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_clef.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -95,101 +95,103 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_clef.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__clef_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__clef_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__clef_8cpp" id="mscore_2importmidi_2importmidi__clef_8cpp">
-<area shape="rect" id="node2" href="importmidi__clef_8h.html" title="importmidi_clef.h" alt="" coords="5,95,127,121"/>
-<area shape="rect" id="node3" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2085,95,2210,121"/>
-<area shape="rect" id="node8" href="element_8h.html" title="element.h" alt="" coords="1113,319,1192,345"/>
-<area shape="rect" id="node15" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1764,244,1819,271"/>
-<area shape="rect" id="node22" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="1316,95,1435,121"/>
-<area shape="rect" id="node30" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="687,95,829,121"/>
-<area shape="rect" id="node33" href="segment_8h.html" title="segment.h" alt="" coords="1006,244,1089,271"/>
-<area shape="rect" id="node34" href="chordrest_8h.html" title="libmscore/chordrest.h" alt="" coords="402,169,549,196"/>
-<area shape="rect" id="node38" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="413,95,538,121"/>
-<area shape="rect" id="node39" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="573,169,631,196"/>
-<area shape="rect" id="node41" href="slur_8h.html" title="libmscore/slur.h" alt="" coords="2482,244,2597,271"/>
-<area shape="rect" id="node43" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="9,319,120,345"/>
-<area shape="rect" id="node44" href="importmidi__tie_8h.html" title="importmidi_tie.h" alt="" coords="2479,95,2594,121"/>
-<area shape="rect" id="node46" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="2669,95,2802,121"/>
-<area shape="rect" id="node47" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="144,319,287,345"/>
-<area shape="rect" id="node48" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="2826,95,2986,121"/>
-<area shape="rect" id="node49" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="3011,95,3159,121"/>
-<area shape="rect" id="node50" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="1809,95,1977,121"/>
-<area shape="rect" id="node5" href="input_8h.html" title="input.h" alt="" coords="2073,169,2134,196"/>
-<area shape="rect" id="node13" href="property_8h.html" title="property.h" alt="" coords="1867,319,1947,345"/>
-<area shape="rect" id="node14" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1852,169,1947,196"/>
-<area shape="rect" id="node16" href="select_8h.html" title="select.h" alt="" coords="2159,169,2227,196"/>
-<area shape="rect" id="node18" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="2507,169,2636,196"/>
-<area shape="rect" id="node19" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="2251,169,2353,196"/>
-<area shape="rect" id="node20" href="spannermap_8h.html" title="spannermap.h" alt="" coords="2378,169,2482,196"/>
-<area shape="rect" id="node21" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1164,244,1264,271"/>
-<area shape="rect" id="node6" href="mscore_8h.html" title="mscore.h" alt="" coords="1688,468,1764,495"/>
-<area shape="rect" id="node7" href="beam_8h.html" title="beam.h" alt="" coords="1391,244,1456,271"/>
-<area shape="rect" id="node9" href="spatium_8h.html" title="spatium.h" alt="" coords="1113,393,1192,420"/>
-<area shape="rect" id="node10" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="869,393,945,420"/>
-<area shape="rect" id="node11" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1243,393,1356,420"/>
-<area shape="rect" id="node12" href="shape_8h.html" title="shape.h" alt="" coords="969,393,1037,420"/>
-<area shape="rect" id="node17" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1583,244,1688,271"/>
-<area shape="rect" id="node23" href="velo_8h.html" title="Definition of classes VeloList. " alt="" coords="1113,169,1171,196"/>
-<area shape="rect" id="node24" href="pitch_8h.html" title="pitch.h" alt="" coords="1195,169,1257,196"/>
-<area shape="rect" id="node25" href="cleflist_8h.html" title="cleflist.h" alt="" coords="1604,169,1675,196"/>
-<area shape="rect" id="node26" href="keylist_8h.html" title="keylist.h" alt="" coords="780,169,851,196"/>
-<area shape="rect" id="node28" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="1281,169,1382,196"/>
-<area shape="rect" id="node29" href="groups_8h.html" title="groups.h" alt="" coords="1457,169,1529,196"/>
-<area shape="rect" id="node27" href="key_8h.html" title="key.h" alt="" coords="876,244,931,271"/>
-<area shape="rect" id="node31" href="measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="927,169,1037,196"/>
-<area shape="rect" id="node32" href="segmentlist_8h.html" title="segmentlist.h" alt="" coords="656,169,756,196"/>
-<area shape="rect" id="node36" href="symbol_8h.html" title="symbol.h" alt="" coords="561,244,635,271"/>
-<area shape="rect" id="node37" href="duration_8h.html" title="duration.h" alt="" coords="407,244,485,271"/>
-<area shape="rect" id="node40" href="noteevent_8h.html" title="noteevent.h" alt="" coords="659,244,750,271"/>
-<area shape="rect" id="node42" href="slurtie_8h.html" title="slurtie.h" alt="" coords="2323,319,2391,345"/>
+<div class="center"><img src="importmidi__clef_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__clef_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__clef_8cpp" id="importexport_2midiimport_2importmidi__clef_8cpp">
+<area shape="rect" id="node2" href="importmidi__clef_8h.html" title="importmidi_clef.h" alt="" coords="530,95,657,121"/>
+<area shape="rect" id="node3" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="504,244,635,271"/>
+<area shape="rect" id="node8" href="element_8h.html" title="element.h" alt="" coords="1752,468,1832,495"/>
+<area shape="rect" id="node12" href="sig_8h.html" title="sig.h" alt="" coords="1832,543,1883,569"/>
+<area shape="rect" id="node16" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="930,393,985,420"/>
+<area shape="rect" id="node23" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="1211,244,1336,271"/>
+<area shape="rect" id="node31" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="1815,244,1963,271"/>
+<area shape="rect" id="node34" href="segment_8h.html" title="segment.h" alt="" coords="1851,393,1935,420"/>
+<area shape="rect" id="node35" href="chordrest_8h.html" title="libmscore/chordrest.h" alt="" coords="1911,169,2065,196"/>
+<area shape="rect" id="node39" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="1860,95,1991,121"/>
+<area shape="rect" id="node40" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="2365,393,2424,420"/>
+<area shape="rect" id="node42" href="slur_8h.html" title="libmscore/slur.h" alt="" coords="681,95,799,121"/>
+<area shape="rect" id="node44" href="importmidi__tie_8h.html" title="importmidi_tie.h" alt="" coords="2394,95,2513,121"/>
+<area shape="rect" id="node46" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="2537,95,2676,121"/>
+<area shape="rect" id="node47" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="1460,169,1609,196"/>
+<area shape="rect" id="node48" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="2701,95,2867,121"/>
+<area shape="rect" id="node49" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="1633,169,1785,196"/>
+<area shape="rect" id="node50" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="726,244,901,271"/>
+<area shape="rect" id="node5" href="input_8h.html" title="input.h" alt="" coords="727,319,788,345"/>
+<area shape="rect" id="node13" href="sym_8h.html" title="sym.h" alt="" coords="2211,543,2269,569"/>
+<area shape="rect" id="node14" href="property_8h.html" title="property.h" alt="" coords="1343,468,1425,495"/>
+<area shape="rect" id="node15" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="607,319,703,345"/>
+<area shape="rect" id="node17" href="select_8h.html" title="select.h" alt="" coords="786,393,854,420"/>
+<area shape="rect" id="node19" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="94,319,223,345"/>
+<area shape="rect" id="node20" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="247,319,350,345"/>
+<area shape="rect" id="node21" href="spannermap_8h.html" title="spannermap.h" alt="" coords="375,319,481,345"/>
+<area shape="rect" id="node22" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1675,393,1775,420"/>
+<area shape="rect" id="node6" href="mscore_8h.html" title="mscore.h" alt="" coords="983,692,1062,719"/>
+<area shape="rect" id="node7" href="beam_8h.html" title="beam.h" alt="" coords="1432,393,1499,420"/>
+<area shape="rect" id="node9" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1515,617,1594,644"/>
+<area shape="rect" id="node10" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="1643,543,1757,569"/>
+<area shape="rect" id="node11" href="shape_8h.html" title="shape.h" alt="" coords="1962,543,2030,569"/>
+<area shape="rect" id="node18" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1162,468,1267,495"/>
+<area shape="rect" id="node24" href="changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="1289,543,1391,569"/>
+<area shape="rect" id="node25" href="pitch_8h.html" title="pitch.h" alt="" coords="1361,319,1423,345"/>
+<area shape="rect" id="node26" href="cleflist_8h.html" title="cleflist.h" alt="" coords="964,319,1036,345"/>
+<area shape="rect" id="node27" href="keylist_8h.html" title="keylist.h" alt="" coords="2270,393,2341,420"/>
+<area shape="rect" id="node29" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="1447,319,1550,345"/>
+<area shape="rect" id="node30" href="groups_8h.html" title="groups.h" alt="" coords="1162,319,1235,345"/>
+<area shape="rect" id="node28" href="key_8h.html" title="key.h" alt="" coords="2245,468,2299,495"/>
+<area shape="rect" id="node32" href="measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="1727,319,1839,345"/>
+<area shape="rect" id="node33" href="segmentlist_8h.html" title="segmentlist.h" alt="" coords="1863,319,1964,345"/>
+<area shape="rect" id="node37" href="symbol_8h.html" title="symbol.h" alt="" coords="2539,468,2615,495"/>
+<area shape="rect" id="node38" href="duration_8h.html" title="duration.h" alt="" coords="2011,393,2093,420"/>
+<area shape="rect" id="node41" href="noteevent_8h.html" title="noteevent.h" alt="" coords="2373,468,2464,495"/>
+<area shape="rect" id="node43" href="slurtie_8h.html" title="slurtie.h" alt="" coords="317,617,387,644"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__clef_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_clef_1_1_average_pitch.html">Ms::MidiClef::AveragePitch</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MidiClef_1_1AveragePitch.html">Ms::MidiClef::AveragePitch</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_clef_1_1_min_max_pitch.html">Ms::MidiClef::MinMaxPitch</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MidiClef_1_1MinMaxPitch.html">Ms::MidiClef::MinMaxPitch</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_midi_clef"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html">Ms::MidiClef</a></td></tr>
+<tr class="memitem:namespaceMs_1_1MidiClef"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html">Ms::MidiClef</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afa740df0915870a969a72189a7ae5c04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#afa740df0915870a969a72189a7ae5c04">Ms::MidiClef::clefMidPitch</a> ()</td></tr>
+<tr class="memitem:afa740df0915870a969a72189a7ae5c04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#afa740df0915870a969a72189a7ae5c04">Ms::MidiClef::clefMidPitch</a> ()</td></tr>
 <tr class="separator:afa740df0915870a969a72189a7ae5c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9e6ea61d328f4188505a64ab0d48c4"><td class="memItemLeft" align="right" valign="top">ClefType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a9c9e6ea61d328f4188505a64ab0d48c4">Ms::MidiClef::clefTypeFromAveragePitch</a> (int averagePitch)</td></tr>
+<tr class="memitem:a9c9e6ea61d328f4188505a64ab0d48c4"><td class="memItemLeft" align="right" valign="top">ClefType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a9c9e6ea61d328f4188505a64ab0d48c4">Ms::MidiClef::clefTypeFromAveragePitch</a> (int averagePitch)</td></tr>
 <tr class="separator:a9c9e6ea61d328f4188505a64ab0d48c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad96dd8df4bcf73fd5e2a5fe0b5912015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#ad96dd8df4bcf73fd5e2a5fe0b5912015">Ms::MidiClef::createClef</a> (ClefType clefType, Staff *staff, int tick, bool isSmall=false)</td></tr>
+<tr class="memitem:ad96dd8df4bcf73fd5e2a5fe0b5912015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#ad96dd8df4bcf73fd5e2a5fe0b5912015">Ms::MidiClef::createClef</a> (ClefType clefType, Staff *staff, int <a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>, bool isSmall=false)</td></tr>
 <tr class="separator:ad96dd8df4bcf73fd5e2a5fe0b5912015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80575a0e30a13bae31eea8ef28b6636a"><td class="memItemLeft" align="right" valign="top">AveragePitch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a80575a0e30a13bae31eea8ef28b6636a">Ms::MidiClef::findAverageSegPitch</a> (const Segment *seg, int strack)</td></tr>
+<tr class="memitem:a80575a0e30a13bae31eea8ef28b6636a"><td class="memItemLeft" align="right" valign="top">AveragePitch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a80575a0e30a13bae31eea8ef28b6636a">Ms::MidiClef::findAverageSegPitch</a> (const Segment *seg, int strack)</td></tr>
 <tr class="separator:a80575a0e30a13bae31eea8ef28b6636a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7589503bb3acf8d5da059e9128adbb3"><td class="memItemLeft" align="right" valign="top">MinMaxPitch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#ae7589503bb3acf8d5da059e9128adbb3">Ms::MidiClef::findMinMaxSegPitch</a> (const Segment *seg, int strack)</td></tr>
+<tr class="memitem:ae7589503bb3acf8d5da059e9128adbb3"><td class="memItemLeft" align="right" valign="top">MinMaxPitch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#ae7589503bb3acf8d5da059e9128adbb3">Ms::MidiClef::findMinMaxSegPitch</a> (const Segment *seg, int strack)</td></tr>
 <tr class="separator:ae7589503bb3acf8d5da059e9128adbb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40e763d7b5adf8ec7bf9c485503b9f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#ae40e763d7b5adf8ec7bf9c485503b9f4">Ms::MidiClef::findPitchPenaltyForClef</a> (int pitch, int clefIndex)</td></tr>
+<tr class="memitem:ae40e763d7b5adf8ec7bf9c485503b9f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#ae40e763d7b5adf8ec7bf9c485503b9f4">Ms::MidiClef::findPitchPenaltyForClef</a> (int pitch, int clefIndex)</td></tr>
 <tr class="separator:ae40e763d7b5adf8ec7bf9c485503b9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e8559dc50c51172230c3d191b0251eb"><td class="memItemLeft" align="right" valign="top">std::pair&lt; ElementType, ReducedFraction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a6e8559dc50c51172230c3d191b0251eb">Ms::MidiClef::findChordRest</a> (const Segment *seg, int strack)</td></tr>
+<tr class="memitem:a6e8559dc50c51172230c3d191b0251eb"><td class="memItemLeft" align="right" valign="top">std::pair&lt; ElementType, ReducedFraction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a6e8559dc50c51172230c3d191b0251eb">Ms::MidiClef::findChordRest</a> (const Segment *seg, int strack)</td></tr>
 <tr class="separator:a6e8559dc50c51172230c3d191b0251eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83f6081b82ebfea2c1f93b4c6093a80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#ad83f6081b82ebfea2c1f93b4c6093a80">Ms::MidiClef::findClefChangePenalty</a> (int pos, int clefIndex, const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;trebleBassPath, const Segment *segment, const Staff *staff)</td></tr>
+<tr class="memitem:ad83f6081b82ebfea2c1f93b4c6093a80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#ad83f6081b82ebfea2c1f93b4c6093a80">Ms::MidiClef::findClefChangePenalty</a> (int pos, int clefIndex, const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;trebleBassPath, const Segment *segment, const Staff *staff)</td></tr>
 <tr class="separator:ad83f6081b82ebfea2c1f93b4c6093a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b777004f3ac561e008f10eca7076756"><td class="memItemLeft" align="right" valign="top">ClefType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a8b777004f3ac561e008f10eca7076756">Ms::MidiClef::clefFromIndex</a> (int index)</td></tr>
+<tr class="memitem:a8b777004f3ac561e008f10eca7076756"><td class="memItemLeft" align="right" valign="top">ClefType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a8b777004f3ac561e008f10eca7076756">Ms::MidiClef::clefFromIndex</a> (int index)</td></tr>
 <tr class="separator:a8b777004f3ac561e008f10eca7076756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a5c0843565535a6e2ca5f791a978d40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a9a5c0843565535a6e2ca5f791a978d40">Ms::MidiClef::makeDynamicProgrammingStep</a> (std::vector&lt; std::vector&lt; int &gt;&gt; &amp;penalties, std::vector&lt; std::vector&lt; int &gt;&gt; &amp;optimalPaths, int pos, MidiTie::TieStateMachine::State tieState, const MinMaxPitch &amp;minMaxPitch, const Segment *seg, const Staff *staff)</td></tr>
+<tr class="memitem:a9a5c0843565535a6e2ca5f791a978d40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a9a5c0843565535a6e2ca5f791a978d40">Ms::MidiClef::makeDynamicProgrammingStep</a> (std::vector&lt; std::vector&lt; int &gt;&gt; &amp;penalties, std::vector&lt; std::vector&lt; int &gt;&gt; &amp;optimalPaths, int pos, MidiTie::TieStateMachine::State tieState, const MinMaxPitch &amp;minMaxPitch, const Segment *seg, const Staff *staff)</td></tr>
 <tr class="separator:a9a5c0843565535a6e2ca5f791a978d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9545b127f3c24616c34279b463871ce3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a9545b127f3c24616c34279b463871ce3">Ms::MidiClef::createClefs</a> (Staff *staff, const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;optimalPaths, int lastClef, const std::vector&lt; Segment *&gt; &amp;segments)</td></tr>
+<tr class="memitem:a9545b127f3c24616c34279b463871ce3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a9545b127f3c24616c34279b463871ce3">Ms::MidiClef::createClefs</a> (Staff *staff, const std::vector&lt; std::vector&lt; int &gt;&gt; &amp;optimalPaths, int lastClef, const std::vector&lt; Segment *&gt; &amp;segments)</td></tr>
 <tr class="separator:a9545b127f3c24616c34279b463871ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a874ee86bbc5516b2b0cc2ee8282aeec0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a874ee86bbc5516b2b0cc2ee8282aeec0">Ms::MidiClef::createMainClefFromAveragePitch</a> (Staff *staff, int strack)</td></tr>
+<tr class="memitem:a874ee86bbc5516b2b0cc2ee8282aeec0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a874ee86bbc5516b2b0cc2ee8282aeec0">Ms::MidiClef::createMainClefFromAveragePitch</a> (Staff *staff, int strack)</td></tr>
 <tr class="separator:a874ee86bbc5516b2b0cc2ee8282aeec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cba397224733ddd4ad09fbc0c319c42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a9cba397224733ddd4ad09fbc0c319c42">Ms::MidiClef::hasGFclefs</a> (const InstrumentTemplate *templ)</td></tr>
+<tr class="memitem:a9cba397224733ddd4ad09fbc0c319c42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a9cba397224733ddd4ad09fbc0c319c42">Ms::MidiClef::hasGFclefs</a> (const InstrumentTemplate *templ)</td></tr>
 <tr class="separator:a9cba397224733ddd4ad09fbc0c319c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bc9fd40233613f7111410773de615ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_clef.html#a7bc9fd40233613f7111410773de615ea">Ms::MidiClef::createClefs</a> (Staff *staff, int indexOfOperation, bool isDrumTrack)</td></tr>
+<tr class="memitem:a7bc9fd40233613f7111410773de615ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiClef.html#a7bc9fd40233613f7111410773de615ea">Ms::MidiClef::createClefs</a> (Staff *staff, int indexOfOperation, bool isDrumTrack)</td></tr>
 <tr class="separator:a7bc9fd40233613f7111410773de615ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

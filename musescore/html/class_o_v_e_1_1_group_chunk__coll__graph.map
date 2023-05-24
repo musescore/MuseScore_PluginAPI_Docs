@@ -1,7 +1,0 @@
-<map id="OVE::GroupChunk" name="OVE::GroupChunk">
-<area shape="rect" id="node2" href="$class_o_v_e_1_1_chunk.html" title="OVE::Chunk" alt="" coords="23,259,119,285"/>
-<area shape="rect" id="node3" href="$class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="5,157,132,184"/>
-<area shape="rect" id="node4" href="$class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="63,81,186,108"/>
-<area shape="rect" id="node6" href="$class_o_v_e_1_1_count_block.html" title="OVE::CountBlock" alt="" coords="131,208,257,235"/>
-<area shape="rect" id="node5" href="$class_o_v_e_1_1_block.html" title="OVE::Block" alt="" coords="79,5,170,32"/>
-</map>

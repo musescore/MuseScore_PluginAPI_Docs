@@ -1,7 +1,8 @@
 <map id="libmscore/palmmute.h" name="libmscore/palmmute.h">
-<area shape="rect" id="node2" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$palmmute_8cpp.html" title="libmscore/palmmute.cpp" alt="" coords="183,80,347,107"/>
-<area shape="rect" id="node4" href="$importgtp_8cpp.html" title="mscore/importgtp.cpp" alt="" coords="371,80,519,107"/>
-<area shape="rect" id="node5" href="$importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="543,80,691,107"/>
-<area shape="rect" id="node6" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="715,80,849,107"/>
+<area shape="rect" id="node2" href="$importgtp_8cpp.html" title="importexport/guitarpro\l/importgtp.cpp" alt="" coords="5,80,163,121"/>
+<area shape="rect" id="node3" href="$importptb_8cpp.html" title="importexport/guitarpro\l/importptb.cpp" alt="" coords="187,80,344,121"/>
+<area shape="rect" id="node4" href="$exportxml_8cpp.html" title="importexport/musicxml\l/exportxml.cpp" alt="" coords="368,80,531,121"/>
+<area shape="rect" id="node5" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="555,87,714,114"/>
+<area shape="rect" id="node6" href="$palmmute_8cpp.html" title="libmscore/palmmute.cpp" alt="" coords="739,87,909,114"/>
+<area shape="rect" id="node7" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="933,87,1072,114"/>
 </map>

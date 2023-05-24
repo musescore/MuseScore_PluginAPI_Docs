@@ -1,7 +1,7 @@
 <map id="effects/noeffect/noeffect.cpp" name="effects/noeffect/noeffect.cpp">
-<area shape="rect" id="node2" href="$effect_8h.html" title="effects/effect.h" alt="" coords="53,155,163,181"/>
-<area shape="rect" id="node6" href="$effectgui_8h.html" title="effects/effectgui.h" alt="" coords="193,155,319,181"/>
-<area shape="rect" id="node7" href="$noeffect_8h.html" title="noeffect.h" alt="" coords="104,80,184,107"/>
-<area shape="rect" id="node8" href="$noeffectgui_8h.html" title="noeffectgui.h" alt="" coords="259,80,357,107"/>
-<area shape="rect" id="node4" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="88,229,277,256"/>
+<area shape="rect" id="node2" href="$effect_8h.html" title="effects/effect.h" alt="" coords="52,155,167,181"/>
+<area shape="rect" id="node6" href="$effectgui_8h.html" title="effects/effectgui.h" alt="" coords="196,155,327,181"/>
+<area shape="rect" id="node7" href="$noeffect_8h.html" title="noeffect.h" alt="" coords="105,80,188,107"/>
+<area shape="rect" id="node8" href="$noeffectgui_8h.html" title="noeffectgui.h" alt="" coords="263,80,361,107"/>
+<area shape="rect" id="node4" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="89,229,282,256"/>
 </map>

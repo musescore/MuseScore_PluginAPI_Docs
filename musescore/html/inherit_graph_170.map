@@ -1,6 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_ms_1_1_focus_chain_break.html" title="Ms::FocusChainBreak" alt="" coords="145,5,297,32"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_qml_native_menu.html" title="Ms::QmlNativeMenu" alt="" coords="150,56,293,83"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_qml_plugin.html" title="Ms::QmlPlugin" alt="" coords="167,107,275,133"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_plugin_a_p_i.html" title="Main class of the plugins framework. Named as MuseScore in QML. " alt="" coords="345,107,517,133"/>
+<area shape="rect" id="node1" href="$classMs_1_1Driver.html" title="Ms::Driver" alt="" coords="5,81,88,108"/>
+<area shape="rect" id="node2" href="$classMs_1_1AlsaAudio.html" title="Ms::AlsaAudio" alt="" coords="139,5,247,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1JackAudio.html" title="Ms::JackAudio" alt="" coords="138,56,249,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1Portaudio.html" title="Ms::Portaudio" alt="" coords="141,107,246,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1PulseAudio.html" title="Ms::PulseAudio" alt="" coords="136,157,251,184"/>
 </map>

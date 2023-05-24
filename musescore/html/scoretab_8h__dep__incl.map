@@ -1,9 +1,9 @@
 <map id="mscore/scoretab.h" name="mscore/scoretab.h">
-<area shape="rect" id="node2" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="5,80,116,107"/>
-<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="140,80,299,107"/>
-<area shape="rect" id="node4" href="$scorecmp_8cpp.html" title="mscore/scorecmp/scorecmp.cpp" alt="" coords="323,80,535,107"/>
-<area shape="rect" id="node5" href="$scorelistmodel_8cpp.html" title="mscore/scorecmp/scorelistmodel.cpp" alt="" coords="559,80,797,107"/>
-<area shape="rect" id="node6" href="$scoretab_8cpp.html" title="mscore/scoretab.cpp" alt="" coords="822,80,966,107"/>
-<area shape="rect" id="node7" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="991,80,1144,107"/>
-<area shape="rect" id="node8" href="$scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="1168,80,1359,107"/>
+<area shape="rect" id="node2" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="5,80,120,107"/>
+<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="145,80,309,107"/>
+<area shape="rect" id="node4" href="$scorecmp_8cpp.html" title="mscore/scorecmp/scorecmp.cpp" alt="" coords="333,80,555,107"/>
+<area shape="rect" id="node5" href="$scorelistmodel_8cpp.html" title="mscore/scorecmp/scorelistmodel.cpp" alt="" coords="580,80,831,107"/>
+<area shape="rect" id="node6" href="$scoretab_8cpp.html" title="mscore/scoretab.cpp" alt="" coords="855,80,1004,107"/>
+<area shape="rect" id="node7" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="1029,80,1185,107"/>
+<area shape="rect" id="node8" href="$scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="1209,80,1407,107"/>
 </map>

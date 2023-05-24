@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: bww2mxml/parser.cpp File Reference</title>
+<title>MuseScore: importexport/bww/parser.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,12 +61,14 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_cc654926dcb016b335463b9c793835aa.html">bww2mxml</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_4cdc84abaaa1c40650d3306e9b135d64.html">bww</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">parser.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -83,25 +85,502 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for parser.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="parser_8cpp__incl.png" border="0" usemap="#bww2mxml_2parser_8cpp" alt=""/></div>
-<map name="bww2mxml_2parser_8cpp" id="bww2mxml_2parser_8cpp">
-<area shape="rect" id="node5" href="lexer_8h.html" title="Definition of class Lexer. " alt="" coords="353,80,415,107"/>
-<area shape="rect" id="node9" href="parser_8h.html" title="Definition of class Parser. " alt="" coords="596,80,665,107"/>
+<div class="center"><img src="parser_8cpp__incl.png" border="0" usemap="#importexport_2bww_2parser_8cpp" alt=""/></div>
+<map name="importexport_2bww_2parser_8cpp" id="importexport_2bww_2parser_8cpp">
+<area shape="rect" id="node5" href="lexer_8h.html" title="Definition of class Lexer. " alt="" coords="354,80,414,107"/>
+<area shape="rect" id="node9" href="parser_8h.html" title="Definition of class Parser. " alt="" coords="595,80,666,107"/>
 <area shape="rect" id="node12" href="writer_8h.html" title="Definition of class Writer. " alt="" coords="563,155,629,181"/>
 <area shape="rect" id="node8" href="symbols_8h.html" title="Definition of tokens types for bww lexer and parser. " alt="" coords="433,229,516,256"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="parser_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_bww"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_bww.html">Bww</a></td></tr>
-<tr class="memdesc:namespace_bww"><td class="mdescLeft">&#160;</td><td class="mdescRight">Symbol type to text translation. <br /></td></tr>
+<tr class="memitem:namespaceBww"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceBww.html">Bww</a></td></tr>
+<tr class="memdesc:namespaceBww"><td class="mdescLeft">&#160;</td><td class="mdescRight">Symbol type to text translation. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a58d1e0d8b3506eb852cb2e05ff1a95f5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a58d1e0d8b3506eb852cb2e05ff1a95f5">isNote</a> (<a class="el" href="namespaceBww.html#a3e78f1ce9898d7fcb3f7e7adfec046f1">Bww::Symbol</a> sym)</td></tr>
+<tr class="memdesc:a58d1e0d8b3506eb852cb2e05ff1a95f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if symbol is part of a note sequence.  <a href="#a58d1e0d8b3506eb852cb2e05ff1a95f5">More...</a><br /></td></tr>
+<tr class="separator:a58d1e0d8b3506eb852cb2e05ff1a95f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f7ac2a7ae0bf974ce33905e7acb511"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#ab8f7ac2a7ae0bf974ce33905e7acb511">isNonNote</a> (<a class="el" href="namespaceBww.html#a3e78f1ce9898d7fcb3f7e7adfec046f1">Bww::Symbol</a> sym)</td></tr>
+<tr class="memdesc:ab8f7ac2a7ae0bf974ce33905e7acb511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if symbol is part of a non-note sequence.  <a href="#ab8f7ac2a7ae0bf974ce33905e7acb511">More...</a><br /></td></tr>
+<tr class="separator:ab8f7ac2a7ae0bf974ce33905e7acb511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a071034031467bda518ff6d920a5e24"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a1a071034031467bda518ff6d920a5e24">dumpBeams</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;measures)</td></tr>
+<tr class="memdesc:a1a071034031467bda518ff6d920a5e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump beams.  <a href="#a1a071034031467bda518ff6d920a5e24">More...</a><br /></td></tr>
+<tr class="separator:a1a071034031467bda518ff6d920a5e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b74e777d29eb35867147d6dde37763a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a5b74e777d29eb35867147d6dde37763a">dumpMeasures</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;measures)</td></tr>
+<tr class="memdesc:a5b74e777d29eb35867147d6dde37763a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump measure contents.  <a href="#a5b74e777d29eb35867147d6dde37763a">More...</a><br /></td></tr>
+<tr class="separator:a5b74e777d29eb35867147d6dde37763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33d681b3eb3c5cfdea6f38cfc0b19a3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#ac33d681b3eb3c5cfdea6f38cfc0b19a3">calculateMeasureDurations</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;measures)</td></tr>
+<tr class="memdesc:ac33d681b3eb3c5cfdea6f38cfc0b19a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate measure durations.  <a href="#ac33d681b3eb3c5cfdea6f38cfc0b19a3">More...</a><br /></td></tr>
+<tr class="separator:ac33d681b3eb3c5cfdea6f38cfc0b19a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b28a5dff6cc9dd4e8a4d906d47e5a68"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a3b28a5dff6cc9dd4e8a4d906d47e5a68">determineTimesig</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;measures, int &amp;beats, int &amp;beat)</td></tr>
+<tr class="memdesc:a3b28a5dff6cc9dd4e8a4d906d47e5a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine time signature.  <a href="#a3b28a5dff6cc9dd4e8a4d906d47e5a68">More...</a><br /></td></tr>
+<tr class="separator:a3b28a5dff6cc9dd4e8a4d906d47e5a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ff48682030c2e1ba592e3907abde95"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#ad1ff48682030c2e1ba592e3907abde95">findIrregularMeasures</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;measures, int beats, int beat)</td></tr>
+<tr class="memdesc:ad1ff48682030c2e1ba592e3907abde95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find irregular measures.  <a href="#ad1ff48682030c2e1ba592e3907abde95">More...</a><br /></td></tr>
+<tr class="separator:ad1ff48682030c2e1ba592e3907abde95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac979e0fb5f32a38e5c4cc579dbb6a26"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#aac979e0fb5f32a38e5c4cc579dbb6a26">setLastOfPart</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;measures)</td></tr>
+<tr class="memdesc:aac979e0fb5f32a38e5c4cc579dbb6a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mef.lastOfPart flag on last measure.  <a href="#aac979e0fb5f32a38e5c4cc579dbb6a26">More...</a><br /></td></tr>
+<tr class="separator:aac979e0fb5f32a38e5c4cc579dbb6a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada8f8d380a1177d0439e074d0d427006"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#ada8f8d380a1177d0439e074d0d427006">findNextNextNoteBeam</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;measures, int measureNr, int noteNr)</td></tr>
+<tr class="separator:ada8f8d380a1177d0439e074d0d427006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf1d27a4cd6384b436d3c71bdf752b0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#adcf1d27a4cd6384b436d3c71bdf752b0">type2beams</a> (QString type)</td></tr>
+<tr class="separator:adcf1d27a4cd6384b436d3c71bdf752b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fe122ff05feb4e0923e9fe3185a3fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a90fe122ff05feb4e0923e9fe3185a3fe">calculateHigherBeamStates</a> (<a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &amp;m)</td></tr>
+<tr class="separator:a90fe122ff05feb4e0923e9fe3185a3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a069e1af6774b712520a6b0719a679ae6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a069e1af6774b712520a6b0719a679ae6">determineBeamStates</a> (QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;measures)</td></tr>
+<tr class="memdesc:a069e1af6774b712520a6b0719a679ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine all beam states.  <a href="#a069e1af6774b712520a6b0719a679ae6">More...</a><br /></td></tr>
+<tr class="separator:a069e1af6774b712520a6b0719a679ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbdd696ed9ce32d108dbff3e7e5bd940"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceBww.html#acbdd696ed9ce32d108dbff3e7e5bd940">Bww::graceBeam</a> (const int size, const int index)</td></tr>
+<tr class="memdesc:acbdd696ed9ce32d108dbff3e7e5bd940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine beam for grace note <em>index</em> in a group of <em>size</em> grace notes.  <a href="namespaceBww.html#acbdd696ed9ce32d108dbff3e7e5bd940">More...</a><br /></td></tr>
+<tr class="separator:acbdd696ed9ce32d108dbff3e7e5bd940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3a0a55bdff6b1441606ab3a102b19f8b"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parser_8cpp.html#a3a0a55bdff6b1441606ab3a102b19f8b">WHOLE_MEASURE_DURATION</a> = 192</td></tr>
+<tr class="separator:a3a0a55bdff6b1441606ab3a102b19f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple parser for bww files. </p>
 <p>The file header is handled one line at a time, until a line starting with "&amp;" is found. The parser then builds measures from uinterrupted sequences of notes. </p>
-</div></div><!-- contents -->
+
+<p class="definition">Definition in file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a90fe122ff05feb4e0923e9fe3185a3fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90fe122ff05feb4e0923e9fe3185a3fe">&#9670;&nbsp;</a></span>calculateHigherBeamStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void calculateHigherBeamStates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00305">305</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac33d681b3eb3c5cfdea6f38cfc0b19a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac33d681b3eb3c5cfdea6f38cfc0b19a3">&#9670;&nbsp;</a></span>calculateMeasureDurations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void calculateMeasureDurations </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>measures</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate measure durations. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00157">157</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a069e1af6774b712520a6b0719a679ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a069e1af6774b712520a6b0719a679ae6">&#9670;&nbsp;</a></span>determineBeamStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void determineBeamStates </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>measures</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine all beam states. </p>
+<p>First for normal notes convert "r" and "l" in notes.beam into BM_BEGIN, BM_CONTINUE and BM_END in notes.beamList[0]. For grace notes "b", "c" and "e" can be directly converted into the corresponding beam states in notes.beamList[0]. Then calculate the higher level beams. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00392">392</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3b28a5dff6cc9dd4e8a4d906d47e5a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b28a5dff6cc9dd4e8a4d906d47e5a68">&#9670;&nbsp;</a></span>determineTimesig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void determineTimesig </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>measures</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>beats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>beat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine time signature. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00190">190</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1a071034031467bda518ff6d920a5e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a071034031467bda518ff6d920a5e24">&#9670;&nbsp;</a></span>dumpBeams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void dumpBeams </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>measures</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dump beams. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00070">70</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5b74e777d29eb35867147d6dde37763a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b74e777d29eb35867147d6dde37763a">&#9670;&nbsp;</a></span>dumpMeasures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void dumpMeasures </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>measures</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dump measure contents. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00115">115</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad1ff48682030c2e1ba592e3907abde95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1ff48682030c2e1ba592e3907abde95">&#9670;&nbsp;</a></span>findIrregularMeasures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void findIrregularMeasures </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>measures</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>beats</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>beat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find irregular measures. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00242">242</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ada8f8d380a1177d0439e074d0d427006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada8f8d380a1177d0439e074d0d427006">&#9670;&nbsp;</a></span>findNextNextNoteBeam()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QString findNextNextNoteBeam </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>measures</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>measureNr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>noteNr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00285">285</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab8f7ac2a7ae0bf974ce33905e7acb511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f7ac2a7ae0bf974ce33905e7acb511">&#9670;&nbsp;</a></span>isNonNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isNonNote </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceBww.html#a3e78f1ce9898d7fcb3f7e7adfec046f1">Bww::Symbol</a>&#160;</td>
+          <td class="paramname"><em>sym</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine if symbol is part of a non-note sequence. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00057">57</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a58d1e0d8b3506eb852cb2e05ff1a95f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d1e0d8b3506eb852cb2e05ff1a95f5">&#9670;&nbsp;</a></span>isNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isNote </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceBww.html#a3e78f1ce9898d7fcb3f7e7adfec046f1">Bww::Symbol</a>&#160;</td>
+          <td class="paramname"><em>sym</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine if symbol is part of a note sequence. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00045">45</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aac979e0fb5f32a38e5c4cc579dbb6a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac979e0fb5f32a38e5c4cc579dbb6a26">&#9670;&nbsp;</a></span>setLastOfPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setLastOfPart </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; <a class="el" href="structBww_1_1MeasureDescription.html">Bww::MeasureDescription</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>measures</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set mef.lastOfPart flag on last measure. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00272">272</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<a id="adcf1d27a4cd6384b436d3c71bdf752b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf1d27a4cd6384b436d3c71bdf752b0">&#9670;&nbsp;</a></span>type2beams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int type2beams </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00297">297</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a3a0a55bdff6b1441606ab3a102b19f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a0a55bdff6b1441606ab3a102b19f8b">&#9670;&nbsp;</a></span>WHOLE_MEASURE_DURATION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int WHOLE_MEASURE_DURATION = 192</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="parser_8cpp_source.html#l00039">39</a> of file <a class="el" href="parser_8cpp_source.html">parser.cpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

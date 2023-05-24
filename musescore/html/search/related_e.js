@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zitareverb',['ZitaReverb',['../class_ms_1_1_diff1.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Diff1::ZitaReverb()'],['../class_ms_1_1_filt1.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Filt1::ZitaReverb()'],['../class_ms_1_1_delay.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Delay::ZitaReverb()'],['../class_ms_1_1_vdelay.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Vdelay::ZitaReverb()']]]
+  ['zitareverb',['ZitaReverb',['../classMs_1_1Diff1.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Diff1::ZitaReverb()'],['../classMs_1_1Filt1.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Filt1::ZitaReverb()'],['../classMs_1_1Delay.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Delay::ZitaReverb()'],['../classMs_1_1Vdelay.html#a174ebfd5ad2853d19b5ec49485b195f0',1,'Ms::Vdelay::ZitaReverb()']]]
 ];

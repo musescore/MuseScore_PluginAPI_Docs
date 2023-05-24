@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xm',['XM',['../bracket_8cpp.html#af3322ad180c7d3abd0b74569a0862ed2',1,'bracket.cpp']]]
+  ['undo_5fname',['UNDO_NAME',['../undo_8h.html#a825ab14f0ff0838cc5aa4b793aea265d',1,'undo.h']]]
 ];

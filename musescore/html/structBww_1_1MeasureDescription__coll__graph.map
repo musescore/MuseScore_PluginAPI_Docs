@@ -1,0 +1,4 @@
+<map id="Bww::MeasureDescription" name="Bww::MeasureDescription">
+<area shape="rect" id="node2" href="$structBww_1_1MeasureEndFlags.html" title="The flags that need to be handled at the end of a measure. " alt="" coords="5,5,167,32"/>
+<area shape="rect" id="node3" href="$structBww_1_1MeasureBeginFlags.html" title="The flags that need to be handled at the beginning of a measure. " alt="" coords="191,5,362,32"/>
+</map>

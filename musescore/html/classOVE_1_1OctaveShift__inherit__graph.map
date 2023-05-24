@@ -1,0 +1,7 @@
+<map id="OVE::OctaveShift" name="OVE::OctaveShift">
+<area shape="rect" id="node2" href="$classOVE_1_1MusicData.html" title="OVE::MusicData" alt="" coords="160,80,276,107"/>
+<area shape="rect" id="node3" href="$classOVE_1_1TickElement.html" title="OVE::TickElement" alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node4" href="$classOVE_1_1PairElement.html" title="OVE::PairElement" alt="" coords="156,5,280,32"/>
+<area shape="rect" id="node5" href="$classOVE_1_1OffsetElement.html" title="OVE::OffsetElement" alt="" coords="305,5,443,32"/>
+<area shape="rect" id="node6" href="$classOVE_1_1LengthElement.html" title="OVE::LengthElement" alt="" coords="300,80,440,107"/>
+</map>

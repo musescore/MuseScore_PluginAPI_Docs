@@ -1,0 +1,40 @@
+<map id="Ms::VerticalGapData" name="Ms::VerticalGapData">
+<area shape="rect" id="node2" href="$classMs_1_1SysStaff.html" title="One staff in a System. " alt="" coords="1687,829,1784,856"/>
+<area shape="rect" id="node3" href="$classMs_1_1Skyline.html" title="Ms::Skyline" alt="" coords="1154,1117,1242,1144"/>
+<area shape="rect" id="node4" href="$classMs_1_1SkylineLine.html" title="Ms::SkylineLine" alt="" coords="809,1117,921,1144"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="20,1056,132,1083"/>
+<area shape="rect" id="node8" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="430,713,559,740"/>
+<area shape="rect" id="node7" href="$classMs_1_1Staff.html" title="Global staff data not directly related to drawing. " alt="" coords="1830,371,1906,397"/>
+<area shape="rect" id="node9" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="1827,1155,1909,1181"/>
+<area shape="rect" id="node16" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="817,676,912,703"/>
+<area shape="rect" id="node33" href="$classMs_1_1Part.html" title="Ms::Part" alt="" coords="829,220,900,247"/>
+<area shape="rect" id="node12" href="$classMs_1_1Excerpt.html" title="Ms::Excerpt" alt="" coords="2305,1060,2396,1087"/>
+<area shape="rect" id="node13" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="2070,1205,2193,1232"/>
+<area shape="rect" id="node20" href="$classMs_1_1Selection.html" title="Ms::Selection" alt="" coords="2081,1275,2182,1301"/>
+<area shape="rect" id="node14" href="$classMs_1_1MeasureBaseList.html" title="Ms::MeasureBaseList" alt="" coords="1489,952,1637,979"/>
+<area shape="rect" id="node15" href="$classMs_1_1MeasureBase.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="1135,837,1261,864"/>
+<area shape="rect" id="node41" href="$classMs_1_1TimeSig.html" title="This class represents a time signature. " alt="" coords="1151,464,1245,491"/>
+<area shape="rect" id="node46" href="$classMs_1_1System.html" title="One row of measures for all instruments; a complete piece of the timeline. " alt="" coords="1823,708,1913,735"/>
+<area shape="rect" id="node48" href="$classMs_1_1Spacer.html" title="Vertical spacer element to adjust the distance of staves. " alt="" coords="1340,627,1428,653"/>
+<area shape="rect" id="node17" href="$classMs_1_1Spatium.html" title="Ms::Spatium" alt="" coords="447,552,542,579"/>
+<area shape="rect" id="node44" href="$classMs_1_1StaffType.html" title="Ms::StaffType" alt="" coords="813,292,916,319"/>
+<area shape="rect" id="node18" href="$classMs_1_1InputState.html" title="Ms::InputState" alt="" coords="1509,1459,1616,1485"/>
+<area shape="rect" id="node19" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="1490,1053,1635,1080"/>
+<area shape="rect" id="node21" href="$classMs_1_1SpannerMap.html" title="Ms::SpannerMap" alt="" coords="1502,1155,1623,1181"/>
+<area shape="rect" id="node22" href="$classMs_1_1UpdateState.html" title="Ms::UpdateState" alt="" coords="1503,1205,1622,1232"/>
+<area shape="rect" id="node25" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="1505,1256,1620,1283"/>
+<area shape="rect" id="node26" href="$classMs_1_1Audio.html" title="Ms::Audio" alt="" coords="1521,1307,1604,1333"/>
+<area shape="rect" id="node27" href="$classMs_1_1LinkedElements.html" title="Ms::LinkedElements" alt="" coords="5,713,147,740"/>
+<area shape="rect" id="node28" href="$classMs_1_1PitchList.html" title="PitchList List of note pitch offsets. " alt="" coords="1514,191,1611,217"/>
+<area shape="rect" id="node30" href="$classMs_1_1ChangeMap.html" title="Ms::ChangeMap" alt="" coords="806,83,923,109"/>
+<area shape="rect" id="node34" href="$classMs_1_1InstrumentList.html" title="Ms::InstrumentList" alt="" coords="429,220,561,247"/>
+<area shape="rect" id="node35" href="$structMs_1_1ClefTypeList.html" title="Ms::ClefTypeList" alt="" coords="1503,395,1622,421"/>
+<area shape="rect" id="node36" href="$classMs_1_1ClefList.html" title="Ms::ClefList" alt="" coords="1517,344,1609,371"/>
+<area shape="rect" id="node37" title="STL class. " alt="" coords="1105,351,1291,377"/>
+<area shape="rect" id="node38" href="$classMs_1_1KeyList.html" title="Ms::KeyList" alt="" coords="1518,515,1607,541"/>
+<area shape="rect" id="node39" title="STL class. " alt="" coords="1130,515,1266,557"/>
+<area shape="rect" id="node42" title="STL class. " alt="" coords="807,351,922,377"/>
+<area shape="rect" id="node43" href="$classMs_1_1StaffTypeList.html" title="Ms::StaffTypeList" alt="" coords="1501,292,1625,319"/>
+<area shape="rect" id="node49" href="$classMs_1_1SystemDivider.html" title="Ms::SystemDivider" alt="" coords="1497,733,1629,760"/>
+<area shape="rect" id="node50" href="$classMs_1_1Symbol.html" title="Symbol constructed from builtin symbol. " alt="" coords="1153,733,1243,760"/>
+</map>

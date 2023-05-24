@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -67,7 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">measure.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,7 +76,8 @@ $(function() {
 
 <p>Implementation of most part of class Measure.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="measure_8h_source.html">measure.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;global/log.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="measure_8h_source.html">measure.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="accidental_8h_source.html">accidental.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ambitus_8h_source.html">ambitus.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="articulation_8h_source.html">articulation.h</a>&quot;</code><br />
@@ -119,11 +121,12 @@ $(function() {
 <code>#include &quot;<a class="el" href="stafftext_8h_source.html">stafftext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stafftype_8h_source.html">stafftype.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringdata_8h_source.html">stringdata.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="system_8h_source.html">system.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tempotext_8h_source.html">tempotext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measurenumber_8h_source.html">measurenumber.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mmrestrange_8h_source.html">mmrestrange.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2tie_8h_source.html">tie.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tiemap_8h_source.html">tiemap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timesig_8h_source.html">timesig.h</a>&quot;</code><br />
@@ -138,24 +141,33 @@ $(function() {
 <code>#include &quot;<a class="el" href="systemdivider_8h_source.html">systemdivider.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stafftypechange_8h_source.html">stafftypechange.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stafflines_8h_source.html">stafflines.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="bracket_item_8h_source.html">bracketItem.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<code>#include &quot;<a class="el" href="bracketItem_8h_source.html">bracketItem.h</a>&quot;</code><br />
+</div>
+<p><a href="measure_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_m_staff.html">Ms::MStaff</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per staff values of measure.  <a href="class_ms_1_1_m_staff.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MStaff.html">Ms::MStaff</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per staff values of measure.  <a href="classMs_1_1MStaff.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_ac_el.html">Ms::AcEl</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1AcEl.html">Ms::AcEl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad2a2f5405a9d59892e10d5c67530c4bf"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad2a2f5405a9d59892e10d5c67530c4bf">Ms::hasAccidental</a> (Segment *s)</td></tr>
+<tr class="separator:ad2a2f5405a9d59892e10d5c67530c4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of most part of class Measure. </p>
+
+<p class="definition">Definition in file <a class="el" href="measure_8cpp_source.html">measure.cpp</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

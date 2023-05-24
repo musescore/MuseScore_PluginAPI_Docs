@@ -1,0 +1,16 @@
+<map id="Ms::PowerTab::ptTrack" name="Ms::PowerTab::ptTrack">
+<area shape="rect" id="node3" href="$structMs_1_1PowerTab_1_1ptChord.html" title="Ms::PowerTab::ptChord" alt="" coords="997,167,1155,193"/>
+<area shape="rect" id="node4" href="$structMs_1_1PowerTab_1_1ptComponent.html" title="Ms::PowerTab::ptComponent" alt="" coords="541,252,733,279"/>
+<area shape="rect" id="node16" href="$structMs_1_1PowerTab_1_1ptGuitarIn.html" title="Ms::PowerTab::ptGuitarIn" alt="" coords="991,268,1161,295"/>
+<area shape="rect" id="node25" href="$structMs_1_1PowerTab_1_1ptChordText.html" title="Ms::PowerTab::ptChordText" alt="" coords="984,217,1168,244"/>
+<area shape="rect" id="node27" href="$structMs_1_1PowerTab_1_1stRhytmSlash.html" title="Ms::PowerTab::stRhytmSlash" alt="" coords="980,351,1172,377"/>
+<area shape="rect" id="node12" href="$structMs_1_1PowerTab_1_1TrackInfo.html" title="Ms::PowerTab::TrackInfo" alt="" coords="992,851,1160,877"/>
+<area shape="rect" id="node19" href="$structMs_1_1PowerTab_1_1ptSection.html" title="Ms::PowerTab::ptSection" alt="" coords="1745,523,1912,549"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="155,625,267,652"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="1019,112,1133,139"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="1030,428,1122,455"/>
+<area shape="rect" id="node8" href="$structMs_1_1PowerTab_1_1chordData.html" title="Ms::PowerTab::chordData" alt="" coords="989,5,1163,32"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="597,821,677,848"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="149,814,273,855"/>
+<area shape="rect" id="node21" href="$structMs_1_1PowerTab_1_1ptPosition.html" title="Ms::PowerTab::ptPosition" alt="" coords="991,572,1161,599"/>
+</map>

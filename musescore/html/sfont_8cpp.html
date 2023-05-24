@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: fluid/sfont.cpp File Reference</title>
+<title>MuseScore: audio/midi/fluid/sfont.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,12 +61,14 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_303265fe8efefb9df6ce62568babadc3.html">fluid</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a5f32cf82ad289a7dac212f63f40f55b.html">audio</a></li><li class="navelem"><a class="el" href="dir_3824a7ec5b12b565edaf034255c94bb9.html">midi</a></li><li class="navelem"><a class="el" href="dir_e6402aa4346238d95173d57d5c26ba4d.html">fluid</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">sfont.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -78,45 +80,101 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sfont.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="sfont_8cpp__incl.png" border="0" usemap="#fluid_2sfont_8cpp" alt=""/></div>
-<map name="fluid_2sfont_8cpp" id="fluid_2sfont_8cpp">
-<area shape="rect" id="node2" href="sfont_8h.html" title="sfont.h" alt="" coords="922,80,985,107"/>
-<area shape="rect" id="node4" href="fluid_8h.html" title="fluid.h" alt="" coords="1018,155,1075,181"/>
-<area shape="rect" id="node9" href="fluid_2voice_8h.html" title="voice.h" alt="" coords="1060,80,1124,107"/>
-<area shape="rect" id="node11" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="681,80,796,107"/>
-<area shape="rect" id="node5" href="synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="1163,229,1333,256"/>
-<area shape="rect" id="node8" href="midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="979,229,1139,256"/>
-<area shape="rect" id="node6" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="1153,304,1343,331"/>
-<area shape="rect" id="node10" href="gen_8h.html" title="gen.h" alt="" coords="1099,155,1154,181"/>
-<area shape="rect" id="node12" href="connector_8h.html" title="connector.h" alt="" coords="813,453,904,480"/>
-<area shape="rect" id="node20" href="stafftype_8h.html" title="stafftype.h" alt="" coords="651,155,735,181"/>
-<area shape="rect" id="node21" href="element_8h.html" title="element.h" alt="" coords="585,528,663,555"/>
-<area shape="rect" id="node32" href="interval_8h.html" title="interval.h" alt="" coords="552,155,627,181"/>
-<area shape="rect" id="node33" href="select_8h.html" title="select.h" alt="" coords="185,155,253,181"/>
-<area shape="rect" id="node13" href="location_8h.html" title="location.h" alt="" coords="774,528,853,555"/>
-<area shape="rect" id="node18" href="types_8h.html" title="types.h" alt="" coords="641,827,706,853"/>
-<area shape="rect" id="node14" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="458,603,534,629"/>
-<area shape="rect" id="node15" href="mscore_8h.html" title="mscore.h" alt="" coords="253,677,329,704"/>
-<area shape="rect" id="node16" href="style_8h.html" title="style.h" alt="" coords="552,752,613,779"/>
-<area shape="rect" id="node17" href="chordlist_8h.html" title="chordlist.h" alt="" coords="533,827,616,853"/>
-<area shape="rect" id="node22" href="spatium_8h.html" title="spatium.h" alt="" coords="671,603,750,629"/>
-<area shape="rect" id="node25" href="durationtype_8h.html" title="durationtype.h" alt="" coords="268,229,372,256"/>
-<area shape="rect" id="node23" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="567,677,681,704"/>
-<area shape="rect" id="node24" href="shape_8h.html" title="shape.h" alt="" coords="298,603,366,629"/>
-<area shape="rect" id="node26" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="333,304,392,331"/>
-<area shape="rect" id="node27" href="symbol_8h.html" title="symbol.h" alt="" coords="325,379,400,405"/>
-<area shape="rect" id="node29" href="noteevent_8h.html" title="noteevent.h" alt="" coords="504,379,595,405"/>
-<area shape="rect" id="node30" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="43,379,149,405"/>
-<area shape="rect" id="node31" href="key_8h.html" title="key.h" alt="" coords="425,379,479,405"/>
-<area shape="rect" id="node28" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="419,453,501,480"/>
+<div class="center"><img src="sfont_8cpp__incl.png" border="0" usemap="#audio_2midi_2fluid_2sfont_8cpp" alt=""/></div>
+<map name="audio_2midi_2fluid_2sfont_8cpp" id="audio_2midi_2fluid_2sfont_8cpp">
+<area shape="rect" id="node2" href="sfont_8h.html" title="sfont.h" alt="" coords="1143,80,1207,107"/>
+<area shape="rect" id="node4" href="fluid_8h.html" title="fluid.h" alt="" coords="1228,155,1287,181"/>
+<area shape="rect" id="node9" href="fluid_2voice_8h.html" title="voice.h" alt="" coords="1281,80,1345,107"/>
+<area shape="rect" id="node11" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="795,80,914,107"/>
+<area shape="rect" id="node5" href="synthesizer_8h.html" title="audio/midi/synthesizer.h" alt="" coords="1199,229,1369,256"/>
+<area shape="rect" id="node8" href="midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="1393,229,1556,256"/>
+<area shape="rect" id="node6" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="1199,304,1393,331"/>
+<area shape="rect" id="node10" href="gen_8h.html" title="gen.h" alt="" coords="1311,155,1366,181"/>
+<area shape="rect" id="node13" href="connector_8h.html" title="connector.h" alt="" coords="77,528,169,555"/>
+<area shape="rect" id="node21" href="stafftype_8h.html" title="stafftype.h" alt="" coords="596,155,681,181"/>
+<area shape="rect" id="node22" href="element_8h.html" title="element.h" alt="" coords="536,528,616,555"/>
+<area shape="rect" id="node38" href="interval_8h.html" title="interval.h" alt="" coords="817,155,892,181"/>
+<area shape="rect" id="node39" href="select_8h.html" title="select.h" alt="" coords="973,155,1041,181"/>
+<area shape="rect" id="node14" href="location_8h.html" title="location.h" alt="" coords="5,603,85,629"/>
+<area shape="rect" id="node19" href="types_8h.html" title="types.h" alt="" coords="345,901,409,928"/>
+<area shape="rect" id="node15" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="738,677,817,704"/>
+<area shape="rect" id="node16" href="mscore_8h.html" title="mscore.h" alt="" coords="827,752,906,779"/>
+<area shape="rect" id="node17" href="libmscore_2style_8h.html" title="style.h" alt="" coords="442,827,502,853"/>
+<area shape="rect" id="node18" href="chordlist_8h.html" title="chordlist.h" alt="" coords="434,901,518,928"/>
+<area shape="rect" id="node24" href="spatium_8h.html" title="spatium.h" alt="" coords="303,603,383,629"/>
+<area shape="rect" id="node31" href="durationtype_8h.html" title="durationtype.h" alt="" coords="735,229,841,256"/>
+<area shape="rect" id="node32" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="561,304,620,331"/>
+<area shape="rect" id="node23" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="626,603,739,629"/>
+<area shape="rect" id="node25" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="320,752,435,779"/>
+<area shape="rect" id="node26" href="shape_8h.html" title="shape.h" alt="" coords="407,603,475,629"/>
+<area shape="rect" id="node27" href="sig_8h.html" title="sig.h" alt="" coords="551,603,601,629"/>
+<area shape="rect" id="node28" href="sym_8h.html" title="sym.h" alt="" coords="220,603,279,629"/>
+<area shape="rect" id="node33" href="symbol_8h.html" title="symbol.h" alt="" coords="445,379,521,405"/>
+<area shape="rect" id="node35" href="noteevent_8h.html" title="noteevent.h" alt="" coords="545,379,636,405"/>
+<area shape="rect" id="node36" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="967,379,1073,405"/>
+<area shape="rect" id="node37" href="key_8h.html" title="key.h" alt="" coords="316,453,369,480"/>
+<area shape="rect" id="node34" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="531,453,613,480"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="sfont_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_fluid_s"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fluid_s.html">FluidS</a></td></tr>
+<tr class="memitem:namespaceFluidS"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html">FluidS</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acbadb5516dce2701dfaac086895e8eb1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#acbadb5516dce2701dfaac086895e8eb1">FluidS::chunkid</a> (unsigned int id)</td></tr>
+<tr class="separator:acbadb5516dce2701dfaac086895e8eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a734c1460da67ee5e488cfd4acbb05d2d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a734c1460da67ee5e488cfd4acbb05d2d">FluidS::preset_compare</a> (<a class="el" href="classPreset.html">Preset</a> *a, <a class="el" href="classPreset.html">Preset</a> *b)</td></tr>
+<tr class="separator:a734c1460da67ee5e488cfd4acbb05d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb800ff15bd3d75dde57bb35853dd8ff"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#aeb800ff15bd3d75dde57bb35853dd8ff">FluidS::gen_valid</a> (int gen)</td></tr>
+<tr class="separator:aeb800ff15bd3d75dde57bb35853dd8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0adbbb9b8ac063ad11d2d1d5a7d39bb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#ac0adbbb9b8ac063ad11d2d1d5a7d39bb">FluidS::gen_validp</a> (int gen)</td></tr>
+<tr class="separator:ac0adbbb9b8ac063ad11d2d1d5a7d39bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e3ed73eaeee1e0f5296d4855f77b57"><td class="memItemLeft" align="right" valign="top">static SFGen *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#ad0e3ed73eaeee1e0f5296d4855f77b57">FluidS::gen_inlist</a> (int gen, const QList&lt; SFGen *&gt; &amp;genlist)</td></tr>
+<tr class="separator:ad0e3ed73eaeee1e0f5296d4855f77b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31554d5e974cfc7caa424ec9ca177cf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#ac31554d5e974cfc7caa424ec9ca177cf">FluidS::sfont_zone_delete</a> (QList&lt; <a class="el" href="structZone.html">Zone</a> *&gt; *l, <a class="el" href="structZone.html">Zone</a> *zone)</td></tr>
+<tr class="separator:ac31554d5e974cfc7caa424ec9ca177cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa3cee5bb562891fe08f778861a9a3b8d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sfont_8cpp.html#aa3cee5bb562891fe08f778861a9a3b8d">debugMode</a> = false</td></tr>
+<tr class="separator:aa3cee5bb562891fe08f778861a9a3b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af289fe2b4aeb6da67b856ea0a743cb46"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#af289fe2b4aeb6da67b856ea0a743cb46">FluidS::idlist</a> []</td></tr>
+<tr class="separator:af289fe2b4aeb6da67b856ea0a743cb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f8826c1a92ca7b81964380734dce7b"><td class="memItemLeft" align="right" valign="top">static const unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a42f8826c1a92ca7b81964380734dce7b">FluidS::badgen</a> []</td></tr>
+<tr class="separator:a42f8826c1a92ca7b81964380734dce7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6093a4838d0b3b39217c798d63bc2fa"><td class="memItemLeft" align="right" valign="top">static const unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#ab6093a4838d0b3b39217c798d63bc2fa">FluidS::badpgen</a> []</td></tr>
+<tr class="separator:ab6093a4838d0b3b39217c798d63bc2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aa3cee5bb562891fe08f778861a9a3b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3cee5bb562891fe08f778861a9a3b8d">&#9670;&nbsp;</a></span>debugMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool debugMode = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="sfont_8cpp_source.html#l00032">32</a> of file <a class="el" href="sfont_8cpp_source.html">sfont.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

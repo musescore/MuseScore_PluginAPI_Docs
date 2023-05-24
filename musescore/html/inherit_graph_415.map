@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_score_range.html" title="Ms::ScoreRange" alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node1" href="$classMs_1_1PianoLevelsFilter.html" title="Ms::PianoLevelsFilter" alt="" coords="5,107,152,133"/>
+<area shape="rect" id="node2" href="$classMs_1_1PianoLevelFilterLenMultiplier.html" title="Ms::PianoLevelFilterLenMultiplier" alt="" coords="204,5,419,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1PianoLevelFilterLenWholenote.html" title="Ms::PianoLevelFilterLenWholenote" alt="" coords="200,56,423,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1PianoLevelFilterOnTime.html" title="Ms::PianoLevelFilterOnTime" alt="" coords="219,107,404,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1PianoLevelFilterVeloOffset.html" title="Ms::PianoLevelFilterVelo\lOffset" alt="" coords="229,158,394,199"/>
+<area shape="rect" id="node6" href="$classMs_1_1PianoLevelFilterVeloUser.html" title="Ms::PianoLevelFilterVeloUser" alt="" coords="215,224,408,251"/>
 </map>

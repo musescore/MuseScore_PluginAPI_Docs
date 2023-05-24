@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_staff_name.html" title="Ms::StaffName" alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1RawScoreDiffModel.html" title="Ms::RawScoreDiffModel" alt="" coords="201,5,368,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1ScoreDiffModel.html" title="Ms::ScoreDiffModel" alt="" coords="214,56,355,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1ScoreListModel.html" title="Ms::ScoreListModel" alt="" coords="215,107,355,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1ScoreOrderListModel.html" title="Ms::ScoreOrderListModel" alt="" coords="198,157,371,184"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreVersionListModel.html" title="Ms::ScoreVersionListModel" alt="" coords="192,208,377,235"/>
 </map>

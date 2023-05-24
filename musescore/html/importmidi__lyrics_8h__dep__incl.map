@@ -1,5 +1,5 @@
-<map id="mscore/importmidi/importmidi_lyrics.h" name="mscore/importmidi/importmidi_lyrics.h">
-<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="5,102,224,129"/>
-<area shape="rect" id="node3" href="$importmidi__lyrics_8cpp.html" title="mscore/importmidi/importmidi\l_lyrics.cpp" alt="" coords="249,95,442,136"/>
-<area shape="rect" id="node4" href="$importmidi__panel_8cpp.html" title="mscore/importmidi/importmidi\l_panel.cpp" alt="" coords="466,95,659,136"/>
+<map id="importexport/midiimport/importmidi_lyrics.h" name="importexport/midiimport/importmidi_lyrics.h">
+<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="importexport/midiimport\l/importmidi.cpp" alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node3" href="$importmidi__lyrics_8cpp.html" title="importexport/midiimport\l/importmidi_lyrics.cpp" alt="" coords="200,95,371,136"/>
+<area shape="rect" id="node4" href="$importmidi__panel_8cpp.html" title="mscore/importmidi_ui\l/importmidi_panel.cpp" alt="" coords="395,95,549,136"/>
 </map>

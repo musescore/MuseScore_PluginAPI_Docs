@@ -1,9 +1,0 @@
-<map id="Ms::ZitaReverb" name="Ms::ZitaReverb">
-<area shape="rect" id="node2" href="$class_ms_1_1_effect.html" title="Ms::Effect" alt="" coords="118,81,201,108"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_effect_gui.html" title="Ms::EffectGui" alt="" coords="35,185,137,212"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_filt1.html" title="Ms::Filt1" alt="" coords="225,81,299,108"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_diff1.html" title="Ms::Diff1" alt="" coords="323,81,399,108"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_vdelay.html" title="Ms::Vdelay" alt="" coords="423,81,511,108"/>
-<area shape="rect" id="node9" href="$class_ms_1_1_pareq.html" title="Ms::Pareq" alt="" coords="535,81,618,108"/>
-<area shape="rect" id="node10" href="$class_ms_1_1_delay.html" title="Ms::Delay" alt="" coords="642,81,725,108"/>
-</map>

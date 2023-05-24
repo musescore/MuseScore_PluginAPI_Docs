@@ -1,0 +1,13 @@
+<map id="Ms::PaletteQmlInterface" name="Ms::PaletteQmlInterface">
+<area shape="rect" id="node3" href="$classMs_1_1QmlNativeToolTip.html" title="Ms::QmlNativeToolTip" alt="" coords="2129,43,2281,69"/>
+<area shape="rect" id="node4" href="$classMs_1_1PaletteWorkspace.html" title="Ms::PaletteWorkspace" alt="" coords="2733,191,2888,217"/>
+<area shape="rect" id="node7" href="$classMs_1_1PaletteCellFilter.html" title="Interface for filtering elements in a palette. " alt="" coords="1939,183,2077,209"/>
+<area shape="rect" id="node20" href="$classMs_1_1AbstractPaletteController.html" title="Ms::AbstractPaletteController" alt="" coords="1911,284,2105,311"/>
+<area shape="rect" id="node5" href="$classMs_1_1FilterPaletteTreeModel.html" title="Ms::FilterPaletteTreeModel" alt="" coords="2305,191,2484,217"/>
+<area shape="rect" id="node8" href="$classMs_1_1PaletteTreeModel.html" title="Ms::PaletteTreeModel" alt="" coords="1933,341,2083,368"/>
+<area shape="rect" id="node19" href="$classMs_1_1UserPaletteController.html" title="Ms::UserPaletteController" alt="" coords="2308,261,2481,288"/>
+<area shape="rect" id="node11" href="$structMs_1_1PaletteTree.html" title="Ms::PaletteTree" alt="" coords="1464,339,1576,365"/>
+<area shape="rect" id="node14" href="$classMs_1_1PalettePanel.html" title="Ms::PalettePanel" alt="" coords="657,257,775,284"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="149,324,261,351"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="648,385,784,412"/>
+</map>

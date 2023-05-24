@@ -1,6 +1,6 @@
 <map id="mscore/inspector/inspectorplugin.h" name="mscore/inspector/inspectorplugin.h">
-<area shape="rect" id="node3" href="$mscore_8h.html" title="libmscore/mscore.h" alt="" coords="227,87,363,114"/>
-<area shape="rect" id="node5" href="$style_8h.html" title="style.h" alt="" coords="304,169,365,196"/>
-<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="293,244,376,271"/>
-<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="401,244,466,271"/>
+<area shape="rect" id="node3" href="$mscore_8h.html" title="libmscore/mscore.h" alt="" coords="225,87,368,114"/>
+<area shape="rect" id="node5" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="307,169,367,196"/>
+<area shape="rect" id="node6" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="295,244,379,271"/>
+<area shape="rect" id="node7" href="$types_8h.html" title="types.h" alt="" coords="403,244,467,271"/>
 </map>

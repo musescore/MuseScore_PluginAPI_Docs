@@ -1,8 +1,8 @@
 <map id="mscore/excerptsdialog.h" name="mscore/excerptsdialog.h">
-<area shape="rect" id="node3" href="$libmscore_2excerpt_8h.html" title="libmscore/excerpt.h" alt="" coords="165,80,301,107"/>
-<area shape="rect" id="node4" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="143,155,219,181"/>
-<area shape="rect" id="node6" href="$mscore_8h.html" title="mscore.h" alt="" coords="181,229,257,256"/>
-<area shape="rect" id="node7" href="$style_8h.html" title="style.h" alt="" coords="242,304,303,331"/>
-<area shape="rect" id="node8" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="231,379,314,405"/>
-<area shape="rect" id="node9" href="$types_8h.html" title="types.h" alt="" coords="339,379,404,405"/>
+<area shape="rect" id="node3" href="$libmscore_2excerpt_8h.html" title="libmscore/excerpt.h" alt="" coords="164,80,304,107"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="248,155,327,181"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="287,229,365,256"/>
+<area shape="rect" id="node8" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="349,304,409,331"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="337,379,421,405"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="446,379,510,405"/>
 </map>

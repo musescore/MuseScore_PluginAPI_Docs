@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_chordname.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_chordname.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,82 +80,84 @@ $(function() {
 <code>#include &quot;<a class="el" href="staff_8h_source.html">libmscore/staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measure_8h_source.html">libmscore/measure.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="harmony_8h_source.html">libmscore/harmony.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="midifile_8h_source.html">midi/midifile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="audio_2midi_2midifile_8h_source.html">audio/midi/midifile.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="importmidi__operations_8h_source.html">importmidi_operations.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_chordname.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__chordname_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__chordname_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__chordname_8cpp" id="mscore_2importmidi_2importmidi__chordname_8cpp">
-<area shape="rect" id="node2" href="importmidi__chordname_8h.html" title="importmidi_chordname.h" alt="" coords="151,95,315,121"/>
-<area shape="rect" id="node3" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="289,169,417,196"/>
-<area shape="rect" id="node4" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="637,244,769,271"/>
-<area shape="rect" id="node5" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="605,393,748,420"/>
-<area shape="rect" id="node16" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2007,169,2133,196"/>
-<area shape="rect" id="node35" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="1085,169,1204,196"/>
-<area shape="rect" id="node43" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="1537,95,1680,121"/>
-<area shape="rect" id="node46" href="harmony_8h.html" title="libmscore/harmony.h" alt="" coords="1219,95,1361,121"/>
-<area shape="rect" id="node48" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="497,169,600,196"/>
-<area shape="rect" id="node50" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="390,95,550,121"/>
-<area shape="rect" id="node9" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="637,319,769,345"/>
-<area shape="rect" id="node11" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="5,244,159,271"/>
-<area shape="rect" id="node6" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="1151,468,1287,495"/>
-<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="1737,543,1813,569"/>
-<area shape="rect" id="node17" href="input_8h.html" title="input.h" alt="" coords="1570,244,1631,271"/>
-<area shape="rect" id="node20" href="property_8h.html" title="property.h" alt="" coords="1607,393,1687,420"/>
-<area shape="rect" id="node21" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="2211,244,2305,271"/>
-<area shape="rect" id="node29" href="select_8h.html" title="select.h" alt="" coords="2453,319,2521,345"/>
-<area shape="rect" id="node31" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1801,244,1931,271"/>
-<area shape="rect" id="node32" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1955,244,2057,271"/>
-<area shape="rect" id="node33" href="spannermap_8h.html" title="spannermap.h" alt="" coords="2082,244,2186,271"/>
-<area shape="rect" id="node34" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="2472,244,2572,271"/>
-<area shape="rect" id="node18" href="durationtype_8h.html" title="durationtype.h" alt="" coords="1479,393,1583,420"/>
-<area shape="rect" id="node19" href="beam_8h.html" title="beam.h" alt="" coords="1565,319,1631,345"/>
-<area shape="rect" id="node22" href="stringdata_8h.html" title="stringdata.h" alt="" coords="1978,319,2069,345"/>
-<area shape="rect" id="node23" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="2093,319,2180,345"/>
-<area shape="rect" id="node24" href="event_8h.html" title="synthesizer/event.h" alt="" coords="895,319,1031,345"/>
-<area shape="rect" id="node25" href="interval_8h.html" title="interval.h" alt="" coords="2205,319,2279,345"/>
-<area shape="rect" id="node26" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1808,319,1863,345"/>
-<area shape="rect" id="node30" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="2416,393,2521,420"/>
-<area shape="rect" id="node36" href="velo_8h.html" title="Definition of classes VeloList. " alt="" coords="941,244,999,271"/>
-<area shape="rect" id="node37" href="pitch_8h.html" title="pitch.h" alt="" coords="1023,244,1085,271"/>
-<area shape="rect" id="node38" href="cleflist_8h.html" title="cleflist.h" alt="" coords="1707,244,1777,271"/>
-<area shape="rect" id="node39" href="keylist_8h.html" title="keylist.h" alt="" coords="1109,244,1180,271"/>
-<area shape="rect" id="node40" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="1205,244,1306,271"/>
-<area shape="rect" id="node41" href="groups_8h.html" title="groups.h" alt="" coords="845,244,917,271"/>
-<area shape="rect" id="node42" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1331,244,1444,271"/>
-<area shape="rect" id="node44" href="measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="2277,169,2388,196"/>
-<area shape="rect" id="node45" href="segmentlist_8h.html" title="segmentlist.h" alt="" coords="2648,169,2748,196"/>
-<area shape="rect" id="node47" href="text_8h.html" title="text.h" alt="" coords="1263,169,1317,196"/>
-<area shape="rect" id="node49" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="457,393,568,420"/>
+<div class="center"><img src="importmidi__chordname_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__chordname_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__chordname_8cpp" id="importexport_2midiimport_2importmidi__chordname_8cpp">
+<area shape="rect" id="node2" href="importmidi__chordname_8h.html" title="importmidi_chordname.h" alt="" coords="880,95,1051,121"/>
+<area shape="rect" id="node3" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="2214,169,2346,196"/>
+<area shape="rect" id="node4" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="1987,244,2125,271"/>
+<area shape="rect" id="node5" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="2028,393,2177,420"/>
+<area shape="rect" id="node16" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="465,169,596,196"/>
+<area shape="rect" id="node34" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="1425,169,1551,196"/>
+<area shape="rect" id="node42" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="1681,95,1829,121"/>
+<area shape="rect" id="node45" href="harmony_8h.html" title="libmscore/harmony.h" alt="" coords="1125,95,1275,121"/>
+<area shape="rect" id="node48" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="2024,169,2171,196"/>
+<area shape="rect" id="node50" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="2070,95,2237,121"/>
+<area shape="rect" id="node9" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="2093,319,2229,345"/>
+<area shape="rect" id="node11" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="2554,244,2713,271"/>
+<area shape="rect" id="node6" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="1541,468,1683,495"/>
+<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="823,543,902,569"/>
+<area shape="rect" id="node17" href="input_8h.html" title="input.h" alt="" coords="773,244,835,271"/>
+<area shape="rect" id="node20" href="property_8h.html" title="property.h" alt="" coords="705,393,786,420"/>
+<area shape="rect" id="node21" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="267,244,363,271"/>
+<area shape="rect" id="node27" href="select_8h.html" title="select.h" alt="" coords="713,319,781,345"/>
+<area shape="rect" id="node29" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="569,244,698,271"/>
+<area shape="rect" id="node30" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="139,244,242,271"/>
+<area shape="rect" id="node31" href="spannermap_8h.html" title="spannermap.h" alt="" coords="387,244,493,271"/>
+<area shape="rect" id="node32" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="859,244,959,271"/>
+<area shape="rect" id="node33" href="sym_8h.html" title="sym.h" alt="" coords="5,468,64,495"/>
+<area shape="rect" id="node18" href="durationtype_8h.html" title="durationtype.h" alt="" coords="939,393,1045,420"/>
+<area shape="rect" id="node19" href="beam_8h.html" title="beam.h" alt="" coords="928,319,995,345"/>
+<area shape="rect" id="node24" href="stringdata_8h.html" title="stringdata.h" alt="" coords="279,319,371,345"/>
+<area shape="rect" id="node25" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="395,319,482,345"/>
+<area shape="rect" id="node26" href="event_8h.html" title="audio/midi/event.h" alt="" coords="1782,319,1917,345"/>
+<area shape="rect" id="node28" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="810,393,915,420"/>
+<area shape="rect" id="node35" href="changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="1605,393,1707,420"/>
+<area shape="rect" id="node36" href="pitch_8h.html" title="pitch.h" alt="" coords="1275,244,1336,271"/>
+<area shape="rect" id="node37" href="cleflist_8h.html" title="cleflist.h" alt="" coords="1175,468,1247,495"/>
+<area shape="rect" id="node38" href="keylist_8h.html" title="keylist.h" alt="" coords="1361,244,1431,271"/>
+<area shape="rect" id="node39" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="1455,244,1558,271"/>
+<area shape="rect" id="node40" href="groups_8h.html" title="groups.h" alt="" coords="1582,244,1655,271"/>
+<area shape="rect" id="node41" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="1085,244,1200,271"/>
+<area shape="rect" id="node43" href="measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="1289,169,1401,196"/>
+<area shape="rect" id="node44" href="segmentlist_8h.html" title="segmentlist.h" alt="" coords="1760,169,1861,196"/>
+<area shape="rect" id="node46" href="text_8h.html" title="text.h" alt="" coords="1055,169,1110,196"/>
+<area shape="rect" id="node47" href="realizedharmony_8h.html" title="realizedharmony.h" alt="" coords="1135,169,1265,196"/>
+<area shape="rect" id="node49" href="sig_8h.html" title="sig.h" alt="" coords="2295,393,2345,420"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__chordname_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_midi_chord_name"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html">Ms::MidiChordName</a></td></tr>
+<tr class="memitem:namespaceMs_1_1MidiChordName"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html">Ms::MidiChordName</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af47ac578772987b9275b224091119214"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#af47ac578772987b9275b224091119214">Ms::MidiChordName::readFirstHalf</a> (uchar byte)</td></tr>
+<tr class="memitem:af47ac578772987b9275b224091119214"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#af47ac578772987b9275b224091119214">Ms::MidiChordName::readFirstHalf</a> (uchar byte)</td></tr>
 <tr class="separator:af47ac578772987b9275b224091119214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51227a574fe330499b281f4eca52a0b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#a51227a574fe330499b281f4eca52a0b8">Ms::MidiChordName::readSecondHalf</a> (uchar byte)</td></tr>
+<tr class="memitem:a51227a574fe330499b281f4eca52a0b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#a51227a574fe330499b281f4eca52a0b8">Ms::MidiChordName::readSecondHalf</a> (uchar byte)</td></tr>
 <tr class="separator:a51227a574fe330499b281f4eca52a0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74fdefae514b9d9f62510887ec899f3d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#a74fdefae514b9d9f62510887ec899f3d">Ms::MidiChordName::readChordRoot</a> (uchar byte)</td></tr>
+<tr class="memitem:a74fdefae514b9d9f62510887ec899f3d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#a74fdefae514b9d9f62510887ec899f3d">Ms::MidiChordName::readChordRoot</a> (uchar byte)</td></tr>
 <tr class="separator:a74fdefae514b9d9f62510887ec899f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19bd25d31361454c6f91f0f6e9b47745"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#a19bd25d31361454c6f91f0f6e9b47745">Ms::MidiChordName::readChordType</a> (uchar chordTypeIndex)</td></tr>
+<tr class="memitem:a19bd25d31361454c6f91f0f6e9b47745"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#a19bd25d31361454c6f91f0f6e9b47745">Ms::MidiChordName::readChordType</a> (uchar chordTypeIndex)</td></tr>
 <tr class="separator:a19bd25d31361454c6f91f0f6e9b47745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7574d388953887e4b8ae3769375f215f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#a7574d388953887e4b8ae3769375f215f">Ms::MidiChordName::readChordName</a> (const <a class="el" href="class_midi_event.html">MidiEvent</a> &amp;e)</td></tr>
+<tr class="memitem:a7574d388953887e4b8ae3769375f215f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#a7574d388953887e4b8ae3769375f215f">Ms::MidiChordName::readChordName</a> (const <a class="el" href="classMidiEvent.html">MidiEvent</a> &amp;e)</td></tr>
 <tr class="separator:a7574d388953887e4b8ae3769375f215f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac51d38d6e80b82f7c1350341619f1a8f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#ac51d38d6e80b82f7c1350341619f1a8f">Ms::MidiChordName::findChordName</a> (const QList&lt; MidiNote &gt; &amp;notes, const std::multimap&lt; ReducedFraction, QString &gt; &amp;chordNames)</td></tr>
+<tr class="memitem:ac51d38d6e80b82f7c1350341619f1a8f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#ac51d38d6e80b82f7c1350341619f1a8f">Ms::MidiChordName::findChordName</a> (const QList&lt; MidiNote &gt; &amp;notes, const std::multimap&lt; ReducedFraction, QString &gt; &amp;chordNames)</td></tr>
 <tr class="separator:ac51d38d6e80b82f7c1350341619f1a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2a05710a9705a68fc02fb61482c4cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#af2a05710a9705a68fc02fb61482c4cb9">Ms::MidiChordName::findChordNames</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:af2a05710a9705a68fc02fb61482c4cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#af2a05710a9705a68fc02fb61482c4cb9">Ms::MidiChordName::findChordNames</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:af2a05710a9705a68fc02fb61482c4cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c18ee76dddfdc8511090b36e9510b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_chord_name.html#a79c18ee76dddfdc8511090b36e9510b6">Ms::MidiChordName::setChordNames</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a79c18ee76dddfdc8511090b36e9510b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiChordName.html#a79c18ee76dddfdc8511090b36e9510b6">Ms::MidiChordName::setChordNames</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a79c18ee76dddfdc8511090b36e9510b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

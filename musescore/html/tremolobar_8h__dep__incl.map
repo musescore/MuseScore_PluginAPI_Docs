@@ -1,12 +1,11 @@
 <map id="libmscore/tremolobar.h" name="libmscore/tremolobar.h">
-<area shape="rect" id="node2" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,87,159,114"/>
-<area shape="rect" id="node3" href="$tremolobar_8cpp.html" title="libmscore/tremolobar.cpp" alt="" coords="183,87,351,114"/>
-<area shape="rect" id="node4" href="$undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="376,87,511,114"/>
-<area shape="rect" id="node5" href="$importgtp-gp4_8cpp.html" title="mscore/importgtp&#45;gp4.cpp" alt="" coords="535,87,709,114"/>
-<area shape="rect" id="node6" href="$importgtp-gp5_8cpp.html" title="mscore/importgtp&#45;gp5.cpp" alt="" coords="733,87,906,114"/>
-<area shape="rect" id="node7" href="$importgtp-gp6_8cpp.html" title="mscore/importgtp&#45;gp6.cpp" alt="" coords="930,87,1103,114"/>
-<area shape="rect" id="node8" href="$importgtp_8cpp.html" title="mscore/importgtp.cpp" alt="" coords="1128,87,1276,114"/>
-<area shape="rect" id="node9" href="$inspector_tremolo_bar_8cpp.html" title="mscore/inspector/inspector\lTremoloBar.cpp" alt="" coords="1301,80,1479,121"/>
-<area shape="rect" id="node10" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1503,87,1637,114"/>
-<area shape="rect" id="node11" href="$tremolobarcanvas_8cpp.html" title="mscore/tremolobarcanvas.cpp" alt="" coords="1661,87,1858,114"/>
+<area shape="rect" id="node2" href="$importgtp-gp4_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp4.cpp" alt="" coords="5,80,163,121"/>
+<area shape="rect" id="node3" href="$importgtp-gp5_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp5.cpp" alt="" coords="187,80,344,121"/>
+<area shape="rect" id="node4" href="$importgtp-gp6_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp6.cpp" alt="" coords="368,80,525,121"/>
+<area shape="rect" id="node5" href="$importgtp_8cpp.html" title="importexport/guitarpro\l/importgtp.cpp" alt="" coords="549,80,707,121"/>
+<area shape="rect" id="node6" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="731,87,890,114"/>
+<area shape="rect" id="node7" href="$tremolobar_8cpp.html" title="libmscore/tremolobar.cpp" alt="" coords="914,87,1089,114"/>
+<area shape="rect" id="node8" href="$undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="1113,87,1255,114"/>
+<area shape="rect" id="node9" href="$inspectorTremoloBar_8cpp.html" title="mscore/inspector/inspector\lTremoloBar.cpp" alt="" coords="1279,80,1468,121"/>
+<area shape="rect" id="node10" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1492,87,1631,114"/>
 </map>

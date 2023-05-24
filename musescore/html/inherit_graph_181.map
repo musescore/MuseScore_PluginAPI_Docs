@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_glyph_key.html" title="Ms::GlyphKey" alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node1" href="$classMs_1_1ElementEditData.html" title="Ms::ElementEditData" alt="" coords="5,81,149,108"/>
+<area shape="rect" id="node2" href="$classMs_1_1BarLineEditData.html" title="Ms::BarLineEditData" alt="" coords="197,5,337,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1BeamEditData.html" title="Ms::BeamEditData" alt="" coords="202,56,333,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1NoteEditData.html" title="Ms::NoteEditData" alt="" coords="205,107,330,133"/>
+<area shape="rect" id="node5" href="$structMs_1_1TextEditData.html" title="Ms::TextEditData" alt="" coords="207,157,328,184"/>
 </map>

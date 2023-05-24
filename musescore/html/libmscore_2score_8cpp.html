@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -79,7 +79,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fermata_8h_source.html">fermata.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="image_store_8h_source.html">imageStore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="imageStore_8h_source.html">imageStore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="key_8h_source.html">key.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sig_8h_source.html">sig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="clef_8h_source.html">clef.h</a>&quot;</code><br />
@@ -98,7 +98,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="slur_8h_source.html">slur.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="staff_8h_source.html">staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2part_8h_source.html">part.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tuplet_8h_source.html">tuplet.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lyrics_8h_source.html">lyrics.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pitchspelling_8h_source.html">pitchspelling.h</a>&quot;</code><br />
@@ -123,6 +123,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="layoutbreak_8h_source.html">layoutbreak.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="harmony_8h_source.html">harmony.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">mscore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scoreOrder_8h_source.html">scoreOrder.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="bracket_8h_source.html">bracket.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="audio_8h_source.html">audio.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="instrtemplate_8h_source.html">instrtemplate.h</a>&quot;</code><br />
@@ -131,38 +132,50 @@ $(function() {
 <code>#include &quot;<a class="el" href="breath_8h_source.html">breath.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="instrchange_8h_source.html">instrchange.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="synthesizerstate_8h_source.html">synthesizerstate.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="libmscore_2score_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a742ba569a9d442eadb829a2376f00165"><td class="memItemLeft" align="right" valign="top">Note *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a742ba569a9d442eadb829a2376f00165">Ms::prevNote</a> (Note *n)</td></tr>
+<tr class="memitem:a742ba569a9d442eadb829a2376f00165"><td class="memItemLeft" align="right" valign="top">Note *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a742ba569a9d442eadb829a2376f00165">Ms::prevNote</a> (Note *n)</td></tr>
 <tr class="separator:a742ba569a9d442eadb829a2376f00165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8f218543f46b9d46f25ac04547e9be"><td class="memItemLeft" align="right" valign="top">static Note *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9d8f218543f46b9d46f25ac04547e9be">Ms::nextNote</a> (Note *n)</td></tr>
+<tr class="separator:a9d8f218543f46b9d46f25ac04547e9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecdc47c83999ff175acbce622323795"><td class="memItemLeft" align="right" valign="top">static Segment *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6ecdc47c83999ff175acbce622323795">Ms::getNextValidInputSegment</a> (Segment *s, int track, int voice)</td></tr>
+<tr class="separator:a6ecdc47c83999ff175acbce622323795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada891ae378c5246396c742677ca4b027"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ada891ae378c5246396c742677ca4b027">Ms::spatiumHasChanged</a> (void *data, Element *e)</td></tr>
+<tr class="separator:ada891ae378c5246396c742677ca4b027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad379b2da8ab80c31264ca45054a0db55"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad379b2da8ab80c31264ca45054a0db55">Ms::updateStyle</a> (void *, Element *e)</td></tr>
+<tr class="separator:ad379b2da8ab80c31264ca45054a0db55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aba2aa505eb62a6a5600a3e55f0cc11eb"><td class="memItemLeft" align="right" valign="top">MasterScore *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aba2aa505eb62a6a5600a3e55f0cc11eb">Ms::gscore</a></td></tr>
-<tr class="memdesc:aba2aa505eb62a6a5600a3e55f0cc11eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">system score, used for palettes etc.  <a href="namespace_ms.html#aba2aa505eb62a6a5600a3e55f0cc11eb">More...</a><br /></td></tr>
+<tr class="memitem:aba2aa505eb62a6a5600a3e55f0cc11eb"><td class="memItemLeft" align="right" valign="top">MasterScore *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aba2aa505eb62a6a5600a3e55f0cc11eb">Ms::gscore</a></td></tr>
+<tr class="memdesc:aba2aa505eb62a6a5600a3e55f0cc11eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">system score, used for palettes etc.  <a href="namespaceMs.html#aba2aa505eb62a6a5600a3e55f0cc11eb">More...</a><br /></td></tr>
 <tr class="separator:aba2aa505eb62a6a5600a3e55f0cc11eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f96a5c06061337a0d971bf4d057e31a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a4f96a5c06061337a0d971bf4d057e31a">Ms::noSeq</a> = false</td></tr>
-<tr class="memdesc:a4f96a5c06061337a0d971bf4d057e31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don’t use sequencer; cmd line option.  <a href="namespace_ms.html#a4f96a5c06061337a0d971bf4d057e31a">More...</a><br /></td></tr>
+<tr class="memitem:a4f96a5c06061337a0d971bf4d057e31a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4f96a5c06061337a0d971bf4d057e31a">Ms::noSeq</a> = false</td></tr>
+<tr class="memdesc:a4f96a5c06061337a0d971bf4d057e31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don’t use sequencer; cmd line option.  <a href="namespaceMs.html#a4f96a5c06061337a0d971bf4d057e31a">More...</a><br /></td></tr>
 <tr class="separator:a4f96a5c06061337a0d971bf4d057e31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f452dd89ea732bf67f097b1e8176b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af6f452dd89ea732bf67f097b1e8176b8">Ms::noMidi</a> = false</td></tr>
-<tr class="memdesc:af6f452dd89ea732bf67f097b1e8176b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don’t use midi; cmd line option.  <a href="namespace_ms.html#af6f452dd89ea732bf67f097b1e8176b8">More...</a><br /></td></tr>
+<tr class="memitem:af6f452dd89ea732bf67f097b1e8176b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af6f452dd89ea732bf67f097b1e8176b8">Ms::noMidi</a> = false</td></tr>
+<tr class="memdesc:af6f452dd89ea732bf67f097b1e8176b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Don’t use midi; cmd line option.  <a href="namespaceMs.html#af6f452dd89ea732bf67f097b1e8176b8">More...</a><br /></td></tr>
 <tr class="separator:af6f452dd89ea732bf67f097b1e8176b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77530e3b212b6ac75e8fcacea479a337"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a77530e3b212b6ac75e8fcacea479a337">Ms::midiInputTrace</a> = false</td></tr>
-<tr class="memdesc:a77530e3b212b6ac75e8fcacea479a337"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug option: dump midi input  <a href="namespace_ms.html#a77530e3b212b6ac75e8fcacea479a337">More...</a><br /></td></tr>
+<tr class="memitem:a77530e3b212b6ac75e8fcacea479a337"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a77530e3b212b6ac75e8fcacea479a337">Ms::midiInputTrace</a> = false</td></tr>
+<tr class="memdesc:a77530e3b212b6ac75e8fcacea479a337"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug option: dump midi input  <a href="namespaceMs.html#a77530e3b212b6ac75e8fcacea479a337">More...</a><br /></td></tr>
 <tr class="separator:a77530e3b212b6ac75e8fcacea479a337"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ce8905531c3e92b0cf6d1630fa58b0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9ce8905531c3e92b0cf6d1630fa58b0a">Ms::midiOutputTrace</a> = false</td></tr>
-<tr class="memdesc:a9ce8905531c3e92b0cf6d1630fa58b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug option: dump midi output  <a href="namespace_ms.html#a9ce8905531c3e92b0cf6d1630fa58b0a">More...</a><br /></td></tr>
+<tr class="memitem:a9ce8905531c3e92b0cf6d1630fa58b0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9ce8905531c3e92b0cf6d1630fa58b0a">Ms::midiOutputTrace</a> = false</td></tr>
+<tr class="memdesc:a9ce8905531c3e92b0cf6d1630fa58b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug option: dump midi output  <a href="namespaceMs.html#a9ce8905531c3e92b0cf6d1630fa58b0a">More...</a><br /></td></tr>
 <tr class="separator:a9ce8905531c3e92b0cf6d1630fa58b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of class Score (partial). </p>
+
+<p class="definition">Definition in file <a class="el" href="libmscore_2score_8cpp_source.html">score.cpp</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

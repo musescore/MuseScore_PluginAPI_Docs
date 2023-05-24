@@ -8,6 +8,8 @@ var searchData=
   ['global_2eh',['global.h',['../global_8h.html',1,'']]],
   ['globals_2eh',['globals.h',['../globals_8h.html',1,'']]],
   ['greendotbutton_2eh',['greendotbutton.h',['../greendotbutton_8h.html',1,'']]],
+  ['gridcanvas_2ecpp',['gridcanvas.cpp',['../gridcanvas_8cpp.html',1,'']]],
+  ['gridcanvas_2eh',['gridcanvas.h',['../gridcanvas_8h.html',1,'']]],
   ['groups_2ecpp',['groups.cpp',['../groups_8cpp.html',1,'']]],
   ['groups_2eh',['groups.h',['../groups_8h.html',1,'']]]
 ];

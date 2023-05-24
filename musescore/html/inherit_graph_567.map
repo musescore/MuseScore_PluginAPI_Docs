@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classOVE_1_1BasicParse.html" title="OVE::BasicParse" alt="" coords="5,208,124,235"/>
+<area shape="rect" id="node2" href="$classOVE_1_1BarsParse.html" title="OVE::BarsParse" alt="" coords="191,5,306,32"/>
+<area shape="rect" id="node3" href="$classOVE_1_1GroupParse.html" title="OVE::GroupParse" alt="" coords="187,56,310,83"/>
+<area shape="rect" id="node4" href="$classOVE_1_1LineGroupParse.html" title="OVE::LineGroupParse" alt="" coords="175,107,322,133"/>
+<area shape="rect" id="node5" href="$classOVE_1_1LyricChunkParse.html" title="OVE::LyricChunkParse" alt="" coords="173,157,324,184"/>
+<area shape="rect" id="node6" href="$classOVE_1_1OvscParse.html" title="OVE::OvscParse" alt="" coords="191,208,307,235"/>
+<area shape="rect" id="node7" href="$classOVE_1_1PageGroupParse.html" title="OVE::PageGroupParse" alt="" coords="173,259,324,285"/>
+<area shape="rect" id="node8" href="$classOVE_1_1StaffCountGetter.html" title="OVE::StaffCountGetter" alt="" coords="172,309,325,336"/>
+<area shape="rect" id="node9" href="$classOVE_1_1TitleChunkParse.html" title="OVE::TitleChunkParse" alt="" coords="174,360,323,387"/>
+<area shape="rect" id="node10" href="$classOVE_1_1TrackParse.html" title="OVE::TrackParse" alt="" coords="189,411,308,437"/>
+</map>

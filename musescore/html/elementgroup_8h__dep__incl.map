@@ -1,0 +1,51 @@
+<map id="libmscore/elementgroup.h" name="libmscore/elementgroup.h">
+<area shape="rect" id="node2" href="$element_8h.html" title="libmscore/element.h" alt="" coords="2519,80,2663,107"/>
+<area shape="rect" id="node21" href="$scoreview_8h.html" title="mscore/scoreview.h" alt="" coords="4632,155,4775,181"/>
+<area shape="rect" id="node49" href="$elementgroup_8cpp.html" title="libmscore/elementgroup.cpp" alt="" coords="4799,155,4989,181"/>
+<area shape="rect" id="node50" href="$dynamichairpingroup_8h.html" title="libmscore/dynamichairpingroup.h" alt="" coords="4791,80,5010,107"/>
+<area shape="rect" id="node3" href="$stafftype_8h.html" title="libmscore/stafftype.h" alt="" coords="3169,237,3318,263"/>
+<area shape="rect" id="node4" href="$xml_8h.html" title="libmscore/xml.h" alt="" coords="3220,326,3339,353"/>
+<area shape="rect" id="node5" href="$exportxml_8cpp.html" title="importexport/musicxml\l/exportxml.cpp" alt="" coords="1269,408,1431,449"/>
+<area shape="rect" id="node6" href="$connector_8cpp.html" title="libmscore/connector.cpp" alt="" coords="3851,415,4022,442"/>
+<area shape="rect" id="node7" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="2556,415,2715,442"/>
+<area shape="rect" id="node8" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="2386,155,2509,181"/>
+<area shape="rect" id="node9" href="$importmidi__clef_8cpp.html" title="importexport/midiimport\l/importmidi_clef.cpp" alt="" coords="1690,229,1861,271"/>
+<area shape="rect" id="node10" href="$importmidi__tie_8cpp.html" title="importexport/midiimport\l/importmidi_tie.cpp" alt="" coords="2189,229,2359,271"/>
+<area shape="rect" id="node11" href="$ambitus_8h.html" title="libmscore/ambitus.h" alt="" coords="2899,237,3043,263"/>
+<area shape="rect" id="node12" href="$bsymbol_8h.html" title="libmscore/bsymbol.h" alt="" coords="3582,155,3729,181"/>
+<area shape="rect" id="node13" href="$beam_8h.html" title="libmscore/beam.h" alt="" coords="102,237,233,263"/>
+<area shape="rect" id="node14" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="1476,155,1595,181"/>
+<area shape="rect" id="node15" href="$layoutbreak_8h.html" title="libmscore/layoutbreak.h" alt="" coords="3343,155,3507,181"/>
+<area shape="rect" id="node16" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="3997,237,4173,263"/>
+<area shape="rect" id="node17" href="$importmidi__lyrics_8cpp.html" title="importexport/midiimport\l/importmidi_lyrics.cpp" alt="" coords="4030,319,4201,360"/>
+<area shape="rect" id="node18" href="$segment_8h.html" title="libmscore/segment.h" alt="" coords="1813,155,1961,181"/>
+<area shape="rect" id="node19" href="$importmidi__swing_8cpp.html" title="importexport/midiimport\l/importmidi_swing.cpp" alt="" coords="1495,229,1666,271"/>
+<area shape="rect" id="node20" href="$textbase_8h.html" title="libmscore/textbase.h" alt="" coords="3753,155,3899,181"/>
+<area shape="rect" id="node22" href="$spanner_8h.html" title="libmscore/spanner.h" alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node23" href="$duration_8h.html" title="libmscore/duration.h" alt="" coords="3924,155,4069,181"/>
+<area shape="rect" id="node24" href="$notedot_8h.html" title="libmscore/notedot.h" alt="" coords="3393,237,3536,263"/>
+<area shape="rect" id="node25" href="$keysig_8h.html" title="libmscore/keysig.h" alt="" coords="2655,326,2789,353"/>
+<area shape="rect" id="node26" href="$barline_8h.html" title="libmscore/barline.h" alt="" coords="1501,326,1637,353"/>
+<area shape="rect" id="node27" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="1661,326,1801,353"/>
+<area shape="rect" id="node28" href="$arpeggio_8h.html" title="libmscore/arpeggio.h" alt="" coords="1825,326,1973,353"/>
+<area shape="rect" id="node29" href="$breath_8h.html" title="libmscore/breath.h" alt="" coords="1998,326,2131,353"/>
+<area shape="rect" id="node30" href="$hairpin_8h.html" title="libmscore/hairpin.h" alt="" coords="2307,326,2443,353"/>
+<area shape="rect" id="node31" href="$articulation_8h.html" title="libmscore/articulation.h" alt="" coords="2467,326,2630,353"/>
+<area shape="rect" id="node32" href="$fret_8h.html" title="libmscore/fret.h" alt="" coords="255,326,373,353"/>
+<area shape="rect" id="node33" href="$chordline_8h.html" title="libmscore/chordline.h" alt="" coords="397,326,548,353"/>
+<area shape="rect" id="node34" href="$glissando_8h.html" title="libmscore/glissando.h" alt="" coords="573,326,727,353"/>
+<area shape="rect" id="node35" href="$bracket_8h.html" title="libmscore/bracket.h" alt="" coords="752,326,892,353"/>
+<area shape="rect" id="node36" href="$bend_8h.html" title="libmscore/bend.h" alt="" coords="3560,237,3687,263"/>
+<area shape="rect" id="node37" href="$tremolobar_8h.html" title="libmscore/tremolobar.h" alt="" coords="4248,237,4409,263"/>
+<area shape="rect" id="node38" href="$page_8h.html" title="libmscore/page.h" alt="" coords="917,326,1042,353"/>
+<area shape="rect" id="node39" href="$system_8h.html" title="Definition of classes SysStaff and System. " alt="" coords="1117,326,1257,353"/>
+<area shape="rect" id="node40" href="$accidental_8h.html" title="Definition of class Accidental. " alt="" coords="2755,155,2913,181"/>
+<area shape="rect" id="node41" href="$fermata_8h.html" title="libmscore/fermata.h" alt="" coords="1333,326,1476,353"/>
+<area shape="rect" id="node42" href="$icon_8h.html" title="libmscore/icon.h" alt="" coords="4434,237,4557,263"/>
+<area shape="rect" id="node43" href="$bagpembell_8h.html" title="libmscore/bagpembell.h" alt="" coords="2485,237,2649,263"/>
+<area shape="rect" id="node44" href="$stafflines_8h.html" title="libmscore/stafflines.h" alt="" coords="2673,237,2824,263"/>
+<area shape="rect" id="node45" href="$stem_8h.html" title="libmscore/stem.h" alt="" coords="3140,155,3267,181"/>
+<area shape="rect" id="node46" href="$stemslash_8h.html" title="libmscore/stemslash.h" alt="" coords="3763,237,3921,263"/>
+<area shape="rect" id="node47" href="$bsp_8cpp.html" title="libmscore/bsp.cpp" alt="" coords="4093,155,4225,181"/>
+<area shape="rect" id="node48" href="$ledgerline_8h.html" title="libmscore/ledgerline.h" alt="" coords="4250,155,4405,181"/>
+</map>

@@ -1,18 +1,18 @@
 <map id="aeolus/sparm.h" name="aeolus/sparm.h">
-<area shape="rect" id="node2" href="$global_8h.html" title="aeolus/global.h" alt="" coords="373,80,483,107"/>
-<area shape="rect" id="node16" href="$sparm__p_8h.html" title="aeolus/sparm_p.h" alt="" coords="576,80,701,107"/>
-<area shape="rect" id="node3" href="$addsynth_8cpp.html" title="aeolus/addsynth.cpp" alt="" coords="357,155,499,181"/>
-<area shape="rect" id="node4" href="$asection_8h.html" title="aeolus/asection.h" alt="" coords="157,155,281,181"/>
-<area shape="rect" id="node5" href="$aeolus_8h.html" title="aeolus/aeolus.h" alt="" coords="61,304,174,331"/>
-<area shape="rect" id="node10" href="$model_8cpp.html" title="aeolus/model.cpp" alt="" coords="419,379,543,405"/>
-<area shape="rect" id="node13" href="$messages_8h.html" title="aeolus/messages.h" alt="" coords="365,229,499,256"/>
-<area shape="rect" id="node14" href="$model_8h.html" title="aeolus/model.h" alt="" coords="429,304,539,331"/>
-<area shape="rect" id="node11" href="$division_8h.html" title="aeolus/division.h" alt="" coords="58,229,177,256"/>
-<area shape="rect" id="node15" href="$asection_8cpp.html" title="aeolus/asection.cpp" alt="" coords="201,229,340,256"/>
-<area shape="rect" id="node6" href="$aeolus_8cpp.html" title="aeolus/aeolus.cpp" alt="" coords="567,379,694,405"/>
-<area shape="rect" id="node7" href="$aeolusgui_8h.html" title="aeolus/aeolusgui.h" alt="" coords="64,379,195,405"/>
-<area shape="rect" id="node8" href="$aeolusgui_8cpp.html" title="aeolus/aeolusgui.cpp" alt="" coords="5,453,149,480"/>
-<area shape="rect" id="node9" href="$aeolus_2audio_8cpp.html" title="aeolus/audio.cpp" alt="" coords="256,379,376,405"/>
-<area shape="rect" id="node12" href="$division_8cpp.html" title="aeolus/division.cpp" alt="" coords="199,304,332,331"/>
-<area shape="rect" id="node17" href="$sparm_8cpp.html" title="aeolus/sparm.cpp" alt="" coords="676,155,801,181"/>
+<area shape="rect" id="node2" href="$global_8h.html" title="aeolus/global.h" alt="" coords="384,80,497,107"/>
+<area shape="rect" id="node16" href="$sparm__p_8h.html" title="aeolus/sparm_p.h" alt="" coords="588,80,717,107"/>
+<area shape="rect" id="node3" href="$addsynth_8cpp.html" title="aeolus/addsynth.cpp" alt="" coords="367,155,514,181"/>
+<area shape="rect" id="node4" href="$asection_8h.html" title="aeolus/asection.h" alt="" coords="165,155,293,181"/>
+<area shape="rect" id="node5" href="$aeolus_8h.html" title="aeolus/aeolus.h" alt="" coords="63,304,181,331"/>
+<area shape="rect" id="node10" href="$model_8cpp.html" title="aeolus/model.cpp" alt="" coords="426,379,557,405"/>
+<area shape="rect" id="node13" href="$messages_8h.html" title="aeolus/messages.h" alt="" coords="375,229,514,256"/>
+<area shape="rect" id="node14" href="$model_8h.html" title="aeolus/model.h" alt="" coords="437,304,553,331"/>
+<area shape="rect" id="node11" href="$division_8h.html" title="aeolus/division.h" alt="" coords="61,229,183,256"/>
+<area shape="rect" id="node15" href="$asection_8cpp.html" title="aeolus/asection.cpp" alt="" coords="208,229,351,256"/>
+<area shape="rect" id="node6" href="$aeolus_8cpp.html" title="aeolus/aeolus.cpp" alt="" coords="581,379,711,405"/>
+<area shape="rect" id="node7" href="$aeolusgui_8h.html" title="aeolus/aeolusgui.h" alt="" coords="65,379,200,405"/>
+<area shape="rect" id="node8" href="$aeolusgui_8cpp.html" title="aeolus/aeolusgui.cpp" alt="" coords="5,453,153,480"/>
+<area shape="rect" id="node9" href="$aeolus_2audio_8cpp.html" title="aeolus/audio.cpp" alt="" coords="259,379,385,405"/>
+<area shape="rect" id="node12" href="$division_8cpp.html" title="aeolus/division.cpp" alt="" coords="205,304,343,331"/>
+<area shape="rect" id="node17" href="$sparm_8cpp.html" title="aeolus/sparm.cpp" alt="" coords="690,155,821,181"/>
 </map>

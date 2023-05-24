@@ -1,7 +1,0 @@
-<map id="Ms::ElementEditData" name="Ms::ElementEditData">
-<area shape="rect" id="node2" href="$class_ms_1_1_bar_line_edit_data.html" title="Ms::BarLineEditData" alt="" coords="202,5,345,32"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_beam_edit_data.html" title="Ms::BeamEditData" alt="" coords="207,56,340,83"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_note_edit_data.html" title="Ms::NoteEditData" alt="" coords="210,107,337,133"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_spanner_edit_data.html" title="Ms::SpannerEditData" alt="" coords="200,157,347,184"/>
-<area shape="rect" id="node6" href="$struct_ms_1_1_text_edit_data.html" title="Ms::TextEditData" alt="" coords="211,208,336,235"/>
-</map>

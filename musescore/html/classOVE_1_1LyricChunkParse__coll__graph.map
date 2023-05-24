@@ -1,0 +1,12 @@
+<map id="OVE::LyricChunkParse" name="OVE::LyricChunkParse">
+<area shape="rect" id="node2" href="$classOVE_1_1BasicParse.html" title="OVE::BasicParse" alt="" coords="239,348,357,375"/>
+<area shape="rect" id="node3" href="$classOVE_1_1StreamHandle.html" title="OVE::StreamHandle" alt="" coords="5,259,143,285"/>
+<area shape="rect" id="node4" href="$classOVE_1_1IOveNotify.html" title="OVE::IOveNotify" alt="" coords="167,259,282,285"/>
+<area shape="rect" id="node5" href="$classOVE_1_1OveSong.html" title="OVE::OveSong" alt="" coords="307,259,412,285"/>
+<area shape="rect" id="node6" href="$classOVE_1_1SizeChunk.html" title="OVE::SizeChunk" alt="" coords="423,348,538,375"/>
+<area shape="rect" id="node7" href="$classOVE_1_1Chunk.html" title="OVE::Chunk" alt="" coords="495,259,586,285"/>
+<area shape="rect" id="node8" href="$classOVE_1_1NameBlock.html" title="OVE::NameBlock" alt="" coords="543,157,666,184"/>
+<area shape="rect" id="node9" href="$classOVE_1_1FixedBlock.html" title="OVE::FixedBlock" alt="" coords="546,81,663,108"/>
+<area shape="rect" id="node11" href="$classOVE_1_1SizeBlock.html" title="OVE::SizeBlock" alt="" coords="644,208,755,235"/>
+<area shape="rect" id="node10" href="$classOVE_1_1Block.html" title="OVE::Block" alt="" coords="423,5,509,32"/>
+</map>

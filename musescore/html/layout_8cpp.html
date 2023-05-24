@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -92,6 +92,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="lyrics_8h_source.html">lyrics.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="marker_8h_source.html">marker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measure_8h_source.html">measure.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="mmrestrange_8h_source.html">mmrestrange.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">mscore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="notedot_8h_source.html">notedot.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="note_8h_source.html">note.h</a>&quot;</code><br />
@@ -105,8 +106,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="slur_8h_source.html">slur.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="staff_8h_source.html">staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stem_8h_source.html">stem.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stemslash_8h_source.html">stemslash.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sticking_8h_source.html">sticking.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="system_8h_source.html">system.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="text_8h_source.html">text.h</a>&quot;</code><br />
@@ -129,20 +131,22 @@ $(function() {
 <code>#include &quot;<a class="el" href="spacer_8h_source.html">spacer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fermata_8h_source.html">fermata.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measurenumber_8h_source.html">measurenumber.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="layout_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_ac_el.html">Ms::AcEl</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1AcEl.html">Ms::AcEl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_spring.html">Ms::Spring</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1Spring.html">Ms::Spring</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_cmd_state_locker.html">Ms::CmdStateLocker</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1CmdStateLocker.html">Ms::CmdStateLocker</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -154,27 +158,73 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a365dcf81941d576fcd006011e32185c5"><td class="memItemLeft" align="right" valign="top">typedef std::multimap&lt; qreal, Spring, std::less&lt; qreal &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a365dcf81941d576fcd006011e32185c5">Ms::SpringMap</a></td></tr>
+<tr class="memitem:a365dcf81941d576fcd006011e32185c5"><td class="memItemLeft" align="right" valign="top">typedef std::multimap&lt; qreal, Spring, std::less&lt; qreal &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a365dcf81941d576fcd006011e32185c5">Ms::SpringMap</a></td></tr>
 <tr class="separator:a365dcf81941d576fcd006011e32185c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afa6870c3c1f6f75078e098386e4a6bdf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#afa6870c3c1f6f75078e098386e4a6bdf">Ms::beamNoContinue</a> (Beam::Mode mode)</td></tr>
+<tr class="memitem:a50d463e01faf54d2cebbf7f248888bb6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a50d463e01faf54d2cebbf7f248888bb6">Ms::layoutSegmentElements</a> (Segment *segment, int startTrack, int endTrack)</td></tr>
+<tr class="separator:a50d463e01faf54d2cebbf7f248888bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75fbe8b5bec673d00aa110712b4c887"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab75fbe8b5bec673d00aa110712b4c887">Ms::resolveAccidentals</a> (AcEl *left, AcEl *right, qreal &amp;lx, qreal pd, qreal sp)</td></tr>
+<tr class="separator:ab75fbe8b5bec673d00aa110712b4c887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aade98c30b6b900a52b95472fc620ab"><td class="memItemLeft" align="right" valign="top">static QPair&lt; qreal, qreal &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1aade98c30b6b900a52b95472fc620ab">Ms::layoutAccidental</a> (AcEl *me, AcEl *above, AcEl *below, qreal colOffset, QVector&lt; Note *&gt; &amp;leftNotes, qreal pnd, qreal pd, qreal sp)</td></tr>
+<tr class="separator:a1aade98c30b6b900a52b95472fc620ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6870c3c1f6f75078e098386e4a6bdf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afa6870c3c1f6f75078e098386e4a6bdf">Ms::beamNoContinue</a> (Beam::Mode mode)</td></tr>
 <tr class="separator:afa6870c3c1f6f75078e098386e4a6bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43546ea8d8f5343ffe26bcdd5d53ef8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a43546ea8d8f5343ffe26bcdd5d53ef8d">Ms::layoutDrumsetChord</a> (Chord *c, const Drumset *drumset, const StaffType *st, qreal spatium)</td></tr>
+<tr class="memitem:a101ff65a9a9fe8da96154bd6bd3d2d5a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a101ff65a9a9fe8da96154bd6bd3d2d5a">Ms::checkDivider</a> (bool left, System *s, qreal yOffset, bool remove=false)</td></tr>
+<tr class="separator:a101ff65a9a9fe8da96154bd6bd3d2d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01be8a28ec7c6f4f367a9318bf93fc71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a01be8a28ec7c6f4f367a9318bf93fc71">Ms::almostZero</a> (qreal value)</td></tr>
+<tr class="separator:a01be8a28ec7c6f4f367a9318bf93fc71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299f1a25ba7157c59bcfb113649dbd05"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a299f1a25ba7157c59bcfb113649dbd05">Ms::distributeStaves</a> (Page *page)</td></tr>
+<tr class="separator:a299f1a25ba7157c59bcfb113649dbd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea8cb39fcc02e1ea400e11bbdd037198"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aea8cb39fcc02e1ea400e11bbdd037198">Ms::layoutPage</a> (Page *page, qreal restHeight)</td></tr>
+<tr class="separator:aea8cb39fcc02e1ea400e11bbdd037198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f8470ac2e722a112c0c83de917a51a6"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1f8470ac2e722a112c0c83de917a51a6">Ms::sff2</a> (qreal width, qreal xMin, const SpringMap &amp;springs)</td></tr>
+<tr class="separator:a1f8470ac2e722a112c0c83de917a51a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109fc606d9239dddfd029040503d453c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a109fc606d9239dddfd029040503d453c">Ms::validMMRestMeasure</a> (Measure *m)</td></tr>
+<tr class="separator:a109fc606d9239dddfd029040503d453c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105a71265c435455f12f9198895fb3ee"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a105a71265c435455f12f9198895fb3ee">Ms::breakMultiMeasureRest</a> (Measure *m)</td></tr>
+<tr class="separator:a105a71265c435455f12f9198895fb3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80fcdcc05a733b5f5503f5ebac3913e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa80fcdcc05a733b5f5503f5ebac3913e">Ms::breakCrossMeasureBeams</a> (Measure *measure)</td></tr>
+<tr class="separator:aa80fcdcc05a733b5f5503f5ebac3913e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43546ea8d8f5343ffe26bcdd5d53ef8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a43546ea8d8f5343ffe26bcdd5d53ef8d">Ms::layoutDrumsetChord</a> (Chord *c, const Drumset *drumset, const StaffType *st, qreal spatium)</td></tr>
 <tr class="separator:a43546ea8d8f5343ffe26bcdd5d53ef8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a410467a129f146b200e237377e2a695c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a410467a129f146b200e237377e2a695c">Ms::isTopBeam</a> (ChordRest *cr)</td></tr>
+<tr class="memitem:a8a1496edbc37ad47b5c22a3a5edf419d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; qreal, qreal &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8a1496edbc37ad47b5c22a3a5edf419d">Ms::extendedStemLenWithTwoNoteTremolo</a> (Tremolo *tremolo, qreal stemLen1, qreal stemLen2)</td></tr>
+<tr class="separator:a8a1496edbc37ad47b5c22a3a5edf419d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a410467a129f146b200e237377e2a695c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a410467a129f146b200e237377e2a695c">Ms::isTopBeam</a> (ChordRest *cr)</td></tr>
 <tr class="separator:a410467a129f146b200e237377e2a695c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9210a20e1a75146ee5e3102a3bbb9320"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9210a20e1a75146ee5e3102a3bbb9320">Ms::notTopBeam</a> (ChordRest *cr)</td></tr>
+<tr class="memitem:a9210a20e1a75146ee5e3102a3bbb9320"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9210a20e1a75146ee5e3102a3bbb9320">Ms::notTopBeam</a> (ChordRest *cr)</td></tr>
 <tr class="separator:a9210a20e1a75146ee5e3102a3bbb9320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35bfb67e4b99502eb95a081fa7827322"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a35bfb67e4b99502eb95a081fa7827322">Ms::isTopTuplet</a> (ChordRest *cr)</td></tr>
+<tr class="memitem:a35bfb67e4b99502eb95a081fa7827322"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a35bfb67e4b99502eb95a081fa7827322">Ms::isTopTuplet</a> (ChordRest *cr)</td></tr>
 <tr class="separator:a35bfb67e4b99502eb95a081fa7827322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad863eb4b91e6fcf0deef7c476cb10d43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad863eb4b91e6fcf0deef7c476cb10d43">Ms::notTopTuplet</a> (ChordRest *cr)</td></tr>
+<tr class="memitem:ad863eb4b91e6fcf0deef7c476cb10d43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad863eb4b91e6fcf0deef7c476cb10d43">Ms::notTopTuplet</a> (ChordRest *cr)</td></tr>
 <tr class="separator:ad863eb4b91e6fcf0deef7c476cb10d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a312ec8a39e6d4053d8f84c23b86ceaec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a312ec8a39e6d4053d8f84c23b86ceaec">Ms::layoutTies</a> (Chord *ch, System *system, const Fraction &amp;stick)</td></tr>
+<tr class="memitem:ab2880482092ea87b3762323df0b8f124"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab2880482092ea87b3762323df0b8f124">Ms::findLyricsMaxY</a> (Segment &amp;s, int staffIdx)</td></tr>
+<tr class="separator:ab2880482092ea87b3762323df0b8f124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a298071d9fa87ec9f88dff35fcd1b10af"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a298071d9fa87ec9f88dff35fcd1b10af">Ms::findLyricsMinY</a> (Segment &amp;s, int staffIdx)</td></tr>
+<tr class="separator:a298071d9fa87ec9f88dff35fcd1b10af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5107fd6632d299441268f5d14d38ca05"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5107fd6632d299441268f5d14d38ca05">Ms::findLyricsMaxY</a> (Measure *m, int staffIdx)</td></tr>
+<tr class="separator:a5107fd6632d299441268f5d14d38ca05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6714f08a9213fa49e1e6392f2debb9"><td class="memItemLeft" align="right" valign="top">static qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5b6714f08a9213fa49e1e6392f2debb9">Ms::findLyricsMinY</a> (Measure *m, int staffIdx)</td></tr>
+<tr class="separator:a5b6714f08a9213fa49e1e6392f2debb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcee348b6ab5a4ceefe9c0659daa4dd6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#adcee348b6ab5a4ceefe9c0659daa4dd6">Ms::applyLyricsMax</a> (Segment &amp;s, int staffIdx, qreal yMax)</td></tr>
+<tr class="separator:adcee348b6ab5a4ceefe9c0659daa4dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ef58e4709cfaf49132b86bcdd2ee1f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad5ef58e4709cfaf49132b86bcdd2ee1f">Ms::applyLyricsMax</a> (Measure *m, int staffIdx, qreal yMax)</td></tr>
+<tr class="separator:ad5ef58e4709cfaf49132b86bcdd2ee1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23d18a6c7a9dff2536e0535c9f5167bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a23d18a6c7a9dff2536e0535c9f5167bd">Ms::applyLyricsMin</a> (ChordRest *cr, int staffIdx, qreal yMin)</td></tr>
+<tr class="separator:a23d18a6c7a9dff2536e0535c9f5167bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac414a12fc230d3f435ef927b0787d8cb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac414a12fc230d3f435ef927b0787d8cb">Ms::applyLyricsMin</a> (Measure *m, int staffIdx, qreal yMin)</td></tr>
+<tr class="separator:ac414a12fc230d3f435ef927b0787d8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a828b7d077638066c078fd12c2e34aa14"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a828b7d077638066c078fd12c2e34aa14">Ms::restoreBeams</a> (Measure *m)</td></tr>
+<tr class="separator:a828b7d077638066c078fd12c2e34aa14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312ec8a39e6d4053d8f84c23b86ceaec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a312ec8a39e6d4053d8f84c23b86ceaec">Ms::layoutTies</a> (Chord *ch, System *system, const Fraction &amp;stick)</td></tr>
 <tr class="separator:a312ec8a39e6d4053d8f84c23b86ceaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130aa9f1611e42fc06a6eaee6d78da2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a130aa9f1611e42fc06a6eaee6d78da2d">Ms::layoutHarmonies</a> (const std::vector&lt; Segment *&gt; &amp;sl)</td></tr>
+<tr class="memitem:a130aa9f1611e42fc06a6eaee6d78da2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a130aa9f1611e42fc06a6eaee6d78da2d">Ms::layoutHarmonies</a> (const std::vector&lt; Segment *&gt; &amp;sl)</td></tr>
 <tr class="separator:a130aa9f1611e42fc06a6eaee6d78da2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39873f2b64993a8c6b6754e3a78a4bf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a39873f2b64993a8c6b6754e3a78a4bf1">Ms::alignHarmonies</a> (const System *system, const std::vector&lt; Segment *&gt; &amp;sl, bool harmony, const qreal maxShiftAbove, const qreal maxShiftBelow)</td></tr>
+<tr class="separator:a39873f2b64993a8c6b6754e3a78a4bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c9d6489bf49c4da32db4e674c3515e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a57c9d6489bf49c4da32db4e674c3515e">Ms::processLines</a> (System *system, std::vector&lt; Spanner *&gt; lines, bool align)</td></tr>
+<tr class="separator:a57c9d6489bf49c4da32db4e674c3515e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ac9c2a6b16ac8e14d25a6387217db3507"></a>
@@ -193,6 +243,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="layout_8cpp_source.html#l01215">1215</a> of file <a class="el" href="layout_8cpp_source.html">layout.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a663fbe6e23ae3d65d72b995b129712eb"></a>
@@ -210,6 +262,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="layout_8cpp_source.html#l00077">77</a> of file <a class="el" href="layout_8cpp_source.html">layout.cpp</a>.</p>
 
 </div>
 </div>

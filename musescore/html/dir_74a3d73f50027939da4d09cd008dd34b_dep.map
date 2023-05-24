@@ -1,9 +1,0 @@
-<map id="synthesizer" name="synthesizer">
-<area shape="rect" id="node1" href="dir_74a3d73f50027939da4d09cd008dd34b.html" title="synthesizer" alt="" coords="82,5,171,53"/>
-<area shape="rect" id="node2" href="dir_63bb297c276a119495816091bcd678e9.html" title="effects" alt="" coords="5,101,77,149"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000032_000007.html" title="1" alt="" coords="78,86,86,100"/>
-<area shape="rect" id="node3" href="dir_2509ca22e4b78dc9c1fe9484874b85a6.html" title="libmscore" alt="" coords="87,197,166,245"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000032_000001.html" title="9" alt="" coords="123,171,131,186"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000007_000001.html" title="1" alt="" coords="95,170,103,185"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000001_000032.html" title="7" alt="" coords="122,65,130,80"/>
-</map>

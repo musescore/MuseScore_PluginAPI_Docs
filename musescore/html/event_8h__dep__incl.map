@@ -1,51 +1,51 @@
-<map id="synthesizer/event.h" name="synthesizer/event.h">
-<area shape="rect" id="node2" href="$aeolus_8cpp.html" title="aeolus/aeolus.cpp" alt="" coords="485,80,611,107"/>
-<area shape="rect" id="node3" href="$fluid_8cpp.html" title="fluid/fluid.cpp" alt="" coords="636,80,735,107"/>
-<area shape="rect" id="node4" href="$libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="1343,80,1497,107"/>
-<area shape="rect" id="node8" href="$pitchspelling_8cpp.html" title="libmscore/pitchspelling.cpp" alt="" coords="2581,251,2760,278"/>
-<area shape="rect" id="node9" href="$rendermidi_8cpp.html" title="render score into event list " alt="" coords="1315,251,1482,278"/>
-<area shape="rect" id="node12" href="$exportmidi_8cpp.html" title="mscore/exportmidi.cpp" alt="" coords="3283,251,3437,278"/>
-<area shape="rect" id="node18" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="2925,251,3083,278"/>
-<area shape="rect" id="node26" href="$event_8cpp.html" title="synthesizer/event.cpp" alt="" coords="579,251,730,278"/>
-<area shape="rect" id="node38" href="$keyfinder_8cpp.html" title="libmscore/keyfinder.cpp" alt="" coords="3091,80,3251,107"/>
-<area shape="rect" id="node39" href="$midifile_8h.html" title="midi/midifile.h" alt="" coords="3706,80,3809,107"/>
-<area shape="rect" id="node46" href="$seq_8h.html" title="mscore/seq.h" alt="" coords="2352,162,2453,189"/>
-<area shape="rect" id="node47" href="$msynthesizer_8cpp.html" title="synthesizer/msynthesizer.cpp" alt="" coords="3833,80,4029,107"/>
-<area shape="rect" id="node48" href="$channel_8cpp.html" title="zerberus/channel.cpp" alt="" coords="4317,162,4464,189"/>
-<area shape="rect" id="node49" href="$zerberus_8h.html" title="zerberus/zerberus.h" alt="" coords="4322,80,4459,107"/>
-<area shape="rect" id="node50" href="$zerberus_8cpp.html" title="zerberus/zerberus.cpp" alt="" coords="4489,162,4639,189"/>
-<area shape="rect" id="node5" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2840,162,2965,189"/>
-<area shape="rect" id="node6" href="$libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="951,251,1119,278"/>
-<area shape="rect" id="node7" href="$midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="1718,251,1898,278"/>
-<area shape="rect" id="node10" href="$continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="1506,251,1694,278"/>
-<area shape="rect" id="node11" href="$drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="2089,251,2229,278"/>
-<area shape="rect" id="node19" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="2443,251,2557,278"/>
-<area shape="rect" id="node20" href="$synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="2253,251,2419,278"/>
-<area shape="rect" id="node21" href="$undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1647,162,1769,189"/>
-<area shape="rect" id="node22" href="$pianoroll_8cpp.html" title="mscore/pianoroll.cpp" alt="" coords="1922,251,2065,278"/>
-<area shape="rect" id="node23" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1457,162,1572,189"/>
-<area shape="rect" id="node25" href="$importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="1143,251,1291,278"/>
-<area shape="rect" id="node27" href="$instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="1844,162,2004,189"/>
-<area shape="rect" id="node28" href="$staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="2029,162,2177,189"/>
-<area shape="rect" id="node29" href="$instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="961,162,1129,189"/>
-<area shape="rect" id="node30" href="$selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="754,251,926,278"/>
-<area shape="rect" id="node31" href="$editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="2201,162,2327,189"/>
-<area shape="rect" id="node32" href="$parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="2665,162,2815,189"/>
-<area shape="rect" id="node33" href="$mixer_8h.html" title="mscore/mixer.h" alt="" coords="2477,162,2589,189"/>
-<area shape="rect" id="node34" href="$mixerdetails_8h.html" title="mscore/mixerdetails.h" alt="" coords="193,251,343,278"/>
-<area shape="rect" id="node35" href="$mixertrackitem_8h.html" title="mscore/mixertrackitem.h" alt="" coords="190,162,357,189"/>
-<area shape="rect" id="node36" href="$mixertrackchannel_8h.html" title="mscore/mixertrackchannel.h" alt="" coords="368,251,555,278"/>
-<area shape="rect" id="node37" href="$mixertrackpart_8h.html" title="mscore/mixertrackpart.h" alt="" coords="5,251,168,278"/>
-<area shape="rect" id="node13" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="3461,251,3680,278"/>
-<area shape="rect" id="node14" href="$importmidi__chordname_8cpp.html" title="mscore/importmidi/importmidi\l_chordname.cpp" alt="" coords="3705,244,3898,285"/>
-<area shape="rect" id="node15" href="$importmidi__drum_8cpp.html" title="mscore/importmidi/importmidi\l_drum.cpp" alt="" coords="4139,244,4333,285"/>
-<area shape="rect" id="node16" href="$importmidi__lyrics_8cpp.html" title="mscore/importmidi/importmidi\l_lyrics.cpp" alt="" coords="3922,244,4115,285"/>
-<area shape="rect" id="node17" href="$mididriver_8cpp.html" title="mscore/mididriver.cpp" alt="" coords="3107,251,3258,278"/>
-<area shape="rect" id="node24" href="$midifile_8cpp.html" title="midi/midifile.cpp" alt="" coords="2785,251,2901,278"/>
-<area shape="rect" id="node40" href="$bb_8h.html" title="mscore/bb.h" alt="" coords="3625,162,3719,189"/>
-<area shape="rect" id="node41" href="$exportmidi_8h.html" title="mscore/exportmidi.h" alt="" coords="3461,162,3601,189"/>
-<area shape="rect" id="node42" href="$importmidi__operations_8h.html" title="mscore/importmidi/importmidi\l_operations.h" alt="" coords="3897,155,4090,196"/>
-<area shape="rect" id="node43" href="$importmidi__inner_8cpp.html" title="mscore/importmidi/importmidi\l_inner.cpp" alt="" coords="4357,244,4550,285"/>
-<area shape="rect" id="node44" href="$importmidi__simplify_8cpp.html" title="mscore/importmidi/importmidi\l_simplify.cpp" alt="" coords="4574,244,4767,285"/>
-<area shape="rect" id="node45" href="$importmidi__instrument_8h.html" title="mscore/importmidi/importmidi\l_instrument.h" alt="" coords="3243,155,3437,196"/>
+<map id="audio/midi/event.h" name="audio/midi/event.h">
+<area shape="rect" id="node2" href="$libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="2323,87,2483,114"/>
+<area shape="rect" id="node8" href="$exportmidi_8cpp.html" title="audio/exports/exportmidi.cpp" alt="" coords="5,266,207,293"/>
+<area shape="rect" id="node9" href="$event_8cpp.html" title="audio/midi/event.cpp" alt="" coords="231,266,381,293"/>
+<area shape="rect" id="node12" href="$pitchspelling_8cpp.html" title="libmscore/pitchspelling.cpp" alt="" coords="1368,266,1551,293"/>
+<area shape="rect" id="node13" href="$rendermidi_8cpp.html" title="render score into event list " alt="" coords="1117,266,1292,293"/>
+<area shape="rect" id="node24" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="2315,266,2479,293"/>
+<area shape="rect" id="node43" href="$seq_8h.html" title="mscore/seq.h" alt="" coords="3781,177,3887,203"/>
+<area shape="rect" id="node45" href="$audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="863,177,1010,203"/>
+<area shape="rect" id="node46" href="$fluid_8cpp.html" title="audio/midi/fluid/fluid.cpp" alt="" coords="2558,87,2734,114"/>
+<area shape="rect" id="node47" href="$msynthesizer_8cpp.html" title="audio/midi/msynthesizer.cpp" alt="" coords="2759,87,2955,114"/>
+<area shape="rect" id="node48" href="$zerberus_8h.html" title="audio/midi/zerberus\l/zerberus.h" alt="" coords="5724,80,5869,121"/>
+<area shape="rect" id="node49" href="$channel_8cpp.html" title="audio/midi/zerberus\l/channel.cpp" alt="" coords="5724,169,5869,211"/>
+<area shape="rect" id="node50" href="$zerberus_8cpp.html" title="audio/midi/zerberus\l/zerberus.cpp" alt="" coords="5893,169,6039,211"/>
+<area shape="rect" id="node3" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2338,177,2469,203"/>
+<area shape="rect" id="node10" href="$libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="1575,266,1749,293"/>
+<area shape="rect" id="node11" href="$midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="906,266,1093,293"/>
+<area shape="rect" id="node14" href="$continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="687,266,882,293"/>
+<area shape="rect" id="node15" href="$drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="3204,266,3352,293"/>
+<area shape="rect" id="node25" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="5057,266,5177,293"/>
+<area shape="rect" id="node26" href="$synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="3009,266,3179,293"/>
+<area shape="rect" id="node27" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="2194,177,2314,203"/>
+<area shape="rect" id="node28" href="$importptb_8cpp.html" title="importexport/guitarpro\l/importptb.cpp" alt="" coords="405,259,562,300"/>
+<area shape="rect" id="node29" href="$pianoroll_8cpp.html" title="mscore/pianoroll/pianoroll.cpp" alt="" coords="3732,266,3936,293"/>
+<area shape="rect" id="node30" href="$instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="2652,177,2827,203"/>
+<area shape="rect" id="node31" href="$selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="3427,266,3606,293"/>
+<area shape="rect" id="node32" href="$undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="2948,177,3075,203"/>
+<area shape="rect" id="node33" href="$instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="1592,177,1756,203"/>
+<area shape="rect" id="node34" href="$staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="1781,177,1935,203"/>
+<area shape="rect" id="node35" href="$editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="2493,177,2628,203"/>
+<area shape="rect" id="node36" href="$mixer_8h.html" title="mscore/mixer/mixer.h" alt="" coords="4907,177,5062,203"/>
+<area shape="rect" id="node37" href="$mixerdetails_8h.html" title="mscore/mixer/mixerdetails.h" alt="" coords="5761,266,5955,293"/>
+<area shape="rect" id="node38" href="$mixertrackitem_8h.html" title="mscore/mixer/mixertrackitem.h" alt="" coords="5387,177,5598,203"/>
+<area shape="rect" id="node39" href="$mixertrackchannel_8h.html" title="mscore/mixer/mixertrackchannel.h" alt="" coords="5455,266,5685,293"/>
+<area shape="rect" id="node40" href="$mixertrackpart_8h.html" title="mscore/mixer/mixertrackpart.h" alt="" coords="6030,266,6238,293"/>
+<area shape="rect" id="node41" href="$parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="5086,177,5243,203"/>
+<area shape="rect" id="node42" href="$mscore_2plugin_2api_2instrument_8h.html" title="mscore/plugin/api/instrument.h" alt="" coords="1959,177,2170,203"/>
+<area shape="rect" id="node4" href="$jackaudio_8cpp.html" title="audio/drivers/jackaudio.cpp" alt="" coords="4513,266,4704,293"/>
+<area shape="rect" id="node5" href="$mididriver_8cpp.html" title="audio/drivers/mididriver.cpp" alt="" coords="1875,266,2067,293"/>
+<area shape="rect" id="node6" href="$pa_8cpp.html" title="audio/drivers/pa.cpp" alt="" coords="3961,266,4107,293"/>
+<area shape="rect" id="node7" href="$pulseaudio_8cpp.html" title="audio/drivers/pulseaudio.cpp" alt="" coords="4131,266,4329,293"/>
+<area shape="rect" id="node16" href="$drumtools_8cpp.html" title="mscore/drumtools.cpp" alt="" coords="2686,266,2846,293"/>
+<area shape="rect" id="node17" href="$editstaff_8cpp.html" title="mscore/editstaff.cpp" alt="" coords="2143,266,2291,293"/>
+<area shape="rect" id="node18" href="$events_8cpp.html" title="mscore/events.cpp" alt="" coords="4353,266,4489,293"/>
+<area shape="rect" id="node19" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="2870,266,2985,293"/>
+<area shape="rect" id="node20" href="$instrdialog_8cpp.html" title="mscore/instrdialog.cpp" alt="" coords="2503,266,2661,293"/>
+<area shape="rect" id="node21" href="$mixer_8cpp.html" title="mscore/mixer/mixer.cpp" alt="" coords="5256,348,5425,375"/>
+<area shape="rect" id="node22" href="$mixerdetails_8cpp.html" title="mscore/mixer/mixerdetails.cpp" alt="" coords="4789,348,4997,375"/>
+<area shape="rect" id="node23" href="$mixertrackchannel_8cpp.html" title="mscore/mixer/mixertrackchannel.cpp" alt="" coords="4520,348,4764,375"/>
+<area shape="rect" id="node44" href="$pm_8cpp.html" title="audio/drivers/pm.cpp" alt="" coords="4881,266,5033,293"/>
 </map>

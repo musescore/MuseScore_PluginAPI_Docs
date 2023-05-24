@@ -1,10 +1,10 @@
 <map id="effects/effectgui.h" name="effects/effectgui.h">
-<area shape="rect" id="node2" href="$compressorgui_8cpp.html" title="effects/compressor\l/compressorgui.cpp" alt="" coords="5,80,141,121"/>
-<area shape="rect" id="node3" href="$effectgui_8cpp.html" title="effects/effectgui.cpp" alt="" coords="165,87,307,114"/>
-<area shape="rect" id="node4" href="$freeverbgui_8cpp.html" title="effects/freeverb/freeverbgui.cpp" alt="" coords="331,87,538,114"/>
-<area shape="rect" id="node5" href="$noeffect_8cpp.html" title="effects/noeffect/noeffect.cpp" alt="" coords="580,169,769,196"/>
-<area shape="rect" id="node6" href="$noeffectgui_8h.html" title="effects/noeffect/noeffectgui.h" alt="" coords="613,87,805,114"/>
-<area shape="rect" id="node7" href="$zitagui_8h.html" title="effects/zita1/zitagui.h" alt="" coords="829,87,976,114"/>
-<area shape="rect" id="node8" href="$zitagui_8cpp.html" title="effects/zita1/zitagui.cpp" alt="" coords="857,169,1018,196"/>
-<area shape="rect" id="node9" href="$synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="1051,87,1216,114"/>
+<area shape="rect" id="node2" href="$compressorgui_8cpp.html" title="effects/compressor\l/compressorgui.cpp" alt="" coords="5,80,147,121"/>
+<area shape="rect" id="node3" href="$effectgui_8cpp.html" title="effects/effectgui.cpp" alt="" coords="171,87,317,114"/>
+<area shape="rect" id="node4" href="$freeverbgui_8cpp.html" title="effects/freeverb/freeverbgui.cpp" alt="" coords="341,87,555,114"/>
+<area shape="rect" id="node5" href="$noeffect_8cpp.html" title="effects/noeffect/noeffect.cpp" alt="" coords="595,169,794,196"/>
+<area shape="rect" id="node6" href="$noeffectgui_8h.html" title="effects/noeffect/noeffectgui.h" alt="" coords="630,87,831,114"/>
+<area shape="rect" id="node7" href="$zitagui_8h.html" title="effects/zita1/zitagui.h" alt="" coords="856,87,1008,114"/>
+<area shape="rect" id="node8" href="$zitagui_8cpp.html" title="effects/zita1/zitagui.cpp" alt="" coords="885,169,1051,196"/>
+<area shape="rect" id="node9" href="$synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="1083,87,1253,114"/>
 </map>

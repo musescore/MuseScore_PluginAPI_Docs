@@ -1,9 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_guitar_pro.html" title="Ms::GuitarPro" alt="" coords="5,107,108,133"/>
-<area shape="rect" id="node2" href="$class_ms_1_1_guitar_pro1.html" title="Ms::GuitarPro1" alt="" coords="156,31,267,57"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_guitar_pro4.html" title="Ms::GuitarPro4" alt="" coords="156,81,267,108"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_guitar_pro5.html" title="Ms::GuitarPro5" alt="" coords="156,132,267,159"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_guitar_pro6.html" title="Ms::GuitarPro6" alt="" coords="156,183,267,209"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_guitar_pro2.html" title="Ms::GuitarPro2" alt="" coords="315,5,425,32"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_guitar_pro3.html" title="Ms::GuitarPro3" alt="" coords="315,56,425,83"/>
+<area shape="rect" id="node2" href="$classMs_1_1EventList.html" title="Ms::EventList" alt="" coords="137,5,236,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1LinkedElements.html" title="Ms::LinkedElements" alt="" coords="116,56,257,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1NoteEventList.html" title="Ms::NoteEventList" alt="" coords="123,107,251,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1RepeatList.html" title="Ms::RepeatList" alt="" coords="133,157,241,184"/>
+<area shape="rect" id="node6" href="$classMs_1_1StaffNameList.html" title="Ms::StaffNameList" alt="" coords="120,208,253,235"/>
+<area shape="rect" id="node7" href="$classMs_1_1TrackList.html" title="Ms::TrackList" alt="" coords="137,259,237,285"/>
+<area shape="rect" id="node8" href="$classMs_1_1VerticalGapDataList.html" title="Ms::VerticalGapDataList" alt="" coords="105,309,268,336"/>
 </map>

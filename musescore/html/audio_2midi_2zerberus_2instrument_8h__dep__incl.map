@@ -1,0 +1,7 @@
+<map id="audio/midi/zerberus/instrument.h" name="audio/midi/zerberus/instrument.h">
+<area shape="rect" id="node2" href="$channel_8cpp.html" title="audio/midi/zerberus\l/channel.cpp" alt="" coords="5,95,151,136"/>
+<area shape="rect" id="node3" href="$audio_2midi_2zerberus_2instrument_8cpp.html" title="audio/midi/zerberus\l/instrument.cpp" alt="" coords="175,95,320,136"/>
+<area shape="rect" id="node4" href="$sfz_8cpp.html" title="audio/midi/zerberus\l/sfz.cpp" alt="" coords="344,95,489,136"/>
+<area shape="rect" id="node5" href="$zerberus_2voice_8cpp.html" title="audio/midi/zerberus\l/voice.cpp" alt="" coords="513,95,659,136"/>
+<area shape="rect" id="node6" href="$zerberus_8cpp.html" title="audio/midi/zerberus\l/zerberus.cpp" alt="" coords="683,95,828,136"/>
+</map>

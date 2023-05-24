@@ -1,0 +1,10 @@
+<map id="libmscore/scoreOrder.h" name="libmscore/scoreOrder.h">
+<area shape="rect" id="node2" href="$instrtemplate_8cpp.html" title="libmscore/instrtemplate.cpp" alt="" coords="5,80,193,107"/>
+<area shape="rect" id="node3" href="$read302_8cpp.html" title="libmscore/read302.cpp" alt="" coords="217,80,376,107"/>
+<area shape="rect" id="node4" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="401,80,545,107"/>
+<area shape="rect" id="node5" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="569,80,731,107"/>
+<area shape="rect" id="node6" href="$scoreOrder_8cpp.html" title="libmscore/scoreOrder.cpp" alt="" coords="755,80,931,107"/>
+<area shape="rect" id="node7" href="$instrdialog_8cpp.html" title="mscore/instrdialog.cpp" alt="" coords="956,80,1115,107"/>
+<area shape="rect" id="node8" href="$instrwidget_8cpp.html" title="mscore/instrwidget.cpp" alt="" coords="1139,80,1302,107"/>
+<area shape="rect" id="node9" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="1327,80,1491,107"/>
+</map>

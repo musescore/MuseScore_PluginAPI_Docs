@@ -1,3 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_seq_msg.html" title="Ms::SeqMsg" alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node1" href="$structMs_1_1PowerTab_1_1ptComponent.html" title="Ms::PowerTab::ptComponent" alt="" coords="5,208,197,235"/>
+<area shape="rect" id="node2" href="$structMs_1_1PowerTab_1_1ptBar.html" title="Ms::PowerTab::ptBar" alt="" coords="270,5,413,32"/>
+<area shape="rect" id="node3" href="$structMs_1_1PowerTab_1_1ptBeat.html" title="Ms::PowerTab::ptBeat" alt="" coords="267,56,416,83"/>
+<area shape="rect" id="node4" href="$structMs_1_1PowerTab_1_1ptChord.html" title="Ms::PowerTab::ptChord" alt="" coords="262,107,421,133"/>
+<area shape="rect" id="node5" href="$structMs_1_1PowerTab_1_1ptChordText.html" title="Ms::PowerTab::ptChordText" alt="" coords="249,157,433,184"/>
+<area shape="rect" id="node6" href="$structMs_1_1PowerTab_1_1ptDirection.html" title="Ms::PowerTab::ptDirection" alt="" coords="254,208,429,235"/>
+<area shape="rect" id="node7" href="$structMs_1_1PowerTab_1_1ptGuitarIn.html" title="Ms::PowerTab::ptGuitarIn" alt="" coords="257,259,426,285"/>
+<area shape="rect" id="node8" href="$structMs_1_1PowerTab_1_1ptNote.html" title="Ms::PowerTab::ptNote" alt="" coords="265,309,417,336"/>
+<area shape="rect" id="node9" href="$structMs_1_1PowerTab_1_1ptSymbol.html" title="Ms::PowerTab::ptSymbol" alt="" coords="258,360,425,387"/>
+<area shape="rect" id="node10" href="$structMs_1_1PowerTab_1_1stRhytmSlash.html" title="Ms::PowerTab::stRhytmSlash" alt="" coords="245,411,437,437"/>
 </map>

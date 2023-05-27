@@ -1,9 +1,0 @@
-<map id="Awl::AbstractSlider" name="Awl::AbstractSlider">
-<area shape="rect" id="node3" href="$class_awl_1_1_knob.html" title="Base class of all dialer type input widgets. " alt="" coords="234,155,317,181"/>
-<area shape="rect" id="node7" href="$class_awl_1_1_slider.html" title="Base class of all slider type input widgets. " alt="" coords="382,155,467,181"/>
-<area shape="rect" id="node4" href="$class_awl_1_1_midi_pan_knob.html" title="MidiPan Knob entry widget. " alt="" coords="5,229,135,256"/>
-<area shape="rect" id="node5" href="$class_awl_1_1_pan_knob.html" title="Pan Knob entry widget. " alt="" coords="159,229,264,256"/>
-<area shape="rect" id="node6" href="$class_awl_1_1_vol_knob.html" title="Volume Knob entry widget. " alt="" coords="289,229,390,256"/>
-<area shape="rect" id="node8" href="$class_awl_1_1_vol_slider.html" title="Volume Slider entry widget. " alt="" coords="414,229,518,256"/>
-<area shape="rect" id="node9" href="$class_awl_1_1_meter_slider.html" title="Awl::MeterSlider" alt="" coords="407,304,525,331"/>
-</map>

@@ -1,0 +1,17 @@
+<map id="Ms::NewWizard" name="Ms::NewWizard">
+<area shape="rect" id="node3" href="$classMs_1_1NewWizardKeysigPage.html" title="Ms::NewWizardKeysigPage" alt="" coords="1163,120,1345,147"/>
+<area shape="rect" id="node7" href="$classMs_1_1NewWizardTimesigPage.html" title="Ms::NewWizardTimesigPage" alt="" coords="1159,56,1349,83"/>
+<area shape="rect" id="node11" href="$classMs_1_1NewWizardInstrumentsPage.html" title="Ms::NewWizardInstrumentsPage" alt="" coords="1147,317,1361,344"/>
+<area shape="rect" id="node21" href="$classMs_1_1NewWizardInfoPage.html" title="Ms::NewWizardInfoPage" alt="" coords="1170,239,1338,265"/>
+<area shape="rect" id="node24" href="$classMs_1_1NewWizardTemplatePage.html" title="Ms::NewWizardTemplatePage" alt="" coords="1155,171,1353,197"/>
+<area shape="rect" id="node5" href="$classMs_1_1PaletteListView.html" title="Display a simple icon list of elements from a single palette category (e.g. " alt="" coords="827,81,963,108"/>
+<area shape="rect" id="node8" href="$classMs_1_1TimesigWizard.html" title="Ms::TimesigWizard" alt="" coords="828,19,963,45"/>
+<area shape="rect" id="node12" href="$classMs_1_1InstrumentsWidget.html" title="Ms::InstrumentsWidget" alt="" coords="816,352,975,379"/>
+<area shape="rect" id="node22" href="$classMs_1_1TitleWizard.html" title="Ms::TitleWizard" alt="" coords="839,273,952,300"/>
+<area shape="rect" id="node25" href="$classMs_1_1TemplateBrowser.html" title="Ms::TemplateBrowser" alt="" coords="820,196,971,223"/>
+<area shape="rect" id="node14" href="$classMs_1_1ScoreOrderListModel.html" title="Ms::ScoreOrderListModel" alt="" coords="546,348,719,375"/>
+<area shape="rect" id="node16" href="$classMs_1_1ScoreOrderList.html" title="Ms::ScoreOrderList" alt="" coords="239,375,374,401"/>
+<area shape="rect" id="node17" href="$classMs_1_1ScoreOrderFilterProxyModel.html" title="Ms::ScoreOrderFilterProxy\lModel" alt="" coords="545,399,720,441"/>
+<area shape="rect" id="node19" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="249,488,364,515"/>
+<area shape="rect" id="node20" href="$classMs_1_1ScoreGroup.html" title="Ms::ScoreGroup" alt="" coords="5,488,121,515"/>
+</map>

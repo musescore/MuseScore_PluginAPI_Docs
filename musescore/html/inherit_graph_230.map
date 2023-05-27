@@ -1,5 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_ms_1_1_mag_box.html" title="Ms::MagBox" alt="" coords="192,5,288,32"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_search_combo_box.html" title="Ms::SearchComboBox" alt="" coords="163,56,317,83"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_workspace_combo_box.html" title="Ms::WorkspaceComboBox" alt="" coords="151,107,329,133"/>
+<area shape="rect" id="node1" href="$classMs_1_1GuitarPro.html" title="Ms::GuitarPro" alt="" coords="5,107,108,133"/>
+<area shape="rect" id="node2" href="$classMs_1_1GuitarPro1.html" title="Ms::GuitarPro1" alt="" coords="156,31,265,57"/>
+<area shape="rect" id="node5" href="$classMs_1_1GuitarPro4.html" title="Ms::GuitarPro4" alt="" coords="156,81,265,108"/>
+<area shape="rect" id="node6" href="$classMs_1_1GuitarPro5.html" title="Ms::GuitarPro5" alt="" coords="156,132,265,159"/>
+<area shape="rect" id="node7" href="$classMs_1_1GuitarPro6.html" title="Ms::GuitarPro6" alt="" coords="156,183,265,209"/>
+<area shape="rect" id="node3" href="$classMs_1_1GuitarPro2.html" title="Ms::GuitarPro2" alt="" coords="313,5,423,32"/>
+<area shape="rect" id="node4" href="$classMs_1_1GuitarPro3.html" title="Ms::GuitarPro3" alt="" coords="313,56,423,83"/>
+<area shape="rect" id="node8" href="$classMs_1_1GuitarPro7.html" title="Ms::GuitarPro7" alt="" coords="313,183,423,209"/>
 </map>

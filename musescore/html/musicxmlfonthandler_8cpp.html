@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/musicxmlfonthandler.cpp File Reference</title>
+<title>MuseScore: importexport/musicxml/musicxmlfonthandler.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,12 +61,13 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_08705a486b9992a720e4b92b236c5d62.html">musicxml</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">musicxmlfonthandler.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -77,43 +78,56 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for musicxmlfonthandler.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="musicxmlfonthandler_8cpp__incl.png" border="0" usemap="#mscore_2musicxmlfonthandler_8cpp" alt=""/></div>
-<map name="mscore_2musicxmlfonthandler_8cpp" id="mscore_2musicxmlfonthandler_8cpp">
-<area shape="rect" id="node2" href="sym_8h.html" title="libmscore/sym.h" alt="" coords="1079,80,1198,107"/>
-<area shape="rect" id="node6" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="304,80,419,107"/>
-<area shape="rect" id="node29" href="musicxmlfonthandler_8h.html" title="musicxmlfonthandler.h" alt="" coords="910,229,1063,256"/>
-<area shape="rect" id="node7" href="connector_8h.html" title="connector.h" alt="" coords="5,453,96,480"/>
-<area shape="rect" id="node15" href="stafftype_8h.html" title="stafftype.h" alt="" coords="371,155,455,181"/>
-<area shape="rect" id="node16" href="element_8h.html" title="element.h" alt="" coords="325,528,403,555"/>
-<area shape="rect" id="node27" href="interval_8h.html" title="interval.h" alt="" coords="272,155,347,181"/>
-<area shape="rect" id="node28" href="select_8h.html" title="select.h" alt="" coords="614,155,682,181"/>
-<area shape="rect" id="node8" href="location_8h.html" title="location.h" alt="" coords="118,528,197,555"/>
-<area shape="rect" id="node13" href="types_8h.html" title="types.h" alt="" coords="521,827,586,853"/>
-<area shape="rect" id="node9" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="206,603,282,629"/>
-<area shape="rect" id="node10" href="mscore_8h.html" title="mscore.h" alt="" coords="693,677,769,704"/>
-<area shape="rect" id="node11" href="style_8h.html" title="style.h" alt="" coords="621,752,683,779"/>
-<area shape="rect" id="node12" href="chordlist_8h.html" title="chordlist.h" alt="" coords="611,827,693,853"/>
-<area shape="rect" id="node17" href="spatium_8h.html" title="spatium.h" alt="" coords="315,603,394,629"/>
-<area shape="rect" id="node20" href="durationtype_8h.html" title="durationtype.h" alt="" coords="461,229,565,256"/>
-<area shape="rect" id="node18" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="497,677,610,704"/>
-<area shape="rect" id="node19" href="shape_8h.html" title="shape.h" alt="" coords="578,603,646,629"/>
-<area shape="rect" id="node21" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="535,304,593,331"/>
-<area shape="rect" id="node22" href="symbol_8h.html" title="symbol.h" alt="" coords="323,379,397,405"/>
-<area shape="rect" id="node24" href="noteevent_8h.html" title="noteevent.h" alt="" coords="421,379,512,405"/>
-<area shape="rect" id="node25" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="819,379,925,405"/>
-<area shape="rect" id="node26" href="key_8h.html" title="key.h" alt="" coords="537,379,591,405"/>
-<area shape="rect" id="node23" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="323,453,405,480"/>
-<area shape="rect" id="node30" href="text_8h.html" title="libmscore/text.h" alt="" coords="949,379,1064,405"/>
-<area shape="rect" id="node31" href="textbase_8h.html" title="textbase.h" alt="" coords="895,453,977,480"/>
-<area shape="rect" id="node32" href="property_8h.html" title="property.h" alt="" coords="920,528,1000,555"/>
+<div class="center"><img src="musicxmlfonthandler_8cpp__incl.png" border="0" usemap="#importexport_2musicxml_2musicxmlfonthandler_8cpp" alt=""/></div>
+<map name="importexport_2musicxml_2musicxmlfonthandler_8cpp" id="importexport_2musicxml_2musicxmlfonthandler_8cpp">
+<area shape="rect" id="node2" href="sym_8h.html" title="libmscore/sym.h" alt="" coords="741,617,864,644"/>
+<area shape="rect" id="node9" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="380,95,499,121"/>
+<area shape="rect" id="node32" href="musicxmlfonthandler_8h.html" title="musicxmlfonthandler.h" alt="" coords="139,95,298,121"/>
+<area shape="rect" id="node4" href="libmscore_2style_8h.html" title="style.h" alt="" coords="459,841,519,868"/>
+<area shape="rect" id="node5" href="chordlist_8h.html" title="chordlist.h" alt="" coords="463,916,547,943"/>
+<area shape="rect" id="node6" href="types_8h.html" title="types.h" alt="" coords="374,916,438,943"/>
+<area shape="rect" id="node11" href="connector_8h.html" title="connector.h" alt="" coords="130,543,222,569"/>
+<area shape="rect" id="node16" href="stafftype_8h.html" title="stafftype.h" alt="" coords="449,169,534,196"/>
+<area shape="rect" id="node17" href="element_8h.html" title="element.h" alt="" coords="361,543,441,569"/>
+<area shape="rect" id="node30" href="interval_8h.html" title="interval.h" alt="" coords="350,169,425,196"/>
+<area shape="rect" id="node31" href="select_8h.html" title="select.h" alt="" coords="803,169,871,196"/>
+<area shape="rect" id="node12" href="location_8h.html" title="location.h" alt="" coords="229,617,309,644"/>
+<area shape="rect" id="node13" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="435,692,514,719"/>
+<area shape="rect" id="node14" href="mscore_8h.html" title="mscore.h" alt="" coords="888,767,967,793"/>
+<area shape="rect" id="node19" href="spatium_8h.html" title="spatium.h" alt="" coords="74,617,154,644"/>
+<area shape="rect" id="node23" href="durationtype_8h.html" title="durationtype.h" alt="" coords="670,244,775,271"/>
+<area shape="rect" id="node24" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="624,319,682,345"/>
+<area shape="rect" id="node18" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="334,617,447,644"/>
+<area shape="rect" id="node20" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="349,767,464,793"/>
+<area shape="rect" id="node21" href="shape_8h.html" title="shape.h" alt="" coords="598,617,666,644"/>
+<area shape="rect" id="node22" href="sig_8h.html" title="sig.h" alt="" coords="472,617,522,644"/>
+<area shape="rect" id="node25" href="symbol_8h.html" title="symbol.h" alt="" coords="615,393,691,420"/>
+<area shape="rect" id="node27" href="noteevent_8h.html" title="noteevent.h" alt="" coords="500,393,590,420"/>
+<area shape="rect" id="node28" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="919,393,1024,420"/>
+<area shape="rect" id="node29" href="key_8h.html" title="key.h" alt="" coords="740,468,793,495"/>
+<area shape="rect" id="node26" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="449,468,532,495"/>
+<area shape="rect" id="node33" href="text_8h.html" title="libmscore/text.h" alt="" coords="44,244,163,271"/>
+<area shape="rect" id="node34" href="textbase_8h.html" title="textbase.h" alt="" coords="36,468,118,495"/>
+<area shape="rect" id="node35" href="property_8h.html" title="property.h" alt="" coords="24,543,106,569"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="musicxmlfonthandler_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a76e40f0e2af599537558dd8588c59864"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a76e40f0e2af599537558dd8588c59864">Ms::plainTextPlusSymbolsFragmentSize</a> (const TextFragment &amp;f)</td></tr>
+<tr class="separator:a76e40f0e2af599537558dd8588c59864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f24d7766c9765ba33be9495100471be"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9f24d7766c9765ba33be9495100471be">Ms::plainTextPlusSymbolsListSize</a> (const QList&lt; TextFragment &gt; &amp;list)</td></tr>
+<tr class="separator:a9f24d7766c9765ba33be9495100471be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecfa2f7a5021af190a60a2c46f79e11"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#abecfa2f7a5021af190a60a2c46f79e11">Ms::attribute</a> (bool needed, bool value, QString trueString, QString falseString)</td></tr>
+<tr class="separator:abecfa2f7a5021af190a60a2c46f79e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

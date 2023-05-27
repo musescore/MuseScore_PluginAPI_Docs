@@ -1,6 +1,0 @@
-<map id="Ms::MixerDetailsVoiceButtonHandler" name="Ms::MixerDetailsVoiceButtonHandler">
-<area shape="rect" id="node3" href="$class_ms_1_1_mixer_details.html" title="Ms::MixerDetails" alt="" coords="121,276,242,303"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="263,200,406,227"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="257,109,412,151"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="259,5,410,47"/>
-</map>

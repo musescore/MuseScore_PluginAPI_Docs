@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_o_v_e_1_1_ove_song.html" title="OVE::OveSong" alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,31,97,57"/>
+<area shape="rect" id="node2" href="$classMs_1_1SynthesizerGroup.html" title="Ms::SynthesizerGroup" alt="" coords="145,5,296,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="148,56,293,83"/>
 </map>

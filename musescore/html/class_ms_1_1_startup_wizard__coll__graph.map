@@ -1,7 +1,0 @@
-<map id="Ms::StartupWizard" name="Ms::StartupWizard">
-<area shape="rect" id="node3" href="$class_ms_1_1_startup_wizard_page4.html" title="Ms::StartupWizardPage4" alt="" coords="168,56,336,83"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_startup_wizard_intro_page.html" title="Ms::StartupWizardIntroPage" alt="" coords="159,107,345,133"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_startup_wizard_final_page.html" title="Ms::StartupWizardFinalPage" alt="" coords="157,157,347,184"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_startup_wizard_page1.html" title="Ms::StartupWizardPage1" alt="" coords="168,208,336,235"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_startup_wizard_page2.html" title="Ms::StartupWizardPage2" alt="" coords="168,259,336,285"/>
-</map>

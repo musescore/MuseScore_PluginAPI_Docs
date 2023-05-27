@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_m_note.html" title="Ms::MNote" alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node1" href="$classMs_1_1MidiCoreEvent.html" title="Ms::MidiCoreEvent" alt="" coords="5,31,137,57"/>
+<area shape="rect" id="node2" href="$classMs_1_1MidiEvent.html" title="Ms::MidiEvent" alt="" coords="185,5,289,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1PlayEvent.html" title="Ms::PlayEvent" alt="" coords="186,56,289,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1Event.html" title="Ms::Event" alt="" coords="354,31,433,57"/>
+<area shape="rect" id="node5" href="$classMs_1_1NPlayEvent.html" title="Ms::NPlayEvent" alt="" coords="337,81,449,108"/>
 </map>

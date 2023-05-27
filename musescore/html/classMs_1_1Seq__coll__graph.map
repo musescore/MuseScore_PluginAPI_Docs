@@ -1,0 +1,40 @@
+<map id="Ms::Seq" name="Ms::Seq">
+<area shape="rect" id="node43" href="$classMs_1_1Driver.html" title="Ms::Driver" alt="" coords="1800,1497,1883,1524"/>
+<area shape="rect" id="node14" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="151,952,232,979"/>
+<area shape="rect" id="node45" href="$classMs_1_1MasterSynthesizer.html" title="Ms::MasterSynthesizer" alt="" coords="860,1796,1017,1823"/>
+<area shape="rect" id="node48" href="$classMs_1_1Effect.html" title="Ms::Effect" alt="" coords="151,1788,232,1815"/>
+<area shape="rect" id="node3" href="$classMs_1_1Sequencer.html" title="Ms::Sequencer" alt="" coords="1245,1437,1356,1464"/>
+<area shape="rect" id="node4" href="$classMs_1_1RangeMap.html" title="Helper class to keep track of status of status of certain parts of score or MIDI representation. " alt="" coords="1246,1543,1355,1569"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="511,1585,625,1612"/>
+<area shape="rect" id="node7" href="$classMs_1_1SeqMsgFifo.html" title="Ms::SeqMsgFifo" alt="" coords="1241,1648,1360,1675"/>
+<area shape="rect" id="node8" href="$classMs_1_1FifoBase.html" title="Ms::FifoBase" alt="" coords="889,1600,988,1627"/>
+<area shape="rect" id="node9" href="$structMs_1_1SeqMsg.html" title="Ms::SeqMsg" alt="" coords="891,1651,987,1677"/>
+<area shape="rect" id="node10" href="$classMs_1_1NPlayEvent.html" title="Ms::NPlayEvent" alt="" coords="512,1636,624,1663"/>
+<area shape="rect" id="node11" href="$classMs_1_1ScoreView.html" title="Ms::ScoreView" alt="" coords="1246,341,1355,368"/>
+<area shape="rect" id="node33" href="$classMs_1_1OmrView.html" title="Ms::OmrView" alt="" coords="1584,259,1685,285"/>
+<area shape="rect" id="node34" href="$classMs_1_1ContinuousPanel.html" title="Ms::ContinuousPanel" alt="" coords="1561,540,1708,567"/>
+<area shape="rect" id="node40" href="$classMs_1_1PositionCursor.html" title="Ms::PositionCursor" alt="" coords="1567,449,1703,476"/>
+<area shape="rect" id="node13" href="$classMs_1_1MuseScoreView.html" title="Ms::MuseScoreView" alt="" coords="497,411,639,437"/>
+<area shape="rect" id="node32" href="$classMs_1_1EditData.html" title="Ms::EditData" alt="" coords="891,392,987,419"/>
+<area shape="rect" id="node15" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="877,1071,1000,1097"/>
+<area shape="rect" id="node23" href="$classMs_1_1RepeatList.html" title="Ms::RepeatList" alt="" coords="514,1071,622,1097"/>
+<area shape="rect" id="node41" href="$classMs_1_1MidiRenderer.html" title="MIDI renderer for a score. " alt="" coords="875,1392,1002,1419"/>
+<area shape="rect" id="node17" href="$classMs_1_1Omr.html" title="Ms::Omr" alt="" coords="531,731,605,757"/>
+<area shape="rect" id="node18" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="144,624,239,651"/>
+<area shape="rect" id="node21" href="$classMs_1_1CmdState.html" title="Ms::CmdState" alt="" coords="515,512,621,539"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="135,1517,247,1544"/>
+<area shape="rect" id="node22" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="144,240,239,267"/>
+<area shape="rect" id="node29" href="$classMs_1_1Lasso.html" title="Ms::Lasso" alt="" coords="527,179,609,205"/>
+<area shape="rect" id="node30" href="$classMs_1_1ShadowNote.html" title="Graphic representation of a shadow note, which shows the note insert position in note entry mode..." alt="" coords="506,115,630,141"/>
+<area shape="rect" id="node24" href="$classMs_1_1Revisions.html" title="Ms::Revisions" alt="" coords="517,1239,619,1265"/>
+<area shape="rect" id="node25" href="$classMs_1_1TempoMap.html" title="Ms::TempoMap" alt="" coords="511,957,625,984"/>
+<area shape="rect" id="node27" href="$classMs_1_1Movements.html" title="Ms::Movements" alt="" coords="509,1289,627,1316"/>
+<area shape="rect" id="node28" href="$classMs_1_1TimeSigMap.html" title="Ms::TimeSigMap" alt="" coords="507,1121,629,1148"/>
+<area shape="rect" id="node39" href="$classMs_1_1FotoLasso.html" title="Ms::FotoLasso" alt="" coords="883,127,994,153"/>
+<area shape="rect" id="node31" href="$classMs_1_1TDuration.html" title="Ms::TDuration" alt="" coords="139,115,243,141"/>
+<area shape="rect" id="node37" href="$structMs_1_1SmoothPanSettings.html" title="Ms::SmoothPanSettings" alt="" coords="857,291,1020,317"/>
+<area shape="rect" id="node38" href="$structMs_1_1ZoomState.html" title="Ms::ZoomState" alt="" coords="882,341,995,368"/>
+<area shape="rect" id="node44" href="$structMs_1_1Seq_1_1CachedPreferences.html" title="Preferences cached for faster access in realtime context. " alt="" coords="1205,1593,1396,1620"/>
+<area shape="rect" id="node49" href="$classMs_1_1EventMap.html" title="Ms::EventMap" alt="" coords="1249,1492,1353,1519"/>
+<area shape="rect" id="node50" title="STL class. " alt="" coords="874,1483,1003,1525"/>
+</map>

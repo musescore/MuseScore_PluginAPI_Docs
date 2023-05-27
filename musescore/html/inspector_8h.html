@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -73,9 +73,9 @@ $(function() {
 <div class="title">inspector.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="inspector_base_8h_source.html">inspectorBase.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="inspector_element_base_8h_source.html">inspectorElementBase.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="inspector_text_base_8h_source.html">inspectorTextBase.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="inspectorBase_8h_source.html">inspectorBase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="inspectorElementBase_8h_source.html">inspectorElementBase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="inspectorTextBase_8h_source.html">inspectorTextBase.h</a>&quot;</code><br />
 <code>#include &quot;ui_inspector_break.h&quot;</code><br />
 <code>#include &quot;ui_inspector_sectionbreak.h&quot;</code><br />
 <code>#include &quot;ui_inspector_stafftypechange.h&quot;</code><br />
@@ -88,6 +88,7 @@ $(function() {
 <code>#include &quot;ui_inspector_note.h&quot;</code><br />
 <code>#include &quot;ui_inspector_chord.h&quot;</code><br />
 <code>#include &quot;ui_inspector_rest.h&quot;</code><br />
+<code>#include &quot;ui_inspector_mmrest.h&quot;</code><br />
 <code>#include &quot;ui_inspector_clef.h&quot;</code><br />
 <code>#include &quot;ui_inspector_timesig.h&quot;</code><br />
 <code>#include &quot;ui_inspector_keysig.h&quot;</code><br />
@@ -96,6 +97,7 @@ $(function() {
 <code>#include &quot;ui_inspector_accidental.h&quot;</code><br />
 <code>#include &quot;ui_inspector_tempotext.h&quot;</code><br />
 <code>#include &quot;ui_inspector_lyric.h&quot;</code><br />
+<code>#include &quot;ui_inspector_instrchange.h&quot;</code><br />
 <code>#include &quot;ui_inspector_stafftext.h&quot;</code><br />
 <code>#include &quot;ui_inspector_slur.h&quot;</code><br />
 <code>#include &quot;ui_inspector_empty.h&quot;</code><br />
@@ -111,13 +113,13 @@ Include dependency graph for inspector.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="inspector_8h__incl.png" border="0" usemap="#mscore_2inspector_2inspector_8h" alt=""/></div>
 <map name="mscore_2inspector_2inspector_8h" id="mscore_2inspector_2inspector_8h">
-<area shape="rect" id="node2" href="inspector_base_8h.html" title="inspectorBase.h" alt="" coords="95,229,211,256"/>
-<area shape="rect" id="node8" href="inspector_element_base_8h.html" title="inspectorElementBase.h" alt="" coords="191,155,355,181"/>
-<area shape="rect" id="node10" href="inspector_text_base_8h.html" title="inspectorTextBase.h" alt="" coords="264,80,407,107"/>
-<area shape="rect" id="node3" href="property_8h.html" title="libmscore/property.h" alt="" coords="5,304,145,331"/>
-<area shape="rect" id="node4" href="style_8h.html" title="libmscore/style.h" alt="" coords="169,304,291,331"/>
-<area shape="rect" id="node5" href="chordlist_8h.html" title="chordlist.h" alt="" coords="139,379,222,405"/>
-<area shape="rect" id="node6" href="types_8h.html" title="types.h" alt="" coords="247,379,312,405"/>
+<area shape="rect" id="node2" href="inspectorBase_8h.html" title="inspectorBase.h" alt="" coords="98,229,215,256"/>
+<area shape="rect" id="node8" href="inspectorElementBase_8h.html" title="inspectorElementBase.h" alt="" coords="194,155,359,181"/>
+<area shape="rect" id="node10" href="inspectorTextBase_8h.html" title="inspectorTextBase.h" alt="" coords="269,80,412,107"/>
+<area shape="rect" id="node3" href="property_8h.html" title="libmscore/property.h" alt="" coords="5,304,151,331"/>
+<area shape="rect" id="node4" href="libmscore_2style_8h.html" title="libmscore/style.h" alt="" coords="175,304,299,331"/>
+<area shape="rect" id="node5" href="chordlist_8h.html" title="chordlist.h" alt="" coords="145,379,229,405"/>
+<area shape="rect" id="node6" href="types_8h.html" title="types.h" alt="" coords="254,379,318,405"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -125,55 +127,55 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="inspector_8h__dep__incl.png" border="0" usemap="#mscore_2inspector_2inspector_8hdep" alt=""/></div>
 <map name="mscore_2inspector_2inspector_8hdep" id="mscore_2inspector_2inspector_8hdep">
-<area shape="rect" id="node2" href="editelement_8cpp.html" title="mscore/editelement.cpp" alt="" coords="5,87,167,114"/>
-<area shape="rect" id="node3" href="fotomode_8cpp.html" title="mscore/fotomode.cpp" alt="" coords="191,87,339,114"/>
-<area shape="rect" id="node4" href="inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="2327,177,2531,203"/>
-<area shape="rect" id="node5" href="inspector_beam_8h.html" title="mscore/inspector/inspector\lBeam.h" alt="" coords="870,80,1049,121"/>
-<area shape="rect" id="node7" href="inspector_image_8h.html" title="mscore/inspector/inspector\lImage.h" alt="" coords="1073,80,1251,121"/>
-<area shape="rect" id="node9" href="inspector_lasso_8h.html" title="mscore/inspector/inspector\lLasso.h" alt="" coords="1275,80,1454,121"/>
-<area shape="rect" id="node11" href="inspector_volta_8h.html" title="mscore/inspector/inspector\lVolta.h" alt="" coords="1478,80,1657,121"/>
-<area shape="rect" id="node13" href="inspector_ottava_8h.html" title="mscore/inspector/inspector\lOttava.h" alt="" coords="414,80,593,121"/>
-<area shape="rect" id="node14" href="inspector_ottava_8cpp.html" title="mscore/inspector/inspector\lOttava.cpp" alt="" coords="363,169,542,211"/>
-<area shape="rect" id="node15" href="inspector_trill_8h.html" title="mscore/inspector/inspector\lTrill.h" alt="" coords="1681,80,1859,121"/>
-<area shape="rect" id="node17" href="inspector_hairpin_8h.html" title="mscore/inspector/inspector\lHairpin.h" alt="" coords="667,80,846,121"/>
-<area shape="rect" id="node18" href="inspector_hairpin_8cpp.html" title="mscore/inspector/inspector\lHairpin.cpp" alt="" coords="591,169,770,211"/>
-<area shape="rect" id="node19" href="inspector_glissando_8h.html" title="mscore/inspector/inspector\lGlissando.h" alt="" coords="1883,80,2062,121"/>
-<area shape="rect" id="node21" href="inspector_arpeggio_8h.html" title="mscore/inspector/inspector\lArpeggio.h" alt="" coords="2086,80,2265,121"/>
-<area shape="rect" id="node23" href="inspector_note_8h.html" title="mscore/inspector/inspector\lNote.h" alt="" coords="3961,80,4139,121"/>
-<area shape="rect" id="node24" href="inspector_note_8cpp.html" title="mscore/inspector/inspector\lNote.cpp" alt="" coords="3986,169,4165,211"/>
-<area shape="rect" id="node25" href="inspector_ambitus_8h.html" title="mscore/inspector/inspector\lAmbitus.h" alt="" coords="4214,80,4393,121"/>
-<area shape="rect" id="node26" href="inspector_ambitus_8cpp.html" title="mscore/inspector/inspector\lAmbitus.cpp" alt="" coords="4239,169,4418,211"/>
-<area shape="rect" id="node27" href="inspector_fret_8h.html" title="mscore/inspector/inspector\lFret.h" alt="" coords="2339,80,2518,121"/>
-<area shape="rect" id="node28" href="inspector_text_8h.html" title="mscore/inspector/inspector\lText.h" alt="" coords="2542,80,2721,121"/>
-<area shape="rect" id="node29" href="inspector_fingering_8h.html" title="mscore/inspector/inspector\lFingering.h" alt="" coords="2745,80,2923,121"/>
-<area shape="rect" id="node30" href="inspector_harmony_8h.html" title="mscore/inspector/inspector\lHarmony.h" alt="" coords="2947,80,3126,121"/>
-<area shape="rect" id="node31" href="inspector_vibrato_8h.html" title="mscore/inspector/inspector\lVibrato.h" alt="" coords="4467,80,4646,121"/>
-<area shape="rect" id="node32" href="inspector_vibrato_8cpp.html" title="mscore/inspector/inspector\lVibrato.cpp" alt="" coords="4530,169,4709,211"/>
-<area shape="rect" id="node33" href="inspector_note_dot_8h.html" title="mscore/inspector/inspector\lNoteDot.h" alt="" coords="3150,80,3329,121"/>
-<area shape="rect" id="node34" href="inspector_measure_number_8h.html" title="mscore/inspector/inspector\lMeasureNumber.h" alt="" coords="3353,80,3531,121"/>
-<area shape="rect" id="node35" href="inspector_bend_8h.html" title="mscore/inspector/inspector\lBend.h" alt="" coords="3555,80,3734,121"/>
-<area shape="rect" id="node36" href="inspector_tremolo_bar_8h.html" title="mscore/inspector/inspector\lTremoloBar.h" alt="" coords="3758,80,3937,121"/>
-<area shape="rect" id="node37" href="inspector_barline_8cpp.html" title="mscore/inspector/inspector\lBarline.cpp" alt="" coords="4721,80,4899,121"/>
-<area shape="rect" id="node38" href="inspector_base_8cpp.html" title="mscore/inspector/inspector\lBase.cpp" alt="" coords="4923,80,5102,121"/>
-<area shape="rect" id="node39" href="inspector_element_base_8cpp.html" title="mscore/inspector/inspector\lElementBase.cpp" alt="" coords="5126,80,5305,121"/>
-<area shape="rect" id="node40" href="inspector_group_element_8cpp.html" title="mscore/inspector/inspector\lGroupElement.cpp" alt="" coords="5329,80,5507,121"/>
-<area shape="rect" id="node41" href="inspector_let_ring_8cpp.html" title="mscore/inspector/inspector\lLetRing.cpp" alt="" coords="5531,80,5710,121"/>
-<area shape="rect" id="node42" href="inspector_palm_mute_8cpp.html" title="mscore/inspector/inspector\lPalmMute.cpp" alt="" coords="5734,80,5913,121"/>
-<area shape="rect" id="node43" href="inspector_pedal_8cpp.html" title="mscore/inspector/inspector\lPedal.cpp" alt="" coords="5937,80,6115,121"/>
-<area shape="rect" id="node44" href="inspector_text_base_8cpp.html" title="mscore/inspector/inspector\lTextBase.cpp" alt="" coords="6139,80,6318,121"/>
-<area shape="rect" id="node45" href="inspector_text_line_8cpp.html" title="mscore/inspector/inspector\lTextLine.cpp" alt="" coords="6342,80,6521,121"/>
-<area shape="rect" id="node46" href="inspector_text_line_base_8cpp.html" title="mscore/inspector/inspector\lTextLineBase.cpp" alt="" coords="6545,80,6723,121"/>
-<area shape="rect" id="node47" href="musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="6748,87,6907,114"/>
-<area shape="rect" id="node48" href="scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="6931,87,7129,114"/>
-<area shape="rect" id="node49" href="scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="7153,87,7307,114"/>
-<area shape="rect" id="node50" href="scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="7331,87,7521,114"/>
-<area shape="rect" id="node6" href="inspector_beam_8cpp.html" title="mscore/inspector/inspector\lBeam.cpp" alt="" coords="870,169,1049,211"/>
-<area shape="rect" id="node8" href="inspector_image_8cpp.html" title="mscore/inspector/inspector\lImage.cpp" alt="" coords="1073,169,1251,211"/>
-<area shape="rect" id="node10" href="inspector_lasso_8cpp.html" title="mscore/inspector/inspector\lLasso.cpp" alt="" coords="1275,169,1454,211"/>
-<area shape="rect" id="node12" href="inspector_volta_8cpp.html" title="mscore/inspector/inspector\lVolta.cpp" alt="" coords="1478,169,1657,211"/>
-<area shape="rect" id="node16" href="inspector_trill_8cpp.html" title="mscore/inspector/inspector\lTrill.cpp" alt="" coords="1681,169,1859,211"/>
-<area shape="rect" id="node20" href="inspector_glissando_8cpp.html" title="mscore/inspector/inspector\lGlissando.cpp" alt="" coords="1883,169,2062,211"/>
-<area shape="rect" id="node22" href="inspector_arpeggio_8cpp.html" title="mscore/inspector/inspector\lArpeggio.cpp" alt="" coords="2086,169,2265,211"/>
+<area shape="rect" id="node2" href="editelement_8cpp.html" title="mscore/editelement.cpp" alt="" coords="5,87,172,114"/>
+<area shape="rect" id="node3" href="fotomode_8cpp.html" title="mscore/fotomode.cpp" alt="" coords="196,87,355,114"/>
+<area shape="rect" id="node4" href="inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="2502,177,2715,203"/>
+<area shape="rect" id="node5" href="inspectorBeam_8h.html" title="mscore/inspector/inspector\lBeam.h" alt="" coords="907,80,1097,121"/>
+<area shape="rect" id="node7" href="inspectorImage_8h.html" title="mscore/inspector/inspector\lImage.h" alt="" coords="1121,80,1310,121"/>
+<area shape="rect" id="node9" href="inspectorLasso_8h.html" title="mscore/inspector/inspector\lLasso.h" alt="" coords="1334,80,1523,121"/>
+<area shape="rect" id="node11" href="inspectorVolta_8h.html" title="mscore/inspector/inspector\lVolta.h" alt="" coords="1547,80,1737,121"/>
+<area shape="rect" id="node13" href="inspectorOttava_8h.html" title="mscore/inspector/inspector\lOttava.h" alt="" coords="430,80,619,121"/>
+<area shape="rect" id="node14" href="inspectorOttava_8cpp.html" title="mscore/inspector/inspector\lOttava.cpp" alt="" coords="377,169,566,211"/>
+<area shape="rect" id="node15" href="inspectorTrill_8h.html" title="mscore/inspector/inspector\lTrill.h" alt="" coords="1761,80,1950,121"/>
+<area shape="rect" id="node17" href="inspectorHairpin_8h.html" title="mscore/inspector/inspector\lHairpin.h" alt="" coords="694,80,883,121"/>
+<area shape="rect" id="node18" href="inspectorHairpin_8cpp.html" title="mscore/inspector/inspector\lHairpin.cpp" alt="" coords="615,169,805,211"/>
+<area shape="rect" id="node19" href="inspectorGlissando_8h.html" title="mscore/inspector/inspector\lGlissando.h" alt="" coords="1974,80,2163,121"/>
+<area shape="rect" id="node21" href="inspectorArpeggio_8h.html" title="mscore/inspector/inspector\lArpeggio.h" alt="" coords="2187,80,2377,121"/>
+<area shape="rect" id="node23" href="inspectorNote_8h.html" title="mscore/inspector/inspector\lNote.h" alt="" coords="3945,80,4134,121"/>
+<area shape="rect" id="node24" href="inspectorNote_8cpp.html" title="mscore/inspector/inspector\lNote.cpp" alt="" coords="3970,169,4159,211"/>
+<area shape="rect" id="node25" href="inspectorAmbitus_8h.html" title="mscore/inspector/inspector\lAmbitus.h" alt="" coords="4209,80,4398,121"/>
+<area shape="rect" id="node26" href="inspectorAmbitus_8cpp.html" title="mscore/inspector/inspector\lAmbitus.cpp" alt="" coords="4234,169,4423,211"/>
+<area shape="rect" id="node27" href="inspectorFret_8h.html" title="mscore/inspector/inspector\lFret.h" alt="" coords="2878,80,3067,121"/>
+<area shape="rect" id="node28" href="inspectorText_8h.html" title="mscore/inspector/inspector\lText.h" alt="" coords="3091,80,3281,121"/>
+<area shape="rect" id="node29" href="inspectorFingering_8h.html" title="mscore/inspector/inspector\lFingering.h" alt="" coords="3305,80,3494,121"/>
+<area shape="rect" id="node30" href="inspectorHarmony_8h.html" title="mscore/inspector/inspector\lHarmony.h" alt="" coords="3518,80,3707,121"/>
+<area shape="rect" id="node31" href="inspectorVibrato_8h.html" title="mscore/inspector/inspector\lVibrato.h" alt="" coords="4473,80,4662,121"/>
+<area shape="rect" id="node32" href="inspectorVibrato_8cpp.html" title="mscore/inspector/inspector\lVibrato.cpp" alt="" coords="4538,169,4727,211"/>
+<area shape="rect" id="node33" href="inspectorNoteDot_8h.html" title="mscore/inspector/inspector\lNoteDot.h" alt="" coords="3731,80,3921,121"/>
+<area shape="rect" id="node34" href="inspectorBend_8h.html" title="mscore/inspector/inspector\lBend.h" alt="" coords="2401,80,2590,121"/>
+<area shape="rect" id="node35" href="inspectorTremoloBar_8h.html" title="mscore/inspector/inspector\lTremoloBar.h" alt="" coords="2614,80,2803,121"/>
+<area shape="rect" id="node36" href="inspectorBarline_8cpp.html" title="mscore/inspector/inspector\lBarline.cpp" alt="" coords="4737,80,4926,121"/>
+<area shape="rect" id="node37" href="inspectorBase_8cpp.html" title="mscore/inspector/inspector\lBase.cpp" alt="" coords="4950,80,5139,121"/>
+<area shape="rect" id="node38" href="inspectorElementBase_8cpp.html" title="mscore/inspector/inspector\lElementBase.cpp" alt="" coords="5163,80,5353,121"/>
+<area shape="rect" id="node39" href="inspectorGroupElement_8cpp.html" title="mscore/inspector/inspector\lGroupElement.cpp" alt="" coords="5377,80,5566,121"/>
+<area shape="rect" id="node40" href="inspectorInstrchange_8cpp.html" title="mscore/inspector/inspector\lInstrchange.cpp" alt="" coords="5590,80,5779,121"/>
+<area shape="rect" id="node41" href="inspectorLetRing_8cpp.html" title="mscore/inspector/inspector\lLetRing.cpp" alt="" coords="5803,80,5993,121"/>
+<area shape="rect" id="node42" href="inspectorPalmMute_8cpp.html" title="mscore/inspector/inspector\lPalmMute.cpp" alt="" coords="6017,80,6206,121"/>
+<area shape="rect" id="node43" href="inspectorPedal_8cpp.html" title="mscore/inspector/inspector\lPedal.cpp" alt="" coords="6230,80,6419,121"/>
+<area shape="rect" id="node44" href="inspectorTextBase_8cpp.html" title="mscore/inspector/inspector\lTextBase.cpp" alt="" coords="6443,80,6633,121"/>
+<area shape="rect" id="node45" href="inspectorTextLine_8cpp.html" title="mscore/inspector/inspector\lTextLine.cpp" alt="" coords="6657,80,6846,121"/>
+<area shape="rect" id="node46" href="inspectorTextLineBase_8cpp.html" title="mscore/inspector/inspector\lTextLineBase.cpp" alt="" coords="6870,80,7059,121"/>
+<area shape="rect" id="node47" href="musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="7084,87,7248,114"/>
+<area shape="rect" id="node48" href="scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="7273,87,7475,114"/>
+<area shape="rect" id="node49" href="scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="7500,87,7656,114"/>
+<area shape="rect" id="node50" href="scriptentry_8cpp.html" title="mscore/script/scriptentry.cpp" alt="" coords="7680,87,7879,114"/>
+<area shape="rect" id="node6" href="inspectorBeam_8cpp.html" title="mscore/inspector/inspector\lBeam.cpp" alt="" coords="907,169,1097,211"/>
+<area shape="rect" id="node8" href="inspectorImage_8cpp.html" title="mscore/inspector/inspector\lImage.cpp" alt="" coords="1121,169,1310,211"/>
+<area shape="rect" id="node10" href="inspectorLasso_8cpp.html" title="mscore/inspector/inspector\lLasso.cpp" alt="" coords="1334,169,1523,211"/>
+<area shape="rect" id="node12" href="inspectorVolta_8cpp.html" title="mscore/inspector/inspector\lVolta.cpp" alt="" coords="1547,169,1737,211"/>
+<area shape="rect" id="node16" href="inspectorTrill_8cpp.html" title="mscore/inspector/inspector\lTrill.cpp" alt="" coords="1761,169,1950,211"/>
+<area shape="rect" id="node20" href="inspectorGlissando_8cpp.html" title="mscore/inspector/inspector\lGlissando.cpp" alt="" coords="1974,169,2163,211"/>
+<area shape="rect" id="node22" href="inspectorArpeggio_8cpp.html" title="mscore/inspector/inspector\lArpeggio.cpp" alt="" coords="2187,169,2377,211"/>
 </map>
 </div>
 </div>
@@ -181,70 +183,72 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_element.html">Ms::InspectorElement</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorElement.html">Ms::InspectorElement</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_break.html">Ms::InspectorBreak</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorBreak.html">Ms::InspectorBreak</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_section_break.html">Ms::InspectorSectionBreak</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorSectionBreak.html">Ms::InspectorSectionBreak</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_staff_type_change.html">Ms::InspectorStaffTypeChange</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorStaffTypeChange.html">Ms::InspectorStaffTypeChange</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_v_box.html">Ms::InspectorVBox</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorVBox.html">Ms::InspectorVBox</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_t_box.html">Ms::InspectorTBox</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorTBox.html">Ms::InspectorTBox</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_h_box.html">Ms::InspectorHBox</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorHBox.html">Ms::InspectorHBox</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_articulation.html">Ms::InspectorArticulation</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorArticulation.html">Ms::InspectorArticulation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_fermata.html">Ms::InspectorFermata</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorFermata.html">Ms::InspectorFermata</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_spacer.html">Ms::InspectorSpacer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorSpacer.html">Ms::InspectorSpacer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_rest.html">Ms::InspectorRest</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorRest.html">Ms::InspectorRest</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_clef.html">Ms::InspectorClef</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorMMRest.html">Ms::InspectorMMRest</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_stem.html">Ms::InspectorStem</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorClef.html">Ms::InspectorClef</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_time_sig.html">Ms::InspectorTimeSig</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorStem.html">Ms::InspectorStem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_key_sig.html">Ms::InspectorKeySig</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorTimeSig.html">Ms::InspectorTimeSig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_tuplet.html">Ms::InspectorTuplet</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorKeySig.html">Ms::InspectorKeySig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_accidental.html">Ms::InspectorAccidental</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorTuplet.html">Ms::InspectorTuplet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_tremolo.html">Ms::InspectorTremolo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorAccidental.html">Ms::InspectorAccidental</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_tempo_text.html">Ms::InspectorTempoText</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorTremolo.html">Ms::InspectorTremolo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_lyric.html">Ms::InspectorLyric</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorTempoText.html">Ms::InspectorTempoText</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_staff_text.html">Ms::InspectorStaffText</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorLyric.html">Ms::InspectorLyric</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector.html">Ms::Inspector</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorStaffText.html">Ms::InspectorStaffText</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_slur_tie.html">Ms::InspectorSlurTie</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Inspector.html">Ms::Inspector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_caesura.html">Ms::InspectorCaesura</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorSlurTie.html">Ms::InspectorSlurTie</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_bracket.html">Ms::InspectorBracket</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorCaesura.html">Ms::InspectorCaesura</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_iname.html">Ms::InspectorIname</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorBracket.html">Ms::InspectorBracket</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_inspector_empty.html">Ms::InspectorEmpty</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorIname.html">Ms::InspectorIname</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1InspectorEmpty.html">Ms::InspectorEmpty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a34df3c99c173038e788d7a86245980bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a34df3c99c173038e788d7a86245980bf">Ms::populatePlacement</a> (QComboBox *b)</td></tr>
+<tr class="memitem:a34df3c99c173038e788d7a86245980bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a34df3c99c173038e788d7a86245980bf">Ms::populatePlacement</a> (QComboBox *b)</td></tr>
 <tr class="separator:a34df3c99c173038e788d7a86245980bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

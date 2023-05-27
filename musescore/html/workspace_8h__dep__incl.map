@@ -1,9 +1,9 @@
 <map id="mscore/workspace.h" name="mscore/workspace.h">
-<area shape="rect" id="node2" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="5,80,139,107"/>
-<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="163,80,322,107"/>
-<area shape="rect" id="node4" href="$prefsdialog_8cpp.html" title="mscore/prefsdialog.cpp" alt="" coords="347,80,504,107"/>
-<area shape="rect" id="node5" href="$toolbar_editor_8cpp.html" title="mscore/toolbarEditor.cpp" alt="" coords="529,80,695,107"/>
-<area shape="rect" id="node6" href="$workspace_8cpp.html" title="mscore/workspace.cpp" alt="" coords="720,80,877,107"/>
-<area shape="rect" id="node7" href="$workspacecombobox_8cpp.html" title="mscore/workspacecombobox.cpp" alt="" coords="902,80,1119,107"/>
-<area shape="rect" id="node8" href="$workspacedialog_8cpp.html" title="mscore/workspacedialog.cpp" alt="" coords="1143,80,1334,107"/>
+<area shape="rect" id="node2" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="169,80,333,107"/>
+<area shape="rect" id="node4" href="$prefsdialog_8cpp.html" title="mscore/prefsdialog.cpp" alt="" coords="357,80,521,107"/>
+<area shape="rect" id="node5" href="$toolbarEditor_8cpp.html" title="mscore/toolbarEditor.cpp" alt="" coords="545,80,719,107"/>
+<area shape="rect" id="node6" href="$workspace_8cpp.html" title="mscore/workspace.cpp" alt="" coords="744,80,907,107"/>
+<area shape="rect" id="node7" href="$workspacecombobox_8cpp.html" title="mscore/workspacecombobox.cpp" alt="" coords="931,80,1157,107"/>
+<area shape="rect" id="node8" href="$workspacedialog_8cpp.html" title="mscore/workspacedialog.cpp" alt="" coords="1182,80,1381,107"/>
 </map>

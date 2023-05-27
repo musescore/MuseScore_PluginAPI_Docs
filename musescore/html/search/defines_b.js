@@ -1,21 +1,13 @@
 var searchData=
 [
-  ['n',['N',['../asection_8cpp.html#a0240ac851181b84ac374872dc5434ee4',1,'asection.cpp']]],
-  ['n_5fharm',['N_HARM',['../addsynth_8h.html#a7c159cc68bffd4150994ea47904a016b',1,'addsynth.h']]],
-  ['n_5fnote',['N_NOTE',['../addsynth_8h.html#a967b1850d06db7e3eeedbf30441055a7',1,'addsynth.h']]],
-  ['nchann',['NCHANN',['../asection_8h.html#ad3bb8c5240ca5b113a0a6c701021b8ef',1,'asection.h']]],
-  ['nmods',['NMODS',['../cs__chorus__if_8cc.html#aabbafbec7a43f102804a45235c5582ab',1,'cs_chorus_if.cc']]],
-  ['no_5fchannel',['NO_CHANNEL',['../fluid_2voice_8h.html#ae0adb95a78feb3f31559348335874417',1,'voice.h']]],
-  ['note_5fmax',['NOTE_MAX',['../addsynth_8h.html#a11b7749e72e66029b9a1d4c8c578e14c',1,'addsynth.h']]],
-  ['note_5fmin',['NOTE_MIN',['../addsynth_8h.html#ab934dfe1c761a41387ab81b8c9e9559d',1,'addsynth.h']]],
-  ['nranks',['NRANKS',['../asection_8h.html#ad23598e51361ee8cccbb048cc98f2a84',1,'asection.h']]],
-  ['nscales',['NSCALES',['../scales_8h.html#aef1dffc5a7aa09a79398ebb3b5df6356',1,'scales.h']]],
-  ['num_5fframes_5fattack',['NUM_FRAMES_ATTACK',['../fluid_2voice_8cpp.html#a52b2c128f521037ad176f9a1bfa9d01d',1,'voice.cpp']]],
-  ['num_5fframes_5fdelay',['NUM_FRAMES_DELAY',['../fluid_2voice_8cpp.html#a4c443579590447044f22ba7ae05acb99',1,'voice.cpp']]],
-  ['num_5fframes_5frelease',['NUM_FRAMES_RELEASE',['../fluid_2voice_8cpp.html#ad6a3f0eee52fc0c3af4368cfe46f2b4c',1,'voice.cpp']]],
-  ['num_5fof_5fbassstring_5fslashes',['NUM_OF_BASSSTRING_SLASHES',['../stafftype_8h.html#a94538f9a05218571c52bd66a2630b75c',1,'stafftype.h']]],
-  ['num_5fof_5fbassstrings_5fwith_5fletter',['NUM_OF_BASSSTRINGS_WITH_LETTER',['../stafftype_8h.html#a622e031e3f0de78accece94be2a3170e',1,'stafftype.h']]],
-  ['num_5fof_5fbassstrings_5fwith_5fnumber',['NUM_OF_BASSSTRINGS_WITH_NUMBER',['../stafftype_8h.html#ad268c35c84bcfca71daf9a31727f8afc',1,'stafftype.h']]],
-  ['num_5fof_5fdigitfrets',['NUM_OF_DIGITFRETS',['../stafftype_8h.html#a36dad1baeaf653ff6dd305ef891c6fb6',1,'stafftype.h']]],
-  ['num_5fof_5fletterfrets',['NUM_OF_LETTERFRETS',['../stafftype_8h.html#acf1baa661d9bc6637c5b6e41476ccb08',1,'stafftype.h']]]
+  ['less128',['less128',['../jackaudio_8cpp.html#a87794220a851aca7a588786cb495ca11',1,'jackaudio.cpp']]],
+  ['lin2db',['lin2db',['../compressor_8cpp.html#a778f5daa39356ab3cbc93aa370777166',1,'compressor.cpp']]],
+  ['lin_5finterp',['LIN_INTERP',['../compressor_8cpp.html#a552aad91b0d7ed23a2061e6b15743192',1,'compressor.cpp']]],
+  ['lin_5fmax',['LIN_MAX',['../compressor_8cpp.html#a6e32c69cde3b0fa5369a83d121689321',1,'compressor.cpp']]],
+  ['lin_5fmin',['LIN_MIN',['../compressor_8cpp.html#a557682b697c5f09df14e22e5aadcb3e8',1,'compressor.cpp']]],
+  ['lin_5ftable_5fsize',['LIN_TABLE_SIZE',['../compressor_8cpp.html#a87514fcb9962a10741ed58d5b54019f4',1,'compressor.cpp']]],
+  ['logd',['LOGD',['../avslog_8h.html#abc3a7e10e4f77fdfdc9b072b9b604d3d',1,'avslog.h']]],
+  ['loge',['LOGE',['../avslog_8h.html#aadbc2551424e696f2d36c5d622dadf6a',1,'avslog.h']]],
+  ['logi',['LOGI',['../avslog_8h.html#a99eb8b06d86110f73f32ad487760598f',1,'avslog.h']]],
+  ['logw',['LOGW',['../avslog_8h.html#a90284ee45bce6d3f26e10946dd622af1',1,'avslog.h']]]
 ];

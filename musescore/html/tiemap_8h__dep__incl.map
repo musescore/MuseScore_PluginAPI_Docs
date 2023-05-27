@@ -1,8 +1,8 @@
 <map id="libmscore/tiemap.h" name="libmscore/tiemap.h">
-<area shape="rect" id="node2" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="5,80,133,107"/>
-<area shape="rect" id="node3" href="$elementmap_8cpp.html" title="libmscore/elementmap.cpp" alt="" coords="157,80,336,107"/>
-<area shape="rect" id="node4" href="$libmscore_2excerpt_8cpp.html" title="libmscore/excerpt.cpp" alt="" coords="361,80,511,107"/>
-<area shape="rect" id="node5" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="536,80,693,107"/>
-<area shape="rect" id="node6" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="717,80,856,107"/>
-<area shape="rect" id="node7" href="$unrollrepeats_8cpp.html" title="libmscore/unrollrepeats.cpp" alt="" coords="880,80,1061,107"/>
+<area shape="rect" id="node2" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$elementmap_8cpp.html" title="libmscore/elementmap.cpp" alt="" coords="163,80,347,107"/>
+<area shape="rect" id="node4" href="$libmscore_2excerpt_8cpp.html" title="libmscore/excerpt.cpp" alt="" coords="371,80,525,107"/>
+<area shape="rect" id="node5" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="549,80,712,107"/>
+<area shape="rect" id="node6" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="736,80,880,107"/>
+<area shape="rect" id="node7" href="$unrollrepeats_8cpp.html" title="libmscore/unrollrepeats.cpp" alt="" coords="904,80,1091,107"/>
 </map>

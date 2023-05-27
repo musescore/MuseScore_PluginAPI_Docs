@@ -1,0 +1,8 @@
+<map id="Ms::VBox" name="Ms::VBox">
+<area shape="rect" id="node6" href="$classMs_1_1FBox.html" title="frame containing fret diagrams " alt="" coords="5,379,81,405"/>
+<area shape="rect" id="node7" href="$classMs_1_1TBox.html" title="Text frame. " alt="" coords="106,379,183,405"/>
+<area shape="rect" id="node2" href="$classMs_1_1Box.html" title="virtual base class for frames &quot;boxes&quot; " alt="" coords="59,229,129,256"/>
+<area shape="rect" id="node3" href="$classMs_1_1MeasureBase.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="31,155,157,181"/>
+<area shape="rect" id="node4" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="47,80,141,107"/>
+<area shape="rect" id="node5" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="29,5,159,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Ms::MetafileObj" name="Ms::MetafileObj">
+<area shape="rect" id="node2" href="$classMs_1_1BasicRectObj.html" title="Ms::BasicRectObj" alt="" coords="7,171,131,197"/>
+<area shape="rect" id="node3" href="$classMs_1_1BasicDrawObj.html" title="Ms::BasicDrawObj" alt="" coords="5,81,133,108"/>
+<area shape="rect" id="node4" href="$classMs_1_1CapellaObj.html" title="Ms::CapellaObj" alt="" coords="301,5,411,32"/>
+<area shape="rect" id="node7" href="$classMs_1_1BasicDurationalObj.html" title="Ms::BasicDurationalObj" alt="" coords="277,81,435,108"/>
+<area shape="rect" id="node5" href="$classMs_1_1Capella.html" title="Ms::Capella" alt="" coords="361,260,452,287"/>
+<area shape="rect" id="node6" href="$classMs_1_1ChordObj.html" title="Ms::ChordObj" alt="" coords="291,171,394,197"/>
+<area shape="rect" id="node8" href="$classMs_1_1NoteObj.html" title="Ms::NoteObj" alt="" coords="158,81,253,108"/>
+</map>

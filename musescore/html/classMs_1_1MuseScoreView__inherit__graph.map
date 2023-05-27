@@ -1,0 +1,6 @@
+<map id="Ms::MuseScoreView" name="Ms::MuseScoreView">
+<area shape="rect" id="node2" href="$classMs_1_1ExampleView.html" title="Ms::ExampleView" alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$classMs_1_1PianorollEditor.html" title="Ms::PianorollEditor" alt="" coords="157,80,290,107"/>
+<area shape="rect" id="node4" href="$classMs_1_1PluginAPI_1_1ScoreView.html" title="This is an GUI element to show a score. " alt="" coords="314,80,485,107"/>
+<area shape="rect" id="node5" href="$classMs_1_1ScoreView.html" title="Ms::ScoreView" alt="" coords="509,80,618,107"/>
+</map>

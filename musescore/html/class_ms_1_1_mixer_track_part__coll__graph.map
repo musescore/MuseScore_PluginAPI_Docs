@@ -1,7 +1,0 @@
-<map id="Ms::MixerTrackPart" name="Ms::MixerTrackPart">
-<area shape="rect" id="node4" href="$class_ms_1_1_channel_listener.html" title="Ms::ChannelListener" alt="" coords="259,200,401,227"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="253,109,407,151"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="255,5,405,47"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_mixer_track.html" title="Ms::MixerTrack" alt="" coords="425,200,539,227"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_mixer_track_group.html" title="Ms::MixerTrackGroup" alt="" coords="563,200,711,227"/>
-</map>

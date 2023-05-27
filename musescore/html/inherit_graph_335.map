@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_note_pattern.html" title="Ms::NotePattern" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1MPaintDevice.html" title="Ms::MPaintDevice" alt="" coords="152,5,279,32"/>
+<area shape="rect" id="node3" href="$classSvgGenerator.html" title="The SvgGenerator class provides a paint device that is used to create SVG drawings. . " alt="" coords="165,56,266,83"/>
 </map>

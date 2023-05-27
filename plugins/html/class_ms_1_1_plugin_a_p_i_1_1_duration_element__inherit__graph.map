@@ -1,7 +1,7 @@
 <map id="DurationElement" name="DurationElement">
-<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_chord_rest.html" title="ChordRest" alt="" coords="5,304,91,331"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_tuplet.html" title="Tuplet" alt="" coords="115,304,173,331"/>
-<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="61,155,131,181"/>
-<area shape="rect" id="node3" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="44,80,148,107"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="19,379,77,405"/>
+<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_chord_rest.html" title="ChordRest" alt="" coords="5,304,89,331"/>
+<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_tuplet.html" title="Tuplet" alt="" coords="113,304,171,331"/>
+<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="59,155,129,181"/>
+<area shape="rect" id="node3" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="42,80,146,107"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="18,379,77,405"/>
 </map>

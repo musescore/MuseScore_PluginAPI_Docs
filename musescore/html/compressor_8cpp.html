@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -82,16 +82,18 @@ Include dependency graph for compressor.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="compressor_8cpp__incl.png" border="0" usemap="#effects_2compressor_2compressor_8cpp" alt=""/></div>
 <map name="effects_2compressor_2compressor_8cpp" id="effects_2compressor_2compressor_8cpp">
-<area shape="rect" id="node3" href="compressor_8h.html" title="compressor.h" alt="" coords="93,95,194,121"/>
-<area shape="rect" id="node4" href="effect_8h.html" title="effects/effect.h" alt="" coords="88,169,199,196"/>
-<area shape="rect" id="node6" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="123,244,313,271"/>
+<area shape="rect" id="node3" href="compressor_8h.html" title="compressor.h" alt="" coords="93,95,197,121"/>
+<area shape="rect" id="node4" href="effect_8h.html" title="effects/effect.h" alt="" coords="87,169,202,196"/>
+<area shape="rect" id="node6" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="124,244,317,271"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="compressor_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -119,29 +121,39 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4d3abb48223aa297511c3100fd6ce4b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9">Ms::CompressorParameter</a> { <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9a37e25c010517a5ec1f12fae4f8153553">Ms::RMS_PEAK</a>, 
-<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9a71a419fd077935906373f2b2a1a72c74">Ms::ATTACK</a>, 
-<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9a3f1341999e6ed818b39624aeb7fbd1e1">Ms::RELEASE</a>, 
-<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9ad6904530eb427e983d0789e60a69b3b8">Ms::THRESHOLD</a>, 
+<tr class="memitem:a4d3abb48223aa297511c3100fd6ce4b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9">Ms::CompressorParameter</a> { <br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9a37e25c010517a5ec1f12fae4f8153553">Ms::RMS_PEAK</a>, 
+<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9a71a419fd077935906373f2b2a1a72c74">Ms::ATTACK</a>, 
+<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9a3f1341999e6ed818b39624aeb7fbd1e1">Ms::RELEASE</a>, 
+<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9ad6904530eb427e983d0789e60a69b3b8">Ms::THRESHOLD</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9aa8d65d602ce0d922a9ef9daff35da8e3">Ms::RATIO</a>, 
-<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9afb08e1c86bc348e5791b4f2f51a867b3">Ms::KNEE</a>, 
-<a class="el" href="namespace_ms.html#a4d3abb48223aa297511c3100fd6ce4b9a560c2a7ec232ccb4565eb19cd39f841b">Ms::GAIN</a>
+&#160;&#160;<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9aa8d65d602ce0d922a9ef9daff35da8e3">Ms::RATIO</a>, 
+<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9afb08e1c86bc348e5791b4f2f51a867b3">Ms::KNEE</a>, 
+<a class="el" href="namespaceMs.html#a4d3abb48223aa297511c3100fd6ce4b9a560c2a7ec232ccb4565eb19cd39f841b">Ms::GAIN</a>
 <br />
  }</td></tr>
 <tr class="separator:a4d3abb48223aa297511c3100fd6ce4b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af525b8e142c44653bacf644c7098cf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af525b8e142c44653bacf644c7098cf61">Ms::db_init</a> ()</td></tr>
+<tr class="memitem:a80a8ca974291f31c92562bfbbe576e6c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a80a8ca974291f31c92562bfbbe576e6c">Ms::f_max</a> (float x, float a)</td></tr>
+<tr class="separator:a80a8ca974291f31c92562bfbbe576e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3748960a0cf1573b2f9edd488d1d79bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3748960a0cf1573b2f9edd488d1d79bd">Ms::round_to_zero</a> (volatile float *f)</td></tr>
+<tr class="separator:a3748960a0cf1573b2f9edd488d1d79bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68abab2839466eb1e039a82934f4460c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a68abab2839466eb1e039a82934f4460c">Ms::f_db2lin_lerp</a> (float db)</td></tr>
+<tr class="separator:a68abab2839466eb1e039a82934f4460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8de04e88229a5691c2b71887b133eb9"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad8de04e88229a5691c2b71887b133eb9">Ms::f_lin2db_lerp</a> (float lin)</td></tr>
+<tr class="separator:ad8de04e88229a5691c2b71887b133eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af525b8e142c44653bacf644c7098cf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af525b8e142c44653bacf644c7098cf61">Ms::db_init</a> ()</td></tr>
 <tr class="separator:af525b8e142c44653bacf644c7098cf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a72f98386a6fe2d954b0cf6ca5fe10508"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a72f98386a6fe2d954b0cf6ca5fe10508">Ms::db_data</a> [<a class="el" href="compressor_8cpp.html#ad817ef87b19a874ef7cad75be51b33a0">DB_TABLE_SIZE</a>]</td></tr>
+<tr class="memitem:a56be22d124547a688e971dcfc73752ff"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; ParDescr &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a56be22d124547a688e971dcfc73752ff">Ms::pd</a></td></tr>
+<tr class="separator:a56be22d124547a688e971dcfc73752ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f98386a6fe2d954b0cf6ca5fe10508"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a72f98386a6fe2d954b0cf6ca5fe10508">Ms::db_data</a> [<a class="el" href="compressor_8cpp.html#ad817ef87b19a874ef7cad75be51b33a0">DB_TABLE_SIZE</a>]</td></tr>
 <tr class="separator:a72f98386a6fe2d954b0cf6ca5fe10508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87ba062732f311210438294c8e9a8cde"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a87ba062732f311210438294c8e9a8cde">Ms::lin_data</a> [<a class="el" href="compressor_8cpp.html#a87514fcb9962a10741ed58d5b54019f4">LIN_TABLE_SIZE</a>]</td></tr>
+<tr class="memitem:a87ba062732f311210438294c8e9a8cde"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a87ba062732f311210438294c8e9a8cde">Ms::lin_data</a> [<a class="el" href="compressor_8cpp.html#a87514fcb9962a10741ed58d5b54019f4">LIN_TABLE_SIZE</a>]</td></tr>
 <tr class="separator:a87ba062732f311210438294c8e9a8cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -161,6 +173,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00090">90</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a83b5eb02de7d8e2b0dbff28821264a68"></a>
@@ -174,6 +188,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00023">23</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
 
 </div>
 </div>
@@ -189,6 +205,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00022">22</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ad817ef87b19a874ef7cad75be51b33a0"></a>
@@ -202,6 +220,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00021">21</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
 
 </div>
 </div>
@@ -221,6 +241,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00019">19</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a778f5daa39356ab3cbc93aa370777166"></a>
@@ -238,6 +260,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00091">91</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
 
 </div>
 </div>
@@ -273,6 +297,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00084">84</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a6e32c69cde3b0fa5369a83d121689321"></a>
@@ -286,6 +312,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00026">26</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
 
 </div>
 </div>
@@ -301,6 +329,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00025">25</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a87514fcb9962a10741ed58d5b54019f4"></a>
@@ -314,6 +344,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compressor_8cpp_source.html#l00024">24</a> of file <a class="el" href="compressor_8cpp_source.html">compressor.cpp</a>.</p>
 
 </div>
 </div>

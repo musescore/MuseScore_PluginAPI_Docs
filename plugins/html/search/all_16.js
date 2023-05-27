@@ -44,6 +44,7 @@ var searchData=
   ['voltaframetype',['voltaFrameType',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a490a5b4655e2f301794e73f2edb67851',1,'Ms']]],
   ['voltaframewidth',['voltaFrameWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a66c6559f39954282ce0f410e1c347b6f',1,'Ms']]],
   ['voltahook',['voltaHook',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a358968fc6ab03586f025ad4e6c0d1b2e',1,'Ms']]],
+  ['voltalinespacing',['voltaLineSpacing',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a0e0042215777847af2013ad46af026f8',1,'Ms']]],
   ['voltalinestyle',['voltaLineStyle',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a3ac1effb9f5e746074b8cbcf9be00fc2',1,'Ms']]],
   ['voltalinewidth',['voltaLineWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a9fb4ea13f0b97e8b1c94093dcd3e6aa1',1,'Ms']]],
   ['voltamindistance',['voltaMinDistance',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27afda4cc14f639ed43fb7cbfeb71f0dfb5',1,'Ms']]],

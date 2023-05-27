@@ -1,5 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_awl_1_1_pitch_label.html" title="Awl::PitchLabel" alt="" coords="119,5,233,32"/>
-<area shape="rect" id="node3" href="$class_awl_1_1_pos_label.html" title="Awl::PosLabel" alt="" coords="123,56,229,83"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_double_label.html" title="Ms::DoubleLabel" alt="" coords="116,107,236,133"/>
+<area shape="rect" id="node2" href="$classAwl_1_1PitchLabel.html" title="Awl::PitchLabel" alt="" coords="127,5,236,32"/>
+<area shape="rect" id="node3" href="$classAwl_1_1PosLabel.html" title="Awl::PosLabel" alt="" coords="130,56,233,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1ClickableLabel.html" title="Ms::ClickableLabel" alt="" coords="116,107,247,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1DoubleLabel.html" title="Ms::DoubleLabel" alt="" coords="122,157,241,184"/>
 </map>

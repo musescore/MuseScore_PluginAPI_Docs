@@ -1,0 +1,8 @@
+<map id="MidiTrack" name="MidiTrack">
+<area shape="rect" id="node2" href="$classMidiFile.html" title="MidiFile" alt="" coords="209,491,277,517"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,145,97,172"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="343,95,496,121"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="71,95,215,121"/>
+<area shape="rect" id="node6" href="$classTempoMap.html" title="TempoMap" alt="" coords="303,261,392,288"/>
+<area shape="rect" id="node10" href="$classMidiEvent.html" title="MidiEvent" alt="" coords="240,95,319,121"/>
+</map>

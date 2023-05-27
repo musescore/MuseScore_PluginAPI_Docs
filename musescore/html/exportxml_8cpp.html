@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/exportxml.cpp File Reference</title>
+<title>MuseScore: importexport/musicxml/exportxml.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_08705a486b9992a720e4b92b236c5d62.html">musicxml</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -70,14 +70,16 @@ $(function() {
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">exportxml.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;config.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="file_8h_source.html">file.h</a>&quot;</code><br />
+<code>#include &quot;thirdparty/qzip/qzipwriter_p.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rest_8h_source.html">libmscore/rest.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="chord_8h_source.html">libmscore/chord.h</a>&quot;</code><br />
@@ -91,8 +93,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="staff_8h_source.html">libmscore/staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2part_8h_source.html">libmscore/part.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measure_8h_source.html">libmscore/measure.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">libmscore/style.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="musicxml_8h_source.html">musicxml.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">libmscore/style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="slur_8h_source.html">libmscore/slur.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hairpin_8h_source.html">libmscore/hairpin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dynamic_8h_source.html">libmscore/dynamic.h</a>&quot;</code><br />
@@ -124,7 +125,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="navigate_8h_source.html">libmscore/navigate.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="spanner_8h_source.html">libmscore/spanner.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="drumset_8h_source.html">libmscore/drumset.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">libmscore/mscore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="accidental_8h_source.html">libmscore/accidental.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="breath_8h_source.html">libmscore/breath.h</a>&quot;</code><br />
@@ -132,44 +132,52 @@ $(function() {
 <code>#include &quot;<a class="el" href="figuredbass_8h_source.html">libmscore/figuredbass.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stringdata_8h_source.html">libmscore/stringdata.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rehearsalmark_8h_source.html">libmscore/rehearsalmark.h</a>&quot;</code><br />
-<code>#include &quot;thirdparty/qzip/qzipwriter_p.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="fret_8h_source.html">libmscore/fret.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2tie_8h_source.html">libmscore/tie.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="undo_8h_source.html">libmscore/undo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="textline_8h_source.html">libmscore/textline.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="textlinebase_8h_source.html">libmscore/textlinebase.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fermata_8h_source.html">libmscore/fermata.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="musicxmlfonthandler_8h_source.html">musicxmlfonthandler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textframe_8h_source.html">libmscore/textframe.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="instrchange_8h_source.html">libmscore/instrchange.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<code>#include &quot;<a class="el" href="letring_8h_source.html">libmscore/letring.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="palmmute_8h_source.html">libmscore/palmmute.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vibrato_8h_source.html">libmscore/vibrato.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musicxml_8h_source.html">musicxml.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musicxmlfonthandler_8h_source.html">musicxmlfonthandler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musicxmlsupport_8h_source.html">musicxmlsupport.h</a>&quot;</code><br />
+</div>
+<p><a href="exportxml_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_attributes.html">Ms::Attributes</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Attributes.html">Ms::Attributes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_notations.html">Ms::Notations</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Notations.html">Ms::Notations</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_articulations.html">Ms::Articulations</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Articulations.html">Ms::Articulations</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_ornaments.html">Ms::Ornaments</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Ornaments.html">Ms::Ornaments</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_technical.html">Ms::Technical</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Technical.html">Ms::Technical</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_slur_handler.html">Ms::SlurHandler</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1SlurHandler.html">Ms::SlurHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_glissando_handler.html">Ms::GlissandoHandler</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1GlissandoHandler.html">Ms::GlissandoHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_export_music_xml.html">Ms::ExportMusicXml</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MeasureNumberStateHandler.html">Ms::MeasureNumberStateHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State handler used to calculate measure number including implicit flag.  <a href="classMs_1_1MeasureNumberStateHandler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_directions_anchor.html">Ms::DirectionsAnchor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1MeasurePrintContext.html">Ms::MeasurePrintContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_measure_number_state_handler.html">Ms::MeasureNumberStateHandler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State handler used to calculate measure number including implicit flag.  <a href="class_ms_1_1_measure_number_state_handler.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1ExportMusicXml.html">Ms::ExportMusicXml</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1DirectionsAnchor.html">Ms::DirectionsAnchor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -179,31 +187,276 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0aac5f7abe0d282c8b6046bfa4b0383f"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; int, const FiguredBass * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0aac5f7abe0d282c8b6046bfa4b0383f">Ms::FigBassMap</a></td></tr>
+<tr class="memitem:a0aac5f7abe0d282c8b6046bfa4b0383f"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; int, const FiguredBass * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0aac5f7abe0d282c8b6046bfa4b0383f">Ms::FigBassMap</a></td></tr>
 <tr class="separator:a0aac5f7abe0d282c8b6046bfa4b0383f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b30594d32f8bc7ff460d9a39a3c24ac"><td class="memItemLeft" align="right" valign="top">typedef QHash&lt; const Chord *, const Trill * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2b30594d32f8bc7ff460d9a39a3c24ac">Ms::TrillHash</a></td></tr>
-<tr class="separator:a2b30594d32f8bc7ff460d9a39a3c24ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab20b0db1398ac7851f84cc5eba0672a2"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; const Instrument *, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab20b0db1398ac7851f84cc5eba0672a2">Ms::MxmlInstrumentMap</a></td></tr>
+<tr class="memitem:a3b4a82aed58168162f0c5eec7cb8d501"><td class="memItemLeft" align="right" valign="top">typedef QHash&lt; const ChordRest *const, const Trill * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3b4a82aed58168162f0c5eec7cb8d501">Ms::TrillHash</a></td></tr>
+<tr class="separator:a3b4a82aed58168162f0c5eec7cb8d501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab20b0db1398ac7851f84cc5eba0672a2"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; const Instrument *, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab20b0db1398ac7851f84cc5eba0672a2">Ms::MxmlInstrumentMap</a></td></tr>
 <tr class="separator:ab20b0db1398ac7851f84cc5eba0672a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a653c3325067d3d97d4f2c73d263209af"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a653c3325067d3d97d4f2c73d263209af">Ms::IntVector</a></td></tr>
+<tr class="memitem:a653c3325067d3d97d4f2c73d263209af"><td class="memItemLeft" align="right" valign="top">typedef QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a653c3325067d3d97d4f2c73d263209af">Ms::IntVector</a></td></tr>
 <tr class="separator:a653c3325067d3d97d4f2c73d263209af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e25fe21355f1f62948efcff732dba4d"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; int, const Instrument * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0e25fe21355f1f62948efcff732dba4d">Ms::MxmlReverseInstrumentMap</a></td></tr>
+<tr class="memitem:a0e25fe21355f1f62948efcff732dba4d"><td class="memItemLeft" align="right" valign="top">typedef QMap&lt; int, const Instrument * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0e25fe21355f1f62948efcff732dba4d">Ms::MxmlReverseInstrumentMap</a></td></tr>
 <tr class="separator:a0e25fe21355f1f62948efcff732dba4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8513692c92aa394efc33a044448337"><td class="memItemLeft" align="right" valign="top">typedef QSet&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3d8513692c92aa394efc33a044448337">Ms::pitchSet</a></td></tr>
-<tr class="memdesc:a3d8513692c92aa394efc33a044448337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the set of pitches actually used in a part.  <a href="namespace_ms.html#a3d8513692c92aa394efc33a044448337">More...</a><br /></td></tr>
+<tr class="memitem:a3d8513692c92aa394efc33a044448337"><td class="memItemLeft" align="right" valign="top">typedef QSet&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3d8513692c92aa394efc33a044448337">Ms::pitchSet</a></td></tr>
+<tr class="memdesc:a3d8513692c92aa394efc33a044448337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the set of pitches actually used in a part.  <a href="namespaceMs.html#a3d8513692c92aa394efc33a044448337">More...</a><br /></td></tr>
 <tr class="separator:a3d8513692c92aa394efc33a044448337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8de0af9c97fab3b22827019085d60878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a8de0af9c97fab3b22827019085d60878">Ms::saveXml</a> (Score *score, QIODevice *device)</td></tr>
-<tr class="memdesc:a8de0af9c97fab3b22827019085d60878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="class_ms_1_1_score.html">Score</a> as MusicXML file <em>name</em>.  <a href="namespace_ms.html#a8de0af9c97fab3b22827019085d60878">More...</a><br /></td></tr>
+<tr class="memitem:a92ceaef713efbca2351e63899b9fe202"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a92ceaef713efbca2351e63899b9fe202">Ms::positionToQString</a> (const QPointF def, const QPointF rel, const float spatium)</td></tr>
+<tr class="separator:a92ceaef713efbca2351e63899b9fe202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510be87d796c63a0a863363c98065245"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a510be87d796c63a0a863363c98065245">Ms::positioningAttributes</a> (Element const *const el, bool isSpanStart=true)</td></tr>
+<tr class="separator:a510be87d796c63a0a863363c98065245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46714cca5036f96cdd42227dc45cf4dc"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a46714cca5036f96cdd42227dc45cf4dc">Ms::color2xml</a> (const Element *el)</td></tr>
+<tr class="memdesc:a46714cca5036f96cdd42227dc45cf4dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return <em>el</em> color.  <a href="namespaceMs.html#a46714cca5036f96cdd42227dc45cf4dc">More...</a><br /></td></tr>
+<tr class="separator:a46714cca5036f96cdd42227dc45cf4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81cdeb3a38ef6c5111f00cde019aa23"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af81cdeb3a38ef6c5111f00cde019aa23">Ms::fontStyleToXML</a> (const FontStyle style, bool allowUnderline=true)</td></tr>
+<tr class="separator:af81cdeb3a38ef6c5111f00cde019aa23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa658251b62702ac16db5fe71ec788770"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa658251b62702ac16db5fe71ec788770">Ms::slurTieLineStyle</a> (const SlurTie *s)</td></tr>
+<tr class="separator:aa658251b62702ac16db5fe71ec788770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee03a57941cb1f45f544141d3b47351"><td class="memItemLeft" align="right" valign="top">static const ChordRest *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afee03a57941cb1f45f544141d3b47351">Ms::findFirstChordRest</a> (const Slur *s)</td></tr>
+<tr class="separator:afee03a57941cb1f45f544141d3b47351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36985eec3d40b868ad52834096ac1cb0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a36985eec3d40b868ad52834096ac1cb0">Ms::glissando</a> (const Glissando *gli, int number, bool start, Notations &amp;notations, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a36985eec3d40b868ad52834096ac1cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadd6b4f97dada46f30962a7c26e291d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#adadd6b4f97dada46f30962a7c26e291d">Ms::findTrills</a> (const Measure *const measure, int strack, int etrack, TrillHash &amp;trillStart, TrillHash &amp;trillStop)</td></tr>
+<tr class="separator:adadd6b4f97dada46f30962a7c26e291d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa44865fa46deab73b590011a006ec92"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aaa44865fa46deab73b590011a006ec92">Ms::canDivideBy</a> (int d)</td></tr>
+<tr class="separator:aaa44865fa46deab73b590011a006ec92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16b1f36ef133fdb9d7216c15e0f371e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae16b1f36ef133fdb9d7216c15e0f371e">Ms::divideBy</a> (int d)</td></tr>
+<tr class="separator:ae16b1f36ef133fdb9d7216c15e0f371e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692da7e5374283453caa646c3959e2b4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a692da7e5374283453caa646c3959e2b4">Ms::addInteger</a> (int len)</td></tr>
+<tr class="separator:a692da7e5374283453caa646c3959e2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb76f922103bb51029e7ff29b8058612"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#abb76f922103bb51029e7ff29b8058612">Ms::isTwoNoteTremolo</a> (Chord *chord)</td></tr>
+<tr class="separator:abb76f922103bb51029e7ff29b8058612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a4b913683dd3dd5da4d56bba796793"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae2a4b913683dd3dd5da4d56bba796793">Ms::writePageFormat</a> (const Score *const s, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, double conversion)</td></tr>
+<tr class="separator:ae2a4b913683dd3dd5da4d56bba796793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4d9c078d7d9eb193669b19a88aefc3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4b4d9c078d7d9eb193669b19a88aefc3">Ms::defaults</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Score *const s, double &amp;millimeters, const int &amp;tenths)</td></tr>
+<tr class="separator:a4b4d9c078d7d9eb193669b19a88aefc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127aa951449c80b75dccb746aeb307a0"><td class="memItemLeft" align="right" valign="top">static CharFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a127aa951449c80b75dccb746aeb307a0">Ms::formatForWords</a> (const Score *const s)</td></tr>
+<tr class="separator:a127aa951449c80b75dccb746aeb307a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7d46ecc9c5d2091deb2d02c9410207"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4a7d46ecc9c5d2091deb2d02c9410207">Ms::creditWords</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Score *const s, const int pageNr, const double x, const double y, const QString &amp;just, const QString &amp;val, const QList&lt; TextFragment &gt; &amp;words, const QString &amp;creditType)</td></tr>
+<tr class="separator:a4a7d46ecc9c5d2091deb2d02c9410207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c270364059d7779edfa50d8714d3421"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1c270364059d7779edfa50d8714d3421">Ms::parentHeight</a> (const Element *element)</td></tr>
+<tr class="separator:a1c270364059d7779edfa50d8714d3421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f9157c34b8346479fbc63f7b3304c57"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7f9157c34b8346479fbc63f7b3304c57">Ms::tidToCreditType</a> (const Tid tid)</td></tr>
+<tr class="separator:a7f9157c34b8346479fbc63f7b3304c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4390358fd7f9daf29bff2391797d14a0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4390358fd7f9daf29bff2391797d14a0">Ms::textAsCreditWords</a> (const ExportMusicXml *const expMxml, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Score *const s, const int pageNr, const Text *const text)</td></tr>
+<tr class="separator:a4390358fd7f9daf29bff2391797d14a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d3e1ad60ad8d108b8bc640c011d6cc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a81d3e1ad60ad8d108b8bc640c011d6cc">Ms::midipitch2xml</a> (int pitch, char &amp;c, int &amp;alter, int &amp;octave)</td></tr>
+<tr class="separator:a81d3e1ad60ad8d108b8bc640c011d6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab7e5e29c8686fd5b2b594a9fc3e837"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afab7e5e29c8686fd5b2b594a9fc3e837">Ms::tabpitch2xml</a> (const int pitch, const int tpc, QString &amp;s, int &amp;alter, int &amp;octave)</td></tr>
+<tr class="separator:afab7e5e29c8686fd5b2b594a9fc3e837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae15bc812594bcfb9c190f86fafe5e53b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae15bc812594bcfb9c190f86fafe5e53b">Ms::pitch2xml</a> (const Note *note, QString &amp;s, int &amp;alter, int &amp;octave)</td></tr>
+<tr class="separator:ae15bc812594bcfb9c190f86fafe5e53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6882b2b703b40727f80f3766bf66c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#acb6882b2b703b40727f80f3766bf66c1">Ms::unpitch2xml</a> (const Note *note, QString &amp;s, int &amp;octave)</td></tr>
+<tr class="separator:acb6882b2b703b40727f80f3766bf66c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591ddedadca0e1c0badc619c38b5ead4"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a591ddedadca0e1c0badc619c38b5ead4">Ms::tick2xml</a> (const Fraction &amp;ticks, int *dots)</td></tr>
+<tr class="separator:a591ddedadca0e1c0badc619c38b5ead4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af306f4a156220e4534e70adc27140870"><td class="memItemLeft" align="right" valign="top">static Volta *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af306f4a156220e4534e70adc27140870">Ms::findVolta</a> (const Measure *const m, bool left)</td></tr>
+<tr class="separator:af306f4a156220e4534e70adc27140870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5356844e3fc5e567bb2cd4c446aadd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6f5356844e3fc5e567bb2cd4c446aadd">Ms::ending</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Volta *v, bool left)</td></tr>
+<tr class="separator:a6f5356844e3fc5e567bb2cd4c446aadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d23a3adb9f2a5efdc2f417b052577a9"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8d23a3adb9f2a5efdc2f417b052577a9">Ms::shortBarlineStyle</a> (const BarLine *bl)</td></tr>
+<tr class="separator:a8d23a3adb9f2a5efdc2f417b052577a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15d9a78fb925da43a9196fc26f099bd"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac15d9a78fb925da43a9196fc26f099bd">Ms::normalBarlineStyle</a> (const BarLine *bl)</td></tr>
+<tr class="separator:ac15d9a78fb925da43a9196fc26f099bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e5d7d2f770dc21d57ee547550b6b4b"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a07e5d7d2f770dc21d57ee547550b6b4b">Ms::fermataPosition</a> (const Fermata *const fermata)</td></tr>
+<tr class="separator:a07e5d7d2f770dc21d57ee547550b6b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403da7395a621cd4a78fd33e96296f0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a403da7395a621cd4a78fd33e96296f0f">Ms::fermata</a> (const Fermata *const a, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a403da7395a621cd4a78fd33e96296f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fca71cbc200f090bdbf651675b6c06f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0fca71cbc200f090bdbf651675b6c06f">Ms::barlineHasFermata</a> (const BarLine *const barline, const int strack, const int etrack)</td></tr>
+<tr class="separator:a0fca71cbc200f090bdbf651675b6c06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa0dd18354d1279853ce1794ba1efc91"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afa0dd18354d1279853ce1794ba1efc91">Ms::writeBarlineFermata</a> (const BarLine *const barline, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const int strack, const int etrack)</td></tr>
+<tr class="separator:afa0dd18354d1279853ce1794ba1efc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abe6fcded2c08f9fa2f98ac3b912e25"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1abe6fcded2c08f9fa2f98ac3b912e25">Ms::calculateTimeDeltaInDivisions</a> (const Fraction &amp;t1, const Fraction &amp;t2, const int divisions)</td></tr>
+<tr class="separator:a1abe6fcded2c08f9fa2f98ac3b912e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6e7e7b968f3066c5f2b64d6969e2317"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae6e7e7b968f3066c5f2b64d6969e2317">Ms::accSymId2alter</a> (SymId id)</td></tr>
+<tr class="separator:ae6e7e7b968f3066c5f2b64d6969e2317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac183b736a52d66d4a6747b20e675390e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac183b736a52d66d4a6747b20e675390e">Ms::tupletNesting</a> (const ChordRest *const cr)</td></tr>
+<tr class="separator:ac183b736a52d66d4a6747b20e675390e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed29ba0a231acc10df8ae41c093dd0cc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aed29ba0a231acc10df8ae41c093dd0cc">Ms::isSimpleTuplet</a> (const Tuplet *const t)</td></tr>
+<tr class="separator:aed29ba0a231acc10df8ae41c093dd0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc034c425b4559f39141bb5c9d05d87"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0fc034c425b4559f39141bb5c9d05d87">Ms::isTupletStart</a> (const DurationElement *const el)</td></tr>
+<tr class="separator:a0fc034c425b4559f39141bb5c9d05d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc1b3c8617d20fa856e40d15d386776"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3fc1b3c8617d20fa856e40d15d386776">Ms::isTupletStop</a> (const DurationElement *const el)</td></tr>
+<tr class="separator:a3fc1b3c8617d20fa856e40d15d386776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef67930f05f93f0e4a0712138fda8921"><td class="memItemLeft" align="right" valign="top">static const Tuplet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aef67930f05f93f0e4a0712138fda8921">Ms::startTupletAtLevel</a> (const DurationElement *const cr, const int level)</td></tr>
+<tr class="separator:aef67930f05f93f0e4a0712138fda8921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade12184bb414e74e7abd6408e3c76cf7"><td class="memItemLeft" align="right" valign="top">static const Tuplet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ade12184bb414e74e7abd6408e3c76cf7">Ms::stopTupletAtLevel</a> (const DurationElement *const cr, const int level)</td></tr>
+<tr class="separator:ade12184bb414e74e7abd6408e3c76cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e324044113f0cec48cc8e3b5366b312"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9e324044113f0cec48cc8e3b5366b312">Ms::tupletTypeAndDots</a> (const QString &amp;type, const int dots, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a9e324044113f0cec48cc8e3b5366b312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80259ae034f7334fde2532658f8846f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a80259ae034f7334fde2532658f8846f1">Ms::tupletActualAndNormal</a> (const Tuplet *const t, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a80259ae034f7334fde2532658f8846f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0852163873acd1e7b4529189df82ffe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae0852163873acd1e7b4529189df82ffe">Ms::tupletStart</a> (const Tuplet *const t, const int number, const bool needActualAndNormal, Notations &amp;notations, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:ae0852163873acd1e7b4529189df82ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d49bc797897c570545ea86a518d89d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a40d49bc797897c570545ea86a518d89d">Ms::tupletStop</a> (const Tuplet *const t, const int number, Notations &amp;notations, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a40d49bc797897c570545ea86a518d89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76b6ceae68ee6ef1905e46aab03e5df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae76b6ceae68ee6ef1905e46aab03e5df">Ms::tupletStartStop</a> (ChordRest *cr, Notations &amp;notations, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:ae76b6ceae68ee6ef1905e46aab03e5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619cb1f6b4a8305a003b5893778df2d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a619cb1f6b4a8305a003b5893778df2d1">Ms::writeAccidental</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const QString &amp;tagName, const Accidental *const acc)</td></tr>
+<tr class="separator:a619cb1f6b4a8305a003b5893778df2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3526e2d0be61c3a19c94d68bb4c3c09"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab3526e2d0be61c3a19c94d68bb4c3c09">Ms::wavyLineStart</a> (const Trill *tr, const int number, Notations &amp;notations, Ornaments &amp;ornaments, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:ab3526e2d0be61c3a19c94d68bb4c3c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc4276a7c7255f14b5be9a706a1f808"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3cc4276a7c7255f14b5be9a706a1f808">Ms::wavyLineStop</a> (const Trill *tr, const int number, Notations &amp;notations, Ornaments &amp;ornaments, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a3cc4276a7c7255f14b5be9a706a1f808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cfe1fa514328576c46ecf3c79584481"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7cfe1fa514328576c46ecf3c79584481">Ms::tremoloSingleStartStop</a> (Chord *chord, Notations &amp;notations, Ornaments &amp;ornaments, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml)</td></tr>
+<tr class="separator:a7cfe1fa514328576c46ecf3c79584481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b7b2aba9ab10ac572ea70bfcd7563b8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7b7b2aba9ab10ac572ea70bfcd7563b8">Ms::fermatas</a> (const QVector&lt; Element *&gt; &amp;cra, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Notations &amp;notations)</td></tr>
+<tr class="separator:a7b7b2aba9ab10ac572ea70bfcd7563b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814241e56923786fe7012a2f89ad0910"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a814241e56923786fe7012a2f89ad0910">Ms::symIdToArtic</a> (const SymId sid)</td></tr>
+<tr class="separator:a814241e56923786fe7012a2f89ad0910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca4217991e5a1a34f78747e297856be"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#acca4217991e5a1a34f78747e297856be">Ms::symIdToOrnam</a> (const SymId sid)</td></tr>
+<tr class="separator:acca4217991e5a1a34f78747e297856be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1117c57f0a886e5f5fbc0f7324bd3dcf"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1117c57f0a886e5f5fbc0f7324bd3dcf">Ms::symIdToTechn</a> (const SymId sid)</td></tr>
+<tr class="separator:a1117c57f0a886e5f5fbc0f7324bd3dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a9efad1bae42b3b5f96c8e47afb77a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a48a9efad1bae42b3b5f96c8e47afb77a">Ms::writeChordLines</a> (const Chord *const chord, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Notations &amp;notations, Articulations &amp;articulations)</td></tr>
+<tr class="separator:a48a9efad1bae42b3b5f96c8e47afb77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6c5547e3ce8e02a408814d046b4621"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8a6c5547e3ce8e02a408814d046b4621">Ms::arpeggiate</a> (Arpeggio *arp, bool front, bool back, <a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Notations &amp;notations)</td></tr>
+<tr class="separator:a8a6c5547e3ce8e02a408814d046b4621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fff9b6af55302694020eb3eb91f271"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a50fff9b6af55302694020eb3eb91f271">Ms::determineTupletNormalTicks</a> (Tuplet const *const t)</td></tr>
+<tr class="memdesc:a50fff9b6af55302694020eb3eb91f271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the ticks in the normal type for the tuplet <em>chord</em>.  <a href="namespaceMs.html#a50fff9b6af55302694020eb3eb91f271">More...</a><br /></td></tr>
+<tr class="separator:a50fff9b6af55302694020eb3eb91f271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1315e09daca85b8449215e3638eda25e"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1315e09daca85b8449215e3638eda25e">Ms::beamFanAttribute</a> (const Beam *const b)</td></tr>
+<tr class="separator:a1315e09daca85b8449215e3638eda25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab204cf8b1d74375f65e4cc91d0b5767a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab204cf8b1d74375f65e4cc91d0b5767a">Ms::writeBeam</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, ChordRest *const cr, Beam *const b)</td></tr>
+<tr class="separator:ab204cf8b1d74375f65e4cc91d0b5767a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37099e66e80afdfb06bd327f5c737932"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a37099e66e80afdfb06bd327f5c737932">Ms::instrId</a> (int partNr, int instrNr)</td></tr>
+<tr class="separator:a37099e66e80afdfb06bd327f5c737932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d811f2253a341c3c59037fe0f27e79"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a87d811f2253a341c3c59037fe0f27e79">Ms::writeNotehead</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Note *const note)</td></tr>
+<tr class="separator:a87d811f2253a341c3c59037fe0f27e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f4a3ba7bfddab98a3ef62e0b4542c0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a80f4a3ba7bfddab98a3ef62e0b4542c0">Ms::writeFingering</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Notations &amp;notations, Technical &amp;technical, const Note *const note)</td></tr>
+<tr class="separator:a80f4a3ba7bfddab98a3ef62e0b4542c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501ad835544b522c52099315f0438776"><td class="memItemLeft" align="right" valign="top">static Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a501ad835544b522c52099315f0438776">Ms::stretchCorrActFraction</a> (const Note *const note)</td></tr>
+<tr class="separator:a501ad835544b522c52099315f0438776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c34250e735494ae41679d09de44ac21"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7c34250e735494ae41679d09de44ac21">Ms::tremoloCorrection</a> (const Note *const note)</td></tr>
+<tr class="separator:a7c34250e735494ae41679d09de44ac21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f84e82cccb21f6f9ede44e23158ba7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab6f84e82cccb21f6f9ede44e23158ba7">Ms::isSmallNote</a> (const Note *const note)</td></tr>
+<tr class="separator:ab6f84e82cccb21f6f9ede44e23158ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978119094aea5bad33e625188d7f0d4a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a978119094aea5bad33e625188d7f0d4a">Ms::isCueNote</a> (const Note *const note)</td></tr>
+<tr class="separator:a978119094aea5bad33e625188d7f0d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5323da57017db94cc3126db2d7bc13ab"><td class="memItemLeft" align="right" valign="top">static Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5323da57017db94cc3126db2d7bc13ab">Ms::timeModification</a> (const Tuplet *const tuplet, const int tremolo=1)</td></tr>
+<tr class="separator:a5323da57017db94cc3126db2d7bc13ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab373cc513521b137f258b4a51df431e7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab373cc513521b137f258b4a51df431e7">Ms::writeTypeAndDots</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Note *const note)</td></tr>
+<tr class="separator:ab373cc513521b137f258b4a51df431e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eaa1d485bee16664f604cc480c8b6a9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1eaa1d485bee16664f604cc480c8b6a9">Ms::writeTimeModification</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Tuplet *const tuplet, const int tremolo=1)</td></tr>
+<tr class="separator:a1eaa1d485bee16664f604cc480c8b6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2bd0a93a257b490b58b098fcaa634b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa2bd0a93a257b490b58b098fcaa634b6">Ms::writePitch</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Note *const note, const bool useDrumset)</td></tr>
+<tr class="separator:aa2bd0a93a257b490b58b098fcaa634b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a48abd47705d67a2f04b8f815700f2"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a34a48abd47705d67a2f04b8f815700f2">Ms::notePosition</a> (const ExportMusicXml *const expMxml, const Note *const note)</td></tr>
+<tr class="separator:a34a48abd47705d67a2f04b8f815700f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154f2a6d1b9af27fa48b8c65ebe148e8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a154f2a6d1b9af27fa48b8c65ebe148e8">Ms::directionTag</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Attributes &amp;attr, Element const *const el=0)</td></tr>
+<tr class="separator:a154f2a6d1b9af27fa48b8c65ebe148e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a96630ddd772ca8f8160a94465d70da"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7a96630ddd772ca8f8160a94465d70da">Ms::directionETag</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, int staff, int offs=0)</td></tr>
+<tr class="separator:a7a96630ddd772ca8f8160a94465d70da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab551a152cf5d59693c56ea412aab054a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab551a152cf5d59693c56ea412aab054a">Ms::partGroupStart</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, int number, BracketType bracket)</td></tr>
+<tr class="separator:ab551a152cf5d59693c56ea412aab054a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62ab08f5a5285c0a720c689af36beebc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a62ab08f5a5285c0a720c689af36beebc">Ms::findUnit</a> (TDuration::DurationType val, QString &amp;unit)</td></tr>
+<tr class="separator:a62ab08f5a5285c0a720c689af36beebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ff8ff830b6d94907f11907b1546cf4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad6ff8ff830b6d94907f11907b1546cf4">Ms::findMetronome</a> (const QList&lt; TextFragment &gt; &amp;list, QList&lt; TextFragment &gt; &amp;wordsLeft, bool &amp;hasParen, QString &amp;metroLeft, QString &amp;metroRight, QList&lt; TextFragment &gt; &amp;wordsRight)</td></tr>
+<tr class="separator:ad6ff8ff830b6d94907f11907b1546cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b10bca093306a9036c1d0d284185c7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae0b10bca093306a9036c1d0d284185c7">Ms::beatUnit</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const TDuration dur)</td></tr>
+<tr class="separator:ae0b10bca093306a9036c1d0d284185c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b20806997489a052fad2ae39b8c826"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae5b20806997489a052fad2ae39b8c826">Ms::wordsMetrome</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Score *s, TextBase const *const text, const int offset)</td></tr>
+<tr class="separator:ae5b20806997489a052fad2ae39b8c826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7468a22c46b1ee1577b9d5d84fba4a5"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac7468a22c46b1ee1577b9d5d84fba4a5">Ms::positioningAttributesForTboxText</a> (const QPointF position, float spatium)</td></tr>
+<tr class="separator:ac7468a22c46b1ee1577b9d5d84fba4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287c146621623458f220df4fa11a7137"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a287c146621623458f220df4fa11a7137">Ms::writeHairpinText</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const TextLineBase *const tlb, bool isStart=true)</td></tr>
+<tr class="separator:a287c146621623458f220df4fa11a7137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90147b66d984f8952f6c5d763a14e5dd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a90147b66d984f8952f6c5d763a14e5dd">Ms::directionJump</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Jump *const jp)</td></tr>
+<tr class="separator:a90147b66d984f8952f6c5d763a14e5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bb34b1bf18edf6f72cb4949696e681"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a63bb34b1bf18edf6f72cb4949696e681">Ms::directionMarker</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Marker *const m)</td></tr>
+<tr class="separator:a63bb34b1bf18edf6f72cb4949696e681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab002dc450829b409fa49c180619119"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0ab002dc450829b409fa49c180619119">Ms::findTrackForAnnotations</a> (int track, Segment *seg)</td></tr>
+<tr class="separator:a0ab002dc450829b409fa49c180619119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9620c162451999112a8a1513af0a8e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0d9620c162451999112a8a1513af0a8e">Ms::repeatAtMeasureStart</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Attributes &amp;attr, const Measure *const m, int strack, int etrack, int track)</td></tr>
+<tr class="separator:a0d9620c162451999112a8a1513af0a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12044135400ea43da0694f9aadc0e3ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a12044135400ea43da0694f9aadc0e3ba">Ms::repeatAtMeasureStop</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Measure *const m, int strack, int etrack, int track)</td></tr>
+<tr class="separator:a12044135400ea43da0694f9aadc0e3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdfc71de479141422be9070d96518bf0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#acdfc71de479141422be9070d96518bf0">Ms::measureStyle</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Attributes &amp;attr, const Measure *const m)</td></tr>
+<tr class="separator:acdfc71de479141422be9070d96518bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a8348c0deb25ccc402a17d4c8015a5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac3a8348c0deb25ccc402a17d4c8015a5">Ms::commonAnnotations</a> (ExportMusicXml *exp, const Element *e, int sstaff)</td></tr>
+<tr class="separator:ac3a8348c0deb25ccc402a17d4c8015a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bbff2b8508f8b72ef216a9973c3bec5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0bbff2b8508f8b72ef216a9973c3bec5">Ms::annotations</a> (ExportMusicXml *exp, int strack, int etrack, int track, int sstaff, Segment *seg)</td></tr>
+<tr class="separator:a0bbff2b8508f8b72ef216a9973c3bec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da45722e97b8558480f9cc3546f0837"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6da45722e97b8558480f9cc3546f0837">Ms::segmentHarmonies</a> (ExportMusicXml *exp, int track, Segment *seg, int offset)</td></tr>
+<tr class="separator:a6da45722e97b8558480f9cc3546f0837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543ea09918a770df75fb8b3d67403887"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a543ea09918a770df75fb8b3d67403887">Ms::harmonies</a> (ExportMusicXml *exp, int track, Segment *seg, int divisions)</td></tr>
+<tr class="separator:a543ea09918a770df75fb8b3d67403887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a53927b11b505f397b2e3940b10901c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9a53927b11b505f397b2e3940b10901c">Ms::figuredBass</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, int strack, int etrack, int track, const ChordRest *cr, FigBassMap &amp;fbMap, int divisions)</td></tr>
+<tr class="separator:a9a53927b11b505f397b2e3940b10901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad525f655ca9dd13e04c167b614135b51"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad525f655ca9dd13e04c167b614135b51">Ms::spannerStart</a> (ExportMusicXml *exp, int strack, int etrack, int track, int sstaff, Segment *seg)</td></tr>
+<tr class="separator:ad525f655ca9dd13e04c167b614135b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425e461f328af5f9ea3f5ca61135d31f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a425e461f328af5f9ea3f5ca61135d31f">Ms::spannerStop</a> (ExportMusicXml *exp, int strack, int etrack, const Fraction &amp;tick2, int sstaff, QSet&lt; const Spanner *&gt; &amp;stopped)</td></tr>
+<tr class="separator:a425e461f328af5f9ea3f5ca61135d31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef34c37269c466fef080ba888410f5d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aeef34c37269c466fef080ba888410f5d">Ms::identification</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Score const *const score)</td></tr>
+<tr class="separator:aeef34c37269c466fef080ba888410f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b4e7bc395c6cff158696c5838dea28"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a10b4e7bc395c6cff158696c5838dea28">Ms::findPartGroupNumber</a> (int *partGroupEnd)</td></tr>
+<tr class="separator:a10b4e7bc395c6cff158696c5838dea28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73087327974079e7ab3c0870a01fb54"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa73087327974079e7ab3c0870a01fb54">Ms::scoreInstrument</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const int partNr, const int instrNr, const QString &amp;instrName)</td></tr>
+<tr class="separator:aa73087327974079e7ab3c0870a01fb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa36880624523a3b70eb57eb01b68c559"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa36880624523a3b70eb57eb01b68c559">Ms::midiInstrument</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const int partNr, const int instrNr, const Instrument *instr, const Score *score, const int unpitched=0)</td></tr>
+<tr class="separator:aa36880624523a3b70eb57eb01b68c559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3430a1f4f99135e9621c491127d35ced"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3430a1f4f99135e9621c491127d35ced">Ms::initInstrMap</a> (MxmlInstrumentMap &amp;im, const InstrumentList *il, const Score *)</td></tr>
+<tr class="memdesc:a3430a1f4f99135e9621c491127d35ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Instrument* to number map for a <a class="el" href="classMs_1_1Part.html">Part</a> Used to generate instrument numbers for a multi-instrument part.  <a href="namespaceMs.html#a3430a1f4f99135e9621c491127d35ced">More...</a><br /></td></tr>
+<tr class="separator:a3430a1f4f99135e9621c491127d35ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bbcad9b498d2b28dc4eb045e3b4c33"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a14bbcad9b498d2b28dc4eb045e3b4c33">Ms::initReverseInstrMap</a> (MxmlReverseInstrumentMap &amp;rim, const MxmlInstrumentMap &amp;im)</td></tr>
+<tr class="memdesc:a14bbcad9b498d2b28dc4eb045e3b4c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the number t Instrument* map for a <a class="el" href="classMs_1_1Part.html">Part</a> Used to iterate in sequence over instrument numbers for a multi-instrument part.  <a href="namespaceMs.html#a14bbcad9b498d2b28dc4eb045e3b4c33">More...</a><br /></td></tr>
+<tr class="separator:a14bbcad9b498d2b28dc4eb045e3b4c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0264235dca2fd4bd27532c6bd38015fa"><td class="memItemLeft" align="right" valign="top">static MeasureBase *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0264235dca2fd4bd27532c6bd38015fa">Ms::lastMeasureBase</a> (const System *const system)</td></tr>
+<tr class="separator:a0264235dca2fd4bd27532c6bd38015fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea1b0f3e849edf6a4cd9cfaef424c9f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5ea1b0f3e849edf6a4cd9cfaef424c9f">Ms::hasPageBreak</a> (const System *const system)</td></tr>
+<tr class="separator:a5ea1b0f3e849edf6a4cd9cfaef424c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e385558b218444d498e5cea42674922"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1e385558b218444d498e5cea42674922">Ms::addChordPitchesToSet</a> (const Chord *c, pitchSet &amp;set)</td></tr>
+<tr class="separator:a1e385558b218444d498e5cea42674922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c10ae5e2657909c0a0dbff7a8bbc4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a57c10ae5e2657909c0a0dbff7a8bbc4b">Ms::findPitchesUsed</a> (const Part *part, pitchSet &amp;set)</td></tr>
+<tr class="separator:a57c10ae5e2657909c0a0dbff7a8bbc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab46ba51da90088ef8cbd4f715756c605"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab46ba51da90088ef8cbd4f715756c605">Ms::partList</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, Score *score, MxmlInstrumentMap &amp;instrMap)</td></tr>
+<tr class="memdesc:ab46ba51da90088ef8cbd4f715756c605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the part list to <em>xml</em>.  <a href="namespaceMs.html#ab46ba51da90088ef8cbd4f715756c605">More...</a><br /></td></tr>
+<tr class="separator:ab46ba51da90088ef8cbd4f715756c605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59861f10c833f3cdbfbc16b936f15d0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af59861f10c833f3cdbfbc16b936f15d0">Ms::tickIsInMiddleOfMeasure</a> (const Fraction ti, const Measure *m)</td></tr>
+<tr class="separator:af59861f10c833f3cdbfbc16b936f15d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4b9770838578d31cab16f8d077f787"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7a4b9770838578d31cab16f8d077f787">Ms::writeStaffDetails</a> (<a class="el" href="classXmlWriter.html">XmlWriter</a> &amp;xml, const Part *part)</td></tr>
+<tr class="memdesc:a7a4b9770838578d31cab16f8d077f787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the staff details for <em>part</em> to <em>xml</em>.  <a href="namespaceMs.html#a7a4b9770838578d31cab16f8d077f787">More...</a><br /></td></tr>
+<tr class="separator:a7a4b9770838578d31cab16f8d077f787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49afdecec6b4fbf744a0177b445d8b23"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a49afdecec6b4fbf744a0177b445d8b23">Ms::annotationsWithoutNote</a> (ExportMusicXml *exp, const int strack, const int staves, const Measure *const measure)</td></tr>
+<tr class="memdesc:a49afdecec6b4fbf744a0177b445d8b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the annotations that could not be attached to notes.  <a href="namespaceMs.html#a49afdecec6b4fbf744a0177b445d8b23">More...</a><br /></td></tr>
+<tr class="separator:a49afdecec6b4fbf744a0177b445d8b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add34cef94cf175f0a326e7ae7a9b1644"><td class="memItemLeft" align="right" valign="top">static System *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#add34cef94cf175f0a326e7ae7a9b1644">Ms::findLastSystemWithMeasures</a> (const Page *const page)</td></tr>
+<tr class="separator:add34cef94cf175f0a326e7ae7a9b1644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388053a3b26a34b55d96c53322c90778"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a388053a3b26a34b55d96c53322c90778">Ms::isFirstMeasureInSystem</a> (const Measure *const measure)</td></tr>
+<tr class="separator:a388053a3b26a34b55d96c53322c90778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cae6b10d07c6fd4084eaeac4e6044bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9cae6b10d07c6fd4084eaeac4e6044bc">Ms::isFirstMeasureInLastSystem</a> (const Measure *const measure)</td></tr>
+<tr class="separator:a9cae6b10d07c6fd4084eaeac4e6044bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c629341079822fbab18d386bbd23ac0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6c629341079822fbab18d386bbd23ac0">Ms::systemHasMeasures</a> (const System *const system)</td></tr>
+<tr class="separator:a6c629341079822fbab18d386bbd23ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0201b3ad661e4cedbbc574e8feb8c4f6"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; TBox * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0201b3ad661e4cedbbc574e8feb8c4f6">Ms::findTextFramesToWriteAsWordsAbove</a> (const Measure *const measure)</td></tr>
+<tr class="separator:a0201b3ad661e4cedbbc574e8feb8c4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf9a2c70ecffee3de96f44e9e52047f"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; TBox * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#abcf9a2c70ecffee3de96f44e9e52047f">Ms::findTextFramesToWriteAsWordsBelow</a> (const Measure *const measure)</td></tr>
+<tr class="separator:abcf9a2c70ecffee3de96f44e9e52047f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de0af9c97fab3b22827019085d60878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8de0af9c97fab3b22827019085d60878">Ms::saveXml</a> (Score *score, QIODevice *device)</td></tr>
+<tr class="memdesc:a8de0af9c97fab3b22827019085d60878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classMs_1_1Score.html">Score</a> as MusicXML file <em>name</em>.  <a href="namespaceMs.html#a8de0af9c97fab3b22827019085d60878">More...</a><br /></td></tr>
 <tr class="separator:a8de0af9c97fab3b22827019085d60878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a19855d7730ea26f4769d635488df1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3a19855d7730ea26f4769d635488df1d">Ms::saveXml</a> (Score *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a3a19855d7730ea26f4769d635488df1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3a19855d7730ea26f4769d635488df1d">Ms::saveXml</a> (Score *score, const QString &amp;name)</td></tr>
 <tr class="separator:a3a19855d7730ea26f4769d635488df1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c8ac99f97c70c9546e0c02232facb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a78c8ac99f97c70c9546e0c02232facb3">Ms::saveMxl</a> (Score *score, QIODevice *device)</td></tr>
+<tr class="memitem:a70a602989af46b411ee58ac330df7794"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a70a602989af46b411ee58ac330df7794">Ms::writeMxlArchive</a> (Score *score, MQZipWriter &amp;zipwriter, const QString &amp;filename)</td></tr>
+<tr class="memdesc:a70a602989af46b411ee58ac330df7794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classMs_1_1Score.html">Score</a> as compressed MusicXML file <em>name</em>.  <a href="namespaceMs.html#a70a602989af46b411ee58ac330df7794">More...</a><br /></td></tr>
+<tr class="separator:a70a602989af46b411ee58ac330df7794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78c8ac99f97c70c9546e0c02232facb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a78c8ac99f97c70c9546e0c02232facb3">Ms::saveMxl</a> (Score *score, QIODevice *device)</td></tr>
 <tr class="separator:a78c8ac99f97c70c9546e0c02232facb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772f048bd958bf708fd495e49c49aac8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a772f048bd958bf708fd495e49c49aac8">Ms::saveMxl</a> (Score *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a772f048bd958bf708fd495e49c49aac8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a772f048bd958bf708fd495e49c49aac8">Ms::saveMxl</a> (Score *score, const QString &amp;name)</td></tr>
 <tr class="separator:a772f048bd958bf708fd495e49c49aac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:abac0b689e634949aee24652f2e4aa506"><td class="memItemLeft" align="right" valign="top">static IntVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#abac0b689e634949aee24652f2e4aa506">Ms::integers</a></td></tr>
+<tr class="separator:abac0b689e634949aee24652f2e4aa506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d94a005034f46e9078caed18b7246c"><td class="memItemLeft" align="right" valign="top">static IntVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a79d94a005034f46e9078caed18b7246c">Ms::primes</a></td></tr>
+<tr class="separator:a79d94a005034f46e9078caed18b7246c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e1f9b9b02f6158f9bf3f5b51bad67ff"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4e1f9b9b02f6158f9bf3f5b51bad67ff">Ms::alterTab</a> [12] = { 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0 }</td></tr>
+<tr class="separator:a4e1f9b9b02f6158f9bf3f5b51bad67ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c31422bc33e61b78442b2f6df5524f6"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8c31422bc33e61b78442b2f6df5524f6">Ms::noteTab</a> [12] = { 'C', 'C', 'D', 'D', 'E', 'F', 'F', 'G', 'G', 'A', 'A', '<a class="el" href="beam_8cpp.html#af4e15046dbbdd40d22d64ed5d933610b">B</a>' }</td></tr>
+<tr class="separator:a8c31422bc33e61b78442b2f6df5524f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a47427c095681200f48e0a0f191006ddd"></a>
@@ -221,6 +474,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exportxml_8cpp_source.html#l00124">124</a> of file <a class="el" href="exportxml_8cpp_source.html">exportxml.cpp</a>.</p>
 
 </div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/mixertrackpart.cpp File Reference</title>
+<title>MuseScore: mscore/mixer/mixertrackpart.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_026f86ceddea9dd299537610e6340c25.html">mixer</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,60 +80,62 @@ $(function() {
 <code>#include &quot;<a class="el" href="seq_8h_source.html">seq.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="undo_8h_source.html">libmscore/undo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="synthcontrol_8h_source.html">synthcontrol.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="msynthesizer_8h_source.html">synthesizer/msynthesizer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="msynthesizer_8h_source.html">audio/midi/msynthesizer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="icons_8h_source.html">icons.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for mixertrackpart.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="mixertrackpart_8cpp__incl.png" border="0" usemap="#mscore_2mixertrackpart_8cpp" alt=""/></div>
-<map name="mscore_2mixertrackpart_8cpp" id="mscore_2mixertrackpart_8cpp">
-<area shape="rect" id="node2" href="mixertrackpart_8h.html" title="mixertrackpart.h" alt="" coords="240,80,356,107"/>
-<area shape="rect" id="node6" href="mixertrackitem_8h.html" title="mixertrackitem.h" alt="" coords="5,229,124,256"/>
-<area shape="rect" id="node14" href="musescore_8h.html" title="musescore.h" alt="" coords="1043,80,1140,107"/>
-<area shape="rect" id="node19" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1422,155,1547,181"/>
-<area shape="rect" id="node28" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="3169,229,3283,256"/>
-<area shape="rect" id="node30" href="mixer_8h.html" title="mixer.h" alt="" coords="1921,80,1987,107"/>
-<area shape="rect" id="node37" href="seq_8h.html" title="seq.h" alt="" coords="2469,155,2524,181"/>
-<area shape="rect" id="node44" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="2739,155,2860,181"/>
-<area shape="rect" id="node47" href="synthcontrol_8h.html" title="synthcontrol.h" alt="" coords="2118,80,2222,107"/>
-<area shape="rect" id="node48" href="msynthesizer_8h.html" title="synthesizer/msynthesizer.h" alt="" coords="2429,80,2612,107"/>
-<area shape="rect" id="node49" href="preferences_8h.html" title="preferences.h" alt="" coords="1718,80,1819,107"/>
-<area shape="rect" id="node50" href="icons_8h.html" title="icons.h" alt="" coords="2935,80,2999,107"/>
-<area shape="rect" id="node4" href="mixertrackgroup_8h.html" title="mixertrackgroup.h" alt="" coords="1011,155,1137,181"/>
-<area shape="rect" id="node5" href="mixertrack_8h.html" title="mixertrack.h" alt="" coords="60,155,155,181"/>
-<area shape="rect" id="node7" href="libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="1542,304,1697,331"/>
-<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="2593,379,2669,405"/>
-<area shape="rect" id="node11" href="event_8h.html" title="synthesizer/event.h" alt="" coords="1609,379,1745,405"/>
-<area shape="rect" id="node10" href="style_8h.html" title="style.h" alt="" coords="2967,453,3029,480"/>
-<area shape="rect" id="node15" href="globals_8h.html" title="globals.h" alt="" coords="1571,155,1646,181"/>
-<area shape="rect" id="node17" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="868,155,987,181"/>
-<area shape="rect" id="node18" href="musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1161,155,1347,181"/>
-<area shape="rect" id="node27" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="439,155,603,181"/>
-<area shape="rect" id="node20" href="input_8h.html" title="input.h" alt="" coords="2557,229,2618,256"/>
-<area shape="rect" id="node21" href="select_8h.html" title="select.h" alt="" coords="2643,229,2711,256"/>
-<area shape="rect" id="node22" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="2403,229,2532,256"/>
-<area shape="rect" id="node23" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1492,229,1595,256"/>
-<area shape="rect" id="node24" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1135,229,1239,256"/>
-<area shape="rect" id="node25" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1264,229,1364,256"/>
-<area shape="rect" id="node26" href="property_8h.html" title="property.h" alt="" coords="1387,229,1467,256"/>
-<area shape="rect" id="node29" href="text_8h.html" title="text.h" alt="" coords="3220,304,3275,331"/>
-<area shape="rect" id="node33" href="enableplayforwidget_8h.html" title="enableplayforwidget.h" alt="" coords="2297,155,2445,181"/>
-<area shape="rect" id="node38" href="rendermidi_8h.html" title="libmscore/rendermidi.h" alt="" coords="2173,229,2327,256"/>
-<area shape="rect" id="node39" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="2327,304,2403,331"/>
-<area shape="rect" id="node40" href="sequencer_8h.html" title="libmscore/sequencer.h" alt="" coords="1907,229,2060,256"/>
-<area shape="rect" id="node41" href="driver_8h.html" title="driver.h" alt="" coords="2084,229,2149,256"/>
-<area shape="rect" id="node42" href="fifo_8h.html" title="libmscore/fifo.h" alt="" coords="1772,229,1883,256"/>
-<area shape="rect" id="node43" href="tempo_8h.html" title="libmscore/tempo.h" alt="" coords="2735,229,2864,256"/>
-<area shape="rect" id="node45" href="spatium_8h.html" title="spatium.h" alt="" coords="3015,229,3093,256"/>
-<area shape="rect" id="node46" href="sig_8h.html" title="sig.h" alt="" coords="2939,229,2990,256"/>
+<div class="center"><img src="mixertrackpart_8cpp__incl.png" border="0" usemap="#mscore_2mixer_2mixertrackpart_8cpp" alt=""/></div>
+<map name="mscore_2mixer_2mixertrackpart_8cpp" id="mscore_2mixer_2mixertrackpart_8cpp">
+<area shape="rect" id="node2" href="mixertrackpart_8h.html" title="mixertrackpart.h" alt="" coords="276,80,394,107"/>
+<area shape="rect" id="node6" href="mixertrackitem_8h.html" title="mixertrackitem.h" alt="" coords="168,229,289,256"/>
+<area shape="rect" id="node13" href="musescore_8h.html" title="musescore.h" alt="" coords="1064,80,1163,107"/>
+<area shape="rect" id="node18" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="415,155,546,181"/>
+<area shape="rect" id="node28" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="23,229,143,256"/>
+<area shape="rect" id="node30" href="mixer_8h.html" title="mixer.h" alt="" coords="2042,80,2108,107"/>
+<area shape="rect" id="node37" href="seq_8h.html" title="seq.h" alt="" coords="2716,155,2770,181"/>
+<area shape="rect" id="node44" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1768,155,1894,181"/>
+<area shape="rect" id="node47" href="synthcontrol_8h.html" title="synthcontrol.h" alt="" coords="2132,80,2237,107"/>
+<area shape="rect" id="node48" href="msynthesizer_8h.html" title="audio/midi/msynthesizer.h" alt="" coords="1624,80,1806,107"/>
+<area shape="rect" id="node49" href="preferences_8h.html" title="preferences.h" alt="" coords="1498,80,1599,107"/>
+<area shape="rect" id="node50" href="icons_8h.html" title="icons.h" alt="" coords="2313,80,2378,107"/>
+<area shape="rect" id="node4" href="mixertrackgroup_8h.html" title="mixertrackgroup.h" alt="" coords="764,155,892,181"/>
+<area shape="rect" id="node5" href="mixertrack_8h.html" title="mixertrack.h" alt="" coords="245,155,340,181"/>
+<area shape="rect" id="node7" href="libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="1188,304,1348,331"/>
+<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="1368,379,1446,405"/>
+<area shape="rect" id="node10" href="event_8h.html" title="audio/midi/event.h" alt="" coords="1526,379,1661,405"/>
+<area shape="rect" id="node14" href="globals_8h.html" title="globals.h" alt="" coords="1567,155,1642,181"/>
+<area shape="rect" id="node16" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="621,155,740,181"/>
+<area shape="rect" id="node17" href="musescoreCore_8h.html" title="libmscore/musescoreCore.h" alt="" coords="917,155,1108,181"/>
+<area shape="rect" id="node27" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="1132,155,1298,181"/>
+<area shape="rect" id="node19" href="input_8h.html" title="input.h" alt="" coords="1466,229,1527,256"/>
+<area shape="rect" id="node20" href="select_8h.html" title="select.h" alt="" coords="1373,229,1441,256"/>
+<area shape="rect" id="node21" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1168,229,1297,256"/>
+<area shape="rect" id="node22" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="521,229,624,256"/>
+<area shape="rect" id="node23" href="spannermap_8h.html" title="spannermap.h" alt="" coords="648,229,755,256"/>
+<area shape="rect" id="node24" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="780,229,880,256"/>
+<area shape="rect" id="node25" href="property_8h.html" title="property.h" alt="" coords="416,229,497,256"/>
+<area shape="rect" id="node26" href="sym_8h.html" title="sym.h" alt="" coords="560,379,619,405"/>
+<area shape="rect" id="node29" href="text_8h.html" title="text.h" alt="" coords="56,304,110,331"/>
+<area shape="rect" id="node36" href="enableplayforwidget_8h.html" title="enableplayforwidget.h" alt="" coords="2541,155,2692,181"/>
+<area shape="rect" id="node38" href="rendermidi_8h.html" title="libmscore/rendermidi.h" alt="" coords="2341,229,2502,256"/>
+<area shape="rect" id="node39" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1742,304,1821,331"/>
+<area shape="rect" id="node40" href="sequencer_8h.html" title="libmscore/sequencer.h" alt="" coords="2526,229,2685,256"/>
+<area shape="rect" id="node41" href="fifo_8h.html" title="libmscore/fifo.h" alt="" coords="2710,229,2827,256"/>
+<area shape="rect" id="node42" href="tempo_8h.html" title="libmscore/tempo.h" alt="" coords="2001,229,2136,256"/>
+<area shape="rect" id="node43" href="driver_8h.html" title="audio/drivers/driver.h" alt="" coords="2851,229,3003,256"/>
+<area shape="rect" id="node45" href="spatium_8h.html" title="spatium.h" alt="" coords="1831,229,1911,256"/>
+<area shape="rect" id="node46" href="sig_8h.html" title="sig.h" alt="" coords="1756,229,1807,256"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="mixertrackpart_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

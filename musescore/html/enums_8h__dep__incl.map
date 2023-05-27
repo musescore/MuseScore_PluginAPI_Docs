@@ -1,7 +1,6 @@
 <map id="mscore/plugin/api/enums.h" name="mscore/plugin/api/enums.h">
-<area shape="rect" id="node2" href="$enums_8cpp.html" title="mscore/plugin/api/enums.cpp" alt="" coords="17,80,209,107"/>
-<area shape="rect" id="node3" href="$qmlpluginapi_8h.html" title="mscore/plugin/api/qmlpluginapi.h" alt="" coords="233,80,443,107"/>
-<area shape="rect" id="node4" href="$fraction_8cpp.html" title="mscore/plugin/api/fraction.cpp" alt="" coords="5,155,201,181"/>
-<area shape="rect" id="node5" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="225,155,451,181"/>
-<area shape="rect" id="node6" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="475,155,700,181"/>
+<area shape="rect" id="node2" href="$enums_8cpp.html" title="mscore/plugin/api/enums.cpp" alt="" coords="5,80,207,107"/>
+<area shape="rect" id="node3" href="$qmlpluginapi_8h.html" title="mscore/plugin/api/qmlpluginapi.h" alt="" coords="231,80,453,107"/>
+<area shape="rect" id="node4" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="95,155,330,181"/>
+<area shape="rect" id="node5" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="355,155,588,181"/>
 </map>

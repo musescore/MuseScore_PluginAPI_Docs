@@ -1,0 +1,17 @@
+<map id="mscore/inspector/inspectorAmbitus.cpp" name="mscore/inspector/inspectorAmbitus.cpp">
+<area shape="rect" id="node2" href="$inspector_8h.html" title="inspector.h" alt="" coords="2797,169,2884,196"/>
+<area shape="rect" id="node38" href="$inspectorAmbitus_8h.html" title="inspectorAmbitus.h" alt="" coords="5713,95,5851,121"/>
+<area shape="rect" id="node40" href="$ambitus_8h.html" title="libmscore/ambitus.h" alt="" coords="5975,95,6119,121"/>
+<area shape="rect" id="node45" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="6370,95,6501,121"/>
+<area shape="rect" id="node3" href="$inspectorBase_8h.html" title="inspectorBase.h" alt="" coords="50,393,167,420"/>
+<area shape="rect" id="node4" href="$inspectorElementBase_8h.html" title="inspectorElementBase.h" alt="" coords="26,319,191,345"/>
+<area shape="rect" id="node5" href="$inspectorTextBase_8h.html" title="inspectorTextBase.h" alt="" coords="89,244,232,271"/>
+<area shape="rect" id="node41" href="$element_8h.html" title="element.h" alt="" coords="6041,244,6121,271"/>
+<area shape="rect" id="node42" href="$note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="6051,169,6110,196"/>
+<area shape="rect" id="node43" href="$accidental_8h.html" title="Definition of class Accidental. " alt="" coords="6134,169,6227,196"/>
+<area shape="rect" id="node46" href="$input_8h.html" title="input.h" alt="" coords="6302,169,6363,196"/>
+<area shape="rect" id="node47" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="6387,169,6483,196"/>
+<area shape="rect" id="node48" href="$select_8h.html" title="select.h" alt="" coords="6508,169,6576,196"/>
+<area shape="rect" id="node49" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="6600,169,6729,196"/>
+<area shape="rect" id="node50" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="6753,169,6856,196"/>
+</map>

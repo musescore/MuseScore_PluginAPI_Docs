@@ -1,0 +1,10 @@
+<map id="OVE::Measure" name="OVE::Measure">
+<area shape="rect" id="node2" href="$classOVE_1_1LengthElement.html" title="OVE::LengthElement" alt="" coords="5,261,145,288"/>
+<area shape="rect" id="node3" href="$classOVE_1_1BarNumber.html" title="OVE::BarNumber" alt="" coords="169,261,291,288"/>
+<area shape="rect" id="node4" href="$classOVE_1_1MusicData.html" title="OVE::MusicData" alt="" coords="248,185,364,212"/>
+<area shape="rect" id="node9" href="$classOVE_1_1TimeSignature.html" title="OVE::TimeSignature" alt="" coords="315,261,452,288"/>
+<area shape="rect" id="node5" href="$classOVE_1_1TickElement.html" title="OVE::TickElement" alt="" coords="93,109,220,136"/>
+<area shape="rect" id="node6" href="$classOVE_1_1PairElement.html" title="OVE::PairElement" alt="" coords="244,109,368,136"/>
+<area shape="rect" id="node7" href="$classOVE_1_1MeasurePos.html" title="OVE::MeasurePos" alt="" coords="243,5,369,32"/>
+<area shape="rect" id="node8" href="$classOVE_1_1OffsetElement.html" title="OVE::OffsetElement" alt="" coords="393,109,531,136"/>
+</map>

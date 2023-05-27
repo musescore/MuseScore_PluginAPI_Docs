@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -74,20 +74,21 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;config.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">libmscore/mscore.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="musescore_core_8h_source.html">libmscore/musescoreCore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musescoreCore_8h_source.html">libmscore/musescoreCore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2utils_8h_source.html">libmscore/utils.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for qmlplugin.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="qmlplugin_8h__incl.png" border="0" usemap="#mscore_2plugin_2qmlplugin_8h" alt=""/></div>
 <map name="mscore_2plugin_2qmlplugin_8h" id="mscore_2plugin_2qmlplugin_8h">
-<area shape="rect" id="node3" href="mscore_8h.html" title="libmscore/mscore.h" alt="" coords="55,155,191,181"/>
-<area shape="rect" id="node7" href="musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="94,80,279,107"/>
-<area shape="rect" id="node8" href="libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="304,80,421,107"/>
-<area shape="rect" id="node4" href="style_8h.html" title="style.h" alt="" coords="104,229,165,256"/>
-<area shape="rect" id="node5" href="chordlist_8h.html" title="chordlist.h" alt="" coords="93,304,176,331"/>
-<area shape="rect" id="node6" href="types_8h.html" title="types.h" alt="" coords="201,304,266,331"/>
-<area shape="rect" id="node9" href="interval_8h.html" title="interval.h" alt="" coords="325,155,400,181"/>
+<area shape="rect" id="node3" href="mscore_8h.html" title="libmscore/mscore.h" alt="" coords="63,155,206,181"/>
+<area shape="rect" id="node7" href="musescoreCore_8h.html" title="libmscore/musescoreCore.h" alt="" coords="94,80,285,107"/>
+<area shape="rect" id="node8" href="libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="309,80,430,107"/>
+<area shape="rect" id="node4" href="libmscore_2style_8h.html" title="style.h" alt="" coords="115,229,175,256"/>
+<area shape="rect" id="node5" href="chordlist_8h.html" title="chordlist.h" alt="" coords="94,304,178,331"/>
+<area shape="rect" id="node6" href="types_8h.html" title="types.h" alt="" coords="203,304,267,331"/>
+<area shape="rect" id="node9" href="interval_8h.html" title="interval.h" alt="" coords="247,155,321,181"/>
+<area shape="rect" id="node10" href="sym_8h.html" title="sym.h" alt="" coords="345,155,404,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -95,14 +96,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="qmlplugin_8h__dep__incl.png" border="0" usemap="#mscore_2plugin_2qmlplugin_8hdep" alt=""/></div>
 <map name="mscore_2plugin_2qmlplugin_8hdep" id="mscore_2plugin_2qmlplugin_8hdep">
-<area shape="rect" id="node2" href="musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="49,80,208,107"/>
-<area shape="rect" id="node3" href="qmlpluginapi_8h.html" title="mscore/plugin/api/qmlpluginapi.h" alt="" coords="233,80,443,107"/>
-<area shape="rect" id="node7" href="mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="467,80,686,107"/>
-<area shape="rect" id="node8" href="plugin_creator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="711,80,920,107"/>
-<area shape="rect" id="node9" href="qmlplugin_8cpp.html" title="mscore/plugin/qmlplugin.cpp" alt="" coords="945,80,1131,107"/>
-<area shape="rect" id="node4" href="fraction_8cpp.html" title="mscore/plugin/api/fraction.cpp" alt="" coords="5,155,201,181"/>
-<area shape="rect" id="node5" href="qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="225,155,451,181"/>
-<area shape="rect" id="node6" href="qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="475,155,700,181"/>
+<area shape="rect" id="node2" href="musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="5,80,169,107"/>
+<area shape="rect" id="node3" href="qmlpluginapi_8h.html" title="mscore/plugin/api/qmlpluginapi.h" alt="" coords="194,80,415,107"/>
+<area shape="rect" id="node6" href="mscorePlugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="440,80,665,107"/>
+<area shape="rect" id="node7" href="pluginCreator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="689,80,904,107"/>
+<area shape="rect" id="node8" href="qmlplugin_8cpp.html" title="mscore/plugin/qmlplugin.cpp" alt="" coords="929,80,1123,107"/>
+<area shape="rect" id="node4" href="qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="58,155,293,181"/>
+<area shape="rect" id="node5" href="qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="317,155,551,181"/>
 </map>
 </div>
 </div>
@@ -110,13 +110,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_qml_plugin.html">Ms::QmlPlugin</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1QmlPlugin.html">Ms::QmlPlugin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -74,14 +74,15 @@ $(function() {
 <div class="title">preferences.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;global/settings/types/preferencekeys.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for preferences.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="preferences_8h__incl.png" border="0" usemap="#mscore_2preferences_8h" alt=""/></div>
 <map name="mscore_2preferences_8h" id="mscore_2preferences_8h">
-<area shape="rect" id="node2" href="globals_8h.html" title="globals.h" alt="" coords="5,87,80,114"/>
+<area shape="rect" id="node3" href="globals_8h.html" title="globals.h" alt="" coords="109,87,184,114"/>
 </map>
 </div>
 </div>
@@ -89,89 +90,103 @@ Include dependency graph for preferences.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_preference.html">Ms::Preference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Preference.html">Ms::Preference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_int_preference.html">Ms::IntPreference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1IntPreference.html">Ms::IntPreference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_double_preference.html">Ms::DoublePreference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1DoublePreference.html">Ms::DoublePreference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_bool_preference.html">Ms::BoolPreference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1BoolPreference.html">Ms::BoolPreference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_string_preference.html">Ms::StringPreference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1StringPreference.html">Ms::StringPreference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_color_preference.html">Ms::ColorPreference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1ColorPreference.html">Ms::ColorPreference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_enum_preference.html">Ms::EnumPreference</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1EnumPreference.html">Ms::EnumPreference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_preferences.html">Ms::Preferences</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1Preferences.html">Ms::Preferences</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_preference_visitor.html">Ms::PreferenceVisitor</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1PreferenceVisitor.html">Ms::PreferenceVisitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a3c28d0e0b834f065d7a5645f1739d05c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05c">Ms::SessionStart</a> : char { <a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05caba2b45bdc11e2a4a6e86aab2ac693cbb">Ms::SessionStart::EMPTY</a>, 
-<a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05caf447f5c03508de4d88e340390ba7c78f">Ms::SessionStart::LAST</a>, 
-<a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05ca24d459a81449d7210c8f9a86c2913034">Ms::SessionStart::NEW</a>, 
-<a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05cac9b2281fa6fd403855443e6555aa16a9">Ms::SessionStart::SCORE</a>
+<tr class="memitem:a3c28d0e0b834f065d7a5645f1739d05c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05c">Ms::SessionStart</a> : char { <a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05caba2b45bdc11e2a4a6e86aab2ac693cbb">Ms::SessionStart::EMPTY</a>, 
+<a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05caf447f5c03508de4d88e340390ba7c78f">Ms::SessionStart::LAST</a>, 
+<a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05ca24d459a81449d7210c8f9a86c2913034">Ms::SessionStart::NEW</a>, 
+<a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05cac9b2281fa6fd403855443e6555aa16a9">Ms::SessionStart::SCORE</a>
  }</td></tr>
 <tr class="separator:a3c28d0e0b834f065d7a5645f1739d05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45d232d2df5f9d53245c89c70694e1c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9addfdb74ecc9e31227f085abbe662335b">Ms::RMIDI_REWIND</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a28d4340ebf93699242f153a37be62802">Ms::RMIDI_TOGGLE_PLAY</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a487e34d78ee6f938decb3f6ddc4f1e42">Ms::RMIDI_PLAY</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a0f4e29581664956d0a9fb26b93c23c57">Ms::RMIDI_STOP</a>, 
+<tr class="memitem:a2172871e9f50e96859c680ce007cfc88"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88addfdb74ecc9e31227f085abbe662335b">Ms::RMIDI_REWIND</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a28d4340ebf93699242f153a37be62802">Ms::RMIDI_TOGGLE_PLAY</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a487e34d78ee6f938decb3f6ddc4f1e42">Ms::RMIDI_PLAY</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a0f4e29581664956d0a9fb26b93c23c57">Ms::RMIDI_STOP</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a38d0299f22b57448220cca4528acac05">Ms::RMIDI_NOTE1</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9aaa1e619e365b312e431a9e1c2b040a25">Ms::RMIDI_NOTE2</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a572f0cace3db2d955ccfa8210cb6818d">Ms::RMIDI_NOTE4</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a5de6535cd778f91b0bd8ba914354d972">Ms::RMIDI_NOTE8</a>, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a38d0299f22b57448220cca4528acac05">Ms::RMIDI_NOTE1</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88aaa1e619e365b312e431a9e1c2b040a25">Ms::RMIDI_NOTE2</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a572f0cace3db2d955ccfa8210cb6818d">Ms::RMIDI_NOTE4</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a5de6535cd778f91b0bd8ba914354d972">Ms::RMIDI_NOTE8</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a3aeb5b440649a4041e5cec1ae51a0d64">Ms::RMIDI_NOTE16</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9af67f632ef6a0ba2d64448c6d9a54e1cc">Ms::RMIDI_NOTE32</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a1e10d0e9c237fd84569b189175dae167">Ms::RMIDI_NOTE64</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9abd4e1755af28f0d913d08f7872ad51d4">Ms::RMIDI_REST</a>, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a3aeb5b440649a4041e5cec1ae51a0d64">Ms::RMIDI_NOTE16</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88af67f632ef6a0ba2d64448c6d9a54e1cc">Ms::RMIDI_NOTE32</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a1e10d0e9c237fd84569b189175dae167">Ms::RMIDI_NOTE64</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88abd4e1755af28f0d913d08f7872ad51d4">Ms::RMIDI_REST</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a62f97f151f4c585ddbee3471ce6b2177">Ms::RMIDI_DOT</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9ac59c55d1cd30db0581be05dc87b57e80">Ms::RMIDI_DOTDOT</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a3bd5959e95bbce26898e0d882979af63">Ms::RMIDI_TIE</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a258b3c560f08c73d089f378cd7be30a1">Ms::RMIDI_UNDO</a>, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a62f97f151f4c585ddbee3471ce6b2177">Ms::RMIDI_DOT</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88ac59c55d1cd30db0581be05dc87b57e80">Ms::RMIDI_DOTDOT</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a3bd5959e95bbce26898e0d882979af63">Ms::RMIDI_TIE</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a258b3c560f08c73d089f378cd7be30a1">Ms::RMIDI_UNDO</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9aa838e1ecf990f8e46e448c319bf7d562">Ms::RMIDI_NOTE_EDIT_MODE</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a0909bfc7c0b7fa15ef4fc39144dff367">Ms::RMIDI_REALTIME_ADVANCE</a>, 
-<a class="el" href="namespace_ms.html#a45d232d2df5f9d53245c89c70694e1c9a8d439e96590dd18fafe1d1e1f5ea0f2b">Ms::MIDI_REMOTES</a>
+&#160;&#160;<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88aa838e1ecf990f8e46e448c319bf7d562">Ms::RMIDI_NOTE_EDIT_MODE</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a0909bfc7c0b7fa15ef4fc39144dff367">Ms::RMIDI_REALTIME_ADVANCE</a>, 
+<a class="el" href="namespaceMs.html#a2172871e9f50e96859c680ce007cfc88a8d439e96590dd18fafe1d1e1f5ea0f2b">Ms::MIDI_REMOTES</a>
 <br />
  }</td></tr>
-<tr class="separator:a45d232d2df5f9d53245c89c70694e1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f5b4597f7a0bd39841ef9e5b578c0f1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7f5b4597f7a0bd39841ef9e5b578c0f1">Ms::MuseScoreStyleType</a> : char { <a class="el" href="namespace_ms.html#a7f5b4597f7a0bd39841ef9e5b578c0f1afaf17be71cbe44cbfbeb8d875d166b65">Ms::MuseScoreStyleType::DARK_FUSION</a> = 0, 
-<a class="el" href="namespace_ms.html#a7f5b4597f7a0bd39841ef9e5b578c0f1a9620aa29173cb407dc24853d67665628">Ms::MuseScoreStyleType::LIGHT_FUSION</a>
+<tr class="separator:a2172871e9f50e96859c680ce007cfc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fb775139e6c84cceafdffea6e34064"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a55fb775139e6c84cceafdffea6e34064">Ms::MuseScorePreferredStyleType</a> : char { <a class="el" href="namespaceMs.html#a55fb775139e6c84cceafdffea6e34064a9620aa29173cb407dc24853d67665628">Ms::MuseScorePreferredStyleType::LIGHT_FUSION</a> = 0, 
+<a class="el" href="namespaceMs.html#a55fb775139e6c84cceafdffea6e34064afaf17be71cbe44cbfbeb8d875d166b65">Ms::MuseScorePreferredStyleType::DARK_FUSION</a>
  }</td></tr>
-<tr class="separator:a7f5b4597f7a0bd39841ef9e5b578c0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ce3d0172d5655cd4eaef11ba6fbbb0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0">Ms::MusicxmlExportBreaks</a> : char { <a class="el" href="namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0a5fb1f955b45e38e31789286a1790398d">Ms::MusicxmlExportBreaks::ALL</a>, 
-<a class="el" href="namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0aa60a6a471c0681e5a49c4f5d00f6bc5a">Ms::MusicxmlExportBreaks::MANUAL</a>, 
-<a class="el" href="namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0ac2f3f489a00553e7a01d369c103c7251">Ms::MusicxmlExportBreaks::NO</a>
+<tr class="separator:a55fb775139e6c84cceafdffea6e34064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace61b2e48f741c9bf605ec740ccb4e01"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ace61b2e48f741c9bf605ec740ccb4e01">Ms::MuseScoreEffectiveStyleType</a> : char { <a class="el" href="namespaceMs.html#ace61b2e48f741c9bf605ec740ccb4e01a9620aa29173cb407dc24853d67665628">Ms::MuseScoreEffectiveStyleType::LIGHT_FUSION</a> = 0, 
+<a class="el" href="namespaceMs.html#ace61b2e48f741c9bf605ec740ccb4e01afaf17be71cbe44cbfbeb8d875d166b65">Ms::MuseScoreEffectiveStyleType::DARK_FUSION</a>
+ }</td></tr>
+<tr class="separator:ace61b2e48f741c9bf605ec740ccb4e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ce3d0172d5655cd4eaef11ba6fbbb0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a75ce3d0172d5655cd4eaef11ba6fbbb0">Ms::MusicxmlExportBreaks</a> : char { <a class="el" href="namespaceMs.html#a75ce3d0172d5655cd4eaef11ba6fbbb0a5fb1f955b45e38e31789286a1790398d">Ms::MusicxmlExportBreaks::ALL</a>, 
+<a class="el" href="namespaceMs.html#a75ce3d0172d5655cd4eaef11ba6fbbb0aa60a6a471c0681e5a49c4f5d00f6bc5a">Ms::MusicxmlExportBreaks::MANUAL</a>, 
+<a class="el" href="namespaceMs.html#a75ce3d0172d5655cd4eaef11ba6fbbb0ac2f3f489a00553e7a01d369c103c7251">Ms::MusicxmlExportBreaks::NO</a>
  }</td></tr>
 <tr class="separator:a75ce3d0172d5655cd4eaef11ba6fbbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7cef1c700447784db6e89e0120ed0d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9a7cef1c700447784db6e89e0120ed0d">Ms::ZoomType</a> : int { <a class="el" href="namespaceMs.html#a9a7cef1c700447784db6e89e0120ed0da21ee69ba26b6e644d4dddce593855d84">Ms::ZoomType::PERCENTAGE</a> = 0, 
+<a class="el" href="namespaceMs.html#a9a7cef1c700447784db6e89e0120ed0da53a9ef5b6ba2f7ed26350ba6cf576c7d">Ms::ZoomType::PAGE_WIDTH</a>, 
+<a class="el" href="namespaceMs.html#a9a7cef1c700447784db6e89e0120ed0da6259a636d54f79c1cca0408ef6e8f4bf">Ms::ZoomType::WHOLE_PAGE</a>, 
+<a class="el" href="namespaceMs.html#a9a7cef1c700447784db6e89e0120ed0da92ae5719e500443541395a95147125fb">Ms::ZoomType::TWO_PAGES</a>
+ }</td></tr>
+<tr class="separator:a9a7cef1c700447784db6e89e0120ed0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad7839d3a9250d96d4dfc9ef9eb997d1c"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad7839d3a9250d96d4dfc9ef9eb997d1c">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespace_ms.html#a7f5b4597f7a0bd39841ef9e5b578c0f1">Ms::MuseScoreStyleType</a> &amp;val)</td></tr>
-<tr class="separator:ad7839d3a9250d96d4dfc9ef9eb997d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2e5627aa82030b1713e41632212c65c"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad2e5627aa82030b1713e41632212c65c">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespace_ms.html#a7f5b4597f7a0bd39841ef9e5b578c0f1">Ms::MuseScoreStyleType</a> &amp;val)</td></tr>
-<tr class="separator:ad2e5627aa82030b1713e41632212c65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5285d76fb0d2017b74b45eeef2841019"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5285d76fb0d2017b74b45eeef2841019">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05c">Ms::SessionStart</a> &amp;val)</td></tr>
+<tr class="memitem:ae25bbed811f35e5f35fd50dc242a7c34"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae25bbed811f35e5f35fd50dc242a7c34">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespaceMs.html#a55fb775139e6c84cceafdffea6e34064">Ms::MuseScorePreferredStyleType</a> &amp;val)</td></tr>
+<tr class="separator:ae25bbed811f35e5f35fd50dc242a7c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1602826dc52c9d1ec28de5a71ee38b7"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae1602826dc52c9d1ec28de5a71ee38b7">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespaceMs.html#a55fb775139e6c84cceafdffea6e34064">Ms::MuseScorePreferredStyleType</a> &amp;val)</td></tr>
+<tr class="separator:ae1602826dc52c9d1ec28de5a71ee38b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac554ffab86da3df6715d93e0b32fe2"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afac554ffab86da3df6715d93e0b32fe2">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespaceMs.html#ace61b2e48f741c9bf605ec740ccb4e01">Ms::MuseScoreEffectiveStyleType</a> &amp;val)</td></tr>
+<tr class="separator:afac554ffab86da3df6715d93e0b32fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bb39a7e289e4a2ab21b551bd2a85f4"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a29bb39a7e289e4a2ab21b551bd2a85f4">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespaceMs.html#ace61b2e48f741c9bf605ec740ccb4e01">Ms::MuseScoreEffectiveStyleType</a> &amp;val)</td></tr>
+<tr class="separator:a29bb39a7e289e4a2ab21b551bd2a85f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5285d76fb0d2017b74b45eeef2841019"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5285d76fb0d2017b74b45eeef2841019">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05c">Ms::SessionStart</a> &amp;val)</td></tr>
 <tr class="separator:a5285d76fb0d2017b74b45eeef2841019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a637752c45dfd8c2a1450e43a0ec6932a"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a637752c45dfd8c2a1450e43a0ec6932a">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespace_ms.html#a3c28d0e0b834f065d7a5645f1739d05c">Ms::SessionStart</a> &amp;val)</td></tr>
+<tr class="memitem:a637752c45dfd8c2a1450e43a0ec6932a"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a637752c45dfd8c2a1450e43a0ec6932a">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespaceMs.html#a3c28d0e0b834f065d7a5645f1739d05c">Ms::SessionStart</a> &amp;val)</td></tr>
 <tr class="separator:a637752c45dfd8c2a1450e43a0ec6932a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad52c77c300f0e9e98c92fcbb408d4111"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad52c77c300f0e9e98c92fcbb408d4111">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0">Ms::MusicxmlExportBreaks</a> &amp;val)</td></tr>
+<tr class="memitem:ad52c77c300f0e9e98c92fcbb408d4111"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad52c77c300f0e9e98c92fcbb408d4111">Ms::operator&lt;&lt;</a> (QDataStream &amp;out, const <a class="el" href="namespaceMs.html#a75ce3d0172d5655cd4eaef11ba6fbbb0">Ms::MusicxmlExportBreaks</a> &amp;val)</td></tr>
 <tr class="separator:ad52c77c300f0e9e98c92fcbb408d4111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4e6bcb524a1b5278c158c1bf304fb43"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab4e6bcb524a1b5278c158c1bf304fb43">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespace_ms.html#a75ce3d0172d5655cd4eaef11ba6fbbb0">Ms::MusicxmlExportBreaks</a> &amp;val)</td></tr>
+<tr class="memitem:ab4e6bcb524a1b5278c158c1bf304fb43"><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab4e6bcb524a1b5278c158c1bf304fb43">Ms::operator&gt;&gt;</a> (QDataStream &amp;in, <a class="el" href="namespaceMs.html#a75ce3d0172d5655cd4eaef11ba6fbbb0">Ms::MusicxmlExportBreaks</a> &amp;val)</td></tr>
 <tr class="separator:ab4e6bcb524a1b5278c158c1bf304fb43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

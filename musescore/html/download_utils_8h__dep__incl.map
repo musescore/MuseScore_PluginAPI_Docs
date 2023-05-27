@@ -1,9 +1,0 @@
-<map id="mscore/downloadUtils.h" name="mscore/downloadUtils.h">
-<area shape="rect" id="node2" href="$download_utils_8cpp.html" title="mscore/downloadUtils.cpp" alt="" coords="77,80,253,107"/>
-<area shape="rect" id="node3" href="$resource_manager_8h.html" title="mscore/resourceManager.h" alt="" coords="277,80,457,107"/>
-<area shape="rect" id="node8" href="$uploadscoredialog_8cpp.html" title="mscore/uploadscoredialog.cpp" alt="" coords="481,80,680,107"/>
-<area shape="rect" id="node4" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="5,155,164,181"/>
-<area shape="rect" id="node5" href="$prefsdialog_8cpp.html" title="mscore/prefsdialog.cpp" alt="" coords="189,155,346,181"/>
-<area shape="rect" id="node6" href="$resource_manager_8cpp.html" title="mscore/resourceManager.cpp" alt="" coords="370,155,565,181"/>
-<area shape="rect" id="node7" href="$updatechecker_8cpp.html" title="mscore/updatechecker.cpp" alt="" coords="589,155,767,181"/>
-</map>

@@ -1,0 +1,7 @@
+<map id="Ms::PluginAPI::DurationElement" name="Ms::PluginAPI::DurationElement">
+<area shape="rect" id="node5" href="$classMs_1_1PluginAPI_1_1ChordRest.html" title="Ms::PluginAPI::ChordRest" alt="" coords="5,304,176,331"/>
+<area shape="rect" id="node7" href="$classMs_1_1PluginAPI_1_1Tuplet.html" title="Ms::PluginAPI::Tuplet" alt="" coords="200,304,344,331"/>
+<area shape="rect" id="node2" href="$classMs_1_1PluginAPI_1_1Element.html" title="Ms::PluginAPI::Element" alt="" coords="103,155,260,181"/>
+<area shape="rect" id="node3" href="$classMs_1_1PluginAPI_1_1ScoreElement.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="86,80,277,107"/>
+<area shape="rect" id="node6" href="$classMs_1_1PluginAPI_1_1Chord.html" title="Ms::PluginAPI::Chord" alt="" coords="18,379,163,405"/>
+</map>

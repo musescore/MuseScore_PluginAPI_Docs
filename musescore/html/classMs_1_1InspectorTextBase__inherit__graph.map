@@ -1,0 +1,16 @@
+<map id="Ms::InspectorTextBase" name="Ms::InspectorTextBase">
+<area shape="rect" id="node5" href="$classMs_1_1InspectorDynamic.html" title="Ms::InspectorDynamic" alt="" coords="767,5,921,32"/>
+<area shape="rect" id="node6" href="$classMs_1_1InspectorHarmony.html" title="Ms::InspectorHarmony" alt="" coords="765,56,923,83"/>
+<area shape="rect" id="node7" href="$classMs_1_1InspectorIname.html" title="Ms::InspectorIname" alt="" coords="774,107,914,133"/>
+<area shape="rect" id="node8" href="$classMs_1_1InspectorInstrumentChange.html" title="Ms::InspectorInstrumentChange" alt="" coords="739,157,949,184"/>
+<area shape="rect" id="node9" href="$classMs_1_1InspectorJump.html" title="Ms::InspectorJump" alt="" coords="776,208,912,235"/>
+<area shape="rect" id="node10" href="$classMs_1_1InspectorLyric.html" title="Ms::InspectorLyric" alt="" coords="779,259,909,285"/>
+<area shape="rect" id="node11" href="$classMs_1_1InspectorMarker.html" title="Ms::InspectorMarker" alt="" coords="771,309,917,336"/>
+<area shape="rect" id="node12" href="$classMs_1_1InspectorMeasureNumber.html" title="Ms::InspectorMeasureNumber" alt="" coords="743,360,945,387"/>
+<area shape="rect" id="node13" href="$classMs_1_1InspectorStaffText.html" title="Ms::InspectorStaffText" alt="" coords="765,411,923,437"/>
+<area shape="rect" id="node15" href="$classMs_1_1InspectorTempoText.html" title="Ms::InspectorTempoText" alt="" coords="759,461,929,488"/>
+<area shape="rect" id="node16" href="$classMs_1_1InspectorText.html" title="Ms::InspectorText" alt="" coords="780,512,908,539"/>
+<area shape="rect" id="node2" href="$classMs_1_1InspectorElementBase.html" title="Ms::InspectorElementBase" alt="" coords="305,259,485,285"/>
+<area shape="rect" id="node3" href="$classMs_1_1InspectorBase.html" title="Ms::InspectorBase" alt="" coords="125,259,257,285"/>
+<area shape="rect" id="node14" href="$classMs_1_1InspectorFingering.html" title="Ms::InspectorFingering" alt="" coords="997,411,1153,437"/>
+</map>

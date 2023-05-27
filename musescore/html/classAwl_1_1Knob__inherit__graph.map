@@ -1,0 +1,6 @@
+<map id="Awl::Knob" name="Awl::Knob">
+<area shape="rect" id="node4" href="$classAwl_1_1MidiPanKnob.html" title="MidiPan Knob entry widget. " alt="" coords="5,229,132,256"/>
+<area shape="rect" id="node5" href="$classAwl_1_1PanKnob.html" title="Pan Knob entry widget. " alt="" coords="157,229,258,256"/>
+<area shape="rect" id="node6" href="$classAwl_1_1VolKnob.html" title="Volume Knob entry widget. " alt="" coords="282,229,381,256"/>
+<area shape="rect" id="node2" href="$classAwl_1_1AbstractSlider.html" title="The AwlAbstractSlider class provides an double value within a range. " alt="" coords="141,80,273,107"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Ms::NoteObj" name="Ms::NoteObj">
+<area shape="rect" id="node2" href="$classMs_1_1CapClef.html" title="Ms::CapClef" alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node3" href="$classMs_1_1CapExplicitBarline.html" title="Ms::CapExplicitBarline" alt="" coords="125,80,277,107"/>
+<area shape="rect" id="node4" href="$classMs_1_1CapKey.html" title="Ms::CapKey" alt="" coords="301,80,391,107"/>
+<area shape="rect" id="node5" href="$classMs_1_1CapMeter.html" title="Ms::CapMeter" alt="" coords="416,80,521,107"/>
+<area shape="rect" id="node6" href="$classMs_1_1ChordObj.html" title="Ms::ChordObj" alt="" coords="545,80,648,107"/>
+<area shape="rect" id="node7" href="$classMs_1_1RestObj.html" title="Ms::RestObj" alt="" coords="672,80,764,107"/>
+</map>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -68,6 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -78,7 +80,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;singleapp/src/QtSingleApplication&quot;</code><br />
 <code>#include &quot;<a class="el" href="updatechecker_8h_source.html">updatechecker.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="musescore_core_8h_source.html">libmscore/musescoreCore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musescoreCore_8h_source.html">libmscore/musescoreCore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sessionstatusobserver_8h_source.html">sessionstatusobserver.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -86,45 +88,45 @@ Include dependency graph for musescore.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="musescore_8h__incl.png" border="0" usemap="#mscore_2musescore_8h" alt=""/></div>
 <map name="mscore_2musescore_8h" id="mscore_2musescore_8h">
-<area shape="rect" id="node3" href="globals_8h.html" title="globals.h" alt="" coords="1844,80,1919,107"/>
-<area shape="rect" id="node5" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="2185,80,2303,107"/>
-<area shape="rect" id="node6" href="musescore_core_8h.html" title="libmscore/musescoreCore.h" alt="" coords="2327,80,2513,107"/>
-<area shape="rect" id="node7" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1161,80,1287,107"/>
-<area shape="rect" id="node48" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="2537,80,2701,107"/>
-<area shape="rect" id="node8" href="input_8h.html" title="input.h" alt="" coords="373,319,435,345"/>
-<area shape="rect" id="node26" href="property_8h.html" title="property.h" alt="" coords="311,468,391,495"/>
-<area shape="rect" id="node27" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1055,155,1150,181"/>
-<area shape="rect" id="node35" href="select_8h.html" title="select.h" alt="" coords="638,393,706,420"/>
-<area shape="rect" id="node42" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1374,155,1503,181"/>
-<area shape="rect" id="node44" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1527,155,1630,181"/>
-<area shape="rect" id="node45" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1655,155,1759,181"/>
-<area shape="rect" id="node47" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="503,543,603,569"/>
-<area shape="rect" id="node9" href="mscore_8h.html" title="mscore.h" alt="" coords="863,916,939,943"/>
-<area shape="rect" id="node13" href="durationtype_8h.html" title="durationtype.h" alt="" coords="415,468,519,495"/>
-<area shape="rect" id="node25" href="beam_8h.html" title="beam.h" alt="" coords="331,393,397,420"/>
-<area shape="rect" id="node10" href="style_8h.html" title="style.h" alt="" coords="811,991,872,1017"/>
-<area shape="rect" id="node11" href="chordlist_8h.html" title="chordlist.h" alt="" coords="792,1065,875,1092"/>
-<area shape="rect" id="node12" href="types_8h.html" title="types.h" alt="" coords="899,1065,965,1092"/>
-<area shape="rect" id="node14" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="505,841,581,868"/>
-<area shape="rect" id="node15" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="373,543,432,569"/>
-<area shape="rect" id="node16" href="element_8h.html" title="element.h" alt="" coords="521,767,599,793"/>
-<area shape="rect" id="node19" href="shape_8h.html" title="shape.h" alt="" coords="229,841,297,868"/>
-<area shape="rect" id="node20" href="symbol_8h.html" title="symbol.h" alt="" coords="440,617,515,644"/>
-<area shape="rect" id="node22" href="noteevent_8h.html" title="noteevent.h" alt="" coords="195,617,285,644"/>
-<area shape="rect" id="node23" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="590,617,695,644"/>
-<area shape="rect" id="node24" href="key_8h.html" title="key.h" alt="" coords="310,617,365,644"/>
-<area shape="rect" id="node17" href="spatium_8h.html" title="spatium.h" alt="" coords="657,841,735,868"/>
-<area shape="rect" id="node18" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="726,916,839,943"/>
-<area shape="rect" id="node21" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="440,692,523,719"/>
-<area shape="rect" id="node28" href="stringdata_8h.html" title="stringdata.h" alt="" coords="780,237,871,263"/>
-<area shape="rect" id="node34" href="interval_8h.html" title="interval.h" alt="" coords="941,393,1016,420"/>
-<area shape="rect" id="node36" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1141,237,1227,263"/>
-<area shape="rect" id="node37" href="event_8h.html" title="synthesizer/event.h" alt="" coords="1252,237,1388,263"/>
-<area shape="rect" id="node39" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="974,692,1029,719"/>
-<area shape="rect" id="node29" href="xml_8h.html" title="xml.h" alt="" coords="798,319,853,345"/>
-<area shape="rect" id="node30" href="connector_8h.html" title="connector.h" alt="" coords="1053,692,1144,719"/>
-<area shape="rect" id="node33" href="stafftype_8h.html" title="stafftype.h" alt="" coords="782,393,866,420"/>
-<area shape="rect" id="node31" href="location_8h.html" title="location.h" alt="" coords="862,767,941,793"/>
+<area shape="rect" id="node3" href="globals_8h.html" title="globals.h" alt="" coords="1044,80,1119,107"/>
+<area shape="rect" id="node5" href="updatechecker_8h.html" title="updatechecker.h" alt="" coords="1387,80,1506,107"/>
+<area shape="rect" id="node6" href="musescoreCore_8h.html" title="libmscore/musescoreCore.h" alt="" coords="1530,80,1721,107"/>
+<area shape="rect" id="node7" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="889,80,1020,107"/>
+<area shape="rect" id="node50" href="sessionstatusobserver_8h.html" title="sessionstatusobserver.h" alt="" coords="1797,80,1963,107"/>
+<area shape="rect" id="node8" href="input_8h.html" title="input.h" alt="" coords="415,319,476,345"/>
+<area shape="rect" id="node22" href="sym_8h.html" title="sym.h" alt="" coords="307,692,365,719"/>
+<area shape="rect" id="node30" href="property_8h.html" title="property.h" alt="" coords="281,468,362,495"/>
+<area shape="rect" id="node31" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="907,155,1003,181"/>
+<area shape="rect" id="node39" href="select_8h.html" title="select.h" alt="" coords="577,393,645,420"/>
+<area shape="rect" id="node44" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1241,155,1370,181"/>
+<area shape="rect" id="node46" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1394,155,1497,181"/>
+<area shape="rect" id="node47" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1521,155,1628,181"/>
+<area shape="rect" id="node49" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1310,468,1410,495"/>
+<area shape="rect" id="node9" href="mscore_8h.html" title="mscore.h" alt="" coords="646,841,725,868"/>
+<area shape="rect" id="node13" href="durationtype_8h.html" title="durationtype.h" alt="" coords="438,468,543,495"/>
+<area shape="rect" id="node29" href="beam_8h.html" title="beam.h" alt="" coords="372,393,439,420"/>
+<area shape="rect" id="node10" href="libmscore_2style_8h.html" title="style.h" alt="" coords="795,916,855,943"/>
+<area shape="rect" id="node11" href="chordlist_8h.html" title="chordlist.h" alt="" coords="783,991,867,1017"/>
+<area shape="rect" id="node12" href="types_8h.html" title="types.h" alt="" coords="1041,991,1105,1017"/>
+<area shape="rect" id="node14" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="953,767,1031,793"/>
+<area shape="rect" id="node15" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="403,543,461,569"/>
+<area shape="rect" id="node16" href="element_8h.html" title="element.h" alt="" coords="929,617,1009,644"/>
+<area shape="rect" id="node20" href="shape_8h.html" title="shape.h" alt="" coords="821,692,889,719"/>
+<area shape="rect" id="node25" href="symbol_8h.html" title="symbol.h" alt="" coords="94,617,170,644"/>
+<area shape="rect" id="node26" href="noteevent_8h.html" title="noteevent.h" alt="" coords="195,617,285,644"/>
+<area shape="rect" id="node27" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="438,617,543,644"/>
+<area shape="rect" id="node28" href="key_8h.html" title="key.h" alt="" coords="309,617,363,644"/>
+<area shape="rect" id="node17" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="913,692,1026,719"/>
+<area shape="rect" id="node18" href="spatium_8h.html" title="spatium.h" alt="" coords="1051,692,1131,719"/>
+<area shape="rect" id="node19" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="1029,841,1144,868"/>
+<area shape="rect" id="node21" href="sig_8h.html" title="sig.h" alt="" coords="1205,692,1256,719"/>
+<area shape="rect" id="node34" href="stringdata_8h.html" title="stringdata.h" alt="" coords="941,237,1033,263"/>
+<area shape="rect" id="node38" href="interval_8h.html" title="interval.h" alt="" coords="1279,393,1353,420"/>
+<area shape="rect" id="node40" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1057,237,1143,263"/>
+<area shape="rect" id="node41" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="875,543,930,569"/>
+<area shape="rect" id="node42" href="event_8h.html" title="audio/midi/event.h" alt="" coords="1167,237,1302,263"/>
+<area shape="rect" id="node35" href="xml_8h.html" title="xml.h" alt="" coords="994,319,1049,345"/>
+<area shape="rect" id="node37" href="connector_8h.html" title="connector.h" alt="" coords="1123,916,1215,943"/>
 </map>
 </div>
 </div>
@@ -132,81 +134,95 @@ Include dependency graph for musescore.h:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_icon_action.html">Ms::IconAction</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1IconAction.html">Ms::IconAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_language_item.html">Ms::LanguageItem</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1LanguageItem.html">Ms::LanguageItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_muse_score_application.html">Ms::MuseScoreApplication</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MuseScoreApplication.html">Ms::MuseScoreApplication</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_muse_score_application_1_1_command_line_parse_result.html">Ms::MuseScoreApplication::CommandLineParseResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1MuseScoreApplication_1_1CommandLineParseResult.html">Ms::MuseScoreApplication::CommandLineParseResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_muse_score.html">Ms::MuseScore</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MuseScore.html">Ms::MuseScore</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a59cd775aaef0c8c4800fa299acd1590f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a59cd775aaef0c8c4800fa299acd1590f">Ms::NotesColors</a> = QHash&lt; int, QColor &gt;</td></tr>
+<tr class="separator:a59cd775aaef0c8c4800fa299acd1590f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a531b4d6d1a7e187c11738004a2246ddd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a531b4d6d1a7e187c11738004a2246ddd">Ms::SaveReplacePolicy</a> { <a class="el" href="namespaceMs.html#a531b4d6d1a7e187c11738004a2246ddda30092adbc153b5e3c27ecafa1360b4cc">Ms::SaveReplacePolicy::NO_CHOICE</a>, 
+<a class="el" href="namespaceMs.html#a531b4d6d1a7e187c11738004a2246ddda9131c6c3db4b1f69edd5ee53121c0ff1">Ms::SaveReplacePolicy::SKIP_ALL</a>, 
+<a class="el" href="namespaceMs.html#a531b4d6d1a7e187c11738004a2246ddda408342dab366e318a4e3b44fe9a72be7">Ms::SaveReplacePolicy::REPLACE_ALL</a>
+ }</td></tr>
+<tr class="separator:a531b4d6d1a7e187c11738004a2246ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a463a6d7e3bf053a648b899c8c1ba2621"><td class="memItemLeft" align="right" valign="top">MasterSynthesizer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a463a6d7e3bf053a648b899c8c1ba2621">Ms::synthesizerFactory</a> ()</td></tr>
+<tr class="memitem:af2dd034410f671bee9a03fc2a867b9e5"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af2dd034410f671bee9a03fc2a867b9e5">Ms::localeName</a> ()</td></tr>
+<tr class="separator:af2dd034410f671bee9a03fc2a867b9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463a6d7e3bf053a648b899c8c1ba2621"><td class="memItemLeft" align="right" valign="top">MasterSynthesizer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a463a6d7e3bf053a648b899c8c1ba2621">Ms::synthesizerFactory</a> ()</td></tr>
 <tr class="separator:a463a6d7e3bf053a648b899c8c1ba2621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eb8b281dda3c7b9b3e0d17e1f93d639"><td class="memItemLeft" align="right" valign="top">Driver *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2eb8b281dda3c7b9b3e0d17e1f93d639">Ms::driverFactory</a> (Seq *seq, QString driverName)</td></tr>
+<tr class="memitem:a2eb8b281dda3c7b9b3e0d17e1f93d639"><td class="memItemLeft" align="right" valign="top">Driver *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2eb8b281dda3c7b9b3e0d17e1f93d639">Ms::driverFactory</a> (Seq *seq, QString driverName)</td></tr>
 <tr class="separator:a2eb8b281dda3c7b9b3e0d17e1f93d639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade5a93277df5cc945295bbffb6714055"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ade5a93277df5cc945295bbffb6714055">Ms::getAction</a> (const char *)</td></tr>
+<tr class="memitem:ade5a93277df5cc945295bbffb6714055"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ade5a93277df5cc945295bbffb6714055">Ms::getAction</a> (const char *)</td></tr>
 <tr class="separator:ade5a93277df5cc945295bbffb6714055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7779ff1bbc50459c3781e1a8a43010ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7779ff1bbc50459c3781e1a8a43010ef">Ms::loadTranslation</a> (QString filename, QString _localeName)</td></tr>
+<tr class="memitem:a7779ff1bbc50459c3781e1a8a43010ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7779ff1bbc50459c3781e1a8a43010ef">Ms::loadTranslation</a> (QString filename, QString _localeName)</td></tr>
 <tr class="separator:a7779ff1bbc50459c3781e1a8a43010ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9377d7e042b62b84d61fe593ab3dc1ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9377d7e042b62b84d61fe593ab3dc1ce">Ms::setMscoreLocale</a> (QString _localeName)</td></tr>
+<tr class="memitem:a9377d7e042b62b84d61fe593ab3dc1ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9377d7e042b62b84d61fe593ab3dc1ce">Ms::setMscoreLocale</a> (QString _localeName)</td></tr>
 <tr class="separator:a9377d7e042b62b84d61fe593ab3dc1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772f048bd958bf708fd495e49c49aac8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a772f048bd958bf708fd495e49c49aac8">Ms::saveMxl</a> (Score *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a772f048bd958bf708fd495e49c49aac8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a772f048bd958bf708fd495e49c49aac8">Ms::saveMxl</a> (Score *score, const QString &amp;name)</td></tr>
 <tr class="separator:a772f048bd958bf708fd495e49c49aac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c8ac99f97c70c9546e0c02232facb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a78c8ac99f97c70c9546e0c02232facb3">Ms::saveMxl</a> (Score *score, QIODevice *device)</td></tr>
+<tr class="memitem:a78c8ac99f97c70c9546e0c02232facb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a78c8ac99f97c70c9546e0c02232facb3">Ms::saveMxl</a> (Score *score, QIODevice *device)</td></tr>
 <tr class="separator:a78c8ac99f97c70c9546e0c02232facb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8de0af9c97fab3b22827019085d60878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a8de0af9c97fab3b22827019085d60878">Ms::saveXml</a> (Score *score, QIODevice *device)</td></tr>
-<tr class="memdesc:a8de0af9c97fab3b22827019085d60878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="class_ms_1_1_score.html">Score</a> as MusicXML file <em>name</em>.  <a href="namespace_ms.html#a8de0af9c97fab3b22827019085d60878">More...</a><br /></td></tr>
+<tr class="memitem:a8de0af9c97fab3b22827019085d60878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8de0af9c97fab3b22827019085d60878">Ms::saveXml</a> (Score *score, QIODevice *device)</td></tr>
+<tr class="memdesc:a8de0af9c97fab3b22827019085d60878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save <a class="el" href="classMs_1_1Score.html">Score</a> as MusicXML file <em>name</em>.  <a href="namespaceMs.html#a8de0af9c97fab3b22827019085d60878">More...</a><br /></td></tr>
 <tr class="separator:a8de0af9c97fab3b22827019085d60878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a19855d7730ea26f4769d635488df1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3a19855d7730ea26f4769d635488df1d">Ms::saveXml</a> (Score *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a3a19855d7730ea26f4769d635488df1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3a19855d7730ea26f4769d635488df1d">Ms::saveXml</a> (Score *score, const QString &amp;name)</td></tr>
 <tr class="separator:a3a19855d7730ea26f4769d635488df1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab06eb03041a386b66a6dcb7f858294b6"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab06eb03041a386b66a6dcb7f858294b6">Ms::getSharePath</a> ()</td></tr>
+<tr class="memitem:ab06eb03041a386b66a6dcb7f858294b6"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab06eb03041a386b66a6dcb7f858294b6">Ms::getSharePath</a> ()</td></tr>
 <tr class="separator:ab06eb03041a386b66a6dcb7f858294b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad65094520812d98ebfbbc18dc6cd07fc"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad65094520812d98ebfbbc18dc6cd07fc">Ms::importMidi</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:ad65094520812d98ebfbbc18dc6cd07fc"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad65094520812d98ebfbbc18dc6cd07fc">Ms::importMidi</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:ad65094520812d98ebfbbc18dc6cd07fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c087e3ca6b83313ca937d72193cdf05"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2c087e3ca6b83313ca937d72193cdf05">Ms::importGTP</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a2c087e3ca6b83313ca937d72193cdf05"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2c087e3ca6b83313ca937d72193cdf05">Ms::importGTP</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:a2c087e3ca6b83313ca937d72193cdf05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a72efe41a427d32c0107483bc8e3e6e"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a8a72efe41a427d32c0107483bc8e3e6e">Ms::importBww</a> (MasterScore *score, const QString &amp;path)</td></tr>
+<tr class="memitem:a8a72efe41a427d32c0107483bc8e3e6e"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8a72efe41a427d32c0107483bc8e3e6e">Ms::importBww</a> (MasterScore *score, const QString &amp;path)</td></tr>
 <tr class="separator:a8a72efe41a427d32c0107483bc8e3e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017abe227798d829fe2a344114740ff7"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a017abe227798d829fe2a344114740ff7">Ms::importMusicXml</a> (MasterScore *score, const QString &amp;name)</td></tr>
-<tr class="memdesc:a017abe227798d829fe2a344114740ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import MusicXML file <em>name</em> into the <a class="el" href="class_ms_1_1_score.html">Score</a>.  <a href="namespace_ms.html#a017abe227798d829fe2a344114740ff7">More...</a><br /></td></tr>
+<tr class="memitem:a017abe227798d829fe2a344114740ff7"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a017abe227798d829fe2a344114740ff7">Ms::importMusicXml</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:a017abe227798d829fe2a344114740ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a786f5bc8eda1bad75051e33cab434d34"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a786f5bc8eda1bad75051e33cab434d34">Ms::importCompressedMusicXml</a> (MasterScore *score, const QString &amp;name)</td></tr>
-<tr class="memdesc:a786f5bc8eda1bad75051e33cab434d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import compressed MusicXML file <em>name</em> into the <a class="el" href="class_ms_1_1_score.html">Score</a>.  <a href="namespace_ms.html#a786f5bc8eda1bad75051e33cab434d34">More...</a><br /></td></tr>
+<tr class="memitem:a786f5bc8eda1bad75051e33cab434d34"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a786f5bc8eda1bad75051e33cab434d34">Ms::importCompressedMusicXml</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memdesc:a786f5bc8eda1bad75051e33cab434d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import compressed MusicXML file <em>name</em> into the <a class="el" href="classMs_1_1Score.html">Score</a>.  <a href="namespaceMs.html#a786f5bc8eda1bad75051e33cab434d34">More...</a><br /></td></tr>
 <tr class="separator:a786f5bc8eda1bad75051e33cab434d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85d461cecda41813ecbd5f20da59c488"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a85d461cecda41813ecbd5f20da59c488">Ms::importMuseData</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a85d461cecda41813ecbd5f20da59c488"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a85d461cecda41813ecbd5f20da59c488">Ms::importMuseData</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:a85d461cecda41813ecbd5f20da59c488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa22afc36d4e2eeeb4a087f514b7319c5"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa22afc36d4e2eeeb4a087f514b7319c5">Ms::importLilypond</a> (MasterScore *, const QString &amp;name)</td></tr>
+<tr class="memitem:aa22afc36d4e2eeeb4a087f514b7319c5"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa22afc36d4e2eeeb4a087f514b7319c5">Ms::importLilypond</a> (MasterScore *, const QString &amp;name)</td></tr>
 <tr class="separator:aa22afc36d4e2eeeb4a087f514b7319c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ea6ee99ea7088ec3068fbddcee56a29"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0ea6ee99ea7088ec3068fbddcee56a29">Ms::importBB</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a0ea6ee99ea7088ec3068fbddcee56a29"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0ea6ee99ea7088ec3068fbddcee56a29">Ms::importBB</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:a0ea6ee99ea7088ec3068fbddcee56a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1c5be0e7369dc70fe25d22cd3c35a6b"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af1c5be0e7369dc70fe25d22cd3c35a6b">Ms::importCapella</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:af1c5be0e7369dc70fe25d22cd3c35a6b"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af1c5be0e7369dc70fe25d22cd3c35a6b">Ms::importCapella</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:af1c5be0e7369dc70fe25d22cd3c35a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9279cd4bc462d2afc6780a9c35398743"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9279cd4bc462d2afc6780a9c35398743">Ms::importCapXml</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:a9279cd4bc462d2afc6780a9c35398743"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9279cd4bc462d2afc6780a9c35398743">Ms::importCapXml</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:a9279cd4bc462d2afc6780a9c35398743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2944b23a7131292b8ff341d5c023904"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad2944b23a7131292b8ff341d5c023904">Ms::readScore</a> (MasterScore *score, QString name, bool ignoreVersionError)</td></tr>
-<tr class="memdesc:ad2944b23a7131292b8ff341d5c023904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import file <em>name</em>.  <a href="namespace_ms.html#ad2944b23a7131292b8ff341d5c023904">More...</a><br /></td></tr>
+<tr class="memitem:ad2944b23a7131292b8ff341d5c023904"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad2944b23a7131292b8ff341d5c023904">Ms::readScore</a> (MasterScore *score, QString name, bool ignoreVersionError)</td></tr>
+<tr class="memdesc:ad2944b23a7131292b8ff341d5c023904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Import file <em>name</em>.  <a href="namespaceMs.html#ad2944b23a7131292b8ff341d5c023904">More...</a><br /></td></tr>
 <tr class="separator:ad2944b23a7131292b8ff341d5c023904"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c3d34d5798300771f7ce312bebe6edb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5c3d34d5798300771f7ce312bebe6edb">Ms::runApplication</a> (int &amp;argc, char **av)</td></tr>
+<tr class="memitem:a5c3d34d5798300771f7ce312bebe6edb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5c3d34d5798300771f7ce312bebe6edb">Ms::runApplication</a> (int &amp;argc, char **av)</td></tr>
 <tr class="separator:a5c3d34d5798300771f7ce312bebe6edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab008e95c65c42cd9596c44452c6ce3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ms_1_1_score.html#a8d59eafa85868a96e516b4f3acc03b4d">Ms::Score::FileError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="musescore_8h.html#ab008e95c65c42cd9596c44452c6ce3dd">importOve</a> (<a class="el" href="class_ms_1_1_master_score.html">Ms::MasterScore</a> *, const QString &amp;name)</td></tr>
+<tr class="memitem:ab008e95c65c42cd9596c44452c6ce3dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMs_1_1Score.html#a8d59eafa85868a96e516b4f3acc03b4d">Ms::Score::FileError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="musescore_8h.html#ab008e95c65c42cd9596c44452c6ce3dd">importOve</a> (<a class="el" href="classMs_1_1MasterScore.html">Ms::MasterScore</a> *, const QString &amp;name)</td></tr>
 <tr class="separator:ab008e95c65c42cd9596c44452c6ce3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a572222142a8ff81a56ed2954c967df12"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a572222142a8ff81a56ed2954c967df12">Ms::recentScores</a></td></tr>
+<tr class="memitem:a572222142a8ff81a56ed2954c967df12"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a572222142a8ff81a56ed2954c967df12">Ms::recentScores</a></td></tr>
 <tr class="separator:a572222142a8ff81a56ed2954c967df12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68194375631e784e87a806d423c27bf8"><td class="memItemLeft" align="right" valign="top">Shortcut *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a68194375631e784e87a806d423c27bf8">Ms::midiActionMap</a> [128]</td></tr>
+<tr class="memitem:a68194375631e784e87a806d423c27bf8"><td class="memItemLeft" align="right" valign="top">Shortcut *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a68194375631e784e87a806d423c27bf8">Ms::midiActionMap</a> [128]</td></tr>
 <tr class="separator:a68194375631e784e87a806d423c27bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -217,9 +233,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ms_1_1_score.html#a8d59eafa85868a96e516b4f3acc03b4d">Ms::Score::FileError</a> importOve </td>
+          <td class="memname"><a class="el" href="classMs_1_1Score.html#a8d59eafa85868a96e516b4f3acc03b4d">Ms::Score::FileError</a> importOve </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ms_1_1_master_score.html">Ms::MasterScore</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classMs_1_1MasterScore.html">Ms::MasterScore</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -235,6 +251,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="importove_8cpp_source.html#l02402">2402</a> of file <a class="el" href="importove_8cpp_source.html">importove.cpp</a>.</p>
 
 </div>
 </div>

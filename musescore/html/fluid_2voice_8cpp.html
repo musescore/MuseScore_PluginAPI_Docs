@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: fluid/voice.cpp File Reference</title>
+<title>MuseScore: audio/midi/fluid/voice.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_303265fe8efefb9df6ce62568babadc3.html">fluid</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a5f32cf82ad289a7dac212f63f40f55b.html">audio</a></li><li class="navelem"><a class="el" href="dir_3824a7ec5b12b565edaf034255c94bb9.html">midi</a></li><li class="navelem"><a class="el" href="dir_e6402aa4346238d95173d57d5c26ba4d.html">fluid</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,7 +73,8 @@ $(function() {
 <div class="title">voice.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="conv_8h_source.html">conv.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;log.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="conv_8h_source.html">conv.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fluid_8h_source.html">fluid.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sfont_8h_source.html">sfont.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gen_8h_source.html">gen.h</a>&quot;</code><br />
@@ -81,22 +82,24 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for voice.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="fluid_2voice_8cpp__incl.png" border="0" usemap="#fluid_2voice_8cpp" alt=""/></div>
-<map name="fluid_2voice_8cpp" id="fluid_2voice_8cpp">
-<area shape="rect" id="node2" href="conv_8h.html" title="conv.h" alt="" coords="5,80,67,107"/>
-<area shape="rect" id="node3" href="fluid_8h.html" title="fluid.h" alt="" coords="173,155,230,181"/>
-<area shape="rect" id="node8" href="sfont_8h.html" title="sfont.h" alt="" coords="91,80,154,107"/>
-<area shape="rect" id="node10" href="gen_8h.html" title="gen.h" alt="" coords="274,155,329,181"/>
-<area shape="rect" id="node11" href="fluid_2voice_8h.html" title="voice.h" alt="" coords="229,80,293,107"/>
-<area shape="rect" id="node4" href="synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="21,229,192,256"/>
-<area shape="rect" id="node7" href="midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="216,229,376,256"/>
-<area shape="rect" id="node5" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="12,304,201,331"/>
+<div class="center"><img src="fluid_2voice_8cpp__incl.png" border="0" usemap="#audio_2midi_2fluid_2voice_8cpp" alt=""/></div>
+<map name="audio_2midi_2fluid_2voice_8cpp" id="audio_2midi_2fluid_2voice_8cpp">
+<area shape="rect" id="node3" href="conv_8h.html" title="conv.h" alt="" coords="80,80,141,107"/>
+<area shape="rect" id="node4" href="fluid_8h.html" title="fluid.h" alt="" coords="247,155,305,181"/>
+<area shape="rect" id="node9" href="sfont_8h.html" title="sfont.h" alt="" coords="165,80,229,107"/>
+<area shape="rect" id="node11" href="gen_8h.html" title="gen.h" alt="" coords="349,155,403,181"/>
+<area shape="rect" id="node12" href="fluid_2voice_8h.html" title="voice.h" alt="" coords="304,80,368,107"/>
+<area shape="rect" id="node5" href="synthesizer_8h.html" title="audio/midi/synthesizer.h" alt="" coords="96,229,267,256"/>
+<area shape="rect" id="node8" href="midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="291,229,453,256"/>
+<area shape="rect" id="node6" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="85,304,278,331"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="fluid_2voice_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_fluid_s"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fluid_s.html">FluidS</a></td></tr>
+<tr class="memitem:namespaceFluidS"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html">FluidS</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -130,10 +133,14 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abf333c422c95be1061b137b4af810dcd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fluid_s.html#abf333c422c95be1061b137b4af810dcd">FluidS::triangle</a> (int dur, int pos)</td></tr>
+<tr class="memitem:abf333c422c95be1061b137b4af810dcd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#abf333c422c95be1061b137b4af810dcd">FluidS::triangle</a> (int dur, int pos)</td></tr>
 <tr class="separator:abf333c422c95be1061b137b4af810dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99ff6a89754d3239668d1469118c750b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_fluid_s.html#a99ff6a89754d3239668d1469118c750b">FluidS::samplesToNextTurningPoint</a> (int dur, int pos)</td></tr>
+<tr class="memitem:a99ff6a89754d3239668d1469118c750b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a99ff6a89754d3239668d1469118c750b">FluidS::samplesToNextTurningPoint</a> (int dur, int pos)</td></tr>
 <tr class="separator:a99ff6a89754d3239668d1469118c750b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591efa7ff0a7da6f72058115bdde8a88"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a591efa7ff0a7da6f72058115bdde8a88">FluidS::samplesToNextTurningPoint</a> (<a class="el" href="classChannel.html">Channel</a> *c)</td></tr>
+<tr class="separator:a591efa7ff0a7da6f72058115bdde8a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38f81efecf6f3ad4fdb26b629f443dd5"><td class="memItemLeft" align="right" valign="top">static float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceFluidS.html#a38f81efecf6f3ad4fdb26b629f443dd5">FluidS::shiftBufferPosition</a> (unsigned shift, float *buff)</td></tr>
+<tr class="separator:a38f81efecf6f3ad4fdb26b629f443dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ada8e95f72263abd69bc57b103cb01767"></a>
@@ -147,6 +154,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00056">56</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
 
 </div>
 </div>
@@ -182,6 +191,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00034">34</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ab80d1376be77cd043dec665e8a57b4c7"></a>
@@ -195,6 +206,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00039">39</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
 
 </div>
 </div>
@@ -210,6 +223,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00040">40</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
+
 </div>
 </div>
 <a id="aad72c9323c4cc41918f5a8783b87e2b1"></a>
@@ -223,6 +238,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00050">50</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
 
 </div>
 </div>
@@ -238,6 +255,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00049">49</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a09a0dbf969afed584d5c152b04e93217"></a>
@@ -251,6 +270,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00053">53</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
 
 </div>
 </div>
@@ -266,6 +287,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00046">46</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a4b42f75bfa6dd470b533165fd73edb5e"></a>
@@ -280,6 +303,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00031">31</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ab1dba7f151c4a000c1bd63547382790d"></a>
@@ -293,6 +318,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fluid_2voice_8cpp_source.html#l00032">32</a> of file <a class="el" href="fluid_2voice_8cpp_source.html">voice.cpp</a>.</p>
 
 </div>
 </div>

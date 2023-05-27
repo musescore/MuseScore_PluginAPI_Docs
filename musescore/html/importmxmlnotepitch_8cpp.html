@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmxmlnotepitch.cpp File Reference</title>
+<title>MuseScore: importexport/musicxml/importmxmlnotepitch.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,12 +61,13 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_08705a486b9992a720e4b92b236c5d62.html">musicxml</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">importmxmlnotepitch.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -77,35 +78,46 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmxmlnotepitch.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmxmlnotepitch_8cpp__incl.png" border="0" usemap="#mscore_2importmxmlnotepitch_8cpp" alt=""/></div>
-<map name="mscore_2importmxmlnotepitch_8cpp" id="mscore_2importmxmlnotepitch_8cpp">
-<area shape="rect" id="node2" href="importmxmllogger_8h.html" title="importmxmllogger.h" alt="" coords="157,80,293,107"/>
-<area shape="rect" id="node3" href="importmxmlnotepitch_8h.html" title="importmxmlnotepitch.h" alt="" coords="579,155,733,181"/>
-<area shape="rect" id="node15" href="musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="318,80,450,107"/>
-<area shape="rect" id="node4" href="accidental_8h.html" title="Definition of class Accidental. " alt="" coords="579,304,731,331"/>
-<area shape="rect" id="node6" href="element_8h.html" title="element.h" alt="" coords="343,379,422,405"/>
-<area shape="rect" id="node7" href="spatium_8h.html" title="spatium.h" alt="" coords="343,453,422,480"/>
-<area shape="rect" id="node8" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="446,453,522,480"/>
-<area shape="rect" id="node13" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="258,528,371,555"/>
-<area shape="rect" id="node14" href="shape_8h.html" title="shape.h" alt="" coords="175,453,243,480"/>
-<area shape="rect" id="node9" href="mscore_8h.html" title="mscore.h" alt="" coords="158,528,234,555"/>
-<area shape="rect" id="node10" href="style_8h.html" title="style.h" alt="" coords="264,603,325,629"/>
-<area shape="rect" id="node11" href="chordlist_8h.html" title="chordlist.h" alt="" coords="248,677,331,704"/>
-<area shape="rect" id="node12" href="types_8h.html" title="types.h" alt="" coords="355,677,421,704"/>
-<area shape="rect" id="node16" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="269,155,387,181"/>
-<area shape="rect" id="node17" href="symbol_8h.html" title="symbol.h" alt="" coords="184,229,259,256"/>
-<area shape="rect" id="node19" href="noteevent_8h.html" title="noteevent.h" alt="" coords="283,229,373,256"/>
-<area shape="rect" id="node20" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="43,379,149,405"/>
-<area shape="rect" id="node21" href="key_8h.html" title="key.h" alt="" coords="398,229,453,256"/>
-<area shape="rect" id="node18" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="297,304,380,331"/>
+<div class="center"><img src="importmxmlnotepitch_8cpp__incl.png" border="0" usemap="#importexport_2musicxml_2importmxmlnotepitch_8cpp" alt=""/></div>
+<map name="importexport_2musicxml_2importmxmlnotepitch_8cpp" id="importexport_2musicxml_2importmxmlnotepitch_8cpp">
+<area shape="rect" id="node2" href="importmxmllogger_8h.html" title="importmxmllogger.h" alt="" coords="332,95,475,121"/>
+<area shape="rect" id="node3" href="importmxmlnotepitch_8h.html" title="importmxmlnotepitch.h" alt="" coords="249,169,409,196"/>
+<area shape="rect" id="node23" href="musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="734,95,870,121"/>
+<area shape="rect" id="node4" href="accidental_8h.html" title="Definition of class Accidental. " alt="" coords="202,319,359,345"/>
+<area shape="rect" id="node9" href="element_8h.html" title="element.h" alt="" coords="683,393,763,420"/>
+<area shape="rect" id="node20" href="sym_8h.html" title="sym.h" alt="" coords="514,468,573,495"/>
+<area shape="rect" id="node10" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="877,468,991,495"/>
+<area shape="rect" id="node11" href="spatium_8h.html" title="spatium.h" alt="" coords="773,468,853,495"/>
+<area shape="rect" id="node12" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="719,543,797,569"/>
+<area shape="rect" id="node17" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="478,617,593,644"/>
+<area shape="rect" id="node18" href="shape_8h.html" title="shape.h" alt="" coords="1015,468,1083,495"/>
+<area shape="rect" id="node19" href="sig_8h.html" title="sig.h" alt="" coords="698,468,749,495"/>
+<area shape="rect" id="node13" href="mscore_8h.html" title="mscore.h" alt="" coords="749,617,828,644"/>
+<area shape="rect" id="node14" href="libmscore_2style_8h.html" title="style.h" alt="" coords="600,692,660,719"/>
+<area shape="rect" id="node15" href="chordlist_8h.html" title="chordlist.h" alt="" coords="589,767,673,793"/>
+<area shape="rect" id="node16" href="types_8h.html" title="types.h" alt="" coords="501,767,565,793"/>
+<area shape="rect" id="node24" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="741,169,863,196"/>
+<area shape="rect" id="node25" href="symbol_8h.html" title="symbol.h" alt="" coords="685,244,761,271"/>
+<area shape="rect" id="node27" href="noteevent_8h.html" title="noteevent.h" alt="" coords="839,244,930,271"/>
+<area shape="rect" id="node28" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1005,244,1111,271"/>
+<area shape="rect" id="node29" href="key_8h.html" title="key.h" alt="" coords="503,319,557,345"/>
+<area shape="rect" id="node26" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="682,319,765,345"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmxmlnotepitch_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a69c5ea87fc52569247ed58849a2512e9"><td class="memItemLeft" align="right" valign="top">static Accidental *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a69c5ea87fc52569247ed58849a2512e9">Ms::accidental</a> (QXmlStreamReader &amp;e, Score *score)</td></tr>
+<tr class="memdesc:a69c5ea87fc52569247ed58849a2512e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the /score-partwise/part/measure/note/accidental node.  <a href="namespaceMs.html#a69c5ea87fc52569247ed58849a2512e9">More...</a><br /></td></tr>
+<tr class="separator:a69c5ea87fc52569247ed58849a2512e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

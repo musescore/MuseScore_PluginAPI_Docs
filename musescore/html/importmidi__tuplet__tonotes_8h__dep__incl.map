@@ -1,4 +1,4 @@
-<map id="mscore/importmidi/importmidi_tuplet_tonotes.h" name="mscore/importmidi/importmidi_tuplet_tonotes.h">
-<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="5,102,224,129"/>
-<area shape="rect" id="node3" href="$importmidi__tuplet__tonotes_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet_tonotes.cpp" alt="" coords="249,95,442,136"/>
+<map id="importexport/midiimport/importmidi_tuplet_tonotes.h" name="importexport/midiimport/importmidi_tuplet_tonotes.h">
+<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="importexport/midiimport\l/importmidi.cpp" alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node3" href="$importmidi__tuplet__tonotes_8cpp.html" title="importexport/midiimport\l/importmidi_tuplet_tonotes.cpp" alt="" coords="201,95,407,136"/>
 </map>

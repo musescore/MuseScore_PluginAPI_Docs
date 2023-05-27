@@ -1,9 +1,9 @@
-<map id="mscore/pianolevels.h" name="mscore/pianolevels.h">
-<area shape="rect" id="node3" href="$pos_8h.html" title="libmscore/pos.h" alt="" coords="103,80,218,107"/>
-<area shape="rect" id="node4" href="$sig_8h.html" title="sig.h" alt="" coords="135,155,186,181"/>
-<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="123,229,199,256"/>
-<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="161,304,237,331"/>
-<area shape="rect" id="node8" href="$style_8h.html" title="style.h" alt="" coords="222,379,283,405"/>
-<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="211,453,294,480"/>
-<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="319,453,384,480"/>
+<map id="mscore/pianoroll/pianolevels.h" name="mscore/pianoroll/pianolevels.h">
+<area shape="rect" id="node3" href="$pos_8h.html" title="libmscore/pos.h" alt="" coords="109,80,227,107"/>
+<area shape="rect" id="node4" href="$sig_8h.html" title="sig.h" alt="" coords="143,155,193,181"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="129,229,207,256"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="167,304,246,331"/>
+<area shape="rect" id="node8" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="230,379,290,405"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="218,453,302,480"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="327,453,391,480"/>
 </map>

@@ -1,12 +1,12 @@
 <map id="mscore/palette" name="mscore/palette">
 <area shape="rect" id="node1" href="dir_5fc9ae9420d2381dc5f624ba2f8ee140.html" title="palette" alt="" coords="56,52,128,100"/>
 <area shape="rect" id="node2" href="dir_0a96186b289a2b0ae98e9de8cc3da276.html" title="qml" alt="" coords="5,244,77,292"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000026_000027.html" title="1" alt="" coords="41,218,49,232"/>
-<area shape="rect" id="node3" href="dir_2509ca22e4b78dc9c1fe9484874b85a6.html" title="libmscore" alt="" coords="114,244,193,292"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000026_000001.html" title="20" alt="" coords="155,218,169,233"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000043_000045.html" title="1" alt="" coords="41,218,49,232"/>
+<area shape="rect" id="node3" href="dir_2509ca22e4b78dc9c1fe9484874b85a6.html" title="libmscore" alt="" coords="113,244,193,292"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000043_000001.html" title="18" alt="" coords="155,218,169,233"/>
 <area shape="rect" id="node4" href="dir_a4e52be309a083644abb213786acb921.html" title="plugin" alt="" coords="56,148,128,196"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000026_000017.html" title="1" alt="" coords="96,122,104,137"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000017_000027.html" title="1" alt="" coords="66,224,74,239"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000017_000001.html" title="64" alt="" coords="128,216,142,231"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000043_000010.html" title="1" alt="" coords="96,122,104,137"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000010_000045.html" title="1" alt="" coords="66,225,74,239"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000010_000001.html" title="82" alt="" coords="128,217,143,231"/>
 <area shape="rect" id="clust1" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html" title="mscore" alt="" coords="45,16,139,111"/>
 </map>

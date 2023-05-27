@@ -1,0 +1,9 @@
+<map id="mscore/gridcanvas.h" name="mscore/gridcanvas.h">
+<area shape="rect" id="node2" href="$bendcanvas_8h.html" title="mscore/bendcanvas.h" alt="" coords="172,80,327,107"/>
+<area shape="rect" id="node5" href="$gridcanvas_8cpp.html" title="mscore/gridcanvas.cpp" alt="" coords="351,80,513,107"/>
+<area shape="rect" id="node6" href="$tremolobarcanvas_8h.html" title="mscore/tremolobarcanvas.h" alt="" coords="537,80,727,107"/>
+<area shape="rect" id="node3" href="$bendcanvas_8cpp.html" title="mscore/bendcanvas.cpp" alt="" coords="5,162,173,189"/>
+<area shape="rect" id="node4" href="$inspectorBend_8cpp.html" title="mscore/inspector/inspector\lBend.cpp" alt="" coords="197,155,387,196"/>
+<area shape="rect" id="node7" href="$inspectorTremoloBar_8cpp.html" title="mscore/inspector/inspector\lTremoloBar.cpp" alt="" coords="495,155,684,196"/>
+<area shape="rect" id="node8" href="$tremolobarcanvas_8cpp.html" title="mscore/tremolobarcanvas.cpp" alt="" coords="708,162,911,189"/>
+</map>

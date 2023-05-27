@@ -1,6 +1,6 @@
 <map id="libmscore/note.h" name="libmscore/note.h">
-<area shape="rect" id="node2" href="$elements_8h_source.html" title="mscore/plugin/api/elements.h" alt="" coords="115,80,307,107"/>
-<area shape="rect" id="node3" href="$playevent_8h_source.html" title="mscore/plugin/api/playevent.h" alt="" coords="5,155,200,181"/>
-<area shape="rect" id="node4" href="$selection_8h_source.html" title="mscore/plugin/api/selection.h" alt="" coords="225,155,415,181"/>
-<area shape="rect" id="node5" href="$tie_8h_source.html" title="mscore/plugin/api/tie.h" alt="" coords="439,155,593,181"/>
+<area shape="rect" id="node2" href="$elements_8h_source.html" title="mscore/plugin/api/elements.h" alt="" coords="117,80,319,107"/>
+<area shape="rect" id="node3" href="$playevent_8h_source.html" title="mscore/plugin/api/playevent.h" alt="" coords="5,155,207,181"/>
+<area shape="rect" id="node4" href="$selection_8h_source.html" title="mscore/plugin/api/selection.h" alt="" coords="231,155,431,181"/>
+<area shape="rect" id="node5" href="$tie_8h_source.html" title="mscore/plugin/api/tie.h" alt="" coords="455,155,616,181"/>
 </map>

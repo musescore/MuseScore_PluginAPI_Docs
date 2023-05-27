@@ -4,7 +4,7 @@ var searchData=
   ['waveview_2eh',['waveview.h',['../waveview_8h.html',1,'']]],
   ['webpage_2ecpp',['webpage.cpp',['../webpage_8cpp.html',1,'']]],
   ['webpage_2eh',['webpage.h',['../webpage_8h.html',1,'']]],
-  ['winsparkleautoupdater_2eh',['winSparkleAutoUpdater.h',['../win_sparkle_auto_updater_8h.html',1,'']]],
+  ['winsparkleautoupdater_2eh',['winSparkleAutoUpdater.h',['../winSparkleAutoUpdater_8h.html',1,'']]],
   ['workspace_2ecpp',['workspace.cpp',['../workspace_8cpp.html',1,'']]],
   ['workspace_2eh',['workspace.h',['../workspace_8h.html',1,'']]],
   ['workspacecombobox_2ecpp',['workspacecombobox.cpp',['../workspacecombobox_8cpp.html',1,'']]],

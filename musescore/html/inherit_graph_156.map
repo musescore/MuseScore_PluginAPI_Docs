@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_export_ly_1_1lybrackets.html" title="Ms::ExportLy::lybrackets" alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,233,120,260"/>
+<area shape="rect" id="node2" href="$classMs_1_1ClefList.html" title="Ms::ClefList" alt="" coords="219,5,311,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1ExportMidi_1_1PauseMap.html" title="Ms::ExportMidi::PauseMap" alt="" coords="175,56,355,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1InstrumentList.html" title="Ms::InstrumentList" alt="" coords="199,107,331,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1KeyList.html" title="Ms::KeyList" alt="" coords="221,157,310,184"/>
+<area shape="rect" id="node6" href="$classMs_1_1MusicXmlInstrList.html" title="Ms::MusicXmlInstrList" alt="" coords="188,208,343,235"/>
+<area shape="rect" id="node7" href="$classMs_1_1MusicXmlIntervalList.html" title="Ms::MusicXmlIntervalList" alt="" coords="180,259,351,285"/>
+<area shape="rect" id="node8" href="$classMs_1_1MusicXmlOctaveShiftList.html" title="Ms::MusicXmlOctaveShiftList" alt="" coords="168,309,363,336"/>
+<area shape="rect" id="node9" href="$classMs_1_1TempoMap.html" title="Ms::TempoMap" alt="" coords="208,360,323,387"/>
+<area shape="rect" id="node10" href="$classMs_1_1TimeSigMap.html" title="Ms::TimeSigMap" alt="" coords="205,411,326,437"/>
+<area shape="rect" id="node11" href="$classTempoMap.html" title="TempoMap" alt="" coords="221,461,310,488"/>
 </map>

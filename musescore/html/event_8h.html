@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: synthesizer/event.h File Reference</title>
+<title>MuseScore: audio/midi/event.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_74a3d73f50027939da4d09cd008dd34b.html">synthesizer</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a5f32cf82ad289a7dac212f63f40f55b.html">audio</a></li><li class="navelem"><a class="el" href="dir_3824a7ec5b12b565edaf034255c94bb9.html">midi</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -79,64 +79,64 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for event.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="event_8h__incl.png" border="0" usemap="#synthesizer_2event_8h" alt=""/></div>
-<map name="synthesizer_2event_8h" id="synthesizer_2event_8h">
+<div class="center"><img src="event_8h__incl.png" border="0" usemap="#audio_2midi_2event_8h" alt=""/></div>
+<map name="audio_2midi_2event_8h" id="audio_2midi_2event_8h">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="event_8h__dep__incl.png" border="0" usemap="#synthesizer_2event_8hdep" alt=""/></div>
-<map name="synthesizer_2event_8hdep" id="synthesizer_2event_8hdep">
-<area shape="rect" id="node2" href="aeolus_8cpp.html" title="aeolus/aeolus.cpp" alt="" coords="485,80,611,107"/>
-<area shape="rect" id="node3" href="fluid_8cpp.html" title="fluid/fluid.cpp" alt="" coords="636,80,735,107"/>
-<area shape="rect" id="node4" href="libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="1343,80,1497,107"/>
-<area shape="rect" id="node8" href="pitchspelling_8cpp.html" title="libmscore/pitchspelling.cpp" alt="" coords="2581,251,2760,278"/>
-<area shape="rect" id="node9" href="rendermidi_8cpp.html" title="render score into event list " alt="" coords="1315,251,1482,278"/>
-<area shape="rect" id="node12" href="exportmidi_8cpp.html" title="mscore/exportmidi.cpp" alt="" coords="3283,251,3437,278"/>
-<area shape="rect" id="node18" href="musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="2925,251,3083,278"/>
-<area shape="rect" id="node26" href="event_8cpp.html" title="synthesizer/event.cpp" alt="" coords="579,251,730,278"/>
-<area shape="rect" id="node38" href="keyfinder_8cpp.html" title="libmscore/keyfinder.cpp" alt="" coords="3091,80,3251,107"/>
-<area shape="rect" id="node39" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="3706,80,3809,107"/>
-<area shape="rect" id="node46" href="seq_8h.html" title="mscore/seq.h" alt="" coords="2352,162,2453,189"/>
-<area shape="rect" id="node47" href="msynthesizer_8cpp.html" title="synthesizer/msynthesizer.cpp" alt="" coords="3833,80,4029,107"/>
-<area shape="rect" id="node48" href="channel_8cpp.html" title="zerberus/channel.cpp" alt="" coords="4317,162,4464,189"/>
-<area shape="rect" id="node49" href="zerberus_8h.html" title="zerberus/zerberus.h" alt="" coords="4322,80,4459,107"/>
-<area shape="rect" id="node50" href="zerberus_8cpp.html" title="zerberus/zerberus.cpp" alt="" coords="4489,162,4639,189"/>
-<area shape="rect" id="node5" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2840,162,2965,189"/>
-<area shape="rect" id="node6" href="libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="951,251,1119,278"/>
-<area shape="rect" id="node7" href="midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="1718,251,1898,278"/>
-<area shape="rect" id="node10" href="continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="1506,251,1694,278"/>
-<area shape="rect" id="node11" href="drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="2089,251,2229,278"/>
-<area shape="rect" id="node19" href="osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="2443,251,2557,278"/>
-<area shape="rect" id="node20" href="synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="2253,251,2419,278"/>
-<area shape="rect" id="node21" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1647,162,1769,189"/>
-<area shape="rect" id="node22" href="pianoroll_8cpp.html" title="mscore/pianoroll.cpp" alt="" coords="1922,251,2065,278"/>
-<area shape="rect" id="node23" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1457,162,1572,189"/>
-<area shape="rect" id="node25" href="importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="1143,251,1291,278"/>
-<area shape="rect" id="node27" href="instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="1844,162,2004,189"/>
-<area shape="rect" id="node28" href="staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="2029,162,2177,189"/>
-<area shape="rect" id="node29" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="961,162,1129,189"/>
-<area shape="rect" id="node30" href="selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="754,251,926,278"/>
-<area shape="rect" id="node31" href="editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="2201,162,2327,189"/>
-<area shape="rect" id="node32" href="parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="2665,162,2815,189"/>
-<area shape="rect" id="node33" href="mixer_8h.html" title="mscore/mixer.h" alt="" coords="2477,162,2589,189"/>
-<area shape="rect" id="node34" href="mixerdetails_8h.html" title="mscore/mixerdetails.h" alt="" coords="193,251,343,278"/>
-<area shape="rect" id="node35" href="mixertrackitem_8h.html" title="mscore/mixertrackitem.h" alt="" coords="190,162,357,189"/>
-<area shape="rect" id="node36" href="mixertrackchannel_8h.html" title="mscore/mixertrackchannel.h" alt="" coords="368,251,555,278"/>
-<area shape="rect" id="node37" href="mixertrackpart_8h.html" title="mscore/mixertrackpart.h" alt="" coords="5,251,168,278"/>
-<area shape="rect" id="node13" href="importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="3461,251,3680,278"/>
-<area shape="rect" id="node14" href="importmidi__chordname_8cpp.html" title="mscore/importmidi/importmidi\l_chordname.cpp" alt="" coords="3705,244,3898,285"/>
-<area shape="rect" id="node15" href="importmidi__drum_8cpp.html" title="mscore/importmidi/importmidi\l_drum.cpp" alt="" coords="4139,244,4333,285"/>
-<area shape="rect" id="node16" href="importmidi__lyrics_8cpp.html" title="mscore/importmidi/importmidi\l_lyrics.cpp" alt="" coords="3922,244,4115,285"/>
-<area shape="rect" id="node17" href="mididriver_8cpp.html" title="mscore/mididriver.cpp" alt="" coords="3107,251,3258,278"/>
-<area shape="rect" id="node24" href="midifile_8cpp.html" title="midi/midifile.cpp" alt="" coords="2785,251,2901,278"/>
-<area shape="rect" id="node40" href="bb_8h.html" title="mscore/bb.h" alt="" coords="3625,162,3719,189"/>
-<area shape="rect" id="node41" href="exportmidi_8h.html" title="mscore/exportmidi.h" alt="" coords="3461,162,3601,189"/>
-<area shape="rect" id="node42" href="importmidi__operations_8h.html" title="mscore/importmidi/importmidi\l_operations.h" alt="" coords="3897,155,4090,196"/>
-<area shape="rect" id="node43" href="importmidi__inner_8cpp.html" title="mscore/importmidi/importmidi\l_inner.cpp" alt="" coords="4357,244,4550,285"/>
-<area shape="rect" id="node44" href="importmidi__simplify_8cpp.html" title="mscore/importmidi/importmidi\l_simplify.cpp" alt="" coords="4574,244,4767,285"/>
-<area shape="rect" id="node45" href="importmidi__instrument_8h.html" title="mscore/importmidi/importmidi\l_instrument.h" alt="" coords="3243,155,3437,196"/>
+<div class="center"><img src="event_8h__dep__incl.png" border="0" usemap="#audio_2midi_2event_8hdep" alt=""/></div>
+<map name="audio_2midi_2event_8hdep" id="audio_2midi_2event_8hdep">
+<area shape="rect" id="node2" href="libmscore_2instrument_8h.html" title="libmscore/instrument.h" alt="" coords="2323,87,2483,114"/>
+<area shape="rect" id="node8" href="exportmidi_8cpp.html" title="audio/exports/exportmidi.cpp" alt="" coords="5,266,207,293"/>
+<area shape="rect" id="node9" href="event_8cpp.html" title="audio/midi/event.cpp" alt="" coords="231,266,381,293"/>
+<area shape="rect" id="node12" href="pitchspelling_8cpp.html" title="libmscore/pitchspelling.cpp" alt="" coords="1368,266,1551,293"/>
+<area shape="rect" id="node13" href="rendermidi_8cpp.html" title="render score into event list " alt="" coords="1117,266,1292,293"/>
+<area shape="rect" id="node24" href="musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="2315,266,2479,293"/>
+<area shape="rect" id="node43" href="seq_8h.html" title="mscore/seq.h" alt="" coords="3781,177,3887,203"/>
+<area shape="rect" id="node45" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="863,177,1010,203"/>
+<area shape="rect" id="node46" href="fluid_8cpp.html" title="audio/midi/fluid/fluid.cpp" alt="" coords="2558,87,2734,114"/>
+<area shape="rect" id="node47" href="msynthesizer_8cpp.html" title="audio/midi/msynthesizer.cpp" alt="" coords="2759,87,2955,114"/>
+<area shape="rect" id="node48" href="zerberus_8h.html" title="audio/midi/zerberus\l/zerberus.h" alt="" coords="5724,80,5869,121"/>
+<area shape="rect" id="node49" href="channel_8cpp.html" title="audio/midi/zerberus\l/channel.cpp" alt="" coords="5724,169,5869,211"/>
+<area shape="rect" id="node50" href="zerberus_8cpp.html" title="audio/midi/zerberus\l/zerberus.cpp" alt="" coords="5893,169,6039,211"/>
+<area shape="rect" id="node3" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2338,177,2469,203"/>
+<area shape="rect" id="node10" href="libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="1575,266,1749,293"/>
+<area shape="rect" id="node11" href="midimapping_8cpp.html" title="libmscore/midimapping.cpp" alt="" coords="906,266,1093,293"/>
+<area shape="rect" id="node14" href="continuouspanel_8cpp.html" title="mscore/continuouspanel.cpp" alt="" coords="687,266,882,293"/>
+<area shape="rect" id="node15" href="drumroll_8cpp.html" title="mscore/drumroll.cpp" alt="" coords="3204,266,3352,293"/>
+<area shape="rect" id="node25" href="osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="5057,266,5177,293"/>
+<area shape="rect" id="node26" href="synthcontrol_8cpp.html" title="mscore/synthcontrol.cpp" alt="" coords="3009,266,3179,293"/>
+<area shape="rect" id="node27" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="2194,177,2314,203"/>
+<area shape="rect" id="node28" href="importptb_8cpp.html" title="importexport/guitarpro\l/importptb.cpp" alt="" coords="405,259,562,300"/>
+<area shape="rect" id="node29" href="pianoroll_8cpp.html" title="mscore/pianoroll/pianoroll.cpp" alt="" coords="3732,266,3936,293"/>
+<area shape="rect" id="node30" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="2652,177,2827,203"/>
+<area shape="rect" id="node31" href="selinstrument_8cpp.html" title="mscore/selinstrument.cpp" alt="" coords="3427,266,3606,293"/>
+<area shape="rect" id="node32" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="2948,177,3075,203"/>
+<area shape="rect" id="node33" href="instrchange_8h.html" title="libmscore/instrchange.h" alt="" coords="1592,177,1756,203"/>
+<area shape="rect" id="node34" href="staffstate_8h.html" title="libmscore/staffstate.h" alt="" coords="1781,177,1935,203"/>
+<area shape="rect" id="node35" href="editstaff_8h.html" title="mscore/editstaff.h" alt="" coords="2493,177,2628,203"/>
+<area shape="rect" id="node36" href="mixer_8h.html" title="mscore/mixer/mixer.h" alt="" coords="4907,177,5062,203"/>
+<area shape="rect" id="node37" href="mixerdetails_8h.html" title="mscore/mixer/mixerdetails.h" alt="" coords="5761,266,5955,293"/>
+<area shape="rect" id="node38" href="mixertrackitem_8h.html" title="mscore/mixer/mixertrackitem.h" alt="" coords="5387,177,5598,203"/>
+<area shape="rect" id="node39" href="mixertrackchannel_8h.html" title="mscore/mixer/mixertrackchannel.h" alt="" coords="5455,266,5685,293"/>
+<area shape="rect" id="node40" href="mixertrackpart_8h.html" title="mscore/mixer/mixertrackpart.h" alt="" coords="6030,266,6238,293"/>
+<area shape="rect" id="node41" href="parteditbase_8h.html" title="mscore/parteditbase.h" alt="" coords="5086,177,5243,203"/>
+<area shape="rect" id="node42" href="mscore_2plugin_2api_2instrument_8h.html" title="mscore/plugin/api/instrument.h" alt="" coords="1959,177,2170,203"/>
+<area shape="rect" id="node4" href="jackaudio_8cpp.html" title="audio/drivers/jackaudio.cpp" alt="" coords="4513,266,4704,293"/>
+<area shape="rect" id="node5" href="mididriver_8cpp.html" title="audio/drivers/mididriver.cpp" alt="" coords="1875,266,2067,293"/>
+<area shape="rect" id="node6" href="pa_8cpp.html" title="audio/drivers/pa.cpp" alt="" coords="3961,266,4107,293"/>
+<area shape="rect" id="node7" href="pulseaudio_8cpp.html" title="audio/drivers/pulseaudio.cpp" alt="" coords="4131,266,4329,293"/>
+<area shape="rect" id="node16" href="drumtools_8cpp.html" title="mscore/drumtools.cpp" alt="" coords="2686,266,2846,293"/>
+<area shape="rect" id="node17" href="editstaff_8cpp.html" title="mscore/editstaff.cpp" alt="" coords="2143,266,2291,293"/>
+<area shape="rect" id="node18" href="events_8cpp.html" title="mscore/events.cpp" alt="" coords="4353,266,4489,293"/>
+<area shape="rect" id="node19" href="file_8cpp.html" title="mscore/file.cpp" alt="" coords="2870,266,2985,293"/>
+<area shape="rect" id="node20" href="instrdialog_8cpp.html" title="mscore/instrdialog.cpp" alt="" coords="2503,266,2661,293"/>
+<area shape="rect" id="node21" href="mixer_8cpp.html" title="mscore/mixer/mixer.cpp" alt="" coords="5256,348,5425,375"/>
+<area shape="rect" id="node22" href="mixerdetails_8cpp.html" title="mscore/mixer/mixerdetails.cpp" alt="" coords="4789,348,4997,375"/>
+<area shape="rect" id="node23" href="mixertrackchannel_8cpp.html" title="mscore/mixer/mixertrackchannel.cpp" alt="" coords="4520,348,4764,375"/>
+<area shape="rect" id="node44" href="pm_8cpp.html" title="audio/drivers/pm.cpp" alt="" coords="4881,266,5033,293"/>
 </map>
 </div>
 </div>
@@ -144,148 +144,149 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_core_event.html">Ms::MidiCoreEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MidiCoreEvent.html">Ms::MidiCoreEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_midi_event.html">Ms::MidiEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1MidiEvent.html">Ms::MidiEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_play_event.html">Ms::PlayEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1PlayEvent.html">Ms::PlayEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_n_play_event.html">Ms::NPlayEvent</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1NPlayEvent.html">Ms::NPlayEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_event.html">Ms::Event</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Event.html">Ms::Event</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_event_list.html">Ms::EventList</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1EventList.html">Ms::EventList</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_event_map.html">Ms::EventMap</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1EventMap.html">Ms::EventMap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:acb4e32b5d39e3ccb3048bfc528439f6f"><td class="memItemLeft" align="right" valign="top">typedef EventList::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#acb4e32b5d39e3ccb3048bfc528439f6f">Ms::iEvent</a></td></tr>
+<tr class="memitem:acb4e32b5d39e3ccb3048bfc528439f6f"><td class="memItemLeft" align="right" valign="top">typedef EventList::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#acb4e32b5d39e3ccb3048bfc528439f6f">Ms::iEvent</a></td></tr>
 <tr class="separator:acb4e32b5d39e3ccb3048bfc528439f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3778abf82fad944560b3a0601fd47aa4"><td class="memItemLeft" align="right" valign="top">typedef EventList::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3778abf82fad944560b3a0601fd47aa4">Ms::ciEvent</a></td></tr>
+<tr class="memitem:a3778abf82fad944560b3a0601fd47aa4"><td class="memItemLeft" align="right" valign="top">typedef EventList::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3778abf82fad944560b3a0601fd47aa4">Ms::ciEvent</a></td></tr>
 <tr class="separator:a3778abf82fad944560b3a0601fd47aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ab8b49dc0200594e00bcfd2e90adcd277"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a5a8f6d79170a442a579c708303b2ca30">Ms::@49::ME_INVALID</a> = 0, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277ac162721c95a97e7ef88e484787c7c3f9">Ms::@49::ME_NOTEOFF</a> = 0x80, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a8b6ee9fc5311b8f55b0a2fa0bcb6e3d0">Ms::@49::ME_NOTEON</a> = 0x90, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a834963515d95fc8f33b12ba95ec9e9a2">Ms::@49::ME_POLYAFTER</a> = 0xa0, 
+<tr class="memitem:afb3b5257b874721d31e3910806a60359"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a5a8f6d79170a442a579c708303b2ca30">Ms::@25::ME_INVALID</a> = 0, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359ac162721c95a97e7ef88e484787c7c3f9">Ms::@25::ME_NOTEOFF</a> = 0x80, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a8b6ee9fc5311b8f55b0a2fa0bcb6e3d0">Ms::@25::ME_NOTEON</a> = 0x90, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a834963515d95fc8f33b12ba95ec9e9a2">Ms::@25::ME_POLYAFTER</a> = 0xa0, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a04d270fb30f1bcf518d3dc9216bcddcf">Ms::@49::ME_CONTROLLER</a> = 0xb0, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277ab521c0ca544e5c975129f6686c694ae9">Ms::@49::ME_PROGRAM</a> = 0xc0, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a7e3b9ad769c512fd018d38d14eeb4ba6">Ms::@49::ME_AFTERTOUCH</a> = 0xd0, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a4af11ce795ac4d9f94aa50730fe86ab4">Ms::@49::ME_PITCHBEND</a> = 0xe0, 
+&#160;&#160;<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a04d270fb30f1bcf518d3dc9216bcddcf">Ms::@25::ME_CONTROLLER</a> = 0xb0, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359ab521c0ca544e5c975129f6686c694ae9">Ms::@25::ME_PROGRAM</a> = 0xc0, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a7e3b9ad769c512fd018d38d14eeb4ba6">Ms::@25::ME_AFTERTOUCH</a> = 0xd0, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a4af11ce795ac4d9f94aa50730fe86ab4">Ms::@25::ME_PITCHBEND</a> = 0xe0, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a56031024761624b66785a4ac3d88cdfa">Ms::@49::ME_SYSEX</a> = 0xf0, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a1f51a9f29e88a7de0f5a92f48ef3bb37">Ms::@49::ME_META</a> = 0xff, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277ad38bc9f3ace0211a0f0ea8a6b4e4fa98">Ms::@49::ME_SONGPOS</a> = 0xf2, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a4e7b3b4d1568b52e12963755b8d0c666">Ms::@49::ME_ENDSYSEX</a> = 0xf7, 
+&#160;&#160;<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a56031024761624b66785a4ac3d88cdfa">Ms::@25::ME_SYSEX</a> = 0xf0, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a1f51a9f29e88a7de0f5a92f48ef3bb37">Ms::@25::ME_META</a> = 0xff, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359ad38bc9f3ace0211a0f0ea8a6b4e4fa98">Ms::@25::ME_SONGPOS</a> = 0xf2, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a4e7b3b4d1568b52e12963755b8d0c666">Ms::@25::ME_ENDSYSEX</a> = 0xf7, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277af26e0353750979020894475bbb560feb">Ms::@49::ME_CLOCK</a> = 0xf8, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a027336fb3e02b95868130dccb836c014">Ms::@49::ME_START</a> = 0xfa, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a10a319aaeb898d0dd799c22e19780e29">Ms::@49::ME_CONTINUE</a> = 0xfb, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a6387eaf80deb13f1b16880b9164c9fec">Ms::@49::ME_STOP</a> = 0xfc, 
+&#160;&#160;<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359af26e0353750979020894475bbb560feb">Ms::@25::ME_CLOCK</a> = 0xf8, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a027336fb3e02b95868130dccb836c014">Ms::@25::ME_START</a> = 0xfa, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a10a319aaeb898d0dd799c22e19780e29">Ms::@25::ME_CONTINUE</a> = 0xfb, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a6387eaf80deb13f1b16880b9164c9fec">Ms::@25::ME_STOP</a> = 0xfc, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a8f7b04442dce37c2674be1bf78507ae5">Ms::@49::ME_SENSE</a> = 0xfe, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277af94a36acaf9e4a9b11b1aa0cd483ecca">Ms::@49::ME_NOTE</a> = 0x1, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277ae8cd895ace52b5f016cb5dbbc2c3a176">Ms::@49::ME_CHORD</a> = 0x2, 
-<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a855e4b65376bd16ba82ba672cb711e8e">Ms::@49::ME_TICK1</a> = 0x3, 
+&#160;&#160;<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a8f7b04442dce37c2674be1bf78507ae5">Ms::@25::ME_SENSE</a> = 0xfe, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359af94a36acaf9e4a9b11b1aa0cd483ecca">Ms::@25::ME_NOTE</a> = 0x1, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359ae8cd895ace52b5f016cb5dbbc2c3a176">Ms::@25::ME_CHORD</a> = 0x2, 
+<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a855e4b65376bd16ba82ba672cb711e8e">Ms::@25::ME_TICK1</a> = 0x3, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab8b49dc0200594e00bcfd2e90adcd277a20286b4f2134fc5d0af54e24f79e1124">Ms::@49::ME_TICK2</a> = 0x4
-<br />
- }</td></tr>
-<tr class="separator:ab8b49dc0200594e00bcfd2e90adcd277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0a6930e57ebfffc82171828f17962d3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a8b51dabd5b0096b631e19fc3435246dd">Ms::META_SEQUENCE_NUMBER</a> = 0, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3af10ec60a489ad9ec627bec73fc4c2302">Ms::META_TEXT</a> = 1, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a9afa38be6b4bd2daffc9c9f3d304c881">Ms::META_COPYRIGHT</a> = 2, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a01591df68a3e2d2f1fb49f67780bc4b5">Ms::META_TRACK_NAME</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3addd0f2bedb723362d3caeb997a567fb7">Ms::META_INSTRUMENT_NAME</a> = 4, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3aefcbce6caa2b4999ce2b243c4188a1a7">Ms::META_LYRIC</a> = 5, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a17af7cc52150f723262aeee8c594277a">Ms::META_MARKER</a> = 6, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a1de869f2157472c353c968c2f4c5234e">Ms::META_CUE_POINT</a> = 7, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a156d53e93c6cbc27c82bada7c62a7288">Ms::META_PROGRAM_NAME</a> = 8, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a3be426ffbee883f41b2c04990a534b25">Ms::META_DEVICE_NAME</a> = 9, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a6f63d51c043eed9754823772ebb10365">Ms::META_TRACK_COMMENT</a> = 0xf, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a446dea9bce1077f7ad0ac0fd52b9bc93">Ms::META_TITLE</a> = 0x10, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a27590449f8efd5f3257925abe7896c51">Ms::META_SUBTITLE</a> = 0x11, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3afd9c7104ce37a9855c537bd3172b30e9">Ms::META_COMPOSER</a> = 0x12, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3ab85612a8c40f15b143a46de5386bc3c3">Ms::META_TRANSLATOR</a> = 0x13, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a1d73996179a7bc87f4d446d7da5e393b">Ms::META_POET</a> = 0x14, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a3f06b7d58d29135f5a5f0b90323d457a">Ms::META_PORT_CHANGE</a> = 0x21, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3abdaf3513b2d755be7cfd97962d4f7d62">Ms::META_CHANNEL_PREFIX</a> = 0x22, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a89f52d370b1efae2f3484c6e4fc6c172">Ms::META_EOT</a> = 0x2f, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a3ae69174b80f0c1aac4fafd89a5c1e96">Ms::META_TEMPO</a> = 0x51, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3aa649120d1c9767b522baa7bba240d126">Ms::META_TIME_SIGNATURE</a> = 0x58, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a0b6e0f8b073199cf33ca688763cddde0">Ms::META_KEY_SIGNATURE</a> = 0x59, 
-<a class="el" href="namespace_ms.html#ab0a6930e57ebfffc82171828f17962d3a3c906286480326155eaa256dcc643d4a">Ms::META_SPECIFIC</a> = 0x7F
+&#160;&#160;<a class="el" href="namespaceMs.html#afb3b5257b874721d31e3910806a60359a20286b4f2134fc5d0af54e24f79e1124">Ms::@25::ME_TICK2</a> = 0x4
 <br />
  }</td></tr>
-<tr class="separator:ab0a6930e57ebfffc82171828f17962d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae113476ec0f7fb4d82b78b8141797d2f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fadbc203b32681492a7dfa4c98cfaf8f3c">Ms::CTRL_HBANK</a> = 0x00, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faa530a822f39f1a90ef065653ada89f8d">Ms::CTRL_LBANK</a> = 0x20, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa35f037da3f41697511c75de6fcbbf654">Ms::CTRL_HDATA</a> = 0x06, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faa8eaffff164127ccf32e0bf459c6ca00">Ms::CTRL_LDATA</a> = 0x26, 
+<tr class="separator:afb3b5257b874721d31e3910806a60359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f6a511db1ba39d0d287d6fe55018a1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a8b51dabd5b0096b631e19fc3435246dd">Ms::META_SEQUENCE_NUMBER</a> = 0, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1af10ec60a489ad9ec627bec73fc4c2302">Ms::META_TEXT</a> = 1, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a9afa38be6b4bd2daffc9c9f3d304c881">Ms::META_COPYRIGHT</a> = 2, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a01591df68a3e2d2f1fb49f67780bc4b5">Ms::META_TRACK_NAME</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa204fe483c44a52892a237ad4218c2bc9">Ms::CTRL_HNRPN</a> = 0x63, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fac5b8a2ba098dfdeaeb800de33c32bb14">Ms::CTRL_LNRPN</a> = 0x62, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2facb64fe8b1f93bb948fb56952bcec8672">Ms::CTRL_HRPN</a> = 0x65, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fabc43db60aeaff04a1be147833323e31f">Ms::CTRL_LRPN</a> = 0x64, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1addd0f2bedb723362d3caeb997a567fb7">Ms::META_INSTRUMENT_NAME</a> = 4, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1aefcbce6caa2b4999ce2b243c4188a1a7">Ms::META_LYRIC</a> = 5, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a17af7cc52150f723262aeee8c594277a">Ms::META_MARKER</a> = 6, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a1de869f2157472c353c968c2f4c5234e">Ms::META_CUE_POINT</a> = 7, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa216db99dd396be21fffe3bd40ec33ea6">Ms::CTRL_MODULATION</a> = 0x01, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faa383e5fb209690726a5e2a727778a464">Ms::CTRL_BREATH</a> = 0x02, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fac200d2bddb2fcf019c957f9251703106">Ms::CTRL_FOOT</a> = 0x04, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faa5b7c6b22ea81e18333f94573e18af4a">Ms::CTRL_PORTAMENTO_TIME</a> = 0x05, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a156d53e93c6cbc27c82bada7c62a7288">Ms::META_PROGRAM_NAME</a> = 8, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a3be426ffbee883f41b2c04990a534b25">Ms::META_DEVICE_NAME</a> = 9, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a6f63d51c043eed9754823772ebb10365">Ms::META_TRACK_COMMENT</a> = 0xf, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a446dea9bce1077f7ad0ac0fd52b9bc93">Ms::META_TITLE</a> = 0x10, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faaedaa11eedfa143e90f797c663624870">Ms::CTRL_VOLUME</a> = 0x07, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa29bc9f8b465c5b8ec7615739f604c862">Ms::CTRL_PANPOT</a> = 0x0a, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa6a3380f7e31901a1097dcc11d0391dd5">Ms::CTRL_EXPRESSION</a> = 0x0b, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa471308d57cdfb402257a92857e487a0f">Ms::CTRL_SUSTAIN</a> = 0x40, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a27590449f8efd5f3257925abe7896c51">Ms::META_SUBTITLE</a> = 0x11, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1afd9c7104ce37a9855c537bd3172b30e9">Ms::META_COMPOSER</a> = 0x12, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1ab85612a8c40f15b143a46de5386bc3c3">Ms::META_TRANSLATOR</a> = 0x13, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a1d73996179a7bc87f4d446d7da5e393b">Ms::META_POET</a> = 0x14, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa95f730d4e8e089f5299deb74dacee11c">Ms::CTRL_PORTAMENTO</a> = 0x41, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faa405c2354f96ca4950d2f859ac7e073f">Ms::CTRL_SOSTENUTO</a> = 0x42, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa808556e05db11bfe00bc01b6fc1b16b8">Ms::CTRL_SOFT_PEDAL</a> = 0x43, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa2a8b3fb2dab172278e59ecdca7ca8519">Ms::CTRL_HARMONIC_CONTENT</a> = 0x47, 
+&#160;&#160;<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a3f06b7d58d29135f5a5f0b90323d457a">Ms::META_PORT_CHANGE</a> = 0x21, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1abdaf3513b2d755be7cfd97962d4f7d62">Ms::META_CHANNEL_PREFIX</a> = 0x22, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a89f52d370b1efae2f3484c6e4fc6c172">Ms::META_EOT</a> = 0x2f, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a3ae69174b80f0c1aac4fafd89a5c1e96">Ms::META_TEMPO</a> = 0x51, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa777a7cbd5de952ea9ab53437444a32b4">Ms::CTRL_RELEASE_TIME</a> = 0x48, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa5c0502c1141bb60a1aec4d3a8909b0d1">Ms::CTRL_ATTACK_TIME</a> = 0x49, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa7127abc4b83a4b414ad2158dddcf1cdd">Ms::CTRL_BRIGHTNESS</a> = 0x4a, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2faa4927f7d7f93ee03eb1d77ddb3bcfa42">Ms::CTRL_PORTAMENTO_CONTROL</a> = 0x54, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fac07bc609d820f9b0e267fd49e074599b">Ms::CTRL_REVERB_SEND</a> = 0x5b, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa7935e0d4a529820ddf49dd0445b5c884">Ms::CTRL_CHORUS_SEND</a> = 0x5d, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa1eaa286eb9e7517c025435f9e1d4c378">Ms::CTRL_VARIATION_SEND</a> = 0x5e, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa178107ad0a63322df0eefd67075d7b64">Ms::CTRL_ALL_SOUNDS_OFF</a> = 0x78, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fac365fb1ae0d4a175d0dc66fd2c536697">Ms::CTRL_RESET_ALL_CTRL</a> = 0x79, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa88ad8256ee74943317685ca66ea1b01d">Ms::CTRL_LOCAL_OFF</a> = 0x7a, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa1d162fafa2a385279fb6804c3934b8cc">Ms::CTRL_ALL_NOTES_OFF</a> = 0x7b, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa60457d33ab43ffc75ae2882afd53eb4f">Ms::CTRL_PROGRAM</a> = 0x81, 
-<br />
-&#160;&#160;<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa5dd5d73842473b13ac4ed8ae27abe0cc">Ms::CTRL_PRESS</a> = 0x83, 
-<a class="el" href="namespace_ms.html#ae113476ec0f7fb4d82b78b8141797d2fa794a51328f7f2e1b745130dc9363d4f3">Ms::CTRL_POLYAFTER</a> = 0x84
+&#160;&#160;<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1aa649120d1c9767b522baa7bba240d126">Ms::META_TIME_SIGNATURE</a> = 0x58, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a0b6e0f8b073199cf33ca688763cddde0">Ms::META_KEY_SIGNATURE</a> = 0x59, 
+<a class="el" href="namespaceMs.html#a75f6a511db1ba39d0d287d6fe55018a1a3c906286480326155eaa256dcc643d4a">Ms::META_SPECIFIC</a> = 0x7F
 <br />
  }</td></tr>
-<tr class="separator:ae113476ec0f7fb4d82b78b8141797d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a75f6a511db1ba39d0d287d6fe55018a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5388667586001e845380d0f937ec3a09"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09adbc203b32681492a7dfa4c98cfaf8f3c">Ms::CTRL_HBANK</a> = 0x00, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09aa530a822f39f1a90ef065653ada89f8d">Ms::CTRL_LBANK</a> = 0x20, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a35f037da3f41697511c75de6fcbbf654">Ms::CTRL_HDATA</a> = 0x06, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09aa8eaffff164127ccf32e0bf459c6ca00">Ms::CTRL_LDATA</a> = 0x26, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a204fe483c44a52892a237ad4218c2bc9">Ms::CTRL_HNRPN</a> = 0x63, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09ac5b8a2ba098dfdeaeb800de33c32bb14">Ms::CTRL_LNRPN</a> = 0x62, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09acb64fe8b1f93bb948fb56952bcec8672">Ms::CTRL_HRPN</a> = 0x65, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09abc43db60aeaff04a1be147833323e31f">Ms::CTRL_LRPN</a> = 0x64, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a216db99dd396be21fffe3bd40ec33ea6">Ms::CTRL_MODULATION</a> = 0x01, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09aa383e5fb209690726a5e2a727778a464">Ms::CTRL_BREATH</a> = 0x02, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09ac200d2bddb2fcf019c957f9251703106">Ms::CTRL_FOOT</a> = 0x04, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09ac28e1ba0191b1bdd5cc36cf0e8e02044">Ms::CTRL_PORTAMENTO_TIME_MSB</a> = 0x05, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09aaedaa11eedfa143e90f797c663624870">Ms::CTRL_VOLUME</a> = 0x07, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a29bc9f8b465c5b8ec7615739f604c862">Ms::CTRL_PANPOT</a> = 0x0a, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a6a3380f7e31901a1097dcc11d0391dd5">Ms::CTRL_EXPRESSION</a> = 0x0b, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a08688424a4f4c4a0a50949452e1bc638">Ms::CTRL_PORTAMENTO_TIME_LSB</a> = 0x25, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a471308d57cdfb402257a92857e487a0f">Ms::CTRL_SUSTAIN</a> = 0x40, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a95f730d4e8e089f5299deb74dacee11c">Ms::CTRL_PORTAMENTO</a> = 0x41, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09aa405c2354f96ca4950d2f859ac7e073f">Ms::CTRL_SOSTENUTO</a> = 0x42, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a808556e05db11bfe00bc01b6fc1b16b8">Ms::CTRL_SOFT_PEDAL</a> = 0x43, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a2a8b3fb2dab172278e59ecdca7ca8519">Ms::CTRL_HARMONIC_CONTENT</a> = 0x47, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a777a7cbd5de952ea9ab53437444a32b4">Ms::CTRL_RELEASE_TIME</a> = 0x48, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a5c0502c1141bb60a1aec4d3a8909b0d1">Ms::CTRL_ATTACK_TIME</a> = 0x49, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a7127abc4b83a4b414ad2158dddcf1cdd">Ms::CTRL_BRIGHTNESS</a> = 0x4a, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09aa4927f7d7f93ee03eb1d77ddb3bcfa42">Ms::CTRL_PORTAMENTO_CONTROL</a> = 0x54, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09ac07bc609d820f9b0e267fd49e074599b">Ms::CTRL_REVERB_SEND</a> = 0x5b, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a7935e0d4a529820ddf49dd0445b5c884">Ms::CTRL_CHORUS_SEND</a> = 0x5d, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a1eaa286eb9e7517c025435f9e1d4c378">Ms::CTRL_VARIATION_SEND</a> = 0x5e, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a178107ad0a63322df0eefd67075d7b64">Ms::CTRL_ALL_SOUNDS_OFF</a> = 0x78, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09ac365fb1ae0d4a175d0dc66fd2c536697">Ms::CTRL_RESET_ALL_CTRL</a> = 0x79, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a88ad8256ee74943317685ca66ea1b01d">Ms::CTRL_LOCAL_OFF</a> = 0x7a, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a1d162fafa2a385279fb6804c3934b8cc">Ms::CTRL_ALL_NOTES_OFF</a> = 0x7b, 
+<br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a60457d33ab43ffc75ae2882afd53eb4f">Ms::CTRL_PROGRAM</a> = 0x81, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a5dd5d73842473b13ac4ed8ae27abe0cc">Ms::CTRL_PRESS</a> = 0x83, 
+<a class="el" href="namespaceMs.html#a5388667586001e845380d0f937ec3a09a794a51328f7f2e1b745130dc9363d4f3">Ms::CTRL_POLYAFTER</a> = 0x84
+<br />
+ }</td></tr>
+<tr class="separator:a5388667586001e845380d0f937ec3a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a574a0b0078939bfae7aa128ecac9dae4"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a574a0b0078939bfae7aa128ecac9dae4">Ms::midiMetaName</a> (int meta)</td></tr>
+<tr class="memitem:a574a0b0078939bfae7aa128ecac9dae4"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a574a0b0078939bfae7aa128ecac9dae4">Ms::midiMetaName</a> (int meta)</td></tr>
 <tr class="separator:a574a0b0078939bfae7aa128ecac9dae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

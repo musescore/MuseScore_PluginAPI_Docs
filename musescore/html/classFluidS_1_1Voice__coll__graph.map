@@ -1,0 +1,18 @@
+<map id="FluidS::Voice" name="FluidS::Voice">
+<area shape="rect" id="node2" href="$classFluidS_1_1Channel.html" title="FluidS::Channel" alt="" coords="1353,289,1464,316"/>
+<area shape="rect" id="node3" href="$classFluidS_1_1Preset.html" title="FluidS::Preset" alt="" coords="1093,239,1195,265"/>
+<area shape="rect" id="node4" href="$classFluidS_1_1Zone.html" title="FluidS::Zone" alt="" coords="857,149,952,176"/>
+<area shape="rect" id="node5" href="$classFluidS_1_1Instrument.html" title="FluidS::Instrument" alt="" coords="1080,140,1208,167"/>
+<area shape="rect" id="node6" href="$classFluidS_1_1Generator.html" title="SoundFont generator structure. " alt="" coords="640,149,763,176"/>
+<area shape="rect" id="node7" href="$classFluidS_1_1Sample.html" title="FluidS::Sample" alt="" coords="647,99,755,125"/>
+<area shape="rect" id="node8" href="$classFluidS_1_1SFont.html" title="FluidS::SFont" alt="" coords="477,220,576,247"/>
+<area shape="rect" id="node9" href="$classFluidS_1_1Fluid.html" title="FluidS::Fluid" alt="" coords="267,261,359,288"/>
+<area shape="rect" id="node10" href="$classMs_1_1Synthesizer.html" title="Ms::Synthesizer" alt="" coords="5,201,120,228"/>
+<area shape="rect" id="node11" href="$classMs_1_1SynthesizerGui.html" title="Ms::SynthesizerGui" alt="" coords="245,149,380,176"/>
+<area shape="rect" id="node13" href="$structFluidS_1_1SFVersion.html" title="FluidS::SFVersion" alt="" coords="251,200,375,227"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="1087,463,1201,489"/>
+<area shape="rect" id="node19" title="STL class. " alt="" coords="1088,412,1200,439"/>
+<area shape="rect" id="node20" href="$structFluidS_1_1Phase.html" title="FluidS::Phase" alt="" coords="1359,513,1459,540"/>
+<area shape="rect" id="node21" href="$structFluidS_1_1fluid__env__data__t.html" title="FluidS::fluid_env_data_t" alt="" coords="1329,571,1488,597"/>
+<area shape="rect" id="node22" href="$structFluidS_1_1Mod.html" title="FluidS::Mod" alt="" coords="1363,621,1455,648"/>
+</map>

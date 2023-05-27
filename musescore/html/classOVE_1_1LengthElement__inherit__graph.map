@@ -1,0 +1,8 @@
+<map id="OVE::LengthElement" name="OVE::LengthElement">
+<area shape="rect" id="node2" href="$classOVE_1_1Harmony.html" title="OVE::Harmony" alt="" coords="226,5,334,32"/>
+<area shape="rect" id="node3" href="$classOVE_1_1Measure.html" title="OVE::Measure" alt="" coords="228,56,332,83"/>
+<area shape="rect" id="node4" href="$classOVE_1_1NoteContainer.html" title="OVE::NoteContainer" alt="" coords="211,107,349,133"/>
+<area shape="rect" id="node5" href="$classOVE_1_1OctaveShift.html" title="OVE::OctaveShift" alt="" coords="220,157,340,184"/>
+<area shape="rect" id="node6" href="$classOVE_1_1OctaveShiftEndPoint.html" title="OVE::OctaveShiftEndPoint" alt="" coords="193,208,367,235"/>
+<area shape="rect" id="node7" href="$classOVE_1_1Text.html" title="OVE::Text" alt="" coords="241,259,319,285"/>
+</map>

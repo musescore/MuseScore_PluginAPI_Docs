@@ -1,0 +1,17 @@
+<map id="Ms::LineSegment" name="Ms::LineSegment">
+<area shape="rect" id="node5" href="$classMs_1_1GlissandoSegment.html" title="Ms::GlissandoSegment" alt="" coords="700,56,859,83"/>
+<area shape="rect" id="node6" href="$classMs_1_1LyricsLineSegment.html" title="Ms::LyricsLineSegment" alt="" coords="701,107,858,133"/>
+<area shape="rect" id="node7" href="$classMs_1_1TextLineBaseSegment.html" title="Ms::TextLineBaseSegment" alt="" coords="691,157,868,184"/>
+<area shape="rect" id="node15" href="$classMs_1_1TrillSegment.html" title="Ms::TrillSegment" alt="" coords="719,208,839,235"/>
+<area shape="rect" id="node16" href="$classMs_1_1VibratoSegment.html" title="Ms::VibratoSegment" alt="" coords="709,259,849,285"/>
+<area shape="rect" id="node2" href="$classMs_1_1SpannerSegment.html" title="parent: System " alt="" coords="325,157,472,184"/>
+<area shape="rect" id="node3" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="183,157,277,184"/>
+<area shape="rect" id="node4" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="5,157,135,184"/>
+<area shape="rect" id="node8" href="$classMs_1_1HairpinSegment.html" title="Ms::HairpinSegment" alt="" coords="925,5,1066,32"/>
+<area shape="rect" id="node9" href="$classMs_1_1LetRingSegment.html" title="Ms::LetRingSegment" alt="" coords="924,56,1067,83"/>
+<area shape="rect" id="node10" href="$classMs_1_1OttavaSegment.html" title="Ms::OttavaSegment" alt="" coords="927,107,1063,133"/>
+<area shape="rect" id="node11" href="$classMs_1_1PalmMuteSegment.html" title="Ms::PalmMuteSegment" alt="" coords="916,157,1075,184"/>
+<area shape="rect" id="node12" href="$classMs_1_1PedalSegment.html" title="Ms::PedalSegment" alt="" coords="929,208,1061,235"/>
+<area shape="rect" id="node13" href="$classMs_1_1TextLineSegment.html" title="Ms::TextLineSegment" alt="" coords="921,259,1069,285"/>
+<area shape="rect" id="node14" href="$classMs_1_1VoltaSegment.html" title="Ms::VoltaSegment" alt="" coords="931,309,1060,336"/>
+</map>

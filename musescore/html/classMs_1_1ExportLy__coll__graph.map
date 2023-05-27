@@ -1,0 +1,44 @@
+<map id="Ms::ExportLy" name="Ms::ExportLy">
+<area shape="rect" id="node2" href="$structMs_1_1ExportLy_1_1jumpOrMarkerLM.html" title="Ms::ExportLy::jumpOrMarkerLM" alt="" coords="1448,1684,1657,1711"/>
+<area shape="rect" id="node3" href="$classMs_1_1Marker.html" title="Ms::Marker" alt="" coords="517,1649,608,1676"/>
+<area shape="rect" id="node4" href="$classMs_1_1TextBase.html" title="Ms::TextBase" alt="" coords="246,1261,347,1288"/>
+<area shape="rect" id="node5" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="5,873,100,900"/>
+<area shape="rect" id="node10" href="$classMs_1_1Spanner.html" title="Virtual base class for slurs, ties, lines etc. " alt="" coords="249,829,344,856"/>
+<area shape="rect" id="node20" href="$classMs_1_1MeasureBase.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="233,224,360,251"/>
+<area shape="rect" id="node22" href="$classMs_1_1Segment.html" title="Ms::Segment" alt="" coords="384,400,483,427"/>
+<area shape="rect" id="node49" href="$structMs_1_1ExportLy_1_1InstructionAnchor.html" title="Ms::ExportLy::Instruction\lAnchor" alt="" coords="643,1346,809,1387"/>
+<area shape="rect" id="node6" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="2041,931,2171,957"/>
+<area shape="rect" id="node7" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="1735,528,1816,555"/>
+<area shape="rect" id="node13" href="$classMs_1_1Excerpt.html" title="Ms::Excerpt" alt="" coords="2280,339,2371,365"/>
+<area shape="rect" id="node14" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="2045,196,2167,223"/>
+<area shape="rect" id="node28" href="$classMs_1_1Selection.html" title="Ms::Selection" alt="" coords="2055,343,2157,369"/>
+<area shape="rect" id="node38" href="$classMs_1_1SelectionFilter.html" title="Ms::SelectionFilter" alt="" coords="2041,599,2171,625"/>
+<area shape="rect" id="node25" href="$classMs_1_1SlurTie.html" title="Ms::SlurTie" alt="" coords="519,923,607,949"/>
+<area shape="rect" id="node11" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="5,224,100,251"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="880,915,973,941"/>
+<area shape="rect" id="node16" href="$classMs_1_1Omr.html" title="Ms::Omr" alt="" coords="1739,61,1812,88"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="507,648,619,675"/>
+<area shape="rect" id="node19" href="$classMs_1_1MeasureBaseList.html" title="Ms::MeasureBaseList" alt="" coords="1065,219,1213,245"/>
+<area shape="rect" id="node21" href="$classMs_1_1InputState.html" title="Ms::InputState" alt="" coords="1288,376,1395,403"/>
+<area shape="rect" id="node23" href="$classMs_1_1TDuration.html" title="Ms::TDuration" alt="" coords="875,369,979,396"/>
+<area shape="rect" id="node24" href="$classMs_1_1Slur.html" title="Ms::Slur" alt="" coords="891,859,962,885"/>
+<area shape="rect" id="node26" href="$classMs_1_1SynthesizerState.html" title="Ms::SynthesizerState" alt="" coords="1269,325,1414,352"/>
+<area shape="rect" id="node27" title="STL class. " alt="" coords="833,319,1020,345"/>
+<area shape="rect" id="node29" href="$classMs_1_1SpannerMap.html" title="Ms::SpannerMap" alt="" coords="1281,477,1402,504"/>
+<area shape="rect" id="node30" title="STL class. " alt="" coords="862,471,991,513"/>
+<area shape="rect" id="node32" href="$classMs_1_1UpdateState.html" title="Ms::UpdateState" alt="" coords="1282,528,1401,555"/>
+<area shape="rect" id="node35" href="$classMs_1_1ScoreOrder.html" title="Ms::ScoreOrder" alt="" coords="1284,579,1399,605"/>
+<area shape="rect" id="node36" href="$classMs_1_1Audio.html" title="Ms::Audio" alt="" coords="1300,629,1383,656"/>
+<area shape="rect" id="node37" href="$classMs_1_1MStyle.html" title="Ms::MStyle" alt="" coords="1298,680,1385,707"/>
+<area shape="rect" id="node39" href="$classMs_1_1ScoreFont.html" title="Ms::ScoreFont" alt="" coords="1288,427,1395,453"/>
+<area shape="rect" id="node40" href="$classMs_1_1LinkedElements.html" title="Ms::LinkedElements" alt="" coords="1705,981,1846,1008"/>
+<area shape="rect" id="node41" href="$structMs_1_1ExportLy_1_1lybrackets.html" title="Ms::ExportLy::lybrackets" alt="" coords="1694,1525,1857,1552"/>
+<area shape="rect" id="node42" href="$structMs_1_1ExportLy_1_1glisstablelem.html" title="Ms::ExportLy::glisstablelem" alt="" coords="1685,1627,1866,1653"/>
+<area shape="rect" id="node43" href="$classMs_1_1Chord.html" title="Graphic representation of a chord. " alt="" coords="1300,1636,1383,1663"/>
+<area shape="rect" id="node44" href="$structMs_1_1ExportLy_1_1chordPost.html" title="Ms::ExportLy::chordPost" alt="" coords="1693,1269,1858,1296"/>
+<area shape="rect" id="node45" href="$structMs_1_1ExportLy_1_1chordData.html" title="Ms::ExportLy::chordData" alt="" coords="1259,1212,1424,1239"/>
+<area shape="rect" id="node46" href="$structMs_1_1ExportLy_1_1voltareg.html" title="Ms::ExportLy::voltareg" alt="" coords="1700,1320,1851,1347"/>
+<area shape="rect" id="node47" href="$structMs_1_1ExportLy_1_1lyricsRecord.html" title="Ms::ExportLy::lyricsRecord" alt="" coords="1687,1424,1864,1451"/>
+<area shape="rect" id="node48" href="$structMs_1_1ExportLy_1_1lyricsData.html" title="Ms::ExportLy::lyricsData" alt="" coords="1260,1424,1423,1451"/>
+<area shape="rect" id="node50" href="$structMs_1_1ExportLy_1_1staffnameinfo.html" title="Ms::ExportLy::staffnameinfo" alt="" coords="1681,1475,1869,1501"/>
+</map>

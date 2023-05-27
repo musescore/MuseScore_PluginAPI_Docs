@@ -1,0 +1,5 @@
+<map id="Ms::Avs::RecognitionProccessDialog" name="Ms::Avs::RecognitionProccessDialog">
+<area shape="rect" id="node3" href="$classMs_1_1TaskbarProgress.html" title="NOTE Probably somewhere there should be a common place for common UI controls. " alt="" coords="149,102,296,129"/>
+<area shape="rect" id="node5" href="$structMs_1_1Avs_1_1IAvsOmrRecognizer_1_1Step.html" title="Ms::Avs::IAvsOmrRecognizer\l::Step" alt="" coords="321,95,511,136"/>
+<area shape="rect" id="node6" href="$classMs_1_1Avs_1_1Ret.html" title="Ms::Avs::Ret" alt="" coords="369,5,463,32"/>
+</map>

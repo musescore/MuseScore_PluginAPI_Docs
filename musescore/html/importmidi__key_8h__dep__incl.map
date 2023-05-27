@@ -1,4 +1,4 @@
-<map id="mscore/importmidi/importmidi_key.h" name="mscore/importmidi/importmidi_key.h">
-<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="5,102,224,129"/>
-<area shape="rect" id="node3" href="$importmidi__key_8cpp.html" title="mscore/importmidi/importmidi\l_key.cpp" alt="" coords="249,95,442,136"/>
+<map id="importexport/midiimport/importmidi_key.h" name="importexport/midiimport/importmidi_key.h">
+<area shape="rect" id="node2" href="$importmidi_8cpp.html" title="importexport/midiimport\l/importmidi.cpp" alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node3" href="$importmidi__key_8cpp.html" title="importexport/midiimport\l/importmidi_key.cpp" alt="" coords="200,95,371,136"/>
 </map>

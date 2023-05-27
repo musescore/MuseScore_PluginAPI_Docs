@@ -1,5 +1,0 @@
-<map id="Ms::PreferenceDialog" name="Ms::PreferenceDialog">
-<area shape="rect" id="node2" href="$class_ms_1_1_abstract_dialog.html" title="Ms::AbstractDialog" alt="" coords="5,81,140,108"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_preferences_list_widget.html" title="Ms::PreferencesListWidget" alt="" coords="331,81,511,108"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_preference_visitor.html" title="Ms::PreferenceVisitor" alt="" coords="420,5,568,32"/>
-</map>

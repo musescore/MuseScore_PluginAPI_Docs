@@ -1,0 +1,9 @@
+<map id="Ms::DurationElement" name="Ms::DurationElement">
+<area shape="rect" id="node4" href="$classMs_1_1ChordRest.html" title="Ms::ChordRest" alt="" coords="43,229,152,256"/>
+<area shape="rect" id="node8" href="$classMs_1_1Tuplet.html" title="Example of 1/8 triplet: _baseLen = 1/8 (tuplet is measured in eighth notes) _ratio = 3/2 (3 eighth tu..." alt="" coords="176,229,259,256"/>
+<area shape="rect" id="node2" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="110,80,205,107"/>
+<area shape="rect" id="node3" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="93,5,222,32"/>
+<area shape="rect" id="node5" href="$classMs_1_1Chord.html" title="Graphic representation of a chord. " alt="" coords="5,304,88,331"/>
+<area shape="rect" id="node6" href="$classMs_1_1Rest.html" title="This class implements a rest. " alt="" coords="113,304,186,331"/>
+<area shape="rect" id="node7" href="$classMs_1_1RepeatMeasure.html" title="Ms::RepeatMeasure" alt="" coords="80,379,219,405"/>
+</map>

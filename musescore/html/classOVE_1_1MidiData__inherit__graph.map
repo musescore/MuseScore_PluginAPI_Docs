@@ -1,0 +1,7 @@
+<map id="OVE::MidiData" name="OVE::MidiData">
+<area shape="rect" id="node3" href="$classOVE_1_1MidiChannelPressure.html" title="OVE::MidiChannelPressure" alt="" coords="335,5,512,32"/>
+<area shape="rect" id="node4" href="$classOVE_1_1MidiController.html" title="OVE::MidiController" alt="" coords="355,56,492,83"/>
+<area shape="rect" id="node5" href="$classOVE_1_1MidiPitchWheel.html" title="OVE::MidiPitchWheel" alt="" coords="351,107,495,133"/>
+<area shape="rect" id="node6" href="$classOVE_1_1MidiProgramChange.html" title="OVE::MidiProgramChange" alt="" coords="337,157,510,184"/>
+<area shape="rect" id="node2" href="$classOVE_1_1TickElement.html" title="OVE::TickElement" alt="" coords="5,81,132,108"/>
+</map>

@@ -1,16 +1,20 @@
 <map id="libmscore/fret.h" name="libmscore/fret.h">
-<area shape="rect" id="node2" href="$element_8h.html" title="element.h" alt="" coords="308,304,387,331"/>
-<area shape="rect" id="node12" href="$harmony_8h.html" title="harmony.h" alt="" coords="153,80,235,107"/>
-<area shape="rect" id="node3" href="$spatium_8h.html" title="spatium.h" alt="" coords="232,379,311,405"/>
-<area shape="rect" id="node4" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="335,379,411,405"/>
-<area shape="rect" id="node10" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="232,453,345,480"/>
-<area shape="rect" id="node11" href="$shape_8h.html" title="shape.h" alt="" coords="435,379,503,405"/>
-<area shape="rect" id="node6" href="$mscore_8h.html" title="mscore.h" alt="" coords="80,453,156,480"/>
-<area shape="rect" id="node7" href="$style_8h.html" title="style.h" alt="" coords="165,528,226,555"/>
-<area shape="rect" id="node8" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="154,603,237,629"/>
-<area shape="rect" id="node9" href="$types_8h.html" title="types.h" alt="" coords="261,603,327,629"/>
-<area shape="rect" id="node13" href="$text_8h.html" title="text.h" alt="" coords="167,155,221,181"/>
-<area shape="rect" id="node16" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="5,229,111,256"/>
-<area shape="rect" id="node14" href="$textbase_8h.html" title="textbase.h" alt="" coords="153,229,235,256"/>
-<area shape="rect" id="node15" href="$property_8h.html" title="property.h" alt="" coords="77,304,157,331"/>
+<area shape="rect" id="node2" href="$element_8h.html" title="element.h" alt="" coords="514,304,594,331"/>
+<area shape="rect" id="node17" href="$harmony_8h.html" title="harmony.h" alt="" coords="225,80,310,107"/>
+<area shape="rect" id="node3" href="$elementgroup_8h.html" title="elementgroup.h" alt="" coords="376,379,489,405"/>
+<area shape="rect" id="node4" href="$spatium_8h.html" title="spatium.h" alt="" coords="514,379,594,405"/>
+<area shape="rect" id="node5" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="523,453,601,480"/>
+<area shape="rect" id="node11" href="$scoreElement_8h.html" title="scoreElement.h" alt="" coords="547,528,662,555"/>
+<area shape="rect" id="node12" href="$shape_8h.html" title="shape.h" alt="" coords="284,379,352,405"/>
+<area shape="rect" id="node13" href="$sig_8h.html" title="sig.h" alt="" coords="669,379,719,405"/>
+<area shape="rect" id="node14" href="$sym_8h.html" title="sym.h" alt="" coords="727,528,786,555"/>
+<area shape="rect" id="node7" href="$mscore_8h.html" title="mscore.h" alt="" coords="169,528,248,555"/>
+<area shape="rect" id="node8" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="492,603,552,629"/>
+<area shape="rect" id="node9" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="472,677,556,704"/>
+<area shape="rect" id="node10" href="$types_8h.html" title="types.h" alt="" coords="581,677,645,704"/>
+<area shape="rect" id="node18" href="$text_8h.html" title="text.h" alt="" coords="257,155,312,181"/>
+<area shape="rect" id="node21" href="$pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="143,453,248,480"/>
+<area shape="rect" id="node22" href="$realizedharmony_8h.html" title="realizedharmony.h" alt="" coords="27,155,158,181"/>
+<area shape="rect" id="node19" href="$textbase_8h.html" title="textbase.h" alt="" coords="259,229,342,256"/>
+<area shape="rect" id="node20" href="$property_8h.html" title="property.h" alt="" coords="284,304,365,331"/>
 </map>

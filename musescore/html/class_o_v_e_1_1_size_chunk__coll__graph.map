@@ -1,7 +1,0 @@
-<map id="OVE::SizeChunk" name="OVE::SizeChunk">
-<area shape="rect" id="node2" href="$class_o_v_e_1_1_chunk.html" title="OVE::Chunk" alt="" coords="103,259,199,285"/>
-<area shape="rect" id="node3" href="$class_o_v_e_1_1_name_block.html" title="OVE::NameBlock" alt="" coords="129,157,255,184"/>
-<area shape="rect" id="node4" href="$class_o_v_e_1_1_fixed_block.html" title="OVE::FixedBlock" alt="" coords="131,81,253,108"/>
-<area shape="rect" id="node6" href="$class_o_v_e_1_1_size_block.html" title="OVE::SizeBlock" alt="" coords="235,208,352,235"/>
-<area shape="rect" id="node5" href="$class_o_v_e_1_1_block.html" title="OVE::Block" alt="" coords="5,5,96,32"/>
-</map>

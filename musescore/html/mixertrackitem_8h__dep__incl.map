@@ -1,11 +1,11 @@
-<map id="mscore/mixertrackitem.h" name="mscore/mixertrackitem.h">
-<area shape="rect" id="node2" href="$mixerdetails_8h.html" title="mscore/mixerdetails.h" alt="" coords="5,80,156,107"/>
-<area shape="rect" id="node3" href="$mixer_8cpp.html" title="mscore/mixer.cpp" alt="" coords="232,229,359,256"/>
-<area shape="rect" id="node4" href="$mixerdetails_8cpp.html" title="mscore/mixerdetails.cpp" alt="" coords="43,155,207,181"/>
-<area shape="rect" id="node5" href="$mixertrack_8h.html" title="mscore/mixertrack.h" alt="" coords="318,80,459,107"/>
-<area shape="rect" id="node6" href="$mixertrackchannel_8h.html" title="mscore/mixertrackchannel.h" alt="" coords="333,155,519,181"/>
-<area shape="rect" id="node7" href="$mixertrackchannel_8cpp.html" title="mscore/mixertrackchannel.cpp" alt="" coords="431,229,631,256"/>
-<area shape="rect" id="node8" href="$mixertrackpart_8h.html" title="mscore/mixertrackpart.h" alt="" coords="543,155,706,181"/>
-<area shape="rect" id="node9" href="$mixertrackpart_8cpp.html" title="mscore/mixertrackpart.cpp" alt="" coords="680,229,857,256"/>
-<area shape="rect" id="node10" href="$mixertrackitem_8cpp.html" title="mscore/mixertrackitem.cpp" alt="" coords="832,80,1012,107"/>
+<map id="mscore/mixer/mixertrackitem.h" name="mscore/mixer/mixertrackitem.h">
+<area shape="rect" id="node2" href="$mixerdetails_8h.html" title="mscore/mixer/mixerdetails.h" alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node3" href="$mixer_8cpp.html" title="mscore/mixer/mixer.cpp" alt="" coords="254,229,423,256"/>
+<area shape="rect" id="node4" href="$mixerdetails_8cpp.html" title="mscore/mixer/mixerdetails.cpp" alt="" coords="43,155,251,181"/>
+<area shape="rect" id="node5" href="$mixertrack_8h.html" title="mscore/mixer/mixertrack.h" alt="" coords="362,80,547,107"/>
+<area shape="rect" id="node6" href="$mixertrackchannel_8h.html" title="mscore/mixer/mixertrackchannel.h" alt="" coords="377,155,607,181"/>
+<area shape="rect" id="node7" href="$mixertrackchannel_8cpp.html" title="mscore/mixer/mixertrackchannel.cpp" alt="" coords="498,229,742,256"/>
+<area shape="rect" id="node8" href="$mixertrackpart_8h.html" title="mscore/mixer/mixertrackpart.h" alt="" coords="632,155,840,181"/>
+<area shape="rect" id="node9" href="$mixertrackpart_8cpp.html" title="mscore/mixer/mixertrackpart.cpp" alt="" coords="791,229,1014,256"/>
+<area shape="rect" id="node10" href="$mixertrackitem_8cpp.html" title="mscore/mixer/mixertrackitem.cpp" alt="" coords="965,80,1190,107"/>
 </map>

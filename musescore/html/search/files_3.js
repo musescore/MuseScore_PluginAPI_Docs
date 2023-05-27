@@ -6,8 +6,8 @@ var searchData=
   ['denomspinbox_2eh',['denomspinbox.h',['../denomspinbox_8h.html',1,'']]],
   ['division_2ecpp',['division.cpp',['../division_8cpp.html',1,'']]],
   ['division_2eh',['division.h',['../division_8h.html',1,'']]],
-  ['downloadutils_2ecpp',['downloadUtils.cpp',['../download_utils_8cpp.html',1,'']]],
-  ['downloadutils_2eh',['downloadUtils.h',['../download_utils_8h.html',1,'']]],
+  ['downloadutils_2ecpp',['downloadUtils.cpp',['../downloadUtils_8cpp.html',1,'']]],
+  ['downloadutils_2eh',['downloadUtils.h',['../downloadUtils_8h.html',1,'']]],
   ['dragdrop_2ecpp',['dragdrop.cpp',['../dragdrop_8cpp.html',1,'']]],
   ['dragelement_2ecpp',['dragelement.cpp',['../dragelement_8cpp.html',1,'']]],
   ['driver_2ecpp',['driver.cpp',['../driver_8cpp.html',1,'']]],
@@ -20,12 +20,14 @@ var searchData=
   ['drumtools_2eh',['drumtools.h',['../drumtools_8h.html',1,'']]],
   ['drumview_2ecpp',['drumview.cpp',['../drumview_8cpp.html',1,'']]],
   ['drumview_2eh',['drumview.h',['../drumview_8h.html',1,'']]],
-  ['dsp_2ecpp',['dsp.cpp',['../fluid_2dsp_8cpp.html',1,'(Global Namespace)'],['../libmscore_2dsp_8cpp.html',1,'(Global Namespace)']]],
+  ['dsp_2ecpp',['dsp.cpp',['../audio_2midi_2fluid_2dsp_8cpp.html',1,'(Global Namespace)'],['../libmscore_2dsp_8cpp.html',1,'(Global Namespace)']]],
   ['dsp_2eh',['dsp.h',['../dsp_8h.html',1,'']]],
   ['duration_2ecpp',['duration.cpp',['../duration_8cpp.html',1,'']]],
   ['duration_2eh',['duration.h',['../duration_8h.html',1,'']]],
   ['durationtype_2ecpp',['durationtype.cpp',['../durationtype_8cpp.html',1,'']]],
   ['durationtype_2eh',['durationtype.h',['../durationtype_8h.html',1,'']]],
   ['dynamic_2ecpp',['dynamic.cpp',['../dynamic_8cpp.html',1,'']]],
-  ['dynamic_2eh',['dynamic.h',['../dynamic_8h.html',1,'']]]
+  ['dynamic_2eh',['dynamic.h',['../dynamic_8h.html',1,'']]],
+  ['dynamichairpingroup_2ecpp',['dynamichairpingroup.cpp',['../dynamichairpingroup_8cpp.html',1,'']]],
+  ['dynamichairpingroup_2eh',['dynamichairpingroup.h',['../dynamichairpingroup_8h.html',1,'']]]
 ];

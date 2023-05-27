@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -137,27 +137,34 @@ $(function() {
 <code>#include &quot;<a class="el" href="vibrato_8h_source.html">libmscore/vibrato.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="palmmute_8h_source.html">libmscore/palmmute.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fermata_8h_source.html">libmscore/fermata.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="measurenumber_8h_source.html">libmscore/measurenumber.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="palettetree_8h_source.html">palette/palettetree.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="palettewidget_8h_source.html">palette/palettewidget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="paletteworkspace_8h_source.html">palette/paletteworkspace.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="msqmlengine_8h_source.html">qml/msqmlengine.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="menus_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_tempo_pattern.html">Ms::TempoPattern</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1TempoPattern.html">Ms::TempoPattern</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2c02e0ccfa5c9bb07c70d9306e828d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2c02e0ccfa5c9bb07c70d9306e828d9d">Ms::populateIconPalette</a> (Palette *p, const IconAction *a)</td></tr>
+<tr class="memitem:a98dbc983fd290e13469f272c3a48c229"><td class="memItemLeft" align="right" valign="top">static Palette *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a98dbc983fd290e13469f272c3a48c229">Ms::toPalette</a> (PalettePanel *pp)</td></tr>
+<tr class="separator:a98dbc983fd290e13469f272c3a48c229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c02e0ccfa5c9bb07c70d9306e828d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2c02e0ccfa5c9bb07c70d9306e828d9d">Ms::populateIconPalette</a> (Palette *p, const IconAction *a)</td></tr>
 <tr class="separator:a2c02e0ccfa5c9bb07c70d9306e828d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31600e6fc226d159f5b584becef917cc"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QStringList &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a31600e6fc226d159f5b584becef917cc">Ms::smuflRanges</a> ()</td></tr>
+<tr class="memitem:ac451f2dffb6d583c1bf6ed1acedf7560"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac451f2dffb6d583c1bf6ed1acedf7560">Ms::populateIconPalettePanel</a> (PalettePanel *p, const IconAction *a)</td></tr>
+<tr class="separator:ac451f2dffb6d583c1bf6ed1acedf7560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31600e6fc226d159f5b584becef917cc"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QStringList &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a31600e6fc226d159f5b584becef917cc">Ms::smuflRanges</a> ()</td></tr>
 <tr class="separator:a31600e6fc226d159f5b584becef917cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

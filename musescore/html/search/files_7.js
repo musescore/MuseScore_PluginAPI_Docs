@@ -9,8 +9,8 @@ var searchData=
   ['harmonyedit_2eh',['harmonyedit.h',['../harmonyedit_8h.html',1,'']]],
   ['help_2ecpp',['help.cpp',['../help_8cpp.html',1,'']]],
   ['help_2eh',['help.h',['../help_8h.html',1,'']]],
-  ['helpbrowser_2ecpp',['helpBrowser.cpp',['../help_browser_8cpp.html',1,'']]],
-  ['helpbrowser_2eh',['helpBrowser.h',['../help_browser_8h.html',1,'']]],
+  ['helpbrowser_2ecpp',['helpBrowser.cpp',['../helpBrowser_8cpp.html',1,'']]],
+  ['helpbrowser_2eh',['helpBrowser.h',['../helpBrowser_8h.html',1,'']]],
   ['hook_2ecpp',['hook.cpp',['../hook_8cpp.html',1,'']]],
   ['hook_2eh',['hook.h',['../hook_8h.html',1,'']]]
 ];

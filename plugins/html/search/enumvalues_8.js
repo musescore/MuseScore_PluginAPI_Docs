@@ -23,6 +23,7 @@ var searchData=
   ['instrumentchangeframeround',['instrumentChangeFrameRound',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a4a128b059c84f70cbe35033f65ab10ea',1,'Ms']]],
   ['instrumentchangeframetype',['instrumentChangeFrameType',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a86131616ff3d98d6dd0a78f4593d33cf',1,'Ms']]],
   ['instrumentchangeframewidth',['instrumentChangeFrameWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a9fdd25d25da2fa2d6646c5c652d7ba96',1,'Ms']]],
+  ['instrumentchangelinespacing',['instrumentChangeLineSpacing',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27aacdc3634959cc15cc78223aa69a1bd2f',1,'Ms']]],
   ['instrumentchangemindistance',['instrumentChangeMinDistance',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a81560e3e8d1c67c00330120d8ed20719',1,'Ms']]],
   ['instrumentchangeoffset',['instrumentChangeOffset',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27ad69a5e8aee1a5ae8b5678a48ece1c79f',1,'Ms']]],
   ['instrumentchangeplacement',['instrumentChangePlacement',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a77b104f6715516db0aafb42755adfbd9',1,'Ms']]],

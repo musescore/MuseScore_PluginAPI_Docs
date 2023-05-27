@@ -1,6 +1,6 @@
 <map id="libmscore/pitchspelling.h" name="libmscore/pitchspelling.h">
-<area shape="rect" id="node2" href="$mscore_8h.html" title="mscore.h" alt="" coords="50,80,126,107"/>
-<area shape="rect" id="node4" href="$style_8h.html" title="style.h" alt="" coords="97,155,159,181"/>
-<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="87,229,169,256"/>
-<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="194,229,259,256"/>
+<area shape="rect" id="node2" href="$mscore_8h.html" title="mscore.h" alt="" coords="51,80,129,107"/>
+<area shape="rect" id="node4" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="100,155,160,181"/>
+<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="88,229,172,256"/>
+<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="197,229,261,256"/>
 </map>

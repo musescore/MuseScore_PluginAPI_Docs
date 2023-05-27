@@ -1,0 +1,11 @@
+<map id="Ms::AbstractDialog" name="Ms::AbstractDialog">
+<area shape="rect" id="node3" href="$classMs_1_1AlbumManager.html" title="Ms::AlbumManager" alt="" coords="311,5,449,32"/>
+<area shape="rect" id="node4" href="$classMs_1_1Debugger.html" title="Ms::Debugger" alt="" coords="329,56,431,83"/>
+<area shape="rect" id="node5" href="$classMs_1_1EditStyle.html" title="Ms::EditStyle" alt="" coords="331,107,429,133"/>
+<area shape="rect" id="node6" href="$classMs_1_1ExportDialog.html" title="Ms::ExportDialog" alt="" coords="319,157,441,184"/>
+<area shape="rect" id="node7" href="$classMs_1_1InstrumentsDialog.html" title="Ms::InstrumentsDialog" alt="" coords="303,208,457,235"/>
+<area shape="rect" id="node8" href="$classMs_1_1PageSettings.html" title="Ms::PageSettings" alt="" coords="319,259,441,285"/>
+<area shape="rect" id="node9" href="$classMs_1_1PreferenceDialog.html" title="Ms::PreferenceDialog" alt="" coords="307,309,453,336"/>
+<area shape="rect" id="node10" href="$classMs_1_1Startcenter.html" title="Ms::Startcenter" alt="" coords="324,360,436,387"/>
+<area shape="rect" id="node11" href="$classMs_1_1ToolbarEditor.html" title="Ms::ToolbarEditor" alt="" coords="317,411,443,437"/>
+</map>

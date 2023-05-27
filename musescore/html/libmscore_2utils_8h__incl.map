@@ -1,7 +1,8 @@
 <map id="libmscore/utils.h" name="libmscore/utils.h">
-<area shape="rect" id="node2" href="$mscore_8h.html" title="mscore.h" alt="" coords="5,80,81,107"/>
-<area shape="rect" id="node7" href="$interval_8h.html" title="interval.h" alt="" coords="106,80,181,107"/>
-<area shape="rect" id="node4" href="$style_8h.html" title="style.h" alt="" coords="53,155,114,181"/>
-<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="42,229,125,256"/>
-<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="149,229,215,256"/>
+<area shape="rect" id="node2" href="$mscore_8h.html" title="mscore.h" alt="" coords="20,80,99,107"/>
+<area shape="rect" id="node7" href="$interval_8h.html" title="interval.h" alt="" coords="124,80,198,107"/>
+<area shape="rect" id="node8" href="$sym_8h.html" title="sym.h" alt="" coords="222,80,281,107"/>
+<area shape="rect" id="node4" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="91,155,151,181"/>
+<area shape="rect" id="node5" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="30,229,114,256"/>
+<area shape="rect" id="node6" href="$types_8h.html" title="types.h" alt="" coords="138,229,202,256"/>
 </map>

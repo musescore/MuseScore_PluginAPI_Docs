@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_meter.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_meter.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -83,109 +83,114 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_meter.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__meter_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__meter_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__meter_8cpp" id="mscore_2importmidi_2importmidi__meter_8cpp">
-<area shape="rect" id="node2" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="5,95,139,121"/>
-<area shape="rect" id="node3" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="383,319,526,345"/>
-<area shape="rect" id="node6" href="mscore_8h.html" title="mscore.h" alt="" coords="1301,543,1377,569"/>
-<area shape="rect" id="node10" href="durationtype_8h.html" title="libmscore/durationtype.h" alt="" coords="902,95,1066,121"/>
-<area shape="rect" id="node21" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="337,244,469,271"/>
-<area shape="rect" id="node22" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="233,169,365,196"/>
-<area shape="rect" id="node24" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="497,95,625,121"/>
-<area shape="rect" id="node4" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="1003,468,1139,495"/>
-<area shape="rect" id="node7" href="style_8h.html" title="style.h" alt="" coords="1215,617,1276,644"/>
-<area shape="rect" id="node8" href="chordlist_8h.html" title="chordlist.h" alt="" coords="1219,692,1301,719"/>
-<area shape="rect" id="node9" href="types_8h.html" title="types.h" alt="" coords="1129,692,1194,719"/>
-<area shape="rect" id="node11" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1219,169,1277,196"/>
-<area shape="rect" id="node12" href="element_8h.html" title="element.h" alt="" coords="1167,393,1246,420"/>
-<area shape="rect" id="node15" href="shape_8h.html" title="shape.h" alt="" coords="1317,468,1385,495"/>
-<area shape="rect" id="node16" href="symbol_8h.html" title="symbol.h" alt="" coords="1136,244,1211,271"/>
-<area shape="rect" id="node18" href="noteevent_8h.html" title="noteevent.h" alt="" coords="1021,244,1112,271"/>
-<area shape="rect" id="node19" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1389,393,1494,420"/>
-<area shape="rect" id="node20" href="key_8h.html" title="key.h" alt="" coords="1286,244,1341,271"/>
-<area shape="rect" id="node13" href="spatium_8h.html" title="spatium.h" alt="" coords="1214,468,1293,495"/>
-<area shape="rect" id="node14" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1119,543,1233,569"/>
-<area shape="rect" id="node17" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="1128,319,1211,345"/>
-<area shape="rect" id="node25" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="542,169,695,196"/>
+<div class="center"><img src="importmidi__meter_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__meter_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__meter_8cpp" id="importexport_2midiimport_2importmidi__meter_8cpp">
+<area shape="rect" id="node2" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="5,95,144,121"/>
+<area shape="rect" id="node3" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="1024,319,1173,345"/>
+<area shape="rect" id="node6" href="mscore_8h.html" title="mscore.h" alt="" coords="413,617,491,644"/>
+<area shape="rect" id="node10" href="durationtype_8h.html" title="libmscore/durationtype.h" alt="" coords="730,95,899,121"/>
+<area shape="rect" id="node26" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="975,244,1111,271"/>
+<area shape="rect" id="node27" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="1080,169,1219,196"/>
+<area shape="rect" id="node29" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="1261,95,1393,121"/>
+<area shape="rect" id="node4" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="762,543,905,569"/>
+<area shape="rect" id="node7" href="libmscore_2style_8h.html" title="style.h" alt="" coords="502,692,562,719"/>
+<area shape="rect" id="node8" href="chordlist_8h.html" title="chordlist.h" alt="" coords="490,767,574,793"/>
+<area shape="rect" id="node9" href="types_8h.html" title="types.h" alt="" coords="599,767,663,793"/>
+<area shape="rect" id="node11" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="572,169,631,196"/>
+<area shape="rect" id="node12" href="element_8h.html" title="element.h" alt="" coords="675,393,755,420"/>
+<area shape="rect" id="node16" href="shape_8h.html" title="shape.h" alt="" coords="905,468,973,495"/>
+<area shape="rect" id="node18" href="sym_8h.html" title="sym.h" alt="" coords="403,468,461,495"/>
+<area shape="rect" id="node21" href="symbol_8h.html" title="symbol.h" alt="" coords="509,244,585,271"/>
+<area shape="rect" id="node23" href="noteevent_8h.html" title="noteevent.h" alt="" coords="609,244,700,271"/>
+<area shape="rect" id="node24" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="234,319,339,345"/>
+<area shape="rect" id="node25" href="key_8h.html" title="key.h" alt="" coords="380,393,433,420"/>
+<area shape="rect" id="node13" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="537,468,650,495"/>
+<area shape="rect" id="node14" href="spatium_8h.html" title="spatium.h" alt="" coords="675,468,755,495"/>
+<area shape="rect" id="node15" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="568,617,683,644"/>
+<area shape="rect" id="node17" href="sig_8h.html" title="sig.h" alt="" coords="829,468,880,495"/>
+<area shape="rect" id="node22" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="588,319,671,345"/>
+<area shape="rect" id="node30" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="1306,169,1465,196"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__meter_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_meter_1_1_node.html">Ms::Meter::Node</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1Meter_1_1Node.html">Ms::Meter::Node</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_meter"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html">Ms::Meter</a></td></tr>
+<tr class="memitem:namespaceMs_1_1Meter"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html">Ms::Meter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac9ac6f85c449eb7f3c6b3cc7a9829cea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#ac9ac6f85c449eb7f3c6b3cc7a9829cea">Ms::Meter::isSimple</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:ac9ac6f85c449eb7f3c6b3cc7a9829cea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#ac9ac6f85c449eb7f3c6b3cc7a9829cea">Ms::Meter::isSimple</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:ac9ac6f85c449eb7f3c6b3cc7a9829cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a181dd7e01d3cfd1cd43e5bec4c9f2116"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a181dd7e01d3cfd1cd43e5bec4c9f2116">Ms::Meter::isCompound</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a181dd7e01d3cfd1cd43e5bec4c9f2116"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a181dd7e01d3cfd1cd43e5bec4c9f2116">Ms::Meter::isCompound</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a181dd7e01d3cfd1cd43e5bec4c9f2116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a667c1cb2bb132a03f825e69f699c12a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a667c1cb2bb132a03f825e69f699c12a3">Ms::Meter::isComplex</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a667c1cb2bb132a03f825e69f699c12a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a667c1cb2bb132a03f825e69f699c12a3">Ms::Meter::isComplex</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a667c1cb2bb132a03f825e69f699c12a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1506fbe84cc81fec3a1b80df508b8c5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a1506fbe84cc81fec3a1b80df508b8c5e">Ms::Meter::isDuple</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a1506fbe84cc81fec3a1b80df508b8c5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a1506fbe84cc81fec3a1b80df508b8c5e">Ms::Meter::isDuple</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a1506fbe84cc81fec3a1b80df508b8c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ff2fa5197eb4f9b191d58228937456"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#ae3ff2fa5197eb4f9b191d58228937456">Ms::Meter::isTriple</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:ae3ff2fa5197eb4f9b191d58228937456"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#ae3ff2fa5197eb4f9b191d58228937456">Ms::Meter::isTriple</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:ae3ff2fa5197eb4f9b191d58228937456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b13a8bb4ea1166977d325702c89a58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a15b13a8bb4ea1166977d325702c89a58">Ms::Meter::isQuadruple</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a15b13a8bb4ea1166977d325702c89a58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a15b13a8bb4ea1166977d325702c89a58">Ms::Meter::isQuadruple</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a15b13a8bb4ea1166977d325702c89a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b951039fc005fa5613b480b48ab9883"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a6b951039fc005fa5613b480b48ab9883">Ms::Meter::isQuintuple</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a6b951039fc005fa5613b480b48ab9883"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a6b951039fc005fa5613b480b48ab9883">Ms::Meter::isQuintuple</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a6b951039fc005fa5613b480b48ab9883"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7260e3afcd07980922b847003a25ad7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#ae7260e3afcd07980922b847003a25ad7">Ms::Meter::isSeptuple</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:ae7260e3afcd07980922b847003a25ad7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#ae7260e3afcd07980922b847003a25ad7">Ms::Meter::isSeptuple</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:ae7260e3afcd07980922b847003a25ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeba500a3f2718a368b673b1bff5a9d99"><td class="memItemLeft" align="right" valign="top">DivisionInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#aeba500a3f2718a368b673b1bff5a9d99">Ms::Meter::metricDivisionsOfBar</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:aeba500a3f2718a368b673b1bff5a9d99"><td class="memItemLeft" align="right" valign="top">DivisionInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#aeba500a3f2718a368b673b1bff5a9d99">Ms::Meter::metricDivisionsOfBar</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:aeba500a3f2718a368b673b1bff5a9d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0b5fa0eb4627a4d9358abcca9a22d96"><td class="memItemLeft" align="right" valign="top">DivisionInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#aa0b5fa0eb4627a4d9358abcca9a22d96">Ms::Meter::metricDivisionsOfTuplet</a> (const MidiTuplet::TupletData &amp;tuplet, int tupletStartLevel)</td></tr>
+<tr class="memitem:aa0b5fa0eb4627a4d9358abcca9a22d96"><td class="memItemLeft" align="right" valign="top">DivisionInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#aa0b5fa0eb4627a4d9358abcca9a22d96">Ms::Meter::metricDivisionsOfTuplet</a> (const MidiTuplet::TupletData &amp;tuplet, int tupletStartLevel)</td></tr>
 <tr class="separator:aa0b5fa0eb4627a4d9358abcca9a22d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a815d433713094c9af17d1a607fc274ea"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a815d433713094c9af17d1a607fc274ea">Ms::Meter::beatLength</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a815d433713094c9af17d1a607fc274ea"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a815d433713094c9af17d1a607fc274ea">Ms::Meter::beatLength</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a815d433713094c9af17d1a607fc274ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c932fea8109902d1a9b33bf55b0ff4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ReducedFraction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#ad1c932fea8109902d1a9b33bf55b0ff4">Ms::Meter::divisionsOfBarForTuplets</a> (const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:ad1c932fea8109902d1a9b33bf55b0ff4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ReducedFraction &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#ad1c932fea8109902d1a9b33bf55b0ff4">Ms::Meter::divisionsOfBarForTuplets</a> (const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:ad1c932fea8109902d1a9b33bf55b0ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dfde2b5b199bd7126b82f269d757617"><td class="memItemLeft" align="right" valign="top">std::vector&lt; DivisionInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a4dfde2b5b199bd7126b82f269d757617">Ms::Meter::divisionInfo</a> (const ReducedFraction &amp;barFraction, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar)</td></tr>
+<tr class="memitem:a4dfde2b5b199bd7126b82f269d757617"><td class="memItemLeft" align="right" valign="top">std::vector&lt; DivisionInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a4dfde2b5b199bd7126b82f269d757617">Ms::Meter::divisionInfo</a> (const ReducedFraction &amp;barFraction, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar)</td></tr>
 <tr class="separator:a4dfde2b5b199bd7126b82f269d757617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1dca9f4f810e403859692cf19c03b22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#ad1dca9f4f810e403859692cf19c03b22">Ms::Meter::levelOfTick</a> (const ReducedFraction &amp;tick, const std::vector&lt; DivisionInfo &gt; &amp;divsInfo)</td></tr>
+<tr class="memitem:ad1dca9f4f810e403859692cf19c03b22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#ad1dca9f4f810e403859692cf19c03b22">Ms::Meter::levelOfTick</a> (const ReducedFraction &amp;<a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>, const std::vector&lt; DivisionInfo &gt; &amp;divsInfo)</td></tr>
 <tr class="separator:ad1dca9f4f810e403859692cf19c03b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56854a06c6fe5c6d0acbecd6b5df4b07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a56854a06c6fe5c6d0acbecd6b5df4b07">Ms::Meter::metricLevelsOfBar</a> (const ReducedFraction &amp;barFraction, const std::vector&lt; DivisionInfo &gt; &amp;divsInfo, const ReducedFraction &amp;minDuration)</td></tr>
+<tr class="memitem:a56854a06c6fe5c6d0acbecd6b5df4b07"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a56854a06c6fe5c6d0acbecd6b5df4b07">Ms::Meter::metricLevelsOfBar</a> (const ReducedFraction &amp;barFraction, const std::vector&lt; DivisionInfo &gt; &amp;divsInfo, const ReducedFraction &amp;minDuration)</td></tr>
 <tr class="separator:a56854a06c6fe5c6d0acbecd6b5df4b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adecc355da084c92c07587f104dbe92f6"><td class="memItemLeft" align="right" valign="top">Meter::MaxLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#adecc355da084c92c07587f104dbe92f6">Ms::Meter::maxLevelBetween</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const DivisionInfo &amp;divInfo)</td></tr>
+<tr class="memitem:adecc355da084c92c07587f104dbe92f6"><td class="memItemLeft" align="right" valign="top">Meter::MaxLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#adecc355da084c92c07587f104dbe92f6">Ms::Meter::maxLevelBetween</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const DivisionInfo &amp;divInfo)</td></tr>
 <tr class="separator:adecc355da084c92c07587f104dbe92f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348187a515096d27c8621504ab393391"><td class="memItemLeft" align="right" valign="top">Meter::MaxLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a348187a515096d27c8621504ab393391">Ms::Meter::findMaxLevelBetween</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const std::vector&lt; DivisionInfo &gt; &amp;divsInfo)</td></tr>
+<tr class="memitem:a348187a515096d27c8621504ab393391"><td class="memItemLeft" align="right" valign="top">Meter::MaxLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a348187a515096d27c8621504ab393391">Ms::Meter::findMaxLevelBetween</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const std::vector&lt; DivisionInfo &gt; &amp;divsInfo)</td></tr>
 <tr class="separator:a348187a515096d27c8621504ab393391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12c0e569ba0f1e746026cfbd02b6792e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a12c0e569ba0f1e746026cfbd02b6792e">Ms::Meter::tupletNumberForDuration</a> (const ReducedFraction &amp;startTick, const ReducedFraction &amp;endTick, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar)</td></tr>
+<tr class="memitem:a12c0e569ba0f1e746026cfbd02b6792e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a12c0e569ba0f1e746026cfbd02b6792e">Ms::Meter::tupletNumberForDuration</a> (const ReducedFraction &amp;startTick, const ReducedFraction &amp;endTick, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar)</td></tr>
 <tr class="separator:a12c0e569ba0f1e746026cfbd02b6792e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1419549b5eccbf4775be47bebdd978ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a1419549b5eccbf4775be47bebdd978ec">Ms::Meter::isPowerOfTwo</a> (unsigned int x)</td></tr>
+<tr class="memitem:a1419549b5eccbf4775be47bebdd978ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a1419549b5eccbf4775be47bebdd978ec">Ms::Meter::isPowerOfTwo</a> (unsigned int x)</td></tr>
 <tr class="separator:a1419549b5eccbf4775be47bebdd978ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af53fde33734e7cf75b124f35e12e5924"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#af53fde33734e7cf75b124f35e12e5924">Ms::Meter::isSimpleNoteDuration</a> (const ReducedFraction &amp;duration)</td></tr>
+<tr class="memitem:af53fde33734e7cf75b124f35e12e5924"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#af53fde33734e7cf75b124f35e12e5924">Ms::Meter::isSimpleNoteDuration</a> (const ReducedFraction &amp;duration)</td></tr>
 <tr class="separator:af53fde33734e7cf75b124f35e12e5924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9619e791b012a9c3165fa4a71094ab5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a9619e791b012a9c3165fa4a71094ab5e">Ms::Meter::isQuarterDuration</a> (const ReducedFraction &amp;ticks)</td></tr>
+<tr class="memitem:a9619e791b012a9c3165fa4a71094ab5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a9619e791b012a9c3165fa4a71094ab5e">Ms::Meter::isQuarterDuration</a> (const ReducedFraction &amp;ticks)</td></tr>
 <tr class="separator:a9619e791b012a9c3165fa4a71094ab5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30082402f05f691791b54aca79c8dc84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a30082402f05f691791b54aca79c8dc84">Ms::Meter::is23EndOfBeatInCompoundMeter</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a30082402f05f691791b54aca79c8dc84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a30082402f05f691791b54aca79c8dc84">Ms::Meter::is23EndOfBeatInCompoundMeter</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a30082402f05f691791b54aca79c8dc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bb9709f2f8ae24d47af0cb1f7b82998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a9bb9709f2f8ae24d47af0cb1f7b82998">Ms::Meter::is2of3RestInTripleMeter</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:a9bb9709f2f8ae24d47af0cb1f7b82998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a9bb9709f2f8ae24d47af0cb1f7b82998">Ms::Meter::is2of3RestInTripleMeter</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:a9bb9709f2f8ae24d47af0cb1f7b82998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04ed6cea4e1b160ad97b932c4b311942"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a04ed6cea4e1b160ad97b932c4b311942">Ms::Meter::findTupletRatio</a> (const ReducedFraction &amp;startPos, const ReducedFraction &amp;endPos, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar)</td></tr>
+<tr class="memitem:a04ed6cea4e1b160ad97b932c4b311942"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a04ed6cea4e1b160ad97b932c4b311942">Ms::Meter::findTupletRatio</a> (const ReducedFraction &amp;startPos, const ReducedFraction &amp;endPos, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar)</td></tr>
 <tr class="separator:a04ed6cea4e1b160ad97b932c4b311942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af147ef84c878b93a2fad071321bd8e98"><td class="memItemLeft" align="right" valign="top">QList&lt; std::pair&lt; ReducedFraction, TDuration &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#af147ef84c878b93a2fad071321bd8e98">Ms::Meter::collectDurations</a> (const std::map&lt; ReducedFraction, Node &gt; &amp;nodes, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar, bool useDots, bool printRestRemains)</td></tr>
+<tr class="memitem:af147ef84c878b93a2fad071321bd8e98"><td class="memItemLeft" align="right" valign="top">QList&lt; std::pair&lt; ReducedFraction, TDuration &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#af147ef84c878b93a2fad071321bd8e98">Ms::Meter::collectDurations</a> (const std::map&lt; ReducedFraction, Node &gt; &amp;nodes, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar, bool useDots, bool printRestRemains)</td></tr>
 <tr class="separator:af147ef84c878b93a2fad071321bd8e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89ba63499ab7570ec2643c0211bda0a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a89ba63499ab7570ec2643c0211bda0a4">Ms::Meter::badLevelCondition</a> (int startLevelDiff, int endLevelDiff, int tol)</td></tr>
+<tr class="memitem:a89ba63499ab7570ec2643c0211bda0a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a89ba63499ab7570ec2643c0211bda0a4">Ms::Meter::badLevelCondition</a> (int startLevelDiff, int endLevelDiff, int tol)</td></tr>
 <tr class="separator:a89ba63499ab7570ec2643c0211bda0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf48bcd1e888aac67e5022e9cf3c9653"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#abf48bcd1e888aac67e5022e9cf3c9653">Ms::Meter::noteCount</a> (const ReducedFraction &amp;duration, bool useDots)</td></tr>
+<tr class="memitem:abf48bcd1e888aac67e5022e9cf3c9653"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#abf48bcd1e888aac67e5022e9cf3c9653">Ms::Meter::noteCount</a> (const ReducedFraction &amp;duration, bool useDots)</td></tr>
 <tr class="separator:abf48bcd1e888aac67e5022e9cf3c9653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e8a0044af0c47e2344685d97b5117e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a0e8a0044af0c47e2344685d97b5117e5">Ms::Meter::isLessNoteCount</a> (const ReducedFraction &amp;t1, const ReducedFraction &amp;t2, const ReducedFraction &amp;t3, bool useDots)</td></tr>
+<tr class="memitem:a0e8a0044af0c47e2344685d97b5117e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a0e8a0044af0c47e2344685d97b5117e5">Ms::Meter::isLessNoteCount</a> (const ReducedFraction &amp;t1, const ReducedFraction &amp;t2, const ReducedFraction &amp;t3, bool useDots)</td></tr>
 <tr class="separator:a0e8a0044af0c47e2344685d97b5117e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac03aeee22ae58f821c227fad1b200e78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#ac03aeee22ae58f821c227fad1b200e78">Ms::Meter::excludeNodes</a> (std::map&lt; ReducedFraction, Node &gt; &amp;nodes, int tol, bool useDots)</td></tr>
+<tr class="memitem:ac03aeee22ae58f821c227fad1b200e78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#ac03aeee22ae58f821c227fad1b200e78">Ms::Meter::excludeNodes</a> (std::map&lt; ReducedFraction, Node &gt; &amp;nodes, int tol, bool useDots)</td></tr>
 <tr class="separator:ac03aeee22ae58f821c227fad1b200e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa574769868e9ca2584683c96bf0d5aba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#aa574769868e9ca2584683c96bf0d5aba">Ms::Meter::adjustEdgeLevelIfTuplet</a> (const Meter::MaxLevel &amp;splitPoint, const std::vector&lt; DivisionInfo &gt; &amp;divInfo)</td></tr>
+<tr class="memitem:aa574769868e9ca2584683c96bf0d5aba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#aa574769868e9ca2584683c96bf0d5aba">Ms::Meter::adjustEdgeLevelIfTuplet</a> (const Meter::MaxLevel &amp;splitPoint, const std::vector&lt; DivisionInfo &gt; &amp;divInfo)</td></tr>
 <tr class="separator:aa574769868e9ca2584683c96bf0d5aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc6984b0618381586856fb7d63df7f5"><td class="memItemLeft" align="right" valign="top">QList&lt; std::pair&lt; ReducedFraction, TDuration &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_meter.html#a9fc6984b0618381586856fb7d63df7f5">Ms::Meter::toDurationList</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const ReducedFraction &amp;barFraction, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar, DurationType durationType, bool useDots, bool printRestRemains)</td></tr>
+<tr class="memitem:a9fc6984b0618381586856fb7d63df7f5"><td class="memItemLeft" align="right" valign="top">QList&lt; std::pair&lt; ReducedFraction, TDuration &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1Meter.html#a9fc6984b0618381586856fb7d63df7f5">Ms::Meter::toDurationList</a> (const ReducedFraction &amp;startTickInBar, const ReducedFraction &amp;endTickInBar, const ReducedFraction &amp;barFraction, const std::vector&lt; MidiTuplet::TupletData &gt; &amp;tupletsInBar, DurationType durationType, bool useDots, bool printRestRemains)</td></tr>
 <tr class="separator:a9fc6984b0618381586856fb7d63df7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

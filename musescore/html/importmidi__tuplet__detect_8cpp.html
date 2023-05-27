@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_tuplet_detect.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_tuplet_detect.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -84,57 +84,59 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_tuplet_detect.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__tuplet__detect_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__tuplet__detect_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__tuplet__detect_8cpp" id="mscore_2importmidi_2importmidi__tuplet__detect_8cpp">
-<area shape="rect" id="node2" href="importmidi__tuplet__detect_8h.html" title="importmidi_tuplet_detect.h" alt="" coords="5,95,180,121"/>
-<area shape="rect" id="node3" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="193,333,325,360"/>
-<area shape="rect" id="node11" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="1205,95,1338,121"/>
-<area shape="rect" id="node12" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="307,259,439,285"/>
-<area shape="rect" id="node14" href="importmidi__quant_8h.html" title="importmidi_quant.h" alt="" coords="973,177,1105,203"/>
-<area shape="rect" id="node17" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="557,177,685,203"/>
-<area shape="rect" id="node21" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="755,95,915,121"/>
-<area shape="rect" id="node25" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="1363,95,1511,121"/>
-<area shape="rect" id="node4" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="415,408,557,435"/>
-<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="493,483,629,509"/>
-<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="485,557,561,584"/>
-<area shape="rect" id="node8" href="style_8h.html" title="style.h" alt="" coords="439,632,501,659"/>
-<area shape="rect" id="node9" href="chordlist_8h.html" title="chordlist.h" alt="" coords="429,707,511,733"/>
-<area shape="rect" id="node10" href="types_8h.html" title="types.h" alt="" coords="339,707,404,733"/>
-<area shape="rect" id="node15" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="976,259,1129,285"/>
-<area shape="rect" id="node22" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="784,177,887,203"/>
-<area shape="rect" id="node23" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="736,408,847,435"/>
-<area shape="rect" id="node24" href="event_8h.html" title="synthesizer/event.h" alt="" coords="765,259,901,285"/>
-<area shape="rect" id="node26" href="globals_8h.html" title="globals.h" alt="" coords="1466,177,1541,203"/>
+<div class="center"><img src="importmidi__tuplet__detect_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__tuplet__detect_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__tuplet__detect_8cpp" id="importexport_2midiimport_2importmidi__tuplet__detect_8cpp">
+<area shape="rect" id="node2" href="importmidi__tuplet__detect_8h.html" title="importmidi_tuplet_detect.h" alt="" coords="5,95,184,121"/>
+<area shape="rect" id="node3" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="257,333,393,360"/>
+<area shape="rect" id="node11" href="importmidi__meter_8h.html" title="importmidi_meter.h" alt="" coords="1149,95,1288,121"/>
+<area shape="rect" id="node12" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="309,259,448,285"/>
+<area shape="rect" id="node14" href="importmidi__quant_8h.html" title="importmidi_quant.h" alt="" coords="627,95,765,121"/>
+<area shape="rect" id="node17" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="523,177,655,203"/>
+<area shape="rect" id="node21" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="789,95,955,121"/>
+<area shape="rect" id="node25" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="1312,95,1464,121"/>
+<area shape="rect" id="node4" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="664,408,813,435"/>
+<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="745,483,887,509"/>
+<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="738,557,817,584"/>
+<area shape="rect" id="node8" href="libmscore_2style_8h.html" title="style.h" alt="" coords="694,632,754,659"/>
+<area shape="rect" id="node9" href="chordlist_8h.html" title="chordlist.h" alt="" coords="682,707,766,733"/>
+<area shape="rect" id="node10" href="types_8h.html" title="types.h" alt="" coords="593,707,657,733"/>
+<area shape="rect" id="node15" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="777,259,935,285"/>
+<area shape="rect" id="node22" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="919,177,1065,203"/>
+<area shape="rect" id="node23" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="920,408,1035,435"/>
+<area shape="rect" id="node24" href="event_8h.html" title="event.h" alt="" coords="960,259,1024,285"/>
+<area shape="rect" id="node27" href="globals_8h.html" title="globals.h" alt="" coords="1351,177,1425,203"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__tuplet__detect_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_midi_tuplet"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html">Ms::MidiTuplet</a></td></tr>
+<tr class="memitem:namespaceMs_1_1MidiTuplet"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html">Ms::MidiTuplet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aeedce272d75035267a0f4dc2379cb9f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#aeedce272d75035267a0f4dc2379cb9f1">Ms::MidiTuplet::isTupletAllowed</a> (const TupletInfo &amp;tupletInfo)</td></tr>
+<tr class="memitem:aeedce272d75035267a0f4dc2379cb9f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#aeedce272d75035267a0f4dc2379cb9f1">Ms::MidiTuplet::isTupletAllowed</a> (const TupletInfo &amp;tupletInfo)</td></tr>
 <tr class="separator:aeedce272d75035267a0f4dc2379cb9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacc87a08d4b30cbe7e72b2c921b2c473"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#aacc87a08d4b30cbe7e72b2c921b2c473">Ms::MidiTuplet::findTupletNumbers</a> (const ReducedFraction &amp;divLen, const ReducedFraction &amp;barFraction)</td></tr>
+<tr class="memitem:aacc87a08d4b30cbe7e72b2c921b2c473"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#aacc87a08d4b30cbe7e72b2c921b2c473">Ms::MidiTuplet::findTupletNumbers</a> (const ReducedFraction &amp;divLen, const ReducedFraction &amp;barFraction)</td></tr>
 <tr class="separator:aacc87a08d4b30cbe7e72b2c921b2c473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3c10d31e925fe12f8242342d9ee95cb"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#ad3c10d31e925fe12f8242342d9ee95cb">Ms::MidiTuplet::findSumLengthOfRests</a> (const TupletInfo &amp;tupletInfo, const ReducedFraction &amp;startBarTick)</td></tr>
+<tr class="memitem:ad3c10d31e925fe12f8242342d9ee95cb"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#ad3c10d31e925fe12f8242342d9ee95cb">Ms::MidiTuplet::findSumLengthOfRests</a> (const TupletInfo &amp;tupletInfo, const ReducedFraction &amp;startBarTick)</td></tr>
 <tr class="separator:ad3c10d31e925fe12f8242342d9ee95cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafaac131f3e3ee6892fd1447af953019"><td class="memItemLeft" align="right" valign="top">TupletInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#aafaac131f3e3ee6892fd1447af953019">Ms::MidiTuplet::findTupletApproximation</a> (const ReducedFraction &amp;tupletLen, int tupletNumber, const ReducedFraction &amp;basicQuant, const ReducedFraction &amp;startTupletTime, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;startChordIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;endChordIt)</td></tr>
+<tr class="memitem:aafaac131f3e3ee6892fd1447af953019"><td class="memItemLeft" align="right" valign="top">TupletInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#aafaac131f3e3ee6892fd1447af953019">Ms::MidiTuplet::findTupletApproximation</a> (const ReducedFraction &amp;tupletLen, int tupletNumber, const ReducedFraction &amp;basicQuant, const ReducedFraction &amp;startTupletTime, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;startChordIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;endChordIt)</td></tr>
 <tr class="separator:aafaac131f3e3ee6892fd1447af953019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d6f95205c54c7ea74a4db1f4f347c6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#a3d6f95205c54c7ea74a4db1f4f347c6e">Ms::MidiTuplet::detectStaccato</a> (TupletInfo &amp;tuplet)</td></tr>
+<tr class="memitem:a3d6f95205c54c7ea74a4db1f4f347c6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#a3d6f95205c54c7ea74a4db1f4f347c6e">Ms::MidiTuplet::detectStaccato</a> (TupletInfo &amp;tuplet)</td></tr>
 <tr class="separator:a3d6f95205c54c7ea74a4db1f4f347c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7aee4e6bd5a1a2a02dc9a602855a1ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#ae7aee4e6bd5a1a2a02dc9a602855a1ed">Ms::MidiTuplet::haveChordsInTheMiddleBetweenTupletChords</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator startDivChordIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator endDivChordIt, const TupletInfo &amp;tuplet)</td></tr>
+<tr class="memitem:ae7aee4e6bd5a1a2a02dc9a602855a1ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#ae7aee4e6bd5a1a2a02dc9a602855a1ed">Ms::MidiTuplet::haveChordsInTheMiddleBetweenTupletChords</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator startDivChordIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator endDivChordIt, const TupletInfo &amp;tuplet)</td></tr>
 <tr class="separator:ae7aee4e6bd5a1a2a02dc9a602855a1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc9dd6c3a2e9c4a72c4141845940f7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#accc9dd6c3a2e9c4a72c4141845940f7a">Ms::MidiTuplet::isTupletLenAllowed</a> (const ReducedFraction &amp;tupletLen, int tupletNumber, const std::multimap&lt; ReducedFraction, MidiChord &gt;::const_iterator beg, const std::multimap&lt; ReducedFraction, MidiChord &gt;::const_iterator end, const ReducedFraction &amp;basicQuant)</td></tr>
+<tr class="memitem:accc9dd6c3a2e9c4a72c4141845940f7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#accc9dd6c3a2e9c4a72c4141845940f7a">Ms::MidiTuplet::isTupletLenAllowed</a> (const ReducedFraction &amp;tupletLen, int tupletNumber, const std::multimap&lt; ReducedFraction, MidiChord &gt;::const_iterator beg, const std::multimap&lt; ReducedFraction, MidiChord &gt;::const_iterator end, const ReducedFraction &amp;basicQuant)</td></tr>
 <tr class="separator:accc9dd6c3a2e9c4a72c4141845940f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd531826b9461a6e3b1450786b5bf91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#a1bd531826b9461a6e3b1450786b5bf91">Ms::MidiTuplet::isNextBarOwnershipOk</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;startIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;endIt, const std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords, int barIndex)</td></tr>
+<tr class="memitem:a1bd531826b9461a6e3b1450786b5bf91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#a1bd531826b9461a6e3b1450786b5bf91">Ms::MidiTuplet::isNextBarOwnershipOk</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;startIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;endIt, const std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords, int barIndex)</td></tr>
 <tr class="separator:a1bd531826b9461a6e3b1450786b5bf91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecdea3ce819ff4b89721bb2a65c5995f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; TupletInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_tuplet.html#aecdea3ce819ff4b89721bb2a65c5995f">Ms::MidiTuplet::detectTuplets</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;startBarChordIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;endBarChordIt, const ReducedFraction &amp;startBarTick, const ReducedFraction &amp;barFraction, std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords, const ReducedFraction &amp;basicQuant, int barIndex)</td></tr>
+<tr class="memitem:aecdea3ce819ff4b89721bb2a65c5995f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; TupletInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiTuplet.html#aecdea3ce819ff4b89721bb2a65c5995f">Ms::MidiTuplet::detectTuplets</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;startBarChordIt, const std::multimap&lt; ReducedFraction, MidiChord &gt;::iterator &amp;endBarChordIt, const ReducedFraction &amp;startBarTick, const ReducedFraction &amp;barFraction, std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords, const ReducedFraction &amp;basicQuant, int barIndex)</td></tr>
 <tr class="separator:aecdea3ce819ff4b89721bb2a65c5995f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

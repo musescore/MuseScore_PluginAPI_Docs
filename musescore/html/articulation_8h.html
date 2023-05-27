@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -76,20 +76,24 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="element_8h_source.html">element.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mscore_8h_source.html">mscore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for articulation.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="articulation_8h__incl.png" border="0" usemap="#libmscore_2articulation_8h" alt=""/></div>
 <map name="libmscore_2articulation_8h" id="libmscore_2articulation_8h">
-<area shape="rect" id="node2" href="element_8h.html" title="element.h" alt="" coords="197,80,276,107"/>
-<area shape="rect" id="node6" href="mscore_8h.html" title="mscore.h" alt="" coords="165,229,241,256"/>
-<area shape="rect" id="node3" href="spatium_8h.html" title="spatium.h" alt="" coords="197,155,276,181"/>
-<area shape="rect" id="node4" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="97,155,173,181"/>
-<area shape="rect" id="node10" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="265,229,379,256"/>
-<area shape="rect" id="node11" href="shape_8h.html" title="shape.h" alt="" coords="5,155,73,181"/>
-<area shape="rect" id="node7" href="style_8h.html" title="style.h" alt="" coords="234,304,295,331"/>
-<area shape="rect" id="node8" href="chordlist_8h.html" title="chordlist.h" alt="" coords="215,379,298,405"/>
-<area shape="rect" id="node9" href="types_8h.html" title="types.h" alt="" coords="323,379,388,405"/>
+<area shape="rect" id="node2" href="element_8h.html" title="element.h" alt="" coords="292,80,372,107"/>
+<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="121,304,200,331"/>
+<area shape="rect" id="node14" href="sym_8h.html" title="sym.h" alt="" coords="539,155,598,181"/>
+<area shape="rect" id="node3" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="276,155,389,181"/>
+<area shape="rect" id="node4" href="spatium_8h.html" title="spatium.h" alt="" coords="120,155,200,181"/>
+<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="356,229,434,256"/>
+<area shape="rect" id="node11" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="224,304,339,331"/>
+<area shape="rect" id="node12" href="shape_8h.html" title="shape.h" alt="" coords="28,155,96,181"/>
+<area shape="rect" id="node13" href="sig_8h.html" title="sig.h" alt="" coords="464,155,515,181"/>
+<area shape="rect" id="node8" href="libmscore_2style_8h.html" title="style.h" alt="" coords="268,379,328,405"/>
+<area shape="rect" id="node9" href="chordlist_8h.html" title="chordlist.h" alt="" coords="286,453,370,480"/>
+<area shape="rect" id="node10" href="types_8h.html" title="types.h" alt="" coords="198,453,262,480"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -97,48 +101,50 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="articulation_8h__dep__incl.png" border="0" usemap="#libmscore_2articulation_8hdep" alt=""/></div>
 <map name="libmscore_2articulation_8hdep" id="libmscore_2articulation_8hdep">
-<area shape="rect" id="node2" href="articulation_8cpp.html" title="libmscore/articulation.cpp" alt="" coords="5,80,176,107"/>
-<area shape="rect" id="node3" href="barline_8cpp.html" title="libmscore/barline.cpp" alt="" coords="201,80,346,107"/>
-<area shape="rect" id="node4" href="chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="371,80,509,107"/>
-<area shape="rect" id="node5" href="chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="534,80,695,107"/>
-<area shape="rect" id="node6" href="cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="719,80,851,107"/>
-<area shape="rect" id="node7" href="drumset_8cpp.html" title="libmscore/drumset.cpp" alt="" coords="876,80,1031,107"/>
-<area shape="rect" id="node8" href="edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="1055,80,1183,107"/>
-<area shape="rect" id="node9" href="element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="1207,80,1361,107"/>
-<area shape="rect" id="node10" href="libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="1385,80,1553,107"/>
-<area shape="rect" id="node11" href="layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="1578,80,1721,107"/>
-<area shape="rect" id="node12" href="measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="1745,80,1903,107"/>
-<area shape="rect" id="node13" href="note_8cpp.html" title="Implementation of classes Note and ShadowNote. " alt="" coords="1927,80,2059,107"/>
-<area shape="rect" id="node14" href="paste_8cpp.html" title="libmscore/paste.cpp" alt="" coords="2084,80,2223,107"/>
-<area shape="rect" id="node15" href="read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="2247,80,2401,107"/>
-<area shape="rect" id="node16" href="rendermidi_8cpp.html" title="render score into event list " alt="" coords="2425,80,2591,107"/>
-<area shape="rect" id="node17" href="rest_8cpp.html" title="libmscore/rest.cpp" alt="" coords="2615,80,2745,107"/>
-<area shape="rect" id="node18" href="libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="2769,80,2908,107"/>
-<area shape="rect" id="node19" href="select_8cpp.html" title="Implementation of class Selection plus other selection related functions. " alt="" coords="2933,80,3075,107"/>
-<area shape="rect" id="node20" href="slur_8cpp.html" title="libmscore/slur.cpp" alt="" coords="3100,80,3228,107"/>
-<area shape="rect" id="node21" href="style_8cpp.html" title="libmscore/style.cpp" alt="" coords="3253,80,3387,107"/>
-<area shape="rect" id="node22" href="undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="3411,80,3546,107"/>
-<area shape="rect" id="node23" href="articulationprop_8cpp.html" title="mscore/articulationprop.cpp" alt="" coords="3570,80,3753,107"/>
-<area shape="rect" id="node24" href="capella_8cpp.html" title="mscore/capella.cpp" alt="" coords="3777,80,3911,107"/>
-<area shape="rect" id="node25" href="debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="3935,80,4139,107"/>
-<area shape="rect" id="node26" href="editstyle_8cpp.html" title="mscore/editstyle.cpp" alt="" coords="4163,80,4306,107"/>
-<area shape="rect" id="node27" href="exportly_8cpp.html" title="mscore/exportly.cpp" alt="" coords="4330,80,4470,107"/>
-<area shape="rect" id="node28" href="exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="4494,80,4645,107"/>
-<area shape="rect" id="node29" href="importgtp-gp4_8cpp.html" title="mscore/importgtp&#45;gp4.cpp" alt="" coords="4669,80,4843,107"/>
-<area shape="rect" id="node30" href="importgtp-gp5_8cpp.html" title="mscore/importgtp&#45;gp5.cpp" alt="" coords="4867,80,5040,107"/>
-<area shape="rect" id="node31" href="importgtp-gp6_8cpp.html" title="mscore/importgtp&#45;gp6.cpp" alt="" coords="5064,80,5237,107"/>
-<area shape="rect" id="node32" href="importgtp_8cpp.html" title="mscore/importgtp.cpp" alt="" coords="5262,80,5410,107"/>
-<area shape="rect" id="node33" href="importmidi_8cpp.html" title="mscore/importmidi/importmidi.cpp" alt="" coords="5435,80,5653,107"/>
-<area shape="rect" id="node34" href="importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="5677,80,5875,107"/>
-<area shape="rect" id="node35" href="importove_8cpp.html" title="mscore/importove.cpp" alt="" coords="5899,80,6050,107"/>
-<area shape="rect" id="node36" href="importptb_8cpp.html" title="mscore/importptb.cpp" alt="" coords="6074,80,6222,107"/>
-<area shape="rect" id="node37" href="inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="6246,80,6450,107"/>
-<area shape="rect" id="node38" href="menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="6475,80,6608,107"/>
-<area shape="rect" id="node39" href="musedata_8cpp.html" title="mscore/musedata.cpp" alt="" coords="6633,80,6783,107"/>
-<area shape="rect" id="node40" href="palettetree_8cpp.html" title="mscore/palette/palettetree.cpp" alt="" coords="6807,80,7006,107"/>
-<area shape="rect" id="node41" href="propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="7031,80,7204,107"/>
-<area shape="rect" id="node42" href="scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="7229,80,7382,107"/>
-<area shape="rect" id="node43" href="selectdialog_8cpp.html" title="Implementation of class Selection plus other selection related functions. " alt="" coords="7407,80,7569,107"/>
+<area shape="rect" id="node2" href="capella_8cpp.html" title="importexport/capella\l/capella.cpp" alt="" coords="5,80,152,121"/>
+<area shape="rect" id="node3" href="importgtp-gp4_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp4.cpp" alt="" coords="176,80,333,121"/>
+<area shape="rect" id="node4" href="importgtp-gp5_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp5.cpp" alt="" coords="357,80,515,121"/>
+<area shape="rect" id="node5" href="importgtp-gp6_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp6.cpp" alt="" coords="539,80,696,121"/>
+<area shape="rect" id="node6" href="importgtp_8cpp.html" title="importexport/guitarpro\l/importgtp.cpp" alt="" coords="720,80,877,121"/>
+<area shape="rect" id="node7" href="importptb_8cpp.html" title="importexport/guitarpro\l/importptb.cpp" alt="" coords="901,80,1059,121"/>
+<area shape="rect" id="node8" href="importmidi_8cpp.html" title="importexport/midiimport\l/importmidi.cpp" alt="" coords="1083,80,1253,121"/>
+<area shape="rect" id="node9" href="musedata_8cpp.html" title="importexport/musedata\l/musedata.cpp" alt="" coords="1278,80,1442,121"/>
+<area shape="rect" id="node10" href="exportxml_8cpp.html" title="importexport/musicxml\l/exportxml.cpp" alt="" coords="1467,80,1629,121"/>
+<area shape="rect" id="node11" href="importmxmlpass2_8cpp.html" title="importexport/musicxml\l/importmxmlpass2.cpp" alt="" coords="1653,80,1816,121"/>
+<area shape="rect" id="node12" href="musicxmlsupport_8cpp.html" title="importexport/musicxml\l/musicxmlsupport.cpp" alt="" coords="1840,80,2003,121"/>
+<area shape="rect" id="node13" href="importove_8cpp.html" title="importexport/ove/importove.cpp" alt="" coords="2027,87,2245,114"/>
+<area shape="rect" id="node14" href="articulation_8cpp.html" title="libmscore/articulation.cpp" alt="" coords="2269,87,2445,114"/>
+<area shape="rect" id="node15" href="barline_8cpp.html" title="libmscore/barline.cpp" alt="" coords="2470,87,2621,114"/>
+<area shape="rect" id="node16" href="chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="2645,87,2790,114"/>
+<area shape="rect" id="node17" href="chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="2814,87,2981,114"/>
+<area shape="rect" id="node18" href="cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="3005,87,3144,114"/>
+<area shape="rect" id="node20" href="drumset_8cpp.html" title="libmscore/drumset.cpp" alt="" coords="3169,87,3330,114"/>
+<area shape="rect" id="node21" href="edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="3355,87,3488,114"/>
+<area shape="rect" id="node22" href="element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="3513,87,3671,114"/>
+<area shape="rect" id="node23" href="libmscore_2instrument_8cpp.html" title="libmscore/instrument.cpp" alt="" coords="3695,87,3870,114"/>
+<area shape="rect" id="node24" href="layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="3895,87,4041,114"/>
+<area shape="rect" id="node25" href="measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="4065,87,4228,114"/>
+<area shape="rect" id="node26" href="note_8cpp.html" title="Implementation of classes Note and ShadowNote. " alt="" coords="4253,87,4390,114"/>
+<area shape="rect" id="node27" href="paste_8cpp.html" title="libmscore/paste.cpp" alt="" coords="4414,87,4557,114"/>
+<area shape="rect" id="node28" href="read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="4581,87,4739,114"/>
+<area shape="rect" id="node29" href="rendermidi_8cpp.html" title="render score into event list " alt="" coords="4763,87,4938,114"/>
+<area shape="rect" id="node30" href="rest_8cpp.html" title="libmscore/rest.cpp" alt="" coords="4963,87,5096,114"/>
+<area shape="rect" id="node31" href="libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="5120,87,5264,114"/>
+<area shape="rect" id="node32" href="select_8cpp.html" title="Implementation of class Selection plus other selection related functions. " alt="" coords="5288,87,5435,114"/>
+<area shape="rect" id="node33" href="slur_8cpp.html" title="libmscore/slur.cpp" alt="" coords="5459,87,5591,114"/>
+<area shape="rect" id="node34" href="libmscore_2style_8cpp.html" title="libmscore/style.cpp" alt="" coords="5616,87,5755,114"/>
+<area shape="rect" id="node35" href="undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="5779,87,5920,114"/>
+<area shape="rect" id="node36" href="articulationprop_8cpp.html" title="mscore/articulationprop.cpp" alt="" coords="5944,87,6133,114"/>
+<area shape="rect" id="node37" href="debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="6157,87,6371,114"/>
+<area shape="rect" id="node38" href="editstyle_8cpp.html" title="mscore/editstyle.cpp" alt="" coords="6395,87,6541,114"/>
+<area shape="rect" id="node39" href="exportly_8cpp.html" title="mscore/exportly.cpp" alt="" coords="6566,87,6711,114"/>
+<area shape="rect" id="node40" href="inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="6736,87,6949,114"/>
+<area shape="rect" id="node41" href="menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="6973,87,7112,114"/>
+<area shape="rect" id="node42" href="palettetree_8cpp.html" title="mscore/palette/palettetree.cpp" alt="" coords="7137,87,7341,114"/>
+<area shape="rect" id="node43" href="propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="7365,87,7544,114"/>
+<area shape="rect" id="node44" href="scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="7569,87,7725,114"/>
+<area shape="rect" id="node45" href="selectdialog_8cpp.html" title="Implementation of class Selection plus other selection related functions. " alt="" coords="7749,87,7918,114"/>
+<area shape="rect" id="node19" href="scoremigrationdialogmodel_8cpp.html" title="mscore/migration/scoremigrationdialogmodel.cpp" alt="" coords="2914,169,3235,196"/>
 </map>
 </div>
 </div>
@@ -146,38 +152,38 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_articulation.html">Ms::Articulation</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">articulation marks  <a href="class_ms_1_1_articulation.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Articulation.html">Ms::Articulation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">articulation marks  <a href="classMs_1_1Articulation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2d43ff9c26edae64d956fd7a345356b4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2d43ff9c26edae64d956fd7a345356b4">Ms::ArticulationAnchor</a> : char { <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a2d43ff9c26edae64d956fd7a345356b4a14128c7820edf23278fe5ab9517285d4">Ms::ArticulationAnchor::TOP_STAFF</a>, 
-<a class="el" href="namespace_ms.html#a2d43ff9c26edae64d956fd7a345356b4a70e9ff3e9bf71a399ba1421840228f40">Ms::ArticulationAnchor::BOTTOM_STAFF</a>, 
-<a class="el" href="namespace_ms.html#a2d43ff9c26edae64d956fd7a345356b4a45d886b842022787183a308e0200d336">Ms::ArticulationAnchor::CHORD</a>, 
-<a class="el" href="namespace_ms.html#a2d43ff9c26edae64d956fd7a345356b4ae5ac5a74975d63c6e0f6d27d26e860cc">Ms::ArticulationAnchor::TOP_CHORD</a>, 
+<tr class="memitem:a2d43ff9c26edae64d956fd7a345356b4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2d43ff9c26edae64d956fd7a345356b4">Ms::ArticulationAnchor</a> : char { <br />
+&#160;&#160;<a class="el" href="namespaceMs.html#a2d43ff9c26edae64d956fd7a345356b4a14128c7820edf23278fe5ab9517285d4">Ms::ArticulationAnchor::TOP_STAFF</a>, 
+<a class="el" href="namespaceMs.html#a2d43ff9c26edae64d956fd7a345356b4a70e9ff3e9bf71a399ba1421840228f40">Ms::ArticulationAnchor::BOTTOM_STAFF</a>, 
+<a class="el" href="namespaceMs.html#a2d43ff9c26edae64d956fd7a345356b4a45d886b842022787183a308e0200d336">Ms::ArticulationAnchor::CHORD</a>, 
+<a class="el" href="namespaceMs.html#a2d43ff9c26edae64d956fd7a345356b4ae5ac5a74975d63c6e0f6d27d26e860cc">Ms::ArticulationAnchor::TOP_CHORD</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_ms.html#a2d43ff9c26edae64d956fd7a345356b4a2c0976b82e014c3f42356f3ad8dab365">Ms::ArticulationAnchor::BOTTOM_CHORD</a>
+&#160;&#160;<a class="el" href="namespaceMs.html#a2d43ff9c26edae64d956fd7a345356b4a2c0976b82e014c3f42356f3ad8dab365">Ms::ArticulationAnchor::BOTTOM_CHORD</a>
 <br />
  }</td></tr>
 <tr class="separator:a2d43ff9c26edae64d956fd7a345356b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae609f4496ada1b4441d8034adda5fd1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ae609f4496ada1b4441d8034adda5fd1d">Ms::ArticulationShowIn</a> : char { <a class="el" href="namespace_ms.html#ae609f4496ada1b4441d8034adda5fd1da882f5fa2dfb268c46087f64fda5008ed">Ms::ArticulationShowIn::PITCHED_STAFF</a> = 1, 
-<a class="el" href="namespace_ms.html#ae609f4496ada1b4441d8034adda5fd1da1f084bd26710dc812effdc680b68d807">Ms::ArticulationShowIn::TABLATURE</a> = 2
+<tr class="memitem:ae609f4496ada1b4441d8034adda5fd1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae609f4496ada1b4441d8034adda5fd1d">Ms::ArticulationShowIn</a> : char { <a class="el" href="namespaceMs.html#ae609f4496ada1b4441d8034adda5fd1da882f5fa2dfb268c46087f64fda5008ed">Ms::ArticulationShowIn::PITCHED_STAFF</a> = 1, 
+<a class="el" href="namespaceMs.html#ae609f4496ada1b4441d8034adda5fd1da1f084bd26710dc812effdc680b68d807">Ms::ArticulationShowIn::TABLATURE</a> = 2
  }</td></tr>
 <tr class="separator:ae609f4496ada1b4441d8034adda5fd1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a75ba7c9950b5e6dc67b6d0134a9215a2"><td class="memItemLeft" align="right" valign="top">constexpr ArticulationShowIn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a75ba7c9950b5e6dc67b6d0134a9215a2">Ms::operator|</a> (ArticulationShowIn a1, ArticulationShowIn a2)</td></tr>
+<tr class="memitem:a75ba7c9950b5e6dc67b6d0134a9215a2"><td class="memItemLeft" align="right" valign="top">constexpr ArticulationShowIn&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a75ba7c9950b5e6dc67b6d0134a9215a2">Ms::operator|</a> (ArticulationShowIn a1, ArticulationShowIn a2)</td></tr>
 <tr class="separator:a75ba7c9950b5e6dc67b6d0134a9215a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52544faf6df5e4a9ddcc5aa2d8b51c0f"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a52544faf6df5e4a9ddcc5aa2d8b51c0f">Ms::operator &amp;</a> (ArticulationShowIn a1, ArticulationShowIn a2)</td></tr>
+<tr class="memitem:a52544faf6df5e4a9ddcc5aa2d8b51c0f"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a52544faf6df5e4a9ddcc5aa2d8b51c0f">Ms::operator &amp;</a> (ArticulationShowIn a1, ArticulationShowIn a2)</td></tr>
 <tr class="separator:a52544faf6df5e4a9ddcc5aa2d8b51c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

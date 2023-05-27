@@ -1,0 +1,10 @@
+<map id="mscore/iplaypanel.h" name="mscore/iplaypanel.h">
+<area shape="rect" id="node2" href="$jackaudio_8cpp.html" title="audio/drivers/jackaudio.cpp" alt="" coords="189,80,379,107"/>
+<area shape="rect" id="node3" href="$playpanel_8h.html" title="mscore/playpanel.h" alt="" coords="404,80,543,107"/>
+<area shape="rect" id="node4" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="5,155,120,181"/>
+<area shape="rect" id="node5" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="145,155,309,181"/>
+<area shape="rect" id="node6" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="333,155,453,181"/>
+<area shape="rect" id="node7" href="$playpanel_8cpp.html" title="mscore/playpanel.cpp" alt="" coords="477,155,629,181"/>
+<area shape="rect" id="node8" href="$scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="653,155,856,181"/>
+<area shape="rect" id="node9" href="$seq_8cpp.html" title="mscore/seq.cpp" alt="" coords="880,155,1000,181"/>
+</map>

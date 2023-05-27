@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_channel_actions.html" title="Ms::ChannelActions" alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node1" href="$classMs_1_1Avs_1_1IAvsOmrRecognizer.html" title="Ms::Avs::IAvsOmrRecognizer" alt="" coords="5,31,196,57"/>
+<area shape="rect" id="node2" href="$classMs_1_1Avs_1_1AvsOmrLocalRecognizer.html" title="Ms::Avs::AvsOmrLocalRecognizer" alt="" coords="244,5,463,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1Avs_1_1AvsOmrNetRecognizer.html" title="Ms::Avs::AvsOmrNetRecognizer" alt="" coords="249,56,457,83"/>
 </map>

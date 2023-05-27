@@ -1,0 +1,10 @@
+<map id="Ms::PartChannelSettingsLink" name="Ms::PartChannelSettingsLink">
+<area shape="rect" id="node2" href="$classMs_1_1ChannelListener.html" title="Ms::ChannelListener" alt="" coords="960,5,1101,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1Listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="499,41,650,82"/>
+<area shape="rect" id="node4" href="$classMs_1_1Notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="1125,115,1273,157"/>
+<area shape="rect" id="node11" href="$classMs_1_1Channel.html" title="Ms::Channel" alt="" coords="1372,123,1467,149"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="164,183,276,209"/>
+<area shape="rect" id="node8" href="$classMs_1_1Notifier.html" title="Ms::Notifier\&lt; Data \&gt;" alt="" coords="783,183,922,209"/>
+<area shape="rect" id="node10" href="$classMs_1_1Listener.html" title="Ms::Listener\&lt; Data \&gt;" alt="" coords="149,48,291,75"/>
+<area shape="rect" id="node13" href="$classMs_1_1MidiCoreEvent.html" title="Ms::MidiCoreEvent" alt="" coords="154,273,286,300"/>
+</map>

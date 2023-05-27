@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: zerberus/voice.cpp File Reference</title>
+<title>MuseScore: audio/midi/zerberus/voice.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,43 +61,78 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_e54e9887615514ebe55a795451749e6c.html">zerberus</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a5f32cf82ad289a7dac212f63f40f55b.html">audio</a></li><li class="navelem"><a class="el" href="dir_3824a7ec5b12b565edaf034255c94bb9.html">midi</a></li><li class="navelem"><a class="el" href="dir_60f9db8706008458eb2177d6ddfcc9b0.html">zerberus</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">voice.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="zerberus_2voice_8h_source.html">voice.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="zerberus_2instrument_8h_source.html">instrument.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="audio_2midi_2zerberus_2instrument_8h_source.html">instrument.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="channel_8h_source.html">channel.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="zerberus_8h_source.html">zerberus.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="zone_8h_source.html">zone.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sample_8h_source.html">sample.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="msynthesizer_8h_source.html">synthesizer/msynthesizer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="msynthesizer_8h_source.html">midi/msynthesizer.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for voice.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="zerberus_2voice_8cpp__incl.png" border="0" usemap="#zerberus_2voice_8cpp" alt=""/></div>
-<map name="zerberus_2voice_8cpp" id="zerberus_2voice_8cpp">
-<area shape="rect" id="node3" href="zerberus_2voice_8h.html" title="voice.h" alt="" coords="164,155,228,181"/>
-<area shape="rect" id="node7" href="zerberus_2instrument_8h.html" title="instrument.h" alt="" coords="91,80,186,107"/>
-<area shape="rect" id="node10" href="channel_8h.html" title="channel.h" alt="" coords="355,80,434,107"/>
-<area shape="rect" id="node11" href="zerberus_8h.html" title="zerberus.h" alt="" coords="459,80,541,107"/>
-<area shape="rect" id="node20" href="zone_8h.html" title="zone.h" alt="" coords="565,80,627,107"/>
-<area shape="rect" id="node21" href="sample_8h.html" title="sample.h" alt="" coords="651,80,725,107"/>
-<area shape="rect" id="node22" href="msynthesizer_8h.html" title="synthesizer/msynthesizer.h" alt="" coords="1041,80,1223,107"/>
-<area shape="rect" id="node6" href="filter_8h.html" title="filter.h" alt="" coords="204,229,263,256"/>
-<area shape="rect" id="node15" href="synthesizer_8h.html" title="synthesizer/synthesizer.h" alt="" coords="873,155,1044,181"/>
-<area shape="rect" id="node17" href="event_8h.html" title="synthesizer/event.h" alt="" coords="713,155,849,181"/>
-<area shape="rect" id="node19" href="midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="252,155,412,181"/>
-<area shape="rect" id="node16" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="940,229,1129,256"/>
-<area shape="rect" id="node23" href="effect_8h.html" title="effects/effect.h" alt="" coords="1205,155,1315,181"/>
+<div class="center"><img src="zerberus_2voice_8cpp__incl.png" border="0" usemap="#audio_2midi_2zerberus_2voice_8cpp" alt=""/></div>
+<map name="audio_2midi_2zerberus_2voice_8cpp" id="audio_2midi_2zerberus_2voice_8cpp">
+<area shape="rect" id="node3" href="zerberus_2voice_8h.html" title="voice.h" alt="" coords="166,169,230,196"/>
+<area shape="rect" id="node7" href="audio_2midi_2zerberus_2instrument_8h.html" title="instrument.h" alt="" coords="93,95,189,121"/>
+<area shape="rect" id="node10" href="channel_8h.html" title="channel.h" alt="" coords="359,95,437,121"/>
+<area shape="rect" id="node11" href="zerberus_8h.html" title="zerberus.h" alt="" coords="462,95,547,121"/>
+<area shape="rect" id="node20" href="zone_8h.html" title="zone.h" alt="" coords="572,95,635,121"/>
+<area shape="rect" id="node21" href="sample_8h.html" title="sample.h" alt="" coords="659,95,735,121"/>
+<area shape="rect" id="node22" href="msynthesizer_8h.html" title="midi/msynthesizer.h" alt="" coords="1071,95,1213,121"/>
+<area shape="rect" id="node6" href="filter_8h.html" title="filter.h" alt="" coords="206,244,265,271"/>
+<area shape="rect" id="node15" href="synthesizer_8h.html" title="audio/midi/synthesizer.h" alt="" coords="881,169,1051,196"/>
+<area shape="rect" id="node17" href="event_8h.html" title="audio/midi/event.h" alt="" coords="721,169,856,196"/>
+<area shape="rect" id="node19" href="midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="254,169,417,196"/>
+<area shape="rect" id="node16" href="synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="947,244,1140,271"/>
+<area shape="rect" id="node23" href="effect_8h.html" title="effects/effect.h" alt="" coords="1214,169,1329,196"/>
 </map>
 </div>
-</div></div><!-- contents -->
+</div>
+<p><a href="zerberus_2voice_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a68025ee5ced032a391ddfd1bfe37816e"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="zerberus_2voice_8cpp.html#a68025ee5ced032a391ddfd1bfe37816e">voiceStateNames</a> []</td></tr>
+<tr class="separator:a68025ee5ced032a391ddfd1bfe37816e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a68025ee5ced032a391ddfd1bfe37816e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68025ee5ced032a391ddfd1bfe37816e">&#9670;&nbsp;</a></span>voiceStateNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* voiceStateNames[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">      <span class="stringliteral">&quot;OFF&quot;</span>, <span class="stringliteral">&quot;ATTACK&quot;</span>, <span class="stringliteral">&quot;PLAYING&quot;</span>, <span class="stringliteral">&quot;SUSTAINED&quot;</span>, <span class="stringliteral">&quot;STOP&quot;</span></div><div class="line">      }</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="zerberus_2voice_8cpp_source.html#l00027">27</a> of file <a class="el" href="zerberus_2voice_8cpp_source.html">voice.cpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

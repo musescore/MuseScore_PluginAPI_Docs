@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/pianolevelsfilter.cpp File Reference</title>
+<title>MuseScore: mscore/pianoroll/pianolevelsfilter.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,81 +61,106 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_acf78f0683ffe79a06038d2cfd5385d1.html">pianoroll</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">pianolevelsfilter.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="pianolevelsfilter_8h_source.html">pianolevelsfilter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="note_8h_source.html">libmscore/note.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="chord_8h_source.html">libmscore/chord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="staff_8h_source.html">libmscore/staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="undo_8h_source.html">libmscore/undo.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pianolevelsfilter.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="pianolevelsfilter_8cpp__incl.png" border="0" usemap="#mscore_2pianolevelsfilter_8cpp" alt=""/></div>
-<map name="mscore_2pianolevelsfilter_8cpp" id="mscore_2pianolevelsfilter_8cpp">
-<area shape="rect" id="node2" href="pianolevelsfilter_8h.html" title="pianolevelsfilter.h" alt="" coords="429,80,552,107"/>
-<area shape="rect" id="node4" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1547,453,1666,480"/>
-<area shape="rect" id="node19" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="266,155,385,181"/>
-<area shape="rect" id="node31" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="963,155,1088,181"/>
-<area shape="rect" id="node40" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1253,80,1374,107"/>
-<area shape="rect" id="node5" href="element_8h.html" title="element.h" alt="" coords="1427,677,1506,704"/>
-<area shape="rect" id="node13" href="shape_8h.html" title="shape.h" alt="" coords="1495,752,1563,779"/>
-<area shape="rect" id="node14" href="symbol_8h.html" title="symbol.h" alt="" coords="1480,528,1555,555"/>
-<area shape="rect" id="node16" href="noteevent_8h.html" title="noteevent.h" alt="" coords="2013,528,2104,555"/>
-<area shape="rect" id="node17" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1681,528,1786,555"/>
-<area shape="rect" id="node18" href="key_8h.html" title="key.h" alt="" coords="1299,528,1354,555"/>
-<area shape="rect" id="node6" href="spatium_8h.html" title="spatium.h" alt="" coords="846,752,925,779"/>
-<area shape="rect" id="node7" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1913,752,1989,779"/>
-<area shape="rect" id="node12" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="829,827,942,853"/>
-<area shape="rect" id="node9" href="mscore_8h.html" title="mscore.h" alt="" coords="975,827,1051,853"/>
-<area shape="rect" id="node10" href="style_8h.html" title="style.h" alt="" coords="849,901,911,928"/>
-<area shape="rect" id="node11" href="types_8h.html" title="types.h" alt="" coords="910,976,975,1003"/>
-<area shape="rect" id="node15" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="1472,603,1555,629"/>
-<area shape="rect" id="node20" href="velo_8h.html" title="Definition of classes VeloList. " alt="" coords="230,229,287,256"/>
-<area shape="rect" id="node21" href="pitch_8h.html" title="pitch.h" alt="" coords="144,229,205,256"/>
-<area shape="rect" id="node22" href="cleflist_8h.html" title="cleflist.h" alt="" coords="363,229,434,256"/>
-<area shape="rect" id="node24" href="keylist_8h.html" title="keylist.h" alt="" coords="1102,453,1173,480"/>
-<area shape="rect" id="node25" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="731,229,832,256"/>
-<area shape="rect" id="node28" href="groups_8h.html" title="groups.h" alt="" coords="1864,229,1936,256"/>
-<area shape="rect" id="node23" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="713,453,767,480"/>
-<area shape="rect" id="node26" href="stafftype_8h.html" title="stafftype.h" alt="" coords="899,304,983,331"/>
-<area shape="rect" id="node27" href="durationtype_8h.html" title="durationtype.h" alt="" coords="1760,379,1864,405"/>
-<area shape="rect" id="node29" href="beam_8h.html" title="beam.h" alt="" coords="1835,304,1901,331"/>
-<area shape="rect" id="node30" href="property_8h.html" title="property.h" alt="" coords="1504,379,1584,405"/>
-<area shape="rect" id="node32" href="input_8h.html" title="input.h" alt="" coords="1960,229,2021,256"/>
-<area shape="rect" id="node33" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="611,229,706,256"/>
-<area shape="rect" id="node35" href="select_8h.html" title="select.h" alt="" coords="1691,304,1759,331"/>
-<area shape="rect" id="node36" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1315,229,1445,256"/>
-<area shape="rect" id="node37" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="958,229,1061,256"/>
-<area shape="rect" id="node38" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1085,229,1189,256"/>
-<area shape="rect" id="node39" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1271,603,1371,629"/>
-<area shape="rect" id="node34" href="stringdata_8h.html" title="stringdata.h" alt="" coords="763,304,853,331"/>
-<area shape="rect" id="node41" href="sig_8h.html" title="sig.h" alt="" coords="2280,229,2331,256"/>
-<area shape="rect" id="node42" href="tempo_8h.html" title="tempo.h" alt="" coords="1315,155,1384,181"/>
-<area shape="rect" id="node43" href="midipatch_8h.html" title="synthesizer/midipatch.h" alt="" coords="1408,155,1568,181"/>
-<area shape="rect" id="node44" href="pitchvalue_8h.html" title="pitchvalue.h" alt="" coords="1593,155,1685,181"/>
-<area shape="rect" id="node45" href="timesig_8h.html" title="timesig.h" alt="" coords="2131,155,2205,181"/>
-<area shape="rect" id="node46" href="dynamic_8h.html" title="dynamic.h" alt="" coords="2280,677,2363,704"/>
-<area shape="rect" id="node47" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="1709,155,1774,181"/>
-<area shape="rect" id="node48" href="drumset_8h.html" title="drumset.h" alt="" coords="1248,379,1328,405"/>
-<area shape="rect" id="node49" href="rest_8h.html" title="rest.h" alt="" coords="1798,155,1853,181"/>
-<area shape="rect" id="node50" href="fret_8h.html" title="fret.h" alt="" coords="1395,603,1447,629"/>
+<div class="center"><img src="pianolevelsfilter_8cpp__incl.png" border="0" usemap="#mscore_2pianoroll_2pianolevelsfilter_8cpp" alt=""/></div>
+<map name="mscore_2pianoroll_2pianolevelsfilter_8cpp" id="mscore_2pianoroll_2pianolevelsfilter_8cpp">
+<area shape="rect" id="node2" href="pianolevelsfilter_8h.html" title="pianolevelsfilter.h" alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node3" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="2008,379,2131,405"/>
+<area shape="rect" id="node22" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="2423,155,2553,181"/>
+<area shape="rect" id="node25" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="697,155,823,181"/>
+<area shape="rect" id="node33" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="999,453,1129,480"/>
+<area shape="rect" id="node42" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1626,80,1753,107"/>
+<area shape="rect" id="node4" href="element_8h.html" title="element.h" alt="" coords="1776,603,1856,629"/>
+<area shape="rect" id="node12" href="shape_8h.html" title="shape.h" alt="" coords="2142,677,2210,704"/>
+<area shape="rect" id="node14" href="sym_8h.html" title="sym.h" alt="" coords="2263,677,2321,704"/>
+<area shape="rect" id="node17" href="symbol_8h.html" title="symbol.h" alt="" coords="2222,453,2298,480"/>
+<area shape="rect" id="node19" href="noteevent_8h.html" title="noteevent.h" alt="" coords="2107,453,2197,480"/>
+<area shape="rect" id="node20" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="735,603,841,629"/>
+<area shape="rect" id="node21" href="key_8h.html" title="key.h" alt="" coords="2424,453,2477,480"/>
+<area shape="rect" id="node5" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="1729,677,1842,704"/>
+<area shape="rect" id="node6" href="spatium_8h.html" title="spatium.h" alt="" coords="1624,677,1704,704"/>
+<area shape="rect" id="node7" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="279,752,358,779"/>
+<area shape="rect" id="node11" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="1867,677,1981,704"/>
+<area shape="rect" id="node13" href="sig_8h.html" title="sig.h" alt="" coords="407,677,457,704"/>
+<area shape="rect" id="node9" href="mscore_8h.html" title="mscore.h" alt="" coords="607,827,686,853"/>
+<area shape="rect" id="node10" href="libmscore_2style_8h.html" title="style.h" alt="" coords="2137,901,2197,928"/>
+<area shape="rect" id="node18" href="bsymbol_8h.html" title="bsymbol.h" alt="" coords="2056,528,2139,555"/>
+<area shape="rect" id="node24" href="chordrest_8h.html" title="chordrest.h" alt="" coords="2454,229,2543,256"/>
+<area shape="rect" id="node26" href="changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="203,304,304,331"/>
+<area shape="rect" id="node27" href="pitch_8h.html" title="pitch.h" alt="" coords="355,229,416,256"/>
+<area shape="rect" id="node28" href="cleflist_8h.html" title="cleflist.h" alt="" coords="1504,229,1576,256"/>
+<area shape="rect" id="node29" href="keylist_8h.html" title="keylist.h" alt="" coords="2355,379,2426,405"/>
+<area shape="rect" id="node30" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="714,229,817,256"/>
+<area shape="rect" id="node32" href="groups_8h.html" title="groups.h" alt="" coords="282,603,355,629"/>
+<area shape="rect" id="node31" href="stafftype_8h.html" title="stafftype.h" alt="" coords="1592,304,1677,331"/>
+<area shape="rect" id="node34" href="input_8h.html" title="input.h" alt="" coords="1139,528,1200,555"/>
+<area shape="rect" id="node35" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1379,528,1475,555"/>
+<area shape="rect" id="node36" href="select_8h.html" title="select.h" alt="" coords="558,528,626,555"/>
+<area shape="rect" id="node37" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1225,528,1354,555"/>
+<area shape="rect" id="node38" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="755,528,858,555"/>
+<area shape="rect" id="node39" href="spannermap_8h.html" title="spannermap.h" alt="" coords="883,528,989,555"/>
+<area shape="rect" id="node40" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1014,528,1114,555"/>
+<area shape="rect" id="node41" href="property_8h.html" title="property.h" alt="" coords="650,528,731,555"/>
+<area shape="rect" id="node43" href="tempo_8h.html" title="tempo.h" alt="" coords="1905,155,1975,181"/>
+<area shape="rect" id="node44" href="pitchvalue_8h.html" title="pitchvalue.h" alt="" coords="2000,155,2091,181"/>
+<area shape="rect" id="node45" href="timesig_8h.html" title="timesig.h" alt="" coords="406,528,482,555"/>
+<area shape="rect" id="node46" href="dynamic_8h.html" title="dynamic.h" alt="" coords="1443,379,1525,405"/>
+<area shape="rect" id="node47" href="drumset_8h.html" title="drumset.h" alt="" coords="1904,304,1987,331"/>
+<area shape="rect" id="node48" href="rest_8h.html" title="rest.h" alt="" coords="2674,155,2729,181"/>
+<area shape="rect" id="node49" href="fret_8h.html" title="fret.h" alt="" coords="1808,379,1861,405"/>
+<area shape="rect" id="node50" href="midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="2115,155,2277,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="pianolevelsfilter_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a231e3f58b4c986663506927bd0b59c8e"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a231e3f58b4c986663506927bd0b59c8e">Ms::STRN_NOTE_ON_NAME</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Position&quot;)</td></tr>
+<tr class="separator:a231e3f58b4c986663506927bd0b59c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66bdf74cc8826c7f1edfc3eb04776048"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a66bdf74cc8826c7f1edfc3eb04776048">Ms::STRN_NOTE_ON_TT</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Move the selected note(s) forward or backward by thousandths of the full note duration&quot;)</td></tr>
+<tr class="separator:a66bdf74cc8826c7f1edfc3eb04776048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6461a71ea416b10191acf7a0c2e21d52"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6461a71ea416b10191acf7a0c2e21d52">Ms::STRN_LEN_MUL_NAME</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Duration (multiplier)&quot;)</td></tr>
+<tr class="separator:a6461a71ea416b10191acf7a0c2e21d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c580f3bcb550c533759a7025106e8aa"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2c580f3bcb550c533759a7025106e8aa">Ms::STRN_LEN_MUL_TT</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Multiply the duration by thousandths of the full note duration&quot;)</td></tr>
+<tr class="separator:a2c580f3bcb550c533759a7025106e8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c083a9ddba154980ead866e2179908"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae8c083a9ddba154980ead866e2179908">Ms::STRN_LEN_OFF_NAME</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Duration&quot;)</td></tr>
+<tr class="separator:ae8c083a9ddba154980ead866e2179908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18f47cbecd7bce28181f2731778ddf5"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab18f47cbecd7bce28181f2731778ddf5">Ms::STRN_LEN_OFF_TT</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Shorten or lengthen by thousandths of a whole note&quot;)</td></tr>
+<tr class="separator:ab18f47cbecd7bce28181f2731778ddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93834775f0fedf3fd23b5cf22d6a3dc2"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a93834775f0fedf3fd23b5cf22d6a3dc2">Ms::STRN_VEL_DYN_NAME</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Velocity (relative)&quot;)</td></tr>
+<tr class="separator:a93834775f0fedf3fd23b5cf22d6a3dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89231046e4c1fa3d6ca55e6287391c99"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a89231046e4c1fa3d6ca55e6287391c99">Ms::STRN_VEL_DYN_TT</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Increase or decrease the velocity by the specified value&quot;)</td></tr>
+<tr class="separator:a89231046e4c1fa3d6ca55e6287391c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2daa8639c0ce3fbfe77d6033f1c69f5d"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2daa8639c0ce3fbfe77d6033f1c69f5d">Ms::STRN_VEL_ABS_NAME</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Velocity (absolute)&quot;)</td></tr>
+<tr class="separator:a2daa8639c0ce3fbfe77d6033f1c69f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa75e69d76d65423e6080f70261552c2"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afa75e69d76d65423e6080f70261552c2">Ms::STRN_VEL_ABS_TT</a> = QT_TRANSLATE_NOOP(&quot;PianoLevelsFilter&quot;, &quot;Ignore dynamic markings and set the velocity directly&quot;)</td></tr>
+<tr class="separator:afa75e69d76d65423e6080f70261552c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

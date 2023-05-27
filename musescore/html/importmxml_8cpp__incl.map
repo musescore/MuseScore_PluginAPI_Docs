@@ -1,46 +1,44 @@
-<map id="mscore/importmxml.cpp" name="mscore/importmxml.cpp">
-<area shape="rect" id="node2" href="$box_8h.html" title="Definition of HBox and VBox classes. " alt="" coords="803,162,918,189"/>
-<area shape="rect" id="node14" href="$measure_8h.html" title="Definition of class Measure. " alt="" coords="329,162,472,189"/>
-<area shape="rect" id="node17" href="$page_8h.html" title="libmscore/page.h" alt="" coords="358,319,480,345"/>
-<area shape="rect" id="node19" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1659,244,1774,271"/>
-<area shape="rect" id="node26" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="673,319,792,345"/>
-<area shape="rect" id="node33" href="$sym_8h.html" title="libmscore/sym.h" alt="" coords="1793,80,1912,107"/>
-<area shape="rect" id="node36" href="$symbol_8h.html" title="symbol.h" alt="" coords="319,80,394,107"/>
-<area shape="rect" id="node38" href="$importmxml_8h.html" title="importmxml.h" alt="" coords="1459,162,1560,189"/>
-<area shape="rect" id="node43" href="$importmxmllogger_8h.html" title="importmxmllogger.h" alt="" coords="1935,80,2071,107"/>
-<area shape="rect" id="node44" href="$importmxmlpass1_8h.html" title="importmxmlpass1.h" alt="" coords="1198,162,1334,189"/>
-<area shape="rect" id="node45" href="$importmxmlpass2_8h.html" title="importmxmlpass2.h" alt="" coords="1092,80,1228,107"/>
-<area shape="rect" id="node48" href="$preferences_8h.html" title="preferences.h" alt="" coords="2187,80,2288,107"/>
-<area shape="rect" id="node3" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="306,244,417,271"/>
-<area shape="rect" id="node13" href="$property_8h.html" title="property.h" alt="" coords="1015,319,1095,345"/>
-<area shape="rect" id="node4" href="$element_8h.html" title="element.h" alt="" coords="157,393,236,420"/>
-<area shape="rect" id="node12" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="234,319,334,345"/>
-<area shape="rect" id="node5" href="$spatium_8h.html" title="spatium.h" alt="" coords="125,468,204,495"/>
-<area shape="rect" id="node6" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1081,468,1157,495"/>
-<area shape="rect" id="node10" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="228,468,341,495"/>
-<area shape="rect" id="node11" href="$shape_8h.html" title="shape.h" alt="" coords="33,468,101,495"/>
-<area shape="rect" id="node8" href="$mscore_8h.html" title="mscore.h" alt="" coords="1005,543,1081,569"/>
-<area shape="rect" id="node9" href="$style_8h.html" title="style.h" alt="" coords="648,617,710,644"/>
-<area shape="rect" id="node15" href="$segmentlist_8h.html" title="segmentlist.h" alt="" coords="30,244,130,271"/>
-<area shape="rect" id="node16" href="$segment_8h.html" title="segment.h" alt="" coords="26,319,108,345"/>
-<area shape="rect" id="node18" href="$bsp_8h.html" title="bsp.h" alt="" coords="286,393,341,420"/>
-<area shape="rect" id="node20" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1612,319,1706,345"/>
-<area shape="rect" id="node25" href="$text_8h.html" title="text.h" alt="" coords="1972,319,2026,345"/>
-<area shape="rect" id="node21" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="1614,393,1704,420"/>
-<area shape="rect" id="node22" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="1729,393,1816,420"/>
-<area shape="rect" id="node23" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="1840,393,1976,420"/>
-<area shape="rect" id="node24" href="$interval_8h.html" title="interval.h" alt="" coords="1515,393,1590,420"/>
-<area shape="rect" id="node27" href="$velo_8h.html" title="Definition of classes VeloList. " alt="" coords="620,393,677,420"/>
-<area shape="rect" id="node28" href="$pitch_8h.html" title="pitch.h" alt="" coords="702,393,763,420"/>
-<area shape="rect" id="node29" href="$cleflist_8h.html" title="cleflist.h" alt="" coords="752,468,822,495"/>
-<area shape="rect" id="node30" href="$keylist_8h.html" title="keylist.h" alt="" coords="788,393,858,420"/>
-<area shape="rect" id="node31" href="$stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="883,393,984,420"/>
-<area shape="rect" id="node32" href="$groups_8h.html" title="groups.h" alt="" coords="1008,393,1080,420"/>
-<area shape="rect" id="node37" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="160,244,243,271"/>
-<area shape="rect" id="node39" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1408,244,1534,271"/>
-<area shape="rect" id="node40" href="$importxmlfirstpass_8h.html" title="importxmlfirstpass.h" alt="" coords="1308,319,1448,345"/>
-<area shape="rect" id="node41" href="$musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="1206,393,1338,420"/>
-<area shape="rect" id="node42" href="$musicxml_8h.html" title="Definition of class MusicXML. " alt="" coords="1142,244,1232,271"/>
-<area shape="rect" id="node47" href="$tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="992,244,1118,271"/>
-<area shape="rect" id="node49" href="$globals_8h.html" title="globals.h" alt="" coords="2200,162,2275,189"/>
+<map id="importexport/musicxml/importmxml.cpp" name="importexport/musicxml/importmxml.cpp">
+<area shape="rect" id="node2" href="$box_8h.html" title="Definition of HBox and VBox classes. " alt="" coords="1451,177,1569,203"/>
+<area shape="rect" id="node14" href="$sym_8h.html" title="sym.h" alt="" coords="1171,483,1230,509"/>
+<area shape="rect" id="node19" href="$measure_8h.html" title="Definition of class Measure. " alt="" coords="1836,177,1984,203"/>
+<area shape="rect" id="node22" href="$page_8h.html" title="libmscore/page.h" alt="" coords="1729,333,1854,360"/>
+<area shape="rect" id="node24" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="405,259,525,285"/>
+<area shape="rect" id="node28" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="305,408,430,435"/>
+<area shape="rect" id="node35" href="$symbol_8h.html" title="symbol.h" alt="" coords="1548,259,1624,285"/>
+<area shape="rect" id="node37" href="$importmxml_8h.html" title="importmxml.h" alt="" coords="793,177,899,203"/>
+<area shape="rect" id="node42" href="$importmxmllogger_8h.html" title="importmxmllogger.h" alt="" coords="1887,95,2029,121"/>
+<area shape="rect" id="node43" href="$importmxmlpass1_8h.html" title="importmxmlpass1.h" alt="" coords="923,177,1065,203"/>
+<area shape="rect" id="node44" href="$importmxmlpass2_8h.html" title="importmxmlpass2.h" alt="" coords="1113,95,1254,121"/>
+<area shape="rect" id="node47" href="$preferences_8h.html" title="mscore/preferences.h" alt="" coords="2063,95,2215,121"/>
+<area shape="rect" id="node3" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="1649,259,1761,285"/>
+<area shape="rect" id="node18" href="$property_8h.html" title="property.h" alt="" coords="1289,333,1371,360"/>
+<area shape="rect" id="node4" href="$element_8h.html" title="element.h" alt="" coords="1593,408,1673,435"/>
+<area shape="rect" id="node17" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1553,333,1653,360"/>
+<area shape="rect" id="node5" href="$elementgroup_8h.html" title="elementgroup.h" alt="" coords="1472,483,1585,509"/>
+<area shape="rect" id="node6" href="$spatium_8h.html" title="spatium.h" alt="" coords="1367,483,1447,509"/>
+<area shape="rect" id="node7" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="953,557,1032,584"/>
+<area shape="rect" id="node11" href="$scoreElement_8h.html" title="scoreElement.h" alt="" coords="841,483,955,509"/>
+<area shape="rect" id="node12" href="$shape_8h.html" title="shape.h" alt="" coords="1736,483,1804,509"/>
+<area shape="rect" id="node13" href="$sig_8h.html" title="sig.h" alt="" coords="1610,483,1661,509"/>
+<area shape="rect" id="node9" href="$mscore_8h.html" title="mscore.h" alt="" coords="713,632,792,659"/>
+<area shape="rect" id="node10" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="868,707,928,733"/>
+<area shape="rect" id="node20" href="$segmentlist_8h.html" title="segmentlist.h" alt="" coords="1861,259,1962,285"/>
+<area shape="rect" id="node21" href="$segment_8h.html" title="segment.h" alt="" coords="1879,333,1963,360"/>
+<area shape="rect" id="node23" href="$bsp_8h.html" title="bsp.h" alt="" coords="1699,408,1753,435"/>
+<area shape="rect" id="node25" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="593,333,689,360"/>
+<area shape="rect" id="node27" href="$text_8h.html" title="text.h" alt="" coords="412,333,467,360"/>
+<area shape="rect" id="node29" href="$changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="614,483,715,509"/>
+<area shape="rect" id="node30" href="$pitch_8h.html" title="pitch.h" alt="" coords="278,483,339,509"/>
+<area shape="rect" id="node31" href="$cleflist_8h.html" title="cleflist.h" alt="" coords="347,557,419,584"/>
+<area shape="rect" id="node32" href="$keylist_8h.html" title="keylist.h" alt="" coords="5,483,76,509"/>
+<area shape="rect" id="node33" href="$stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="100,483,203,509"/>
+<area shape="rect" id="node34" href="$groups_8h.html" title="groups.h" alt="" coords="415,483,488,509"/>
+<area shape="rect" id="node36" href="$bsymbol_8h.html" title="bsymbol.h" alt="" coords="1446,333,1529,360"/>
+<area shape="rect" id="node38" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1187,259,1318,285"/>
+<area shape="rect" id="node39" href="$importxmlfirstpass_8h.html" title="importxmlfirstpass.h" alt="" coords="916,333,1061,360"/>
+<area shape="rect" id="node40" href="$musicxmlsupport_8h.html" title="musicxmlsupport.h" alt="" coords="921,408,1057,435"/>
+<area shape="rect" id="node41" href="$musicxml_8h.html" title="Definition of class MusicXML. " alt="" coords="819,259,910,285"/>
+<area shape="rect" id="node46" href="$tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="1343,259,1472,285"/>
+<area shape="rect" id="node49" href="$globals_8h.html" title="globals.h" alt="" coords="2113,177,2187,203"/>
 </map>

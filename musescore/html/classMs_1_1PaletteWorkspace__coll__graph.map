@@ -1,0 +1,11 @@
+<map id="Ms::PaletteWorkspace" name="Ms::PaletteWorkspace">
+<area shape="rect" id="node5" href="$classMs_1_1PaletteCellFilter.html" title="Interface for filtering elements in a palette. " alt="" coords="1939,44,2077,71"/>
+<area shape="rect" id="node18" href="$classMs_1_1AbstractPaletteController.html" title="Ms::AbstractPaletteController" alt="" coords="1911,196,2105,223"/>
+<area shape="rect" id="node3" href="$classMs_1_1FilterPaletteTreeModel.html" title="Ms::FilterPaletteTreeModel" alt="" coords="2229,95,2408,121"/>
+<area shape="rect" id="node6" href="$classMs_1_1PaletteTreeModel.html" title="Ms::PaletteTreeModel" alt="" coords="1933,259,2083,285"/>
+<area shape="rect" id="node17" href="$classMs_1_1UserPaletteController.html" title="Ms::UserPaletteController" alt="" coords="2232,196,2405,223"/>
+<area shape="rect" id="node9" href="$structMs_1_1PaletteTree.html" title="Ms::PaletteTree" alt="" coords="1464,175,1576,201"/>
+<area shape="rect" id="node12" href="$classMs_1_1PalettePanel.html" title="Ms::PalettePanel" alt="" coords="657,159,775,185"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="149,157,261,184"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="648,216,784,243"/>
+</map>

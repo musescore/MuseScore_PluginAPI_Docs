@@ -1,3 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_enum.html" title="Wrapper for enumerations. " alt="" coords="184,5,332,32"/>
+<area shape="rect" id="node2" href="$classMs_1_1NewWizardInfoPage.html" title="Ms::NewWizardInfoPage" alt="" coords="178,5,346,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1NewWizardInstrumentsPage.html" title="Ms::NewWizardInstrumentsPage" alt="" coords="155,56,369,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1NewWizardKeysigPage.html" title="Ms::NewWizardKeysigPage" alt="" coords="171,107,353,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1NewWizardTemplatePage.html" title="Ms::NewWizardTemplatePage" alt="" coords="163,157,361,184"/>
+<area shape="rect" id="node6" href="$classMs_1_1NewWizardTimesigPage.html" title="Ms::NewWizardTimesigPage" alt="" coords="167,208,357,235"/>
+<area shape="rect" id="node7" href="$classMs_1_1StartupWizardFinalPage.html" title="Ms::StartupWizardFinalPage" alt="" coords="169,259,355,285"/>
+<area shape="rect" id="node8" href="$classMs_1_1StartupWizardIntroPage.html" title="Ms::StartupWizardIntroPage" alt="" coords="169,309,355,336"/>
+<area shape="rect" id="node9" href="$classMs_1_1StartupWizardPage1.html" title="Ms::StartupWizardPage1" alt="" coords="179,360,345,387"/>
+<area shape="rect" id="node10" href="$classMs_1_1StartupWizardPage2.html" title="Ms::StartupWizardPage2" alt="" coords="179,411,345,437"/>
+<area shape="rect" id="node11" href="$classMs_1_1StartupWizardPage4.html" title="Ms::StartupWizardPage4" alt="" coords="179,461,345,488"/>
 </map>

@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -75,7 +75,8 @@ $(function() {
 
 <p>Implementation of undo functions.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="undo_8h_source.html">undo.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;global/log.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="undo_8h_source.html">undo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="element_8h_source.html">element.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="note_8h_source.html">note.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">score.h</a>&quot;</code><br />
@@ -130,23 +131,34 @@ $(function() {
 <code>#include &quot;<a class="el" href="bracket_8h_source.html">bracket.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fret_8h_source.html">fret.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="textedit_8h_source.html">textedit.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<code>#include &quot;<a class="el" href="textline_8h_source.html">textline.h</a>&quot;</code><br />
+</div>
+<p><a href="undo_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aee57ec45c319c2b3ca450db5b34ca01e"><td class="memItemLeft" align="right" valign="top">Measure *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aee57ec45c319c2b3ca450db5b34ca01e">Ms::tick2measure</a> (int tick)</td></tr>
+<tr class="memitem:aee57ec45c319c2b3ca450db5b34ca01e"><td class="memItemLeft" align="right" valign="top">Measure *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aee57ec45c319c2b3ca450db5b34ca01e">Ms::tick2measure</a> (int <a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>)</td></tr>
 <tr class="separator:aee57ec45c319c2b3ca450db5b34ca01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b927c615ab96a4b08fdb9f1cdceeea1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7b927c615ab96a4b08fdb9f1cdceeea1">Ms::updateNoteLines</a> (Segment *segment, int track)</td></tr>
-<tr class="separator:a7b927c615ab96a4b08fdb9f1cdceeea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17fec62ae82f5ceafe5b2f86656724b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa17fec62ae82f5ceafe5b2f86656724b">Ms::updateNoteLines</a> (Segment *, int track)</td></tr>
+<tr class="separator:aa17fec62ae82f5ceafe5b2f86656724b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a462d3365be5b78dc721f068ff5d97ecf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a462d3365be5b78dc721f068ff5d97ecf">Ms::undoRemoveTuplet</a> (DurationElement *cr)</td></tr>
+<tr class="separator:a462d3365be5b78dc721f068ff5d97ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643c984a4eff129e0e5b57bbf7337c90"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a643c984a4eff129e0e5b57bbf7337c90">Ms::undoAddTuplet</a> (DurationElement *cr)</td></tr>
+<tr class="separator:a643c984a4eff129e0e5b57bbf7337c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f39f7eefef5cf5e7f7e97fec483254"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a30f39f7eefef5cf5e7f7e97fec483254">Ms::removeNote</a> (const Note *note)</td></tr>
+<tr class="separator:a30f39f7eefef5cf5e7f7e97fec483254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of undo functions. </p>
 <p>The undo system requires calling startUndo() when starting a GUI command and calling endUndo() when ending the command. All changes to a score in response to a GUI command must be undoable/redoable by executing a sequence of low-level undo operations. This sequence is built by the code handling the command, by calling one or more undoOp()'s between startUndo() and endUndo(). </p>
+
+<p class="definition">Definition in file <a class="el" href="undo_8cpp_source.html">undo.cpp</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

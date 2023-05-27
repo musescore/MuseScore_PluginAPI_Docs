@@ -1,5 +1,5 @@
 <map id="ChordRest" name="ChordRest">
-<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="36,379,93,405"/>
+<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Chord" alt="" coords="35,379,94,405"/>
 <area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_duration_element.html" title="DurationElement" alt="" coords="5,229,124,256"/>
 <area shape="rect" id="node3" href="$class_ms_1_1_plugin_a_p_i_1_1_element.html" title="Element" alt="" coords="29,155,100,181"/>
 <area shape="rect" id="node4" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="13,80,117,107"/>

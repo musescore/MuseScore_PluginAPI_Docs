@@ -1,8 +1,0 @@
-<map id="Ms::PluginAPI::Element" name="Ms::PluginAPI::Element">
-<area shape="rect" id="node4" href="$class_ms_1_1_plugin_a_p_i_1_1_chord.html" title="Ms::PluginAPI::Chord" alt="" coords="587,5,737,32"/>
-<area shape="rect" id="node5" href="$class_ms_1_1_plugin_a_p_i_1_1_measure.html" title="Ms::PluginAPI::Measure" alt="" coords="580,56,744,83"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_plugin_a_p_i_1_1_note.html" title="Ms::PluginAPI::Note" alt="" coords="591,107,733,133"/>
-<area shape="rect" id="node7" href="$class_ms_1_1_plugin_a_p_i_1_1_segment.html" title="Ms::PluginAPI::Segment" alt="" coords="579,157,745,184"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_plugin_a_p_i_1_1_tie.html" title="Provides access to internal Ms::Tie objects. " alt="" coords="596,208,728,235"/>
-<area shape="rect" id="node2" href="$class_ms_1_1_plugin_a_p_i_1_1_score_element.html" title="Base class for most of object wrappers exposed to QML. " alt="" coords="124,107,320,133"/>
-</map>

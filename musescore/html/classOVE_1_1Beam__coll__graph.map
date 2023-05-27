@@ -1,0 +1,9 @@
+<map id="OVE::Beam" name="OVE::Beam">
+<area shape="rect" id="node2" href="$classOVE_1_1MusicData.html" title="OVE::MusicData" alt="" coords="171,213,287,240"/>
+<area shape="rect" id="node3" href="$classOVE_1_1TickElement.html" title="OVE::TickElement" alt="" coords="5,109,132,136"/>
+<area shape="rect" id="node4" href="$classOVE_1_1PairElement.html" title="OVE::PairElement" alt="" coords="156,109,280,136"/>
+<area shape="rect" id="node5" href="$classOVE_1_1MeasurePos.html" title="OVE::MeasurePos" alt="" coords="155,5,281,32"/>
+<area shape="rect" id="node6" href="$classOVE_1_1OffsetElement.html" title="OVE::OffsetElement" alt="" coords="305,109,443,136"/>
+<area shape="rect" id="node7" href="$classOVE_1_1PairEnds.html" title="OVE::PairEnds" alt="" coords="321,213,427,240"/>
+<area shape="rect" id="node8" href="$classOVE_1_1LineElement.html" title="OVE::LineElement" alt="" coords="467,109,593,136"/>
+</map>

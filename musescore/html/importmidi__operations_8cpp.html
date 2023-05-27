@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_operations.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_operations.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,12 +61,13 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">importmidi_operations.cpp File Reference</div>  </div>
@@ -76,36 +77,45 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_operations.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__operations_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__operations_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__operations_8cpp" id="mscore_2importmidi_2importmidi__operations_8cpp">
-<area shape="rect" id="node2" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="271,95,431,121"/>
-<area shape="rect" id="node3" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="287,169,415,196"/>
-<area shape="rect" id="node14" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="5,244,159,271"/>
-<area shape="rect" id="node19" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="709,169,812,196"/>
-<area shape="rect" id="node4" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="285,244,417,271"/>
-<area shape="rect" id="node5" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="229,393,372,420"/>
-<area shape="rect" id="node12" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="235,319,367,345"/>
-<area shape="rect" id="node6" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="307,468,443,495"/>
-<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="300,543,376,569"/>
-<area shape="rect" id="node9" href="style_8h.html" title="style.h" alt="" coords="254,617,315,644"/>
-<area shape="rect" id="node10" href="chordlist_8h.html" title="chordlist.h" alt="" coords="243,692,326,719"/>
-<area shape="rect" id="node11" href="types_8h.html" title="types.h" alt="" coords="153,692,219,719"/>
-<area shape="rect" id="node20" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="603,393,713,420"/>
-<area shape="rect" id="node21" href="event_8h.html" title="synthesizer/event.h" alt="" coords="693,244,829,271"/>
+<div class="center"><img src="importmidi__operations_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__operations_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__operations_8cpp" id="importexport_2midiimport_2importmidi__operations_8cpp">
+<area shape="rect" id="node2" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="276,95,443,121"/>
+<area shape="rect" id="node3" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="293,169,425,196"/>
+<area shape="rect" id="node14" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="5,244,164,271"/>
+<area shape="rect" id="node19" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="663,169,810,196"/>
+<area shape="rect" id="node4" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="290,244,429,271"/>
+<area shape="rect" id="node5" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="233,393,382,420"/>
+<area shape="rect" id="node12" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="239,319,375,345"/>
+<area shape="rect" id="node6" href="libmscore_2fraction_8h.html" title="libmscore/fraction.h" alt="" coords="313,468,456,495"/>
+<area shape="rect" id="node8" href="mscore_8h.html" title="mscore.h" alt="" coords="307,543,385,569"/>
+<area shape="rect" id="node9" href="libmscore_2style_8h.html" title="style.h" alt="" coords="263,617,323,644"/>
+<area shape="rect" id="node10" href="chordlist_8h.html" title="chordlist.h" alt="" coords="251,692,335,719"/>
+<area shape="rect" id="node11" href="types_8h.html" title="types.h" alt="" coords="162,692,226,719"/>
+<area shape="rect" id="node20" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="577,393,691,420"/>
+<area shape="rect" id="node21" href="event_8h.html" title="event.h" alt="" coords="705,244,769,271"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__operations_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_midi_operations"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_operations.html">Ms::MidiOperations</a></td></tr>
+<tr class="memitem:namespaceMs_1_1MidiOperations"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiOperations.html">Ms::MidiOperations</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a85fc8b3db116d620499a8e87703d56ec"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiOperations.html#a85fc8b3db116d620499a8e87703d56ec">Ms::MidiOperations::readBoolFromXml</a> (QXmlStreamReader &amp;xml)</td></tr>
+<tr class="separator:a85fc8b3db116d620499a8e87703d56ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65e211872998e55f6b8ead67be74efa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiOperations.html#af65e211872998e55f6b8ead67be74efa">Ms::MidiOperations::setOperationsFromFile</a> (const QString &amp;fileName, Opers &amp;opers)</td></tr>
+<tr class="separator:af65e211872998e55f6b8ead67be74efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9ba4702efb0513317dbc9f77170358fa"><td class="memItemLeft" align="right" valign="top">MidiOperations::Data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9ba4702efb0513317dbc9f77170358fa">Ms::midiImportOperations</a></td></tr>
+<tr class="memitem:a9ba4702efb0513317dbc9f77170358fa"><td class="memItemLeft" align="right" valign="top">MidiOperations::Data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9ba4702efb0513317dbc9f77170358fa">Ms::midiImportOperations</a></td></tr>
 <tr class="separator:a9ba4702efb0513317dbc9f77170358fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

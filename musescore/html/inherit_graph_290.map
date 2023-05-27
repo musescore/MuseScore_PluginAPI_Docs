@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_m_p3_exporter.html" title="Ms::MP3Exporter" alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node1" href="$classMs_1_1MidiDriver.html" title="Ms::MidiDriver" alt="" coords="5,31,113,57"/>
+<area shape="rect" id="node2" href="$classMs_1_1AlsaMidiDriver.html" title="Ms::AlsaMidiDriver" alt="" coords="161,5,296,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1PortMidiDriver.html" title="Ms::PortMidiDriver" alt="" coords="162,56,295,83"/>
 </map>

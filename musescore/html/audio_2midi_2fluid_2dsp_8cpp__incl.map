@@ -1,0 +1,9 @@
+<map id="audio/midi/fluid/dsp.cpp" name="audio/midi/fluid/dsp.cpp">
+<area shape="rect" id="node2" href="$fluid_8h.html" title="fluid.h" alt="" coords="167,155,226,181"/>
+<area shape="rect" id="node7" href="$fluid_2voice_8h.html" title="voice.h" alt="" coords="95,80,159,107"/>
+<area shape="rect" id="node9" href="$sfont_8h.html" title="sfont.h" alt="" coords="234,80,298,107"/>
+<area shape="rect" id="node3" href="$synthesizer_8h.html" title="audio/midi/synthesizer.h" alt="" coords="17,229,187,256"/>
+<area shape="rect" id="node6" href="$midipatch_8h.html" title="audio/midi/midipatch.h" alt="" coords="211,229,374,256"/>
+<area shape="rect" id="node4" href="$synthesizerstate_8h.html" title="libmscore/synthesizerstate.h" alt="" coords="5,304,199,331"/>
+<area shape="rect" id="node8" href="$gen_8h.html" title="gen.h" alt="" coords="88,155,143,181"/>
+</map>

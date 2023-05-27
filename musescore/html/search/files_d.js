@@ -20,9 +20,11 @@ var searchData=
   ['noteentry_2ecpp',['noteentry.cpp',['../noteentry_8cpp.html',1,'']]],
   ['noteevent_2ecpp',['noteevent.cpp',['../noteevent_8cpp.html',1,'']]],
   ['noteevent_2eh',['noteevent.h',['../noteevent_8h.html',1,'']]],
-  ['notegroups_2ecpp',['noteGroups.cpp',['../note_groups_8cpp.html',1,'']]],
-  ['notegroups_2eh',['noteGroups.h',['../note_groups_8h.html',1,'']]],
+  ['notegroups_2ecpp',['noteGroups.cpp',['../noteGroups_8cpp.html',1,'']]],
+  ['notegroups_2eh',['noteGroups.h',['../noteGroups_8h.html',1,'']]],
   ['noteline_2ecpp',['noteline.cpp',['../noteline_8cpp.html',1,'']]],
   ['noteline_2eh',['noteline.h',['../noteline_8h.html',1,'']]],
+  ['notetweakerdialog_2ecpp',['notetweakerdialog.cpp',['../notetweakerdialog_8cpp.html',1,'']]],
+  ['notetweakerdialog_2eh',['notetweakerdialog.h',['../notetweakerdialog_8h.html',1,'']]],
   ['notifier_2ehpp',['notifier.hpp',['../notifier_8hpp.html',1,'']]]
 ];

@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_text_diff_parser.html" title="Ms::TextDiffParser" alt="" coords="5,5,139,32"/>
+<area shape="rect" id="node1" href="$classMs_1_1ScriptEntry.html" title="Ms::ScriptEntry" alt="" coords="5,132,116,159"/>
+<area shape="rect" id="node2" href="$classMs_1_1CommandScriptEntry.html" title="Ms::CommandScriptEntry" alt="" coords="176,5,351,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1ExcerptChangeScriptEntry.html" title="Represents switching between excerpt tabs. " alt="" coords="164,56,363,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1InitScriptEntry.html" title="Ms::InitScriptEntry" alt="" coords="199,107,328,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1InspectorScriptEntry.html" title="Ms::InspectorScriptEntry" alt="" coords="180,157,347,184"/>
+<area shape="rect" id="node6" href="$classMs_1_1PaletteElementScriptEntry.html" title="Ms::PaletteElementScript\lEntry" alt="" coords="179,209,348,250"/>
+<area shape="rect" id="node7" href="$classMs_1_1TestScriptEntry.html" title="Ms::TestScriptEntry" alt="" coords="195,275,331,301"/>
+<area shape="rect" id="node8" href="$classMs_1_1ScoreTestScriptEntry.html" title="Ms::ScoreTestScriptEntry" alt="" coords="411,275,581,301"/>
 </map>

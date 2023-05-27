@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bww',['Bww',['../namespace_bww.html',1,'']]]
+  ['bww',['Bww',['../namespaceBww.html',1,'']]]
 ];

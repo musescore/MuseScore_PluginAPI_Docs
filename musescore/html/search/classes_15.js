@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['uiinspectorelement',['UiInspectorElement',['../class_ms_1_1_ui_inspector_element.html',1,'Ms']]],
-  ['undocommand',['UndoCommand',['../class_ms_1_1_undo_command.html',1,'Ms']]],
-  ['undomacro',['UndoMacro',['../class_ms_1_1_undo_macro.html',1,'Ms']]],
-  ['undostack',['UndoStack',['../class_ms_1_1_undo_stack.html',1,'Ms']]],
-  ['unlink',['Unlink',['../class_ms_1_1_unlink.html',1,'Ms']]],
-  ['up',['UP',['../struct_ms_1_1_u_p.html',1,'Ms']]],
-  ['updatechecker',['UpdateChecker',['../class_ms_1_1_update_checker.html',1,'Ms']]],
-  ['updatecheckerbase',['UpdateCheckerBase',['../class_ms_1_1_update_checker_base.html',1,'Ms']]],
-  ['updatestate',['UpdateState',['../class_ms_1_1_update_state.html',1,'Ms']]],
-  ['uploadscoredialog',['UploadScoreDialog',['../class_ms_1_1_upload_score_dialog.html',1,'Ms']]],
-  ['userpalettecontroller',['UserPaletteController',['../class_ms_1_1_user_palette_controller.html',1,'Ms']]]
+  ['uiinspectorelement',['UiInspectorElement',['../classMs_1_1UiInspectorElement.html',1,'Ms']]],
+  ['undocommand',['UndoCommand',['../classMs_1_1UndoCommand.html',1,'Ms']]],
+  ['undomacro',['UndoMacro',['../classMs_1_1UndoMacro.html',1,'Ms']]],
+  ['undostack',['UndoStack',['../classMs_1_1UndoStack.html',1,'Ms']]],
+  ['unlink',['Unlink',['../classMs_1_1Unlink.html',1,'Ms']]],
+  ['up',['UP',['../structMs_1_1UP.html',1,'Ms']]],
+  ['updatechecker',['UpdateChecker',['../classMs_1_1UpdateChecker.html',1,'Ms']]],
+  ['updatecheckerbase',['UpdateCheckerBase',['../classMs_1_1UpdateCheckerBase.html',1,'Ms']]],
+  ['updatestate',['UpdateState',['../classMs_1_1UpdateState.html',1,'Ms']]],
+  ['uploadscoredialog',['UploadScoreDialog',['../classMs_1_1UploadScoreDialog.html',1,'Ms']]],
+  ['userpalettecontroller',['UserPaletteController',['../classMs_1_1UserPaletteController.html',1,'Ms']]]
 ];

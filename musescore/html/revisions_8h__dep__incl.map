@@ -1,9 +1,9 @@
 <map id="libmscore/revisions.h" name="libmscore/revisions.h">
-<area shape="rect" id="node2" href="$read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$read301_8cpp.html" title="libmscore/read301.cpp" alt="" coords="183,80,336,107"/>
-<area shape="rect" id="node4" href="$revisions_8cpp.html" title="libmscore/revisions.cpp" alt="" coords="360,80,519,107"/>
-<area shape="rect" id="node5" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="543,80,682,107"/>
-<area shape="rect" id="node6" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="707,80,863,107"/>
-<area shape="rect" id="node7" href="$unrollrepeats_8cpp.html" title="libmscore/unrollrepeats.cpp" alt="" coords="887,80,1069,107"/>
-<area shape="rect" id="node8" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="1093,80,1204,107"/>
+<area shape="rect" id="node2" href="$read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="$read302_8cpp.html" title="libmscore/read302.cpp" alt="" coords="188,80,347,107"/>
+<area shape="rect" id="node4" href="$revisions_8cpp.html" title="libmscore/revisions.cpp" alt="" coords="371,80,534,107"/>
+<area shape="rect" id="node5" href="$libmscore_2score_8cpp.html" title="Implementation of class Score (partial). " alt="" coords="558,80,702,107"/>
+<area shape="rect" id="node6" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="727,80,888,107"/>
+<area shape="rect" id="node7" href="$unrollrepeats_8cpp.html" title="libmscore/unrollrepeats.cpp" alt="" coords="913,80,1099,107"/>
+<area shape="rect" id="node8" href="$file_8cpp.html" title="mscore/file.cpp" alt="" coords="1123,80,1238,107"/>
 </map>

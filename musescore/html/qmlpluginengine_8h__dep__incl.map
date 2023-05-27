@@ -1,7 +1,7 @@
 <map id="mscore/plugin/qmlpluginengine.h" name="mscore/plugin/qmlpluginengine.h">
-<area shape="rect" id="node2" href="$mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="5,80,191,107"/>
-<area shape="rect" id="node3" href="$mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="215,80,434,107"/>
-<area shape="rect" id="node4" href="$plugin_creator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="459,80,668,107"/>
-<area shape="rect" id="node5" href="$plugin_manager_8cpp.html" title="mscore/plugin/pluginManager.cpp" alt="" coords="693,80,909,107"/>
-<area shape="rect" id="node6" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="933,80,1159,107"/>
+<area shape="rect" id="node2" href="$mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node3" href="$mscorePlugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="225,80,450,107"/>
+<area shape="rect" id="node4" href="$pluginCreator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="474,80,689,107"/>
+<area shape="rect" id="node5" href="$pluginManager_8cpp.html" title="mscore/plugin/pluginManager.cpp" alt="" coords="713,80,935,107"/>
+<area shape="rect" id="node6" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="959,80,1193,107"/>
 </map>

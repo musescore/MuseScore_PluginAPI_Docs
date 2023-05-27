@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$struct_ms_1_1_export_ly_1_1_instruction_anchor.html" title="Ms::ExportLy::Instruction\lAnchor" alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$classMs_1_1ChordView.html" title="Ms::ChordView" alt="" coords="168,5,279,32"/>
+<area shape="rect" id="node3" href="$classMs_1_1DrumView.html" title="Ms::DrumView" alt="" coords="169,56,277,83"/>
+<area shape="rect" id="node4" href="$classMs_1_1HPiano.html" title="Ms::HPiano" alt="" coords="178,107,269,133"/>
+<area shape="rect" id="node5" href="$classMs_1_1PianoView.html" title="Ms::PianoView" alt="" coords="169,157,277,184"/>
+<area shape="rect" id="node6" href="$classMs_1_1Timeline.html" title="Ms::Timeline" alt="" coords="175,208,272,235"/>
+<area shape="rect" id="node7" href="$classMs_1_1TRowLabels.html" title="Ms::TRowLabels" alt="" coords="164,259,283,285"/>
 </map>

@@ -1,12 +1,13 @@
 <map id="mscore/plugin/api/part.h" name="mscore/plugin/api/part.h">
-<area shape="rect" id="node2" href="$mscore_2plugin_2api_2score_8h.html" title="mscore/plugin/api/score.h" alt="" coords="518,80,688,107"/>
-<area shape="rect" id="node5" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="145,229,370,256"/>
-<area shape="rect" id="node11" href="$mscore_2plugin_2api_2part_8cpp.html" title="mscore/plugin/api/part.cpp" alt="" coords="713,80,888,107"/>
-<area shape="rect" id="node3" href="$cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="1170,155,1359,181"/>
-<area shape="rect" id="node4" href="$mscore_2plugin_2api_2excerpt_8cpp.html" title="mscore/plugin/api/excerpt.cpp" alt="" coords="24,155,220,181"/>
-<area shape="rect" id="node6" href="$selection_8h.html" title="mscore/plugin/api/selection.h" alt="" coords="296,155,486,181"/>
-<area shape="rect" id="node7" href="$selection_8cpp.html" title="mscore/plugin/api/selection.cpp" alt="" coords="844,229,1050,256"/>
-<area shape="rect" id="node8" href="$mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="510,155,696,181"/>
-<area shape="rect" id="node9" href="$mscore_2plugin_2api_2score_element_8cpp.html" title="mscore/plugin/api/scoreelement.cpp" alt="" coords="720,155,950,181"/>
-<area shape="rect" id="node10" href="$util_8cpp.html" title="mscore/plugin/api/util.cpp" alt="" coords="975,155,1146,181"/>
+<area shape="rect" id="node2" href="$mscore_2plugin_2api_2score_8h.html" title="mscore/plugin/api/score.h" alt="" coords="541,80,721,107"/>
+<area shape="rect" id="node5" href="$qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="155,229,389,256"/>
+<area shape="rect" id="node11" href="$elements_8cpp.html" title="mscore/plugin/api/elements.cpp" alt="" coords="745,80,959,107"/>
+<area shape="rect" id="node12" href="$mscore_2plugin_2api_2part_8cpp.html" title="mscore/plugin/api/part.cpp" alt="" coords="984,80,1168,107"/>
+<area shape="rect" id="node3" href="$cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="1222,155,1421,181"/>
+<area shape="rect" id="node4" href="$mscore_2plugin_2api_2excerpt_8cpp.html" title="mscore/plugin/api/excerpt.cpp" alt="" coords="30,155,234,181"/>
+<area shape="rect" id="node6" href="$selection_8h.html" title="mscore/plugin/api/selection.h" alt="" coords="309,155,509,181"/>
+<area shape="rect" id="node7" href="$selection_8cpp.html" title="mscore/plugin/api/selection.cpp" alt="" coords="882,229,1097,256"/>
+<area shape="rect" id="node8" href="$mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="533,155,728,181"/>
+<area shape="rect" id="node9" href="$scoreelement_8cpp.html" title="mscore/plugin/api/scoreelement.cpp" alt="" coords="753,155,994,181"/>
+<area shape="rect" id="node10" href="$util_8cpp.html" title="mscore/plugin/api/util.cpp" alt="" coords="1019,155,1197,181"/>
 </map>

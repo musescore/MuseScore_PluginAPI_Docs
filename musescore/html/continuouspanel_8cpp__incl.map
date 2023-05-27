@@ -1,48 +1,46 @@
 <map id="mscore/continuouspanel.cpp" name="mscore/continuouspanel.cpp">
-<area shape="rect" id="node2" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="763,80,888,107"/>
-<area shape="rect" id="node6" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="299,155,394,181"/>
-<area shape="rect" id="node23" href="$measure_8h.html" title="Definition of class Measure. " alt="" coords="1338,80,1481,107"/>
-<area shape="rect" id="node26" href="$segment_8h.html" title="segment.h" alt="" coords="1248,229,1331,256"/>
-<area shape="rect" id="node27" href="$system_8h.html" title="Definition of classes SysStaff and System. " alt="" coords="957,229,1093,256"/>
-<area shape="rect" id="node30" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="1989,80,2107,107"/>
-<area shape="rect" id="node37" href="$page_8h.html" title="libmscore/page.h" alt="" coords="2803,229,2925,256"/>
-<area shape="rect" id="node39" href="$sym_8h.html" title="libmscore/sym.h" alt="" coords="2570,80,2689,107"/>
-<area shape="rect" id="node42" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="289,80,404,107"/>
-<area shape="rect" id="node43" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="1734,229,1869,256"/>
-<area shape="rect" id="node44" href="$keysig_8h.html" title="libmscore/keysig.h" alt="" coords="1505,80,1636,107"/>
-<area shape="rect" id="node45" href="$barline_8h.html" title="libmscore/barline.h" alt="" coords="2096,229,2227,256"/>
-<area shape="rect" id="node46" href="$rest_8h.html" title="libmscore/rest.h" alt="" coords="2431,80,2545,107"/>
-<area shape="rect" id="node47" href="$stafflines_8h.html" title="libmscore/stafflines.h" alt="" coords="1660,80,1807,107"/>
-<area shape="rect" id="node48" href="$preferences_8h.html" title="preferences.h" alt="" coords="2713,80,2815,107"/>
-<area shape="rect" id="node49" href="$scoreview_8h.html" title="scoreview.h" alt="" coords="1170,80,1262,107"/>
-<area shape="rect" id="node50" href="$continuouspanel_8h.html" title="continuouspanel.h" alt="" coords="2890,80,3017,107"/>
-<area shape="rect" id="node4" href="$input_8h.html" title="input.h" alt="" coords="908,379,969,405"/>
-<area shape="rect" id="node17" href="$select_8h.html" title="select.h" alt="" coords="907,304,975,331"/>
-<area shape="rect" id="node18" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="574,155,703,181"/>
-<area shape="rect" id="node19" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="1009,155,1111,181"/>
-<area shape="rect" id="node20" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="728,155,832,181"/>
-<area shape="rect" id="node21" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1355,229,1455,256"/>
-<area shape="rect" id="node22" href="$property_8h.html" title="property.h" alt="" coords="469,155,549,181"/>
-<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="1505,453,1581,480"/>
-<area shape="rect" id="node7" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="301,229,392,256"/>
-<area shape="rect" id="node8" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="417,229,503,256"/>
-<area shape="rect" id="node9" href="$event_8h.html" title="synthesizer/event.h" alt="" coords="43,229,179,256"/>
-<area shape="rect" id="node10" href="$interval_8h.html" title="interval.h" alt="" coords="203,229,277,256"/>
-<area shape="rect" id="node11" href="$clef_8h.html" title="Definition of classes Clef. " alt="" coords="1118,229,1173,256"/>
-<area shape="rect" id="node12" href="$element_8h.html" title="element.h" alt="" coords="1555,304,1634,331"/>
-<area shape="rect" id="node13" href="$spatium_8h.html" title="spatium.h" alt="" coords="1299,379,1378,405"/>
-<area shape="rect" id="node14" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1655,379,1731,405"/>
-<area shape="rect" id="node15" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1755,379,1869,405"/>
-<area shape="rect" id="node16" href="$shape_8h.html" title="shape.h" alt="" coords="1509,379,1577,405"/>
-<area shape="rect" id="node24" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="1482,155,1593,181"/>
-<area shape="rect" id="node25" href="$segmentlist_8h.html" title="segmentlist.h" alt="" coords="1306,155,1406,181"/>
-<area shape="rect" id="node28" href="$symbol_8h.html" title="symbol.h" alt="" coords="1051,304,1125,331"/>
-<area shape="rect" id="node29" href="$skyline_8h.html" title="skyline.h" alt="" coords="1149,304,1224,331"/>
-<area shape="rect" id="node31" href="$velo_8h.html" title="Definition of classes VeloList. " alt="" coords="2375,155,2433,181"/>
-<area shape="rect" id="node32" href="$pitch_8h.html" title="pitch.h" alt="" coords="2017,155,2079,181"/>
-<area shape="rect" id="node33" href="$cleflist_8h.html" title="cleflist.h" alt="" coords="1871,155,1942,181"/>
-<area shape="rect" id="node34" href="$keylist_8h.html" title="keylist.h" alt="" coords="2103,155,2174,181"/>
-<area shape="rect" id="node35" href="$stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="2199,155,2300,181"/>
-<area shape="rect" id="node36" href="$groups_8h.html" title="groups.h" alt="" coords="1791,304,1863,331"/>
-<area shape="rect" id="node38" href="$bsp_8h.html" title="bsp.h" alt="" coords="2854,304,2909,331"/>
+<area shape="rect" id="node2" href="$libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="604,155,735,181"/>
+<area shape="rect" id="node7" href="$libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="485,229,581,256"/>
+<area shape="rect" id="node22" href="$sym_8h.html" title="sym.h" alt="" coords="569,379,628,405"/>
+<area shape="rect" id="node26" href="$measure_8h.html" title="Definition of class Measure. " alt="" coords="1289,80,1437,107"/>
+<area shape="rect" id="node29" href="$segment_8h.html" title="segment.h" alt="" coords="1173,229,1257,256"/>
+<area shape="rect" id="node30" href="$system_8h.html" title="Definition of classes SysStaff and System. " alt="" coords="1009,229,1149,256"/>
+<area shape="rect" id="node33" href="$staff_8h.html" title="Definition of class Staff. " alt="" coords="2163,229,2288,256"/>
+<area shape="rect" id="node40" href="$page_8h.html" title="libmscore/page.h" alt="" coords="808,229,933,256"/>
+<area shape="rect" id="node42" href="$libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="911,155,1031,181"/>
+<area shape="rect" id="node43" href="$timesig_8h.html" title="libmscore/timesig.h" alt="" coords="1787,229,1927,256"/>
+<area shape="rect" id="node44" href="$keysig_8h.html" title="libmscore/keysig.h" alt="" coords="1513,80,1647,107"/>
+<area shape="rect" id="node45" href="$barline_8h.html" title="libmscore/barline.h" alt="" coords="2003,229,2139,256"/>
+<area shape="rect" id="node46" href="$rest_8h.html" title="libmscore/rest.h" alt="" coords="211,155,330,181"/>
+<area shape="rect" id="node47" href="$stafflines_8h.html" title="libmscore/stafflines.h" alt="" coords="1671,80,1822,107"/>
+<area shape="rect" id="node48" href="$preferences_8h.html" title="preferences.h" alt="" coords="1999,80,2100,107"/>
+<area shape="rect" id="node49" href="$scoreview_8h.html" title="scoreview.h" alt="" coords="1525,155,1616,181"/>
+<area shape="rect" id="node50" href="$continuouspanel_8h.html" title="continuouspanel.h" alt="" coords="2125,80,2254,107"/>
+<area shape="rect" id="node4" href="$input_8h.html" title="input.h" alt="" coords="953,379,1015,405"/>
+<area shape="rect" id="node12" href="$select_8h.html" title="select.h" alt="" coords="758,379,826,405"/>
+<area shape="rect" id="node13" href="$synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="94,229,223,256"/>
+<area shape="rect" id="node14" href="$mscoreview_8h.html" title="mscoreview.h" alt="" coords="1457,229,1559,256"/>
+<area shape="rect" id="node15" href="$spannermap_8h.html" title="spannermap.h" alt="" coords="248,229,355,256"/>
+<area shape="rect" id="node16" href="$layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1281,229,1381,256"/>
+<area shape="rect" id="node25" href="$property_8h.html" title="property.h" alt="" coords="379,229,461,256"/>
+<area shape="rect" id="node5" href="$mscore_8h.html" title="mscore.h" alt="" coords="1609,453,1687,480"/>
+<area shape="rect" id="node6" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="1618,528,1678,555"/>
+<area shape="rect" id="node10" href="$stringdata_8h.html" title="stringdata.h" alt="" coords="489,304,581,331"/>
+<area shape="rect" id="node11" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="191,304,278,331"/>
+<area shape="rect" id="node17" href="$element_8h.html" title="element.h" alt="" coords="1417,304,1497,331"/>
+<area shape="rect" id="node18" href="$spatium_8h.html" title="spatium.h" alt="" coords="1212,379,1292,405"/>
+<area shape="rect" id="node19" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="1787,379,1866,405"/>
+<area shape="rect" id="node20" href="$scoreElement_8h.html" title="scoreElement.h" alt="" coords="2240,379,2355,405"/>
+<area shape="rect" id="node21" href="$shape_8h.html" title="shape.h" alt="" coords="1395,379,1463,405"/>
+<area shape="rect" id="node27" href="$measurebase_8h.html" title="Definition of MeasureBase class. " alt="" coords="1363,155,1475,181"/>
+<area shape="rect" id="node28" href="$segmentlist_8h.html" title="segmentlist.h" alt="" coords="1237,155,1339,181"/>
+<area shape="rect" id="node31" href="$symbol_8h.html" title="symbol.h" alt="" coords="989,304,1065,331"/>
+<area shape="rect" id="node32" href="$skyline_8h.html" title="skyline.h" alt="" coords="1141,304,1214,331"/>
+<area shape="rect" id="node34" href="$changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="1917,304,2019,331"/>
+<area shape="rect" id="node35" href="$pitch_8h.html" title="pitch.h" alt="" coords="2195,304,2256,331"/>
+<area shape="rect" id="node36" href="$cleflist_8h.html" title="cleflist.h" alt="" coords="2144,379,2216,405"/>
+<area shape="rect" id="node37" href="$keylist_8h.html" title="keylist.h" alt="" coords="2281,304,2351,331"/>
+<area shape="rect" id="node38" href="$stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="2375,304,2478,331"/>
+<area shape="rect" id="node39" href="$groups_8h.html" title="groups.h" alt="" coords="1769,304,1842,331"/>
+<area shape="rect" id="node41" href="$bsp_8h.html" title="bsp.h" alt="" coords="910,304,965,331"/>
 </map>

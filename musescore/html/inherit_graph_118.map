@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_ms_1_1_cmd_state_locker.html" title="Ms::CmdStateLocker" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" href="$structMs_1_1BaseDiff.html" title="Ms::BaseDiff" alt="" coords="5,81,104,108"/>
+<area shape="rect" id="node2" href="$structMs_1_1ContextChange.html" title="Ms::ContextChange" alt="" coords="152,5,289,32"/>
+<area shape="rect" id="node3" href="$structMs_1_1ElementDiff.html" title="Ms::ElementDiff" alt="" coords="162,56,279,83"/>
+<area shape="rect" id="node4" href="$structMs_1_1MarkupDiff.html" title="Ms::MarkupDiff" alt="" coords="163,107,278,133"/>
+<area shape="rect" id="node5" href="$structMs_1_1PropertyDiff.html" title="Ms::PropertyDiff" alt="" coords="161,157,280,184"/>
 </map>

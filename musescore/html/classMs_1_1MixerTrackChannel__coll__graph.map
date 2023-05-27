@@ -1,0 +1,10 @@
+<map id="Ms::MixerTrackChannel" name="Ms::MixerTrackChannel">
+<area shape="rect" id="node4" href="$classMs_1_1ChannelListener.html" title="Ms::ChannelListener" alt="" coords="277,295,419,322"/>
+<area shape="rect" id="node5" href="$classMs_1_1Listener.html" title="Ms::Listener\&lt; Channel\l::Prop \&gt;" alt="" coords="698,184,849,225"/>
+<area shape="rect" id="node6" href="$classMs_1_1Notifier.html" title="Ms::Notifier\&lt; Channel\l::Prop \&gt;" alt="" coords="858,392,1006,433"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="876,95,988,121"/>
+<area shape="rect" id="node10" href="$classMs_1_1Notifier.html" title="Ms::Notifier\&lt; Data \&gt;" alt="" coords="1059,295,1197,322"/>
+<area shape="rect" id="node12" href="$classMs_1_1Listener.html" title="Ms::Listener\&lt; Data \&gt;" alt="" coords="703,95,844,121"/>
+<area shape="rect" id="node13" href="$classMs_1_1MixerTrack.html" title="Ms::MixerTrack" alt="" coords="443,295,555,322"/>
+<area shape="rect" id="node14" href="$classMs_1_1MixerTrackGroup.html" title="Ms::MixerTrackGroup" alt="" coords="579,295,725,322"/>
+</map>

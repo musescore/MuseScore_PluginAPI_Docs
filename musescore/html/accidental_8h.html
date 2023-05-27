@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -77,22 +77,29 @@ $(function() {
 
 <p>Definition of class Accidental.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;config.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &quot;config.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="element_8h_source.html">element.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for accidental.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="accidental_8h__incl.png" border="0" usemap="#libmscore_2accidental_8h" alt=""/></div>
 <map name="libmscore_2accidental_8h" id="libmscore_2accidental_8h">
-<area shape="rect" id="node3" href="element_8h.html" title="element.h" alt="" coords="145,80,223,107"/>
-<area shape="rect" id="node4" href="spatium_8h.html" title="spatium.h" alt="" coords="43,155,122,181"/>
-<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="146,155,222,181"/>
-<area shape="rect" id="node10" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="210,229,323,256"/>
-<area shape="rect" id="node11" href="shape_8h.html" title="shape.h" alt="" coords="298,155,366,181"/>
-<area shape="rect" id="node6" href="mscore_8h.html" title="mscore.h" alt="" coords="110,229,186,256"/>
-<area shape="rect" id="node7" href="style_8h.html" title="style.h" alt="" coords="159,304,220,331"/>
-<area shape="rect" id="node8" href="chordlist_8h.html" title="chordlist.h" alt="" coords="147,379,229,405"/>
-<area shape="rect" id="node9" href="types_8h.html" title="types.h" alt="" coords="254,379,319,405"/>
+<area shape="rect" id="node6" href="element_8h.html" title="element.h" alt="" coords="465,80,545,107"/>
+<area shape="rect" id="node17" href="sym_8h.html" title="sym.h" alt="" coords="830,155,889,181"/>
+<area shape="rect" id="node7" href="elementgroup_8h.html" title="elementgroup.h" alt="" coords="495,155,608,181"/>
+<area shape="rect" id="node8" href="spatium_8h.html" title="spatium.h" alt="" coords="633,155,713,181"/>
+<area shape="rect" id="node9" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="329,229,408,256"/>
+<area shape="rect" id="node14" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="479,304,594,331"/>
+<area shape="rect" id="node15" href="shape_8h.html" title="shape.h" alt="" coords="737,155,805,181"/>
+<area shape="rect" id="node16" href="sig_8h.html" title="sig.h" alt="" coords="369,155,419,181"/>
+<area shape="rect" id="node10" href="mscore_8h.html" title="mscore.h" alt="" coords="376,304,455,331"/>
+<area shape="rect" id="node11" href="libmscore_2style_8h.html" title="style.h" alt="" coords="515,379,575,405"/>
+<area shape="rect" id="node12" href="chordlist_8h.html" title="chordlist.h" alt="" coords="533,453,617,480"/>
+<area shape="rect" id="node13" href="types_8h.html" title="types.h" alt="" coords="445,453,509,480"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -100,55 +107,55 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="accidental_8h__dep__incl.png" border="0" usemap="#libmscore_2accidental_8hdep" alt=""/></div>
 <map name="libmscore_2accidental_8hdep" id="libmscore_2accidental_8hdep">
-<area shape="rect" id="node2" href="accidental_8cpp.html" title="libmscore/accidental.cpp" alt="" coords="349,80,516,107"/>
-<area shape="rect" id="node3" href="ambitus_8h.html" title="libmscore/ambitus.h" alt="" coords="642,80,781,107"/>
-<area shape="rect" id="node6" href="element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,162,159,189"/>
-<area shape="rect" id="node7" href="layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="183,162,325,189"/>
-<area shape="rect" id="node8" href="measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="1061,162,1218,189"/>
-<area shape="rect" id="node11" href="menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1242,162,1375,189"/>
-<area shape="rect" id="node12" href="chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="906,80,1045,107"/>
-<area shape="rect" id="node13" href="cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="1069,80,1201,107"/>
-<area shape="rect" id="node14" href="edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="1226,80,1354,107"/>
-<area shape="rect" id="node15" href="glissando_8cpp.html" title="libmscore/glissando.cpp" alt="" coords="1378,80,1541,107"/>
-<area shape="rect" id="node16" href="input_8cpp.html" title="libmscore/input.cpp" alt="" coords="1565,80,1700,107"/>
-<area shape="rect" id="node17" href="key_8cpp.html" title="libmscore/key.cpp" alt="" coords="1725,80,1853,107"/>
-<area shape="rect" id="node18" href="mscore_8cpp.html" title="libmscore/mscore.cpp" alt="" coords="1877,80,2028,107"/>
-<area shape="rect" id="node19" href="note_8cpp.html" title="Implementation of classes Note and ShadowNote. " alt="" coords="2052,80,2184,107"/>
-<area shape="rect" id="node20" href="noteentry_8cpp.html" title="libmscore/noteentry.cpp" alt="" coords="2208,80,2369,107"/>
-<area shape="rect" id="node21" href="property_8cpp.html" title="libmscore/property.cpp" alt="" coords="2394,80,2549,107"/>
-<area shape="rect" id="node22" href="read114_8cpp.html" title="libmscore/read114.cpp" alt="" coords="2573,80,2727,107"/>
-<area shape="rect" id="node23" href="select_8cpp.html" title="Implementation of class Selection plus other selection related functions. " alt="" coords="2751,80,2893,107"/>
-<area shape="rect" id="node24" href="shadownote_8cpp.html" title="libmscore/shadownote.cpp" alt="" coords="2917,80,3095,107"/>
-<area shape="rect" id="node25" href="trill_8cpp.html" title="libmscore/trill.cpp" alt="" coords="3119,80,3243,107"/>
-<area shape="rect" id="node26" href="undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="3267,80,3401,107"/>
-<area shape="rect" id="node27" href="vibrato_8cpp.html" title="libmscore/vibrato.cpp" alt="" coords="3426,80,3573,107"/>
-<area shape="rect" id="node28" href="debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="3597,80,3801,107"/>
-<area shape="rect" id="node29" href="exportxml_8cpp.html" title="mscore/exportxml.cpp" alt="" coords="3825,80,3976,107"/>
-<area shape="rect" id="node30" href="harmonyedit_8cpp.html" title="mscore/harmonyedit.cpp" alt="" coords="4001,80,4166,107"/>
-<area shape="rect" id="node31" href="importmxmlnotepitch_8h.html" title="mscore/importmxmlnotepitch.h" alt="" coords="4191,80,4392,107"/>
-<area shape="rect" id="node33" href="importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="4331,162,4529,189"/>
-<area shape="rect" id="node34" href="importove_8cpp.html" title="mscore/importove.cpp" alt="" coords="4468,80,4619,107"/>
-<area shape="rect" id="node35" href="inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="4643,80,4847,107"/>
-<area shape="rect" id="node36" href="keyedit_8cpp.html" title="mscore/keyedit.cpp" alt="" coords="4871,80,5007,107"/>
-<area shape="rect" id="node37" href="musicxmlsupport_8cpp.html" title="mscore/musicxmlsupport.cpp" alt="" coords="5032,80,5225,107"/>
-<area shape="rect" id="node38" href="elements_8h.html" title="mscore/plugin/api/elements.h" alt="" coords="5250,80,5442,107"/>
-<area shape="rect" id="node50" href="propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="5466,80,5639,107"/>
-<area shape="rect" id="node4" href="ambitus_8cpp.html" title="libmscore/ambitus.cpp" alt="" coords="731,162,884,189"/>
-<area shape="rect" id="node5" href="clef_8cpp.html" title="Implementation of classes Clef (partial) and ClefList (complete). " alt="" coords="909,162,1037,189"/>
-<area shape="rect" id="node9" href="read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="349,162,503,189"/>
-<area shape="rect" id="node10" href="inspector_ambitus_8cpp.html" title="mscore/inspector/inspector\lAmbitus.cpp" alt="" coords="527,155,706,196"/>
-<area shape="rect" id="node32" href="importmxmlnotepitch_8cpp.html" title="mscore/importmxmlnotepitch.cpp" alt="" coords="4092,162,4307,189"/>
-<area shape="rect" id="node39" href="cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="5933,162,6122,189"/>
-<area shape="rect" id="node40" href="playevent_8h.html" title="mscore/plugin/api/playevent.h" alt="" coords="5249,162,5443,189"/>
-<area shape="rect" id="node41" href="playevent_8cpp.html" title="mscore/plugin/api/playevent.cpp" alt="" coords="5707,244,5916,271"/>
-<area shape="rect" id="node42" href="elements_8cpp.html" title="mscore/plugin/api/elements.cpp" alt="" coords="4788,162,4995,189"/>
-<area shape="rect" id="node43" href="qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="4867,244,5092,271"/>
-<area shape="rect" id="node44" href="selection_8h.html" title="mscore/plugin/api/selection.h" alt="" coords="4573,162,4764,189"/>
-<area shape="rect" id="node46" href="mscore_2plugin_2api_2tie_8h.html" title="mscore/plugin/api/tie.h" alt="" coords="5071,162,5224,189"/>
-<area shape="rect" id="node48" href="mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="5468,162,5653,189"/>
-<area shape="rect" id="node49" href="mscore_2plugin_2api_2score_element_8cpp.html" title="mscore/plugin/api/scoreelement.cpp" alt="" coords="5677,162,5908,189"/>
-<area shape="rect" id="node45" href="selection_8cpp.html" title="mscore/plugin/api/selection.cpp" alt="" coords="4566,244,4771,271"/>
-<area shape="rect" id="node47" href="mscore_2plugin_2api_2tie_8cpp.html" title="mscore/plugin/api/tie.cpp" alt="" coords="5116,244,5283,271"/>
+<area shape="rect" id="node2" href="exportxml_8cpp.html" title="importexport/musicxml\l/exportxml.cpp" alt="" coords="5,80,168,121"/>
+<area shape="rect" id="node3" href="importmxmlnotepitch_8h.html" title="importexport/musicxml\l/importmxmlnotepitch.h" alt="" coords="193,80,359,121"/>
+<area shape="rect" id="node5" href="importmxmlpass2_8cpp.html" title="importexport/musicxml\l/importmxmlpass2.cpp" alt="" coords="293,169,456,211"/>
+<area shape="rect" id="node6" href="musicxmlsupport_8cpp.html" title="importexport/musicxml\l/musicxmlsupport.cpp" alt="" coords="435,80,597,121"/>
+<area shape="rect" id="node7" href="importove_8cpp.html" title="importexport/ove/importove.cpp" alt="" coords="622,87,839,114"/>
+<area shape="rect" id="node8" href="accidental_8cpp.html" title="libmscore/accidental.cpp" alt="" coords="864,87,1035,114"/>
+<area shape="rect" id="node9" href="ambitus_8h.html" title="libmscore/ambitus.h" alt="" coords="1160,87,1304,114"/>
+<area shape="rect" id="node12" href="element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="481,177,639,203"/>
+<area shape="rect" id="node13" href="layout_8cpp.html" title="libmscore/layout.cpp" alt="" coords="664,177,811,203"/>
+<area shape="rect" id="node14" href="measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="1573,177,1736,203"/>
+<area shape="rect" id="node17" href="menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1760,177,1899,203"/>
+<area shape="rect" id="node18" href="chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="1430,87,1575,114"/>
+<area shape="rect" id="node19" href="cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="1600,87,1739,114"/>
+<area shape="rect" id="node21" href="edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="1763,87,1896,114"/>
+<area shape="rect" id="node22" href="glissando_8cpp.html" title="libmscore/glissando.cpp" alt="" coords="1920,87,2088,114"/>
+<area shape="rect" id="node23" href="input_8cpp.html" title="libmscore/input.cpp" alt="" coords="2112,87,2251,114"/>
+<area shape="rect" id="node24" href="key_8cpp.html" title="libmscore/key.cpp" alt="" coords="2275,87,2405,114"/>
+<area shape="rect" id="node25" href="mscore_8cpp.html" title="libmscore/mscore.cpp" alt="" coords="2430,87,2586,114"/>
+<area shape="rect" id="node26" href="note_8cpp.html" title="Implementation of classes Note and ShadowNote. " alt="" coords="2610,87,2747,114"/>
+<area shape="rect" id="node27" href="noteentry_8cpp.html" title="libmscore/noteentry.cpp" alt="" coords="2771,87,2938,114"/>
+<area shape="rect" id="node28" href="property_8cpp.html" title="libmscore/property.cpp" alt="" coords="2962,87,3121,114"/>
+<area shape="rect" id="node29" href="read114_8cpp.html" title="libmscore/read114.cpp" alt="" coords="3145,87,3303,114"/>
+<area shape="rect" id="node30" href="select_8cpp.html" title="Implementation of class Selection plus other selection related functions. " alt="" coords="3328,87,3475,114"/>
+<area shape="rect" id="node31" href="shadownote_8cpp.html" title="libmscore/shadownote.cpp" alt="" coords="3499,87,3683,114"/>
+<area shape="rect" id="node32" href="trill_8cpp.html" title="libmscore/trill.cpp" alt="" coords="3707,87,3837,114"/>
+<area shape="rect" id="node33" href="undo_8cpp.html" title="Implementation of undo functions. " alt="" coords="3861,87,4003,114"/>
+<area shape="rect" id="node34" href="vibrato_8cpp.html" title="libmscore/vibrato.cpp" alt="" coords="4027,87,4178,114"/>
+<area shape="rect" id="node35" href="debugger_8cpp.html" title="mscore/debugger/debugger.cpp" alt="" coords="4203,87,4416,114"/>
+<area shape="rect" id="node36" href="harmonyedit_8cpp.html" title="mscore/harmonyedit.cpp" alt="" coords="4441,87,4613,114"/>
+<area shape="rect" id="node37" href="inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="4637,87,4851,114"/>
+<area shape="rect" id="node38" href="keyedit_8cpp.html" title="mscore/keyedit.cpp" alt="" coords="4875,87,5015,114"/>
+<area shape="rect" id="node39" href="elements_8h.html" title="mscore/plugin/api/elements.h" alt="" coords="5039,87,5241,114"/>
+<area shape="rect" id="node50" href="propertymenu_8cpp.html" title="mscore/propertymenu.cpp" alt="" coords="5265,87,5444,114"/>
+<area shape="rect" id="node4" href="importmxmlnotepitch_8cpp.html" title="importexport/musicxml\l/importmxmlnotepitch.cpp" alt="" coords="89,169,269,211"/>
+<area shape="rect" id="node10" href="ambitus_8cpp.html" title="libmscore/ambitus.cpp" alt="" coords="835,177,994,203"/>
+<area shape="rect" id="node11" href="clef_8cpp.html" title="Implementation of classes Clef (partial) and ClefList (complete). " alt="" coords="1019,177,1152,203"/>
+<area shape="rect" id="node15" href="read206_8cpp.html" title="libmscore/read206.cpp" alt="" coords="1177,177,1335,203"/>
+<area shape="rect" id="node16" href="inspectorAmbitus_8cpp.html" title="mscore/inspector/inspector\lAmbitus.cpp" alt="" coords="1360,169,1549,211"/>
+<area shape="rect" id="node20" href="scoremigrationdialogmodel_8cpp.html" title="mscore/migration/scoremigrationdialogmodel.cpp" alt="" coords="1923,177,2245,203"/>
+<area shape="rect" id="node40" href="cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="4817,177,5015,203"/>
+<area shape="rect" id="node41" href="playevent_8h.html" title="mscore/plugin/api/playevent.h" alt="" coords="5039,177,5241,203"/>
+<area shape="rect" id="node42" href="playevent_8cpp.html" title="mscore/plugin/api/playevent.cpp" alt="" coords="4610,259,4825,285"/>
+<area shape="rect" id="node43" href="elements_8cpp.html" title="mscore/plugin/api/elements.cpp" alt="" coords="5317,177,5531,203"/>
+<area shape="rect" id="node44" href="qmlpluginapi_8cpp.html" title="mscore/plugin/api/qmlpluginapi.cpp" alt="" coords="5496,259,5731,285"/>
+<area shape="rect" id="node45" href="selection_8h.html" title="mscore/plugin/api/selection.h" alt="" coords="5741,177,5941,203"/>
+<area shape="rect" id="node47" href="mscore_2plugin_2api_2tie_8h.html" title="mscore/plugin/api/tie.h" alt="" coords="5555,177,5717,203"/>
+<area shape="rect" id="node48" href="mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="4332,177,4527,203"/>
+<area shape="rect" id="node49" href="scoreelement_8cpp.html" title="mscore/plugin/api/scoreelement.cpp" alt="" coords="4551,177,4793,203"/>
+<area shape="rect" id="node46" href="selection_8cpp.html" title="mscore/plugin/api/selection.cpp" alt="" coords="5755,259,5970,285"/>
 </map>
 </div>
 </div>
@@ -156,36 +163,39 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_sym_element.html">Ms::SymElement</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1SymElement.html">Ms::SymElement</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ms_1_1_accidental.html">Ms::Accidental</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMs_1_1Accidental.html">Ms::Accidental</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a55c58e0e93a543f7ad29ebe885051671"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a55c58e0e93a543f7ad29ebe885051671">Ms::AccidentalRole</a> : char { <a class="el" href="namespace_ms.html#a55c58e0e93a543f7ad29ebe885051671ae1f2d5134ed2543d38a0de9751cf75d9">Ms::AccidentalRole::AUTO</a>, 
-<a class="el" href="namespace_ms.html#a55c58e0e93a543f7ad29ebe885051671a2e40ad879e955201df4dedbf8d479a12">Ms::AccidentalRole::USER</a>
+<tr class="memitem:a55c58e0e93a543f7ad29ebe885051671"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a55c58e0e93a543f7ad29ebe885051671">Ms::AccidentalRole</a> : char { <a class="el" href="namespaceMs.html#a55c58e0e93a543f7ad29ebe885051671ae1f2d5134ed2543d38a0de9751cf75d9">Ms::AccidentalRole::AUTO</a>, 
+<a class="el" href="namespaceMs.html#a55c58e0e93a543f7ad29ebe885051671a2e40ad879e955201df4dedbf8d479a12">Ms::AccidentalRole::USER</a>
  }</td></tr>
 <tr class="separator:a55c58e0e93a543f7ad29ebe885051671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad645340ae3d26d22eb29ecc4395824a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad645340ae3d26d22eb29ecc4395824a0">Ms::AccidentalBracket</a> : char { <a class="el" href="namespace_ms.html#ad645340ae3d26d22eb29ecc4395824a0ab50339a10e1de285ac99d4c3990b8693">Ms::AccidentalBracket::NONE</a>, 
-<a class="el" href="namespace_ms.html#ad645340ae3d26d22eb29ecc4395824a0a6ed166b403718b2d6ae647205f4c2fbe">Ms::AccidentalBracket::PARENTHESIS</a>, 
-<a class="el" href="namespace_ms.html#ad645340ae3d26d22eb29ecc4395824a0a62c2198c66464d0dc1b231ef327c09fa">Ms::AccidentalBracket::BRACKET</a>
+<tr class="memitem:ad645340ae3d26d22eb29ecc4395824a0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad645340ae3d26d22eb29ecc4395824a0">Ms::AccidentalBracket</a> : char { <a class="el" href="namespaceMs.html#ad645340ae3d26d22eb29ecc4395824a0ab50339a10e1de285ac99d4c3990b8693">Ms::AccidentalBracket::NONE</a>, 
+<a class="el" href="namespaceMs.html#ad645340ae3d26d22eb29ecc4395824a0a6ed166b403718b2d6ae647205f4c2fbe">Ms::AccidentalBracket::PARENTHESIS</a>, 
+<a class="el" href="namespaceMs.html#ad645340ae3d26d22eb29ecc4395824a0a62c2198c66464d0dc1b231ef327c09fa">Ms::AccidentalBracket::BRACKET</a>, 
+<a class="el" href="namespaceMs.html#ad645340ae3d26d22eb29ecc4395824a0aa978f79663129bdb1ab765185b15a9b2">Ms::AccidentalBracket::BRACE</a>
  }</td></tr>
 <tr class="separator:ad645340ae3d26d22eb29ecc4395824a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6e4de0d30e56df6fa411ff47872638cf"><td class="memItemLeft" align="right" valign="top">AccidentalVal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a6e4de0d30e56df6fa411ff47872638cf">Ms::sym2accidentalVal</a> (SymId id)</td></tr>
+<tr class="memitem:a6e4de0d30e56df6fa411ff47872638cf"><td class="memItemLeft" align="right" valign="top">AccidentalVal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6e4de0d30e56df6fa411ff47872638cf">Ms::sym2accidentalVal</a> (SymId id)</td></tr>
 <tr class="separator:a6e4de0d30e56df6fa411ff47872638cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Definition of class Accidental. </p>
+
+<p class="definition">Definition in file <a class="el" href="accidental_8h_source.html">accidental.h</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

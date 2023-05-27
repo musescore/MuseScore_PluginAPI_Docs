@@ -1,6 +1,0 @@
-<map id="Ms::MasterPalette" name="Ms::MasterPalette">
-<area shape="rect" id="node4" href="$class_ms_1_1_key_editor.html" title="Ms::KeyEditor" alt="" coords="173,185,278,212"/>
-<area shape="rect" id="node8" href="$class_ms_1_1_palette.html" title="Ms::Palette" alt="" coords="193,81,282,108"/>
-<area shape="rect" id="node9" href="$class_ms_1_1_time_dialog.html" title="Ms::TimeDialog" alt="" coords="303,185,418,212"/>
-<area shape="rect" id="node6" href="$class_ms_1_1_palette_scroll_area.html" title="Ms::PaletteScrollArea" alt="" coords="358,81,507,108"/>
-</map>

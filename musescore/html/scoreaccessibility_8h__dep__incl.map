@@ -1,11 +1,11 @@
 <map id="mscore/scoreaccessibility.h" name="mscore/scoreaccessibility.h">
-<area shape="rect" id="node2" href="$events_8cpp.html" title="mscore/events.cpp" alt="" coords="5,80,139,107"/>
-<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="163,80,322,107"/>
-<area shape="rect" id="node4" href="$newwizard_8cpp.html" title="mscore/newwizard.cpp" alt="" coords="346,80,502,107"/>
-<area shape="rect" id="node5" href="$palettemodel_8cpp.html" title="mscore/palette/palettemodel.cpp" alt="" coords="527,80,737,107"/>
-<area shape="rect" id="node6" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="761,80,895,107"/>
-<area shape="rect" id="node7" href="$scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="919,80,1118,107"/>
-<area shape="rect" id="node8" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="1142,80,1295,107"/>
-<area shape="rect" id="node9" href="$search_combo_box_8cpp.html" title="mscore/searchComboBox.cpp" alt="" coords="1319,80,1518,107"/>
-<area shape="rect" id="node10" href="$selectionwindow_8cpp.html" title="mscore/selectionwindow.cpp" alt="" coords="1542,80,1733,107"/>
+<area shape="rect" id="node2" href="$events_8cpp.html" title="mscore/events.cpp" alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node3" href="$musescore_8cpp.html" title="mscore/musescore.cpp" alt="" coords="166,80,330,107"/>
+<area shape="rect" id="node4" href="$newwizard_8cpp.html" title="mscore/newwizard.cpp" alt="" coords="354,80,515,107"/>
+<area shape="rect" id="node5" href="$palettemodel_8cpp.html" title="mscore/palette/palettemodel.cpp" alt="" coords="539,80,759,107"/>
+<area shape="rect" id="node6" href="$palette_8cpp.html" title="mscore/palette.cpp" alt="" coords="783,80,921,107"/>
+<area shape="rect" id="node7" href="$scoreaccessibility_8cpp.html" title="mscore/scoreaccessibility.cpp" alt="" coords="945,80,1148,107"/>
+<area shape="rect" id="node8" href="$scoreview_8cpp.html" title="mscore/scoreview.cpp" alt="" coords="1173,80,1329,107"/>
+<area shape="rect" id="node9" href="$searchComboBox_8cpp.html" title="mscore/searchComboBox.cpp" alt="" coords="1353,80,1556,107"/>
+<area shape="rect" id="node10" href="$selectionwindow_8cpp.html" title="mscore/selectionwindow.cpp" alt="" coords="1581,80,1777,107"/>
 </map>

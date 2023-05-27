@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi_instrument.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi_instrument.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,13 +61,14 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">importmidi_instrument.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -81,114 +82,120 @@ $(function() {
 <code>#include &quot;<a class="el" href="staff_8h_source.html">libmscore/staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="importmidi__operations_8h_source.html">importmidi_operations.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="midiinstrument_8h_source.html">midi/midiinstrument.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="midiinstrument_8h_source.html">audio/midi/midiinstrument.h</a>&quot;</code><br />
 <code>#include &lt;set&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for importmidi_instrument.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="importmidi__instrument_8cpp__incl.png" border="0" usemap="#mscore_2importmidi_2importmidi__instrument_8cpp" alt=""/></div>
-<map name="mscore_2importmidi_2importmidi__instrument_8cpp" id="mscore_2importmidi_2importmidi__instrument_8cpp">
-<area shape="rect" id="node2" href="importmidi__instrument_8h.html" title="importmidi_instrument.h" alt="" coords="744,95,905,121"/>
-<area shape="rect" id="node11" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="5,244,137,271"/>
-<area shape="rect" id="node14" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="315,169,443,196"/>
-<area shape="rect" id="node20" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="945,319,1113,345"/>
-<area shape="rect" id="node27" href="drumset_8h.html" title="libmscore/drumset.h" alt="" coords="780,468,920,495"/>
-<area shape="rect" id="node31" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1171,319,1286,345"/>
-<area shape="rect" id="node33" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="1644,319,1763,345"/>
-<area shape="rect" id="node41" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="2305,319,2430,345"/>
-<area shape="rect" id="node49" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="509,95,669,121"/>
-<area shape="rect" id="node50" href="midiinstrument_8h.html" title="midi/midiinstrument.h" alt="" coords="1183,95,1330,121"/>
-<area shape="rect" id="node3" href="midifile_8h.html" title="midi/midifile.h" alt="" coords="759,169,861,196"/>
-<area shape="rect" id="node4" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="795,244,905,271"/>
-<area shape="rect" id="node9" href="event_8h.html" title="synthesizer/event.h" alt="" coords="519,468,655,495"/>
-<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="680,468,756,495"/>
-<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="1524,543,1600,569"/>
-<area shape="rect" id="node8" href="style_8h.html" title="style.h" alt="" coords="1662,617,1723,644"/>
-<area shape="rect" id="node12" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="208,393,351,420"/>
-<area shape="rect" id="node13" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="109,319,241,345"/>
-<area shape="rect" id="node15" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="515,244,668,271"/>
-<area shape="rect" id="node21" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1065,393,1160,420"/>
-<area shape="rect" id="node22" href="stringdata_8h.html" title="stringdata.h" alt="" coords="995,468,1086,495"/>
-<area shape="rect" id="node25" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1469,468,1524,495"/>
-<area shape="rect" id="node23" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1161,468,1248,495"/>
-<area shape="rect" id="node24" href="interval_8h.html" title="interval.h" alt="" coords="1273,468,1347,495"/>
-<area shape="rect" id="node28" href="tremolo_8h.html" title="tremolo.h" alt="" coords="971,543,1047,569"/>
-<area shape="rect" id="node29" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="805,543,863,569"/>
-<area shape="rect" id="node30" href="sym_8h.html" title="sym.h" alt="" coords="887,543,946,569"/>
-<area shape="rect" id="node32" href="text_8h.html" title="text.h" alt="" coords="1236,393,1291,420"/>
-<area shape="rect" id="node34" href="velo_8h.html" title="Definition of classes VeloList. " alt="" coords="1829,393,1887,420"/>
-<area shape="rect" id="node35" href="pitch_8h.html" title="pitch.h" alt="" coords="1911,393,1973,420"/>
-<area shape="rect" id="node36" href="cleflist_8h.html" title="cleflist.h" alt="" coords="1463,393,1533,420"/>
-<area shape="rect" id="node37" href="keylist_8h.html" title="keylist.h" alt="" coords="1557,393,1628,420"/>
-<area shape="rect" id="node38" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="1653,393,1754,420"/>
-<area shape="rect" id="node39" href="groups_8h.html" title="groups.h" alt="" coords="1366,393,1438,420"/>
-<area shape="rect" id="node40" href="libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="1768,543,1881,569"/>
-<area shape="rect" id="node42" href="input_8h.html" title="input.h" alt="" coords="1818,468,1879,495"/>
-<area shape="rect" id="node43" href="select_8h.html" title="select.h" alt="" coords="1904,468,1972,495"/>
-<area shape="rect" id="node44" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="2099,393,2228,420"/>
-<area shape="rect" id="node45" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="2252,393,2355,420"/>
-<area shape="rect" id="node46" href="spannermap_8h.html" title="spannermap.h" alt="" coords="2379,393,2483,420"/>
-<area shape="rect" id="node47" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="2508,393,2608,420"/>
-<area shape="rect" id="node48" href="property_8h.html" title="property.h" alt="" coords="2631,393,2711,420"/>
+<div class="center"><img src="importmidi__instrument_8cpp__incl.png" border="0" usemap="#importexport_2midiimport_2importmidi__instrument_8cpp" alt=""/></div>
+<map name="importexport_2midiimport_2importmidi__instrument_8cpp" id="importexport_2midiimport_2importmidi__instrument_8cpp">
+<area shape="rect" id="node2" href="importmidi__instrument_8h.html" title="importmidi_instrument.h" alt="" coords="129,95,295,121"/>
+<area shape="rect" id="node11" href="importmidi__chord_8h.html" title="importmidi_chord.h" alt="" coords="203,244,341,271"/>
+<area shape="rect" id="node14" href="importmidi__inner_8h.html" title="importmidi_inner.h" alt="" coords="547,169,679,196"/>
+<area shape="rect" id="node20" href="instrtemplate_8h.html" title="libmscore/instrtemplate.h" alt="" coords="1127,319,1302,345"/>
+<area shape="rect" id="node27" href="drumset_8h.html" title="libmscore/drumset.h" alt="" coords="2615,393,2761,420"/>
+<area shape="rect" id="node31" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1331,319,1451,345"/>
+<area shape="rect" id="node33" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="723,319,848,345"/>
+<area shape="rect" id="node41" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1793,319,1924,345"/>
+<area shape="rect" id="node49" href="importmidi__operations_8h.html" title="importmidi_operations.h" alt="" coords="481,95,647,121"/>
+<area shape="rect" id="node50" href="midiinstrument_8h.html" title="audio/midi/midiinstrument.h" alt="" coords="1922,95,2115,121"/>
+<area shape="rect" id="node3" href="audio_2midi_2midifile_8h.html" title="audio/midi/midifile.h" alt="" coords="127,169,273,196"/>
+<area shape="rect" id="node4" href="sig_8h.html" title="libmscore/sig.h" alt="" coords="5,244,120,271"/>
+<area shape="rect" id="node9" href="event_8h.html" title="event.h" alt="" coords="573,468,637,495"/>
+<area shape="rect" id="node5" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="470,468,549,495"/>
+<area shape="rect" id="node7" href="mscore_8h.html" title="mscore.h" alt="" coords="1239,543,1318,569"/>
+<area shape="rect" id="node8" href="libmscore_2style_8h.html" title="style.h" alt="" coords="1249,617,1309,644"/>
+<area shape="rect" id="node12" href="importmidi__fraction_8h.html" title="importmidi_fraction.h" alt="" coords="245,393,395,420"/>
+<area shape="rect" id="node13" href="importmidi__tuplet_8h.html" title="importmidi_tuplet.h" alt="" coords="360,319,496,345"/>
+<area shape="rect" id="node15" href="importmidi__operation_8h.html" title="importmidi_operation.h" alt="" coords="366,244,525,271"/>
+<area shape="rect" id="node21" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1431,393,1527,420"/>
+<area shape="rect" id="node24" href="stringdata_8h.html" title="stringdata.h" alt="" coords="1233,468,1325,495"/>
+<area shape="rect" id="node26" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1102,468,1157,495"/>
+<area shape="rect" id="node25" href="notifier_8hpp.html" title="notifier.hpp" alt="" coords="1401,468,1487,495"/>
+<area shape="rect" id="node28" href="tremolo_8h.html" title="tremolo.h" alt="" coords="2454,468,2533,495"/>
+<area shape="rect" id="node29" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="2659,468,2717,495"/>
+<area shape="rect" id="node30" href="sym_8h.html" title="sym.h" alt="" coords="2028,543,2087,569"/>
+<area shape="rect" id="node32" href="text_8h.html" title="text.h" alt="" coords="1301,393,1355,420"/>
+<area shape="rect" id="node34" href="changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="972,393,1073,420"/>
+<area shape="rect" id="node35" href="pitch_8h.html" title="pitch.h" alt="" coords="664,393,725,420"/>
+<area shape="rect" id="node36" href="cleflist_8h.html" title="cleflist.h" alt="" coords="568,393,640,420"/>
+<area shape="rect" id="node37" href="keylist_8h.html" title="keylist.h" alt="" coords="750,393,821,420"/>
+<area shape="rect" id="node38" href="stafftypelist_8h.html" title="stafftypelist.h" alt="" coords="845,393,947,420"/>
+<area shape="rect" id="node39" href="groups_8h.html" title="groups.h" alt="" coords="470,393,543,420"/>
+<area shape="rect" id="node40" href="scoreElement_8h.html" title="scoreElement.h" alt="" coords="377,543,492,569"/>
+<area shape="rect" id="node42" href="input_8h.html" title="input.h" alt="" coords="1841,468,1903,495"/>
+<area shape="rect" id="node43" href="select_8h.html" title="select.h" alt="" coords="1749,468,1817,495"/>
+<area shape="rect" id="node44" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1973,393,2102,420"/>
+<area shape="rect" id="node45" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="2126,393,2229,420"/>
+<area shape="rect" id="node46" href="spannermap_8h.html" title="spannermap.h" alt="" coords="2253,393,2360,420"/>
+<area shape="rect" id="node47" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="2385,393,2485,420"/>
+<area shape="rect" id="node48" href="property_8h.html" title="property.h" alt="" coords="2509,393,2590,420"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi__instrument_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespace_ms_1_1_midi_instr"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html">Ms::MidiInstr</a></td></tr>
+<tr class="memitem:namespaceMs_1_1MidiInstr"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html">Ms::MidiInstr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3173d75433f76d34944346dc9985b44c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a3173d75433f76d34944346dc9985b44c">Ms::MidiInstr::instrumentName</a> (MidiType type, int program, bool isDrumTrack)</td></tr>
+<tr class="memitem:a3173d75433f76d34944346dc9985b44c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a3173d75433f76d34944346dc9985b44c">Ms::MidiInstr::instrumentName</a> (MidiType type, int program, bool isDrumTrack)</td></tr>
 <tr class="separator:a3173d75433f76d34944346dc9985b44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3095ef9572d5bd596dd2c88268c0e07d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a3095ef9572d5bd596dd2c88268c0e07d">Ms::MidiInstr::isGrandStaff</a> (const MTrack &amp;t1, const MTrack &amp;t2)</td></tr>
+<tr class="memitem:a3095ef9572d5bd596dd2c88268c0e07d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a3095ef9572d5bd596dd2c88268c0e07d">Ms::MidiInstr::isGrandStaff</a> (const MTrack &amp;t1, const MTrack &amp;t2)</td></tr>
 <tr class="separator:a3095ef9572d5bd596dd2c88268c0e07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b552718bb04a30ae7af9d906f14e4f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a0b552718bb04a30ae7af9d906f14e4f5">Ms::MidiInstr::isSameChannel</a> (const MTrack &amp;t1, const MTrack &amp;t2)</td></tr>
+<tr class="memitem:a0b552718bb04a30ae7af9d906f14e4f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a0b552718bb04a30ae7af9d906f14e4f5">Ms::MidiInstr::isSameChannel</a> (const MTrack &amp;t1, const MTrack &amp;t2)</td></tr>
 <tr class="separator:a0b552718bb04a30ae7af9d906f14e4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0692de70a14f6852a37623099be763d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a0692de70a14f6852a37623099be763d3">Ms::MidiInstr::is3StaffOrgan</a> (int program)</td></tr>
+<tr class="memitem:a0692de70a14f6852a37623099be763d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a0692de70a14f6852a37623099be763d3">Ms::MidiInstr::is3StaffOrgan</a> (int program)</td></tr>
 <tr class="separator:a0692de70a14f6852a37623099be763d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bc4f20861e93a63da21cd022b95c53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#aa7bc4f20861e93a63da21cd022b95c53">Ms::MidiInstr::areNext2GrandStaff</a> (int currentTrack, const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:aa7bc4f20861e93a63da21cd022b95c53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#aa7bc4f20861e93a63da21cd022b95c53">Ms::MidiInstr::areNext2GrandStaff</a> (int currentTrack, const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:aa7bc4f20861e93a63da21cd022b95c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a028a4bc3afddd75589604a5a0c9e2126"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a028a4bc3afddd75589604a5a0c9e2126">Ms::MidiInstr::areNext3OrganStaff</a> (int currentTrack, const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a028a4bc3afddd75589604a5a0c9e2126"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a028a4bc3afddd75589604a5a0c9e2126">Ms::MidiInstr::areNext3OrganStaff</a> (int currentTrack, const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a028a4bc3afddd75589604a5a0c9e2126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5f583f35ca415555324341aa8452dbb"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#af5f583f35ca415555324341aa8452dbb">Ms::MidiInstr::concatenateWithComma</a> (const QString &amp;left, const QString &amp;right)</td></tr>
+<tr class="memitem:af5f583f35ca415555324341aa8452dbb"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#af5f583f35ca415555324341aa8452dbb">Ms::MidiInstr::concatenateWithComma</a> (const QString &amp;left, const QString &amp;right)</td></tr>
 <tr class="separator:af5f583f35ca415555324341aa8452dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd7890702d2e5271456addc5a07e1f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#abd7890702d2e5271456addc5a07e1f9d">Ms::MidiInstr::setGrandStaffProgram</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:abd7890702d2e5271456addc5a07e1f9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#abd7890702d2e5271456addc5a07e1f9d">Ms::MidiInstr::setGrandStaffProgram</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:abd7890702d2e5271456addc5a07e1f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83bb3272c1a8bfde97030ce1adef04e8"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a83bb3272c1a8bfde97030ce1adef04e8">Ms::MidiInstr::findAllPitches</a> (const MTrack &amp;track)</td></tr>
+<tr class="memitem:a83bb3272c1a8bfde97030ce1adef04e8"><td class="memItemLeft" align="right" valign="top">std::set&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a83bb3272c1a8bfde97030ce1adef04e8">Ms::MidiInstr::findAllPitches</a> (const MTrack &amp;track)</td></tr>
 <tr class="separator:a83bb3272c1a8bfde97030ce1adef04e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd2218d53ca45f83d56284cbe101ec20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#abd2218d53ca45f83d56284cbe101ec20">Ms::MidiInstr::findNotEmptyDrumPitches</a> (std::set&lt; int &gt; &amp;drumPitches, const InstrumentTemplate *templ)</td></tr>
+<tr class="memitem:abd2218d53ca45f83d56284cbe101ec20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#abd2218d53ca45f83d56284cbe101ec20">Ms::MidiInstr::findNotEmptyDrumPitches</a> (std::set&lt; int &gt; &amp;drumPitches, const InstrumentTemplate *templ)</td></tr>
 <tr class="separator:abd2218d53ca45f83d56284cbe101ec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84ce5c73b3cd372c54a1244a968dfb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#af84ce5c73b3cd372c54a1244a968dfb3">Ms::MidiInstr::hasNotDefinedDrumPitch</a> (const std::set&lt; int &gt; &amp;trackPitches, const std::set&lt; int &gt; &amp;drumPitches)</td></tr>
+<tr class="memitem:af84ce5c73b3cd372c54a1244a968dfb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#af84ce5c73b3cd372c54a1244a968dfb3">Ms::MidiInstr::hasNotDefinedDrumPitch</a> (const std::set&lt; int &gt; &amp;trackPitches, const std::set&lt; int &gt; &amp;drumPitches)</td></tr>
 <tr class="separator:af84ce5c73b3cd372c54a1244a968dfb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a055c8b9009376a2a7df530cce62a90f4"><td class="memItemLeft" align="right" valign="top">const InstrumentTemplate *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a055c8b9009376a2a7df530cce62a90f4">Ms::MidiInstr::findInstrument</a> (const QString &amp;groupId, const QString &amp;instrId)</td></tr>
+<tr class="memitem:a055c8b9009376a2a7df530cce62a90f4"><td class="memItemLeft" align="right" valign="top">const InstrumentTemplate *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a055c8b9009376a2a7df530cce62a90f4">Ms::MidiInstr::findInstrument</a> (const QString &amp;groupId, const QString &amp;instrId)</td></tr>
 <tr class="separator:a055c8b9009376a2a7df530cce62a90f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b57e5bf688569b4a2cb9cc3a4fd56d3"><td class="memItemLeft" align="right" valign="top">const InstrumentTemplate *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a8b57e5bf688569b4a2cb9cc3a4fd56d3">Ms::MidiInstr::findClosestInstrument</a> (const MTrack &amp;track)</td></tr>
+<tr class="memitem:a8b57e5bf688569b4a2cb9cc3a4fd56d3"><td class="memItemLeft" align="right" valign="top">const InstrumentTemplate *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a8b57e5bf688569b4a2cb9cc3a4fd56d3">Ms::MidiInstr::findClosestInstrument</a> (const MTrack &amp;track)</td></tr>
 <tr class="separator:a8b57e5bf688569b4a2cb9cc3a4fd56d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2b9fe458c2b5fb5e74a2d3e01e1580"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const InstrumentTemplate * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#acd2b9fe458c2b5fb5e74a2d3e01e1580">Ms::MidiInstr::findInstrumentsForProgram</a> (const MTrack &amp;track)</td></tr>
+<tr class="memitem:acd2b9fe458c2b5fb5e74a2d3e01e1580"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const InstrumentTemplate * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#acd2b9fe458c2b5fb5e74a2d3e01e1580">Ms::MidiInstr::findInstrumentsForProgram</a> (const MTrack &amp;track)</td></tr>
 <tr class="separator:acd2b9fe458c2b5fb5e74a2d3e01e1580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ade4a333008c4905d21e44ccbbd5365"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a9ade4a333008c4905d21e44ccbbd5365">Ms::MidiInstr::findMinMaxPitch</a> (const MTrack &amp;track)</td></tr>
+<tr class="memitem:a9ade4a333008c4905d21e44ccbbd5365"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a9ade4a333008c4905d21e44ccbbd5365">Ms::MidiInstr::findMinMaxPitch</a> (const MTrack &amp;track)</td></tr>
 <tr class="separator:a9ade4a333008c4905d21e44ccbbd5365"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92568f0345b2055d97d5cbb23a0bb13b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a92568f0345b2055d97d5cbb23a0bb13b">Ms::MidiInstr::findMaxPitchDiff</a> (const std::pair&lt; int, int &gt; &amp;minMaxPitch, const InstrumentTemplate *templ)</td></tr>
+<tr class="memitem:a92568f0345b2055d97d5cbb23a0bb13b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a92568f0345b2055d97d5cbb23a0bb13b">Ms::MidiInstr::findMaxPitchDiff</a> (const std::pair&lt; int, int &gt; &amp;minMaxPitch, const InstrumentTemplate *templ)</td></tr>
 <tr class="separator:a92568f0345b2055d97d5cbb23a0bb13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e2ee10333ca6cf804c14885570f2f6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a0e2ee10333ca6cf804c14885570f2f6f">Ms::MidiInstr::hasCommonGenre</a> (QList&lt; InstrumentGenre *&gt; genres)</td></tr>
+<tr class="memitem:a0e2ee10333ca6cf804c14885570f2f6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a0e2ee10333ca6cf804c14885570f2f6f">Ms::MidiInstr::hasCommonGenre</a> (QList&lt; InstrumentGenre *&gt; genres)</td></tr>
 <tr class="separator:a0e2ee10333ca6cf804c14885570f2f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87caf8ed372520e828f3c4b5d4a0ca4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a87caf8ed372520e828f3c4b5d4a0ca4a">Ms::MidiInstr::sortInstrumentTemplates</a> (std::vector&lt; const InstrumentTemplate *&gt; &amp;templates, const std::pair&lt; int, int &gt; &amp;minMaxPitch)</td></tr>
+<tr class="memitem:a87caf8ed372520e828f3c4b5d4a0ca4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a87caf8ed372520e828f3c4b5d4a0ca4a">Ms::MidiInstr::sortInstrumentTemplates</a> (std::vector&lt; const InstrumentTemplate *&gt; &amp;templates, const std::pair&lt; int, int &gt; &amp;minMaxPitch)</td></tr>
 <tr class="separator:a87caf8ed372520e828f3c4b5d4a0ca4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ade69c86fb6965886679fead93c509a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const InstrumentTemplate * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a1ade69c86fb6965886679fead93c509a">Ms::MidiInstr::findSuitableInstruments</a> (const MTrack &amp;track)</td></tr>
+<tr class="memitem:a1ade69c86fb6965886679fead93c509a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const InstrumentTemplate * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a1ade69c86fb6965886679fead93c509a">Ms::MidiInstr::findSuitableInstruments</a> (const MTrack &amp;track)</td></tr>
 <tr class="separator:a1ade69c86fb6965886679fead93c509a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d61ea3269b6b8ab79a61dea4e890087"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#a8d61ea3269b6b8ab79a61dea4e890087">Ms::MidiInstr::findInstrumentsForAllTracks</a> (const QList&lt; MTrack &gt; &amp;tracks, bool forceReload)</td></tr>
+<tr class="memitem:a8d61ea3269b6b8ab79a61dea4e890087"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#a8d61ea3269b6b8ab79a61dea4e890087">Ms::MidiInstr::findInstrumentsForAllTracks</a> (const QList&lt; MTrack &gt; &amp;tracks, bool forceReload)</td></tr>
 <tr class="separator:a8d61ea3269b6b8ab79a61dea4e890087"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9bfd0eb7679fbb1b9e37822631e2664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#ab9bfd0eb7679fbb1b9e37822631e2664">Ms::MidiInstr::instrumentTemplatesChanged</a> ()</td></tr>
+<tr class="memitem:ab9bfd0eb7679fbb1b9e37822631e2664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#ab9bfd0eb7679fbb1b9e37822631e2664">Ms::MidiInstr::instrumentTemplatesChanged</a> ()</td></tr>
 <tr class="separator:ab9bfd0eb7679fbb1b9e37822631e2664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae59ae8af6c4d38c6242fc64af216070d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#ae59ae8af6c4d38c6242fc64af216070d">Ms::MidiInstr::createInstruments</a> (Score *score, QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:ae59ae8af6c4d38c6242fc64af216070d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#ae59ae8af6c4d38c6242fc64af216070d">Ms::MidiInstr::createInstruments</a> (Score *score, QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:ae59ae8af6c4d38c6242fc64af216070d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad05be7c0f267fbc73f69830e788aff34"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms_1_1_midi_instr.html#ad05be7c0f267fbc73f69830e788aff34">Ms::MidiInstr::msInstrName</a> (int trackIndex)</td></tr>
+<tr class="memitem:ad05be7c0f267fbc73f69830e788aff34"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs_1_1MidiInstr.html#ad05be7c0f267fbc73f69830e788aff34">Ms::MidiInstr::msInstrName</a> (int trackIndex)</td></tr>
 <tr class="separator:ad05be7c0f267fbc73f69830e788aff34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a76f164a74e0a977825e5d714a54b45b2"><td class="memItemLeft" align="right" valign="top">QList&lt; InstrumentGroup * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a76f164a74e0a977825e5d714a54b45b2">Ms::instrumentGroups</a></td></tr>
+<tr class="separator:a76f164a74e0a977825e5d714a54b45b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

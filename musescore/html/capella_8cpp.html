@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/capella.cpp File Reference</title>
+<title>MuseScore: importexport/capella/capella.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_6d25a24c852dd168c887a867f0a0d9d6.html">capella</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -105,76 +105,95 @@ $(function() {
 <code>#include &quot;<a class="el" href="hairpin_8h_source.html">libmscore/hairpin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">libmscore/sym.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="articulation_8h_source.html">libmscore/articulation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="harmony_8h_source.html">libmscore/harmony.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for capella.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="capella_8cpp__incl.png" border="0" usemap="#mscore_2capella_8cpp" alt=""/></div>
-<map name="mscore_2capella_8cpp" id="mscore_2capella_8cpp">
-<area shape="rect" id="node3" href="mscore_8h.html" title="libmscore/mscore.h" alt="" coords="1709,379,1845,405"/>
-<area shape="rect" id="node6" href="capella_8h.html" title="capella.h" alt="" coords="389,80,464,107"/>
-<area shape="rect" id="node10" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="262,304,367,331"/>
-<area shape="rect" id="node11" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="541,80,667,107"/>
-<area shape="rect" id="node14" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="1634,304,1689,331"/>
-<area shape="rect" id="node18" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1151,155,1251,181"/>
-<area shape="rect" id="node20" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="1720,155,1835,181"/>
-<area shape="rect" id="node22" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="2007,155,2126,181"/>
-<area shape="rect" id="node27" href="rest_8h.html" title="libmscore/rest.h" alt="" coords="792,80,907,107"/>
-<area shape="rect" id="node28" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="931,80,1056,107"/>
-<area shape="rect" id="node29" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="256,229,315,256"/>
-<area shape="rect" id="node30" href="libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="1185,304,1303,331"/>
-<area shape="rect" id="node31" href="lyrics_8h.html" title="libmscore/lyrics.h" alt="" coords="2339,155,2463,181"/>
-<area shape="rect" id="node32" href="timesig_8h.html" title="libmscore/timesig.h" alt="" coords="1081,80,1215,107"/>
-<area shape="rect" id="node33" href="sig_8h.html" title="sig.h" alt="" coords="1377,155,1428,181"/>
-<area shape="rect" id="node34" href="keysig_8h.html" title="libmscore/keysig.h" alt="" coords="1629,80,1760,107"/>
-<area shape="rect" id="node35" href="slur_8h.html" title="libmscore/slur.h" alt="" coords="1784,80,1899,107"/>
-<area shape="rect" id="node36" href="libmscore_2tie_8h.html" title="libmscore/tie.h" alt="" coords="1923,80,2029,107"/>
-<area shape="rect" id="node37" href="box_8h.html" title="Definition of HBox and VBox classes. " alt="" coords="1291,80,1405,107"/>
-<area shape="rect" id="node38" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="2105,80,2247,107"/>
-<area shape="rect" id="node39" href="tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="1429,80,1555,107"/>
-<area shape="rect" id="node40" href="segment_8h.html" title="segment.h" alt="" coords="2319,304,2401,331"/>
-<area shape="rect" id="node41" href="dynamic_8h.html" title="libmscore/dynamic.h" alt="" coords="2787,155,2930,181"/>
-<area shape="rect" id="node42" href="barline_8h.html" title="libmscore/barline.h" alt="" coords="2484,304,2615,331"/>
-<area shape="rect" id="node43" href="volta_8h.html" title="libmscore/volta.h" alt="" coords="2590,80,2711,107"/>
-<area shape="rect" id="node44" href="stafftext_8h.html" title="libmscore/stafftext.h" alt="" coords="2272,80,2413,107"/>
-<area shape="rect" id="node45" href="trill_8h.html" title="libmscore/trill.h" alt="" coords="2787,80,2898,107"/>
-<area shape="rect" id="node46" href="arpeggio_8h.html" title="libmscore/arpeggio.h" alt="" coords="2922,80,3065,107"/>
-<area shape="rect" id="node47" href="breath_8h.html" title="libmscore/breath.h" alt="" coords="3089,80,3218,107"/>
-<area shape="rect" id="node48" href="hairpin_8h.html" title="libmscore/hairpin.h" alt="" coords="3243,80,3373,107"/>
-<area shape="rect" id="node49" href="sym_8h.html" title="libmscore/sym.h" alt="" coords="250,379,369,405"/>
-<area shape="rect" id="node50" href="articulation_8h.html" title="libmscore/articulation.h" alt="" coords="3202,304,3358,331"/>
-<area shape="rect" id="node5" href="style_8h.html" title="style.h" alt="" coords="1747,453,1808,480"/>
-<area shape="rect" id="node7" href="globals_8h.html" title="globals.h" alt="" coords="389,155,464,181"/>
-<area shape="rect" id="node8" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="251,155,365,181"/>
-<area shape="rect" id="node9" href="select_8h.html" title="select.h" alt="" coords="367,229,435,256"/>
-<area shape="rect" id="node12" href="input_8h.html" title="input.h" alt="" coords="869,304,931,331"/>
-<area shape="rect" id="node13" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1629,229,1723,256"/>
-<area shape="rect" id="node15" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="691,155,821,181"/>
-<area shape="rect" id="node16" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="845,155,947,181"/>
-<area shape="rect" id="node17" href="spannermap_8h.html" title="spannermap.h" alt="" coords="972,155,1076,181"/>
-<area shape="rect" id="node19" href="property_8h.html" title="property.h" alt="" coords="1452,155,1532,181"/>
-<area shape="rect" id="node21" href="text_8h.html" title="text.h" alt="" coords="2323,229,2378,256"/>
-<area shape="rect" id="node23" href="velo_8h.html" title="Definition of classes VeloList. " alt="" coords="1815,229,1873,256"/>
-<area shape="rect" id="node24" href="pitch_8h.html" title="pitch.h" alt="" coords="1897,229,1959,256"/>
-<area shape="rect" id="node25" href="cleflist_8h.html" title="cleflist.h" alt="" coords="1983,229,2054,256"/>
-<area shape="rect" id="node26" href="keylist_8h.html" title="keylist.h" alt="" coords="2078,229,2149,256"/>
+<div class="center"><img src="capella_8cpp__incl.png" border="0" usemap="#importexport_2capella_2capella_8cpp" alt=""/></div>
+<map name="importexport_2capella_2capella_8cpp" id="importexport_2capella_2capella_8cpp">
+<area shape="rect" id="node3" href="mscore_8h.html" title="libmscore/mscore.h" alt="" coords="1051,393,1193,420"/>
+<area shape="rect" id="node6" href="capella_8h.html" title="capella.h" alt="" coords="1870,95,1945,121"/>
+<area shape="rect" id="node9" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1253,319,1359,345"/>
+<area shape="rect" id="node10" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1969,95,2099,121"/>
+<area shape="rect" id="node13" href="clef_8h.html" title="Definition of classes Clef. " alt="" coords="656,319,711,345"/>
+<area shape="rect" id="node17" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="2204,169,2304,196"/>
+<area shape="rect" id="node19" href="sym_8h.html" title="sym.h" alt="" coords="1210,169,1269,196"/>
+<area shape="rect" id="node20" href="libmscore_2part_8h.html" title="libmscore/part.h" alt="" coords="739,169,859,196"/>
+<area shape="rect" id="node22" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="214,169,339,196"/>
+<area shape="rect" id="node27" href="rest_8h.html" title="libmscore/rest.h" alt="" coords="1385,95,1504,121"/>
+<area shape="rect" id="node28" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="2789,95,2919,121"/>
+<area shape="rect" id="node29" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1686,95,1745,121"/>
+<area shape="rect" id="node30" href="libmscore_2utils_8h.html" title="libmscore/utils.h" alt="" coords="1001,95,1123,121"/>
+<area shape="rect" id="node31" href="lyrics_8h.html" title="libmscore/lyrics.h" alt="" coords="537,169,665,196"/>
+<area shape="rect" id="node32" href="timesig_8h.html" title="libmscore/timesig.h" alt="" coords="2276,95,2416,121"/>
+<area shape="rect" id="node33" href="sig_8h.html" title="sig.h" alt="" coords="2481,169,2531,196"/>
+<area shape="rect" id="node34" href="keysig_8h.html" title="libmscore/keysig.h" alt="" coords="2944,95,3079,121"/>
+<area shape="rect" id="node35" href="slur_8h.html" title="libmscore/slur.h" alt="" coords="3103,95,3221,121"/>
+<area shape="rect" id="node36" href="libmscore_2tie_8h.html" title="libmscore/tie.h" alt="" coords="3245,95,3356,121"/>
+<area shape="rect" id="node37" href="box_8h.html" title="Definition of HBox and VBox classes. " alt="" coords="2492,95,2611,121"/>
+<area shape="rect" id="node38" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="3380,95,3464,121"/>
+<area shape="rect" id="node39" href="tuplet_8h.html" title="libmscore/tuplet.h" alt="" coords="2635,95,2764,121"/>
+<area shape="rect" id="node40" href="segment_8h.html" title="segment.h" alt="" coords="1939,319,2023,345"/>
+<area shape="rect" id="node41" href="dynamic_8h.html" title="libmscore/dynamic.h" alt="" coords="883,169,1030,196"/>
+<area shape="rect" id="node42" href="barline_8h.html" title="libmscore/barline.h" alt="" coords="2162,319,2298,345"/>
+<area shape="rect" id="node43" href="volta_8h.html" title="libmscore/volta.h" alt="" coords="3489,95,3614,121"/>
+<area shape="rect" id="node44" href="stafftext_8h.html" title="libmscore/stafftext.h" alt="" coords="569,95,715,121"/>
+<area shape="rect" id="node45" href="trill_8h.html" title="libmscore/trill.h" alt="" coords="3638,95,3753,121"/>
+<area shape="rect" id="node46" href="arpeggio_8h.html" title="libmscore/arpeggio.h" alt="" coords="3777,95,3925,121"/>
+<area shape="rect" id="node47" href="breath_8h.html" title="libmscore/breath.h" alt="" coords="1529,95,1662,121"/>
+<area shape="rect" id="node48" href="hairpin_8h.html" title="libmscore/hairpin.h" alt="" coords="841,95,977,121"/>
+<area shape="rect" id="node49" href="articulation_8h.html" title="libmscore/articulation.h" alt="" coords="1147,95,1310,121"/>
+<area shape="rect" id="node50" href="harmony_8h.html" title="libmscore/harmony.h" alt="" coords="363,169,513,196"/>
+<area shape="rect" id="node5" href="libmscore_2style_8h.html" title="style.h" alt="" coords="771,468,831,495"/>
+<area shape="rect" id="node7" href="xml_8h.html" title="libmscore/xml.h" alt="" coords="1496,169,1615,196"/>
+<area shape="rect" id="node8" href="select_8h.html" title="select.h" alt="" coords="1509,244,1577,271"/>
+<area shape="rect" id="node11" href="input_8h.html" title="input.h" alt="" coords="1622,319,1683,345"/>
+<area shape="rect" id="node12" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="887,244,983,271"/>
+<area shape="rect" id="node14" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1691,169,1820,196"/>
+<area shape="rect" id="node15" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1844,169,1947,196"/>
+<area shape="rect" id="node16" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1971,169,2078,196"/>
+<area shape="rect" id="node18" href="property_8h.html" title="property.h" alt="" coords="2556,169,2637,196"/>
+<area shape="rect" id="node21" href="text_8h.html" title="text.h" alt="" coords="656,244,711,271"/>
+<area shape="rect" id="node23" href="changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="394,244,495,271"/>
+<area shape="rect" id="node24" href="pitch_8h.html" title="pitch.h" alt="" coords="519,244,581,271"/>
+<area shape="rect" id="node25" href="cleflist_8h.html" title="cleflist.h" alt="" coords="151,244,223,271"/>
+<area shape="rect" id="node26" href="keylist_8h.html" title="keylist.h" alt="" coords="299,244,369,271"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="capella_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad33bde26114bc7d7c3980a9f0ffa8463"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="capella_8cpp.html#ad33bde26114bc7d7c3980a9f0ffa8463">rtf2html</a> (const QString &amp;)</td></tr>
 <tr class="separator:ad33bde26114bc7d7c3980a9f0ffa8463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3158dc68175fd5a4028e4715a77bcba3"><td class="memItemLeft" align="right" valign="top">Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a3158dc68175fd5a4028e4715a77bcba3">Ms::TupletFractionCap</a> (int tupletCount, bool tuplettrp, bool tupletprol)</td></tr>
+<tr class="memitem:a878659412a60ec926a435dbc598ab23b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a878659412a60ec926a435dbc598ab23b">Ms::addDynamic</a> (Score *score, Segment *s, int track, const char *name)</td></tr>
+<tr class="separator:a878659412a60ec926a435dbc598ab23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa00abdb88f7782e666df1ee582304b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aaa00abdb88f7782e666df1ee582304b6">Ms::addArticulationText</a> (Score *score, ChordRest *cr, int track, SymId symId)</td></tr>
+<tr class="separator:aaa00abdb88f7782e666df1ee582304b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01602d0b65952214f7e44d647b0b1aa5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a01602d0b65952214f7e44d647b0b1aa5">Ms::SetCapGraceDuration</a> (Chord *chord, ChordObj *o)</td></tr>
+<tr class="separator:a01602d0b65952214f7e44d647b0b1aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef69eea865f1dcc4f1cc999edd209510"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aef69eea865f1dcc4f1cc999edd209510">Ms::processBasicDrawObj</a> (QList&lt; BasicDrawObj *&gt; objects, Segment *s, int track, ChordRest *cr)</td></tr>
+<tr class="separator:aef69eea865f1dcc4f1cc999edd209510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3158dc68175fd5a4028e4715a77bcba3"><td class="memItemLeft" align="right" valign="top">Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3158dc68175fd5a4028e4715a77bcba3">Ms::TupletFractionCap</a> (int tupletCount, bool tuplettrp, bool tupletprol)</td></tr>
 <tr class="separator:a3158dc68175fd5a4028e4715a77bcba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a357b05f2642d03c15a446667407a7436"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a357b05f2642d03c15a446667407a7436">Ms::convertCapella</a> (Score *score, Capella *cap, bool capxMode)</td></tr>
+<tr class="memitem:abd44c02ff0a3979e8a352af490655bbf"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#abd44c02ff0a3979e8a352af490655bbf">Ms::findChordRests</a> (BasicDrawObj const *const o, Score *score, const int track, const Fraction &amp;<a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>, ChordRest *&amp;cr1, ChordRest *&amp;cr2, NoteObj *no, QList&lt; NoteObj *&gt; objects)</td></tr>
+<tr class="separator:abd44c02ff0a3979e8a352af490655bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7de9c57de8d5d189633bb2349ccb6df"><td class="memItemLeft" align="right" valign="top">static Segment *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa7de9c57de8d5d189633bb2349ccb6df">Ms::createAndAddTimeSig</a> (Score *score, Measure *m, Fraction f, int track, Fraction <a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>)</td></tr>
+<tr class="separator:aa7de9c57de8d5d189633bb2349ccb6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e132fd0a1dd99a3082fbe5b99a10e48"><td class="memItemLeft" align="right" valign="top">static Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9e132fd0a1dd99a3082fbe5b99a10e48">Ms::readCapVoice</a> (Score *score, CapVoice *cvoice, int staffIdx, const Fraction &amp;t, bool capxMode)</td></tr>
+<tr class="separator:a9e132fd0a1dd99a3082fbe5b99a10e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab380e9039609a350bd3841dfcd0db829"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab380e9039609a350bd3841dfcd0db829">Ms::needPart</a> (const int prevInst, const int currInst, const int staffIdx, QList&lt; CapBracket &gt; const &amp;bracketList)</td></tr>
+<tr class="separator:ab380e9039609a350bd3841dfcd0db829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357b05f2642d03c15a446667407a7436"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a357b05f2642d03c15a446667407a7436">Ms::convertCapella</a> (Score *score, Capella *cap, bool capxMode)</td></tr>
 <tr class="separator:a357b05f2642d03c15a446667407a7436"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1c5be0e7369dc70fe25d22cd3c35a6b"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af1c5be0e7369dc70fe25d22cd3c35a6b">Ms::importCapella</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:af1c5be0e7369dc70fe25d22cd3c35a6b"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af1c5be0e7369dc70fe25d22cd3c35a6b">Ms::importCapella</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:af1c5be0e7369dc70fe25d22cd3c35a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>

@@ -1,5 +1,0 @@
-<map id="Ms::ChangeText" name="Ms::ChangeText">
-<area shape="rect" id="node3" href="$class_ms_1_1_insert_text.html" title="Ms::InsertText" alt="" coords="5,155,112,181"/>
-<area shape="rect" id="node4" href="$class_ms_1_1_remove_text.html" title="Ms::RemoveText" alt="" coords="136,155,259,181"/>
-<area shape="rect" id="node2" href="$class_ms_1_1_undo_command.html" title="Ms::UndoCommand" alt="" coords="59,5,197,32"/>
-</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/importmidi/importmidi.cpp File Reference</title>
+<title>MuseScore: importexport/midiimport/importmidi.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li><li class="navelem"><a class="el" href="dir_95673f59e3d86c7b1b1428d5fcf02ad6.html">importmidi</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_2486a299cd9f170a61a3b9f68248fbf3.html">midiimport</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,7 +72,7 @@ $(function() {
 <div class="title">importmidi.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="midifile_8h_source.html">midi/midifile.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="audio_2midi_2midifile_8h_source.html">audio/midi/midifile.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">libmscore/score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="key_8h_source.html">libmscore/key.h</a>&quot;</code><br />
@@ -89,7 +89,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="libmscore_2tie_8h_source.html">libmscore/tie.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="staff_8h_source.html">libmscore/staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="measure_8h_source.html">libmscore/measure.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">libmscore/style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">libmscore/style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2part_8h_source.html">libmscore/part.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timesig_8h_source.html">libmscore/timesig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="barline_8h_source.html">libmscore/barline.h</a>&quot;</code><br />
@@ -125,84 +125,86 @@ $(function() {
 <code>#include &quot;<a class="el" href="importmidi__instrument_8h_source.html">importmidi_instrument.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="importmidi__chordname_8h_source.html">importmidi_chordname.h</a>&quot;</code><br />
 <code>#include &lt;set&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="importmidi_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b927c615ab96a4b08fdb9f1cdceeea1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a7b927c615ab96a4b08fdb9f1cdceeea1">Ms::updateNoteLines</a> (Segment *segment, int track)</td></tr>
-<tr class="separator:a7b927c615ab96a4b08fdb9f1cdceeea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4540c6f9c4cdeb082945dfe86d7ccf83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a4540c6f9c4cdeb082945dfe86d7ccf83">Ms::lengthenTooShortNotes</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:aa17fec62ae82f5ceafe5b2f86656724b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa17fec62ae82f5ceafe5b2f86656724b">Ms::updateNoteLines</a> (Segment *, int track)</td></tr>
+<tr class="separator:aa17fec62ae82f5ceafe5b2f86656724b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4540c6f9c4cdeb082945dfe86d7ccf83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4540c6f9c4cdeb082945dfe86d7ccf83">Ms::lengthenTooShortNotes</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a4540c6f9c4cdeb082945dfe86d7ccf83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f22d62c64b169f9a557b06b3593f7bf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::multimap&lt; ReducedFraction, MidiChord &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a6f22d62c64b169f9a557b06b3593f7bf">Ms::separateDrumChordsTo2Voices</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords)</td></tr>
+<tr class="memitem:a6f22d62c64b169f9a557b06b3593f7bf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::multimap&lt; ReducedFraction, MidiChord &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6f22d62c64b169f9a557b06b3593f7bf">Ms::separateDrumChordsTo2Voices</a> (const std::multimap&lt; ReducedFraction, MidiChord &gt; &amp;chords)</td></tr>
 <tr class="separator:a6f22d62c64b169f9a557b06b3593f7bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d4b824038a86ba59c4c76119d462bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a11d4b824038a86ba59c4c76119d462bb">Ms::setChordVoice</a> (MidiChord &amp;chord, int voice)</td></tr>
+<tr class="memitem:a11d4b824038a86ba59c4c76119d462bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a11d4b824038a86ba59c4c76119d462bb">Ms::setChordVoice</a> (MidiChord &amp;chord, int voice)</td></tr>
 <tr class="separator:a11d4b824038a86ba59c4c76119d462bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a345ba5f38d1245775f48c5133124f5d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a345ba5f38d1245775f48c5133124f5d6">Ms::findAllTupletsForDrums</a> (MTrack &amp;mtrack, TimeSigMap *sigmap, const ReducedFraction &amp;basicQuant)</td></tr>
+<tr class="memitem:a345ba5f38d1245775f48c5133124f5d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a345ba5f38d1245775f48c5133124f5d6">Ms::findAllTupletsForDrums</a> (MTrack &amp;mtrack, TimeSigMap *sigmap, const ReducedFraction &amp;basicQuant)</td></tr>
 <tr class="separator:a345ba5f38d1245775f48c5133124f5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5104ebef745083935e4c01c11742e2e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5104ebef745083935e4c01c11742e2e8">Ms::quantizeAllTracks</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, TimeSigMap *sigmap, const ReducedFraction &amp;lastTick)</td></tr>
+<tr class="memitem:a5104ebef745083935e4c01c11742e2e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5104ebef745083935e4c01c11742e2e8">Ms::quantizeAllTracks</a> (std::multimap&lt; int, MTrack &gt; &amp;tracks, TimeSigMap *sigmap, const ReducedFraction &amp;lastTick)</td></tr>
 <tr class="separator:a5104ebef745083935e4c01c11742e2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9645844c384a643fb52efd4df7fba27b"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9645844c384a643fb52efd4df7fba27b">Ms::splitDurationOnBarBoundary</a> (const ReducedFraction &amp;len, const ReducedFraction &amp;onTime, const Measure *measure)</td></tr>
+<tr class="memitem:a9645844c384a643fb52efd4df7fba27b"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9645844c384a643fb52efd4df7fba27b">Ms::splitDurationOnBarBoundary</a> (const ReducedFraction &amp;len, const ReducedFraction &amp;onTime, const Measure *measure)</td></tr>
 <tr class="separator:a9645844c384a643fb52efd4df7fba27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12058955d789f368d3975e7c989fc7e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a12058955d789f368d3975e7c989fc7e1">Ms::setMusicNotesFromMidi</a> (Score *score, const QList&lt; MidiNote &gt; &amp;midiNotes, Chord *chord, const Drumset *drumset, bool useDrumset)</td></tr>
+<tr class="memitem:a12058955d789f368d3975e7c989fc7e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a12058955d789f368d3975e7c989fc7e1">Ms::setMusicNotesFromMidi</a> (Score *score, const QList&lt; MidiNote &gt; &amp;midiNotes, Chord *chord, const Drumset *drumset, bool useDrumset)</td></tr>
 <tr class="separator:a12058955d789f368d3975e7c989fc7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a6b4472bab4fcdfcbd9a56bc2cf4861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a2a6b4472bab4fcdfcbd9a56bc2cf4861">Ms::setTies</a> (Chord *chord, Score *score, QList&lt; MidiNote &gt; &amp;midiNotes)</td></tr>
+<tr class="memitem:a2a6b4472bab4fcdfcbd9a56bc2cf4861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a2a6b4472bab4fcdfcbd9a56bc2cf4861">Ms::setTies</a> (Chord *chord, Score *score, QList&lt; MidiNote &gt; &amp;midiNotes)</td></tr>
 <tr class="separator:a2a6b4472bab4fcdfcbd9a56bc2cf4861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af66a60977406a737d7d8b6b3b1020dc1"><td class="memItemLeft" align="right" valign="top">Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af66a60977406a737d7d8b6b3b1020dc1">Ms::metaTimeSignature</a> (const <a class="el" href="class_midi_event.html">MidiEvent</a> &amp;e)</td></tr>
+<tr class="memitem:af66a60977406a737d7d8b6b3b1020dc1"><td class="memItemLeft" align="right" valign="top">Fraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af66a60977406a737d7d8b6b3b1020dc1">Ms::metaTimeSignature</a> (const <a class="el" href="classMidiEvent.html">MidiEvent</a> &amp;e)</td></tr>
 <tr class="separator:af66a60977406a737d7d8b6b3b1020dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8263c212fa8b08872a685ed26f45a9a8"><td class="memItemLeft" align="right" valign="top">QList&lt; MTrack &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a8263c212fa8b08872a685ed26f45a9a8">Ms::prepareTrackList</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a8263c212fa8b08872a685ed26f45a9a8"><td class="memItemLeft" align="right" valign="top">QList&lt; MTrack &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8263c212fa8b08872a685ed26f45a9a8">Ms::prepareTrackList</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a8263c212fa8b08872a685ed26f45a9a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5901b2b5d155b820a4b98be127981a8"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; int, MTrack &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab5901b2b5d155b820a4b98be127981a8">Ms::createMTrackList</a> (TimeSigMap *sigmap, const <a class="el" href="class_midi_file.html">MidiFile</a> *mf)</td></tr>
+<tr class="memitem:ab5901b2b5d155b820a4b98be127981a8"><td class="memItemLeft" align="right" valign="top">std::multimap&lt; int, MTrack &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab5901b2b5d155b820a4b98be127981a8">Ms::createMTrackList</a> (TimeSigMap *sigmap, const <a class="el" href="classMidiFile.html">MidiFile</a> *mf)</td></tr>
 <tr class="separator:ab5901b2b5d155b820a4b98be127981a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c9a3ae3a4fadf8670121c32e2b85c89"><td class="memItemLeft" align="right" valign="top">Measure *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a1c9a3ae3a4fadf8670121c32e2b85c89">Ms::barFromIndex</a> (const Score *score, int barIndex)</td></tr>
+<tr class="memitem:a1c9a3ae3a4fadf8670121c32e2b85c89"><td class="memItemLeft" align="right" valign="top">Measure *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1c9a3ae3a4fadf8670121c32e2b85c89">Ms::barFromIndex</a> (const Score *score, int barIndex)</td></tr>
 <tr class="separator:a1c9a3ae3a4fadf8670121c32e2b85c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cdc7d39f903f2e1b78e5e2279b4a17a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a4cdc7d39f903f2e1b78e5e2279b4a17a">Ms::isPickupWithLessTimeSig</a> (const Fraction &amp;firstBarTimeSig, const Fraction &amp;secondBarTimeSig)</td></tr>
+<tr class="memitem:a4cdc7d39f903f2e1b78e5e2279b4a17a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4cdc7d39f903f2e1b78e5e2279b4a17a">Ms::isPickupWithLessTimeSig</a> (const Fraction &amp;firstBarTimeSig, const Fraction &amp;secondBarTimeSig)</td></tr>
 <tr class="separator:a4cdc7d39f903f2e1b78e5e2279b4a17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5170436b6e52f3aafe94ecda1273c24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ae5170436b6e52f3aafe94ecda1273c24">Ms::isPickupWithGreaterTimeSig</a> (const Fraction &amp;firstBarTimeSig, const Fraction &amp;secondBarTimeSig, const ReducedFraction &amp;firstTick)</td></tr>
+<tr class="memitem:ae5170436b6e52f3aafe94ecda1273c24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae5170436b6e52f3aafe94ecda1273c24">Ms::isPickupWithGreaterTimeSig</a> (const Fraction &amp;firstBarTimeSig, const Fraction &amp;secondBarTimeSig, const ReducedFraction &amp;firstTick)</td></tr>
 <tr class="separator:ae5170436b6e52f3aafe94ecda1273c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa38d7121f13e9a80b429fa8842f84f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aaa38d7121f13e9a80b429fa8842f84f0">Ms::areNextBarsEqual</a> (const Score *score, int barCount)</td></tr>
+<tr class="memitem:aaa38d7121f13e9a80b429fa8842f84f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aaa38d7121f13e9a80b429fa8842f84f0">Ms::areNextBarsEqual</a> (const Score *score, int barCount)</td></tr>
 <tr class="separator:aaa38d7121f13e9a80b429fa8842f84f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9bb3f5b2394200758634d2891869dd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa9bb3f5b2394200758634d2891869dd4">Ms::tryCreatePickupMeasure</a> (const ReducedFraction &amp;firstTick, Score *score, int *begBarIndex, int *barCount)</td></tr>
+<tr class="memitem:aa9bb3f5b2394200758634d2891869dd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa9bb3f5b2394200758634d2891869dd4">Ms::tryCreatePickupMeasure</a> (const ReducedFraction &amp;firstTick, Score *score, int *begBarIndex, int *barCount)</td></tr>
 <tr class="separator:aa9bb3f5b2394200758634d2891869dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0f5a229be3b7c1909dd746a67a5b386"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa0f5a229be3b7c1909dd746a67a5b386">Ms::createMeasures</a> (const ReducedFraction &amp;firstTick, ReducedFraction &amp;lastTick, Score *score)</td></tr>
+<tr class="memitem:aa0f5a229be3b7c1909dd746a67a5b386"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa0f5a229be3b7c1909dd746a67a5b386">Ms::createMeasures</a> (const ReducedFraction &amp;firstTick, ReducedFraction &amp;lastTick, Score *score)</td></tr>
 <tr class="separator:aa0f5a229be3b7c1909dd746a67a5b386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b4ddf1c253c70973b116b9397854d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a44b4ddf1c253c70973b116b9397854d4">Ms::setTrackInfo</a> (MidiType midiType, MTrack &amp;mt)</td></tr>
+<tr class="memitem:a44b4ddf1c253c70973b116b9397854d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a44b4ddf1c253c70973b116b9397854d4">Ms::setTrackInfo</a> (MidiType midiType, MTrack &amp;mt)</td></tr>
 <tr class="separator:a44b4ddf1c253c70973b116b9397854d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46acb7691292d06ec7dc2501797a413e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a46acb7691292d06ec7dc2501797a413e">Ms::createTimeSignatures</a> (Score *score)</td></tr>
+<tr class="memitem:a46acb7691292d06ec7dc2501797a413e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a46acb7691292d06ec7dc2501797a413e">Ms::createTimeSignatures</a> (Score *score)</td></tr>
 <tr class="separator:a46acb7691292d06ec7dc2501797a413e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc6d07afd552cb490a5517393811b5be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#acc6d07afd552cb490a5517393811b5be">Ms::processMeta</a> (MTrack &amp;mt, bool isLyric)</td></tr>
+<tr class="memitem:acc6d07afd552cb490a5517393811b5be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#acc6d07afd552cb490a5517393811b5be">Ms::processMeta</a> (MTrack &amp;mt, bool isLyric)</td></tr>
 <tr class="separator:acc6d07afd552cb490a5517393811b5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a04421f949585da3c0544f23c3f603"><td class="memItemLeft" align="right" valign="top">KeyList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa5a04421f949585da3c0544f23c3f603">Ms::findAllKeyList</a> (const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:aa5a04421f949585da3c0544f23c3f603"><td class="memItemLeft" align="right" valign="top">KeyList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa5a04421f949585da3c0544f23c3f603">Ms::findAllKeyList</a> (const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:aa5a04421f949585da3c0544f23c3f603"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a319f409076f7f8ca9a056c0dc5c2dfa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a319f409076f7f8ca9a056c0dc5c2dfa6">Ms::createNotes</a> (const ReducedFraction &amp;lastTick, QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a319f409076f7f8ca9a056c0dc5c2dfa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a319f409076f7f8ca9a056c0dc5c2dfa6">Ms::createNotes</a> (const ReducedFraction &amp;lastTick, QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a319f409076f7f8ca9a056c0dc5c2dfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e0f75f0fad631566507001eed4b6067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5e0f75f0fad631566507001eed4b6067">Ms::processNonLyricMeta</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a5e0f75f0fad631566507001eed4b6067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5e0f75f0fad631566507001eed4b6067">Ms::processNonLyricMeta</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a5e0f75f0fad631566507001eed4b6067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5e9132afadcc305fe6a4c303674a789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad5e9132afadcc305fe6a4c303674a789">Ms::setTrackInfo</a> (QList&lt; MTrack &gt; &amp;tracks, MidiType midiType)</td></tr>
+<tr class="memitem:ad5e9132afadcc305fe6a4c303674a789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad5e9132afadcc305fe6a4c303674a789">Ms::setTrackInfo</a> (QList&lt; MTrack &gt; &amp;tracks, MidiType midiType)</td></tr>
 <tr class="separator:ad5e9132afadcc305fe6a4c303674a789"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb9241b8f2df47a03f4faade1a973ee8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aeb9241b8f2df47a03f4faade1a973ee8">Ms::processLyricMeta</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:aeb9241b8f2df47a03f4faade1a973ee8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aeb9241b8f2df47a03f4faade1a973ee8">Ms::processLyricMeta</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:aeb9241b8f2df47a03f4faade1a973ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f29233f59dc9b7f6790ceefdebc1978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a5f29233f59dc9b7f6790ceefdebc1978">Ms::createKeys</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a5f29233f59dc9b7f6790ceefdebc1978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a5f29233f59dc9b7f6790ceefdebc1978">Ms::createKeys</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a5f29233f59dc9b7f6790ceefdebc1978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a052e06a515094d17a253917a9f20a5e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a052e06a515094d17a253917a9f20a5e8">Ms::applySwing</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a052e06a515094d17a253917a9f20a5e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a052e06a515094d17a253917a9f20a5e8">Ms::applySwing</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a052e06a515094d17a253917a9f20a5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab5d3fdada7c1caaea7bcf6e7c86c929"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aab5d3fdada7c1caaea7bcf6e7c86c929">Ms::createClefs</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:aab5d3fdada7c1caaea7bcf6e7c86c929"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aab5d3fdada7c1caaea7bcf6e7c86c929">Ms::createClefs</a> (QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:aab5d3fdada7c1caaea7bcf6e7c86c929"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a769743d74cd37fe130e4f9ce7092810e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a769743d74cd37fe130e4f9ce7092810e">Ms::setLeftRightHandSplit</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a769743d74cd37fe130e4f9ce7092810e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a769743d74cd37fe130e4f9ce7092810e">Ms::setLeftRightHandSplit</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a769743d74cd37fe130e4f9ce7092810e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5cca56f26d6d7e1796ab1441c26af86"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af5cca56f26d6d7e1796ab1441c26af86">Ms::findFirstChordTick</a> (const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:af5cca56f26d6d7e1796ab1441c26af86"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af5cca56f26d6d7e1796ab1441c26af86">Ms::findFirstChordTick</a> (const QList&lt; MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:af5cca56f26d6d7e1796ab1441c26af86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6be46bd8bba78c88a56e9c90fa67f3c7"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a6be46bd8bba78c88a56e9c90fa67f3c7">Ms::findLastChordTick</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
+<tr class="memitem:a6be46bd8bba78c88a56e9c90fa67f3c7"><td class="memItemLeft" align="right" valign="top">ReducedFraction&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a6be46bd8bba78c88a56e9c90fa67f3c7">Ms::findLastChordTick</a> (const std::multimap&lt; int, MTrack &gt; &amp;tracks)</td></tr>
 <tr class="separator:a6be46bd8bba78c88a56e9c90fa67f3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a3fd1b77509ca4377b4bbd1827448f"><td class="memItemLeft" align="right" valign="top">QList&lt; MTrack &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a94a3fd1b77509ca4377b4bbd1827448f">Ms::convertMidi</a> (Score *score, const <a class="el" href="class_midi_file.html">MidiFile</a> *mf)</td></tr>
+<tr class="memitem:a94a3fd1b77509ca4377b4bbd1827448f"><td class="memItemLeft" align="right" valign="top">QList&lt; MTrack &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a94a3fd1b77509ca4377b4bbd1827448f">Ms::convertMidi</a> (Score *score, const <a class="el" href="classMidiFile.html">MidiFile</a> *mf)</td></tr>
 <tr class="separator:a94a3fd1b77509ca4377b4bbd1827448f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96df51114ffeed4c719ecbe9ba926d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a96df51114ffeed4c719ecbe9ba926d43">Ms::loadMidiData</a> (<a class="el" href="class_midi_file.html">MidiFile</a> &amp;mf)</td></tr>
+<tr class="memitem:a96df51114ffeed4c719ecbe9ba926d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a96df51114ffeed4c719ecbe9ba926d43">Ms::loadMidiData</a> (<a class="el" href="classMidiFile.html">MidiFile</a> &amp;mf)</td></tr>
 <tr class="separator:a96df51114ffeed4c719ecbe9ba926d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad65094520812d98ebfbbc18dc6cd07fc"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad65094520812d98ebfbbc18dc6cd07fc">Ms::importMidi</a> (MasterScore *score, const QString &amp;name)</td></tr>
+<tr class="memitem:ad65094520812d98ebfbbc18dc6cd07fc"><td class="memItemLeft" align="right" valign="top">Score::FileError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad65094520812d98ebfbbc18dc6cd07fc">Ms::importMidi</a> (MasterScore *score, const QString &amp;name)</td></tr>
 <tr class="separator:ad65094520812d98ebfbbc18dc6cd07fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

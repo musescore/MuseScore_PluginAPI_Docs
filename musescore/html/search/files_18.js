@@ -9,5 +9,7 @@ var searchData=
   ['zitagui_2ecpp',['zitagui.cpp',['../zitagui_8cpp.html',1,'']]],
   ['zitagui_2eh',['zitagui.h',['../zitagui_8h.html',1,'']]],
   ['zone_2ecpp',['zone.cpp',['../zone_8cpp.html',1,'']]],
-  ['zone_2eh',['zone.h',['../zone_8h.html',1,'']]]
+  ['zone_2eh',['zone.h',['../zone_8h.html',1,'']]],
+  ['zoombox_2ecpp',['zoombox.cpp',['../zoombox_8cpp.html',1,'']]],
+  ['zoombox_2eh',['zoombox.h',['../zoombox_8h.html',1,'']]]
 ];

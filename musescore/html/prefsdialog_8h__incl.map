@@ -1,7 +1,7 @@
 <map id="mscore/prefsdialog.h" name="mscore/prefsdialog.h">
-<area shape="rect" id="node3" href="$preferences_8h.html" title="preferences.h" alt="" coords="169,155,270,181"/>
-<area shape="rect" id="node6" href="$abstractdialog_8h.html" title="abstractdialog.h" alt="" coords="194,80,309,107"/>
-<area shape="rect" id="node7" href="$preferenceslistwidget_8h.html" title="preferenceslistwidget.h" alt="" coords="333,80,489,107"/>
-<area shape="rect" id="node4" href="$globals_8h.html" title="globals.h" alt="" coords="115,237,190,263"/>
-<area shape="rect" id="node8" href="$colorlabel_8h.html" title="awl/colorlabel.h" alt="" coords="355,155,467,181"/>
+<area shape="rect" id="node3" href="$preferences_8h.html" title="preferences.h" alt="" coords="169,155,271,181"/>
+<area shape="rect" id="node7" href="$abstractdialog_8h.html" title="abstractdialog.h" alt="" coords="195,80,311,107"/>
+<area shape="rect" id="node8" href="$preferenceslistwidget_8h.html" title="preferenceslistwidget.h" alt="" coords="336,80,493,107"/>
+<area shape="rect" id="node5" href="$globals_8h.html" title="globals.h" alt="" coords="183,237,257,263"/>
+<area shape="rect" id="node9" href="$colorlabel_8h.html" title="awl/colorlabel.h" alt="" coords="356,155,473,181"/>
 </map>

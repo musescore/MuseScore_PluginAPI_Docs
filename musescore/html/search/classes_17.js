@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['wallpaperpreview',['WallpaperPreview',['../class_ms_1_1_wallpaper_preview.html',1,'Ms']]],
-  ['waveview',['WaveView',['../class_ms_1_1_wave_view.html',1,'Ms']]],
-  ['wavylineobj',['WavyLineObj',['../class_ms_1_1_wavy_line_obj.html',1,'Ms']]],
-  ['wedge',['Wedge',['../class_o_v_e_1_1_wedge.html',1,'OVE']]],
-  ['wedgeendpoint',['WedgeEndPoint',['../class_o_v_e_1_1_wedge_end_point.html',1,'OVE']]],
-  ['wedgeobj',['WedgeObj',['../class_ms_1_1_wedge_obj.html',1,'Ms']]],
-  ['winsparkleautoupdater',['WinSparkleAutoUpdater',['../class_ms_1_1_win_sparkle_auto_updater.html',1,'Ms']]],
-  ['workspace',['Workspace',['../class_ms_1_1_workspace.html',1,'Ms']]],
-  ['workspacecombobox',['WorkspaceComboBox',['../class_ms_1_1_workspace_combo_box.html',1,'Ms']]],
-  ['workspacedialog',['WorkspaceDialog',['../class_ms_1_1_workspace_dialog.html',1,'Ms']]],
-  ['workspacesmanager',['WorkspacesManager',['../class_ms_1_1_workspaces_manager.html',1,'Ms']]],
-  ['writer',['Writer',['../class_bww_1_1_writer.html',1,'Bww']]]
+  ['wallpaperpreview',['WallpaperPreview',['../classMs_1_1WallpaperPreview.html',1,'Ms']]],
+  ['waveview',['WaveView',['../classMs_1_1WaveView.html',1,'Ms']]],
+  ['wavylineobj',['WavyLineObj',['../classMs_1_1WavyLineObj.html',1,'Ms']]],
+  ['wedge',['Wedge',['../classOVE_1_1Wedge.html',1,'OVE']]],
+  ['wedgeendpoint',['WedgeEndPoint',['../classOVE_1_1WedgeEndPoint.html',1,'OVE']]],
+  ['wedgeobj',['WedgeObj',['../classMs_1_1WedgeObj.html',1,'Ms']]],
+  ['winsparkleautoupdater',['WinSparkleAutoUpdater',['../classMs_1_1WinSparkleAutoUpdater.html',1,'Ms']]],
+  ['workspace',['Workspace',['../classMs_1_1Workspace.html',1,'Ms']]],
+  ['workspacecombobox',['WorkspaceComboBox',['../classMs_1_1WorkspaceComboBox.html',1,'Ms']]],
+  ['workspacedialog',['WorkspaceDialog',['../classMs_1_1WorkspaceDialog.html',1,'Ms']]],
+  ['workspacesmanager',['WorkspacesManager',['../classMs_1_1WorkspacesManager.html',1,'Ms']]],
+  ['writer',['Writer',['../classBww_1_1Writer.html',1,'Bww']]]
 ];

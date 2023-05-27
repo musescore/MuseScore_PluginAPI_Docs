@@ -1,51 +1,51 @@
 <map id="libmscore/chordrest.h" name="libmscore/chordrest.h">
-<area shape="rect" id="node2" href="$chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="1959,87,2084,114"/>
-<area shape="rect" id="node4" href="$articulation_8cpp.html" title="libmscore/articulation.cpp" alt="" coords="194,259,364,285"/>
-<area shape="rect" id="node8" href="$chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="1372,259,1533,285"/>
-<area shape="rect" id="node12" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="430,259,584,285"/>
-<area shape="rect" id="node14" href="$fermata_8cpp.html" title="libmscore/fermata.cpp" alt="" coords="2554,259,2705,285"/>
-<area shape="rect" id="node17" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="2729,259,2885,285"/>
-<area shape="rect" id="node18" href="$spanner_8cpp.html" title="libmscore/spanner.cpp" alt="" coords="3494,259,3648,285"/>
-<area shape="rect" id="node19" href="$split_measure_8cpp.html" title="libmscore/splitMeasure.cpp" alt="" coords="2910,259,3091,285"/>
-<area shape="rect" id="node20" href="$articulationprop_8cpp.html" title="mscore/articulationprop.cpp" alt="" coords="3116,259,3298,285"/>
-<area shape="rect" id="node21" href="$editlyrics_8cpp.html" title="mscore/editlyrics.cpp" alt="" coords="3323,259,3470,285"/>
-<area shape="rect" id="node22" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="3672,259,3806,285"/>
-<area shape="rect" id="node23" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="3830,259,3944,285"/>
-<area shape="rect" id="node29" href="$libmscore_2utils_8cpp.html" title="libmscore/utils.cpp" alt="" coords="2739,177,2870,203"/>
-<area shape="rect" id="node30" href="$importmidi__clef_8cpp.html" title="mscore/importmidi/importmidi\l_clef.cpp" alt="" coords="2894,169,3088,211"/>
-<area shape="rect" id="node31" href="$importmidi__tie_8cpp.html" title="mscore/importmidi/importmidi\l_tie.cpp" alt="" coords="3112,169,3305,211"/>
-<area shape="rect" id="node32" href="$importmxmlpass2_8cpp.html" title="mscore/importmxmlpass2.cpp" alt="" coords="418,177,615,203"/>
-<area shape="rect" id="node33" href="$cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="639,177,828,203"/>
-<area shape="rect" id="node34" href="$rest_8h.html" title="libmscore/rest.h" alt="" coords="391,87,506,114"/>
-<area shape="rect" id="node35" href="$check_8cpp.html" title="libmscore/check.cpp" alt="" coords="48,177,190,203"/>
-<area shape="rect" id="node36" href="$elementmap_8cpp.html" title="libmscore/elementmap.cpp" alt="" coords="3735,87,3914,114"/>
-<area shape="rect" id="node37" href="$groups_8cpp.html" title="libmscore/groups.cpp" alt="" coords="3938,87,4084,114"/>
-<area shape="rect" id="node38" href="$letring_8cpp.html" title="libmscore/letring.cpp" alt="" coords="4109,87,4252,114"/>
-<area shape="rect" id="node39" href="$palmmute_8cpp.html" title="libmscore/palmmute.cpp" alt="" coords="4276,87,4440,114"/>
-<area shape="rect" id="node40" href="$libmscore_2part_8cpp.html" title="libmscore/part.cpp" alt="" coords="4464,87,4593,114"/>
-<area shape="rect" id="node41" href="$pedal_8cpp.html" title="libmscore/pedal.cpp" alt="" coords="4618,87,4756,114"/>
-<area shape="rect" id="node42" href="$system_8cpp.html" title="Implementation of classes SysStaff and System. " alt="" coords="4781,87,4932,114"/>
-<area shape="rect" id="node43" href="$editfiguredbass_8cpp.html" title="mscore/editfiguredbass.cpp" alt="" coords="4956,87,5138,114"/>
-<area shape="rect" id="node44" href="$editharmony_8cpp.html" title="mscore/editharmony.cpp" alt="" coords="5163,87,5328,114"/>
-<area shape="rect" id="node45" href="$importgtp_8h.html" title="mscore/importgtp.h" alt="" coords="5353,87,5488,114"/>
-<area shape="rect" id="node46" href="$importptb_8h.html" title="mscore/importptb.h" alt="" coords="5512,87,5646,114"/>
-<area shape="rect" id="node47" href="$importmidi__swing_8cpp.html" title="mscore/importmidi/importmidi\l_swing.cpp" alt="" coords="5670,80,5864,121"/>
-<area shape="rect" id="node48" href="$importmidi__tuplet__tonotes_8cpp.html" title="mscore/importmidi/importmidi\l_tuplet_tonotes.cpp" alt="" coords="5888,80,6081,121"/>
-<area shape="rect" id="node49" href="$importmxmlpass1_8cpp.html" title="mscore/importmxmlpass1.cpp" alt="" coords="6106,87,6303,114"/>
-<area shape="rect" id="node50" href="$palettemodel_8cpp.html" title="mscore/palette/palettemodel.cpp" alt="" coords="6327,87,6538,114"/>
-<area shape="rect" id="node3" href="$undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="2060,177,2181,203"/>
-<area shape="rect" id="node5" href="$beam_8cpp.html" title="libmscore/beam.cpp" alt="" coords="1738,259,1876,285"/>
-<area shape="rect" id="node6" href="$bend_8cpp.html" title="libmscore/bend.cpp" alt="" coords="2232,259,2366,285"/>
-<area shape="rect" id="node7" href="$chord_8cpp.html" title="libmscore/chord.cpp" alt="" coords="2391,259,2530,285"/>
-<area shape="rect" id="node9" href="$cmd_8cpp.html" title="Handling of several GUI commands. " alt="" coords="1062,259,1194,285"/>
-<area shape="rect" id="node10" href="$dynamic_8cpp.html" title="libmscore/dynamic.cpp" alt="" coords="1557,259,1713,285"/>
-<area shape="rect" id="node11" href="$edit_8cpp.html" title="libmscore/edit.cpp" alt="" coords="1219,259,1347,285"/>
-<area shape="rect" id="node13" href="$libmscore_2excerpt_8cpp.html" title="libmscore/excerpt.cpp" alt="" coords="888,259,1038,285"/>
-<area shape="rect" id="node15" href="$fingering_8cpp.html" title="libmscore/fingering.cpp" alt="" coords="1901,259,2057,285"/>
-<area shape="rect" id="node16" href="$fret_8cpp.html" title="libmscore/fret.cpp" alt="" coords="2081,259,2208,285"/>
-<area shape="rect" id="node24" href="$ambitus_8cpp.html" title="libmscore/ambitus.cpp" alt="" coords="2257,177,2410,203"/>
-<area shape="rect" id="node25" href="$arpeggio_8cpp.html" title="libmscore/arpeggio.cpp" alt="" coords="1306,177,1462,203"/>
-<area shape="rect" id="node26" href="$chordline_8cpp.html" title="libmscore/chordline.cpp" alt="" coords="1486,177,1645,203"/>
-<area shape="rect" id="node27" href="$figuredbass_8cpp.html" title="libmscore/figuredbass.cpp" alt="" coords="853,177,1028,203"/>
-<area shape="rect" id="node28" href="$glissando_8cpp.html" title="libmscore/glissando.cpp" alt="" coords="1670,177,1832,203"/>
+<area shape="rect" id="node2" href="$chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="1694,87,1825,114"/>
+<area shape="rect" id="node12" href="$importmidi__clef_8cpp.html" title="importexport/midiimport\l/importmidi_clef.cpp" alt="" coords="165,169,336,211"/>
+<area shape="rect" id="node13" href="$importmidi__tie_8cpp.html" title="importexport/midiimport\l/importmidi_tie.cpp" alt="" coords="360,169,530,211"/>
+<area shape="rect" id="node17" href="$articulation_8cpp.html" title="libmscore/articulation.cpp" alt="" coords="544,266,720,293"/>
+<area shape="rect" id="node18" href="$chordrest_8cpp.html" title="libmscore/chordrest.cpp" alt="" coords="744,266,911,293"/>
+<area shape="rect" id="node19" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="2427,266,2586,293"/>
+<area shape="rect" id="node20" href="$fermata_8cpp.html" title="libmscore/fermata.cpp" alt="" coords="3189,266,3346,293"/>
+<area shape="rect" id="node21" href="$scorefile_8cpp.html" title="libmscore/scorefile.cpp" alt="" coords="935,266,1096,293"/>
+<area shape="rect" id="node22" href="$spanner_8cpp.html" title="libmscore/spanner.cpp" alt="" coords="362,266,520,293"/>
+<area shape="rect" id="node23" href="$splitMeasure_8cpp.html" title="libmscore/splitMeasure.cpp" alt="" coords="3660,266,3846,293"/>
+<area shape="rect" id="node24" href="$articulationprop_8cpp.html" title="mscore/articulationprop.cpp" alt="" coords="4016,266,4205,293"/>
+<area shape="rect" id="node25" href="$editlyrics_8cpp.html" title="mscore/editlyrics.cpp" alt="" coords="4302,266,4452,293"/>
+<area shape="rect" id="node26" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1121,266,1260,293"/>
+<area shape="rect" id="node27" href="$osc_8cpp.html" title="mscore/osc.cpp" alt="" coords="1284,266,1404,293"/>
+<area shape="rect" id="node28" href="$importmxmlpass2_8cpp.html" title="importexport/musicxml\l/importmxmlpass2.cpp" alt="" coords="714,169,877,211"/>
+<area shape="rect" id="node31" href="$libmscore_2utils_8cpp.html" title="libmscore/utils.cpp" alt="" coords="555,177,690,203"/>
+<area shape="rect" id="node32" href="$cursor_8cpp.html" title="mscore/plugin/api/cursor.cpp" alt="" coords="2036,177,2235,203"/>
+<area shape="rect" id="node33" href="$rest_8h.html" title="libmscore/rest.h" alt="" coords="3010,87,3128,114"/>
+<area shape="rect" id="node34" href="$check_8cpp.html" title="libmscore/check.cpp" alt="" coords="4064,177,4210,203"/>
+<area shape="rect" id="node35" href="$importgtp_8h.html" title="importexport/guitarpro\l/importgtp.h" alt="" coords="3520,80,3677,121"/>
+<area shape="rect" id="node36" href="$importptb_8h.html" title="importexport/guitarpro\l/importptb.h" alt="" coords="3882,80,4040,121"/>
+<area shape="rect" id="node37" href="$importmidi__swing_8cpp.html" title="importexport/midiimport\l/importmidi_swing.cpp" alt="" coords="4488,80,4658,121"/>
+<area shape="rect" id="node38" href="$importmidi__tuplet__tonotes_8cpp.html" title="importexport/midiimport\l/importmidi_tuplet_tonotes.cpp" alt="" coords="4683,80,4890,121"/>
+<area shape="rect" id="node39" href="$importmxmlpass1_8cpp.html" title="importexport/musicxml\l/importmxmlpass1.cpp" alt="" coords="4914,80,5077,121"/>
+<area shape="rect" id="node40" href="$elementmap_8cpp.html" title="libmscore/elementmap.cpp" alt="" coords="5101,87,5285,114"/>
+<area shape="rect" id="node41" href="$groups_8cpp.html" title="libmscore/groups.cpp" alt="" coords="5310,87,5460,114"/>
+<area shape="rect" id="node42" href="$letring_8cpp.html" title="libmscore/letring.cpp" alt="" coords="5485,87,5632,114"/>
+<area shape="rect" id="node43" href="$palmmute_8cpp.html" title="libmscore/palmmute.cpp" alt="" coords="5656,87,5826,114"/>
+<area shape="rect" id="node44" href="$libmscore_2part_8cpp.html" title="libmscore/part.cpp" alt="" coords="5851,87,5986,114"/>
+<area shape="rect" id="node45" href="$pedal_8cpp.html" title="libmscore/pedal.cpp" alt="" coords="6010,87,6152,114"/>
+<area shape="rect" id="node46" href="$realizedharmony_8cpp.html" title="libmscore/realizedharmony.cpp" alt="" coords="6176,87,6386,114"/>
+<area shape="rect" id="node47" href="$system_8cpp.html" title="Implementation of classes SysStaff and System. " alt="" coords="6410,87,6565,114"/>
+<area shape="rect" id="node48" href="$editfiguredbass_8cpp.html" title="mscore/editfiguredbass.cpp" alt="" coords="6590,87,6778,114"/>
+<area shape="rect" id="node49" href="$editharmony_8cpp.html" title="mscore/editharmony.cpp" alt="" coords="6802,87,6974,114"/>
+<area shape="rect" id="node50" href="$palettemodel_8cpp.html" title="mscore/palette/palettemodel.cpp" alt="" coords="6998,87,7218,114"/>
+<area shape="rect" id="node3" href="$bb_8cpp.html" title="importexport/bb/bb.cpp" alt="" coords="1848,177,2012,203"/>
+<area shape="rect" id="node4" href="$importbww_8cpp.html" title="importexport/bww/importbww.cpp" alt="" coords="1342,177,1570,203"/>
+<area shape="rect" id="node5" href="$capella_8cpp.html" title="importexport/capella\l/capella.cpp" alt="" coords="2260,169,2406,211"/>
+<area shape="rect" id="node6" href="$importgtp-gp4_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp4.cpp" alt="" coords="3157,169,3314,211"/>
+<area shape="rect" id="node7" href="$importgtp-gp5_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp5.cpp" alt="" coords="3338,169,3496,211"/>
+<area shape="rect" id="node8" href="$importgtp-gp6_8cpp.html" title="importexport/guitarpro\l/importgtp&#45;gp6.cpp" alt="" coords="3520,169,3677,211"/>
+<area shape="rect" id="node9" href="$importgtp_8cpp.html" title="importexport/guitarpro\l/importgtp.cpp" alt="" coords="3882,169,4040,211"/>
+<area shape="rect" id="node10" href="$importptb_8cpp.html" title="importexport/guitarpro\l/importptb.cpp" alt="" coords="3701,169,3858,211"/>
+<area shape="rect" id="node11" href="$importmidi_8cpp.html" title="importexport/midiimport\l/importmidi.cpp" alt="" coords="2430,169,2601,211"/>
+<area shape="rect" id="node14" href="$musedata_8cpp.html" title="importexport/musedata\l/musedata.cpp" alt="" coords="2626,169,2790,211"/>
+<area shape="rect" id="node15" href="$exportxml_8cpp.html" title="importexport/musicxml\l/exportxml.cpp" alt="" coords="1628,259,1790,300"/>
+<area shape="rect" id="node16" href="$undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1646,177,1772,203"/>
+<area shape="rect" id="node29" href="$musicxmlsupport_8cpp.html" title="importexport/musicxml\l/musicxmlsupport.cpp" alt="" coords="1154,169,1317,211"/>
+<area shape="rect" id="node30" href="$importove_8cpp.html" title="importexport/ove/importove.cpp" alt="" coords="2814,177,3031,203"/>
 </map>

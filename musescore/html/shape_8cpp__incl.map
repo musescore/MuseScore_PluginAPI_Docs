@@ -1,12 +1,15 @@
 <map id="libmscore/shape.cpp" name="libmscore/shape.cpp">
-<area shape="rect" id="node2" href="$shape_8h.html" title="shape.h" alt="" coords="277,229,345,256"/>
-<area shape="rect" id="node3" href="$segment_8h.html" title="segment.h" alt="" coords="167,80,250,107"/>
-<area shape="rect" id="node4" href="$element_8h.html" title="element.h" alt="" coords="144,155,222,181"/>
-<area shape="rect" id="node8" href="$mscore_8h.html" title="mscore.h" alt="" coords="30,304,106,331"/>
-<area shape="rect" id="node5" href="$spatium_8h.html" title="spatium.h" alt="" coords="122,229,201,256"/>
-<area shape="rect" id="node6" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="22,229,98,256"/>
-<area shape="rect" id="node12" href="$libmscore_2score_element_8h.html" title="scoreElement.h" alt="" coords="176,304,289,331"/>
-<area shape="rect" id="node9" href="$style_8h.html" title="style.h" alt="" coords="118,379,179,405"/>
-<area shape="rect" id="node10" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="92,453,175,480"/>
-<area shape="rect" id="node11" href="$types_8h.html" title="types.h" alt="" coords="200,453,265,480"/>
+<area shape="rect" id="node2" href="$shape_8h.html" title="shape.h" alt="" coords="457,229,525,256"/>
+<area shape="rect" id="node3" href="$segment_8h.html" title="segment.h" alt="" coords="335,80,419,107"/>
+<area shape="rect" id="node4" href="$element_8h.html" title="element.h" alt="" coords="261,155,341,181"/>
+<area shape="rect" id="node9" href="$mscore_8h.html" title="mscore.h" alt="" coords="161,379,239,405"/>
+<area shape="rect" id="node5" href="$elementgroup_8h.html" title="elementgroup.h" alt="" coords="38,229,151,256"/>
+<area shape="rect" id="node6" href="$spatium_8h.html" title="spatium.h" alt="" coords="176,229,256,256"/>
+<area shape="rect" id="node7" href="$libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="253,304,331,331"/>
+<area shape="rect" id="node13" href="$scoreElement_8h.html" title="scoreElement.h" alt="" coords="5,379,120,405"/>
+<area shape="rect" id="node14" href="$sig_8h.html" title="sig.h" alt="" coords="331,229,381,256"/>
+<area shape="rect" id="node15" href="$sym_8h.html" title="sym.h" alt="" coords="389,379,448,405"/>
+<area shape="rect" id="node10" href="$libmscore_2style_8h.html" title="style.h" alt="" coords="131,453,191,480"/>
+<area shape="rect" id="node11" href="$chordlist_8h.html" title="chordlist.h" alt="" coords="119,528,203,555"/>
+<area shape="rect" id="node12" href="$types_8h.html" title="types.h" alt="" coords="31,528,95,555"/>
 </map>

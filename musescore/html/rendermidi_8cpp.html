@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -88,7 +88,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="chord_8h_source.html">chord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="trill_8h_source.html">trill.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vibrato_8h_source.html">vibrato.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="slur_8h_source.html">slur.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2tie_8h_source.html">tie.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="stafftext_8h_source.html">stafftext.h</a>&quot;</code><br />
@@ -99,7 +99,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="measure_8h_source.html">measure.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tempo_8h_source.html">tempo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="repeatlist_8h_source.html">repeatlist.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="velo_8h_source.html">velo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="changeMap_8h_source.html">changeMap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dynamic_8h_source.html">dynamic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="navigate_8h_source.html">navigate.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pedal_8h_source.html">pedal.h</a>&quot;</code><br />
@@ -108,130 +108,159 @@ $(function() {
 <code>#include &quot;<a class="el" href="bend_8h_source.html">bend.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tremolo_8h_source.html">tremolo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="noteevent_8h_source.html">noteevent.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="event_8h_source.html">synthesizer/event.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="segment_8h_source.html">segment.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="undo_8h_source.html">undo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2utils_8h_source.html">utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="synthesizerstate_8h_source.html">synthesizerstate.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="easeInOut_8h_source.html">easeInOut.h</a>&quot;</code><br />
+<code>#include &quot;global/log.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="event_8h_source.html">audio/midi/event.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="preferences_8h_source.html">mscore/preferences.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for rendermidi.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="rendermidi_8cpp__incl.png" border="0" usemap="#libmscore_2rendermidi_8cpp" alt=""/></div>
 <map name="libmscore_2rendermidi_8cpp" id="libmscore_2rendermidi_8cpp">
-<area shape="rect" id="node3" href="rendermidi_8h.html" title="rendermidi.h" alt="" coords="120,80,213,107"/>
-<area shape="rect" id="node6" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="39,155,121,181"/>
-<area shape="rect" id="node7" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1618,80,1683,107"/>
-<area shape="rect" id="node9" href="durationtype_8h.html" title="durationtype.h" alt="" coords="1056,229,1160,256"/>
-<area shape="rect" id="node10" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1079,304,1137,331"/>
-<area shape="rect" id="node13" href="noteevent_8h.html" title="noteevent.h" alt="" coords="1997,379,2088,405"/>
-<area shape="rect" id="node15" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="2417,229,2511,256"/>
-<area shape="rect" id="node16" href="event_8h.html" title="synthesizer/event.h" alt="" coords="2520,304,2656,331"/>
-<area shape="rect" id="node18" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1366,155,1495,181"/>
-<area shape="rect" id="node23" href="volta_8h.html" title="volta.h" alt="" coords="683,80,744,107"/>
-<area shape="rect" id="node25" href="style_8h.html" title="style.h" alt="" coords="795,229,856,256"/>
-<area shape="rect" id="node26" href="glissando_8h.html" title="glissando.h" alt="" coords="401,155,489,181"/>
-<area shape="rect" id="node27" href="libmscore_2part_8h.html" title="part.h" alt="" coords="2467,155,2522,181"/>
-<area shape="rect" id="node28" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="2131,155,2197,181"/>
-<area shape="rect" id="node29" href="trill_8h.html" title="trill.h" alt="" coords="2731,80,2781,107"/>
-<area shape="rect" id="node30" href="vibrato_8h.html" title="vibrato.h" alt="" coords="2805,80,2877,107"/>
-<area shape="rect" id="node31" href="slur_8h.html" title="slur.h" alt="" coords="2902,80,2957,107"/>
-<area shape="rect" id="node32" href="libmscore_2tie_8h.html" title="tie.h" alt="" coords="2981,80,3027,107"/>
-<area shape="rect" id="node33" href="stafftext_8h.html" title="stafftext.h" alt="" coords="2473,80,2554,107"/>
-<area shape="rect" id="node34" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="2547,155,2605,181"/>
-<area shape="rect" id="node35" href="velo_8h.html" title="Definition of classes VeloList. " alt="" coords="2573,229,2630,256"/>
-<area shape="rect" id="node36" href="repeat_8h.html" title="repeat.h" alt="" coords="3052,80,3121,107"/>
-<area shape="rect" id="node37" href="articulation_8h.html" title="articulation.h" alt="" coords="244,304,340,331"/>
-<area shape="rect" id="node38" href="arpeggio_8h.html" title="arpeggio.h" alt="" coords="364,304,447,331"/>
-<area shape="rect" id="node39" href="tempo_8h.html" title="tempo.h" alt="" coords="2221,155,2291,181"/>
-<area shape="rect" id="node40" href="repeatlist_8h.html" title="repeatlist.h" alt="" coords="3146,80,3233,107"/>
-<area shape="rect" id="node41" href="dynamic_8h.html" title="dynamic.h" alt="" coords="1132,155,1215,181"/>
-<area shape="rect" id="node42" href="navigate_8h.html" title="navigate.h" alt="" coords="3257,80,3340,107"/>
-<area shape="rect" id="node43" href="pedal_8h.html" title="pedal.h" alt="" coords="768,80,832,107"/>
-<area shape="rect" id="node44" href="hairpin_8h.html" title="hairpin.h" alt="" coords="857,80,927,107"/>
-<area shape="rect" id="node45" href="bend_8h.html" title="bend.h" alt="" coords="615,155,676,181"/>
-<area shape="rect" id="node46" href="tremolo_8h.html" title="tremolo.h" alt="" coords="981,155,1057,181"/>
-<area shape="rect" id="node47" href="segment_8h.html" title="segment.h" alt="" coords="193,229,276,256"/>
-<area shape="rect" id="node48" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1961,80,2023,107"/>
-<area shape="rect" id="node49" href="libmscore_2utils_8h.html" title="utils.h" alt="" coords="3365,80,3422,107"/>
-<area shape="rect" id="node50" href="sym_8h.html" title="sym.h" alt="" coords="2139,453,2197,480"/>
-<area shape="rect" id="node4" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="471,453,547,480"/>
-<area shape="rect" id="node8" href="input_8h.html" title="input.h" alt="" coords="1699,155,1760,181"/>
-<area shape="rect" id="node17" href="select_8h.html" title="select.h" alt="" coords="1785,155,1853,181"/>
-<area shape="rect" id="node19" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="1239,155,1342,181"/>
-<area shape="rect" id="node20" href="spannermap_8h.html" title="spannermap.h" alt="" coords="1520,155,1624,181"/>
-<area shape="rect" id="node21" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="714,304,814,331"/>
-<area shape="rect" id="node22" href="property_8h.html" title="property.h" alt="" coords="683,229,763,256"/>
-<area shape="rect" id="node11" href="element_8h.html" title="element.h" alt="" coords="470,379,549,405"/>
-<area shape="rect" id="node12" href="symbol_8h.html" title="symbol.h" alt="" coords="1025,379,1100,405"/>
-<area shape="rect" id="node14" href="pitchspelling_8h.html" title="pitchspelling.h" alt="" coords="1458,379,1563,405"/>
-<area shape="rect" id="node24" href="textlinebase_8h.html" title="textlinebase.h" alt="" coords="701,155,803,181"/>
+<area shape="rect" id="node3" href="rendermidi_8h.html" title="rendermidi.h" alt="" coords="70,80,167,107"/>
+<area shape="rect" id="node6" href="measure_8h.html" title="Definition of class Measure. " alt="" coords="134,155,218,181"/>
+<area shape="rect" id="node7" href="libmscore_2score_8h.html" title="Definition of Score class. " alt="" coords="1263,80,1329,107"/>
+<area shape="rect" id="node9" href="durationtype_8h.html" title="durationtype.h" alt="" coords="1083,229,1189,256"/>
+<area shape="rect" id="node10" href="note_8h.html" title="Definition of classes Note and NoteHead. " alt="" coords="1804,304,1863,331"/>
+<area shape="rect" id="node11" href="noteevent_8h.html" title="noteevent.h" alt="" coords="1937,379,2028,405"/>
+<area shape="rect" id="node12" href="sym_8h.html" title="sym.h" alt="" coords="805,379,864,405"/>
+<area shape="rect" id="node13" href="libmscore_2style_8h.html" title="style.h" alt="" coords="2677,453,2737,480"/>
+<area shape="rect" id="node14" href="libmscore_2instrument_8h.html" title="instrument.h" alt="" coords="1495,229,1591,256"/>
+<area shape="rect" id="node15" href="event_8h.html" title="audio/midi/event.h" alt="" coords="1561,304,1695,331"/>
+<area shape="rect" id="node17" href="synthesizerstate_8h.html" title="synthesizerstate.h" alt="" coords="1581,155,1710,181"/>
+<area shape="rect" id="node22" href="volta_8h.html" title="volta.h" alt="" coords="2825,80,2887,107"/>
+<area shape="rect" id="node24" href="glissando_8h.html" title="glissando.h" alt="" coords="2411,155,2501,181"/>
+<area shape="rect" id="node25" href="libmscore_2part_8h.html" title="part.h" alt="" coords="685,155,741,181"/>
+<area shape="rect" id="node26" href="chord_8h.html" title="Definition of classes Chord, HelpLine and NoteList. " alt="" coords="1988,155,2055,181"/>
+<area shape="rect" id="node27" href="trill_8h.html" title="trill.h" alt="" coords="1505,80,1556,107"/>
+<area shape="rect" id="node28" href="vibrato_8h.html" title="vibrato.h" alt="" coords="1580,80,1652,107"/>
+<area shape="rect" id="node29" href="slur_8h.html" title="slur.h" alt="" coords="1677,80,1731,107"/>
+<area shape="rect" id="node30" href="libmscore_2tie_8h.html" title="tie.h" alt="" coords="1755,80,1802,107"/>
+<area shape="rect" id="node31" href="stafftext_8h.html" title="stafftext.h" alt="" coords="672,80,755,107"/>
+<area shape="rect" id="node32" href="staff_8h.html" title="Definition of class Staff. " alt="" coords="600,155,661,181"/>
+<area shape="rect" id="node33" href="changeMap_8h.html" title="Definition of class ChangeMap. " alt="" coords="205,229,307,256"/>
+<area shape="rect" id="node34" href="repeat_8h.html" title="repeat.h" alt="" coords="2015,80,2084,107"/>
+<area shape="rect" id="node35" href="articulation_8h.html" title="articulation.h" alt="" coords="699,304,797,331"/>
+<area shape="rect" id="node36" href="arpeggio_8h.html" title="arpeggio.h" alt="" coords="2159,80,2243,107"/>
+<area shape="rect" id="node37" href="tempo_8h.html" title="tempo.h" alt="" coords="2130,155,2201,181"/>
+<area shape="rect" id="node38" href="repeatlist_8h.html" title="repeatlist.h" alt="" coords="2319,80,2406,107"/>
+<area shape="rect" id="node39" href="dynamic_8h.html" title="dynamic.h" alt="" coords="2548,155,2631,181"/>
+<area shape="rect" id="node40" href="navigate_8h.html" title="navigate.h" alt="" coords="2482,80,2563,107"/>
+<area shape="rect" id="node41" href="pedal_8h.html" title="pedal.h" alt="" coords="2735,80,2801,107"/>
+<area shape="rect" id="node42" href="hairpin_8h.html" title="hairpin.h" alt="" coords="2639,80,2711,107"/>
+<area shape="rect" id="node43" href="bend_8h.html" title="bend.h" alt="" coords="2782,155,2845,181"/>
+<area shape="rect" id="node44" href="tremolo_8h.html" title="tremolo.h" alt="" coords="446,155,525,181"/>
+<area shape="rect" id="node45" href="segment_8h.html" title="segment.h" alt="" coords="2911,80,2995,107"/>
+<area shape="rect" id="node46" href="undo_8h.html" title="Definition of undo&#45;releated classes and structs. " alt="" coords="1826,80,1889,107"/>
+<area shape="rect" id="node47" href="libmscore_2utils_8h.html" title="utils.h" alt="" coords="778,229,835,256"/>
+<area shape="rect" id="node48" href="easeInOut_8h.html" title="easeInOut.h" alt="" coords="3122,80,3214,107"/>
+<area shape="rect" id="node50" href="preferences_8h.html" title="mscore/preferences.h" alt="" coords="3355,80,3507,107"/>
+<area shape="rect" id="node4" href="libmscore_2fraction_8h.html" title="fraction.h" alt="" coords="217,304,295,331"/>
+<area shape="rect" id="node8" href="input_8h.html" title="input.h" alt="" coords="1393,155,1455,181"/>
+<area shape="rect" id="node16" href="select_8h.html" title="select.h" alt="" coords="1199,155,1267,181"/>
+<area shape="rect" id="node18" href="mscoreview_8h.html" title="mscoreview.h" alt="" coords="817,155,919,181"/>
+<area shape="rect" id="node19" href="spannermap_8h.html" title="spannermap.h" alt="" coords="944,155,1051,181"/>
+<area shape="rect" id="node20" href="layoutbreak_8h.html" title="layoutbreak.h" alt="" coords="1075,155,1175,181"/>
+<area shape="rect" id="node21" href="property_8h.html" title="property.h" alt="" coords="2502,229,2583,256"/>
+<area shape="rect" id="node23" href="textlinebase_8h.html" title="textlinebase.h" alt="" coords="2655,155,2758,181"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="rendermidi_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_staff_render_data.html">Ms::StaffRenderData</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1SndConfig.html">Ms::SndConfig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ms_1_1_ornament_excursion.html">Ms::OrnamentExcursion</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMs_1_1OrnamentExcursion.html">Ms::OrnamentExcursion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa0113fb5382d48b0ab5b28d86aea4a7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa0113fb5382d48b0ab5b28d86aea4a7d">Ms::graceNotesMerged</a> (Chord *chord)</td></tr>
+<tr class="memitem:aa0113fb5382d48b0ab5b28d86aea4a7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa0113fb5382d48b0ab5b28d86aea4a7d">Ms::graceNotesMerged</a> (Chord *chord)</td></tr>
 <tr class="separator:aa0113fb5382d48b0ab5b28d86aea4a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9941bed87389150dfd6327488b3506d9"><td class="memItemLeft" align="right" valign="top">const Drumset *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a9941bed87389150dfd6327488b3506d9">Ms::getDrumset</a> (const Chord *chord)</td></tr>
+<tr class="memitem:a4f303a79d55216f381c63d37b688ec64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a4f303a79d55216f381c63d37b688ec64">Ms::toMilliseconds</a> (float tempo, float midiTime)</td></tr>
+<tr class="separator:a4f303a79d55216f381c63d37b688ec64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a7efc25298e3ebafcce1c568c8495a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a12a7efc25298e3ebafcce1c568c8495a">Ms::isGlissandoFor</a> (const Note *note)</td></tr>
+<tr class="separator:a12a7efc25298e3ebafcce1c568c8495a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3281ba71ec3413afda26b58ab1f489c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae3281ba71ec3413afda26b58ab1f489c">Ms::playNote</a> (EventMap *events, const Note *note, int channel, int pitch, int velo, int onTime, int offTime, int staffIdx)</td></tr>
+<tr class="separator:ae3281ba71ec3413afda26b58ab1f489c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7941f2bbad80c042d8f0f24a21084bfc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a7941f2bbad80c042d8f0f24a21084bfc">Ms::collectNote</a> (EventMap *events, int channel, const Note *note, qreal velocityMultiplier, int tickOffset, Staff *staff, SndConfig config)</td></tr>
+<tr class="separator:a7941f2bbad80c042d8f0f24a21084bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1730cc34d95e6fd31a829d077ec84679"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a1730cc34d95e6fd31a829d077ec84679">Ms::aeolusSetStop</a> (int <a class="el" href="click_8h.html#a23377ea277c7aef62f6cf3c640f7155c">tick</a>, int channel, int i, int k, bool val, EventMap *events)</td></tr>
+<tr class="separator:a1730cc34d95e6fd31a829d077ec84679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697cacc5a094271f828e742b97b42717"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a697cacc5a094271f828e742b97b42717">Ms::collectProgramChanges</a> (EventMap *events, Measure const *m, Staff *staff, int tickOffset)</td></tr>
+<tr class="separator:a697cacc5a094271f828e742b97b42717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa081c8f868945bdd5bfd1e78f48f5c60"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa081c8f868945bdd5bfd1e78f48f5c60">Ms::getControllerFromCC</a> (int cc)</td></tr>
+<tr class="separator:aa081c8f868945bdd5bfd1e78f48f5c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a446905207aff936c5b10dc7c3e8702f5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a446905207aff936c5b10dc7c3e8702f5">Ms::renderHarmony</a> (EventMap *events, Measure const *m, Harmony *h, int tickOffset)</td></tr>
+<tr class="memdesc:a446905207aff936c5b10dc7c3e8702f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders chord symbols  <a href="namespaceMs.html#a446905207aff936c5b10dc7c3e8702f5">More...</a><br /></td></tr>
+<tr class="separator:a446905207aff936c5b10dc7c3e8702f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9941bed87389150dfd6327488b3506d9"><td class="memItemLeft" align="right" valign="top">const Drumset *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9941bed87389150dfd6327488b3506d9">Ms::getDrumset</a> (const Chord *chord)</td></tr>
 <tr class="separator:a9941bed87389150dfd6327488b3506d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fecff8fa0df50bdbf526dc4a1fac678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a0fecff8fa0df50bdbf526dc4a1fac678">Ms::renderTremolo</a> (Chord *chord, QList&lt; NoteEventList &gt; &amp;ell)</td></tr>
+<tr class="memitem:a0fecff8fa0df50bdbf526dc4a1fac678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a0fecff8fa0df50bdbf526dc4a1fac678">Ms::renderTremolo</a> (Chord *chord, QList&lt; NoteEventList &gt; &amp;ell)</td></tr>
 <tr class="separator:a0fecff8fa0df50bdbf526dc4a1fac678"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b83fa08a16ab48662fcbab7009d87b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a20b83fa08a16ab48662fcbab7009d87b">Ms::renderArpeggio</a> (Chord *chord, QList&lt; NoteEventList &gt; &amp;ell)</td></tr>
+<tr class="memitem:a20b83fa08a16ab48662fcbab7009d87b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a20b83fa08a16ab48662fcbab7009d87b">Ms::renderArpeggio</a> (Chord *chord, QList&lt; NoteEventList &gt; &amp;ell)</td></tr>
 <tr class="separator:a20b83fa08a16ab48662fcbab7009d87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa92b76b9d772e8eb86cfeacceb35e9e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa92b76b9d772e8eb86cfeacceb35e9e0">Ms::convertLine</a> (int lineL2, ClefType clefL, ClefType clefR)</td></tr>
+<tr class="memitem:aa92b76b9d772e8eb86cfeacceb35e9e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa92b76b9d772e8eb86cfeacceb35e9e0">Ms::convertLine</a> (int lineL2, ClefType clefL, ClefType clefR)</td></tr>
 <tr class="separator:aa92b76b9d772e8eb86cfeacceb35e9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe881c63fa05a1d7453039b41a7b3c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#afbe881c63fa05a1d7453039b41a7b3c6">Ms::convertLine</a> (int lineL2, Note *noteL, Note *noteR)</td></tr>
+<tr class="memitem:afbe881c63fa05a1d7453039b41a7b3c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afbe881c63fa05a1d7453039b41a7b3c6">Ms::convertLine</a> (int lineL2, Note *noteL, Note *noteR)</td></tr>
 <tr class="separator:afbe881c63fa05a1d7453039b41a7b3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5c1eeb4bf8db26d11b4c8f0c1be8b9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad5c1eeb4bf8db26d11b4c8f0c1be8b9c">Ms::articulationExcursion</a> (Note *noteL, Note *noteR, int deltastep)</td></tr>
+<tr class="memitem:ad5c1eeb4bf8db26d11b4c8f0c1be8b9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad5c1eeb4bf8db26d11b4c8f0c1be8b9c">Ms::articulationExcursion</a> (Note *noteL, Note *noteR, int deltastep)</td></tr>
 <tr class="separator:ad5c1eeb4bf8db26d11b4c8f0c1be8b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa67a630748ae86ba70bc8d7cbecc75c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#afa67a630748ae86ba70bc8d7cbecc75c">Ms::totalTiedNoteTicks</a> (Note *note)</td></tr>
+<tr class="memitem:afa67a630748ae86ba70bc8d7cbecc75c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afa67a630748ae86ba70bc8d7cbecc75c">Ms::totalTiedNoteTicks</a> (Note *note)</td></tr>
 <tr class="separator:afa67a630748ae86ba70bc8d7cbecc75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27b1660219480127dbb112cd98553ccd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a27b1660219480127dbb112cd98553ccd">Ms::renderNoteArticulation</a> (NoteEventList *events, Note *note, bool chromatic, int requestedTicksPerNote, const vector&lt; int &gt; &amp;prefix, const vector&lt; int &gt; &amp;body, bool repeatp, bool sustainp, const vector&lt; int &gt; &amp;suffix, int fastestFreq=64, int slowestFreq=8)</td></tr>
-<tr class="separator:a27b1660219480127dbb112cd98553ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0c9038099cf2b82abfabd920435001b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ad0c9038099cf2b82abfabd920435001b">Ms::renderNoteArticulation</a> (NoteEventList *events, Note *note, bool chromatic, SymId articulationType, MScore::OrnamentStyle ornamentStyle)</td></tr>
+<tr class="memitem:afd46b24ef8484ccc9e30c38f601c88fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#afd46b24ef8484ccc9e30c38f601c88fc">Ms::renderNoteArticulation</a> (NoteEventList *events, Note *note, bool chromatic, int requestedTicksPerNote, const std::vector&lt; int &gt; &amp;prefix, const std::vector&lt; int &gt; &amp;body, bool repeatp, bool sustainp, const std::vector&lt; int &gt; &amp;suffix, int fastestFreq=64, int slowestFreq=8)</td></tr>
+<tr class="separator:afd46b24ef8484ccc9e30c38f601c88fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c9038099cf2b82abfabd920435001b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ad0c9038099cf2b82abfabd920435001b">Ms::renderNoteArticulation</a> (NoteEventList *events, Note *note, bool chromatic, SymId articulationType, MScore::OrnamentStyle ornamentStyle)</td></tr>
 <tr class="separator:ad0c9038099cf2b82abfabd920435001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81a5b60731d4cf41618f405fd7e191e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ac81a5b60731d4cf41618f405fd7e191e">Ms::renderNoteArticulation</a> (NoteEventList *events, Note *note, bool chromatic, Trill::Type trillType, MScore::OrnamentStyle ornamentStyle)</td></tr>
+<tr class="memitem:ac81a5b60731d4cf41618f405fd7e191e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ac81a5b60731d4cf41618f405fd7e191e">Ms::renderNoteArticulation</a> (NoteEventList *events, Note *note, bool chromatic, Trill::Type trillType, MScore::OrnamentStyle ornamentStyle)</td></tr>
 <tr class="separator:ac81a5b60731d4cf41618f405fd7e191e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab849d53c2ed501ca3de9382f866f26bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#ab849d53c2ed501ca3de9382f866f26bf">Ms::noteHasGlissando</a> (Note *note)</td></tr>
+<tr class="memitem:ab849d53c2ed501ca3de9382f866f26bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ab849d53c2ed501ca3de9382f866f26bf">Ms::noteHasGlissando</a> (Note *note)</td></tr>
 <tr class="separator:ab849d53c2ed501ca3de9382f866f26bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af753b99882381a2e24edb14dba58a2b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#af753b99882381a2e24edb14dba58a2b6">Ms::renderGlissando</a> (NoteEventList *events, Note *notestart)</td></tr>
+<tr class="memitem:a8800ac409a3693d7a458cce2e11cd76f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a8800ac409a3693d7a458cce2e11cd76f">Ms::glissandoPitchOffsets</a> (const Spanner *spanner, std::vector&lt; int &gt; &amp;pitchOffsets)</td></tr>
+<tr class="separator:a8800ac409a3693d7a458cce2e11cd76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af753b99882381a2e24edb14dba58a2b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af753b99882381a2e24edb14dba58a2b6">Ms::renderGlissando</a> (NoteEventList *events, Note *notestart)</td></tr>
 <tr class="separator:af753b99882381a2e24edb14dba58a2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acabc4f5980acc74540fd0a7010555dcc"><td class="memItemLeft" align="right" valign="top">Trill *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#acabc4f5980acc74540fd0a7010555dcc">Ms::findFirstTrill</a> (Chord *chord)</td></tr>
+<tr class="memitem:acabc4f5980acc74540fd0a7010555dcc"><td class="memItemLeft" align="right" valign="top">Trill *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#acabc4f5980acc74540fd0a7010555dcc">Ms::findFirstTrill</a> (Chord *chord)</td></tr>
 <tr class="separator:acabc4f5980acc74540fd0a7010555dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a094b89f0584ef6777eda583966fda9c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a094b89f0584ef6777eda583966fda9c3">Ms::renderChordArticulation</a> (Chord *chord, QList&lt; NoteEventList &gt; &amp;ell, int &amp;gateTime)</td></tr>
+<tr class="memitem:a094b89f0584ef6777eda583966fda9c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a094b89f0584ef6777eda583966fda9c3">Ms::renderChordArticulation</a> (Chord *chord, QList&lt; NoteEventList &gt; &amp;ell, int &amp;gateTime)</td></tr>
 <tr class="separator:a094b89f0584ef6777eda583966fda9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5813a509684933a49199b7e525b93c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aca5813a509684933a49199b7e525b93c">Ms::shouldRenderNote</a> (Note *n)</td></tr>
+<tr class="separator:aca5813a509684933a49199b7e525b93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f0fa6248031b872cdfc536e39c3c7eb"><td class="memItemLeft" align="right" valign="top">static QList&lt; NoteEventList &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9f0fa6248031b872cdfc536e39c3c7eb">Ms::renderChord</a> (Chord *chord, int gateTime, int ontime, int trailtime)</td></tr>
+<tr class="separator:a9f0fa6248031b872cdfc536e39c3c7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa06cc5dbf93f45890ffb983f8d5d71ab"><td class="memItemLeft" align="right" valign="top">set&lt; MScore::OrnamentStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa06cc5dbf93f45890ffb983f8d5d71ab">Ms::baroque</a> = {MScore::OrnamentStyle::BAROQUE}</td></tr>
-<tr class="separator:aa06cc5dbf93f45890ffb983f8d5d71ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaffdcfe646b3923d1b4750ed59339da"><td class="memItemLeft" align="right" valign="top">set&lt; MScore::OrnamentStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#abaffdcfe646b3923d1b4750ed59339da">Ms::defstyle</a> = {MScore::OrnamentStyle::DEFAULT}</td></tr>
-<tr class="separator:abaffdcfe646b3923d1b4750ed59339da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e3db5fafc8c6d736aa639bd585a00af"><td class="memItemLeft" align="right" valign="top">set&lt; MScore::OrnamentStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a8e3db5fafc8c6d736aa639bd585a00af">Ms::any</a></td></tr>
-<tr class="separator:a8e3db5fafc8c6d736aa639bd585a00af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bafbe9e13e3c67a034e1d27bf908db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#aa7bafbe9e13e3c67a034e1d27bf908db">Ms::_16th</a> = MScore::division / 4</td></tr>
+<tr class="memitem:a9d0b6a1596e16a3617b47c590947be9f"><td class="memItemLeft" align="right" valign="top">std::set&lt; MScore::OrnamentStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9d0b6a1596e16a3617b47c590947be9f">Ms::baroque</a> = {MScore::OrnamentStyle::BAROQUE}</td></tr>
+<tr class="separator:a9d0b6a1596e16a3617b47c590947be9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7473ee03483364a328f99f44d835085"><td class="memItemLeft" align="right" valign="top">std::set&lt; MScore::OrnamentStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#ae7473ee03483364a328f99f44d835085">Ms::defstyle</a> = {MScore::OrnamentStyle::DEFAULT}</td></tr>
+<tr class="separator:ae7473ee03483364a328f99f44d835085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f076df7deffdd419f8e00e15580fad"><td class="memItemLeft" align="right" valign="top">std::set&lt; MScore::OrnamentStyle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a20f076df7deffdd419f8e00e15580fad">Ms::any</a></td></tr>
+<tr class="separator:a20f076df7deffdd419f8e00e15580fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7bafbe9e13e3c67a034e1d27bf908db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#aa7bafbe9e13e3c67a034e1d27bf908db">Ms::_16th</a> = MScore::division / 4</td></tr>
 <tr class="separator:aa7bafbe9e13e3c67a034e1d27bf908db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32b7aa9646def928820a2e382c34ebb5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a32b7aa9646def928820a2e382c34ebb5">Ms::_32nd</a> = _16th / 2</td></tr>
+<tr class="memitem:a32b7aa9646def928820a2e382c34ebb5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a32b7aa9646def928820a2e382c34ebb5">Ms::_32nd</a> = _16th / 2</td></tr>
 <tr class="separator:a32b7aa9646def928820a2e382c34ebb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b8f6869117b5f81653a89d245a03e7"><td class="memItemLeft" align="right" valign="top">vector&lt; OrnamentExcursion &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html#a38b8f6869117b5f81653a89d245a03e7">Ms::excursions</a></td></tr>
-<tr class="separator:a38b8f6869117b5f81653a89d245a03e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9adbabdde372df9bed3bacf8c573f7e4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; OrnamentExcursion &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a9adbabdde372df9bed3bacf8c573f7e4">Ms::excursions</a></td></tr>
+<tr class="separator:a9adbabdde372df9bed3bacf8c573f7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>render score into event list </p>
+
+<p class="definition">Definition in file <a class="el" href="rendermidi_8cpp_source.html">rendermidi.cpp</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

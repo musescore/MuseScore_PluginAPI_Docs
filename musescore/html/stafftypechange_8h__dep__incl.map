@@ -1,8 +1,8 @@
 <map id="libmscore/stafftypechange.h" name="libmscore/stafftypechange.h">
-<area shape="rect" id="node2" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="183,80,341,107"/>
-<area shape="rect" id="node4" href="$measurebase_8cpp.html" title="libmscore/measurebase.cpp" alt="" coords="365,80,551,107"/>
-<area shape="rect" id="node5" href="$stafftypechange_8cpp.html" title="libmscore/stafftypechange.cpp" alt="" coords="575,80,775,107"/>
-<area shape="rect" id="node6" href="$inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="800,80,1004,107"/>
-<area shape="rect" id="node7" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1029,80,1162,107"/>
+<area shape="rect" id="node2" href="$element_8cpp.html" title="Implementation of Element, ElementList. " alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="$measure_8cpp.html" title="Implementation of most part of class Measure. " alt="" coords="189,80,351,107"/>
+<area shape="rect" id="node4" href="$measurebase_8cpp.html" title="libmscore/measurebase.cpp" alt="" coords="376,80,567,107"/>
+<area shape="rect" id="node5" href="$stafftypechange_8cpp.html" title="libmscore/stafftypechange.cpp" alt="" coords="591,80,797,107"/>
+<area shape="rect" id="node6" href="$inspector_8cpp.html" title="mscore/inspector/inspector.cpp" alt="" coords="821,80,1034,107"/>
+<area shape="rect" id="node7" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="1058,80,1197,107"/>
 </map>

@@ -229,6 +229,7 @@ var searchData=
   ['ottavaframewidth',['ottavaFrameWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27adfac15fd81a53e06fa1ae13947696646',1,'Ms']]],
   ['ottavahookabove',['ottavaHookAbove',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27ab796c94a9bb42971ef6588f04c5e9835',1,'Ms']]],
   ['ottavahookbelow',['ottavaHookBelow',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a9a54e135c78cdfe9d0ca64ba471710a4',1,'Ms']]],
+  ['ottavalinespacing',['ottavaLineSpacing',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a507cfbe07476d4ead26e4890a0e6ff62',1,'Ms']]],
   ['ottavalinestyle',['ottavaLineStyle',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27adb351ecf6f3e4b6f0331085b1fd98ce5',1,'Ms']]],
   ['ottavalinewidth',['ottavaLineWidth',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a27c69ad820f4a555d634c198c3fac59e',1,'Ms']]],
   ['ottavamindistance',['ottavaMinDistance',['../namespace_ms.html#a57c0cdae1ddcdaf4abe2a551b9922e27a8c734b117354abf9bcdf8bcc32e2e3a0',1,'Ms']]],

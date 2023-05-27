@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -66,7 +66,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">cmd.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -76,7 +77,7 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="musescore_core_8h_source.html">musescoreCore.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="musescoreCore_8h_source.html">musescoreCore.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2score_8h_source.html">score.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2utils_8h_source.html">utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="key_8h_source.html">key.h</a>&quot;</code><br />
@@ -91,7 +92,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="sig_8h_source.html">sig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="staff_8h_source.html">staff.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libmscore_2part_8h_source.html">part.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="style_8h_source.html">style.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmscore_2style_8h_source.html">style.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="page_8h_source.html">page.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="barline_8h_source.html">barline.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tuplet_8h_source.html">tuplet.h</a>&quot;</code><br />
@@ -132,15 +133,38 @@ $(function() {
 <code>#include &quot;<a class="el" href="tremolo_8h_source.html">tremolo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="rehearsalmark_8h_source.html">rehearsalmark.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sym_8h_source.html">sym.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="cmd_8cpp__dep__incl.png" border="0" usemap="#libmscore_2cmd_8cppdep" alt=""/></div>
+<map name="libmscore_2cmd_8cppdep" id="libmscore_2cmd_8cppdep">
+<area shape="rect" id="node2" href="scoremigrationdialogmodel_8cpp.html" title="mscore/migration/scoremigrationdialogmodel.cpp" alt="" coords="5,80,327,107"/>
+</map>
+</div>
+</div>
+<p><a href="cmd_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_ms"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_ms.html">Ms</a></td></tr>
-<tr class="memdesc:namespace_ms"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br /></td></tr>
+<tr class="memitem:namespaceMs"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html">Ms</a></td></tr>
+<tr class="memdesc:namespaceMs"><td class="mdescLeft">&#160;</td><td class="mdescRight">MusicXML export. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3b3032117d359ce11a2e9f59e532145e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a3b3032117d359ce11a2e9f59e532145e">Ms::upDownChromatic</a> (bool up, int pitch, Note *n, Key key, int tpc1, int tpc2, int &amp;newPitch, int &amp;newTpc1, int &amp;newTpc2)</td></tr>
+<tr class="separator:a3b3032117d359ce11a2e9f59e532145e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84ecb9048e609e3dae61845a66af30c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#af84ecb9048e609e3dae61845a66af30c">Ms::setTpc</a> (Note *oNote, int tpc, int &amp;newTpc1, int &amp;newTpc2)</td></tr>
+<tr class="separator:af84ecb9048e609e3dae61845a66af30c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31471db58b863503d2c97fe65cac6024"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a31471db58b863503d2c97fe65cac6024">Ms::changeAccidental2</a> (Note *n, int pitch, int tpc)</td></tr>
+<tr class="separator:a31471db58b863503d2c97fe65cac6024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cba0ed536b415e4e4dae67c69dcf82"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMs.html#a91cba0ed536b415e4e4dae67c69dcf82">Ms::resetElementPosition</a> (void *, Element *e)</td></tr>
+<tr class="separator:a91cba0ed536b415e4e4dae67c69dcf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handling of several GUI commands. </p>
+
+<p class="definition">Definition in file <a class="el" href="cmd_8cpp_source.html">cmd.cpp</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

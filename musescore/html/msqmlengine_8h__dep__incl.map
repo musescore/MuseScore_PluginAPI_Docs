@@ -1,10 +1,10 @@
 <map id="mscore/qml/msqmlengine.h" name="mscore/qml/msqmlengine.h">
-<area shape="rect" id="node2" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="301,80,434,107"/>
-<area shape="rect" id="node3" href="$qmlpluginengine_8h.html" title="mscore/plugin/qmlpluginengine.h" alt="" coords="458,80,669,107"/>
-<area shape="rect" id="node9" href="$msqmlengine_8cpp.html" title="mscore/qml/msqmlengine.cpp" alt="" coords="693,80,889,107"/>
-<area shape="rect" id="node4" href="$mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="5,155,191,181"/>
-<area shape="rect" id="node5" href="$mscore_plugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="215,155,434,181"/>
-<area shape="rect" id="node6" href="$plugin_creator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="459,155,668,181"/>
-<area shape="rect" id="node7" href="$plugin_manager_8cpp.html" title="mscore/plugin/pluginManager.cpp" alt="" coords="693,155,909,181"/>
-<area shape="rect" id="node8" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="933,155,1159,181"/>
+<area shape="rect" id="node2" href="$menus_8cpp.html" title="mscore/menus.cpp" alt="" coords="309,80,448,107"/>
+<area shape="rect" id="node3" href="$qmlpluginengine_8h.html" title="mscore/plugin/qmlpluginengine.h" alt="" coords="472,80,691,107"/>
+<area shape="rect" id="node9" href="$msqmlengine_8cpp.html" title="mscore/qml/msqmlengine.cpp" alt="" coords="715,80,922,107"/>
+<area shape="rect" id="node4" href="$mscore_2plugin_2api_2score_8cpp.html" title="mscore/plugin/api/score.cpp" alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node5" href="$mscorePlugins_8cpp.html" title="mscore/plugin/mscorePlugins.cpp" alt="" coords="225,155,450,181"/>
+<area shape="rect" id="node6" href="$pluginCreator_8cpp.html" title="mscore/plugin/pluginCreator.cpp" alt="" coords="474,155,689,181"/>
+<area shape="rect" id="node7" href="$pluginManager_8cpp.html" title="mscore/plugin/pluginManager.cpp" alt="" coords="713,155,935,181"/>
+<area shape="rect" id="node8" href="$qmlpluginengine_8cpp.html" title="mscore/plugin/qmlpluginengine.cpp" alt="" coords="959,155,1193,181"/>
 </map>

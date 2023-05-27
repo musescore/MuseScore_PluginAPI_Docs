@@ -1,0 +1,34 @@
+<map id="Ms::GuitarPro" name="Ms::GuitarPro">
+<area shape="rect" id="node2" href="$classMs_1_1Segment.html" title="Ms::Segment" alt="" coords="2331,799,2429,825"/>
+<area shape="rect" id="node31" href="$classMs_1_1SegmentList.html" title="Ms::SegmentList" alt="" coords="2611,717,2731,744"/>
+<area shape="rect" id="node3" href="$classMs_1_1Element.html" title="Base class of score layout elements. " alt="" coords="1719,539,1814,565"/>
+<area shape="rect" id="node13" href="$classMs_1_1CmdState.html" title="Ms::CmdState" alt="" coords="2327,367,2433,393"/>
+<area shape="rect" id="node14" href="$classMs_1_1MeasureBase.html" title="Virtual base class for Measure, HBox and VBox. " alt="" coords="2023,533,2150,560"/>
+<area shape="rect" id="node50" href="$classMs_1_1Note.html" title="Graphic representation of a note. " alt="" coords="2049,367,2125,393"/>
+<area shape="rect" id="node4" href="$classMs_1_1ScoreElement.html" title="Ms::ScoreElement" alt="" coords="1389,539,1519,565"/>
+<area shape="rect" id="node5" href="$classMs_1_1Score.html" title="Ms::Score" alt="" coords="1067,516,1149,543"/>
+<area shape="rect" id="node6" href="$classMs_1_1MasterScore.html" title="Ms::MasterScore" alt="" coords="715,468,837,495"/>
+<area shape="rect" id="node15" href="$classMs_1_1RepeatList.html" title="Ms::RepeatList" alt="" coords="1400,599,1508,625"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="15,75,107,101"/>
+<area shape="rect" id="node9" href="$classMs_1_1Omr.html" title="Ms::Omr" alt="" coords="389,553,462,580"/>
+<area shape="rect" id="node10" href="$classMs_1_1Fraction.html" title="Ms::Fraction" alt="" coords="378,217,473,244"/>
+<area shape="rect" id="node30" href="$classMs_1_1Measure.html" title="one measure in a system " alt="" coords="2934,631,3033,657"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="5,920,117,947"/>
+<area shape="rect" id="node16" href="$classMs_1_1Revisions.html" title="Ms::Revisions" alt="" coords="374,655,477,681"/>
+<area shape="rect" id="node17" href="$classMs_1_1TempoMap.html" title="Ms::TempoMap" alt="" coords="368,335,483,361"/>
+<area shape="rect" id="node19" href="$classMs_1_1Movements.html" title="Ms::Movements" alt="" coords="367,385,484,412"/>
+<area shape="rect" id="node20" href="$classMs_1_1TimeSigMap.html" title="Ms::TimeSigMap" alt="" coords="365,436,486,463"/>
+<area shape="rect" id="node21" href="$classMs_1_1Spatium.html" title="Ms::Spatium" alt="" coords="1407,859,1501,885"/>
+<area shape="rect" id="node34" href="$classMs_1_1Hairpin.html" title="Ms::Hairpin" alt="" coords="1722,951,1811,977"/>
+<area shape="rect" id="node26" href="$classMs_1_1LetRing.html" title="Ms::LetRing" alt="" coords="1721,1103,1812,1129"/>
+<area shape="rect" id="node27" href="$classMs_1_1TextLineBase.html" title="Ms::TextLineBase" alt="" coords="1391,1137,1517,1164"/>
+<area shape="rect" id="node36" href="$classMs_1_1Ottava.html" title="Ms::Ottava" alt="" coords="1725,1153,1809,1180"/>
+<area shape="rect" id="node38" href="$classMs_1_1PalmMute.html" title="Ms::PalmMute" alt="" coords="1713,1255,1820,1281"/>
+<area shape="rect" id="node29" title="STL class. " alt="" coords="2613,163,2728,189"/>
+<area shape="rect" id="node39" href="$structMs_1_1GPLyrics.html" title="Ms::GPLyrics" alt="" coords="2934,1000,3033,1027"/>
+<area shape="rect" id="node42" href="$structMs_1_1GpTrack.html" title="Ms::GpTrack" alt="" coords="2936,1228,3031,1255"/>
+<area shape="rect" id="node44" href="$classMs_1_1Vibrato.html" title="Ms::Vibrato" alt="" coords="17,1443,105,1469"/>
+<area shape="rect" id="node46" title="STL class. " alt="" coords="21,1533,101,1560"/>
+<area shape="rect" id="node47" href="$classMs_1_1Slur.html" title="Ms::Slur" alt="" coords="2948,1459,3019,1485"/>
+<area shape="rect" id="node48" href="$classMs_1_1SlurTie.html" title="Ms::SlurTie" alt="" coords="2627,1459,2715,1485"/>
+</map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MuseScore: mscore/ove.cpp File Reference</title>
+<title>MuseScore: importexport/ove/ove.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="musescore_logo_full.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MuseScore
-   &#160;<span id="projectnumber">3.4</span>
+   &#160;<span id="projectnumber">3.6</span>
    </div>
    <div id="projectbrief">Music composition and notation</div>
   </td>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_bc02b511b88b6aa2a028bc2d9b0b2802.html">mscore</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_e8e29c076c360a8020298eba50f5fb7b.html">importexport</a></li><li class="navelem"><a class="el" href="dir_56fef2dc6ff140ad590613ba14e5bd9d.html">ove</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -77,84 +77,86 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ove.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="ove_8cpp__incl.png" border="0" usemap="#mscore_2ove_8cpp" alt=""/></div>
-<map name="mscore_2ove_8cpp" id="mscore_2ove_8cpp">
-<area shape="rect" id="node2" href="ove_8h.html" title="ove.h" alt="" coords="35,80,90,107"/>
+<div class="center"><img src="ove_8cpp__incl.png" border="0" usemap="#importexport_2ove_2ove_8cpp" alt=""/></div>
+<map name="importexport_2ove_2ove_8cpp" id="importexport_2ove_2ove_8cpp">
+<area shape="rect" id="node2" href="ove_8h.html" title="ove.h" alt="" coords="67,80,122,107"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="ove_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespace_o_v_e"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html">OVE</a></td></tr>
+<tr class="memitem:namespaceOVE"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html">OVE</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ad961f6c50d8c881c8af4797a1b910ace"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910ace">OVE::ChunkType</a> : char { <br />
-&#160;&#160;<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceaab59b656609f536c36b90b6cf51e89bf">OVE::ChunkType::OVSC</a> = 00, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceaa7a4741a15e86d950b018c42863d65ac">OVE::ChunkType::TRKL</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea9d4701f6ec2eee4c339df4d1bb71ee5c">OVE::ChunkType::TRAK</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea36d78cb89418e06f370eca6018f9e828">OVE::ChunkType::PAGL</a>, 
+<tr class="memitem:ad961f6c50d8c881c8af4797a1b910ace"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910ace">OVE::ChunkType</a> : char { <br />
+&#160;&#160;<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceaab59b656609f536c36b90b6cf51e89bf">OVE::ChunkType::OVSC</a> = 00, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceaa7a4741a15e86d950b018c42863d65ac">OVE::ChunkType::TRKL</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea9d4701f6ec2eee4c339df4d1bb71ee5c">OVE::ChunkType::TRAK</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea36d78cb89418e06f370eca6018f9e828">OVE::ChunkType::PAGL</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea22311203d44b308bd2d607cdc2dcb72c">OVE::ChunkType::PAGE</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea0df9cc5b3a461f6b4088fb2bf4e6c2dd">OVE::ChunkType::LINL</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea17b8ef2c330f1430e00c9de5469fc7e7">OVE::ChunkType::LINE</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea720eadc2923c7a647a1647bd44ce53bc">OVE::ChunkType::STAF</a>, 
+&#160;&#160;<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea22311203d44b308bd2d607cdc2dcb72c">OVE::ChunkType::PAGE</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea0df9cc5b3a461f6b4088fb2bf4e6c2dd">OVE::ChunkType::LINL</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea17b8ef2c330f1430e00c9de5469fc7e7">OVE::ChunkType::LINE</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea720eadc2923c7a647a1647bd44ce53bc">OVE::ChunkType::STAF</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceab5a9d858cd5965a50a7840b33e616c83">OVE::ChunkType::BARL</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea2d1f298f44234ca660a893885c82b631">OVE::ChunkType::MEAS</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea4ebd2be081267481f9d3d2e498dc49b3">OVE::ChunkType::COND</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea32ae92e9244b496382c79b79f326c51f">OVE::ChunkType::BDAT</a>, 
+&#160;&#160;<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceab5a9d858cd5965a50a7840b33e616c83">OVE::ChunkType::BARL</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea2d1f298f44234ca660a893885c82b631">OVE::ChunkType::MEAS</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea4ebd2be081267481f9d3d2e498dc49b3">OVE::ChunkType::COND</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea32ae92e9244b496382c79b79f326c51f">OVE::ChunkType::BDAT</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceadfe939aadcf42d23896223451d062814">OVE::ChunkType::PACH</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea937042db7ccb4cac20b19761be26d805">OVE::ChunkType::FNTS</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceacc63d776f41dbef8a89c4e14df8b66dd">OVE::ChunkType::ODEV</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceabb6c4036ad4672b4237860791dfc29af">OVE::ChunkType::TITL</a>, 
+&#160;&#160;<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceadfe939aadcf42d23896223451d062814">OVE::ChunkType::PACH</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea937042db7ccb4cac20b19761be26d805">OVE::ChunkType::FNTS</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceacc63d776f41dbef8a89c4e14df8b66dd">OVE::ChunkType::ODEV</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceabb6c4036ad4672b4237860791dfc29af">OVE::ChunkType::TITL</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acead70dfaaad113adff68d3a9bb0bacd418">OVE::ChunkType::ALOT</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea67a11336f55397d2052001f29ab24520">OVE::ChunkType::ENGR</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceacf54693fdb5f736ed094a31777ffe309">OVE::ChunkType::FMAP</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910acea713258f32b63acd4204bfc9fd47d2ae9">OVE::ChunkType::PCPR</a>, 
+&#160;&#160;<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acead70dfaaad113adff68d3a9bb0bacd418">OVE::ChunkType::ALOT</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea67a11336f55397d2052001f29ab24520">OVE::ChunkType::ENGR</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceacf54693fdb5f736ed094a31777ffe309">OVE::ChunkType::FMAP</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910acea713258f32b63acd4204bfc9fd47d2ae9">OVE::ChunkType::PCPR</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceafa8dd7378ac6337b6f7ac02cd75ee8e4">OVE::ChunkType::LYRC</a>, 
-<a class="el" href="namespace_o_v_e.html#ad961f6c50d8c881c8af4797a1b910aceab50339a10e1de285ac99d4c3990b8693">OVE::ChunkType::NONE</a>
+&#160;&#160;<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceafa8dd7378ac6337b6f7ac02cd75ee8e4">OVE::ChunkType::LYRC</a>, 
+<a class="el" href="namespaceOVE.html#ad961f6c50d8c881c8af4797a1b910aceab50339a10e1de285ac99d4c3990b8693">OVE::ChunkType::NONE</a>
 <br />
  }</td></tr>
 <tr class="separator:ad961f6c50d8c881c8af4797a1b910ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a93836ba84c7fa86893064da3b9fc46ef"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a93836ba84c7fa86893064da3b9fc46ef">OVE::getHighNibble</a> (unsigned int byte)</td></tr>
+<tr class="memitem:a93836ba84c7fa86893064da3b9fc46ef"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a93836ba84c7fa86893064da3b9fc46ef">OVE::getHighNibble</a> (unsigned int byte)</td></tr>
 <tr class="separator:a93836ba84c7fa86893064da3b9fc46ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52303e6d70d90496d19b42a87c288f76"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a52303e6d70d90496d19b42a87c288f76">OVE::getLowNibble</a> (unsigned int byte)</td></tr>
+<tr class="memitem:a52303e6d70d90496d19b42a87c288f76"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a52303e6d70d90496d19b42a87c288f76">OVE::getLowNibble</a> (unsigned int byte)</td></tr>
 <tr class="separator:a52303e6d70d90496d19b42a87c288f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0516fa9ab45cca89973af36224cf8cbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a0516fa9ab45cca89973af36224cf8cbb">OVE::oveKeyToKey</a> (int oveKey)</td></tr>
+<tr class="memitem:a0516fa9ab45cca89973af36224cf8cbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a0516fa9ab45cca89973af36224cf8cbb">OVE::oveKeyToKey</a> (int oveKey)</td></tr>
 <tr class="separator:a0516fa9ab45cca89973af36224cf8cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35527990b7d4dfd88575aabb9ba840ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a35527990b7d4dfd88575aabb9ba840ad">OVE::getInt</a> (int byte, int bits)</td></tr>
+<tr class="memitem:a35527990b7d4dfd88575aabb9ba840ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a35527990b7d4dfd88575aabb9ba840ad">OVE::getInt</a> (int byte, int bits)</td></tr>
 <tr class="separator:a35527990b7d4dfd88575aabb9ba840ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a25eaef5fd7a18637ee3c034b664496"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a1a25eaef5fd7a18637ee3c034b664496">OVE::tupletToSpace</a> (int tuplet)</td></tr>
+<tr class="memitem:a1a25eaef5fd7a18637ee3c034b664496"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a1a25eaef5fd7a18637ee3c034b664496">OVE::tupletToSpace</a> (int tuplet)</td></tr>
 <tr class="separator:a1a25eaef5fd7a18637ee3c034b664496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58d73bedd53db8ee461c02e8d0dab376"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a58d73bedd53db8ee461c02e8d0dab376">OVE::binaryToHarmonyType</a> (int bin)</td></tr>
+<tr class="memitem:a58d73bedd53db8ee461c02e8d0dab376"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a58d73bedd53db8ee461c02e8d0dab376">OVE::binaryToHarmonyType</a> (int bin)</td></tr>
 <tr class="separator:a58d73bedd53db8ee461c02e8d0dab376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad706b3956381a9260d34541eb7d4f031"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#ad706b3956381a9260d34541eb7d4f031">OVE::getDecoratorType</a> (unsigned int thisByte, bool &amp;measureRepeat, Decorator::Type &amp;decoratorType, bool &amp;singleRepeat, ArticulationType &amp;artType)</td></tr>
+<tr class="memitem:ad706b3956381a9260d34541eb7d4f031"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#ad706b3956381a9260d34541eb7d4f031">OVE::getDecoratorType</a> (unsigned int thisByte, bool &amp;measureRepeat, Decorator::Type &amp;decoratorType, bool &amp;singleRepeat, ArticulationType &amp;artType)</td></tr>
 <tr class="separator:ad706b3956381a9260d34541eb7d4f031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08906976c29e4e0d5c452054d6ec46f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a08906976c29e4e0d5c452054d6ec46f1">OVE::extractOctave</a> (unsigned int Bits, OctaveShiftType &amp;octaveShiftType, QList&lt; OctaveShiftPosition &gt; &amp;positions)</td></tr>
+<tr class="memitem:a08906976c29e4e0d5c452054d6ec46f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a08906976c29e4e0d5c452054d6ec46f1">OVE::extractOctave</a> (unsigned int Bits, OctaveShiftType &amp;octaveShiftType, QList&lt; OctaveShiftPosition &gt; &amp;positions)</td></tr>
 <tr class="separator:a08906976c29e4e0d5c452054d6ec46f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4580ce1248c3d6e31298c02b038156d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#aa4580ce1248c3d6e31298c02b038156d">OVE::isSpace</a> (char c)</td></tr>
+<tr class="memitem:aa4580ce1248c3d6e31298c02b038156d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#aa4580ce1248c3d6e31298c02b038156d">OVE::isSpace</a> (char c)</td></tr>
 <tr class="separator:aa4580ce1248c3d6e31298c02b038156d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b6079c496963500bec770e14e076df0"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a6b6079c496963500bec770e14e076df0">OVE::getByteArray</a> (const Block &amp;block)</td></tr>
+<tr class="memitem:a6b6079c496963500bec770e14e076df0"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a6b6079c496963500bec770e14e076df0">OVE::getByteArray</a> (const Block &amp;block)</td></tr>
 <tr class="separator:a6b6079c496963500bec770e14e076df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53cd599142b9bb8fcd680c59eb3edaa0"><td class="memItemLeft" align="right" valign="top">Staff *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a53cd599142b9bb8fcd680c59eb3edaa0">OVE::getStaff</a> (OveSong *ove, int track)</td></tr>
+<tr class="memitem:a53cd599142b9bb8fcd680c59eb3edaa0"><td class="memItemLeft" align="right" valign="top">Staff *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a53cd599142b9bb8fcd680c59eb3edaa0">OVE::getStaff</a> (OveSong *ove, int track)</td></tr>
 <tr class="separator:a53cd599142b9bb8fcd680c59eb3edaa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa51c96598ac7f97318056251c92547e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#aa51c96598ac7f97318056251c92547e9">OVE::addToList</a> (QList&lt; int &gt; &amp;list, int number)</td></tr>
+<tr class="memitem:aa51c96598ac7f97318056251c92547e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#aa51c96598ac7f97318056251c92547e9">OVE::addToList</a> (QList&lt; int &gt; &amp;list, int number)</td></tr>
 <tr class="separator:aa51c96598ac7f97318056251c92547e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a521e7bb6c823bb64ab651a2a677d1ed3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a521e7bb6c823bb64ab651a2a677d1ed3">OVE::getMiddleUnit</a> (OveSong *ove, int, int, Measure *measure1, Measure *measure2, int unit1, int, Measure *middleMeasure, int &amp;middleUnit)</td></tr>
+<tr class="memitem:a521e7bb6c823bb64ab651a2a677d1ed3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a521e7bb6c823bb64ab651a2a677d1ed3">OVE::getMiddleUnit</a> (OveSong *ove, int, int, Measure *measure1, Measure *measure2, int unit1, int, Measure *middleMeasure, int &amp;middleUnit)</td></tr>
 <tr class="separator:a521e7bb6c823bb64ab651a2a677d1ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a497582d602e6f268e9ce5ea2d18f08b4"><td class="memItemLeft" align="right" valign="top">ChunkType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a497582d602e6f268e9ce5ea2d18f08b4">OVE::nameToChunkType</a> (const NameBlock &amp;name)</td></tr>
+<tr class="memitem:a497582d602e6f268e9ce5ea2d18f08b4"><td class="memItemLeft" align="right" valign="top">ChunkType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a497582d602e6f268e9ce5ea2d18f08b4">OVE::nameToChunkType</a> (const NameBlock &amp;name)</td></tr>
 <tr class="separator:a497582d602e6f268e9ce5ea2d18f08b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b01345d60e2d1043930b60b1863613f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#a5b01345d60e2d1043930b60b1863613f">OVE::chunkTypeToMaxTimes</a> (ChunkType type)</td></tr>
+<tr class="memitem:a5b01345d60e2d1043930b60b1863613f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#a5b01345d60e2d1043930b60b1863613f">OVE::chunkTypeToMaxTimes</a> (ChunkType type)</td></tr>
 <tr class="separator:a5b01345d60e2d1043930b60b1863613f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7851c79c7ef2acb2d2cbdcba8bf6087"><td class="memItemLeft" align="right" valign="top">IOVEStreamLoader *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_o_v_e.html#aa7851c79c7ef2acb2d2cbdcba8bf6087">OVE::createOveStreamLoader</a> ()</td></tr>
+<tr class="memitem:aa7851c79c7ef2acb2d2cbdcba8bf6087"><td class="memItemLeft" align="right" valign="top">IOVEStreamLoader *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOVE.html#aa7851c79c7ef2acb2d2cbdcba8bf6087">OVE::createOveStreamLoader</a> ()</td></tr>
 <tr class="separator:aa7851c79c7ef2acb2d2cbdcba8bf6087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

@@ -1,0 +1,9 @@
+<map id="Ms::TextEditUndoCommand" name="Ms::TextEditUndoCommand">
+<area shape="rect" id="node3" href="$classMs_1_1ChangeText.html" title="Ms::ChangeText" alt="" coords="135,155,251,181"/>
+<area shape="rect" id="node6" href="$classMs_1_1SplitJoinText.html" title="Ms::SplitJoinText" alt="" coords="276,155,399,181"/>
+<area shape="rect" id="node2" href="$classMs_1_1UndoCommand.html" title="Ms::UndoCommand" alt="" coords="194,5,337,32"/>
+<area shape="rect" id="node4" href="$classMs_1_1InsertText.html" title="Ms::InsertText" alt="" coords="5,229,112,256"/>
+<area shape="rect" id="node5" href="$classMs_1_1RemoveText.html" title="Ms::RemoveText" alt="" coords="136,229,256,256"/>
+<area shape="rect" id="node7" href="$classMs_1_1JoinText.html" title="Ms::JoinText" alt="" coords="286,229,383,256"/>
+<area shape="rect" id="node8" href="$classMs_1_1SplitText.html" title="Ms::SplitText" alt="" coords="407,229,505,256"/>
+</map>
